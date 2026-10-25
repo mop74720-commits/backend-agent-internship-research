@@ -1,0 +1,184 @@
+{
+  "title": "CalvinNeo：SSP自述、本人项目和阿里云面试经验链的独立复核",
+  "retrieved_at": "2026-10-23",
+  "reviewer_scope": "只读访问牛客正文；未核源码、未下载项目、未复制全文/评论/联系方式",
+  "verdict": {
+    "chain_supported": true,
+    "evidence_grade": "B：第一人称公开自述与正文项目直链；录用/身份/贡献未经企业或独立第三方核验",
+    "finding": "正文明确自述腾讯SSP实习转正，并依次介绍三个本人项目且直接指向CalvinNeo同账号仓库。可以作为历史C++后端成功者项目关联案例。",
+    "ssp_scope": "腾讯实习转正结果；不能将阿里云A等同SSP，也不能称为三家SSP或独立实习SSP岗位。",
+    "new_candidate_count_limit": "三个项目属于同一候选人、同一求职复盘，只计一个成功者自述。"
+  },
+  "source": {
+    "title": "有关我2018年后台开发找实习/工作经验的分享",
+    "author_visible": "calvinneo",
+    "github_owner_linked_in_body": "CalvinNeo",
+    "canonical_url": "https://www.nowcoder.com/discuss/353154880351182848",
+    "legacy_url": "https://www.nowcoder.com/discuss/163036",
+    "initial_request": "https://www.nowcoder.com/discuss/163036?sourceSSR=post",
+    "visible_edit_date": "2019-03-15 15:20 已编辑；不能当首发时间",
+    "body_selector": ".nc-post-content",
+    "body_extraction": "仅选正文容器，不采集评论区与用户职业标签作为证据",
+    "stable_archive_or_fixed_revision": false
+  },
+  "access_log": [
+    {
+      "attempt": 1,
+      "requested_url": "https://www.nowcoder.com/discuss/163036?sourceSSR=post",
+      "final_url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "http_status": 200,
+      "body_present": true,
+      "finding": "正文可读，抽查SSP句、CFortranTranslator链接和阿里云面经段。"
+    },
+    {
+      "attempt": 2,
+      "requested_url": "https://www.nowcoder.com/discuss/163036?sourceSSR=post",
+      "http_status": null,
+      "body_present": false,
+      "finding": "重复访问时.nc-post-content未检出，返回空壳；该次HTTP状态未在输出记录，不补写。"
+    },
+    {
+      "attempt": 3,
+      "requested_url": "https://www.nowcoder.com/discuss/163036",
+      "final_url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "http_status": 200,
+      "body_present": true,
+      "finding": "按旧URL不带query重试，成功读取SSP、三个项目和阿里云经验正文。"
+    }
+  ],
+  "batch": {
+    "graduation_cohort": "2019届硕士，自述",
+    "offer_period": "正文称去年拿到；结合2019-03-15编辑时间及题名2018，可合理记为2018年求职结果",
+    "date_certainty": "明确历史材料；不用于估计2026岗位要求、HC或薪酬分档"
+  },
+  "short_extracts": [
+    {
+      "topic": "SSP与转正",
+      "quote": "我是2019届的硕士，在去年拿到了腾讯SSP（实习转正）和阿里云A等Offer。",
+      "url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "locator": "正文第一段；.nc-post-content直接p/div块索引0（零基，仅本次抽取定位）",
+      "supports": "腾讯SSP实习转正第一人称自述；阿里云为A。"
+    },
+    {
+      "topic": "CFortranTranslator归属",
+      "quote": "我当时做这个项目完全是出于个人兴趣，加上本科的课题组用Fortran比较多",
+      "url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "locator": "正文项目1. CFortranTranslator；本次直接p/div块索引14",
+      "supports": "作者陈述本人开发背景，紧邻本人GitHub仓库直链。"
+    },
+    {
+      "topic": "ATP归属与来源",
+      "quote": "这个项目是我在阅读了libutp的源码之后，吸取其中的思想自己写的一个可靠传输库。",
+      "url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "locator": "正文项目2. ATP；本次直接p/div块索引15",
+      "supports": "作者本人实现自述；明确吸收libutp思想及课程大作业来源。"
+    },
+    {
+      "topic": "Nuft归属与来源",
+      "quote": "这个项目是我参照Raft论文实现的Raft共识算法库。",
+      "url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "locator": "正文项目3. Nuft；本次直接p/div块索引16",
+      "supports": "作者本人参照论文实现自述。"
+    },
+    {
+      "topic": "阿里云面经边界",
+      "quote": "由于阿里云实际上是一个非常大的事业部，所以面经问的东西差别还是比较大的。",
+      "url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "locator": "正文“有朋友问阿里云的面经”段；本次直接p/div块索引21",
+      "supports": "作者已明确团队差异，不应升级为阿里云统一面试标准。"
+    }
+  ],
+  "projects": [
+    {
+      "repo": "CalvinNeo/CFortranTranslator",
+      "url": "https://github.com/CalvinNeo/CFortranTranslator",
+      "relationship": "正文项目1直接链接，作者第一人称说明个人兴趣与课题组Fortran需求；跨平台身份关系为本人陈述，不是独立认证。",
+      "described_stack": [
+        "Fortran 77/90",
+        "C++14",
+        "语言翻译/代码对应"
+      ],
+      "described_focus": "将Fortran翻译成C++，关注输出可读性、77/90混写和不规范代码；这些是作者对求职时期项目的描述。",
+      "author_feedback": "作者自述多数面试官感兴趣并深入讨论；属于回忆，不能验证所有面试官意见或录用因果。",
+      "recommended_reason": "可参考“具体领域需求→语言差异→实现取舍”的项目叙述，适合喜欢编译/兼容性的人；无需为后端广度机械复制相同领域。",
+      "limits": [
+        "未独立审查翻译正确性、覆盖率、性能或当前版本",
+        "作者承认用户较少；不能描述成成熟通用编译平台",
+        "当前仓库功能不能直接回填到2018求职时期"
+      ]
+    },
+    {
+      "repo": "CalvinNeo/ATP",
+      "url": "https://github.com/CalvinNeo/ATP",
+      "relationship": "正文项目2直链；作者称阅读libutp后自己实现可靠传输库，起于研究生课程大作业，后续修改供教学demo参考。",
+      "described_stack": [
+        "可靠传输",
+        "网络协议实现",
+        "参考libutp设计"
+      ],
+      "described_focus": "由协议实现加深网络理解；原文还建议在传输层、HTTPServer、RPC中选一种实现。",
+      "recommended_reason": "最贴近后端网络功底，可借鉴从源码思想到协议实现的学习路径；需结合真实测试与故障条件，不把课程demo直接当生产网络库。",
+      "limits": [
+        "未核源码，不能仅凭名称或原文推定拥塞控制/重传等具体机制完整性",
+        "课程来源与参考libutp均应保留",
+        "文章未给独立性能或稳定性验证"
+      ]
+    },
+    {
+      "repo": "CalvinNeo/Nuft",
+      "url": "https://github.com/CalvinNeo/Nuft",
+      "relationship": "正文项目3直链；作者称参照Raft论文实现。",
+      "described_stack": [
+        "Raft",
+        "共识算法",
+        "分布式系统"
+      ],
+      "described_focus": "以共识库作为分布式编程练习；本文只提供概要，没有展示逐项测试结果。",
+      "recommended_reason": "适合对分布式基础感兴趣的人，将论文约束落实到代码、日志、故障与恢复验证；语言与系统知识可迁移到Java/Go，但这不是Java/Go招聘直接证据。",
+      "limits": [
+        "本文不能证明实现完全正确或达到生产可靠性",
+        "不能把Raft库称为成熟分布式数据库",
+        "代码核验及归档由父任务另行完成"
+      ]
+    }
+  ],
+  "aliyun_interview_review": {
+    "source_url": "https://www.nowcoder.com/discuss/353154880351182848",
+    "locator": "“有朋友问阿里云的面经”正文段",
+    "material_type": "第一人称经验文章中的概括性面试建议；不是逐轮完整题目清单或腾讯SSP面经",
+    "topics_reported": [
+      "算法编码题",
+      "简历项目深挖",
+      "Linux内存管理与文件系统",
+      "C++语言基础",
+      "较后轮次的系统设计",
+      "对Redis/MySQL/RocksDB的理解",
+      "作者经历中的至少四轮与面试间隔"
+    ],
+    "recommended_use": "作为历史C++后台/基础平台路线参考，提炼“项目原理、操作系统实现和系统设计能否相互连接”的准备问题。",
+    "boundaries": [
+      "“Leetcode Hard一般不会出现”“至少读过apue/unp”“四轮以上”等均是作者当年的概括，不是当前阿里云通用规则",
+      "阿里云不同团队差异原文已明确；不要据此推定Java/Go业务后端都考同样内容",
+      "该段没有提供逐问答案、打分或企业验证，不宜拆成多场独立面经",
+      "不能将阿里云A档结果转写为SSP"
+    ]
+  },
+  "recommended_presentation": {
+    "primary_label": "历史成功者本人项目案例：CalvinNeo（C++后台；腾讯SSP实习转正自述）",
+    "recommended_priority": "可优先阅读项目关系与选题来源；具体代码优缺点应等父任务源码审查后合并。",
+    "why_relevant": "成功结果、本人项目背景、同账号项目入口与面试经验出现在同一篇第一人称文章，来源关系比题库或课程宣传更直接。",
+    "limits_to_surface": [
+      "历史案例",
+      "结果未经独立核验",
+      "三个项目并非三个独立候选人",
+      "阿里云经验不等于腾讯SSP全过程",
+      "项目与录用仅关联，不能推出独立因果"
+    ]
+  },
+  "verification_method": [
+    "旧牛客URL重定向及正文容器抽取",
+    "从正文DOM解开站内跳转，核对三个github.com/CalvinNeo仓库直链",
+    "仅保存短摘录、整理者转述和原文入口",
+    "没有读取仓库源码、运行测试或联系作者/企业"
+  ]
+}

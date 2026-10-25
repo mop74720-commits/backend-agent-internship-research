@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-23",
+  "scope": "信息搜集增补；个人项目设计暂缓",
+  "interviews_before": 19,
+  "interviews_added": 29,
+  "backend_interviews_added": 13,
+  "agent_interviews_added": 16,
+  "interviews_total": 48,
+  "new_interview_groups": {
+    "明确实习面经": 22,
+    "校招面经（单独统计）": 3,
+    "历史校招与实习对照（不混入近期样本）": 1,
+    "邻近岗位或批次不明参考": 1,
+    "候选人多场面试汇总（不作为独立单场频率样本）": 2
+  },
+  "all_interview_groups": {
+    "明确实习面经": 36,
+    "邻近岗位或批次不明参考": 5,
+    "候选人多场面试汇总（不作为独立单场频率样本）": 3,
+    "校招面经（单独统计）": 3,
+    "历史校招与实习对照（不混入近期样本）": 1
+  },
+  "new_fulltext_records": 29,
+  "projects_before": 7,
+  "projects_added": 6,
+  "projects_total": 13,
+  "source_archives_total": 12,
+  "source_archives_added": 5,
+  "candidate_counterexamples_added": 2,
+  "complete_successful_resumes": 0,
+  "new_full_bilibili_videos": 0,
+  "logical_evidence_total": 109,
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 9,
+    "面经复盘": 48,
+    "B站与知乎": 7,
+    "项目参考": 13,
+    "官方技术资料": 10,
+    "候选人对照": 2,
+    "检索导航": 1
+  },
+  "caution": "逻辑资料条目不等于独立候选人、面试场次、已获offer或当前在招数量；SSP仍仅为个别作者自述。"
+}

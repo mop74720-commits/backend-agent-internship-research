@@ -1,0 +1,80 @@
+{
+  "json_records": 109,
+  "unique_ids": 109,
+  "interview_duplicate_primary_urls": [],
+  "archives": [
+    {
+      "repo": "nageoffer/12306",
+      "sha256": "d7f8a6d35ebafe887a35867541f759c2f4e136e4de1381135235e7f3f09a5eb8",
+      "crc": "通过",
+      "member_count": 987
+    },
+    {
+      "repo": "nageoffer/shortlink",
+      "sha256": "0bffdf2e37ee1829136f12d566dedd307816ae61790c90adec597f2919a72652",
+      "crc": "通过",
+      "member_count": 426
+    },
+    {
+      "repo": "macrozheng/mall",
+      "sha256": "6024126e980894f3f730854f6bce3f9bba280ff93ad3b8c3b8e1f5240c4d8a2c",
+      "crc": "通过",
+      "member_count": 866
+    },
+    {
+      "repo": "nageoffer/ragent",
+      "sha256": "353e9f000a7de260b86ca9ad17c7b6c664c60962813d1f269081f88173f43a39",
+      "crc": "通过",
+      "member_count": 2024
+    },
+    {
+      "repo": "bytedance/deer-flow",
+      "sha256": "b67092550b95a322e1601b5993fba6915d9c368852386f4d0774fb89904fbaa1",
+      "crc": "通过",
+      "member_count": 4841
+    },
+    {
+      "repo": "langchain-ai/open_deep_research",
+      "sha256": "d66acd356f6a0c64e8157438255aa0dd2765ba3bc1d0a7391e6ba527ddcb725c",
+      "crc": "通过",
+      "member_count": 57
+    },
+    {
+      "repo": "infiniflow/ragflow",
+      "sha256": "6b3c3497d72b44eb6b6a1d2a6ee1d42cf39e682e048f2f3e6b9a7f166728c6ed",
+      "crc": "通过",
+      "member_count": 6073
+    },
+    {
+      "repo": "viego1999/xuecheng-plus-project",
+      "sha256": "5e327cfa066a34a653129fd9c202a07c845b5bc46de4826161124211bbc095b4",
+      "crc": "通过",
+      "member_count": 1161
+    },
+    {
+      "repo": "apache/shenyu",
+      "sha256": "60aa52d113c0fba6dee91b5cb2212bf309e4878de5f658c86091b9b057a5cd15",
+      "crc": "通过",
+      "member_count": 10146
+    },
+    {
+      "repo": "casdoor/casdoor",
+      "sha256": "a7b082c753c686c5f4a6d315a88e5a3761a873bb5979f6367ff9fbc948999d2c",
+      "crc": "通过",
+      "member_count": 1447
+    },
+    {
+      "repo": "agentscope-ai/agentscope",
+      "sha256": "e6896e9ee7ec7165628dcd025958b49f0548ef612f8768ff95691a42f9272cf8",
+      "crc": "通过",
+      "member_count": 1397
+    },
+    {
+      "repo": "FoundationAgents/OpenManus",
+      "sha256": "280b5a708fae8efd68dd8fe4f96d95ab900bc7265fa9d733e122df0340ec3b76",
+      "crc": "通过",
+      "member_count": 179
+    }
+  ],
+  "scope": "本地结构/链接/源码完整性验证；不等于第三方运行成功"
+}

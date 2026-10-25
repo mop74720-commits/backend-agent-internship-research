@@ -1,0 +1,179 @@
+{
+  "task": "对年份未知的明确实习面经补核事件年、作者导航与项目追问",
+  "checked_at": "2026-10-23",
+  "scope": "只复核现有 INT07、INT09、INT11、INT40；不新增面经或候选人，不修改主表。INT47 正文已给 2026-08-06，故跳过。",
+  "rules": [
+    "面试事件年只接受本人正文或明确关联原帖的本人汇总直接写明；不由发帖年、届别、仓库更新时间、网页页脚或星期推算。",
+    "公开作者主页直接链接可证明同账号发布关系，不证明所有帖子均为本人经历，也不证明项目源码归属。",
+    "200 空壳与搜索收录均不算本次全文重读；公开 HTTP 正文可读时记录具体解析范围。",
+    "录用、OC、意向书、等待结果分别保留，不升级为 SSP。"
+  ],
+  "summary": {
+    "reviewed_existing_records": 4,
+    "new_event_year_confirmations": 0,
+    "strict_recent_internship_increment": 0,
+    "publication_date_type_clarifications": 1,
+    "potential_recent_publication_auxiliary_increment": 1,
+    "new_candidate_or_project_ownership_chains": 0,
+    "finding": "没有足以补写事件年的直接证据。INT11 的 2025-12-07 已明确是原帖显示的发表时间，可修正日期类型并计入近期发布辅助数，不能加入严格近期实习数。"
+  },
+  "search_paths": [
+    {
+      "path": "原面经作者链接 → 本人公开主页 → 主页直接导航的原帖",
+      "result": "核实 4 个作者账号；INT07 主页只有该篇，INT09 有 8 篇公开导航，INT40 有 9 篇，INT11 主页第 2 页直接指向原帖。没有发现明确写出这 4 场面试事件年的本人总结。"
+    },
+    {
+      "path": "精确作者名、原帖标题、公司与明确年份的独立检索",
+      "queries": [
+        "site:nowcoder.com 幸运的回笼觉觉主 腾讯 实习 2025年",
+        "site:nowcoder.com End__ 智能体与大模型 2026年",
+        "site:nowcoder.com End__ 实习 2025年",
+        "快乐冒险家 淘天oc",
+        "快乐冒险家 6.11 淘天",
+        "猫头鹰会带着霍格沃茨offer来找我 2025 美团"
+      ],
+      "result": "找到了同账号主页和同期评论，但没有将明确年份直接归于原场面试的文字。第三方评论、其他候选人的投票和推荐流均未用于补年。两条路径结束后保留未知。"
+    }
+  ],
+  "records": [
+    {
+      "record_id": "INT07",
+      "title": "美团后端暑期实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/3187ad5588394e108f96db0eb9e82bcf",
+      "taxonomy": {"track": "后端", "recruitment": "实习", "event_year": null, "year_confirmed": false},
+      "author": {"display_name": "猫头鹰会带着霍格沃茨offer来找我", "public_profile": "https://www.nowcoder.com/users/244132112", "identity_scope": "公开账号，不保存联系方式"},
+      "navigation_evidence": {
+        "profile_link": "https://www.nowcoder.com/users/244132112",
+        "direct_post_link": "https://www.nowcoder.com/feed/main/detail/3187ad5588394e108f96db0eb9e82bcf?sourceSSR=users",
+        "method": "公开 requests HTML 中 a[href] 与正文节点；主页显示发布(1)，直接列出同 UUID。",
+        "read_scope": "原帖正文全文此前及本分支前段可读，主页只读该帖与导航；网页工具后续访问可能返回 4 行空壳。"
+      },
+      "time_evidence": {
+        "explicit_events": ["4.25 投递", "5.10 笔试", "5.14 一面", "5.16 二面"],
+        "publication": "2025-05-19发布（已有主记录，未据此推事件年）",
+        "conclusion": "全文流程只有月日；同作者主页未提供明确年份的求职汇总。其他帖的同作者评论时间不能替代该场面试年。"
+      },
+      "project_followup": {
+        "recorded_questions": ["文件传输为何采用 MQ，是否考虑同步 HTTP 或数据库方式", "说明本人承担的任务和改进，而非只列项目名称", "已有项目能如何引入 AI，实际试过什么"],
+        "capabilities": ["跨服务通信取舍", "个人贡献边界", "基于现有项目解释 AI 应用"],
+        "project_ownership_limit": "正文称仅第一个是 Java 项目，另有视觉/三维项目；没有直接代码仓库，不补个人源码关系。",
+        "answer_scope": "只有问题与简要回忆，不能据此认为作者实现了全部被问能力。"
+      },
+      "result": {"status": "unknown", "basis": "原帖发文时仍在等结果", "ssp": "未披露"},
+      "recommended_update": "保留年份未知与原结果，仅可补全投递、笔试和两轮月日。"
+    },
+    {
+      "record_id": "INT09",
+      "title": "暑期实习第二个offer-淘天oc",
+      "url": "https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168",
+      "taxonomy": {"track": "后端", "recruitment": "实习", "event_year": null, "year_confirmed": false},
+      "author": {"display_name": "快乐冒险家", "public_profile": "https://www.nowcoder.com/users/372694131?contentPage=1"},
+      "navigation_evidence": {
+        "method": "原帖作者链接与公开 requests 主页导航核对；原帖网页正文 52—90 行实际重读，requests .feed-content-text 亦可读。",
+        "direct_post_link": "https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168?sourceSSR=users",
+        "same_author_followups": [
+          {"url": "https://www.nowcoder.com/feed/main/detail/422244309f934fafb8126a010e1a4e34?sourceSSR=users", "title": "后端暑期第一个offer！", "displayed_publication": "2025-07-17 12:05，已编辑", "actual_read": "requests .feed-content-text 全文", "scope": "自述京东意向书，曾实习五个多月；不证明淘天接受或入职。"},
+          {"url": "https://www.nowcoder.com/feed/main/detail/86ae34f2e1b1480f82c96c99e67ff314?sourceSSR=users", "title": "感谢团子，一周速拿下offer", "displayed_publication": "2025-09-11 18:08", "actual_read": "requests .feed-content-text 全文", "scope": "秋招面试月日与意向书；不是本场实习结果补证。"},
+          {"url": "https://www.nowcoder.com/feed/main/detail/cc4e44a5cedd49b1a6e83da33017d930?sourceSSR=users", "title": "快手意向！", "displayed_publication": "2025-09-24 17:57", "actual_read": "requests .feed-content-text 全文", "scope": "秋招第三个意向自述，无 SSP 档位。"}
+        ]
+      },
+      "time_evidence": {
+        "explicit_events": ["6.11 一面", "6.16 二面", "6.18 三面", "6.20 HR面", "6.24 OC"],
+        "publication": "2025-06-24 23:00，已编辑",
+        "conclusion": "原帖与本人其他公开帖均未给出本场面试事件年；不能用 2025 发布日期或秋招串联反推。",
+        "chronology_limit": "第一/第二个offer标题与页面显示顺序不同，编辑、补记与结果类型均可能影响标题；不据标题和发表先后拼成完整事件年表。"
+      },
+      "project_followup": {
+        "rounds": [
+          {"round": "一面", "focus": "点赞、收藏、排行榜的 Redis 结构选择；Kafka 顺序、幂等、可靠性和积压"},
+          {"round": "二面", "focus": "三个实习需求的连续深挖；积分与红包兑换的状态和金额一致性"},
+          {"round": "三面与HR", "focus": "两段实习的技术比较、个人成长、组内业务的清晰表达"}
+        ],
+        "project_ownership_limit": "有个人项目与两段实习回忆，没有项目代码或完整履历附件。不能把多个业务需求当独立项目源码。",
+        "answer_scope": "面经回忆，不包含完整设计答案、压测或故障验证。"
+      },
+      "result": {"status": "intention_self_report", "basis": "正文自述 6.24 OC", "ssp": "未披露", "limit": "标题的offer不升级为正式offer、接收或入职证明。"},
+      "recommended_update": "可补四轮加 OC 的月日序列；事件年、结果状态与源码缺口保持不变。"
+    },
+    {
+      "record_id": "INT11",
+      "title": "腾讯后端实习一面90min",
+      "url": "https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271",
+      "taxonomy": {"track": "后端", "recruitment": "实习", "event_year": null, "year_confirmed": false},
+      "author": {"display_name": "幸运的回笼觉觉主在参加牛客活动", "public_profile": "https://www.nowcoder.com/users/977323204?contentPage=2"},
+      "navigation_evidence": {
+        "method": "公开 requests 主页第 2 页直接导航至同 UUID；再读该链接的 .feed-content-text、.time-text 和作者 a[href]。",
+        "direct_post_link": "https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271?sourceSSR=users",
+        "actual_status": "HTTP 200，实际正文可读；网页工具同链接不可访问，普通 URL 与 toCommentId 变体曾返回空壳。",
+        "author_relation": "正文页作者 href=/users/977323204，与主页一致。",
+        "read_scope": "全文 27 项问题与发表时间节点；不含完整答题过程或面试结果。"
+      },
+      "time_evidence": {
+        "exact_publication_node": {"selector": ".time-text", "text": "2025-12-07 06:30"},
+        "independent_same_site_navigation": "本人主页第 2 页对应卡片也显示 2025-12-07 06:30。",
+        "explicit_event_date": null,
+        "conclusion": "现已分清该完整日期是原帖显示的发表时间；正文没有具体面试年月日，事件年继续未知。"
+      },
+      "project_followup": {
+        "recorded_question_chains": [
+          "线程池的数据分片或导出 → 几 GB 文件是否实际测过",
+          "催单提醒 WebSocket 与其他方案 → 用户量激增 → 服务端具体应对",
+          "店铺缓存结构 → 热门菜品 → 拆分 → 数据库与 Redis 一致性",
+          "延迟取消订单 → 消息持久化 → MQ 宕机或丢消息后的具体兜底",
+          "库存超卖 → CAS 库存条件 → 一人一单的独立约束 → 具体下单流程"
+        ],
+        "project_ownership_limit": "正文未给个人仓库、压测报告或履历附件；同作者其他帖子不得直接当作同一实习/同一项目。",
+        "answer_scope": "实际问题链已读；不能从提问反推出作者已解决问题。"
+      },
+      "result": {"status": "unknown", "basis": "该原帖没有结果", "ssp": "未披露"},
+      "proposed_main_fields": {
+        "source_date": "2025-12-07 06:30（原帖显示发表时间）",
+        "date": "具体面试日及事件年未披露；2025-12-07 为原帖显示发表日",
+        "taxonomy.source_date_text": "2025-12-07 06:30（原帖显示发表时间）",
+        "taxonomy.date_precision": "未知",
+        "taxonomy.year_confirmed": false,
+        "taxonomy.date_basis": "原帖 time-text 与本人主页对应卡片确认发表时间；正文没有具体面试年月日，不能用发表年推事件年。",
+        "publication_recent_event_year_unknown": true,
+        "strict_recent_internship": false
+      }
+    },
+    {
+      "record_id": "INT40",
+      "title": "智能体与大模型应用工程实习 一面",
+      "url": "https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post",
+      "taxonomy": {"track": "Agent工程", "recruitment": "实习", "event_year": null, "year_confirmed": false},
+      "author": {"display_name": "End__", "public_profile": "https://www.nowcoder.com/users/596670042"},
+      "navigation_evidence": {
+        "method": "网页工具实际读作者主页；点击作者主页该篇的直接链接取得原站正文。",
+        "direct_post_link": "https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=users",
+        "actual_read": "原帖正文 53—86 行，共 24 条问题与反问、感想；页面作者链接与主页一致。",
+        "same_author_navigation": [
+          {"url": "https://www.nowcoder.com/discuss/895391376861298688?sourceSSR=users", "scope": "主页直接链接唯品会 6-12 一面；单篇访问空壳，未算新全文。"},
+          {"url": "https://www.nowcoder.com/discuss/897182657816162304?sourceSSR=users", "scope": "主页直接链接唯品会 6-18 二面；单篇访问空壳，未算新全文。"}
+        ],
+        "profile_scope": "9 篇公开导航；主页正文预览有 Agent 任务、准确率、失败恢复等问题，但都只显示月日，未找到明确年份的本人汇总。"
+      },
+      "time_evidence": {
+        "event_date": "6-09",
+        "publication": "06-11 22:58（原帖与主页均无年）",
+        "conclusion": "事件只有月日。主页届别、同期帖子、SDD/Skill 等技术词和网页当前年份均不能用于补年。"
+      },
+      "project_followup": {
+        "recorded_question_chains": [
+          "两级缓存 → 哪条链路需要 → 更新、过期与实际负载依据",
+          "异步订单 → 在个人机器如何测试 → 一次处理的场景 → 删除集合时服务故障",
+          "Spring AI 选型 → 与 Python 的比较 → RAG 导入与 BM25 → 多轮循环与模型选择"
+        ],
+        "project_ownership_limit": "同作者原帖能确认项目描述关联，但没有可对应代码仓库或完整简历。",
+        "answer_scope": "面试回忆与失败口吻。Redis 持久化的面试官轶事不作为技术事实；提问不是实现证明。"
+      },
+      "result": {"status": "failure_self_report", "basis": "末段以失败口吻复盘；没有正式结果材料", "ssp": "未披露"},
+      "recommended_update": "可增加本人主页及可读 sourceSSR=users 作为阅读备用链接；日期仍仅月日。"
+    }
+  ],
+  "manual_access": [
+    {"url": "https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271?sourceSSR=users", "status": "网页工具不可读，但正常公开 requests 已读正文；保留链接供用户打开。", "need": "若作者日后补充明确面试年份或结果再更新。"},
+    {"url": "https://www.nowcoder.com/users/372694131?contentPage=1", "status": "网页工具不可访问，正常公开 requests 可读本人导航。", "need": "没有找到直接写本场淘天面试事件年的本人汇总。"}
+  ],
+  "verification": {"main_tables_modified": false, "new_ids_assigned": false, "contact_information_saved": false, "remote_media_downloaded": false, "third_party_code_executed": false, "login_or_access_controls_bypassed": false}
+}

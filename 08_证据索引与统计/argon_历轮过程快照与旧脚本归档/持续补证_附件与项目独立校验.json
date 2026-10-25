@@ -1,0 +1,173 @@
+{
+  "scope": "独立复核当前本地归档/履历和PRO20/21比较，不重复外网下载，不运行项目",
+  "research_date": "2026-10-23",
+  "archives": [
+    {
+      "project": "UltiCode",
+      "path": "05_项目源码归档/本人履历直接关联_持续补证/UltiCode_固定源码文本_去联系字段_d53b582e2f.zip",
+      "actual_bytes": 10947346,
+      "manifest_size_match": true,
+      "actual_sha256": "cd079b7b2e39ee2d59e043155851726e49a0a89b0508211482c25569c90f55d2",
+      "manifest_sha256_match": true,
+      "crc_all_pass": true,
+      "actual_member_count": 4329,
+      "manifest_member_count_match": true,
+      "license_preserved": true,
+      "license_original_hash_match": true,
+      "read_module_checks": [
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/queue/outbox/dispatcher/JudgeOutboxDispatcher.java",
+          "present": true,
+          "sha256_match": true
+        },
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/submission/mapper/SubmissionMapper.java",
+          "present": true,
+          "sha256_match": true
+        },
+        {
+          "path": "services/auth/src/main/java/com/ulticode/auth/refreshtoken/service/RefreshTokenService.java",
+          "present": true,
+          "sha256_match": true
+        },
+        {
+          "path": "services/judge-runtime/src/test/java/com/ulticode/modules/queue/port/adapter/JudgeStreamRedisIntegrationTest.java",
+          "present": true,
+          "sha256_match": true
+        },
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/submission/port/DefaultSubmissionWritePort.java",
+          "present": true,
+          "sha256_match": true
+        }
+      ],
+      "all_read_module_checks_pass": true,
+      "unexpected_email_patterns": 0,
+      "phone_patterns": 0,
+      "binary_members": 0,
+      "boundary": "派生文本源码包，邮箱样式已改，非未修改完整原ZIP；未构建/未运行"
+    },
+    {
+      "project": "ResiCache",
+      "path": "05_项目源码归档/本人履历直接关联_持续补证/ResiCache_固定源码文本_去联系字段_1ed3be36af.zip",
+      "actual_bytes": 695726,
+      "manifest_size_match": true,
+      "actual_sha256": "eae16d257fe8751eadfa62316a4ab2af90f1f8bebf34de658bb07e4b3e531786",
+      "manifest_sha256_match": true,
+      "crc_all_pass": true,
+      "actual_member_count": 331,
+      "manifest_member_count_match": true,
+      "license_preserved": true,
+      "license_original_hash_match": true,
+      "read_module_checks": [
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupport.java",
+          "present": true,
+          "sha256_match": true
+        },
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncRole.java",
+          "present": true,
+          "sha256_match": true
+        },
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/EarlyRefresh.java",
+          "present": true,
+          "sha256_match": true
+        },
+        {
+          "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupportSingleFlightTest.java",
+          "present": true,
+          "sha256_match": true
+        },
+        {
+          "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/EarlyExpirationHandlerRaceConditionIntegrationTest.java",
+          "present": true,
+          "sha256_match": true
+        }
+      ],
+      "all_read_module_checks_pass": true,
+      "unexpected_email_patterns": 0,
+      "phone_patterns": 0,
+      "binary_members": 0,
+      "boundary": "派生文本源码包，邮箱样式已改，非未修改完整原ZIP；未构建/未运行"
+    }
+  ],
+  "resume": {
+    "path": "03_简历与候选人案例/核心后端履历_脱敏副本/DavidHLP_公开完整履历_脱敏转录.html",
+    "sha256_match": true,
+    "professional_modules": {
+      "实习经历": true,
+      "项目经历": true,
+      "专业技能": true,
+      "教育背景": true,
+      "开源贡献与技术沉淀": true
+    },
+    "contact_email_patterns": 0,
+    "phone_patterns": 0,
+    "contact_label_elements_visible": false,
+    "image_count": 0,
+    "script_count": 0,
+    "event_handler_attributes": 0,
+    "project_links": {
+      "UltiCode": true,
+      "ResiCache": true
+    },
+    "employer_client_distinction_visible": true,
+    "current_project_vs_application_time_boundary_visible": true
+  },
+  "comparison": {
+    "PRO20": {
+      "backend_dimensions": 7,
+      "agent_dimensions": 8,
+      "all_agent_dimensions_not_applicable": true,
+      "runtime_verified": false,
+      "attachment_label_marks_derivative": true,
+      "source_scope_explicit": true,
+      "declared_read_scope": null,
+      "limits": [
+        "无本地构建/测试证据",
+        "未核每次提交的个人工作占比或AI辅助比例",
+        "当前源码晚于实习开始时间，不能证明求职因果",
+        "源码存在不等于生产性能或成熟度通过",
+        "数据库事务与Redis投递之间的崩溃重复窗口、死信及消费者幂等需全链路另核。"
+      ],
+      "database_transaction_not_cross_redis_explicit": true,
+      "does_not_claim_exactly_once": false
+    },
+    "PRO21": {
+      "backend_dimensions": 7,
+      "agent_dimensions": 8,
+      "all_agent_dimensions_not_applicable": true,
+      "runtime_verified": false,
+      "attachment_label_marks_derivative": true,
+      "source_scope_explicit": true,
+      "declared_read_scope": null,
+      "limits": [
+        "无本地构建/测试证据",
+        "未核每次提交的个人工作占比或AI辅助比例",
+        "当前源码晚于实习开始时间，不能证明求职因果",
+        "源码存在不等于生产性能或成熟度通过",
+        "本地single-flight与跨实例互斥不同，不能仅据本地Map推导分布式唯一回源。"
+      ],
+      "local_singleflight_not_global_once_explicit": true
+    },
+    "over_read_claims_detected": []
+  },
+  "issues": [
+    {
+      "severity": "minor",
+      "target": "PRO21 backend_dimensions.测试",
+      "finding": "结论包含“竞态测试”，但read_paths仅列SyncSupportSingleFlightTest.java；该文件主要是本地single-flight测试。竞态证据实际另在本轮已核EarlyExpirationHandlerRaceConditionIntegrationTest.java，应把两条路径一起附入该维度，避免引用范围偏窄。",
+      "evidence_available_in_package": true
+    }
+  ],
+  "writes": "仅本校验JSON",
+  "source_input_hashes": {
+    "discovery_json": "2c52ee20d38fc18801d2cf61b8ca0c2206cd61370ca539ea28edd51f6ef1170a",
+    "comparison_json": "5220f0f79f82991644d3f1e24b2ecf2e06f8fe3081673c74a3aedb2396bbe030",
+    "integration_script": "b26cb6bc484e5e9eb5ffbe4b2dc58617614098820fc54c80939a10869250f454"
+  },
+  "pass_core_checks": true,
+  "read_source_files_checked": 10
+}

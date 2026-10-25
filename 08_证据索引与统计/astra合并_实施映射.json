@@ -1,0 +1,769 @@
+{
+  "date": "2026-10-24",
+  "source_folder": "C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24",
+  "source_card_count": 64,
+  "mappings": [
+    {
+      "source_id": "J01",
+      "destination_id": "JD11",
+      "action": "重复核读/补充说明",
+      "original_decision": "duplicate",
+      "title": "百度 AI 开放平台研发工程师实习生 J103363",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9",
+      "boundary": "本轮再次核读与旧JD11一致，没有独特事实；重复项保留来源映射，不新增逻辑证据。"
+    },
+    {
+      "source_id": "J02",
+      "destination_id": "JD20",
+      "action": "新增原文资料",
+      "title": "字节跳动 后端工程师开发 实习",
+      "url": "https://www.nowcoder.com/jobs/detail/447232",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "原页岗位名称泛化；未与字节官网职位ID交叉核验。"
+    },
+    {
+      "source_id": "J03",
+      "destination_id": "JD21",
+      "action": "新增原文资料",
+      "title": "腾讯云智研发 后台开发 2026届暑期实习生",
+      "url": "https://www.nowcoder.com/jobs/detail/381180",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "Python/Shell/Perl、SQL、NoSQL/KV列“有一定了解”，并非与编程能力相同熟练度；腾讯云智研发不代表腾讯各事业群。"
+    },
+    {
+      "source_id": "J04",
+      "destination_id": "JD22",
+      "action": "新增原文资料",
+      "title": "百度 大模型应用开发 后端开发工程师 实习生",
+      "url": "https://www.nowcoder.com/jobs/detail/447247",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "不与百度官网J101073视作同一岗位；未要求模型训练。"
+    },
+    {
+      "source_id": "J05",
+      "destination_id": "JD23",
+      "action": "新增原文资料",
+      "title": "淘天集团 AI Agent应用开发工程师 2026暑期实习",
+      "url": "https://www.nowcoder.com/jobs/detail/436118",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "相关背景、Transformer、后训练列优先或加分；不能全部改成硬门槛。"
+    },
+    {
+      "source_id": "J06",
+      "destination_id": "JD24",
+      "action": "新增原文资料",
+      "title": "阿里云 AI Agent研发 基础平台研发工程师 暑期实习",
+      "url": "https://www.nowcoder.com/jobs/detail/441472",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "硕博门槛；含多个方向，不要求申请者或一个项目覆盖全部职责。"
+    },
+    {
+      "source_id": "J07",
+      "destination_id": "JD25",
+      "action": "新增原文资料",
+      "title": "腾讯 微信 微信实习生招聘 Agent框架方向",
+      "url": "https://www.nowcoder.com/jobs/detail/454300",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "发布账号公司为腾讯科技上海而地点广州；框架名称harmes为原文拼写，不自动修正为别的框架。"
+    },
+    {
+      "source_id": "J08",
+      "destination_id": "JD26",
+      "action": "新增原文资料",
+      "title": "腾讯云 Agent Runtime 校招与日常实习",
+      "url": "https://www.nowcoder.com/discuss/932616763089383424",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "不从2027/2028届或现年反推招聘发布时间；没有SSP承诺。"
+    },
+    {
+      "source_id": "J09",
+      "destination_id": "JD27",
+      "action": "新增原文资料",
+      "title": "美图 暑期实习 AI Agent研发实习生",
+      "url": "https://www.nowcoder.com/jobs/detail/445785",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "美图而非美团；职责不全部等同已有经验要求，留用有条件。"
+    },
+    {
+      "source_id": "J10",
+      "destination_id": "JD28",
+      "action": "新增原文资料",
+      "title": "天猫技术 AI Agent算法工程师 大模型方向",
+      "url": "https://www.nowcoder.com/jobs/detail/435213",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "研究算法岗，只作对照，不并入Agent应用工程硬门槛矩阵。"
+    },
+    {
+      "source_id": "J11",
+      "destination_id": "JD29",
+      "action": "新增原文资料",
+      "title": "上海人工智能实验室 27届留用实习 大模型算法 Agent基础能力",
+      "url": "https://www.nowcoder.com/jobs/detail/446094",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "上海人工智能实验室/创新中心研究机构样本，非互联网大厂；时长表格与正文层次分别保留。"
+    },
+    {
+      "source_id": "J12",
+      "destination_id": "JD30",
+      "action": "新增原文资料",
+      "title": "快手 留用实习 C++开发工程师 深圳",
+      "url": "https://www.nowcoder.com/jobs/detail/442097",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "标签误标Java，标题C++与正文C/C++或Rust一致；不采纳0天0月。"
+    },
+    {
+      "source_id": "J13",
+      "destination_id": "JD31",
+      "action": "新增摘要/待核入口",
+      "title": "美团 后端开发实习生 数据方向",
+      "url": "https://www.zhaopin.com/jobdetail/CC383625320J40829838209.htm",
+      "category": "招聘JD",
+      "reading_scope": "摘要",
+      "boundary": "PC/移动两路径均Security Verification；不把已有摘要当本轮原文，不计全文或技术要求矩阵。"
+    },
+    {
+      "source_id": "J14",
+      "destination_id": "JD32",
+      "action": "新增原文资料",
+      "title": "美团 北斗 大模型算法工程师 校招实习",
+      "url": "https://www.nowcoder.com/jobs/detail/395936",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "北斗专项不自动等于SSP；多个研究方向不代表全部硬门槛，历史2025样本。"
+    },
+    {
+      "source_id": "J15",
+      "destination_id": "JD33",
+      "action": "新增原文资料",
+      "title": "百度 大模型应用后端研发实习生 GO/Python方向 J101073",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/15f123ac-2755-4324-b5ba-25682d0f9b40",
+      "category": "招聘JD",
+      "reading_scope": "全文",
+      "boundary": "标题GO/Python但正文为C/C++或PHP/GO，不改写成明确Python要求；也不与牛客J04混为同岗位。"
+    },
+    {
+      "source_id": "I01",
+      "destination_id": "INT16",
+      "action": "重复核读/补充说明",
+      "original_decision": "existing",
+      "title": "小红书后端实习面经（已offer）",
+      "url": "https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。"
+      ]
+    },
+    {
+      "source_id": "I02",
+      "destination_id": "INT87",
+      "action": "新增原文资料",
+      "title": "美团后端日常实习（已offer）",
+      "url": "https://api-cdn.nowcoder.com/discuss/741030289186525184?sourceSSR=subject",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。"
+      ]
+    },
+    {
+      "source_id": "I03",
+      "destination_id": "INT22",
+      "action": "重复核读/补充说明",
+      "original_decision": "existing",
+      "title": "四非本 滴滴后端实习面经（已OC）",
+      "url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。"
+      ]
+    },
+    {
+      "source_id": "I04",
+      "destination_id": "INT88",
+      "action": "新增原文资料",
+      "title": "字节后端实习面经",
+      "url": "https://www.nowcoder.com/discuss/723622216419586048?sourceSSR=users",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。"
+      ]
+    },
+    {
+      "source_id": "I05",
+      "destination_id": "INT89",
+      "action": "新增原文资料",
+      "title": "美团 Java 二面 强度这么高吗",
+      "url": "https://ac.nowcoder.com/discuss/1674038?channel=-1&source_id=discuss_tag_discuss_hot_nctrack&type=0",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "题号与作者事后组织方式不等于录音逐字稿；自觉未通过不能当确定失败。"
+      ]
+    },
+    {
+      "source_id": "I06",
+      "destination_id": "INT90",
+      "action": "新增原文资料",
+      "title": "面经 腾讯篇",
+      "url": "https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "单人多流程合并一条；2025-05-10编辑不能用来逐段回填2024或2025事件年。"
+      ]
+    },
+    {
+      "source_id": "I07",
+      "destination_id": "INT91",
+      "action": "新增原文资料",
+      "title": "快手商业化 Java日常实习",
+      "url": "https://www.nowcoder.com/discuss/719242991700889600",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。"
+      ]
+    },
+    {
+      "source_id": "I08",
+      "destination_id": "INT92",
+      "action": "新增原文资料",
+      "title": "阿里国际一面面经",
+      "url": "https://www.nowcoder.com/discuss/737334743661875200",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。"
+      ]
+    },
+    {
+      "source_id": "I09",
+      "destination_id": "INT93",
+      "action": "新增原文资料",
+      "title": "字节生活服务后端开发日常实习一二三面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=dynamic",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "只提炼问题；作者关于数据库容量、DAU统计等临场答案含不准确处，不当作技术依据。"
+      ]
+    },
+    {
+      "source_id": "I10",
+      "destination_id": "INT94",
+      "action": "新增原文资料",
+      "title": "暑期实习记录 附C++面经",
+      "url": "https://ac.nowcoder.com/discuss/1500141?type=0",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "同人多公司合并一条；ICPC区金及多银背景明显，不能仅把结果归因于WebServer项目。"
+      ]
+    },
+    {
+      "source_id": "I11",
+      "destination_id": "INT95",
+      "action": "新增原文资料",
+      "title": "26届秋招字节后端一面面经详细版",
+      "url": "https://www.nowcoder.com/discuss/795684745727250432",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "有作者临场答案和事后说明，TopK答案自承有疏漏；不能把答法当技术标准，也不能把加面说法当统一档位规则。"
+      ]
+    },
+    {
+      "source_id": "I12",
+      "destination_id": "INT96",
+      "action": "新增原文资料",
+      "title": "5月21日25届春招 字节后端一面面经",
+      "url": "https://ac.nowcoder.com/discuss/1509544?type=0",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "作者明说部分临场方案不确定，夹有用话术占时间建议；只借鉴追问风险，不采纳为答案或诚信项目呈现方式。"
+      ]
+    },
+    {
+      "source_id": "I13",
+      "destination_id": "INT97",
+      "action": "新增原文资料",
+      "title": "后端与全栈面经一次性放出",
+      "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "这是2026秋招而非实习；长题单为作者回忆整理，不能按每个问号作独立精确题数；内部竞拍/科研项目未有公开仓库归属证据。"
+      ]
+    },
+    {
+      "source_id": "I14",
+      "destination_id": "INT98",
+      "action": "新增原文资料",
+      "title": "百度海外业务 后端Go二面",
+      "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "作者明确AI整理，逐字和题数降权；例题中的2025-05-13是算法输入示例，绝不作为面试年。"
+      ]
+    },
+    {
+      "source_id": "I15",
+      "destination_id": "INT99",
+      "action": "新增原文资料",
+      "title": "26快手商业化 日常实习一二面 已OC",
+      "url": "https://www.nowcoder.com/discuss/718514450587746304?sourceSSR=users",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。"
+      ]
+    },
+    {
+      "source_id": "I16",
+      "destination_id": "INT100",
+      "action": "新增原文资料",
+      "title": "京东后端实习一二面面经 Offer",
+      "url": "https://api-cdn.nowcoder.com/discuss/933060569995759616?sourceSSR=dynamic",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "单个流程两轮不代表京东统一政策；未记录手撕不证明岗位不考算法。"
+      ]
+    },
+    {
+      "source_id": "I17",
+      "destination_id": "INT101",
+      "action": "新增原文资料",
+      "title": "快手商业化垂直业务 Java日常实习",
+      "url": "https://www.nowcoder.com/discuss/726371483039133696",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "原帖指出面试问法将Kafka partition与RocketMQ queue混用，不能把面试题本身当正确事实。"
+      ]
+    },
+    {
+      "source_id": "I18",
+      "destination_id": "INT102",
+      "action": "新增原文资料",
+      "title": "字节AI Agent实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "二面仅说更深及场景题，没有给出独立二面逐题；不为其补写未公开问题。"
+      ]
+    },
+    {
+      "source_id": "I19",
+      "destination_id": "INT54",
+      "action": "重复核读/补充说明",
+      "original_decision": "existing",
+      "title": "字节数据中台Agent全栈面经",
+      "url": "https://api-cdn.nowcoder.com/feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b?sourceSSR=post",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "28届为届别，不能补事件年；与旧INT54相同feed UUID。"
+      ]
+    },
+    {
+      "source_id": "I20",
+      "destination_id": "INT103",
+      "action": "新增原文资料",
+      "title": "实习面经分享 阿里云AI应用开发一面",
+      "url": "https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "正文短而具体，只保留实际披露的五组问题；不能展开为作者没说的完整Agent实现。"
+      ]
+    },
+    {
+      "source_id": "I21",
+      "destination_id": "INT104",
+      "action": "新增原文资料",
+      "title": "美团Agent开发一面 日常",
+      "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "评论猜项目来源不能作为课程归属证据；本人项目没有明确公开源码入口。"
+      ]
+    },
+    {
+      "source_id": "I22",
+      "destination_id": "INT53",
+      "action": "重复核读/补充说明",
+      "original_decision": "existing",
+      "title": "美团一面全栈开发日常实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "作者明确由AI总结，49条是整理条目而非已证实逐字问题数；牛客AI配图与此处AI总结另行区分。"
+      ]
+    },
+    {
+      "source_id": "I23",
+      "destination_id": "INT105",
+      "action": "新增原文资料",
+      "title": "字节Agent一面面经 挂了",
+      "url": "https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=dynamic",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "候选人感觉答得好不能证明KPI面；实读入口为sourceSSR=dynamic/post，先前多个subject入口返回空壳。"
+      ]
+    },
+    {
+      "source_id": "I24",
+      "destination_id": "INT50",
+      "action": "重复核读/补充说明",
+      "original_decision": "existing",
+      "title": "字节 蚂蚁 腾讯Agent实习面经 凉经",
+      "url": "https://ac.nowcoder.com/discuss/1654721?channel=-1&source_id=discuss_tags_discuss_hot_nctrack&type=0",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "三个流程合并一篇；腾讯已调剂云架构，不能将其题目当Agent应用统一门槛。"
+      ]
+    },
+    {
+      "source_id": "I25",
+      "destination_id": "INT106",
+      "action": "新增原文资料",
+      "title": "2025春招实习面经汇总 已接阿里offer",
+      "url": "https://www.nowcoder.com/discuss/736868736837173248?sourceSSR=dynamic",
+      "category": "面经复盘",
+      "reading_scope": "全文",
+      "boundary": [
+        "第一人称公开回忆，录用和技术指标未经企业或实验独立验证。",
+        "AI Infra补充对照，不纳应用Agent题目主样本；正文的CUDA时延等技术断言未经本任务独立验证，不当技术结论。"
+      ]
+    },
+    {
+      "source_id": "R01",
+      "destination_id": "CV01",
+      "action": "重复核读/补充说明",
+      "original_decision": "duplicate",
+      "title": "后端秋招24场100%胜率的SSP，真的只是靠卷技术吗？",
+      "url": "https://www.nowcoder.com/discuss/825498059369955328",
+      "boundary": "作者公开自述不等于独立录用认证；实习片段不是完整简历。"
+    },
+    {
+      "source_id": "R02",
+      "destination_id": "CV32",
+      "action": "新增原文资料",
+      "title": "无实习人士如何上岸秋招（总结+面经+路线）",
+      "url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "category": "候选人资料",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "R03",
+      "destination_id": "CV18",
+      "action": "重复核读/补充说明",
+      "original_decision": "enrich",
+      "title": "干货!普通人的秋招经验分享.",
+      "url": "https://www.nowcoder.com/discuss/353155859792470016",
+      "boundary": "2019历史校招；总体多数SP/SSP，未逐公司定档。原简历PDF没有本次取得，不拿工作后TeX版本倒推求职原版。"
+    },
+    {
+      "source_id": "R04",
+      "destination_id": "CV33",
+      "action": "新增原文资料",
+      "title": "非科班转码：211化学本→985材料硕→字节后端开发",
+      "url": "https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+      "category": "候选人资料",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "R05",
+      "destination_id": "OBS11",
+      "action": "新增原文资料",
+      "title": "后端开发收藏内容分享 附完整脱敏简历",
+      "url": "https://www.nowcoder.com/discuss/755767217509117952?sourceSSR=subject",
+      "category": "候选人对照",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "R06",
+      "destination_id": "DOC13",
+      "action": "新增原文资料",
+      "title": "简历上写了 RAG / Agent 项目，面试官到底想听什么？",
+      "url": "https://ac.nowcoder.com/discuss/1649000?type=0",
+      "category": "专业原文补充",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "R07",
+      "destination_id": "CV17",
+      "action": "重复核读/补充说明",
+      "original_decision": "duplicate",
+      "title": "我的秋招ssp总结（一）",
+      "url": "https://www.nowcoder.com/discuss/710535736860180480?sourceSSR=users",
+      "boundary": "美团SP不能算SSP；没有本人项目源码，不能把付费课程仓库当其本人贡献。"
+    },
+    {
+      "source_id": "R08",
+      "destination_id": "CV34",
+      "action": "新增原文资料",
+      "title": "择难路 未有疑 四非学院本春招拿下大厂后端",
+      "url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "category": "候选人资料",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "V01",
+      "destination_id": "OP17",
+      "action": "新增原文资料",
+      "title": "解密互联网大厂研发流程",
+      "url": "https://www.bilibili.com/opus/578080002218926853",
+      "category": "B站与知乎",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "V02",
+      "destination_id": "OP18",
+      "action": "新增原文资料",
+      "title": "程序员鱼皮的保姆级写简历指南第三弹 简历常见问题和建议汇总",
+      "url": "https://www.bilibili.com/opus/950153255348862982",
+      "category": "B站与知乎",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "V03",
+      "destination_id": null,
+      "action": "待手动访问",
+      "title": "程序员简历应该怎么写 程序员鱼皮的回答",
+      "url": "https://www.zhihu.com/question/25002833/answer/2381116420",
+      "boundary": "受限阅读入口；鱼皮回答原页403，astra也只有索引片段；同作者V02可读部分不替代知乎全文。"
+    },
+    {
+      "source_id": "V04",
+      "destination_id": null,
+      "action": "待手动访问",
+      "title": "如何评价鱼皮程序员的OJ项目 九章算法的回答",
+      "url": "https://www.zhihu.com/question/629921585/answer/30006369306",
+      "boundary": "受限阅读入口；九章算法回答原页403，机构培训/潜在商业竞争背景；不能从摘要推课程SSP效果。"
+    },
+    {
+      "source_id": "V05",
+      "destination_id": null,
+      "action": "待手动访问",
+      "title": "如何成为一个AI Agent工程师 回答2070483858739262746",
+      "url": "https://www.zhihu.com/question/2012551138705167575/answer/2070483858739262746",
+      "boundary": "受限阅读入口；原页403且署名从业背景未核；既有待手动链接已收录，不能升级专家全文。"
+    },
+    {
+      "source_id": "V06",
+      "destination_id": null,
+      "action": "待手动访问",
+      "title": "Java面试 如何写好简历中的项目经历 作为一名面试官谈谈我的看法",
+      "url": "https://www.bilibili.com/video/BV1he4y1U7cz/",
+      "boundary": "受限阅读入口；B站播放页412；只有题目/简介，无字幕/观看证据，不能还原具体观点。"
+    },
+    {
+      "source_id": "V07",
+      "destination_id": "DOC14",
+      "action": "新增原文资料",
+      "title": "Agent项目面试怎么讲 从系统架构 技术选型到Badcase复盘",
+      "url": "https://javaguide.cn/ai/interview-questions/agent-project-interview-guide.html",
+      "category": "专业原文补充",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "V08",
+      "destination_id": null,
+      "action": "商业背景参考",
+      "title": "智能OnCall Agent项目 大模型Agent开发项目",
+      "url": "https://www.xiaolincoding.com/project/aioncallagent.html",
+      "boundary": "卖方项目介绍，独立列商业背景，非成功者材料；“企业级/非玩具/学员offer”不作事实认证；公开页没有评测不等于付费源码没有。ReAct不是Agent调用工具的必要条件，该绝对化语句不采纳。"
+    },
+    {
+      "source_id": "P01",
+      "destination_id": "PRO01",
+      "action": "重复核读/补充说明",
+      "original_decision": "duplicate",
+      "title": "nageoffer/12306",
+      "url": "https://github.com/nageoffer/12306",
+      "boundary": "教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。"
+    },
+    {
+      "source_id": "P02",
+      "destination_id": "PRO02",
+      "action": "重复核读/补充说明",
+      "original_decision": "duplicate",
+      "title": "nageoffer/shortlink",
+      "url": "https://github.com/nageoffer/shortlink",
+      "boundary": "教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。"
+    },
+    {
+      "source_id": "P05",
+      "destination_id": "PRO07",
+      "action": "重复核读/补充说明",
+      "original_decision": "duplicate",
+      "title": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "boundary": "教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。"
+    },
+    {
+      "source_id": "P03",
+      "destination_id": "DOC15",
+      "action": "新增原文资料",
+      "title": "temporalio/temporal",
+      "url": "https://github.com/temporalio/temporal",
+      "category": "官方技术资料",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "P04",
+      "destination_id": "DOC04",
+      "action": "重复核读/补充说明",
+      "original_decision": "enrich",
+      "title": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "boundary": "这是框架文档保证及限制，不是成功者个人贡献；内存示例不能证明跨进程持久化效果。"
+    },
+    {
+      "source_id": "P06",
+      "destination_id": "DOC16",
+      "action": "新增原文资料",
+      "title": "OpenHands/software-agent-sdk",
+      "url": "https://github.com/OpenHands/software-agent-sdk",
+      "category": "官方技术资料",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "P07",
+      "destination_id": "DOC17",
+      "action": "新增原文资料",
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "category": "官方技术资料",
+      "reading_scope": "部分",
+      "boundary": ""
+    },
+    {
+      "source_id": "P08",
+      "destination_id": "DOC18",
+      "action": "新增原文资料",
+      "title": "vibrantlabsai/ragas",
+      "url": "https://github.com/vibrantlabsai/ragas",
+      "category": "官方技术资料",
+      "reading_scope": "部分",
+      "boundary": ""
+    }
+  ],
+  "new_ids": [
+    "JD20",
+    "JD21",
+    "JD22",
+    "JD23",
+    "JD24",
+    "JD25",
+    "JD26",
+    "JD27",
+    "JD28",
+    "JD29",
+    "JD30",
+    "JD31",
+    "JD32",
+    "JD33",
+    "INT87",
+    "INT88",
+    "INT89",
+    "INT90",
+    "INT91",
+    "INT92",
+    "INT93",
+    "INT94",
+    "INT95",
+    "INT96",
+    "INT97",
+    "INT98",
+    "INT99",
+    "INT100",
+    "INT101",
+    "INT102",
+    "INT103",
+    "INT104",
+    "INT105",
+    "INT106",
+    "CV32",
+    "CV33",
+    "OBS11",
+    "DOC13",
+    "CV34",
+    "OP17",
+    "OP18",
+    "DOC14",
+    "DOC15",
+    "DOC16",
+    "DOC17",
+    "DOC18"
+  ],
+  "new_by_category": {
+    "招聘JD": 14,
+    "面经复盘": 20,
+    "候选人资料": 3,
+    "候选人对照": 1,
+    "专业原文补充": 2,
+    "B站与知乎": 2,
+    "官方技术资料": 4
+  },
+  "current_totals": {
+    "logical_evidence_records": 239,
+    "candidate_cases": 34,
+    "interview_materials": 99,
+    "projects": 25,
+    "source_archives": 25,
+    "fixed_link_only": 0,
+    "jd_leads": 33,
+    "engineering_jd_fulltext": 24,
+    "platform_opinion_records": 15,
+    "additional_primary_texts": 5,
+    "manual_links": 74,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9
+  },
+  "new_cv_files": 0,
+  "new_source_archives": 0,
+  "design_imported": false,
+  "boundary": "新增官方文档不纳25项目源码比较分母；录用与SSP仍按逐条自述，未知年份不补写。"
+}

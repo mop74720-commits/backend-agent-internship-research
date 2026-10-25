@@ -1,0 +1,162 @@
+{
+  "retrieved_at": "2026-10-23",
+  "title": "第三轮近期Agent/LLM方向SSP结果与项目关联核验",
+  "scope": "优先2024–2026 Agent、LLM应用工程及邻近算法；继续追踪本人SSP结果、本人项目与本人面经的对应关系。仅写本发现记录，不修改主报告，不运行或下载项目。",
+  "summary": {
+    "new_confirmed_first_person_ssp_offer_records": 0,
+    "new_recent_agent_or_llm_complete_evidence_chains": 0,
+    "new_historical_records_counted": 0,
+    "new_blocked_original_article_links": 2,
+    "previously_blocked_original_article_links_preserved": 3,
+    "independently_verified_employer_offer_results": 0,
+    "status": "本轮未新增同时具备近期Agent/LLM岗位、本人SSP结果、可对应本人项目及本人面经的完整案例。LittleChild历史案例已由主任务收为CV16/INT61，本轮排重，不重复增加成功者人数。",
+    "interpretation_limit": "这是本轮公开可读材料的核验结果，不是Agent/LLM方向不存在SSP成功者的结论；403、521或空壳页面均表示正文未核。"
+  },
+  "method": {
+    "access": "Python requests读取公开网页、Yahoo搜索结果、GitHub repository API及raw内容；无登录、无验证码绕过、无项目运行。",
+    "search_results_use": "搜索摘要与聚合索引只用于发现线索；未读原文不计本人成功案例，多个转载不算独立验证。",
+    "github_repository_search_api_calls": 3,
+    "github_search_limit": "仅本子任务此前执行的3次repository search；本轮不再追加search API调用。总命中数不代表均逐项阅读，算法查询只取得前100项。",
+    "project_relation_rule": "同账号项目、fork、收藏、资料链接均不自动等于本人招聘简历项目；需原文或项目说明建立明确关系。",
+    "stop_on_restricted_access": "遵从用户偏好，正文受限即给原始链接自行查找；父代理要求停止重试的三条旧受限原帖未再次请求。",
+    "packaging_boundary": "只保留短摘录、原创归纳、来源与访问状态；无第三方全文、完整简历、项目源码或联系方式打包。"
+  },
+  "evidence_strengthening": [
+    {
+      "subject": "Pyramiding/llm-interview-warehouse的INT041",
+      "original_url": "https://zhuanlan.zhihu.com/p/23907591319",
+      "title": "2025届搜广推算法方向求职历程（SSP、头部计划）",
+      "classification": "聚合索引的search_excerpt记录，不是本轮读到的原作者全文",
+      "fixed_source": {
+        "repository": "Pyramiding/llm-interview-warehouse",
+        "commit": "d05e6ab01ac7726b535ee2ae791e3d739b3e784b",
+        "commit_date": "2026-10-23T02:50:38Z",
+        "path": "docs/interviews/README.md",
+        "line_start": 317,
+        "line_end": 325,
+        "url": "https://github.com/Pyramiding/llm-interview-warehouse/blob/d05e6ab01ac7726b535ee2ae791e3d739b3e784b/docs/interviews/README.md#L317-L325",
+        "raw_url": "https://raw.githubusercontent.com/Pyramiding/llm-interview-warehouse/d05e6ab01ac7726b535ee2ae791e3d739b3e784b/docs/interviews/README.md",
+        "http_status": 200
+      },
+      "short_excerpt": "核验/备注：`search_excerpt`；正文搜索明确2024年3月日常实习，2025为毕业届次/发布年。",
+      "excerpt_note": "摘自索引第325行的部分文字；这是索引维护者的核验标注。",
+      "what_the_index_says": {
+        "companies": ["小红书", "快手", "百度"],
+        "role": "搜广推算法校招/实习",
+        "page_date": "2025-02-15",
+        "experience_period": "回顾2024年实习及秋招，精确面试日未确认",
+        "project_relation": "索引未给出可核对的本人GitHub项目或完整简历对应关系"
+      },
+      "author_interview_relation": "索引将材料标为interview_self_report，但本轮无法读取原帖作者与正文，只能转述索引记录的性质。",
+      "counting_decision": "不新增SSP成功者，不将搜广推算法直接归为Agent工程，不把毕业届次写成面试年份。"
+    }
+  ],
+  "deduplicated_existing_record": {
+    "public_account": "LittleChild",
+    "repository": "LittleChild/Preparation-For-OFFER",
+    "existing_record_ids_from_parent": ["CV16", "INT61"],
+    "classification": "已收历史视觉SLAM/定位/自动驾驶邻近算法自述，非近期Agent/LLM案例",
+    "known_commit": "6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21",
+    "ssp_source_url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251",
+    "earlier_read_short_excerpt": "过了。拿到了SSP",
+    "employer_boundary": "SSP位于地平线段；作者随后拒绝并选择小马。小马段的普通档和薪酬自述不能改写为小马SSP。",
+    "year_boundary": "正文有22领航员，仓库创建于2021年、最后更新于2022年；具体地平线offer年月未写明。",
+    "project_relation": "同账号存在MagWiFi、wifimage等非fork项目及多个SLAM fork；未建立与该次SSP简历项目的明确映射。本轮收到排重指示后不再读取这些项目。",
+    "read_scope": "前序工作已读取README；本轮未重新读取固定commit或项目实现，不把已知commit当成本轮新核验。",
+    "counting_decision": "保留排重说明，不再新增人员、项目或面经编号。"
+  },
+  "blocked_links": [
+    {
+      "url": "https://zhuanlan.zhihu.com/p/23907591319",
+      "title": "2025届搜广推算法方向求职历程（SSP、头部计划）",
+      "access_result": "此前普通URL GET403，公开article API也403；按父代理与用户指示不再重试",
+      "read_level": "仅搜索摘要及INT041聚合索引；原帖正文未读",
+      "pending_checks": ["作者及是否第一人称录用结果", "具体SSP公司与档位", "个人GitHub和实际项目", "岗位方向", "面试年份与毕业届次"],
+      "counted_as_success": false
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/667800837791461376",
+      "title": "我是怎么拿到中兴字节华为等10个SSP offer的",
+      "access_result": "此前HTTP200但只有标题/底栏，无section.post-content-box；sourceSSR也未得正文；不再重试",
+      "read_level": "标题和搜索摘要；原帖正文未读",
+      "pending_checks": ["作者和完整结果口径", "年份", "岗位", "本人项目或GitHub", "实习/校招/社招区分"],
+      "counted_as_success": false
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_30694389/article/details/166200952",
+      "title": "Agent工程化实战：从面试失败到SSP拿offer的四个硬核维度",
+      "access_result": "此前HTTP521无正文；不再重试",
+      "read_level": "仅标题和搜索摘要",
+      "pending_checks": ["本人复盘还是教程/转载/营销", "正式SSP结果", "本人项目和GitHub", "年月", "指标的原始证据"],
+      "counted_as_success": false
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/1931071514272326286",
+      "title": "从中山大学到中兴SSP：我的秋招打怪升级之路",
+      "access_result": "本轮首次普通URL GET403，无标题DOM或正文；不重试",
+      "read_level": "搜索发现的标题，原帖正文未读",
+      "pending_checks": ["作者与结果自述", "岗位和年份", "本人项目", "是否属于Agent/LLM工程", "实习或秋招正式岗"],
+      "counted_as_success": false
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/1936105845051103076",
+      "title": "沪漂双九女生：我的中兴SSP秋招选择与实用秘籍",
+      "access_result": "本轮首次普通URL GET403，无标题DOM或正文；不重试",
+      "read_level": "搜索摘要标2025-08-05并提及大模型开发；这些均未获正文确认",
+      "pending_checks": ["作者与结果自述", "岗位是否大模型开发及具体职责", "项目与GitHub", "文章日期和面试时间", "实习或秋招正式岗"],
+      "counted_as_success": false
+    }
+  ],
+  "other_unread_or_incomplete_leads": [
+    {
+      "url": "https://www.nowcoder.com/discuss/927156901626810368",
+      "title": "Agent冲大厂SSP，到底要准备到什么程度？",
+      "access_result": "此前HTTP200空壳；搜索摘要显示准备路线，未读正文",
+      "decision": "不能把标题中的目标SSP当成作者已获offer"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/91b7443f7bb34418929826ccc9802881",
+      "relation": "搜索发现的10个SSP同文feed别名",
+      "access_result": "未请求，遵从停止重试该受限原文的要求",
+      "decision": "不以换链接继续重试，不当新独立来源"
+    }
+  ],
+  "read_and_excluded_candidates": [
+    {"repository": "ObsidianL/Get-SSP-AI-Job", "read_scope": "main分支README，5行", "reason": "本人写立志成为推荐算法工程师；SSP是目标或仓库名，无已获得结果", "fixed_version_verified": false},
+    {"repository": "WJZVCGFB/OFFER_MARKET", "read_scope": "main分支README，66行", "reason": "网页小游戏里的Regular/SP/SSP奖励礼包，不是作者录用", "fixed_version_verified": false},
+    {"repository": "Yang6149/notes", "read_scope": "master分支README，43行", "reason": "21届作者自述两个不错offer，但SP/SSP句子是对项目的泛化建议，没有本人明确SSP结果", "fixed_version_verified": false},
+    {"repository": "AgentZero2002/Practice", "read_scope": "main分支README，403行", "reason": "SSP为最小费用最大流算法缩写", "fixed_version_verified": false},
+    {"repository": "Ronin-Chan/OpenSynapse", "read_scope": "main分支README，717行", "reason": "SSP-MMC为间隔重复记忆算法，不是招聘结果", "fixed_version_verified": false},
+    {"repository": "Alwayspushthru/opensynapse", "read_scope": "main分支README，681行", "reason": "SSP-MMC为间隔重复记忆算法，不是招聘结果", "fixed_version_verified": false},
+    {"repository": "shpilu/cloriSearch", "read_scope": "master分支README，182行", "reason": "SSP出现在广告平台技术文章目录，不是作者录用；历史已见不计新", "fixed_version_verified": false},
+    {"repository": "JeffreyZhao/ssp", "read_scope": "master分支README，113行", "reason": "学生IT图书资助计划，与招聘档位无关；不保留其中联系方式或参与者信息", "fixed_version_verified": false},
+    {"repository": "trialley/TA2020", "read_scope": "master分支README，176行", "reason": "本人求职准备夹有大量他人面经链接，未建立SSP标题与仓库作者结果关系", "fixed_version_verified": false},
+    {"repository": "sunyd1006/ssp", "read_scope": "请求master/README.md得到HTTP404", "reason": "只说明该路径不可读，不推断整个仓库没有材料", "fixed_version_verified": false},
+    {"repository": "wshzd/AI", "read_scope": "main分支README，240行", "reason": "13个offer、8家SSP属于资料目录标题，未追到原作者，不能归为仓库作者结果", "fixed_version_verified": false}
+  ],
+  "query_log": [
+    {"engine": "GitHub repository API", "query": "SSP NLP offer in:readme fork:false", "http_status": 200, "total_count": 57, "result": "主要是已知攻略、英文同名缩写和排行榜；不把命中数当成功者人数"},
+    {"engine": "GitHub repository API", "query": "SSP 算法 in:readme fork:false", "http_status": 200, "total_count": 289, "retrieved_items_limit": 100, "result": "发现LittleChild；父代理随后确认已收CV16/INT61，排重。仅前100项，非穷尽"},
+    {"engine": "GitHub repository API", "query": "SSP 大模型 面经 in:readme fork:false", "http_status": 200, "total_count": 13, "result": "所见为已知资料聚合、营销及既有弱例，未新增完整结果链"},
+    {"engine": "Yahoo", "query": "2025届 搜广推 算法 求职历程 SSP 头部计划", "http_status": 200, "result": "未获得结果"},
+    {"engine": "Yahoo", "query": "23907591319", "http_status": 200, "result": "找到知乎原帖摘要；混入同号无关搜索站，未访问或采集。仍未读正文"},
+    {"engine": "Yahoo", "query": "我是怎么拿到 中兴 字节 华为 10个SSP github", "http_status": 200, "result": "发现原牛客及feed别名和两条中兴SSP知乎线索；未建立本人GitHub项目对应"},
+    {"engine": "Yahoo", "query": "Agent工程化实战 从面试失败到SSP拿offer 四个硬核维度", "http_status": 200, "result": "原CSDN摘要与类似教程；无新的可确认本人结果"},
+    {"engine": "Yahoo", "query": "大模型 算法 ssp 面经 开源项目", "http_status": 500, "result": "未获得可读结果"},
+    {"engine": "Yahoo", "query": "agent ssp 拿下 项目 GitHub", "http_status": 500, "result": "未获得可读结果"},
+    {"engine": "Yahoo", "query": "Github NLP 多个ssp", "http_status": 200, "result": "多为NLP资源与同名组织，未形成新本人结果链"},
+    {"engine": "Yahoo", "query": "ssp 算法 复盘 2026 GitHub", "http_status": 500, "result": "未获得可读结果"},
+    {"engine": "Yahoo", "query": "\"从中山大学到中兴SSP\"", "http_status": 500, "result": "未获得可读结果"},
+    {"engine": "Yahoo", "query": "\"沪漂双九女生\" \"大模型\"", "http_status": 200, "result": "未取得可解析的搜索结果条目"},
+    {"engine": "Yahoo", "query": "\"2026\" \"SSP\" \"大模型\" \"github\"", "http_status": 500, "result": "未获得可读结果"},
+    {"engine": "Yahoo", "query": "\"Agent\" \"SSP\" \"面经\" \"项目\"", "http_status": 200, "result": "未取得可解析的搜索结果条目"}
+  ],
+  "limitations": [
+    "无企业offer原件或企业独立确认；即便读到本人自述也须保持自述标签。",
+    "本轮没有取得可对应近期Agent/LLM SSP结果的完整简历。",
+    "受限原帖的标题、摘要、作者、岗位与日期不得提升为正文已核事实。",
+    "排除记录只对应已读README范围，未固定版本的条目不作为可复现的正向录用证据。",
+    "未运行任何项目，未验证指标、生产流量、个人贡献或真实招聘因果。",
+    "不复制原文中的联系方式、个人隐私、辱骂或无关人名。"
+  ]
+}

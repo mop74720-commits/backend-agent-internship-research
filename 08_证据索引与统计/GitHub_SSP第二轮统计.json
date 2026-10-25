@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "scope": "第二轮扩搜；不保证穷尽",
+  "new_confirmed_github_ssp_self_report_authors": 3,
+  "new_backend_authors": [
+    "CV14",
+    "CV15"
+  ],
+  "new_adjacent_algorithm_author": "CV16",
+  "new_cross_platform_java_reference": "CV17",
+  "new_interview_records": 4,
+  "new_interview_channel_counterexample": "OBS04",
+  "public_html_profiles_read": 1,
+  "complete_cv_originals_authorized_for_packaging": 0,
+  "new_source_archives": 0,
+  "recent_agent_ssp_offer_mature_personal_project_and_interview_chain_confirmed": 0,
+  "totals": {
+    "candidate_cases": 17,
+    "interview_material_records": 55,
+    "project_analysis": 17,
+    "source_archives": 16,
+    "logical_evidence_records": 130
+  },
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 17,
+    "面经复盘": 55,
+    "B站与知乎": 7,
+    "项目参考": 17,
+    "官方技术资料": 10,
+    "候选人对照": 4,
+    "检索导航": 1
+  },
+  "boundary": "未检得不等于不存在；面试通道不是offer；同源多轮不是独立成功者；录用与贡献均自述。"
+}

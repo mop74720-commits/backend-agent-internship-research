@@ -1,0 +1,239 @@
+INT91 | 快手商业化 Java日常实习
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/discuss/719242991700889600
+公司：
+  快手
+方向与岗位：
+  快手；商业化Java；日常实习
+事件时间／原文日期（依分类）：
+  2024-11-05面试，11-06时间线标挂
+发表／来源日期：
+  编辑于  2025-02-13 01:00
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2024-11-05面试，11-06时间线标挂
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    编辑于  2025-02-13 01:00
+  时间依据：
+    正文直接写24.11.1约面、24.11.5面试、24.11.6挂。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+统计组：
+  明确事件年实习
+结果分类：
+  rejected_self_report
+结果自述：
+  本人时间线和正文自述流程不再推进；未通过
+逐项结果与档位：
+  - 公司：
+      快手
+    方向与岗位：
+      快手；商业化Java；日常实习
+    档位：
+      未披露
+    状态：
+      rejected_self_report
+    事件时间／原文日期（依分类）：
+      2024-11-05面试，11-06时间线标挂
+    证据：
+      https://ac.nowcoder.com/discuss/1455395
+    依据：
+      本人时间线和正文自述流程不再推进；未通过
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面；自述未通过
+    questions：
+      - JVM结构、HashMap旧版本扩容和AQS怎样说明？
+      - 项目中何时使用synchronized和ReentrantLock？
+      - 为什么要Redis缓存、网关和分布式Session？
+      - 多实例和分布式怎样实现？
+      - 手写两数之和。
+    结果自述：
+      本人时间线和正文自述流程不再推进；未通过
+涉及主题：
+  - 算法/编程
+  - JVM/语言运行时
+  - 并发/线程
+  - 数据库/SQL
+  - 缓存/Redis
+  - 分布式/一致性
+  - 项目深挖/个人贡献
+原文提问（归纳）：
+  - JVM结构、HashMap旧版本扩容和AQS怎样说明？
+  - 项目中何时使用synchronized和ReentrantLock？
+  - 为什么要Redis缓存、网关和分布式Session？
+  - 多实例和分布式怎样实现？
+  - 手写两数之和。
+内容归纳：
+  基础薄弱后转向项目提问：JVM、并发、索引、缓存、分布式Session及基础编码。
+商业与选择偏差：
+  作者末尾推荐《神品八股》专栏；不据此证明其个人项目能力。
+阅读建议：
+  反例价值高：技术栈列在简历上，仍需说清为何使用、如何工作。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  - source_id：
+      I17
+    依据：
+      两原帖作者链接均为/profile/294568332；不同日期、不同流程，非同一篇重复。
+related_record_ids：
+  - INT101
+source_record：
+  source_id：
+    I07
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    快手商业化 Java日常实习
+  原始来源：
+    https://www.nowcoder.com/discuss/719242991700889600
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1455395
+  canonical_post_key：
+    discuss/1455395
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    75c7b4b9f4749e6b49063a364c5fa1ac6182395d803873562f957d046aa6b90e
+  body_char_count：
+    728
+  source_card_path：
+    03_面经/I07.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    编辑于  2025-02-13 01:00
+  source_date_verified：
+    是
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_date：
+    2024-11-05面试，11-06时间线标挂
+  event_year_confirmed：
+    是
+  event_year：
+    2024
+  时间依据：
+    正文直接写24.11.1约面、24.11.5面试、24.11.6挂。
+  questions：
+    - JVM结构、HashMap旧版本扩容和AQS怎样说明？
+    - 项目中何时使用synchronized和ReentrantLock？
+    - 为什么要Redis缓存、网关和分布式Session？
+    - 多实例和分布式怎样实现？
+    - 手写两数之和。
+  涉及主题：
+    - 算法/编程
+    - JVM/语言运行时
+    - 并发/线程
+    - 数据库/SQL
+    - 缓存/Redis
+    - 分布式/一致性
+    - 项目深挖/个人贡献
+  结果分类：
+    rejected_self_report
+  result：
+    本人时间线和正文自述流程不再推进；未通过
+  档位：
+    未披露
+  公司：
+    快手
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    24.11.5 面试
+24.11.6 挂
+  阅读建议：
+    反例价值高：技术栈列在简历上，仍需说清为何使用、如何工作。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  same_author_relations：
+    - source_id：
+        I17
+      依据：
+        两原帖作者链接均为/profile/294568332；不同日期、不同流程，非同一篇重复。
+  商业背景：
+    作者末尾推荐《神品八股》专栏；不据此证明其个人项目能力。
+  author_profile：
+    https://www.nowcoder.com/profile/294568332
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP02
+    - CAP03
+    - CAP06
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    24.11.5 面试
+24.11.6 挂
+source_key：
+  ASTRA_I07_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I07
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

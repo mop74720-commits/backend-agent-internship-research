@@ -1,0 +1,147 @@
+INT80 | 小鹏秋招正式批 Golang后端 一二面面经（待HR面）
+
+需求核对版 · 2026-10-24
+
+source_key：
+  LEWY_XPENG_788000430
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/discuss/788000430256037888
+公司：
+  小鹏
+方向与岗位：
+  Golang后端；反问业务为机器人大数据上报
+事件时间／原文日期（依分类）：
+  2025秋招；具体面试日单篇未写
+发表／来源日期：
+  2025-08-21T03:12:23+00:00
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    校招
+  事件时间：
+    2025秋招；具体面试日单篇未写
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    2025-08-21T03:12:23+00:00
+  时间依据：
+    主文2025段落明确关联本篇；来源时间另列。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    公开文字全文已读；同作者主文直接链接、原帖作者ID一致
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  同候选人多场汇总（不拆成独立候选人）
+候选人关联ID：
+  - CV01
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确校招面经
+结果分类：
+  next_round_or_waiting_self_report
+结果自述：
+  待HR
+逐项结果与档位：
+  - 公司：
+      小鹏
+    方向与岗位：
+      Golang后端；反问业务为机器人大数据上报
+    档位：
+      未披露
+    状态：
+      next_round_or_waiting_self_report
+    证据：
+      https://www.nowcoder.com/discuss/788000430256037888
+    依据：
+      待HR
+    boundary：
+      明确保留原文记录时点，不倒写当时已拿SSP。
+    企业独立验证：
+      否
+涉及主题：
+  - Golang并发
+  - IPC/Protobuf
+  - TCP容量
+  - SQL
+  - 项目选型
+原文提问（归纳）：
+  - Protobuf选型、Unix Domain Socket、channel分离、生产消费和读多写少场景。
+  - 服务器TCP容量需要哪些资源估算，连接各阶段内存差异。
+  - 每用户最新记录SQL、Golang与Java原理差别、MySQL性能及协作。
+内容归纳：
+  文中SQL在作者说没做出后列出，作为事后补充参考，不称当场成功作答。
+rounds：
+  - 一面50分钟
+  - 二面50分钟
+source_record：
+  source_key：
+    LEWY_XPENG_788000430
+  candidate_existing_id：
+    CV01
+  原始来源：
+    https://ac.nowcoder.com/discuss/788000430256037888
+  canonical_url：
+    https://www.nowcoder.com/discuss/788000430256037888
+  标题：
+    小鹏秋招正式批 Golang后端 一二面面经（待HR面）
+  作者：
+    Lewy华
+  public_author_id：
+    541749765
+  公司：
+    小鹏
+  方向与岗位：
+    Golang后端；反问业务为机器人大数据上报
+  招聘类型：
+    校招正式批
+  event_date：
+    2025秋招；具体面试日单篇未写
+  event_year_basis：
+    主文2025段落明确关联本篇；来源时间另列。
+  source_dates：
+    published_utc：
+      2025-08-21T03:12:23+00:00
+    updated_utc：
+      2025-09-15T14:37:31+00:00
+  access：
+    状态：
+      200
+    selector：
+      .nc-post-content
+    范围：
+      公开文字全文已读
+  rounds：
+    - 一面50分钟
+    - 二面50分钟
+  questions_paraphrased：
+    - Protobuf选型、Unix Domain Socket、channel分离、生产消费和读多写少场景。
+    - 服务器TCP容量需要哪些资源估算，连接各阶段内存差异。
+    - 每用户最新记录SQL、Golang与Java原理差别、MySQL性能及协作。
+  project_relation：
+    主文直接关联且作者一致，项目技术细节可对应IM服务器；未核个人源码。
+  result：
+    single_article：
+      待HR
+    later_candidate_summary：
+      CV01主文自述最终小鹏SSP
+    boundary：
+      明确保留原文记录时点，不倒写当时已拿SSP。
+  questions_vs_answers：
+    文中SQL在作者说没做出后列出，作为事后补充参考，不称当场成功作答。

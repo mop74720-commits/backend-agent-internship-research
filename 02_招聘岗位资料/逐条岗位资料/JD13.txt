@@ -1,0 +1,78 @@
+JD13 | Dev Agent后端开发实习（北京/27届）
+
+需求核对版 · 2026-10-24
+
+公司：
+  字节跳动/开发者服务
+role_type：
+  Agent工程实习
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/a6d09e3d6f1845ba990a59acc366aca2
+publish_date：
+  页面02-10；年份未明示
+retrieved_date：
+  2026-10-23
+source_type：
+  自称雇员发布的招聘帖
+evidence_excerpt：
+  会一门后端语言即可
+own_summary：
+  研发提效Agent覆盖需求、编码、测试、发布、运维，强调工程知识与评测；一门后端语言即可进入候选范围。
+required_stack：
+  - Go/Java/Python/C++择一
+  - 工程兴趣与逻辑能力
+preferred_stack：
+  —
+degree_constraint：
+  27届，2026-09至2027-08毕业
+availability_constraint：
+  未展示
+recruiting_status：
+  未核验
+原访问范围：
+  全文
+证据边界：
+  中高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - Agent实践
+  - 观测评测
+  - 工程质量测试
+duties：
+  研发全链路；Prompt、知识工程、评测
+局限：
+  同方向官方岗位能检索到，但网页正文未读到；未把官方摘要额外要求并入此条。
+类别：
+  招聘JD
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    页面02-10；年份未明示
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    页面只给月日，不从届别补年
+  来源日期：
+    页面02-10；年份未明示
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

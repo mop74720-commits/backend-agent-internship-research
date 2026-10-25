@@ -1,0 +1,83 @@
+OP04 | 《Agent 评测白皮书》系列01：Agent 评测全览
+
+需求核对版 · 2026-10-24
+
+平台：
+  知乎+作者官方技术博客
+作者：
+  美团技术团队／图灵Agent评测
+原始来源：
+  https://zhuanlan.zhihu.com/p/2081333572456206815
+作者原站：
+  https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html
+事件时间／原文日期（依分类）：
+  2026-09-10（官方原文）
+作者身份依据：
+  美团官方技术域名同名原文可读；知乎组织栏目亦收录。
+具体观点与适用边界：
+  工程难点包括真实场景覆盖、问题定位与业务价值证明。建议评测和Agent迭代联动，先建最小观测、回归集与版本门禁，再按问题扩展。
+局限：
+  工程团队实践方法，不是美团招聘评分表，也不意味着学生要照搬全部平台。
+商业与选择偏差：
+  企业技术传播及人才品牌利益；未见课程付费导流。
+原访问范围：
+  知乎索引摘要；同作者官方原文全文可读
+阅读建议：
+  高优先级；用来确定项目的评测闭环、失败归因与验收材料。
+retrieved_at：
+  2026-10-23
+正文核读边界：
+  美团官网正文已读；知乎原文正文未取到
+verified_video_viewing：
+  否
+类别：
+  B站与知乎
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    未知
+  事件时间：
+    2026-09-10（作者官方技术博客）
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    不适用
+  时间依据：
+    专业观点发表/更新的日期，不是候选人的招聘事件；搜索推定不记确认年
+  来源日期：
+    2026-09-10（官方原文）
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    知乎索引摘要；同作者官方原文全文可读；作者官方全文已核验
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+  primary_platform_scope：
+    摘要
+  substitute_original_scope：
+    全文
+  substitute_original_url：
+    https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html
+逐项结果与档位：
+  —
+本轮访问复核：
+  资料ID：
+    OP04
+  original_url：
+    https://zhuanlan.zhihu.com/p/2081333572456206815
+  author_site_url：
+    https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html
+  access_status：
+    本轮知乎原页HTTP 403；作者官方全文沿用前轮已核，不重复增作者或计数
+  正文核读边界：
+    美团官网正文已读；知乎原文正文未取到
+  verified_video_viewing：
+    否

@@ -1,0 +1,103 @@
+[
+  {
+    "url": "https://api.github.com/repos/apache/shenyu/pulls/3848",
+    "status": 200,
+    "data": {
+      "title": "[type:Integration Test] add integrated-test of Oauth2 plugin",
+      "url": "https://github.com/apache/shenyu/pull/3848",
+      "user_login": "erdengk",
+      "merged": true,
+      "merged_at": "2022-08-29T07:31:32Z",
+      "merge_commit_sha": "22546ae0e6a4047ee08bf4a41f9114f47ba57e19",
+      "changed_files": 5
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/apache/shenyu/pulls/3848/files?per_page=100",
+    "status": 200,
+    "data": [
+      {
+        "filename": "shenyu-examples/shenyu-examples-http/src/main/java/org/apache/shenyu/examples/http/controller/OauthController.java",
+        "status": "added",
+        "additions": 43,
+        "deletions": 0,
+        "raw_url": "https://github.com/apache/shenyu/raw/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-examples%2Fshenyu-examples-http%2Fsrc%2Fmain%2Fjava%2Forg%2Fapache%2Fshenyu%2Fexamples%2Fhttp%2Fcontroller%2FOauthController.java"
+      },
+      {
+        "filename": "shenyu-integrated-test/shenyu-integrated-test-https/docker-compose.yml",
+        "status": "modified",
+        "additions": 20,
+        "deletions": 0,
+        "raw_url": "https://github.com/apache/shenyu/raw/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test%2Fshenyu-integrated-test-https%2Fdocker-compose.yml"
+      },
+      {
+        "filename": "shenyu-integrated-test/shenyu-integrated-test-https/pom.xml",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 0,
+        "raw_url": "https://github.com/apache/shenyu/raw/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test%2Fshenyu-integrated-test-https%2Fpom.xml"
+      },
+      {
+        "filename": "shenyu-integrated-test/shenyu-integrated-test-https/src/main/resources/application.yml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "raw_url": "https://github.com/apache/shenyu/raw/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test%2Fshenyu-integrated-test-https%2Fsrc%2Fmain%2Fresources%2Fapplication.yml"
+      },
+      {
+        "filename": "shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java",
+        "status": "added",
+        "additions": 51,
+        "deletions": 0,
+        "raw_url": "https://github.com/apache/shenyu/raw/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test%2Fshenyu-integrated-test-https%2Fsrc%2Ftest%2Fjava%2Forg%2Fapache%2Fshenyu%2Fintegrated%2Ftest%2Fhttps%2FOauth2PluginTest.java"
+      }
+    ]
+  },
+  {
+    "url": "https://api.github.com/repos/apache/shenyu/pulls/3672",
+    "status": 200,
+    "data": {
+      "title": "[type:Integration Test] add integrated-test of logging-rocketmq-plugin",
+      "url": "https://github.com/apache/shenyu/pull/3672",
+      "user_login": "erdengk",
+      "merged": true,
+      "merged_at": "2022-07-06T15:54:15Z",
+      "merge_commit_sha": "5ba8e13c2c3cf330bb30924190ca6a97fb112283",
+      "changed_files": 4
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/apache/shenyu/pulls/3672/files?per_page=100",
+    "status": 200,
+    "data": [
+      {
+        "filename": "shenyu-integrated-test/shenyu-integrated-test-http/config/broker.conf",
+        "status": "added",
+        "additions": 23,
+        "deletions": 0,
+        "raw_url": "https://github.com/apache/shenyu/raw/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test%2Fshenyu-integrated-test-http%2Fconfig%2Fbroker.conf"
+      },
+      {
+        "filename": "shenyu-integrated-test/shenyu-integrated-test-http/docker-compose.yml",
+        "status": "modified",
+        "additions": 42,
+        "deletions": 1,
+        "raw_url": "https://github.com/apache/shenyu/raw/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test%2Fshenyu-integrated-test-http%2Fdocker-compose.yml"
+      },
+      {
+        "filename": "shenyu-integrated-test/shenyu-integrated-test-http/pom.xml",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 0,
+        "raw_url": "https://github.com/apache/shenyu/raw/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test%2Fshenyu-integrated-test-http%2Fpom.xml"
+      },
+      {
+        "filename": "shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java",
+        "status": "added",
+        "additions": 88,
+        "deletions": 0,
+        "raw_url": "https://github.com/apache/shenyu/raw/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test%2Fshenyu-integrated-test-http%2Fsrc%2Ftest%2Fjava%2Forg%2Fapache%2Fshenyu%2Fintegrated%2Ftest%2Fhttp%2Fcombination%2FRocketMqPluginTest.java"
+      }
+    ]
+  }
+]

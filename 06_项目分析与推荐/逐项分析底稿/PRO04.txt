@@ -1,0 +1,121 @@
+PRO04 | Ragent：Java Agent与RAG全链路参考
+
+需求核对版 · 2026-10-24
+
+仓库：
+  nageoffer/ragent
+原始来源：
+  https://github.com/nageoffer/ragent
+方向与岗位：
+  Agent工程
+阅读建议：
+  Java基础较强时优先研究，重点是检索与执行边界
+技术栈：
+  - Java
+  - Spring Boot
+  - AgentScope
+  - RAG
+  - MCP
+  - React
+值得学习之处：
+  - 同时提供固定Workflow与自主Agent路径，适合比较何时需要Agent
+  - 代码包含确认拒绝处理、状态存储、记忆及检索模块
+局限与静态风险：
+  - 已经是一套较大的平台，不宜整体冒充个人原创
+  - 页面中的企业级与质量主张仍需自行复现
+  - 模型确认机制不自动等于后端业务授权和事务一致性
+borrow：
+  文档入库、检索、上下文管理、工具确认和观测的分层。
+extend：
+  加入真实领域任务、服务端授权、文档撤权与版本更新、冻结测试集、工具幂等恢复，证明自己的增量。
+已定位阅读路径：
+  - agent/src/main/java/com/nageoffer/ai/ragent/agent/confirm/AgentConfirmDenialMiddleware.java
+  - agent/src/main/java/com/nageoffer/ai/ragent/agent/dao/mapper/AgentStateMapper.java
+  - agent/src/main/java/com/nageoffer/ai/ragent/agent/config/AgentEngineConfiguration.java
+interview_questions：
+  - 何时走Workflow，何时走Agent？
+  - 用户拒绝后如何防止继续写操作？
+  - 检索正确是否意味着任务执行成功？
+商业与选择偏差：
+  课程/社群营销明显；不将宣传语作招聘或录用证据。
+取得源码ZIP：
+  是
+固定源码提交：
+  ff93871ab88fff24a5dac7feee7ea342359a3439
+源码提交时间：
+  2026-10-15T15:07:15Z
+许可标识：
+  Apache-2.0
+源码包文件：
+  nageoffer__ragent__ff93871ab88f.zip
+源码包SHA-256：
+  353e9f000a7de260b86ca9ad17c7b6c664c60962813d1f269081f88173f43a39
+inspection_boundary：
+  拒绝middleware所选代码主要修正用户取消后的文案，不能单凭它证明业务授权。
+类别：
+  项目参考
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-10-15T15:07:15Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    已有Java基础后读状态存储和服务边界；不适合替代传统后端基本功。
+  指定模块：
+    - agent/src/main/java/com/nageoffer/ai/ragent/agent/confirm/AgentConfirmDenialMiddleware.java
+    - agent/src/main/java/com/nageoffer/ai/ragent/agent/dao/mapper/AgentStateMapper.java
+    - agent/src/main/java/com/nageoffer/ai/ragent/agent/config/AgentEngineConfiguration.java
+Agent方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    Java方向重点比较Workflow/Agent、状态与拒绝处理，先确认边界再看功能。
+  指定模块：
+    - agent/src/main/java/com/nageoffer/ai/ragent/agent/confirm/AgentConfirmDenialMiddleware.java
+    - agent/src/main/java/com/nageoffer/ai/ragent/agent/dao/mapper/AgentStateMapper.java
+    - agent/src/main/java/com/nageoffer/ai/ragent/agent/config/AgentEngineConfiguration.java
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    nageoffer__ragent__ff93871ab88f.zip
+  固定源码提交：
+    ff93871ab88fff24a5dac7feee7ea342359a3439
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

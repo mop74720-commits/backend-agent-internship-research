@@ -1,0 +1,1021 @@
+{
+  "retrieved_date": "2026-10-23",
+  "methodology": {
+    "total_primary_or_indexed_records": 19,
+    "full_first_party_engineering_sample": 14,
+    "research_comparators": 3,
+    "indexed_only": 2,
+    "unverified_aggregator_leads": 2,
+    "frequency_definition": "仅统计14条全文可见的一手工程实习JD；要求、加分和工作职责中明确提及均算“提及”，不等于硬门槛；未提及不等于不要求。",
+    "sampling_bias": "便利样本，字节与百度占比较高；不代表全市场，不计算录取概率或SSP概率；公开页面不保证当前HC。",
+    "deduplication": "同名但职责或团队显著不同才分开，例如飞书通用服务端与Agent/RAG分别列出；官方和牛客同岗位不重复计数。"
+  },
+  "jobs": [
+    {
+      "id": "JD01",
+      "title": "抖音-27届-后端开发实习生",
+      "company": "字节跳动/抖音平台产品",
+      "role_type": "后端实习",
+      "url": "https://www.nowcoder.com/jobs/detail/437499",
+      "publish_date": "未展示发布日期；面向2027届",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在牛客发布的JD",
+      "evidence_excerpt": "MySQL、Redis、消息队列",
+      "own_summary": "负责高并发系统设计与迭代；计算机与算法基础、代码质量，以及MySQL、Redis、MQ被明确列入要求。",
+      "required_stack": [
+        "扎实编程",
+        "计算机原理",
+        "数据结构与算法",
+        "MySQL",
+        "Redis",
+        "消息队列"
+      ],
+      "preferred_stack": [],
+      "degree_constraint": "2027届本科及以上；相关专业优先",
+      "availability_constraint": "每周4天以上；4个月以上",
+      "recruiting_status": "页面显示已结束",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "数据库或存储",
+        "缓存",
+        "消息队列",
+        "架构性能可靠性"
+      ],
+      "duties": "系统架构与性能优化",
+      "limitations": ""
+    },
+    {
+      "id": "JD02",
+      "title": "后台开发-2027届暑期实习生",
+      "company": "腾讯云智研发",
+      "role_type": "后端实习",
+      "url": "https://www.nowcoder.com/jobs/detail/437835",
+      "publish_date": "投递期2026-03-10至2026-07-31",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在牛客发布的JD",
+      "evidence_excerpt": "扎实的编程能力",
+      "own_summary": "语言、网络编程与专业基础为必备；数据库、脚本和KV原理为了解项；分布式、容灾与高可用为加分。",
+      "required_stack": [
+        "C/C++/Java/Go择一",
+        "TCP/UDP及网络编程",
+        "进程通信",
+        "数据结构与算法",
+        "操作系统",
+        "设计模式",
+        "数据库系统",
+        "网络安全"
+      ],
+      "preferred_stack": [
+        "Python/Shell/Perl了解",
+        "MySQL/SQL了解",
+        "NoSQL/KV原理了解",
+        "分布式系统",
+        "负载均衡",
+        "容灾与高可用"
+      ],
+      "degree_constraint": "本科以上；非计算机专业需补齐必修课",
+      "availability_constraint": "5天/周；最少3个月",
+      "recruiting_status": "已结束",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "操作系统Linux",
+        "网络协议",
+        "数据库或存储",
+        "缓存",
+        "架构性能可靠性"
+      ],
+      "duties": "后台设计、开发、优化与运营",
+      "limitations": "雇主为腾讯云智研发；不能直接等同腾讯总部所有事业群的要求或薪酬。"
+    },
+    {
+      "id": "JD03",
+      "title": "暑期实习-Java研发工程师（供应链&IDC-天基）",
+      "company": "阿里云",
+      "role_type": "后端实习",
+      "url": "https://mnowpick.nowcoder.com/m/detail/index?jobId=379097",
+      "publish_date": "投递期2025-03-01至2025-04-30",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在牛客发布的JD",
+      "evidence_excerpt": "有熟练的编程能力",
+      "own_summary": "围绕云数据中心运维与管理平台；学历与数理、编程、算法基础明确，未列出Spring或中间件清单。",
+      "required_stack": [
+        "熟练编程",
+        "数据结构与算法",
+        "数理基础"
+      ],
+      "preferred_stack": [],
+      "degree_constraint": "硕士及以上在读；2025-09至2026-06毕业优先",
+      "availability_constraint": "未展示",
+      "recruiting_status": "历史招聘期已结束",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法"
+      ],
+      "duties": "数据中心监控、能耗、智能运维",
+      "limitations": "Java来自岗位标题；不得推断该JD明确要求Spring、Redis。"
+    },
+    {
+      "id": "JD04",
+      "title": "软件研发工程师（实习）",
+      "company": "小米集团",
+      "role_type": "平台后端实习",
+      "url": "https://www.nowcoder.com/jobs/detail/433220?urlSource=sitemap",
+      "publish_date": "投递期2026-02-24至2026-02-28",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在牛客发布的JD",
+      "evidence_excerpt": "熟悉Linux/Unix系统",
+      "own_summary": "建设运维与云资源平台，强调Linux、完整软件工程流程和问题闭环；不是单纯业务CRUD。",
+      "required_stack": [
+        "Go/C/C++/Java择一",
+        "Linux/Unix",
+        "设计开发测试发布流程"
+      ],
+      "preferred_stack": [
+        "Ruby/Python/Bash"
+      ],
+      "degree_constraint": "页面标2026届；学历栏不限",
+      "availability_constraint": "页面显示最少5个月；7天/周字段异常待核验",
+      "recruiting_status": "已结束",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "操作系统Linux",
+        "工程质量测试",
+        "架构性能可靠性"
+      ],
+      "duties": "DevOps、SRE、AIOps与站点稳定性",
+      "limitations": "7天/周仅记录页面字段，不作为真实劳动安排结论。"
+    },
+    {
+      "id": "JD05",
+      "title": "后端实习工程师（J93985）",
+      "company": "百度MEG",
+      "role_type": "后端实习（智能体业务）",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/ef58d698-b944-4c05-86fe-e76daffecc8b",
+      "publish_date": "2026-07-21（官网展示日期）",
+      "retrieved_date": "2026-10-23",
+      "source_type": "官方招聘",
+      "evidence_excerpt": "掌握go或java",
+      "own_summary": "业务涉及智能体，但要求主体仍是Go/Java、RPC、缓存、MySQL优化与架构；可作为后端到Agent的桥接岗位。",
+      "required_stack": [
+        "Go或Java及相应框架",
+        "RPC",
+        "分布式缓存",
+        "MySQL及调优",
+        "SOA",
+        "数据结构",
+        "架构设计",
+        "面向对象"
+      ],
+      "preferred_stack": [
+        "AI技术与项目经验"
+      ],
+      "degree_constraint": "未展示",
+      "availability_constraint": "未展示",
+      "recruiting_status": "页面可读；实时HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "数据库或存储",
+        "缓存",
+        "RPC",
+        "架构性能可靠性"
+      ],
+      "duties": "妙笔与智能体业务可靠性、性能与扩展性",
+      "limitations": ""
+    },
+    {
+      "id": "JD06",
+      "title": "服务端研发工程师（Golang）",
+      "company": "百度网盘/文库内容安全",
+      "role_type": "后端实习",
+      "url": "https://www.shixiseng.com/intern/inn_5lxff4vehchx?pcm=pc_SearchList",
+      "publish_date": "2026-09-14刷新",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在实习僧发布的JD",
+      "evidence_excerpt": "Golang优先",
+      "own_summary": "内容安全服务端要求理解数据库、缓存、消息队列原理，同时强调系统与网络基础、代码规范和稳定性治理。",
+      "required_stack": [
+        "至少一门后端语言",
+        "MySQL",
+        "Redis",
+        "MQ原理",
+        "数据结构",
+        "操作系统",
+        "网络"
+      ],
+      "preferred_stack": [
+        "Golang"
+      ],
+      "degree_constraint": "本科（页面字段）",
+      "availability_constraint": "5天/周；3个月",
+      "recruiting_status": "页面有投递入口；截止2027-01-01，HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "操作系统Linux",
+        "网络协议",
+        "数据库或存储",
+        "缓存",
+        "消息队列",
+        "架构性能可靠性"
+      ],
+      "duties": "分布式性能与线上稳定性维护",
+      "limitations": ""
+    },
+    {
+      "id": "JD07",
+      "title": "后端开发实习生-飞书项目",
+      "company": "字节跳动/飞书项目",
+      "role_type": "后端实习",
+      "url": "https://www.nowcoder.com/jobs/detail/463791",
+      "publish_date": "未展示；当前抓取样本",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在牛客发布的JD",
+      "evidence_excerpt": "基础系统设计能力",
+      "own_summary": "项目管理产品服务端，需要基础系统设计、存储缓存、测试日志和排障；高并发与解耦属于工作内容。",
+      "required_stack": [
+        "后端开发经验",
+        "Go/Java/Python择一",
+        "后端框架",
+        "协议",
+        "存储",
+        "缓存",
+        "系统设计",
+        "测试日志规范"
+      ],
+      "preferred_stack": [
+        "Golang"
+      ],
+      "degree_constraint": "本科及以上在读；计算机/软件/AI相关优先",
+      "availability_constraint": "5天/周；3个月以上",
+      "recruiting_status": "页面有投递入口；HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "网络协议",
+        "数据库或存储",
+        "缓存",
+        "工程质量测试",
+        "架构性能可靠性"
+      ],
+      "duties": "高并发、系统解耦、技术调研",
+      "limitations": "存储未指定MySQL，不在精确MySQL频次中计数。"
+    },
+    {
+      "id": "JD08",
+      "title": "AI Agent开发实习生-计算",
+      "company": "字节跳动/基础设施计算",
+      "role_type": "Agent工程实习",
+      "url": "https://www.nowcoder.com/jobs/detail/432128?urlSource=sitemap",
+      "publish_date": "未展示；面向2027届",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在牛客发布的JD",
+      "evidence_excerpt": "记忆、知识、鉴权、观测",
+      "own_summary": "参与企业Agent框架与全生命周期能力；身份、鉴权、记忆、知识和观测是明确工作边界，Agent实践是加分。",
+      "required_stack": [
+        "数据结构与算法",
+        "C/C++/Python/Go/Java择一"
+      ],
+      "preferred_stack": [
+        "Agent开发",
+        "Agent框架",
+        "Agent Skills"
+      ],
+      "degree_constraint": "2027届本科及以上；计算机通信等相关",
+      "availability_constraint": "4天/周；最少3个月",
+      "recruiting_status": "页面有投递入口；HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "Agent实践",
+        "工具编排",
+        "记忆上下文",
+        "权限安全",
+        "观测评测"
+      ],
+      "duties": "多Agent、记忆知识、鉴权观测、开发框架",
+      "limitations": ""
+    },
+    {
+      "id": "JD09",
+      "title": "后端开发实习生-飞书（Agent/RAG）",
+      "company": "字节跳动/飞书",
+      "role_type": "Agent工程实习",
+      "url": "https://www.nowcoder.com/jobs/detail/432353",
+      "publish_date": "未展示；日常实习",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在牛客发布的JD",
+      "evidence_excerpt": "检索、召回、重排",
+      "own_summary": "明确后端底座加Agent/RAG基础；工作含召回、重排、知识索引、Prompt版本和基础评测，而非只连接LLM接口。",
+      "required_stack": [
+        "后端开发经验",
+        "Go/Java/Python择一",
+        "系统设计",
+        "存储缓存协议",
+        "LLM应用架构",
+        "Agent/RAG/SFT基本认知",
+        "测试日志规范"
+      ],
+      "preferred_stack": [
+        "Golang",
+        "LLM应用工程",
+        "AI研发工具",
+        "校园/竞赛/开源实践"
+      ],
+      "degree_constraint": "本科及以上在读；相关专业优先",
+      "availability_constraint": "5天/周；3个月以上",
+      "recruiting_status": "已结束",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "网络协议",
+        "数据库或存储",
+        "缓存",
+        "工程质量测试",
+        "架构性能可靠性",
+        "Agent实践",
+        "RAG",
+        "工具编排",
+        "记忆上下文",
+        "观测评测"
+      ],
+      "duties": "规划、工具、对话管理；RAG召回重排；Prompt版本、评测与监控",
+      "limitations": ""
+    },
+    {
+      "id": "JD10",
+      "title": "智能体应用开发实习生（J99649）",
+      "company": "百度ACG",
+      "role_type": "Agent工程实习",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/e3cec5b8-b7a3-4946-99fc-b292b749cd53",
+      "publish_date": "2026-07-21（官网展示日期）",
+      "retrieved_date": "2026-10-23",
+      "source_type": "官方招聘",
+      "evidence_excerpt": "理解知识图谱基本概念",
+      "own_summary": "面向代码理解与根因分析的Agent工程，要求RAG、知识图谱和框架使用；AST与调用链经验可形成项目差异。",
+      "required_stack": [
+        "数据结构与算法",
+        "操作系统",
+        "网络",
+        "Python/Java/Go择一",
+        "RAG",
+        "Prompt工程",
+        "知识图谱概念",
+        "LangChain/LlamaIndex",
+        "Coze/Dify/AppBuilder/百炼任选"
+      ],
+      "preferred_stack": [
+        "PyTorch/TensorFlow/Paddle/DeepSpeed",
+        "AST/代码调用链/依赖分析",
+        "CodeAgent/AI Coding实践"
+      ],
+      "degree_constraint": "本科及以上在校；计算机/AI/自动化/数学优先",
+      "availability_constraint": "线下5个月以上；每周4天以上",
+      "recruiting_status": "页面可读；实时HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "操作系统Linux",
+        "网络协议",
+        "Agent实践",
+        "RAG",
+        "框架",
+        "知识图谱代码分析",
+        "工程质量测试"
+      ],
+      "duties": "代码结构知识、问题溯源、生成测试部署",
+      "limitations": "岗位工作也提到训练策略探索，不能把深度学习优先项误写为所有Agent工程岗硬门槛。"
+    },
+    {
+      "id": "JD11",
+      "title": "AI开放平台研发工程师实习生（J103363）",
+      "company": "百度安全与企业效率平台",
+      "role_type": "后端与Agent平台实习",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9",
+      "publish_date": "2026-07-21（官网展示日期）",
+      "retrieved_date": "2026-10-23",
+      "source_type": "官方招聘",
+      "evidence_excerpt": "熟练掌握 Java",
+      "own_summary": "很契合Java后端加Agent双项目：基础要求扎实Java后端，平台职责含鉴权配额、模型路由、工具接入和链路监控。",
+      "required_stack": [
+        "数据结构与算法",
+        "操作系统",
+        "网络",
+        "数据库",
+        "Java/JVM/并发/集合",
+        "Spring/Spring Boot",
+        "RESTful",
+        "MySQL",
+        "Redis"
+      ],
+      "preferred_stack": [
+        "消息队列",
+        "Agent/RAG/Function Calling/MCP实践",
+        "LLM API/流式/Token计费",
+        "API网关/OAuth2/JWT/限流熔断/可观测",
+        "微服务/高并发/开源贡献"
+      ],
+      "degree_constraint": "未展示",
+      "availability_constraint": "未展示",
+      "recruiting_status": "页面可读；实时HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "操作系统Linux",
+        "网络协议",
+        "数据库或存储",
+        "缓存",
+        "消息队列",
+        "Java运行时",
+        "Spring",
+        "Agent实践",
+        "RAG",
+        "工具编排",
+        "权限安全",
+        "记忆上下文",
+        "观测评测",
+        "架构性能可靠性"
+      ],
+      "duties": "能力注册治理、模型路由、上下文、流式响应、鉴权配额",
+      "limitations": ""
+    },
+    {
+      "id": "JD12",
+      "title": "阿里国际实习招聘（AI应用研发）",
+      "company": "阿里国际",
+      "role_type": "Agent工程实习",
+      "url": "https://www.nowcoder.com/feed/main/detail/22154e3d68ed481588263f61f5f616b4",
+      "publish_date": "页面03-24；年份未明示",
+      "retrieved_date": "2026-10-23",
+      "source_type": "自称雇员发布的招聘帖",
+      "evidence_excerpt": "自动化评测与回测机制",
+      "own_summary": "从业务问题、知识环境到工程闭环，要求理解模型局限与风险；评测回测、观测、异步降级均是明确方向。",
+      "required_stack": [
+        "Java/Python/JS等一种深入实践",
+        "数据结构算法",
+        "网络操作系统",
+        "LLM应用范式",
+        "Context/Prompt工程",
+        "工具调用",
+        "Agent框架",
+        "AI Coding经验"
+      ],
+      "preferred_stack": [
+        "RAG/多Agent/MCP/Skills落地",
+        "高质量开源/博客",
+        "vLLM/Ollama/延迟/KV cache理解",
+        "CV/NLP/SFT/RL经验"
+      ],
+      "degree_constraint": "相关专业优先；学历/届别未展示",
+      "availability_constraint": "未展示",
+      "recruiting_status": "未核验",
+      "access_level": "全文",
+      "confidence": "中高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "操作系统Linux",
+        "网络协议",
+        "Agent实践",
+        "RAG",
+        "框架",
+        "工具编排",
+        "记忆上下文",
+        "权限安全",
+        "观测评测",
+        "架构性能可靠性"
+      ],
+      "duties": "业务归因、反思纠错、自动评测回测、链路归因、异步与降级",
+      "limitations": "牛客带阿里研发职业标签；招聘人身份未由雇主二次验证。"
+    },
+    {
+      "id": "JD13",
+      "title": "Dev Agent后端开发实习（北京/27届）",
+      "company": "字节跳动/开发者服务",
+      "role_type": "Agent工程实习",
+      "url": "https://www.nowcoder.com/feed/main/detail/a6d09e3d6f1845ba990a59acc366aca2",
+      "publish_date": "页面02-10；年份未明示",
+      "retrieved_date": "2026-10-23",
+      "source_type": "自称雇员发布的招聘帖",
+      "evidence_excerpt": "会一门后端语言即可",
+      "own_summary": "研发提效Agent覆盖需求、编码、测试、发布、运维，强调工程知识与评测；一门后端语言即可进入候选范围。",
+      "required_stack": [
+        "Go/Java/Python/C++择一",
+        "工程兴趣与逻辑能力"
+      ],
+      "preferred_stack": [],
+      "degree_constraint": "27届，2026-09至2027-08毕业",
+      "availability_constraint": "未展示",
+      "recruiting_status": "未核验",
+      "access_level": "全文",
+      "confidence": "中高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "Agent实践",
+        "观测评测",
+        "工程质量测试"
+      ],
+      "duties": "研发全链路；Prompt、知识工程、评测",
+      "limitations": "同方向官方岗位能检索到，但网页正文未读到；未把官方摘要额外要求并入此条。"
+    },
+    {
+      "id": "JD14",
+      "title": "Agent研发工程师（实习生）",
+      "company": "百度",
+      "role_type": "Agent工程实习",
+      "url": "https://www.shixiseng.com/intern/inn_py1hkw0wds9o?pcm=pc_SearchList",
+      "publish_date": "2026-09-22刷新",
+      "retrieved_date": "2026-10-23",
+      "source_type": "企业在实习僧发布的JD",
+      "evidence_excerpt": "任务成功率、执行效率、稳定性",
+      "own_summary": "围绕任务规划、工具、上下文和异常恢复建设Agent Harness；明确用成功率、执行效率和稳定性持续评测。",
+      "required_stack": [
+        "Python/Go等一种语言",
+        "数据结构与算法",
+        "LLM/RAG/Function Call/任务规划认知",
+        "系统设计与抽象"
+      ],
+      "preferred_stack": [
+        "框架/中间件设计落地"
+      ],
+      "degree_constraint": "相关专业在读本科/硕士",
+      "availability_constraint": "正文6个月以上；页头4个月；5天/周",
+      "recruiting_status": "页面有投递入口；截止2027-01-01，HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": true,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "Agent实践",
+        "RAG",
+        "工具编排",
+        "记忆上下文",
+        "观测评测",
+        "架构性能可靠性",
+        "工程质量测试"
+      ],
+      "duties": "多Agent、任务调度、异常恢复；测试集与任务成功率",
+      "limitations": "实习时长字段冲突：以正文6个月作为保守筛选，投递前问招聘方。"
+    },
+    {
+      "id": "JD15",
+      "title": "Agent策略算法实习生（J98721）",
+      "company": "百度MEG",
+      "role_type": "Agent算法实习（对照）",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/6f85641f-2a8e-4806-bbb5-4bbbf4705741",
+      "publish_date": "2026-07-21（官网展示日期）",
+      "retrieved_date": "2026-10-23",
+      "source_type": "官方招聘",
+      "evidence_excerpt": "熟悉 Python",
+      "own_summary": "工作直接涉及模型训练、DPO/GRPO；Python与深度学习框架属于要求，不能以普通Agent应用项目替代。",
+      "required_stack": [
+        "Python",
+        "PyTorch/PaddlePaddle等深度学习框架"
+      ],
+      "preferred_stack": [
+        "Transformer/LLM原理",
+        "Prompt/SFT/PPO/DPO实践",
+        "LangChain/Dify实践"
+      ],
+      "degree_constraint": "计算机/AI等相关专业；学历层级未展示",
+      "availability_constraint": "未展示",
+      "recruiting_status": "页面可读；实时HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": false,
+      "tags": [
+        "编程基础",
+        "模型训练研究",
+        "框架"
+      ],
+      "duties": "训练评估与Agent策略、长上下文与多模态",
+      "limitations": ""
+    },
+    {
+      "id": "JD16",
+      "title": "Agent/RL方向大模型27届实习生",
+      "company": "字节跳动/商业信任与安全",
+      "role_type": "Agent算法研究实习（对照）",
+      "url": "https://www.nowcoder.com/feed/main/detail/d28cf1fc8c044de7b86bacd77fb01808",
+      "publish_date": "页面03-04；年份未明示",
+      "retrieved_date": "2026-10-23",
+      "source_type": "自称雇员发布的招聘帖",
+      "evidence_excerpt": "27届硕士或博士在读",
+      "own_summary": "研究倾向明显：硕博要求，重代码算法和机器学习基础，预训练、微调、强化学习、竞赛与顶会成果加分。",
+      "required_stack": [
+        "C/C++或Python",
+        "数据结构与算法",
+        "机器学习/LLM原理"
+      ],
+      "preferred_stack": [
+        "预训练/微调/RL/Agent经验",
+        "ACM/ICPC/TopCoder/Kaggle奖项",
+        "高影响项目/顶会论文"
+      ],
+      "degree_constraint": "27届硕士或博士；计算机电子信息相关",
+      "availability_constraint": "未展示",
+      "recruiting_status": "未核验",
+      "access_level": "全文",
+      "confidence": "中高",
+      "matrix_include": false,
+      "tags": [
+        "编程基础",
+        "数据结构算法",
+        "模型训练研究"
+      ],
+      "duties": "安全审核智能体训练、自进化、RL前沿验证",
+      "limitations": ""
+    },
+    {
+      "id": "JD17",
+      "title": "AI Agent研发实习生",
+      "company": "华为云算法创新Lab",
+      "role_type": "Agent研究与工程混合实习（对照）",
+      "url": "https://www.huaweicloud.com/lab/algorithm/intern_recruitment.html",
+      "publish_date": "未展示",
+      "retrieved_date": "2026-10-23",
+      "source_type": "官方团队招聘",
+      "evidence_excerpt": "AI Agent研发实习生",
+      "own_summary": "要求语言与Agent框架，职责涉及强化学习、多模态规划、泛化研究和训练推理部署；应按混合岗位准备。",
+      "required_stack": [
+        "Python/C/C++/Java/Go择一",
+        "LangChain/LlamaIndex/AutoGen/QwenAgent至少一种"
+      ],
+      "preferred_stack": [],
+      "degree_constraint": "计算机/应用数学/统计/AI等本科及以上（原文即将取得）",
+      "availability_constraint": "未展示",
+      "recruiting_status": "页面可读；实时HC未核验",
+      "access_level": "全文",
+      "confidence": "高",
+      "matrix_include": false,
+      "tags": [
+        "编程基础",
+        "Agent实践",
+        "框架",
+        "模型训练研究"
+      ],
+      "duties": "复杂决策、元学习/因果泛化与低延迟可靠部署",
+      "limitations": ""
+    },
+    {
+      "id": "JD18",
+      "title": "AI全栈开发工程师（实习生）",
+      "company": "美团/基础研发平台",
+      "role_type": "Agent工程实习（索引证据）",
+      "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4777532857",
+      "publish_date": "2026-10-01（官方搜索摘要）；转载2026-09-17",
+      "retrieved_date": "2026-10-23",
+      "source_type": "官方招聘搜索索引",
+      "evidence_excerpt": "协助搭建Agent 评测 体系",
+      "own_summary": "官方索引可确认实习岗位与Agent评测工作；搜索工具打开正文为空，不能声称已经读取官方完整要求。",
+      "required_stack": [],
+      "preferred_stack": [],
+      "degree_constraint": "官方完整要求未核验",
+      "availability_constraint": "未核验",
+      "recruiting_status": "未核验",
+      "access_level": "搜索摘要；官方正文为空",
+      "confidence": "中",
+      "matrix_include": false,
+      "tags": [
+        "Agent实践",
+        "观测评测"
+      ],
+      "duties": "构造测试用例、评测数据与结果分析",
+      "limitations": "补充转载可见Python/Java/Go、前后端框架、每周4天3个月优先，但不纳入一手JD统计。转载 https://m.yingjiesheng.com/job-008-084-062.html ，ref turn42view1。"
+    },
+    {
+      "id": "JD19",
+      "title": "AI Agent应用开发工程师",
+      "company": "阿里巴巴集团",
+      "role_type": "Agent应用岗位（招聘类型未核验）",
+      "url": "https://www.zhipin.com/job_detail/ce1f87d5f248149d03152di1EVRT.html",
+      "publish_date": "未展示",
+      "retrieved_date": "2026-10-23",
+      "source_type": "BOSS直聘搜索索引",
+      "evidence_excerpt": "AI Agent 应用开发工程师",
+      "own_summary": "索引只显示行业运营Agent应用与智能运营平台方向；打开进入安全验证，无法确认学历、实习属性或详细技术栈。",
+      "required_stack": [],
+      "preferred_stack": [],
+      "degree_constraint": "未核验",
+      "availability_constraint": "未核验",
+      "recruiting_status": "未核验",
+      "access_level": "搜索摘要；BOSS安全验证",
+      "confidence": "低（仅作渠道线索）",
+      "matrix_include": false,
+      "tags": [],
+      "duties": "行业运营Agent设计与工程实现",
+      "limitations": "不计为实习JD，不用来推断技能要求或岗位数量。"
+    }
+  ],
+  "supplementary_unverified": [
+    {
+      "id": "JDX01",
+      "title": "AI Agent研发实习生（AgentOps方向）",
+      "company": "快手",
+      "url": "https://jobs.ultraai.site/jobs/kuaishou_trainee/29755",
+      "publish_date": "聚合站收录2026-08-06",
+      "access_level": "聚合全文；官方仅返回JS页面",
+      "confidence": "中低",
+      "matrix_include": false,
+      "reason": "仅二手聚合，未在官方核验同一职位，因此不用于核心技术结论",
+      "own_summary": "聚合信息涉及评测、追踪、成本、回归与A/B；如投递需在快手官网重新确认。"
+    },
+    {
+      "id": "JDX02",
+      "title": "Agent开发实习生（AI工具方向）—主站",
+      "company": "快手",
+      "url": "https://jobs.ultraai.site/jobs/kuaishou_trainee/32888",
+      "publish_date": "聚合站收录2026-10-09",
+      "access_level": "聚合全文；官方仅返回JS页面",
+      "confidence": "中低",
+      "matrix_include": false,
+      "reason": "仅二手聚合，且偏设计到代码/前端，不混入后端Agent统计",
+      "own_summary": "聚合信息涉及Figma、TypeScript、Skills/Tools和效果评测；需官网核验。"
+    }
+  ],
+  "frequency_matrix": [
+    {
+      "topic": "编程基础",
+      "mentioned_count": 14,
+      "denominator": 14,
+      "ids": [
+        "JD01",
+        "JD02",
+        "JD03",
+        "JD04",
+        "JD05",
+        "JD06",
+        "JD07",
+        "JD08",
+        "JD09",
+        "JD10",
+        "JD11",
+        "JD12",
+        "JD13",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "架构性能可靠性",
+      "mentioned_count": 10,
+      "denominator": 14,
+      "ids": [
+        "JD01",
+        "JD02",
+        "JD04",
+        "JD05",
+        "JD06",
+        "JD07",
+        "JD09",
+        "JD11",
+        "JD12",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "数据结构算法",
+      "mentioned_count": 10,
+      "denominator": 14,
+      "ids": [
+        "JD01",
+        "JD02",
+        "JD03",
+        "JD05",
+        "JD06",
+        "JD08",
+        "JD10",
+        "JD11",
+        "JD12",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "缓存",
+      "mentioned_count": 7,
+      "denominator": 14,
+      "ids": [
+        "JD01",
+        "JD02",
+        "JD05",
+        "JD06",
+        "JD07",
+        "JD09",
+        "JD11"
+      ]
+    },
+    {
+      "topic": "数据库或存储",
+      "mentioned_count": 7,
+      "denominator": 14,
+      "ids": [
+        "JD01",
+        "JD02",
+        "JD05",
+        "JD06",
+        "JD07",
+        "JD09",
+        "JD11"
+      ]
+    },
+    {
+      "topic": "网络协议",
+      "mentioned_count": 7,
+      "denominator": 14,
+      "ids": [
+        "JD02",
+        "JD06",
+        "JD07",
+        "JD09",
+        "JD10",
+        "JD11",
+        "JD12"
+      ]
+    },
+    {
+      "topic": "Agent实践",
+      "mentioned_count": 7,
+      "denominator": 14,
+      "ids": [
+        "JD08",
+        "JD09",
+        "JD10",
+        "JD11",
+        "JD12",
+        "JD13",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "操作系统Linux",
+      "mentioned_count": 6,
+      "denominator": 14,
+      "ids": [
+        "JD02",
+        "JD04",
+        "JD06",
+        "JD10",
+        "JD11",
+        "JD12"
+      ]
+    },
+    {
+      "topic": "工程质量测试",
+      "mentioned_count": 6,
+      "denominator": 14,
+      "ids": [
+        "JD04",
+        "JD07",
+        "JD09",
+        "JD10",
+        "JD13",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "观测评测",
+      "mentioned_count": 6,
+      "denominator": 14,
+      "ids": [
+        "JD08",
+        "JD09",
+        "JD11",
+        "JD12",
+        "JD13",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "记忆上下文",
+      "mentioned_count": 5,
+      "denominator": 14,
+      "ids": [
+        "JD08",
+        "JD09",
+        "JD11",
+        "JD12",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "工具编排",
+      "mentioned_count": 5,
+      "denominator": 14,
+      "ids": [
+        "JD08",
+        "JD09",
+        "JD11",
+        "JD12",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "RAG",
+      "mentioned_count": 5,
+      "denominator": 14,
+      "ids": [
+        "JD09",
+        "JD10",
+        "JD11",
+        "JD12",
+        "JD14"
+      ]
+    },
+    {
+      "topic": "消息队列",
+      "mentioned_count": 3,
+      "denominator": 14,
+      "ids": [
+        "JD01",
+        "JD06",
+        "JD11"
+      ]
+    },
+    {
+      "topic": "权限安全",
+      "mentioned_count": 3,
+      "denominator": 14,
+      "ids": [
+        "JD08",
+        "JD11",
+        "JD12"
+      ]
+    },
+    {
+      "topic": "框架",
+      "mentioned_count": 2,
+      "denominator": 14,
+      "ids": [
+        "JD10",
+        "JD12"
+      ]
+    },
+    {
+      "topic": "RPC",
+      "mentioned_count": 1,
+      "denominator": 14,
+      "ids": [
+        "JD05"
+      ]
+    },
+    {
+      "topic": "知识图谱代码分析",
+      "mentioned_count": 1,
+      "denominator": 14,
+      "ids": [
+        "JD10"
+      ]
+    },
+    {
+      "topic": "Spring",
+      "mentioned_count": 1,
+      "denominator": 14,
+      "ids": [
+        "JD11"
+      ]
+    },
+    {
+      "topic": "Java运行时",
+      "mentioned_count": 1,
+      "denominator": 14,
+      "ids": [
+        "JD11"
+      ]
+    }
+  ]
+}

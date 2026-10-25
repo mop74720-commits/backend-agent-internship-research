@@ -1,0 +1,236 @@
+INT99 | 26快手商业化 日常实习一二面 已OC
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/discuss/718514450587746304?sourceSSR=users
+公司：
+  快手
+方向与岗位：
+  快手；商业化Java；日常实习
+事件时间／原文日期（依分类）：
+  02-08一面、02-10二面与OC，事件年未知
+发表／来源日期：
+  编辑于  2025-02-10 18:55
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    02-08一面、02-10二面与OC，事件年未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    编辑于  2025-02-10 18:55
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习、事件年未知
+结果分类：
+  oc_self_report
+结果自述：
+  本人二面后一小时HR电话OC；未披露正式offer或档位
+逐项结果与档位：
+  - 公司：
+      快手
+    方向与岗位：
+      快手；商业化Java；日常实习
+    档位：
+      未披露
+    状态：
+      oc_self_report
+    事件时间／原文日期（依分类）：
+      02-08一面、02-10二面与OC，事件年未知
+    证据：
+      https://ac.nowcoder.com/discuss/1454874
+    依据：
+      本人二面后一小时HR电话OC；未披露正式offer或档位
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一、二面；自述二面后OC
+    questions：
+      - 线程池参数、ForkJoinPool及拒绝策略如何说明？
+      - MySQL索引、慢查询优化、MVCC和日志怎样解释？
+      - Redis和数据库一致性如何保障？
+      - 仓管库存五个函数无bug，怎样优化代码并解释取舍？
+      - 与mentor沟通、任务完成和会议协作怎样展开？
+      - 现场实现双重检查单例与岛屿面积。
+    结果自述：
+      本人二面后一小时HR电话OC；未披露正式offer或档位
+涉及主题：
+  - 算法/编程
+  - 并发/线程
+  - 数据库/SQL
+  - 缓存/Redis
+  - 项目深挖/个人贡献
+原文提问（归纳）：
+  - 线程池参数、ForkJoinPool及拒绝策略如何说明？
+  - MySQL索引、慢查询优化、MVCC和日志怎样解释？
+  - Redis和数据库一致性如何保障？
+  - 仓管库存五个函数无bug，怎样优化代码并解释取舍？
+  - 与mentor沟通、任务完成和会议协作怎样展开？
+  - 现场实现双重检查单例与岛屿面积。
+内容归纳：
+  一面考线程池、MySQL、缓存一致性；二面偏实习和库存代码改进。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  不仅刷题，还应能阅读一段业务代码并说明改进理由。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I15
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    26快手商业化 日常实习一二面 已OC
+  原始来源：
+    https://www.nowcoder.com/discuss/718514450587746304?sourceSSR=users
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1454874
+  canonical_post_key：
+    discuss/1454874
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    7b1d966f9f4ac070c5920fe68baf67a1bfc7c7b3c3f0dfbeec2bd99ff1a0d59c
+  body_char_count：
+    396
+  source_card_path：
+    03_面经/I15.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    编辑于  2025-02-10 18:55
+  source_date_verified：
+    是
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_date：
+    02-08一面、02-10二面与OC，事件年未知
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 线程池参数、ForkJoinPool及拒绝策略如何说明？
+    - MySQL索引、慢查询优化、MVCC和日志怎样解释？
+    - Redis和数据库一致性如何保障？
+    - 仓管库存五个函数无bug，怎样优化代码并解释取舍？
+    - 与mentor沟通、任务完成和会议协作怎样展开？
+    - 现场实现双重检查单例与岛屿面积。
+  涉及主题：
+    - 算法/编程
+    - 并发/线程
+    - 数据库/SQL
+    - 缓存/Redis
+    - 项目深挖/个人贡献
+  结果分类：
+    oc_self_report
+  result：
+    本人二面后一小时HR电话OC；未披露正式offer或档位
+  档位：
+    未披露
+  公司：
+    快手
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    02.08 一面
+02.10 二面
+二面1h后HR电话通知oc
+  阅读建议：
+    不仅刷题，还应能阅读一段业务代码并说明改进理由。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  date_correction：
+    标题26快手未明确26是事件年；2025-02-10为编辑年，事件年继续未知。
+  author_profile：
+    https://www.nowcoder.com/profile/493884974
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP02
+    - CAP03
+    - CAP06
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    02.08 一面
+02.10 二面
+二面1h后HR电话通知oc
+source_key：
+  ASTRA_I15_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I15
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

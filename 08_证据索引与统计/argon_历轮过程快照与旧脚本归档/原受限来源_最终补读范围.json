@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-23",
+  "records": [
+    {
+      "original_url": "https://www.nowcoder.com/discuss/667800837791461376",
+      "read_url": "https://ac.nowcoder.com/discuss/667800837791461376",
+      "title": "我是怎么拿到中兴字节华为等10个SSP offer的",
+      "http_status": 200,
+      "body_characters": 1639,
+      "body_sha256": "3edd3441f0e5ea8b83a9d1ec4d1e80008c2fa0ee12d396a6f9adac797db09b1b",
+      "reading_scope": "公开文字正文全部已读；未核图片中的offer、评论或相关账号。",
+      "finding": "作者自述视觉/模式识别背景；OPPO和中兴岗位明确为算法工程师SSP，其余多家SSP为总体自述。没有具体Agent职责或个人源码。",
+      "decision": "作为原受限来源的补读记录，不为增加数量扩充算法邻近主表；不补写实际招聘年份，不升级Agent SSP案例。"
+    },
+    {
+      "original_url": "https://blog.csdn.net/weixin_30694389/article/details/166200952",
+      "title": "Agent工程化实战：从面试失败到SSP拿offer的四个硬核维度（未读线索题名）",
+      "http_status": 521,
+      "response_bytes": 2165,
+      "body_found": false,
+      "reading_scope": "原站GET一次未取得文章标题DOM或正文；完整标题检索一次未发现可核公开替代原文。",
+      "decision": "保留手动原始链接；公司、岗位、事件年、批次与本人复盘性质均未知，不以标题或摘要补写正文。"
+    }
+  ],
+  "main_record_counts_changed": false
+}

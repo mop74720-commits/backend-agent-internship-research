@@ -1,0 +1,11 @@
+# Local runtime caches
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+~$*
+
+# Local credentials and environment files
+.env
+.env.local
+.env.*.local

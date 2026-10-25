@@ -1,0 +1,228 @@
+INT100 | 京东后端实习一二面面经 Offer
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://api-cdn.nowcoder.com/discuss/933060569995759616?sourceSSR=dynamic
+公司：
+  京东
+方向与岗位：
+  京东；后端实习；实习
+事件时间／原文日期（依分类）：
+  09-15技术一面、09-22HR二面、09-23 OC、09-24 offer，年份未知
+发表／来源日期：
+  发布于  09-25 18:09
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    09-15技术一面、09-22HR二面、09-23 OC、09-24 offer，年份未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    发布于  09-25 18:09
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习、事件年未知
+结果分类：
+  offer_self_report
+结果自述：
+  本人09-24 offer；未披露档位
+逐项结果与档位：
+  - 公司：
+      京东
+    方向与岗位：
+      京东；后端实习；实习
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    事件时间／原文日期（依分类）：
+      09-15技术一面、09-22HR二面、09-23 OC、09-24 offer，年份未知
+    证据：
+      https://ac.nowcoder.com/discuss/1680876
+    依据：
+      本人09-24 offer；未披露档位
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面技术、二面HR；自述9月24日offer
+    questions：
+      - 订单对账怎样做，订单ID何时生成？
+      - 为什么使用Lua，原子性和具体特点是什么？
+      - 下单十分钟未支付自动关闭怎样实现？
+      - Codex和Cursor有什么区别，怎样组织AI辅助开发流程？
+      - Agent为什么按开发流程执行，流程如何定义与核验？
+      - 实习中最大挑战怎样解决，效果怎样验证？
+    结果自述：
+      本人09-24 offer；未披露档位
+涉及主题：
+  - 缓存/Redis
+  - 项目深挖/个人贡献
+  - Agent循环/工具
+原文提问（归纳）：
+  - 订单对账怎样做，订单ID何时生成？
+  - 为什么使用Lua，原子性和具体特点是什么？
+  - 下单十分钟未支付自动关闭怎样实现？
+  - Codex和Cursor有什么区别，怎样组织AI辅助开发流程？
+  - Agent为什么按开发流程执行，流程如何定义与核验？
+  - 实习中最大挑战怎样解决，效果怎样验证？
+内容归纳：
+  围绕订单对账、ID、Lua和超时关闭场景，同时询问AI工具与开发流程。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  传统后端项目可保留主体，同时准备AI辅助开发的验证与工作流说明。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 单个流程两轮不代表京东统一政策；未记录手撕不证明岗位不考算法。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I16
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    京东后端实习一二面面经 Offer
+  原始来源：
+    https://api-cdn.nowcoder.com/discuss/933060569995759616?sourceSSR=dynamic
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1680876
+  canonical_post_key：
+    discuss/1680876
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    0d997604e83fd5460f6a95d88024ccca24683c2abdb327300e87ea5853c2411d
+  body_char_count：
+    555
+  source_card_path：
+    03_面经/I16.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    发布于  09-25 18:09
+  source_date_verified：
+    是
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_date：
+    09-15技术一面、09-22HR二面、09-23 OC、09-24 offer，年份未知
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 订单对账怎样做，订单ID何时生成？
+    - 为什么使用Lua，原子性和具体特点是什么？
+    - 下单十分钟未支付自动关闭怎样实现？
+    - Codex和Cursor有什么区别，怎样组织AI辅助开发流程？
+    - Agent为什么按开发流程执行，流程如何定义与核验？
+    - 实习中最大挑战怎样解决，效果怎样验证？
+  涉及主题：
+    - 缓存/Redis
+    - 项目深挖/个人贡献
+    - Agent循环/工具
+  结果分类：
+    offer_self_report
+  result：
+    本人09-24 offer；未披露档位
+  档位：
+    未披露
+  公司：
+    京东
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    9.15一面（Tech），9.22二面（HR面），9.23OC，9.24Offer。
+  阅读建议：
+    传统后端项目可保留主体，同时准备AI辅助开发的验证与工作流说明。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 单个流程两轮不代表京东统一政策；未记录手撕不证明岗位不考算法。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  author_profile：
+    https://www.nowcoder.com/profile/641568663
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP03
+    - CAP04
+    - CAP06
+    - CAP07
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    9.15一面（Tech），9.22二面（HR面），9.23OC，9.24Offer。
+source_key：
+  ASTRA_I16_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I16
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

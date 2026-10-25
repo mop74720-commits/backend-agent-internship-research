@@ -1,0 +1,241 @@
+INT90 | 面经 腾讯篇
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users
+公司：
+  腾讯
+方向与岗位：
+  腾讯；后台开发/腾讯视频/腾讯云；实习与春招混合
+事件时间／原文日期（依分类）：
+  作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确
+发表／来源日期：
+  2025-05-10（编辑）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    2025-05-10（编辑）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  混合对照
+结果分类：
+  unknown
+结果自述：
+  各流程最终结果未完整披露
+逐项结果与档位：
+  - 公司：
+      腾讯
+    方向与岗位：
+      腾讯；后台开发/腾讯视频/腾讯云；实习与春招混合
+    档位：
+      未披露
+    状态：
+      unknown
+    事件时间／原文日期（依分类）：
+      作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确
+    证据：
+      https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users
+    依据：
+      各流程最终结果未完整披露
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      多轮、多次流程合并为一篇；各流程结果未完整披露
+    questions：
+      - 秒杀后发送异步消息时RabbitMQ宕机怎样处理？
+      - 请求都打到Redis时怎样承载流量？
+      - 深分页、MyBatis缓存、令牌桶底层如何实现？
+      - TCP第三次握手丢失、TIME_WAIT连接多怎样解释？
+      - 两个上亿URL文件如何找出重复内容？
+      - 线程/协程使用场景、Linux虚拟内存与I/O多路复用怎样说明？
+    结果自述：
+      各流程最终结果未完整披露
+涉及主题：
+  - 算法/编程
+  - 并发/线程
+  - 数据库/SQL
+  - 缓存/Redis
+  - 消息/异步
+  - 网络/协议
+  - 操作系统
+  - 分布式/一致性
+  - 项目深挖/个人贡献
+  - 框架/机制
+原文提问（归纳）：
+  - 秒杀后发送异步消息时RabbitMQ宕机怎样处理？
+  - 请求都打到Redis时怎样承载流量？
+  - 深分页、MyBatis缓存、令牌桶底层如何实现？
+  - TCP第三次握手丢失、TIME_WAIT连接多怎样解释？
+  - 两个上亿URL文件如何找出重复内容？
+  - 线程/协程使用场景、Linux虚拟内存与I/O多路复用怎样说明？
+内容归纳：
+  同一作者多次腾讯面试：算法、系统和网络深入，项目涉及秒杀一致性与MQ故障。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  Java求职者也需补系统与网络，项目引用的中间件会引出连续追问。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 单人多流程合并一条；2025-05-10编辑不能用来逐段回填2024或2025事件年。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I06
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    面经 腾讯篇
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users
+  resolved_url：
+    https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users
+  canonical_post_key：
+    feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .feed-content-text
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    3c638b1154f21816fa13936b9457ffba053b8df2e5d1352651482410f59880fa
+  body_char_count：
+    1743
+  source_card_path：
+    03_面经/I06.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    2025-05-10（编辑）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  source_date_verified：
+    否
+  方向：
+    后端
+  招聘类型：
+    混合
+  event_date：
+    作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 秒杀后发送异步消息时RabbitMQ宕机怎样处理？
+    - 请求都打到Redis时怎样承载流量？
+    - 深分页、MyBatis缓存、令牌桶底层如何实现？
+    - TCP第三次握手丢失、TIME_WAIT连接多怎样解释？
+    - 两个上亿URL文件如何找出重复内容？
+    - 线程/协程使用场景、Linux虚拟内存与I/O多路复用怎样说明？
+  涉及主题：
+    - 算法/编程
+    - 并发/线程
+    - 数据库/SQL
+    - 缓存/Redis
+    - 消息/异步
+    - 网络/协议
+    - 操作系统
+    - 分布式/一致性
+    - 项目深挖/个人贡献
+    - 框架/机制
+  结果分类：
+    unknown
+  result：
+    各流程最终结果未完整披露
+  档位：
+    未披露
+  公司：
+    腾讯
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    去年腾讯暑期实习时…秋招的时候…春招时又被捞了
+  阅读建议：
+    Java求职者也需补系统与网络，项目引用的中间件会引出连续追问。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 单人多流程合并一条；2025-05-10编辑不能用来逐段回填2024或2025事件年。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP02
+    - CAP03
+    - CAP04
+    - CAP06
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    未核／无
+source_key：
+  ASTRA_I06_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I06
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

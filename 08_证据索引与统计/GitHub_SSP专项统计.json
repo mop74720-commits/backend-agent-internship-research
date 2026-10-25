@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-23",
+  "scope": "GitHub SSP作者、项目与面经专项；个人项目设计暂缓",
+  "core_profiles_reviewed": 5,
+  "new_candidate_profiles": 4,
+  "existing_candidate_strengthened": 1,
+  "new_project_analysis": 4,
+  "new_source_archives": 4,
+  "new_interview_material_records": 3,
+  "new_weak_counterexample": 1,
+  "engineering_priority_profiles": [
+    "CV02",
+    "CV10",
+    "CV11"
+  ],
+  "partial_engineering_profile": [
+    "CV12"
+  ],
+  "historical_algorithm_adjacent_profile": [
+    "CV13"
+  ],
+  "weak_algorithm_self_report": [
+    "OBS03"
+  ],
+  "recent_agent_ssp_with_mature_project_and_personal_interview_chain": 0,
+  "totals": {
+    "candidate_cases": 13,
+    "interview_material_records": 51,
+    "project_analysis": 17,
+    "source_archives": 16,
+    "logical_evidence_records": 121
+  },
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 13,
+    "面经复盘": 51,
+    "B站与知乎": 7,
+    "项目参考": 17,
+    "官方技术资料": 10,
+    "候选人对照": 3,
+    "检索导航": 1
+  },
+  "caution": "同作者同原文跨类别交叉引用不等于独立样本；SSP均为作者自述，完整成功者CV和企业独立核验数量仍为0。"
+}

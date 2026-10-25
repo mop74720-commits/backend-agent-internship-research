@@ -1,0 +1,832 @@
+CV07 | 等闲king：2025后端实习offer与本人Agent项目深挖
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d
+supporting_urls：
+  - https://ac.nowcoder.com/discuss/1650061?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+  - https://www.nowcoder.com/users/46925511?contentPage=1
+事件时间／原文日期（依分类）：
+  2025小红书/快手后端实习offer；其他Agent职责、答辩及面试事件年未核
+方向与岗位：
+  Agent应用/框架与后端实习
+结果自述：
+  本人年终总结明确2025小红书、快手后端实习offer；无SSP，Agent具体经历时间另核
+录用证据边界：
+  本人自述；本轮最初读到全文，随后根页/复核出现空壳或文章已删除，访问不稳定
+资料形式：
+  成功经历自述，访问不稳定，仅辅助（非完整简历）
+专业背景：
+  普通本科；自述Spring AI Alibaba committer及两段实习，未逐条核验社区身份
+技术栈：
+  - Java/Go
+  - Agent框架
+  - RAG
+  - MCP网关
+  - 多租户限流
+  - 观测
+  - 多轮记忆
+本人项目与经历描述：
+  - 商业助手Agent
+  - 开源AI网关/框架参与；具体PR本轮未核验
+来源归纳：
+  曾读取的自述强调可部署、可压测和可观测项目；相关面经涉及网关、租户隔离、记忆与基础原理。页面复核不稳定降低证据等级。
+整理者分析：
+  主题与后端+Agent组合高度吻合；只采用可与其他JD/面经交叉验证的工程要求，不能当成稳定可读的成功简历。
+值得学习之处：
+  - 业务、平台、基础能力联系清楚
+局限与静态风险：
+  - 访问不稳定
+  - 正式录用与SSP未证实
+  - 框架身份和贡献未独立核验
+商业与选择偏差：
+  正文声称不售课；仍属个人观点与自述，不采用其职业路线绝对判断
+原访问范围：
+  曾读全文；复核不稳定/可能删除
+证据边界：
+  低至中；不计稳定简历样本
+original_file_status：
+  无完整简历原件
+阅读建议：
+  辅助观察，不作为核心录用证据
+supplement_update：
+  本轮公开SSR入口一次读到正文，随后复核仍返回空壳，继续标记访问不稳定；没有新增完整CV或正式offer证明。
+类别：
+  候选人资料
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    2025小红书/快手后端实习offer；其他Agent职责、答辩及面试事件年未核
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    原帖题名及正文直接写2025年终总结、对这一年的成就回顾，紧接着列小红书和快手后端实习offer；不是仅按发帖年或27届反推。；仅适用于两项后端实习offer，不推广到全部经历。
+  来源日期：
+    页面显示2025-12-09 21:15已编辑，单列为来源时间
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    新主来源年终总结与新增本人面经的公开文字全文已读；旧主来源可能删除，旧文阅读范围保留在历史记录
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      小红书
+    方向与岗位：
+      后端实习
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    事件时间／原文日期（依分类）：
+      2025年，起止月未知
+    证据：
+      https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d
+    依据：
+      年终成就段列已获得该公司后端实习offer。
+    boundary：
+      两项后端实习offer；不改称Agent SSP，不证明所有旧文职责同年
+    企业独立验证：
+      否
+  - 公司：
+      快手
+    方向与岗位：
+      后端实习
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    事件时间／原文日期（依分类）：
+      2025年，起止月未知
+    证据：
+      https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d
+    依据：
+      同一年度成就段列该公司后端实习offer。
+    boundary：
+      两项后端实习offer；不改称Agent SSP，不证明所有旧文职责同年
+    企业独立验证：
+      否
+发表／来源日期：
+  页面显示2025-12-09 21:15已编辑，单列为来源时间
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d
+      direct_basis：
+        小红书 2025年，起止月未知；年终成就段列已获得该公司后端实习offer。
+      gap：
+        本人录用自述；无SSP
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d
+      direct_basis：
+        快手 2025年，起止月未知；同一年度成就段列该公司后端实习offer。
+      gap：
+        本人录用自述；无SSP
+      直接关系：
+        直接点名
+  profile：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/894194616499466240
+      direct_basis：
+        成功经历自述，访问不稳定，仅辅助（非完整简历）
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d
+      direct_basis：
+        本人2025年终专业经历自述
+      gap：
+        非完整CV
+      直接关系：
+        直接点名
+  project：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/894194616499466240
+      direct_basis：
+        商业助手Agent；开源AI网关/框架参与；具体PR本轮未核验
+      直接关系：
+        直接点名
+      gap：
+        仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85
+      direct_basis：
+        本人直接称编写Higress语义检索MCP插件
+      gap：
+        个人GitHub账号/PR归属未闭合；不将Higress整库归个人
+      直接关系：
+        直接点名
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c
+      direct_basis：
+        字节- AML大模型后端开发-一二面；公开主页直接链接且原文署名相同
+      gap：
+        事件年、招聘批次和最终结果未知
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b
+      direct_basis：
+        百度一面面经；公开主页直接链接且原文署名相同
+      gap：
+        事件年、招聘批次和最终结果未知
+      直接关系：
+        直接点名
+未建立或未核的关系：
+  - 本人录用自述；无SSP
+  - 无完整CV原件；资料卡不能冒充简历
+  - 非完整CV
+  - 仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  - 个人GitHub账号/PR归属未闭合；不将Higress整库归个人
+  - 事件年、招聘批次和最终结果未知
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  否
+ssp_claim_present：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否
+latest_source_review：
+  existing_id：
+    CV07
+  作者：
+    等闲king
+  public_author_id：
+    46925511
+  discovery_pages：
+    - https://www.nowcoder.com/users/46925511?contentPage=1
+    - https://www.nowcoder.com/users/46925511?contentPage=2
+  profile_reading_scope：
+    公开第1、2页职业相关文章展示区及实际链接；第3页为空壳；不声称读遍全部历史发帖。
+  old_primary_access：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/894194616499466240
+      http_status：
+        200
+      page_state：
+        内容不存在；未取得正文
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1650061
+      http_status：
+        200
+      page_state：
+        文章已删除；未取得正文
+  sources：
+    - source_key：
+        DENGXIAN_2025_REVIEW
+      标题：
+        很高兴能在牛客帮助你-2025年终总结
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d
+      readable_url：
+        https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d?sourceSSR=subject
+      access：
+        state：
+          正文可读
+        范围：
+          原帖公开文字全文已读；表情图片未分析
+        source_line_range：
+          L51–66
+      发表／来源日期：
+        页面显示2025-12-09 21:15已编辑，单列为来源时间
+      event_year：
+        2025
+      event_year_basis：
+        原帖题名及正文直接写2025年终总结、对这一年的成就回顾，紧接着列小红书和快手后端实习offer；不是仅按发帖年或27届反推。
+      author_relation：
+        既有CV07相同公开作者主页直接链接，原帖署名等闲king。
+      confirmed_self_reports：
+        - 公司：
+            小红书
+          方向与岗位：
+            后端实习
+          招聘类型：
+            实习
+          event_date：
+            2025年，起止月未知
+          档位：
+            未披露
+          结果分类：
+            internship_offer_self_report
+          依据：
+            年终成就段列已获得该公司后端实习offer。
+        - 公司：
+            快手
+          方向与岗位：
+            后端实习
+          招聘类型：
+            实习
+          event_date：
+            2025年，起止月未知
+          档位：
+            未披露
+          结果分类：
+            internship_offer_self_report
+          依据：
+            同一年度成就段列该公司后端实习offer。
+      局限：
+        - 能补清两项后端实习offer的发生年，不能把已删除旧文中所有Agent具体职责、部门答辩、任职月份同步设为2025。
+        - 原帖期待明年秋招的理想offer，未自述SSP或已获正式校招录用。
+        - 开源参与、OSPP结项均为本人自述，不能把框架全体功能归为个人实现。
+      suggested_existing_update：
+        保留CV07旧主文访问不稳定说明，增加稳定可读年度总结为2025年两项后端实习offer证据；不要升级Agent SSP。
+    - source_key：
+        DENGXIAN_HIGRESS_COMPONENT_CLAIM
+      标题：
+        AI应用开发全景路线图（补充篇）
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85
+      readable_url：
+        https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85?sourceSSR=users
+      access：
+        state：
+          正文可读
+        范围：
+          原帖公开文字全文已读；未运行所荐项目
+        source_line_range：
+          L51–83
+      发表／来源日期：
+        页面02-05 20:44已编辑，年未显示
+      面经形式：
+        本人技术观点与组件贡献自述；不是面经或录用证明
+      direct_component_relation：
+        repository：
+          https://github.com/alibaba/higress
+        component：
+          语义检索MCP插件
+        依据：
+          正文推荐Higress时直接称该具体插件由自己编写。
+        relation_status：
+          本人直接点名贡献的文档自述
+        pr_verified：
+          否
+        github_account_relation_verified：
+          否
+      局限：
+        - 具体PR、固定版本和个人改动范围仍未取得；不视为整套Higress的个人源码。
+        - 同文列Langfuse、Kubeflow、Ray、AgentCube为学习推荐，不构成本人贡献。
+        - 未取得本人独立Agent框架源码；文中写计划后续实现，不能当已交付。
+  candidate_interview_sources：
+    - source_key：
+        DENGXIAN_BYTEDANCE_AML_25DF
+      标题：
+        字节- AML大模型后端开发-一二面
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c
+      readable_url：
+        https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c?sourceSSR=users
+      作者：
+        等闲king
+      author_relation：
+        CV07公开主页直接链接，原帖同署名；不通过其他账号或匿名身份拼接。
+      access：
+        state：
+          正文可读
+        范围：
+          原帖公开文字全文已读
+        source_line_range：
+          L51–81
+      公司：
+        字节跳动
+      方向与岗位：
+        AML大模型后端开发
+      方向：
+        Agent工程/后端
+      招聘类型：
+        未知
+      event_date：
+        未知；原帖明确为隔一段时间回忆，未写面试年月日
+      event_year_confirmed：
+        否
+      发表／来源日期：
+        页面03-17 10:33已编辑，年份未显示
+      结果自述：
+        结果未知；不据二面体验差判断失败
+      档位：
+        未披露
+      rounds：
+        - 一面
+        - 二面
+      questions_paraphrased：
+        - MCP网关实现、限流、模型观测指标、DSL序列化、多租户隔离方式。
+        - 长期和短期对话记忆及KV Cache；手写多租户限流器。
+        - JVM、GC、Spring AOP，Agentic RAG与工具调用，多轮缓存命中连续性、分层架构中的长链token溢出。
+        - 二面手写LRU，并记录部分实习和开源追问已记不清。
+      question_answer_boundary：
+        本人回忆的追问和面试感受；未提供完整答案，不当作逐字稿。部分问题明确遗忘，不能自行补足。
+      project_relation：
+        直接追问本人的实习Agent记忆与开源网关/框架；具体实习雇主与项目版本未在该篇逐项披露，不把所有段落绑定同一家公司。
+      严格近期明确实习：
+        否
+      suggestion：
+        可作为CV07本人具体面经补链；公司岗位明确，但招聘批次、事件年和最终结果未知，不能计严格近期实习或SSP样本。
+    - source_key：
+        DENGXIAN_BAIDU_FA3706
+      标题：
+        百度一面面经
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b
+      readable_url：
+        https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b?sourceSSR=users
+      作者：
+        等闲king
+      author_relation：
+        CV07公开主页直接链接，原帖相同署名。
+      access：
+        state：
+          正文可读
+        范围：
+          原帖公开文字全文已读
+        source_line_range：
+          L51–99
+      公司：
+        百度
+      方向与岗位：
+        未给正式职称；反问称智能客服业务
+      方向：
+        后端/Agent工程交叉
+      招聘类型：
+        未知
+      event_date：
+        面试事件年与具体日期未知
+      event_year_confirmed：
+        否
+      发表／来源日期：
+        页面2025-11-24 23:17，来源时间不代替面试年
+      结果自述：
+        未知
+      档位：
+        未披露
+      rounds：
+        - 一面，约60分钟
+      questions_paraphrased：
+        - 本人慢SQL优化、读写分离、单列与联合索引的回表和索引下推。
+        - ES分片/资源与查询优化，字段选型与精准匹配。
+        - 锁过期、误删、重入、秒杀，自旋策略，以及CompletableFuture线程池参数与CPU/I/O隔离。
+        - Agent模型切换后的输出方式、完整响应时间指标、责任链/观察者与模板方法取舍。
+        - HNSW、BM25、向量缺点与检索分数融合。
+      question_answer_boundary：
+        题单夹有括注答案/纠错和应答提示，不能推定全部是当场正确回答；尤其long→keyword优化旁的倒排索引/跳表说明属于作者补充解释。
+      project_relation：
+        原帖明确从本人实习和开源简历出发追问，涉及商业Agent响应与框架模式；未给独立项目仓库链接，不据主题自行配仓库。
+      严格近期明确实习：
+        否
+      suggestion：
+        可补CV07具体面经；不能只因来源发表于2025或同作者已有实习而将此面试年、批次、结果设为确定。
+  manual_access_needed：
+    - 标题：
+        快手日常实习面经（已oc）
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/b6e58f067c184875a1c7a03e4039d30d
+      tried_public_variants：
+        - ?sourceSSR=users
+        - ?sourceSSR=post
+        - ?sourceSSR=subject
+      state：
+        原帖标题空壳/工具不可读；普通公开GET亦仅标题，本轮停止重复访问
+      actual_read_scope：
+        仅公开作者主页第2页展示段；未把原帖全文标已读。
+      primary_profile_url：
+        https://www.nowcoder.com/users/46925511?contentPage=2
+      displayed_content_summary：
+        主页展示两轮实习追问，涉及慢查询、热key、Agent评测、生产消费、DDD、Spring循环依赖和锁；展示段末为当晚HR沟通offer及入职时间、待审批。
+      result_boundary：
+        标题OC和等待审批分开；未读原帖正文，不升级为已发正式offer或SSP。
+      发表／来源日期：
+        主页所列2025-12-05 16:10已编辑；事件年单篇未核
+    - 标题：
+        阿里的agent开发依旧卡学历只是换了个说法
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/ebd756740ac74841a23888e16e9df3e1
+      state：
+        users和post公开入口均为空壳
+      actual_read_scope：
+        只读到本人主页展示段，所述为内推评估未过；未读原帖完整评论/正文。
+      result_boundary：
+        不能用失败自述填最终录用；关于学历的判断属于作者解释，未验证实际筛选原因。
+old_primary_url：
+  https://www.nowcoder.com/discuss/894194616499466240
+interview_evidence_ids：
+  - INT82
+  - INT83
+component_contribution_review：
+  research_date：
+    2026-10-23
+  范围：
+    只沿CV07本人公开原文与主页直接给出的Higress及文章回链，核1个语义检索MCP组件、初始PR和相关修复/测试；不归档整个项目、不运行。
+  candidate_existing_id：
+    CV07
+  candidate_display_name：
+    等闲king
+  conclusion：
+    component_source_reviewable：
+      是
+    candidate_to_github_account_direct_link_verified：
+      否
+    attribution_status：
+      组件可审，个人归属未闭合
+    component_match_basis：
+      本人直接指向Higress并称写了语义检索MCP插件；官方仓库tool-search是按自然语言检索工具的组件，首次合入PR3136与其描述相符。
+    limit：
+      组件语义相符不证明牛客作者与PR作者是同人；不得把PR作者handle或全部组件工作强绑CV07。
+    ssp_or_hiring_effect：
+      未新增SSP、实习发生时间、录用因果、简历或本人独立项目数量证据。
+  candidate_direct_sources：
+    - 标题：
+        AI应用开发全景路线图（补充篇）
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85
+      readable_url_previously_verified：
+        https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85?sourceSSR=users
+      actual_scope：
+        前一独立补证回合公开文字正文L51–83已读；本次同入口返回空壳，保留访问波动，不称再次稳定读取成功。
+      source_lines：
+        Higress介绍及本人插件自述见L73–77
+      direct_github_link：
+        https://github.com/alibaba/higress
+      self_report_paraphrased：
+        介绍网关MCP托管与模型路由时，作者称其中的语义检索MCP插件由自己编写。
+      account_link：
+        原文所列为Higress组织仓库，未给本人GitHub账号或PR地址。
+    - 标题：
+        如何从零开始拥有开源经历，这可能是牛客最全的整理
+      原始来源：
+        https://ac.nowcoder.com/discuss/768780629717549056
+      access：
+        http_status：
+          200
+        body_available：
+          是
+      actual_scope：
+        本次从公开正文提取GitHub回链，未对全文技术观点作审定。
+      github_link_result：
+        已提取的GitHub链接是lazyparser/weloveinterns，未见作者直接给出个人账号或此插件PR。
+      source_discovery：
+        CV07公开主页及2025年终总结直接链接此篇。
+    - 标题：
+        AI应用开发学习全景路线图
+      原始来源：
+        https://ac.nowcoder.com/discuss/847995166416703488
+      access：
+        http_status：
+          200
+        body_available：
+          是
+      actual_scope：
+        只提取正文中的专业GitHub回链，未将教程推荐视为个人贡献。
+      github_link_result：
+        回链是OpenViking、ADK、MCP SDK、Mem0、OpenJudge等组织/第三方项目；本次提取未见本人账号或3136 PR。
+      source_discovery：
+        上述补充篇直接指向此原文。
+    - 原始来源：
+        https://www.nowcoder.com/users/46925511?contentPage=1
+      additional_url：
+        https://www.nowcoder.com/users/46925511?contentPage=2
+      actual_scope：
+        沿前一补证回合已读的公开职业相关文章导航；没有通过姓名、邮箱、头像、学校或隐藏身份匹配GitHub用户。
+  official_repository：
+    candidate_linked_url：
+      https://github.com/alibaba/higress
+    canonical_repository：
+      https://github.com/higress-group/higress
+    api_alias：
+      公开GitHub API旧alibaba路径仍返回同仓库数据。
+    fixed_commit：
+      36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3
+    tree_url：
+      https://github.com/higress-group/higress/tree/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/
+    fixed_tree_api：
+      https://api.github.com/repos/alibaba/higress/git/trees/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3?recursive=1
+    tree_truncated：
+      否
+    component：
+      Tool Search MCP Server
+    component_kind：
+      Golang Filter下的MCP工具检索子服务
+    task_boundary：
+      自然语言查询→Embedding→Milvus工具描述相似检索→返回工具定义；不是完整Agent执行循环或端到端任务平台。
+    snapshot_boundary：
+      本次固定实现与首次PR分开；当前文件含其他后续贡献，不全归首次作者，更不全归CV07。
+  pull_requests：
+    - 原始来源：
+        https://github.com/higress-group/higress/pull/3136
+      标题：
+        Add tool-search server
+      public_author_login：
+        Wangzy455
+      merged：
+        是
+      merged_at：
+        2025-12-22T01:46:31Z
+      merge_commit_sha：
+        4cf1e5e6a07b42b7a275bd8cea63121cb587bb96
+      head_sha：
+        a6fc528779caf98c05c69cbed7b842e7513aef7a
+      related_issue：
+        https://github.com/alibaba/higress/issues/2999
+      范围：
+        PR正文与11个变更文件清单已读；未读所有审查评论和截图，不称逐行审完全部1191新增行。
+      changed_files：
+        11
+      additions：
+        1191
+      deletions：
+        5
+      contribution_boundary：
+        PR作者是该次patch的提交作者；正文主动说明复用RAG MCP Server的部分逻辑，不能称全部机制原创。
+      verification_claim：
+        PR作者称本地模拟工具资料，并用server_test检查Milvus连接及向量搜索；截图未读，不将自述转换为本地复现。
+      direct_backlink_to_candidate：
+        所读PR正文未提供牛客等闲king账号回链。
+      candidate_identity_verified：
+        否
+    - 原始来源：
+        https://github.com/higress-group/higress/pull/4462
+      标题：
+        bugfix: fix nil server and naked type assertions in tool-search MCP server
+      public_author_login：
+        wc4440222
+      merged：
+        是
+      merged_at：
+        2026-09-28T08:54:16Z
+      merge_commit_sha：
+        e3dd3d92aa5417aa0f08d11b07a7750f8255cb38
+      范围：
+        仅核PR正文、修复说明及对应当前代码防护；不扩到其他插件。
+      观察：
+        修复Milvus连接失败时nil SearchService被注册，以及ListAllDocs列类型断言panic风险。
+      current_version_check：
+        本次固定版server.go L193–195有nil检测；milvus.go L90–124已用comma-ok处理列和取值类型。
+      attribution_boundary：
+        不同公开handle的后续修复，不归为CV07或初始PR作者的工作；也不把已修问题写成当前版本仍存在。
+      test_boundary：
+        PR称需要完整Envoy/Milvus环境未新增相应测试；本文未运行或验证其运行时故障描述。
+  source_reading：
+    - path：
+        plugins/golang-filter/mcp-server/servers/tool-search/README.md
+      原始来源：
+        https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/README.md
+      lines：
+        144
+      范围：
+        全文阅读，配置示例仅作说明，未使用其中示例凭据。
+    - path：
+        plugins/golang-filter/mcp-server/servers/tool-search/server.go
+      原始来源：
+        https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go
+      lines：
+        204
+      范围：
+        注册、配置解析、实例构造、nil防护与工具注册定点静态核读。
+    - path：
+        plugins/golang-filter/mcp-server/servers/tool-search/tools.go
+      原始来源：
+        https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/tools.go
+      lines：
+        114
+      范围：
+        全文阅读：参数处理、超时、调用和序列化。
+    - path：
+        plugins/golang-filter/mcp-server/servers/tool-search/search.go
+      原始来源：
+        https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/search.go
+      lines：
+        237
+      范围：
+        SearchTools、结果转写、searchToolsInDB及GetAllTools核心路径核读。
+    - path：
+        plugins/golang-filter/mcp-server/servers/tool-search/embedding.go
+      原始来源：
+        https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/embedding.go
+      lines：
+        79
+      范围：
+        全文阅读：兼容API构造、上下文、空响应与向量转换。
+    - path：
+        plugins/golang-filter/mcp-server/servers/tool-search/milvus.go
+      原始来源：
+        https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/milvus.go
+      lines：
+        218
+      范围：
+        连接、列转换、HNSW查询与清理定点核读。
+    - path：
+        plugins/golang-filter/mcp-server/servers/tool-search/server_test.go
+      原始来源：
+        https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go
+      lines：
+        198
+      范围：
+        全文阅读；未运行。
+    - path：
+        plugins/golang-filter/mcp-server/servers/tool-search/config-example.json
+      原始来源：
+        https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/config-example.json
+      lines：
+        18
+      范围：
+        字段关系检查；不保存或复用示例认证值。
+  implementation_findings：
+    - dimension：
+        实际任务与工具
+      状态：
+        源码可见
+      观察：
+        注册tool-search服务与x_higress_tool_search；查询生成向量后检索Milvus，并返回数据库中的工具元数据。
+      evidence：
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go#L24
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go#L171
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/search.go#L61
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/search.go#L86
+      limit：
+        只证明工具发现机制；没有审定完整Agent计划、执行、状态持久化或业务闭环。
+    - dimension：
+        检索方法
+      状态：
+        源码可见
+      观察：
+        当前仅向量语义检索，HNSW搜索参数及内积IP可定位；README也明确未包含全文或混合搜索。
+      evidence：
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/README.md#L3
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/milvus.go#L139
+      limit：
+        config-example及测试仍展示vectorWeight/Text Weight字段，不能据这些词声称已实现BM25混合检索或rerank。
+    - dimension：
+        参数与失败处理
+      状态：
+        源码可见
+      观察：
+        query做类型与空串检查，topK默认10、范围1至100，超界回退；Embedding错误或空响应返回错误，当前构造有Milvus连接失败的nil防护。
+      evidence：
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/tools.go#L22
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/tools.go#L35
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/embedding.go#L57
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go#L193
+      limit：
+        未验证上层协议校验、超时分布、重试退避或所有异常组合。
+    - dimension：
+        超时与取消传播
+      状态：
+        静态风险
+      观察：
+        入口给context加30秒超时，但数据库查询另起context.Background加10秒，调用方取消未沿该子路径直接传入。
+      evidence：
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/tools.go#L58
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/search.go#L166
+      limit：
+        这是代码路径观察，未运行取消/延迟测试，不宣称已复现资源泄漏。
+    - dimension：
+        权限与租户范围
+      状态：
+        本组件未核
+      观察：
+        所读Milvus查询filter expression为空；本组件没有展示调用者级工具过滤。
+      evidence：
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/milvus.go#L149
+      limit：
+        网关上层认证/鉴权不在本次范围，不能据此断言整个Higress没有权限隔离或存在已证实越权。
+    - dimension：
+        日志
+      状态：
+        静态风险
+      观察：
+        ParseConfig按debug格式记录整个配置对象；该对象包括认证字段，需结合实际日志级别与脱敏策略检查。
+      evidence：
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go#L85
+      limit：
+        未读取任何部署日志或真实凭据，没有运行并复现泄露。
+    - dimension：
+        测试与评测
+      状态：
+        测试源码可见、未运行
+      观察：
+        TestServer接真实Milvus和兼容Embedding服务，mock主要用于日志；启动失败会Fatal，但GetAllTools和逐query失败主要记录日志或continue。
+      evidence：
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go#L29
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go#L94
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go#L120
+        - https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go#L148
+      limit：
+        未见这份测试以期望工具集合、召回率、错误率、P95或成本基线作断言；不能把有测试程序当检索质量评测通过。
+  阅读建议：
+    priority：
+      选读具体组件
+    理由：
+      适合研究把工具检索嵌入网关的接口、依赖、参数、元数据与失败边界，阅读规模小于整个网关。
+    read_order：
+      - plugins/golang-filter/mcp-server/servers/tool-search/README.md
+      - plugins/golang-filter/mcp-server/servers/tool-search/tools.go
+      - plugins/golang-filter/mcp-server/servers/tool-search/search.go
+      - plugins/golang-filter/mcp-server/servers/tool-search/milvus.go
+      - plugins/golang-filter/mcp-server/servers/tool-search/embedding.go
+      - plugins/golang-filter/mcp-server/servers/tool-search/server_test.go
+    learning_questions：
+      - 数据如何预先入库、描述如何影响工具召回、向量维度和数据库schema如何保持一致？
+      - 如何为多租户工具发现设计权限过滤，哪层负责？
+      - 请求取消、Embedding失败、向量库不可用与空召回应该怎样传播和观测？
+      - 测试为什么只有连接与打印还不够，怎样建立相关工具真值集合和成本/延迟基线？
+    not_recommended_claims：
+      - 不将整个Higress打包成CV07本人项目。
+      - 不将组件命中视为CV07=PR3136作者的身份确认。
+      - 不将这一子服务当成熟端到端Agent项目、SSP证明或已运行验证。
+  remaining_gaps：
+    - CV07本人公开原文对GitHub账号或PR3136的直接链接，或PR作者公开返回CV07账号的回链。
+    - 初始版本是否确为作者投递/实习时使用版本。
+    - 当前代码中个人贡献范围与后续他人改动的逐项界定。
+    - 检索质量、权限过滤、请求取消及成本的实际测试和运行数据。
+  access_limits：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85?sourceSSR=users
+      state：
+        本次空壳；前一回合已实际读正文，来源证据不覆盖本次不可读状态。
+    - 原始来源：
+        https://higress.cn/docs/plugins/mcp-server/
+      state：
+        猜测文档路径工具不可读，未据此声称官方文档不存在；改从本人链接的仓库树定位组件。
+  execution：
+    third_party_code_executed：
+      否
+    tests_run：
+      否
+    models_called：
+      否
+    archive_added：
+      否
+    repository_downloaded：
+      否
+    main_tables_modified：
+      否
+    ids_allocated：
+      否
+    contact_data_saved：
+      否
+    identity_guessed：
+      否
+  integration_note：
+    可将CV07本人直接点名组件自述与一个可审查官方实现并列，归属状态保留未闭合。当前读取的是1个组件及相关PR/测试，不增加独立源码包或完整Agent项目数量。

@@ -1,0 +1,79 @@
+JD04 | 软件研发工程师（实习）
+
+需求核对版 · 2026-10-24
+
+公司：
+  小米集团
+role_type：
+  平台后端实习
+原始来源：
+  https://www.nowcoder.com/jobs/detail/433220?urlSource=sitemap
+publish_date：
+  投递期2026-02-24至2026-02-28
+retrieved_date：
+  2026-10-23
+source_type：
+  企业在牛客发布的JD
+evidence_excerpt：
+  熟悉Linux/Unix系统
+own_summary：
+  建设运维与云资源平台，强调Linux、完整软件工程流程和问题闭环；不是单纯业务CRUD。
+required_stack：
+  - Go/C/C++/Java择一
+  - Linux/Unix
+  - 设计开发测试发布流程
+preferred_stack：
+  - Ruby/Python/Bash
+degree_constraint：
+  页面标2026届；学历栏不限
+availability_constraint：
+  页面显示最少5个月；7天/周字段异常待核验
+recruiting_status：
+  已结束
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 操作系统Linux
+  - 工程质量测试
+  - 架构性能可靠性
+duties：
+  DevOps、SRE、AIOps与站点稳定性
+局限：
+  7天/周仅记录页面字段，不作为真实劳动安排结论。
+类别：
+  招聘JD
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    投递期2026-02-24至2026-02-28
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    招聘页面直接显示发布/刷新日期或投递期；不是实际面试日期，也不证明当前HC
+  来源日期：
+    投递期2026-02-24至2026-02-28
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

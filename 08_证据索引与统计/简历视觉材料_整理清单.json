@@ -1,0 +1,643 @@
+{
+  "date": "2026-10-24",
+  "canonical_source": "08_证据索引与统计/all_evidence_records.json",
+  "atlas_file": "03_简历与候选人案例/argon_候选人与简历图册.html",
+  "assets": [
+    {
+      "asset_id": "CV01_PNG",
+      "candidate_id": "CV01",
+      "material_type": "公开原图的脱敏PNG副本",
+      "completeness": "实习简历片段",
+      "local_file": "03_简历与候选人案例/简历视觉材料/CV01_字节实习简历片段_原图脱敏.png",
+      "thumbnail_file": "03_简历与候选人案例/简历预览/CV01_缩略图.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历视觉材料/CV01_字节实习简历片段_原图脱敏.png"
+      ],
+      "original_url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "source_article_url": "https://www.nowcoder.com/discuss/825498059369955328?toCommentId=22311081",
+      "http_status": 200,
+      "page_count": 1,
+      "image_size": [
+        730,
+        152
+      ],
+      "original_image_format": "PNG",
+      "original_sha256": "a7b4cbcde61556fb957fa780fe6c3a3d5cb4432818cdf17fcfe46c0fab0034f4",
+      "redacted_sha256": "a450dfa978689ae5c7cc504af00532462782b9ca8d9c33a586320b6ecb8712c6",
+      "redaction": {
+        "raw_download_saved": false,
+        "method": "内存下载；Windows OCR只返回安全文字与联系行坐标；遮白联系行后再保存PNG",
+        "header_mask_pixels": 0,
+        "masked_rectangle_count": 0,
+        "contact_pattern_count_after": 0,
+        "layout_preserved": true,
+        "author_existing_mask": "未尝试恢复任何作者遮蔽内容"
+      },
+      "reading_scope": "实际读取保存后的专业模块；OCR只用于脱敏定位，技术内容以可读原图为准。",
+      "classification_boundary": "PNG原图脱敏，不是原始PDF；片段不冒充完整简历。",
+      "acquired_on": "2026-10-24",
+      "reused": false
+    },
+    {
+      "asset_id": "CV06_PNG",
+      "candidate_id": "CV06",
+      "material_type": "公开原图的脱敏PNG副本",
+      "completeness": "实习与开源简历片段",
+      "local_file": "03_简历与候选人案例/简历视觉材料/CV06_实习与开源简历片段_原图脱敏.png",
+      "thumbnail_file": "03_简历与候选人案例/简历预览/CV06_缩略图.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历视觉材料/CV06_实习与开源简历片段_原图脱敏.png"
+      ],
+      "original_url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+      "source_article_url": "https://javabetter.cn/mianjing/quzjlsspdx.html",
+      "http_status": 200,
+      "page_count": 1,
+      "image_size": [
+        950,
+        334
+      ],
+      "original_image_format": "JPEG",
+      "original_sha256": "5a895c1e48aa471a550873544d490223feeb01abf1786319c57e83991a19c733",
+      "redacted_sha256": "c1da0694a42a21b1c6a1bfcad5a2740304b743935fc96afa30a52a64cfd72629",
+      "redaction": {
+        "raw_download_saved": false,
+        "method": "内存下载；Windows OCR只返回安全文字与联系行坐标；遮白联系行后再保存PNG",
+        "header_mask_pixels": 0,
+        "masked_rectangle_count": 2,
+        "contact_pattern_count_after": 0,
+        "layout_preserved": true,
+        "author_existing_mask": "未尝试恢复任何作者遮蔽内容"
+      },
+      "reading_scope": "实际读取保存后的专业模块；OCR只用于脱敏定位，技术内容以可读原图为准。",
+      "classification_boundary": "PNG原图脱敏，不是原始PDF；片段不冒充完整简历。",
+      "acquired_on": "2026-10-24",
+      "reused": false
+    },
+    {
+      "asset_id": "OBS11_PNG",
+      "candidate_id": "OBS11",
+      "material_type": "公开原图的脱敏PNG副本",
+      "completeness": "公开一页简历，内部实习模块由作者打码；录用未知",
+      "local_file": "03_简历与候选人案例/简历视觉材料/OBS11_公开一页简历_内部实习已打码_原图脱敏.png",
+      "thumbnail_file": "03_简历与候选人案例/简历预览/OBS11_缩略图.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历视觉材料/OBS11_公开一页简历_内部实习已打码_原图脱敏.png"
+      ],
+      "original_url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+      "source_article_url": "https://www.nowcoder.com/discuss/755767217509117952?sourceSSR=subject",
+      "http_status": 200,
+      "page_count": 1,
+      "image_size": [
+        792,
+        1121
+      ],
+      "original_image_format": "PNG",
+      "original_sha256": "6b2e7d048620570e5b04052fbf66a6152603f04be64a7e11d7500576411cea43",
+      "redacted_sha256": "1af22eb16f9d8d83e864ef45ec0f59abbcf4626e6a61e8f92260e96348a3746e",
+      "redaction": {
+        "raw_download_saved": false,
+        "method": "内存下载；Windows OCR只返回安全文字与联系行坐标；遮白联系行后再保存PNG",
+        "header_mask_pixels": 52,
+        "masked_rectangle_count": 1,
+        "contact_pattern_count_after": 0,
+        "layout_preserved": true,
+        "author_existing_mask": "OBS11内部实习公司和职责由作者遮蔽，未尝试恢复"
+      },
+      "reading_scope": "实际读取保存后的专业模块；OCR只用于脱敏定位，技术内容以可读原图为准。",
+      "classification_boundary": "一页简历图，包含作者打码的内部实习；不是完整成功者履历，不改变原5份核心完整专业履历统计。",
+      "acquired_on": "2026-10-24",
+      "reused": false
+    },
+    {
+      "asset_id": "CV23_HTML",
+      "candidate_id": "CV23",
+      "material_type": "既有公开网页履历的脱敏转录",
+      "completeness": "完整专业履历",
+      "local_file": "03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏副本.html",
+      "original_url": "https://zhh2001.github.io/resume",
+      "source_article_url": "https://zhh2001.github.io/resume",
+      "page_count": null,
+      "thumbnail_file": "03_简历与候选人案例/简历预览/CV23_网页履历缩略图.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历预览/CV23_网页履历完整截图.png"
+      ],
+      "redacted_sha256": "4a94d6692baabdee13188abc7b643f206210c853b38b4e743c3f61e5d0f2f5ba",
+      "reused": true,
+      "redaction": {
+        "method": "复用本包已有脱敏附件，不恢复联系人、链接或被遮蔽内容",
+        "raw_download_saved": false
+      },
+      "reading_scope": "原有专业模块核读范围沿用；本轮补页面渲染与视觉浏览入口。",
+      "classification_boundary": "HTML脱敏履历转录及其截图，不冒称文章原附PDF或新取得原始简历。",
+      "image_size": [
+        1250,
+        3918
+      ],
+      "web_capture": {
+        "source": "03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏副本.html",
+        "format": "网页脱敏转录截图，不是原始PDF",
+        "thumbnail_scope": "main开头1150 CSS像素；全文打开原HTML或完整截图",
+        "contact_pattern_count": 0,
+        "captured_on": "2026-10-24"
+      }
+    },
+    {
+      "asset_id": "CV24_PDF",
+      "candidate_id": "CV24",
+      "material_type": "既有原始PDF的脱敏专业模块副本",
+      "completeness": "完整专业履历",
+      "local_file": "03_简历与候选人案例/核心Agent履历_脱敏副本/huomalxq_公开简历_脱敏副本.pdf",
+      "original_url": "https://huomalxq.github.io/assets/files/resume.pdf",
+      "source_article_url": "https://huomalxq.github.io/resume/",
+      "page_count": 1,
+      "thumbnail_file": "03_简历与候选人案例/简历预览/CV24_第1页.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历预览/CV24_第1页.png"
+      ],
+      "redacted_sha256": "5f16d57d06c6c4055469a445066fb756f48da6e3c62aacb9f5d9e175b8a39ab3",
+      "reused": true,
+      "redaction": {
+        "method": "复用本包已有脱敏附件，不恢复联系人、链接或被遮蔽内容",
+        "raw_download_saved": false,
+        "text_contact_pattern_count": 0
+      },
+      "reading_scope": "原有专业模块核读范围沿用；本轮补页面渲染与视觉浏览入口。",
+      "classification_boundary": "PDF脱敏附件保留原页布局；没有重新获取未脱敏原件。"
+    },
+    {
+      "asset_id": "CV28_HTML",
+      "candidate_id": "CV28",
+      "material_type": "既有公开网页履历的脱敏转录",
+      "completeness": "完整专业履历",
+      "local_file": "03_简历与候选人案例/核心后端履历_脱敏副本/DavidHLP_公开完整履历_脱敏转录.html",
+      "original_url": "https://davidhlp.github.io/about/",
+      "source_article_url": "https://davidhlp.github.io/about/",
+      "page_count": null,
+      "thumbnail_file": "03_简历与候选人案例/简历预览/CV28_网页履历缩略图.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历预览/CV28_网页履历完整截图.png"
+      ],
+      "redacted_sha256": "759de2534c269df998c1b0d54a00793d893413654417cba61d1878e078594ee8",
+      "reused": true,
+      "redaction": {
+        "method": "复用本包已有脱敏附件，不恢复联系人、链接或被遮蔽内容",
+        "raw_download_saved": false
+      },
+      "reading_scope": "原有专业模块核读范围沿用；本轮补页面渲染与视觉浏览入口。",
+      "classification_boundary": "HTML脱敏履历转录及其截图，不冒称文章原附PDF或新取得原始简历。",
+      "image_size": [
+        1225,
+        4691
+      ],
+      "web_capture": {
+        "source": "03_简历与候选人案例/核心后端履历_脱敏副本/DavidHLP_公开完整履历_脱敏转录.html",
+        "format": "网页脱敏转录截图，不是原始PDF",
+        "thumbnail_scope": "main开头1150 CSS像素；全文打开原HTML或完整截图",
+        "contact_pattern_count": 0,
+        "captured_on": "2026-10-24"
+      }
+    },
+    {
+      "asset_id": "CV30_PDF",
+      "candidate_id": "CV30",
+      "material_type": "既有原始PDF的脱敏专业模块副本",
+      "completeness": "完整专业履历",
+      "local_file": "03_简历与候选人案例/核心后端履历_脱敏副本/AndrewWang_字节后端与Agent实习_公开完整简历_脱敏副本.pdf",
+      "original_url": "https://andrewtheterp.com/assets/download/resume.pdf",
+      "source_article_url": "https://andrewtheterp.com/",
+      "page_count": 1,
+      "thumbnail_file": "03_简历与候选人案例/简历预览/CV30_第1页.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历预览/CV30_第1页.png"
+      ],
+      "redacted_sha256": "b85d1bbdfdcb362a230c8c8d081d789b27ac47493ba78e45e417d2841c3de7c7",
+      "reused": true,
+      "redaction": {
+        "method": "复用本包已有脱敏附件，不恢复联系人、链接或被遮蔽内容",
+        "raw_download_saved": false,
+        "text_contact_pattern_count": 0
+      },
+      "reading_scope": "原有专业模块核读范围沿用；本轮补页面渲染与视觉浏览入口。",
+      "classification_boundary": "PDF脱敏附件保留原页布局；没有重新获取未脱敏原件。"
+    },
+    {
+      "asset_id": "CV31_PDF",
+      "candidate_id": "CV31",
+      "material_type": "既有原始PDF的脱敏专业模块副本",
+      "completeness": "完整专业履历",
+      "local_file": "03_简历与候选人案例/核心后端履历_脱敏副本/黄一航_中科曙光Agent实习_公开完整简历_脱敏副本.pdf",
+      "original_url": "https://imyihang.com/",
+      "source_article_url": "https://imyihang.com/",
+      "page_count": 1,
+      "thumbnail_file": "03_简历与候选人案例/简历预览/CV31_第1页.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历预览/CV31_第1页.png"
+      ],
+      "redacted_sha256": "f2fe9f32c5a208d0a1148d82a559d0b49436f117264876921a731e256c433139",
+      "reused": true,
+      "redaction": {
+        "method": "复用本包已有脱敏附件，不恢复联系人、链接或被遮蔽内容",
+        "raw_download_saved": false,
+        "text_contact_pattern_count": 0
+      },
+      "reading_scope": "原有专业模块核读范围沿用；本轮补页面渲染与视觉浏览入口。",
+      "classification_boundary": "PDF脱敏附件保留原页布局；没有重新获取未脱敏原件。"
+    },
+    {
+      "asset_id": "OBS05_PDF",
+      "candidate_id": "OBS05",
+      "material_type": "既有原始PDF的脱敏专业模块副本",
+      "completeness": "完整专业履历；研究/AI Infra对照",
+      "local_file": "03_简历与候选人案例/履历对照_脱敏副本/gty111_公开简历_脱敏副本.pdf",
+      "original_url": "https://gty111.github.io/info/doc/resume.pdf",
+      "source_article_url": "https://gty111.github.io/info/index.html",
+      "page_count": 2,
+      "thumbnail_file": "03_简历与候选人案例/简历预览/OBS05_第1页.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历预览/OBS05_第1页.png",
+        "03_简历与候选人案例/简历预览/OBS05_第2页.png"
+      ],
+      "redacted_sha256": "cd3862385fab3d43dee93cb913d011b1e5cd814d7c960ffbc9c3fd53d7bccce1",
+      "reused": true,
+      "redaction": {
+        "method": "复用本包已有脱敏附件，不恢复联系人、链接或被遮蔽内容",
+        "raw_download_saved": false,
+        "text_contact_pattern_count": 0
+      },
+      "reading_scope": "原有专业模块核读范围沿用；本轮补页面渲染与视觉浏览入口。",
+      "classification_boundary": "PDF脱敏附件保留原页布局；没有重新获取未脱敏原件。"
+    },
+    {
+      "asset_id": "OBS06_PDF",
+      "candidate_id": "OBS06",
+      "material_type": "既有原始PDF的脱敏专业模块副本",
+      "completeness": "完整专业履历；研究/AI Infra对照",
+      "local_file": "03_简历与候选人案例/履历对照_脱敏副本/Zhongzhi660_公开简历_脱敏副本.pdf",
+      "original_url": "https://zhongzhi660.github.io/personal_website/data/resume.pdf",
+      "source_article_url": "https://zhongzhi660.github.io/personal_website/",
+      "page_count": 2,
+      "thumbnail_file": "03_简历与候选人案例/简历预览/OBS06_第1页.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历预览/OBS06_第1页.png",
+        "03_简历与候选人案例/简历预览/OBS06_第2页.png"
+      ],
+      "redacted_sha256": "e749d4cafe2c4eb1b9dadf57bd206bf4371739ed7619b65a3a9bb7661a05925d",
+      "reused": true,
+      "redaction": {
+        "method": "复用本包已有脱敏附件，不恢复联系人、链接或被遮蔽内容",
+        "raw_download_saved": false,
+        "text_contact_pattern_count": 0
+      },
+      "reading_scope": "原有专业模块核读范围沿用；本轮补页面渲染与视觉浏览入口。",
+      "classification_boundary": "PDF脱敏附件保留原页布局；没有重新获取未脱敏原件。"
+    },
+    {
+      "asset_id": "OBS07_PDF",
+      "candidate_id": "OBS07",
+      "material_type": "既有原始PDF的脱敏专业模块副本",
+      "completeness": "完整专业履历；研究/AI Infra对照",
+      "local_file": "03_简历与候选人案例/履历对照_脱敏副本/Zhang-Henry_公开简历_脱敏副本.pdf",
+      "original_url": "https://zhang-henry.github.io/assets/pdf/CV_Hanrong_Zhang.pdf",
+      "source_article_url": "https://zhang-henry.github.io/",
+      "page_count": 2,
+      "thumbnail_file": "03_简历与候选人案例/简历预览/OBS07_第1页.png",
+      "preview_files": [
+        "03_简历与候选人案例/简历预览/OBS07_第1页.png",
+        "03_简历与候选人案例/简历预览/OBS07_第2页.png"
+      ],
+      "redacted_sha256": "d712f0649064cdf8874a963a9590d4362e66fc5a95156caf772e8ca9c6999e74",
+      "reused": true,
+      "redaction": {
+        "method": "复用本包已有脱敏附件，不恢复联系人、链接或被遮蔽内容",
+        "raw_download_saved": false,
+        "text_contact_pattern_count": 0
+      },
+      "reading_scope": "原有专业模块核读范围沿用；本轮补页面渲染与视觉浏览入口。",
+      "classification_boundary": "PDF脱敏附件保留原页布局；没有重新获取未脱敏原件。"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "CV01",
+      "asset_ids": [
+        "CV01_PNG"
+      ],
+      "visual_status": "实习简历片段",
+      "article_url": "https://www.nowcoder.com/discuss/825498059369955328?toCommentId=22311081",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV02",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/viego1999/JavaWxy",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV03",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/discuss/832657601983688704",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV04",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/discuss/753246853839269888",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV05",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/erdengk",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV06",
+      "asset_ids": [
+        "CV06_PNG"
+      ],
+      "visual_status": "实习与开源简历片段",
+      "article_url": "https://javabetter.cn/mianjing/quzjlsspdx.html",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV07",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV08",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV09",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV10",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV11",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/discuss/353154787879362560",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV12",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV13",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4",
+      "track": "算法对照"
+    },
+    {
+      "candidate_id": "CV14",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV15",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV16",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251",
+      "track": "算法对照"
+    },
+    {
+      "candidate_id": "CV17",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://juejin.cn/post/7461269186713321491",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV18",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV19",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.codefather.cn/course/yupi",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV20",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV21",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV22",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV23",
+      "asset_ids": [
+        "CV23_HTML"
+      ],
+      "visual_status": "完整专业履历",
+      "article_url": "https://zhh2001.github.io/resume",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV24",
+      "asset_ids": [
+        "CV24_PDF"
+      ],
+      "visual_status": "完整专业履历",
+      "article_url": "https://huomalxq.github.io/resume/",
+      "track": "Agent工程"
+    },
+    {
+      "candidate_id": "CV25",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://ac.nowcoder.com/discuss/1610772",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV26",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject",
+      "track": "Agent工程"
+    },
+    {
+      "candidate_id": "CV27",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://ac.nowcoder.com/discuss/737813386313940992",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV28",
+      "asset_ids": [
+        "CV28_HTML"
+      ],
+      "visual_status": "完整专业履历",
+      "article_url": "https://davidhlp.github.io/about/",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV29",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://shufengc.dev/",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV30",
+      "asset_ids": [
+        "CV30_PDF"
+      ],
+      "visual_status": "完整专业履历",
+      "article_url": "https://andrewtheterp.com/",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV31",
+      "asset_ids": [
+        "CV31_PDF"
+      ],
+      "visual_status": "完整专业履历",
+      "article_url": "https://imyihang.com/",
+      "track": "Agent工程"
+    },
+    {
+      "candidate_id": "CV32",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "track": "后端"
+    },
+    {
+      "candidate_id": "CV33",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+      "track": "混合"
+    },
+    {
+      "candidate_id": "CV34",
+      "asset_ids": [],
+      "visual_status": "仅经历/面经/履历文章，未取得可归档简历图或PDF",
+      "article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "track": "后端"
+    }
+  ],
+  "controls": [
+    {
+      "candidate_id": "OBS11",
+      "asset_ids": [
+        "OBS11_PNG"
+      ]
+    },
+    {
+      "candidate_id": "OBS05",
+      "asset_ids": [
+        "OBS05_PDF"
+      ]
+    },
+    {
+      "candidate_id": "OBS06",
+      "asset_ids": [
+        "OBS06_PDF"
+      ]
+    },
+    {
+      "candidate_id": "OBS07",
+      "asset_ids": [
+        "OBS07_PDF"
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "candidate_id": "CV01",
+      "original_url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": "已取得并保存脱敏PNG",
+      "http_status": 200,
+      "raw_file_saved": false
+    },
+    {
+      "candidate_id": "CV06",
+      "original_url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+      "status": "已取得并保存脱敏PNG",
+      "http_status": 200,
+      "raw_file_saved": false
+    },
+    {
+      "candidate_id": "OBS11",
+      "original_url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+      "status": "已取得并保存脱敏PNG",
+      "http_status": 200,
+      "raw_file_saved": false
+    }
+  ],
+  "counts": {
+    "core_candidates": 34,
+    "core_candidates_with_visual_material": 7,
+    "new_public_image_documents": 3,
+    "new_resume_fragments": 2,
+    "new_masked_resume_controls": 1,
+    "reused_pdf_documents": 6,
+    "reused_html_profiles": 2,
+    "new_original_pdf_documents": 0,
+    "new_core_complete_profiles": 0,
+    "new_verified_ssp_candidates": 0
+  },
+  "boundaries": [
+    "未将TXT卡片排版后冒充简历。",
+    "仅保存脱敏专业内容，原始图片下载只驻留内存。",
+    "OBS11录用未知、内部实习作者打码，单列视觉对照；原5份核心完整专业履历统计不变。",
+    "34候选人方向/时间/结果仍以主证据库分类为准，图片存在不证明SSP或因果。",
+    "网页履历截图、原图脱敏PNG、原PDF脱敏副本分别标明；没有缺图则不绘制假简历。"
+  ],
+  "public_original_manifest": "08_证据索引与统计/公开简历原件_清单.json",
+  "current_reading_policy": "用户明确要求保留公开原版；原件和本轮复核见public_original_manifest，旧assets保留为历史脱敏附件清单。"
+}

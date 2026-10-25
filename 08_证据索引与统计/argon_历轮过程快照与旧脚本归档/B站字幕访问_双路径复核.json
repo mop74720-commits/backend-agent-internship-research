@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-10-23",
+  "scope": "两条定向公开检索及匿名B站公开接口核查；未登录、未下载音视频、未保存SSR原脚本。",
+  "query_paths": [
+    "site:bilibili.com/video Agent 工程 生产 评测 字幕",
+    "site:bilibili.com/video Redis 缓存 一致性 字幕"
+  ],
+  "records": [
+    {
+      "original_url": "https://www.bilibili.com/video/BV1wKMQ6zEh5/",
+      "title": "Agent系统设计 03：如何评测（多意图）",
+      "cid": 40551056725,
+      "duration_seconds": 568,
+      "query_path_index": 0,
+      "pagelist": {"http_status": 200, "code": 0},
+      "player_v2": {"http_status": 200, "code": 0, "subtitles_count": 0, "need_login_subtitle": true},
+      "reading_boundary": "未观看视频，未读取字幕。当前匿名接口未返回字幕且明确要求字幕登录；不据此断言视频没有字幕。标题只作链接标识，不以摘要代替正文。"
+    },
+    {
+      "original_url": "https://www.bilibili.com/video/BV1Qr421E7wp/",
+      "title": "动画学Redis缓存一致性问题，为何延时双删、删除重试、MySQL主从架构下情况模拟",
+      "cid": 1529410172,
+      "duration_seconds": 973,
+      "query_path_index": 1,
+      "pagelist": {"http_status": 200, "code": 0},
+      "player_v2": {"http_status": 200, "code": 0, "subtitles_count": 0, "need_login_subtitle": true},
+      "reading_boundary": "未观看视频，未读取字幕。当前匿名接口未返回字幕且明确要求字幕登录；不据此断言视频没有字幕。标题只作链接标识，不以摘要代替正文。"
+    }
+  ]
+}

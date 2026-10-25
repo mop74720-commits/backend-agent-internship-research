@@ -1,0 +1,249 @@
+CV34 | 择难路 未有疑 四非学院本春招拿下大厂后端
+
+需求核对版 · 2026-10-24
+
+类别：
+  候选人资料
+原始来源：
+  https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0
+方向与岗位：
+  后端开发
+事件时间／原文日期（依分类）：
+  原文未直接给出招聘事件年
+发表／来源日期：
+  页面2025-07-08编辑；招聘事件年未知
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    校招
+  事件时间：
+    原文未直接给出招聘事件年
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    页面2025-07-08编辑；招聘事件年未知
+  时间依据：
+    正文春招/毕业设计可定位校招；不把2025-07-08编辑或面向26/27届写成招聘事件年。
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    牛客本人正文选读：项目更替、实习经历、春招滴滴三轮与最终邮件offer、排查工具；未读图
+  实际观看视频：
+    否
+结果自述：
+  春招后端未披露档位offer；本次未独立确认事件年
+逐项结果与档位：
+  - 公司：
+      滴滴
+    状态：
+      offer_self_report
+    档位：
+      未披露
+    依据：
+      口头offer→审批→邮件offer均有本人文字
+    事件时间／原文日期（依分类）：
+      原文未直接给出招聘事件年
+    证据：
+      https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0
+    方向与岗位：
+      后端开发；具体岗位按本人原文
+    企业独立验证：
+      否
+履历材料形式：
+  经历/求职自述（非简历原件）
+资料形式：
+  经历/求职自述（非简历原件）
+技术栈：
+  - Java
+  - Go
+  - MySQL
+  - Redis
+  - MQ
+  - Linux网络
+  - JUC/JVM
+  - pprof
+本人项目与经历描述：
+  - 先用12306、网关和抽奖，后换真实业务/实习；保密模块不公开，不要求取内部代码。
+来源归纳：
+  先用12306、网关和抽奖，后换真实业务/实习；保密模块不公开，不要求取内部代码。
+整理者分析：
+  补“业务项目+基架实习”如何互补，以及从未见场景题用OS/网络机制推导的具体经历。
+值得学习之处：
+  - 适合研究真实问题与实习产出的价值，以及业务项目和基础设施项目如何互补。
+局限与静态风险：
+  - 换项目后约面变多是个人观察，不能建立因果；不照搬保密业务，也不把付费推荐/投递规则当公司统一规定。
+阅读建议：
+  适合研究真实问题与实习产出的价值，以及业务项目和基础设施项目如何互补。
+商业与选择偏差：
+  依据本人公开叙述；存在主动分享与结果选择偏差
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0
+      direct_basis：
+        春招后端未披露档位offer；本次未独立确认事件年
+      gap：
+        录用仅本人自述；未披露档位不标SSP
+      直接关系：
+        直接点名
+  profile：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0
+      direct_basis：
+        未取得完整投递简历；作者叙述过替换项目版本
+      gap：
+        本轮没有新增完整CV实物
+      直接关系：
+        直接点名
+  project：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0
+      direct_basis：
+        前期用12306、网关、抽奖项目，后改为真实业务经历；有中厂实习及线上排查经验，春招加强网络和OS底层后拿滴滴offer。
+      gap：
+        仅作者描述；未取得本人源码，不拼接框架
+      直接关系：
+        直接点名
+  interview：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0
+      direct_basis：
+        同篇经历中出现面试描述
+      gap：
+        是否逐轮具体问题仅按实际阅读，不与其他作者拼接
+      直接关系：
+        直接点名
+未建立或未核的关系：
+  - 录用仅本人自述；未披露档位不标SSP
+  - 本轮没有新增完整CV实物
+  - 仅作者描述；未取得本人源码，不拼接框架
+  - 是否逐轮具体问题仅按实际阅读，不与其他作者拼接
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  否
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+complete_cv_file_received：
+  否
+complete_redacted_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+personal_source_code_verified：
+  否
+source_record：
+  source_id：
+    R08
+  type：
+    candidate
+  source_category：
+    02_简历与录用经历
+  标题：
+    择难路 未有疑 四非学院本春招拿下大厂后端
+  source_url：
+    https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0
+  source_card：
+    02_简历与录用经历/R08.html
+  existing_id：
+    未核／无
+  decision：
+    new
+  new_primary_project：
+    否
+  source_folder_modified：
+    否
+  reading_scope：
+    牛客本人正文选读：项目更替、实习经历、春招滴滴三轮与最终邮件offer、排查工具；未读图
+  状态：
+    春招后端未披露档位offer；本次未独立确认事件年
+  import_target：
+    candidate_and_interview_evidence
+  read_evidence：
+    - read_url：
+        https://ac.nowcoder.com/discuss/1518502
+      http_status：
+        200
+      body_text_chars：
+        15508
+      已读部分：
+        经历、项目与滴滴流程段
+      short_original_basis：
+        滴滴段先口头Offer、后审批一周多、最后“邮件发到了邮箱…Offer到了”；此前写12306+网关+抽奖后换真实业务经历。
+      checked_on：
+        2026-10-24
+      text_sha256：
+        3f910b735748622d5647305dd532ac1bb13566243a7e1ddd190589cf4192d7ac
+  统一分类：
+    方向：
+      后端
+    招聘类型：
+      校招
+    event_year：
+      未核／无
+    时间依据：
+      正文春招/毕业设计可定位校招；不把2025-07-08编辑或面向26/27届写成招聘事件年。
+  逐项结果与档位：
+    - 公司：
+        滴滴
+      状态：
+        offer_self_report
+      档位：
+        未披露
+      依据：
+        口头offer→审批→邮件offer均有本人文字
+      事件时间／原文日期（依分类）：
+        原文未直接给出招聘事件年
+      证据：
+        https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0
+      方向与岗位：
+        后端开发；具体岗位按本人原文
+      企业独立验证：
+        否
+  履历材料形式：
+    经历/求职自述（非简历原件）
+  技术栈：
+    - Java
+    - Go
+    - MySQL
+    - Redis
+    - MQ
+    - Linux网络
+    - JUC/JVM
+    - pprof
+  personal_project_summary：
+    先用12306、网关和抽奖，后换真实业务/实习；保密模块不公开，不要求取内部代码。
+  question_modules：
+    - JDBC和MyBatis差别
+    - 池化与工厂复用
+    - 对象池/内存池/缓冲池在OS、中间件、工程中的对应
+    - 项目与线上排查
+  unique_value：
+    补“业务项目+基架实习”如何互补，以及从未见场景题用OS/网络机制推导的具体经历。
+  facts_boundary：
+    换项目后约面变多是个人观察，不能建立因果；不照搬保密业务，也不把付费推荐/投递规则当公司统一规定。
+  eligible_for_success_candidate_count：
+    是
+source_key：
+  ASTRA_R08_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    R08
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_候选人与观点项目.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

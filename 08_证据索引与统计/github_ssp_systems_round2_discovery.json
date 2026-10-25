@@ -1,0 +1,472 @@
+{
+  "retrieved_date": "2026-10-23",
+  "round": 2,
+  "scope": "继续扩搜 C++/Go/系统后端的 SSP 本人项目与面经；优先2023–2026，允许历史优质新例；不重复前轮五位作者。",
+  "excluded_existing_authors": [
+    "CalvinNeo",
+    "linyacool",
+    "muluoleiguo",
+    "JavaWxy",
+    "dong03"
+  ],
+  "methodology": [
+    "接受第一人称明确SSP原文，不以第三方标题、热门项目作者或同名账号推定结果。",
+    "把SSP结果、本人项目、本人面经、公开履历页、完整可构建源码分别核验。",
+    "公开HTML履历只取专业内容短摘录、模块定位与原始链接，主动忽略联系资料；没有保存整页或联系资料。",
+    "未使用源码仓库许可推定个人简历可再分发；未将公开可读等同于授权打包。",
+    "固定版本来自GitHub commits/API及原始文本；没有运行、下载或构建第三方项目。"
+  ],
+  "search_log": [
+    {
+      "engine": "Yahoo",
+      "query": "site:github.com SSP Go 2025 面经 项目",
+      "result": "HTTP500 INKApi Error"
+    },
+    {
+      "engine": "Yahoo",
+      "query": "site:github.com SSP C++ 2024 秋招",
+      "result": "HTTP500 INKApi Error"
+    },
+    {
+      "engine": "Yahoo",
+      "query": "CyC2018 SSP",
+      "result": "不同精简查询仍HTTP500；停止重复请求"
+    },
+    {
+      "engine": "搜狗",
+      "query": "CyC2018 SSP 作者介绍 / GitHub Go 后端 SSP 2025 2026 面经",
+      "result": "验证码页面；未尝试绕过"
+    },
+    {
+      "engine": "DuckDuckGo HTML",
+      "query": "github SSP C++ 2025",
+      "result": "验证码页面；未尝试绕过"
+    },
+    {
+      "engine": "GitHub REST repository search",
+      "query": "SSP in:readme language:C++",
+      "sort": "updated desc",
+      "items_read": 25,
+      "total_count": 623,
+      "result": "返回多为SSP-RK数值方法、器件与其他同名缩写，未直接认定新成功者"
+    },
+    {
+      "engine": "GitHub REST repository search",
+      "query": "SSP in:readme language:Go",
+      "sort": "updated desc",
+      "items_read": 25,
+      "total_count": 229,
+      "result": "返回多为广告SSP、Kerberos/MS-RPC/合规工具等缩写；无可计入的本人求职结果"
+    },
+    {
+      "engine": "GitHub历史提交定位",
+      "request": "CyC2018/CS-Notes commits?path=README.md&until=2019-01-01T00:00:00Z&per_page=1",
+      "result": "获得2018-12-31固定commit；历史README L179–181直链本人年度复盘"
+    },
+    {
+      "engine": "GitHub固定raw",
+      "request": "CyC2018/CS-Notes historical other/2018 这一年.md",
+      "result": "HTTP200，139行，完整读到本人SSP、项目与多轮面试经验"
+    },
+    {
+      "engine": "GitHub固定raw",
+      "request": "CyC2018/CyC2018.github.io page.html / index.html",
+      "result": "page.html公开专业模块可读；index.html L107 JS跳转到page.html解释首页空壳"
+    },
+    {
+      "engine": "牛客原文复核",
+      "request": "https://www.nowcoder.com/discuss/137593",
+      "final_url": "https://www.nowcoder.com/discuss/353154726600581120",
+      "result": "HTTP200但正文空壳；本轮不据该次动态页面声称已读正文，用同作者历史GitHub固定全文作证"
+    },
+    {
+      "engine": "GitHub repository API",
+      "request": "CyC2018/MBlog",
+      "result": "HTTP404；当前本人公开repo list也不见此库；不推定代码已取得"
+    },
+    {
+      "engine": "GitHub raw",
+      "request": "https://raw.githubusercontent.com/chenshuo/muduo/master/README",
+      "result": "HTTP200，40行README未出现SSP/offer/intern/interview；不以muduo作者身份推定SSP"
+    }
+  ],
+  "counts": {
+    "new_verified_first_person_ssp_candidates": 1,
+    "new_verified_2023_2026_ssp_candidates": 0,
+    "new_verified_author_project_and_personal_interview_links": 1,
+    "readable_public_html_profile_pages": 1,
+    "authorized_complete_cv_originals_packaged": 0,
+    "new_independent_backend_project_source_repositories_located": 0,
+    "source_archives_downloaded": 0
+  },
+  "new_candidates": [
+    {
+      "reserved_id": "CV15",
+      "public_author": "CyC2018",
+      "title": "CyC2018：2018头条后台SSP、本人多轮面试复盘与可读公开HTML履历页",
+      "decision": "接受为历史后台成功者本人项目＋面经强关联新例；公开履历页可读，但非2023–2026案例，微博独立源码当前未取得。",
+      "year_and_role": "2018秋招，字节跳动/头条后台研发；作者研究生方向为计算机图形学，春招与网易游戏实习经历在同篇区分。",
+      "ssp_source": {
+        "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21",
+        "repo": "CyC2018/CS-Notes",
+        "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+        "path": "other/2018 这一年.md",
+        "line_start": 11,
+        "line_end": 21,
+        "summary": "本人逐一列offer，其中头条SSP、腾讯SP。",
+        "short_excerpt": "字节跳动，头条后台研发，SSP",
+        "commit_date": "2018-12-31T12:16:36Z",
+        "result_grade": "B：第一人称公开自述，未经企业或offer文件独立验证",
+        "company_boundary": "仅原文明确的字节/头条后台SSP；腾讯原文明确为SP；阿里当时仍申报offer，不能推定SSP。"
+      },
+      "ssp_detail_source": {
+        "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L115-L117",
+        "repo": "CyC2018/CS-Notes",
+        "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+        "path": "other/2018 这一年.md",
+        "line_start": 115,
+        "line_end": 117,
+        "summary": "头条本人面试叙述：前三面、错排问题争议、SQL执行与索引、加面主要问项目、最终确定SSP。",
+        "short_excerpt": "苦苦等了好多天之后，最后确定是 SSP 之后，还是很惊喜的"
+      },
+      "author_identity_chain": [
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L1-L5",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 1,
+          "line_end": 5,
+          "summary": "同作者历史仓库正文开头明确作者CyC2018、牛客原始链接137593。"
+        },
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/README.md#L179-L181",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "README.md",
+          "line_start": 179,
+          "line_end": 181,
+          "summary": "本人仓库历史README直接链接年度总结。"
+        },
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L127-L139",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 127,
+          "line_end": 139,
+          "summary": "同一第一人称SSP复盘末尾链接本人CS-Notes与个人简历网页；不是仅根据同名账号猜身份。"
+        },
+        {
+          "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/index.html#L103-L108",
+          "repo": "CyC2018/CyC2018.github.io",
+          "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+          "path": "index.html",
+          "line_start": 103,
+          "line_end": 108,
+          "summary": "入口脚本跳转page.html，说明首页空壳不等于公开履历不存在。"
+        }
+      ],
+      "public_html_profile": {
+        "author_called_it": "个人简历",
+        "author_link_evidence": {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L139-L139",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 139,
+          "line_end": 139,
+          "summary": "SSP本人原文明确称这个网页为自己的简历。",
+          "short_excerpt": "只要允许，我都会用这个简历给面试官演示：[个人简历](https://cyc2018.github.io)"
+        },
+        "public_url": "https://cyc2018.github.io/page.html",
+        "source_url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html",
+        "repo": "CyC2018/CyC2018.github.io",
+        "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+        "commit_date": "2020-11-19T17:53:07Z",
+        "document_type": "可读公开HTML履历/项目展示页；作者自称个人简历，不是下载到本地的CV原件。",
+        "read_scope": "解析完整HTML的非联系专业内容：页头、网易实习、两项科研、开源博客、微博系统、Markdown工具、Leetcode样式、编程语言/Web/中间件技能；联系与地址模块主动忽略。",
+        "professional_sections_read_completely": true,
+        "education_section_present_in_html": false,
+        "education_boundary": "page.html未见教育/学历模块；研究生方向只能另据本人年度复盘L29，不补写学校、学历时间线或本科学校。",
+        "sections": [
+          {
+            "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html#L25-L40",
+            "repo": "CyC2018/CyC2018.github.io",
+            "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+            "path": "page.html",
+            "line_start": 25,
+            "line_end": 40,
+            "summary": "页头：作者称实习项目、科研项目以及个人项目介绍。"
+          },
+          {
+            "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html#L43-L69",
+            "repo": "CyC2018/CyC2018.github.io",
+            "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+            "path": "page.html",
+            "line_start": 43,
+            "line_end": 69,
+            "summary": "网易互娱梦幻事业部2018.7.3–2018.8.31实习；体素/Marching Cube、Unity 3D与优化方法。"
+          },
+          {
+            "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html#L72-L123",
+            "repo": "CyC2018/CyC2018.github.io",
+            "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+            "path": "page.html",
+            "line_start": 72,
+            "line_end": 123,
+            "summary": "科研：点云四边形网格、心电波形分类。论文接收、专利和准确率均作者自述，未独立核验。"
+          },
+          {
+            "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html#L125-L224",
+            "repo": "CyC2018/CyC2018.github.io",
+            "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+            "path": "page.html",
+            "line_start": 125,
+            "line_end": 224,
+            "summary": "个人项目：技术博客、微博系统、Markdown转换与Leetcode样式。"
+          },
+          {
+            "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html#L226-L359",
+            "repo": "CyC2018/CyC2018.github.io",
+            "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+            "path": "page.html",
+            "line_start": 226,
+            "line_end": 359,
+            "summary": "技能：Java/C++/Python、MySQL/Spring/JavaScript、Redis/RabbitMQ/ZooKeeper。"
+          }
+        ],
+        "counting_recommendation": "新增“可读公开HTML履历页1”；同时保留“获授权打包的完整CV原件0”。不能继续笼统写完整成功者履历一份也没有，也不能宣称HTML具备教育等全部常规CV模块。",
+        "privacy_and_packaging": "只记录专业模块短摘录和来源链接；未存原始整页或联系方式，不用GitHub代码许可推定简历再分发许可；不打包该HTML原件。"
+      },
+      "project_associations": [
+        {
+          "name": "微博系统 / MBlog",
+          "relationship": "本人2018复盘称为求实习自己做的微博系统；同篇称后续学习Spring后改用Java实现；本人公开HTML履历直接给出MBlog仓库链接。",
+          "sources": [
+            {
+              "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L33-L35",
+              "repo": "CyC2018/CS-Notes",
+              "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+              "path": "other/2018 这一年.md",
+              "line_start": 33,
+              "line_end": 35,
+              "summary": "春招因缺少后台项目，用约一周PHP写微博系统；作者明确承认当时项目深度不足。"
+            },
+            {
+              "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L73-L79",
+              "repo": "CyC2018/CS-Notes",
+              "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+              "path": "other/2018 这一年.md",
+              "line_start": 73,
+              "line_end": 79,
+              "summary": "针对知识广度、表达和项目深度改进；微博从PHP改为Java/Spring。"
+            },
+            {
+              "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html#L150-L174",
+              "repo": "CyC2018/CyC2018.github.io",
+              "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+              "path": "page.html",
+              "line_start": 150,
+              "line_end": 174,
+              "summary": "履历说明MySQL主从读写分离、Redis热点缓存与Feed流，并直链同账号MBlog。"
+            }
+          ],
+          "historical_repo_url": "https://github.com/CyC2018/MBlog",
+          "current_source_status": "2026-10-23 repo API HTTP404，当前公开本人仓库清单无该库；本轮未定位独立源码或可构建快照。",
+          "source_archive_eligible": false,
+          "license_status": "独立源码和许可证未定位；不归档。",
+          "recommended_lessons": [
+            "项目需求由读多写少、热点与Feed流推出技术选择，可对照常用后端能力，但仅列技术名不足以证明掌握。",
+            "优先读作者自认项目太浅、面试被追问的部分，学习如何补验证与机制深度。"
+          ],
+          "limits": [
+            "未读代码，不能确认主从一致性、缓存失效、Feed拉推模式、并发和测试质量。",
+            "从PHP换Java/Spring是作者记录的学习过程，不能推断换框架直接导致SSP。",
+            "该项目不是非toy Agent项目，不替代当前Agent工程案例。"
+          ]
+        },
+        {
+          "name": "网易实习：游戏场景任意破坏与重建算法研究",
+          "relationship": "SSP本人复盘讲实习与项目面试；本人HTML履历给日期、部门和技术，并链接同仓优化说明。",
+          "sources": [
+            {
+              "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L81-L87",
+              "repo": "CyC2018/CS-Notes",
+              "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+              "path": "other/2018 这一年.md",
+              "line_start": 81,
+              "line_end": 87,
+              "summary": "本人网易实习工作为游戏引擎相关，与研究方向紧密相关；公司工作安排只是作者当年经历，不升级为当前企业政策。"
+            },
+            {
+              "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html#L43-L69",
+              "repo": "CyC2018/CyC2018.github.io",
+              "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+              "path": "page.html",
+              "line_start": 43,
+              "line_end": 69,
+              "summary": "体素/Marching Cube、Unity3D、享元、迭代、位运算、乐观分隔分析等作者描述。"
+            },
+            {
+              "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/doc/%E6%B8%B8%E6%88%8F%E5%9C%BA%E6%99%AF%E4%BB%BB%E6%84%8F%E7%A0%B4%E5%9D%8F%E4%B8%8E%E9%87%8D%E5%BB%BA%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6.md#L1-L50",
+              "repo": "CyC2018/CyC2018.github.io",
+              "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+              "path": "doc/游戏场景任意破坏与重建算法研究.md",
+              "line_start": 1,
+              "line_end": 50,
+              "summary": "公开优化说明：共享状态、位运算、乐观策略、从递归改迭代避免StackOverflow。"
+            }
+          ],
+          "source_status": "有公开设计/优化说明及页面演示素材；未定位完整业务源码，不下载、运行或打包。",
+          "recommended_lessons": [
+            "真实领域约束与失败模式比堆技术名更有讨论深度；可以研究共享数据、遍历与内存取舍。",
+            "将动机、方法与结果分开陈述，验证落地计划是否真正完成；履历“打算落地”不是已上线证明。"
+          ],
+          "limits": [
+            "技术结果、落地计划与性能改进均作者自述，未跑实验。",
+            "优化说明将迭代改进描述为基本不消耗内存，不应照搬为普遍结论；显式工作队列仍占空间，应记录峰值内存与栈限制。",
+            "这是历史游戏引擎/图形学项目，不能包装成成熟分布式后端或Agent项目。"
+          ]
+        },
+        {
+          "name": "CS-Notes 与 Markdown转换工具",
+          "relationship": "本人复盘末尾直接称CS-Notes为自己的技术博客；历史README L189–197称提取本人文档排版和转换工具；公开履历也直链工具。",
+          "sources": [
+            {
+              "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L127-L129",
+              "repo": "CyC2018/CS-Notes",
+              "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+              "path": "other/2018 这一年.md",
+              "line_start": 127,
+              "line_end": 129,
+              "summary": "本人博客/笔记所有权自述。"
+            },
+            {
+              "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/README.md#L189-L197",
+              "repo": "CyC2018/CS-Notes",
+              "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+              "path": "README.md",
+              "line_start": 189,
+              "line_end": 197,
+              "summary": "本人陈述文档同步、公式/目录转换与工具提取过程。"
+            },
+            {
+              "url": "https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html#L176-L200",
+              "repo": "CyC2018/CyC2018.github.io",
+              "commit": "bdc22b780acef89f2c0eb3588f15343dd09a38a6",
+              "path": "page.html",
+              "line_start": 176,
+              "line_end": 200,
+              "summary": "个人履历中的Markdown转换工具功能与项目链接。"
+            }
+          ],
+          "current_public_repo": "https://github.com/CyC2018/CS-Notes",
+          "historical_tool_repo": "https://github.com/CyC2018/GFM-Converter",
+          "source_status": "本轮仅核博客/工具关系及文档；没有抽读转换工具当前代码，不把技术笔记仓库等同可运行后端业务系统。",
+          "recommended_lessons": [
+            "开源输出可作为长期学习、表达与工程工具化的旁证；不能用star量替代个人贡献与项目质量。"
+          ]
+        }
+      ],
+      "personal_interview_sources": [
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L37-L39",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 37,
+          "line_end": 39,
+          "summary": "本人春招阿里：表达未切题、线程安全/ThreadLocal/函数式编程不足；失败复盘。"
+        },
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L41-L47",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 41,
+          "line_end": 47,
+          "summary": "本人腾讯春招多次面试：限流计数器边界、扫码、守护进程/信号/线程状态、任务调度；同时承认项目太浅。"
+        },
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L49-L51",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 49,
+          "line_end": 51,
+          "summary": "本人虎牙：微博时间线、ConcurrentHashMap、Spring与交流复盘。"
+        },
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L95-L99",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 95,
+          "line_end": 99,
+          "summary": "本人秋招阿里/阿里云：实习项目、开源博客、Paxos、信号量生产消费者与位运算；未将阿里云结果改为SSP。"
+        },
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L107-L113",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 107,
+          "line_end": 113,
+          "summary": "本人腾讯秋招：堆排序、二部图、网络触发模式、实习项目与交流；最终原文明言SP。"
+        },
+        {
+          "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L115-L117",
+          "repo": "CyC2018/CS-Notes",
+          "commit": "6ea58eff7e40a8b449a567af5ba7dcd20f7cd058",
+          "path": "other/2018 这一年.md",
+          "line_start": 115,
+          "line_end": 117,
+          "summary": "本人头条SSP相关轮次：算法、SQL执行/索引、加面项目与最终结果。"
+        }
+      ],
+      "interview_attribution": "同一固定全文从第一人称经历逐段叙述，未见转载他人面经的归属切换；可计本人春招/秋招复盘。不是逐字稿；多个轮次属于一个人，不计多个独立成功者。",
+      "recommendation": "可优先新增为CV15：它把本人SSP、失败与成功面试、项目迭代和公开履历连起来，符合吸取好处与坏处的需求。先读失败项目复盘，再读公开履历中的技术选择。",
+      "strengths": [
+        "SSP公司与档位明确：字节/头条后台；同文腾讯SP，避免混淆。",
+        "同篇第一人称叙述本人项目、本人面经，并直接链接自己的公开简历网页，来源关系强。",
+        "失败、改进与成功都保留，能观察项目深度、基础广度、实习经历和表达等多因素。"
+      ],
+      "limitations": [
+        "2018历史求职，当前网页快照为2020，不能直接当2026实习要求或当年简历原样。",
+        "SSP、实习贡献、科研与性能结果都是作者自述，没有企业或实验独立认证。",
+        "公开HTML页没有教育模块，未取得经授权的完整CV原件；未打包页面或联系方式。",
+        "微博独立源码当前404，不能宣称已附成熟后端项目源码。",
+        "作者关于加面评级、薪酬、部门、工作时间和招聘流程的说法是历史个人认知，不能升级为当前企业统一规则。",
+        "不证明某个项目或某项技术单独导致SSP，也不是近期Agent成功案例。"
+      ]
+    }
+  ],
+  "unresolved_or_excluded": [
+    {
+      "repo": "chenshuo/muduo",
+      "status": "未证明作者本人SSP；不计成功者",
+      "read_scope": "只读40行公开README，未检出求职SSP/offer自述",
+      "reason": "项目知名度、作者姓名及被成功者参考均不构成作者本人SSP证据；本轮无完整求职链。"
+    },
+    {
+      "repo": "chenshuaihao/NetServer",
+      "status": "未核为新例",
+      "read_scope": "repo API与猜测raw路径404",
+      "reason": "无法读取当前原仓，未得到SSP一手原文；不以项目被引用推断结果。"
+    },
+    {
+      "repo": "markparticle/WebServer",
+      "status": "只发现项目，未核SSP",
+      "read_scope": "repo API可读，README.md在master/main均404",
+      "reason": "文件名/项目结构未进一步定位，未得本人SSP一手原文，不能据项目本身认定成功者。"
+    },
+    {
+      "repo": "CyC2018/MBlog",
+      "status": "本人历史项目关系成立，但当前独立源码未定位",
+      "read_scope": "本人HTML直链＋复盘自述；当前repo API404",
+      "reason": "不得把历史链接当成已获取的源码包。"
+    }
+  ],
+  "output_scope": "本文件为唯一写入；未修改主报告/manifest/统计，未下载ZIP、运行第三方源码、收集联系资料或整页简历。"
+}

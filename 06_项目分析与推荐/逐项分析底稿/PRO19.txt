@@ -1,0 +1,135 @@
+PRO19 | SchoolBus：本人面经直接关联的预约项目，附v1代码局限
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94
+作者：
+  DreamCats；团队与第三方框架边界见README
+固定源码提交：
+  fc50ea8b19f99b4b15b2012048ea4651d896dd94
+类别：
+  项目参考
+retrieved_at：
+  2026-10-23
+技术栈：
+  - Java
+  - Spring Boot
+  - MyBatis
+  - Dubbo
+  - MySQL
+  - Redis
+  - RocketMQ
+  - JWT/SSO
+  - Sentinel
+project_relationship：
+  CV21/INT66本人字节和京东面经直接提微服务班车，根目录直接署项目来源；不是只凭同账号配项目
+结果自述：
+  作者京东offer、字节意向书；SSP未证，不以项目质量推导档位
+静态阅读发现：
+  - 原始来源：
+      https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md#L214
+    观察：
+      README给出求职简历写法与四服务范围；同文说明在Guns4.2基础开发，前端另链他人仓库
+  - 原始来源：
+      https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L203
+    观察：
+      v1实际存在下单、过期键设置和异常补偿消息发送，能和面经问题对照
+值得学习之处：
+  - 业务主线和文档较具体，同一项目在不同公司面经中反复被深挖
+  - 源码含多版本，可比较描述、实现与贡献边界；不把框架及团队全部算个人原创
+static_risks：
+  - 原始来源：
+      https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L273
+    观察：
+      v1补偿消息发送失败后只打印异常；所读路径未见持久化待补偿记录或恢复流程。进程崩溃和失败重发需另验证。
+  - 原始来源：
+      https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java#L52
+    观察：
+      去重判断、业务执行、写入Redis标记为三个步骤，不能只凭缓存判断就证明并发消费幂等。
+  - 原始来源：
+      https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L52
+    观察：
+      单例服务中tag是可变成员，下单中反复赋值；并发请求存在覆盖补偿标签的静态风险，未做并发复现。
+  - 原始来源：
+      https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/rd/RedisKeyExpirationListener.java#L39
+    观察：
+      v1监听过期键并发起关闭订单；只读这个入口不能证明断线恢复、通知遗漏补偿或与支付竞态已处理。
+建议用途：
+  把本人被问过的业务点对应到实现，再检查失败处理和一致性声明；适合信息调研中的项目取舍分析，个人项目设计继续暂缓。
+局限：
+  - 以上仅固定提交school-bus/下v1路径的静态观察；同仓另有school-bus-cloud版本，不把局部风险泛化为全版本结论
+  - 只读README、相关文档和三个Java文件关键段；未构建、压测或运行第三方代码
+  - 高性能、高可用是作者描述，未验证指标；不是SSP案例背书
+license_notes：
+  固定源码树未发现名为LICENSE/COPYING的文件，尚未确认整库再分发授权；Guns等第三方组件须分别遵循许可，不据公开可读推定整仓授权。
+archive_status：
+  固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行
+证据边界：
+  B：归属与具体代码可核；运行效果、许可和SSP未闭环
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    未核
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    最适合面经→实现→局限的对照；先看本人字节/京东追问，再读v1补偿和取消。
+  指定模块：
+    - README.md
+    - school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    预约微服务不是Agent；可补任务状态与失败窗口基础。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码选读派生ZIP已归档
+  源码包文件：
+    SchoolBus_固定源码选读.zip
+  exists：
+    是
+  理由：
+    固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行
+  源码包SHA-256：
+    e096546d2d8faa17f616d1da263c2764629578bcf79910ca486b95c1a0475a5c
+  source_manifest：
+    08_证据索引与统计/项目选读归档补齐.json
+  source_file_count：
+    4
+  selection_only：
+    是
+  runtime_verified：
+    否
+取得源码ZIP：
+  是
+source_selection_manifest：
+  08_证据索引与统计/项目选读归档补齐.json

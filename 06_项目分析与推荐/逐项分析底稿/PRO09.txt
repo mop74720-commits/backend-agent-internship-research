@@ -1,0 +1,256 @@
+PRO09 | Apache ShenYu：插件链、响应式网关与可测试开源贡献
+
+需求核对版 · 2026-10-24
+
+仓库：
+  apache/shenyu
+原始来源：
+  https://github.com/apache/shenyu
+方向与岗位：
+  Java后端／网关与基础设施
+阅读建议：
+  适合已有后端基础的人选一个插件深读并跟踪测试／PR；不适合全平台复刻。
+技术栈：
+  - Java 17
+  - Maven Wrapper
+  - Spring WebFlux／Reactor
+  - 插件 SPI
+  - Redis 限流
+  - JUnit／Mockito／StepVerifier
+  - 集成测试
+值得学习之处：
+  - 请求入口、插件链、选择器／规则匹配及限流插件有明确分层，可以按真实调用路径阅读。
+  - 所选限流单测覆盖放行与拒绝，拒绝分支断言 HTTP 429；CI 有模块化测试与 JDK 矩阵，适合观察开源项目如何把变更提交为可评审证据。
+  - CV05 自述 ShenYu／GSoC 相关经历，项目关联明确；原 LICENSE、NOTICE 和分发依赖许可均在源码快照内保留。
+局限与静态风险：
+  - 平台模块多，运行所有协议、注册中心和集成测试的成本高；把部署成功称作本人实现网关会夸大贡献。
+  - 所选 RateLimiterPluginTest mock 了 RedisRateLimiter，不能证明真实 Redis 集群下的原子性、网络故障和吞吐。
+  - 当前源码为 2026 年版本，而 CV05 录用自述发生在 2023 年；已核两项2022年测试PR，未逐条审计其余PR和模块归属，不能把当前 Agent Gateway 等新功能追溯成当年贡献。
+  - ShenyuWebHandler 的请求级 after 使用 doFinally，而内部 plugin.after 位于创建执行 Publisher 的 finally；同名钩子的异步时间语义要结合代码和生命周期测试理解，不能直接当同一种完成回调。
+borrow：
+  沿 ShenyuWebHandler → AbstractShenyuPlugin → RateLimiterPlugin → 对应测试阅读；适合学习扩展点、响应式生命周期和故障测试的组织。
+extend：
+  先读已核PR3848、3672及历史测试断言局限，其余贡献待核；当前网关整体不算个人实现。
+已定位阅读路径：
+  - shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java
+  - shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java
+  - shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/main/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPlugin.java
+  - shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java
+  - .github/workflows/ci.yml
+静态阅读发现：
+  - path：
+      shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java
+    line_start：
+      138
+    line_end：
+      145
+    观察：
+      Mono.defer 为订阅创建插件链；请求级 after 挂在 doFinally，覆盖完成、失败与取消。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java#L138-L145
+  - path：
+      shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java
+    line_start：
+      294
+    line_end：
+      337
+    观察：
+      链保存 index，支持 fork，递归跳过 skip 的插件；内部 plugin.after 处于 try/finally，需区分 Publisher 创建与异步完成。
+    kind：
+      已读代码／语义审查
+    原始来源：
+      https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java#L294-L337
+  - path：
+      shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java
+    line_start：
+      79
+    line_end：
+      134
+    观察：
+      依次处理插件启用、selector、rule 和匹配缓存，最终调用 doExecute。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java#L79-L134
+  - path：
+      shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java
+    line_start：
+      85
+    line_end：
+      106
+    观察：
+      Mockito 返回允许／拒绝的 Mono；StepVerifier 验证完成，拒绝分支断言 429。并非真实 Redis 集成测试。
+    kind：
+      测试材料
+    原始来源：
+      https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java#L85-L106
+测试材料与评测边界：
+  - 限流插件有模块级单测；主仓库另有 HTTP／协议组合集成测试及 CI 工作流。
+  - 根 POM 指定 Java 17；ci.yml 的测试组主要使用 JDK 17，并有 JDK 21 相关任务。未执行这些工作流。
+  - 仓库也有 benchmark 材料，但本次没有复现数据，不引用其数字作为个人可达性能。
+运行依赖说明：
+  - Java 17+、Maven Wrapper；构建会下载 Maven 依赖。
+  - 最小网关与 Admin、上游服务和配置同步方式有关；按所选示例选择数据库／注册中心，不需要为阅读装全套组件。
+  - 限流实际运行需 Redis；集成测试可能需 Docker、上游服务、注册中心或 K8s，视测试模块而定。
+cost：
+  本地静态分析无模型费用；完整网关集成环境需要多进程、容器或集群资源。未购买服务、未运行压测。
+recommended_for：
+  - 想学习响应式网络、插件化和中间件测试的 Java 后端学生
+  - 能从小 issue／测试补充切入开源贡献的人
+not_recommended_for：
+  - Java／HTTP／并发基础尚薄，计划先复刻整个网关的人
+  - 希望直接把 Apache 项目名称等同录用优势的人
+候选人与项目关系：
+  - candidate_id：
+      CV05
+    直接关系：
+      已核erdengk的PR3848、3672在2022年合并并静态读两测试文件；其余PR和模块归属未审。
+    录用因果边界：
+      历史大 SSP 为自述；多段实习、开源等因素混合，没有项目独立因果证据。
+interview_evidence_ids：
+  - INT07
+  - INT10
+  - INT15
+interview_linkage：
+  主题映射为技术选型、网络／系统基础、具体实习或开源工作；未发现这些面经直接指定 ShenYu 源码。
+interview_questions：
+  - 为什么 handle 使用 Mono.defer？重复订阅会不会复用带 index 的链？
+  - plugin.after 与 doFinally 的触发时机有什么差别？
+  - mock 限流器的单测覆盖了什么，尚未覆盖 Redis 故障和并发的什么？
+商业与选择偏差：
+  Apache 社区项目；不把组织背书、star 或活动名替代个人贡献证据。
+许可标识：
+  Apache-2.0
+license_scope：
+  根 LICENSE、NOTICE 及仓库内第三方分发许可原样保留；未改动上游源码。
+固定源码提交：
+  34f2ed036747936a5e28aea2c94cd9b3cddcce47
+源码提交时间：
+  2026-10-23T03:39:41Z
+default_branch：
+  master
+取得源码ZIP：
+  是
+源码包文件：
+  apache__shenyu__34f2ed036747.zip
+源码包SHA-256：
+  60aa52d113c0fba6dee91b5cb2212bf309e4878de5f658c86091b9b057a5cd15
+运行验证范围：
+  未构建、未执行插件／集成测试或 benchmark。
+retrieved_date：
+  2026-10-23
+类别：
+  项目参考
+source_urls：
+  - https://github.com/apache/shenyu
+  - https://github.com/apache/shenyu/tree/34f2ed036747936a5e28aea2c94cd9b3cddcce47
+  - https://api.github.com/repos/apache/shenyu
+inspection_boundary：
+  未构建、未执行插件／集成测试或 benchmark。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。
+已核个人贡献：
+  - 原始来源：
+      https://github.com/apache/shenyu/pull/3848
+    author_login：
+      erdengk
+    merged_at：
+      2022-08-29T07:31:32Z
+    merge_commit：
+      22546ae0e6a4047ee08bf4a41f9114f47ba57e19
+    范围：
+      OAuth2插件集成测试，5个变更文件
+    code_url：
+      https://github.com/apache/shenyu/blob/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java#L38
+    static_findings：
+      初始化插件并断言成功，异步请求授权接口，断言返回值非null。
+    局限：
+      所读测试未断言授权码/token或拒绝路径，不能据此称完整验证OAuth2正确性。
+  - 原始来源：
+      https://github.com/apache/shenyu/pull/3672
+    author_login：
+      erdengk
+    merged_at：
+      2022-07-06T15:54:15Z
+    merge_commit：
+      5ba8e13c2c3cf330bb30924190ca6a97fb112283
+    范围：
+      logging-rocketmq插件集成测试，4个变更文件
+    code_url：
+      https://github.com/apache/shenyu/blob/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java#L54
+    static_findings：
+      初始化插件与生产者，构造请求日志并调用consume；异常则断言失败。成功路径调用close；插件清理另置于@AfterAll。
+    局限：
+      所读测试没有消费者接收消息的断言；调用未抛异常不能等同消息完整送达；断言失败会跳过紧随其后的close。
+round3_recommended_use：
+  读两个小PR及测试文件，学习如何把开源经历落到可核的变更范围；也检查断言是否验证业务结果，不能把整套网关算为个人作品。
+round3_boundary：
+  GitHub API确认作者账号、合并状态、日期和提交；静态读2个测试文件，未运行测试或项目；未联系作者。
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-10-23T03:39:41Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    开源贡献目标先精读两个本人PR的改动与断言，再选读插件链；勿把整库算个人。
+  指定模块：
+    - https://github.com/apache/shenyu/pull/3848
+    - https://github.com/apache/shenyu/blob/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java#L38
+    - https://github.com/apache/shenyu/pull/3672
+    - https://github.com/apache/shenyu/blob/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java#L54
+    - shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java
+    - shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java
+    - shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/main/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPlugin.java
+    - shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    2026网关可能含新方向，但本次没有核其Agent能力；2022PR和2023SSP不能后推。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    apache__shenyu__34f2ed036747.zip
+  固定源码提交：
+    34f2ed036747936a5e28aea2c94cd9b3cddcce47
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

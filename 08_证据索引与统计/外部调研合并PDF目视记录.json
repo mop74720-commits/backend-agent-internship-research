@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-24",
+  "passed": true,
+  "pdf_sha256": "ec69a536f2851f110dd64d67b27584c214eea528a5294d17baf17a7a0e4d5a2f",
+  "pdf_pages": 27,
+  "pages_reviewed": [
+    1,
+    2,
+    14,
+    27
+  ],
+  "observations": [
+    "页1核对当前239条来源汇总、99面经及外部增补说明，标题与表格无重叠。",
+    "页2正文与补证边界段落分隔清楚，无明显截断。",
+    "页14候选人关联表表头可见，列内容保持在页宽内，未见文字越界。",
+    "页27新增平台观点、资料缺口及下载入口均在页内，页脚正确。"
+  ],
+  "rendered_contact_sheet": "C:/Users/GW/.codex/visualizations/2026/10/23/01a16839-9742-7672-812b-1576a3dd064f/external_merge_pdf_contact_sheet.png",
+  "scope": "抽查首、次、中、末页；其余页由PDF文本块边界和空页检查补充，不声称全部页面目视。"
+}

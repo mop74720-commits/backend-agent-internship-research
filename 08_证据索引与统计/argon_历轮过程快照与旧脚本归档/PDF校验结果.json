@@ -1,0 +1,15 @@
+{
+  "pages": 74,
+  "characters": 57584,
+  "missing_expected_ids": [],
+  "blank_pages": [],
+  "rendered_pages": [
+    1,
+    38,
+    53,
+    74
+  ],
+  "chinese_title_present": true,
+  "footer_present": true,
+  "characters_per_page_min": 369
+}

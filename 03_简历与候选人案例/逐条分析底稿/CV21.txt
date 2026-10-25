@@ -1,0 +1,195 @@
+CV21 | DreamCats：本人项目与三家面经可直接对应，SSP未证
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12
+作者：
+  DreamCats
+事件时间／原文日期（依分类）：
+  7—8月本人面经；年份未知
+方向与岗位：
+  历史Java后端求职资料；不是新确认SSP成功者
+结果自述：
+  本人京东offer、字节意向书；腾讯自评不理想，未核最终结果。未写SSP档位
+资料形式：
+  本人面经目录、项目文档与源码仓；非完整CV原件
+技术栈：
+  - Java
+  - Spring Boot
+  - MySQL
+  - Redis
+  - Dubbo
+  - RocketMQ
+  - JWT/SSO
+  - Sentinel
+本人项目与经历描述：
+  - 微服务班车在线预约系统SchoolBus：用户、班车、订单、支付四服务；Guns框架二次开发，前端另有作者
+静态阅读发现：
+  - 原始来源：
+      https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24
+    观察：
+      目录单列“自己”，区别前面的他人面经汇总
+  - 原始来源：
+      https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md#L27
+    观察：
+      根目录把班车项目文档和仓库明确署为DreamCats
+  - 原始来源：
+      https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12
+    观察：
+      字节本人问题明确追问微服务班车、拆分、自动取消和MQ；文件首尾写意向书
+  - 原始来源：
+      https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E4%BA%AC%E4%B8%9C.md#L2
+    观察：
+      京东文件明确offer，二面又问班车状态业务
+建议用途：
+  优先看同一项目在字节、京东的不同深挖路径，再对照PRO19的源码局限。项目归属清楚，但不能由此推导SSP。
+值得学习之处：
+  - 求职项目、本人多轮问题与可读代码形成直接关系，适合研究技术栈为什么会被追问
+局限：
+  - 年份、完整履历和档位未核；意向书与正式offer分开
+  - 源码有两个版本及第三方框架，不能把全部代码算作者独立原创
+  - 未构建或运行项目，不验证性能和高可用宣传
+证据边界：
+  B：本人项目和面经关联清楚；SSP结果未证
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    未知
+  事件时间：
+    7—8月本人面经；年份未知
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    2024-12-02资料仓commit不作面试年；本人文件未明示招聘批次
+  来源日期：
+    无可确认发帖年
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    按source_findings已读范围归类；全文仅指该篇已定位公开正文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      京东
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12
+    依据：
+      本人京东offer、字节意向书；腾讯自评不理想，未核最终结果。未写SSP档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      字节跳动
+    档位：
+      未披露
+    状态：
+      intention_self_report
+    证据：
+      https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12
+    依据：
+      本人京东offer、字节意向书；腾讯自评不理想，未核最终结果。未写SSP档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      腾讯
+    档位：
+      未披露
+    状态：
+      poor_performance_self_assessment
+    证据：
+      https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12
+    依据：
+      本人京东offer、字节意向书；腾讯自评不理想，未核最终结果。未写SSP档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  无可确认发帖年
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12
+      direct_basis：
+        本人京东offer、字节意向书；腾讯自评不理想，未核最终结果。未写SSP档位
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12
+      direct_basis：
+        本人面经目录、项目文档与源码仓；非完整CV原件
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md#L27
+      direct_basis：
+        根目录把班车项目文档和仓库明确署为DreamCats
+      直接关系：
+        直接点名
+      gap：
+        Guns二次开发、前端另有作者；未运行，不能把整库算独立原创
+      project_id：
+        PRO19
+      repo_url：
+        https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94
+  interview：
+    - 原始来源：
+        https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24
+      direct_basis：
+        DreamCats：同一班车项目在字节、京东、腾讯的本人多轮对照
+      直接关系：
+        直接点名
+      gap：
+        本记录并非各家SSP完整面试录音；以已读范围为准
+      interview_id：
+        INT66
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - Guns二次开发、前端另有作者；未运行，不能把整库算独立原创
+  - 本记录并非各家SSP完整面试录音；以已读范围为准
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  否
+ssp_claim_present：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

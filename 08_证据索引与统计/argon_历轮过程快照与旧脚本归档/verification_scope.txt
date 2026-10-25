@@ -1,0 +1,5 @@
+源码归档共12个：固定commit、ZIP CRC、SHA-256及推荐路径存在性校验。
+本轮新增5包；新增项目抽读实现、测试及依赖，并记录固定源码行号。静态疑点不宣称已经运行复现。
+未执行第三方完整部署、构建、模型调用、压测或任务评测；所有性能数字/预期输出不作为本次实测。
+Ragent所选拒绝middleware不证明业务授权；DeerFlow契约文档仍为DRAFT；RAGFlow HTTP benchmark不等于检索质量。
+学成在线await超时不自动取消工作线程；AgentScope权限模式不替代业务授权；OpenManus沙箱测试不等于任务成功评测；Hello-Agents示例5/5是预期输出。

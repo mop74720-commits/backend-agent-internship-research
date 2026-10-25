@@ -1,0 +1,189 @@
+CV20 | 鬼卞：2019字节SSP来稿，GSoC与数据库比赛项目经历
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30
+作者：
+  鬼卞（文末署名）；不是收录仓主puge-up
+事件时间／原文日期（依分类）：
+  2019求职回顾：腾讯实习转正SP与字节校招SSP
+方向与岗位：
+  历史Linux C/C++后端方向；腾讯实习转正与秋招结果分别记录
+结果自述：
+  来稿第一人称自述字节SSP、腾讯实习转正SP、网易游戏SP；不能互换档位
+资料形式：
+  GitHub收录的署名读者来稿，含原始公众号链接；非作者本人仓库或完整简历
+evidence_excerpt：
+  字节跳动直通终面 ssp
+技术栈：
+  - Linux
+  - C/C++
+  - 网络编程
+  - 数据库
+  - Redis/libco源码阅读
+本人项目与经历描述：
+  - 自述大二参与并完成GSoC，未写具体组织、任务和本人仓库
+  - 自述阿里云天池数据库性能赛作为求职压轴项目，未给赛题年份、代码与可核排名
+静态阅读发现：
+  - 原始来源：
+      https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L34
+    观察：
+      结果列表分别给出三家档位
+  - 原始来源：
+      https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L52
+    观察：
+      GSoC经历与开源参与的本人回顾；不把文中申请人数统计当当前事实
+  - 原始来源：
+      https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L67
+    观察：
+      数据库比赛与求职项目关系为本人明示；源码未定位
+  - 原始来源：
+      https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L156
+    观察：
+      文末有2019日期、鬼卞署名和原始文章链接
+建议用途：
+  比较开源协作、专项比赛与实习转正如何形成履历；可提炼项目来源和个人贡献的表达，暂不足以做源码复刻案例。
+值得学习之处：
+  - 年份、署名、公司档位与求职项目来源都比只有标题的线索清楚
+局限：
+  - 原公众号本轮遇环境验证，未核原始正文；GitHub版本属于第三方收录，证据强度低于本人仓直接发布
+  - 没有核到本人GitHub、具体GSoC任务或数据库赛源码，不打包猜测项目
+  - 没有逐轮题目，不能算新增具体逐轮面经；录用未获企业核验
+证据边界：
+  C+：署名第一人称来稿可读；原始发布页和本人代码尚未核实
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    2019求职回顾：腾讯实习转正SP与字节校招SSP
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    文末署2019-10-24；2025收录commit不是面试年
+  来源日期：
+    2019-10-24署文
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    按source_findings已读范围归类；全文仅指该篇已定位公开正文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      字节跳动/头条
+    档位：
+      SSP
+    状态：
+      guest_article_offer_self_report
+    证据：
+      https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30
+    依据：
+      来稿第一人称自述字节SSP、腾讯实习转正SP、网易游戏SP；不能互换档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      腾讯（实习转正）
+    档位：
+      SP
+    状态：
+      guest_article_conversion_self_report
+    证据：
+      https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30
+    依据：
+      来稿第一人称自述字节SSP、腾讯实习转正SP、网易游戏SP；不能互换档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      网易游戏
+    档位：
+      SP
+    状态：
+      guest_article_offer_self_report
+    证据：
+      https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30
+    依据：
+      来稿第一人称自述字节SSP、腾讯实习转正SP、网易游戏SP；不能互换档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  2019-10-24署文
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30
+      direct_basis：
+        来稿第一人称自述字节SSP、腾讯实习转正SP、网易游戏SP；不能互换档位
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30
+      direct_basis：
+        GitHub收录的署名读者来稿，含原始公众号链接；非作者本人仓库或完整简历
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30
+      direct_basis：
+        自述大二参与并完成GSoC，未写具体组织、任务和本人仓库；自述阿里云天池数据库性能赛作为求职压轴项目，未给赛题年份、代码与可核排名
+      直接关系：
+        直接点名
+      gap：
+        仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        署名来稿讲求职路径，没有逐轮具体问题；收录仓主不是作者。
+      直接关系：
+        未建立
+      gap：
+        署名来稿讲求职路径，没有逐轮具体问题；收录仓主不是作者。
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  - 署名来稿讲求职路径，没有逐轮具体问题；收录仓主不是作者。
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

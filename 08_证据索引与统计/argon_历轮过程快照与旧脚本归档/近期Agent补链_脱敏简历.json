@@ -1,0 +1,26 @@
+{
+  "url": "https://imyihang.com/api/resume",
+  "source_status": 200,
+  "source_sha256": "602e6e7216f085ccb4a897b94f9cd449ea1632dd87e44bd2a54235a944ea7459",
+  "original_saved": false,
+  "local_path": "03_简历与候选人案例/核心后端履历_脱敏副本/黄一航_中科曙光Agent实习_公开完整简历_脱敏副本.pdf",
+  "sha256": "f2fe9f32c5a208d0a1148d82a559d0b49436f117264876921a731e256c433139",
+  "bytes": 410226,
+  "pages": 1,
+  "professional_modules": [
+    "教育背景",
+    "实习经历",
+    "项目经历",
+    "专业技能"
+  ],
+  "professional_text_unchanged_from_education": true,
+  "privacy": {
+    "contact_regex_hits": 0,
+    "links": 0,
+    "images": 0,
+    "nonempty_metadata": {},
+    "xml_metadata": false
+  },
+  "qa_image": "C:/Users/GW/.codex/visualizations/2026/10/23/01a16839-9742-7672-812b-1576a3dd064f/近期Agent补链_黄一航简历_第1页.png",
+  "packaging_type": "整理者制作的公开完整专业履历脱敏副本，非未经修改原件"
+}

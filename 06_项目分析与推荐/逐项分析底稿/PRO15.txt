@@ -1,0 +1,183 @@
+PRO15 | CalvinNeo ATP：本人SSP关联的UDP可靠传输库
+
+需求核对版 · 2026-10-24
+
+技术栈：
+  - C++17
+  - UDP
+  - 可靠传输
+  - 协议状态
+  - 计时器
+  - 非阻塞IO
+  - poll/AIO
+  - 故障模拟
+阅读建议：
+  推荐拆读协议状态、计时器与故障测试，学习网络基础如何变成可追问实现；不把自制协议当生产TCP替代。
+值得学习之处：
+  - 本人求职原文说明项目来源：读libutp后写的大作业，并进一步修改
+  - API明确交代UDP接收事件与外部计时器职责，可讨论框架边界
+  - 测试脚本包含延迟、丢包、重复、乱序及损坏网络条件的入口
+局限与静态风险：
+  - README明确框架模式非线程安全；调用方需维护计时器与事件
+  - test/run_test.py仍用Python2语法，含sudo tc操作；本次不执行，也不能直接当现代环境可运行
+  - check_log只打印文件大小，未比较文件内容；测试跑完不等于可靠交付得到证明
+  - README指向atp_callback.cpp中的simulate_packet_loss_sendto，但该固定文件未见该函数名，文档与当前实现需核对
+已定位阅读路径：
+  - README.md
+  - src/atp.h
+  - src/atp_impl.cpp
+  - src/atp_callback.cpp
+  - test/run_test.py
+静态阅读发现：
+  - path：
+      README.md
+    line_start：
+      32
+    line_end：
+      39
+    观察：
+      要求外部向框架转交UDP包并触发计时事件，明确非线程安全。
+    kind：
+      接口约束
+    原始来源：
+      https://github.com/CalvinNeo/ATP/blob/597a9be4b840127c320b0a7abbfa280ccaab435f/README.md#L32-L39
+  - path：
+      src/atp_callback.cpp
+    line_start：
+      24
+    line_end：
+      43
+    观察：
+      实际发送回调调用sendto并按发送长度处理错误；不是完整网络可靠性保证。
+    kind：
+      固定源码静态观察
+    原始来源：
+      https://github.com/CalvinNeo/ATP/blob/597a9be4b840127c320b0a7abbfa280ccaab435f/src/atp_callback.cpp#L24-L43
+  - path：
+      test/run_test.py
+    line_start：
+      81
+    line_end：
+      95
+    观察：
+      check_log只打印输入/输出字节数后返回，无内容比对。
+    kind：
+      测试局限
+    原始来源：
+      https://github.com/CalvinNeo/ATP/blob/597a9be4b840127c320b0a7abbfa280ccaab435f/test/run_test.py#L81-L95
+  - path：
+      test/run_test.py
+    line_start：
+      191
+    line_end：
+      196
+    观察：
+      存在1000ms延迟与50%丢包测试入口；仅核到脚本，未运行。
+    kind：
+      故障测试入口
+    原始来源：
+      https://github.com/CalvinNeo/ATP/blob/597a9be4b840127c320b0a7abbfa280ccaab435f/test/run_test.py#L191-L196
+测试材料与评测边界：
+  - 静态读取丢包、延迟、重复和乱序测试组织方式。
+  - 未构建、未sudo tc、未改网络配置、未跑数据传输；没有吞吐或正确率实测。
+运行依赖说明：
+  - C++17、Make、POSIX/Linux网络环境。
+  - 原测试脚本依赖旧Python2语法、网络工具与部分特权操作；应先读脚本再准备隔离测试环境。
+interview_questions：
+  - 数据按序、不丢失、不重复分别由哪些机制保证？
+  - 计时器或收包事件没有按时执行会怎样？
+  - 为什么文件大小相同仍不能证明内容一致，校验与错误注入怎样设计？
+仓库：
+  CalvinNeo/ATP
+固定源码提交：
+  597a9be4b840127c320b0a7abbfa280ccaab435f
+源码提交时间：
+  2020-10-16T04:56:53Z
+许可标识：
+  GPL-2.0-or-later
+license_scope：
+  原样保留根及子目录许可证；不把当前版本当作求职时原始快照
+源码包文件：
+  CalvinNeo__ATP__597a9be4b840.zip
+源码包SHA-256：
+  ff1205bbb9b6731133e98a4495d4ef81b80e6c015411e24b79052b2dec2b19e1
+取得源码ZIP：
+  是
+原始来源：
+  https://github.com/CalvinNeo/ATP
+候选人与项目关系：
+  - CV10
+cost：
+  源码阅读与本地构建不需要模型API；本轮仅静态阅读和归档，没有运行费用。
+运行验证范围：
+  固定源码和部分文档/测试静态阅读；未构建、运行、压测或修改系统配置。
+interview_linkage：
+  本人文章直接建立项目关系；固定版本晚于求职经历，不等于当时提交版本，也不证明该项目单独导致SSP。
+类别：
+  项目参考
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2020-10-16T04:56:53Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    网络/C++方向读事件边界与故障测试局限；不把QPS/可靠性口号写成果。
+  指定模块：
+    - README.md
+    - src/atp.h
+    - src/atp_impl.cpp
+    - src/atp_callback.cpp
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    网络库不是已核Agent任务项目。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    CalvinNeo__ATP__597a9be4b840.zip
+  固定源码提交：
+    597a9be4b840127c320b0a7abbfa280ccaab435f
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

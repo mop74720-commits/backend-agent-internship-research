@@ -1,0 +1,230 @@
+PRO11 | AgentScope：工具权限、状态与中断测试的工程参考
+
+需求核对版 · 2026-10-24
+
+仓库：
+  agentscope-ai/agentscope
+原始来源：
+  https://github.com/agentscope-ai/agentscope
+方向与岗位：
+  Python Agent框架／运行工程
+阅读建议：
+  Agent 侧优先拆读权限引擎和中断测试；适合学习可观察、可测试的执行系统，不建议整框架复刻。
+技术栈：
+  - Python 3.11+
+  - 异步 ReAct 执行
+  - 结构化工具调用
+  - 权限引擎／HITL
+  - 状态序列化
+  - FastAPI 可选服务
+  - Docker 等可选 workspace
+  - pytest／MockModel
+值得学习之处：
+  - 所选源码包含输入校验、工具权限解析、确认事件、执行和状态记录，工程深度可定位到实现，超出单次 LLM API 封装。
+  - PermissionEngine 区分 DEFAULT／EXPLORE／ACCEPT_EDITS／BYPASS／DONT_ASK，并有 deny 优先和安全询问等测试；可以比较不同策略的精确语义。
+  - AgentInterrupt 测试用 MockModel 和慢工具构造串行／并行取消路径，检查事件与上下文终态；比只看演示更适合研究失败处理。
+  - AgentState 显式存会话、摘要、上下文、权限上下文及 reply 状态，能讨论状态格式兼容与外部响应等待。
+局限与静态风险：
+  - 当前主线规模较大，SOP、语音、团队、服务、渠道和多种 workspace 会提高学习成本；README 部分功能明确标为 Experimental。
+  - BYPASS 按设计会跳过部分 ASK；不能因为引入了权限引擎就宣称所有模式都保留相同防护。
+  - Agent._check_permission_impl 对已 ALLOWED 的工具调用直接返回允许；应用仍须在业务服务端检查身份、撤权、参数与事务，不能把框架确认当成永久业务授权。
+  - MockModel 单测验证运行机制，不是某一业务上的任务成功率；序列化 AgentState 也不等于已经证明跨进程恢复后外部写操作不会重复。
+borrow：
+  先读 permission/_engine.py 和 tests/permission_engine_test.py，再读 agent 的工具生命周期与 agent_interrupt_test；按测试对照实现。
+extend：
+  评估框架时分别核对许可模式、取消后工具状态、外部动作幂等、存储后端和真实任务评测。这里提供框架分析，不新增用户个人项目设计。
+已定位阅读路径：
+  - src/agentscope/permission/_engine.py
+  - src/agentscope/agent/_agent.py
+  - src/agentscope/state/_state.py
+  - tests/permission_engine_test.py
+  - tests/agent_interrupt_test.py
+  - .github/workflows/unittest.yml
+静态阅读发现：
+  - path：
+      src/agentscope/permission/_engine.py
+    line_start：
+      117
+    line_end：
+      212
+    观察：
+      DEFAULT 按 deny→ask→只读→工具自身检查→allow→询问的顺序决策；安全 ASK 不被普通 allow 覆盖。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/src/agentscope/permission/_engine.py#L117-L212
+  - path：
+      src/agentscope/permission/_engine.py
+    line_start：
+      395
+    line_end：
+      426
+    观察：
+      BYPASS 文档明确为充分信任模式，部分工具 ASK 被跳过；DONT_ASK 的语义不同。
+    kind：
+      模式边界
+    原始来源：
+      https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/src/agentscope/permission/_engine.py#L395-L426
+  - path：
+      src/agentscope/agent/_agent.py
+    line_start：
+      2407
+    line_end：
+      2424
+    观察：
+      工具调用已被用户确认而标为 ALLOWED 时直接返回 ALLOW；因此业务权限必须由应用层独立维持。未认定这是框架漏洞。
+    kind：
+      集成边界
+    原始来源：
+      https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/src/agentscope/agent/_agent.py#L2407-L2424
+  - path：
+      tests/permission_engine_test.py
+    line_start：
+      40
+    line_end：
+      66
+    观察：
+      为同工具同时加入 allow／deny，断言 DENY 优先。
+    kind：
+      测试材料
+    原始来源：
+      https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/tests/permission_engine_test.py#L40-L66
+  - path：
+      tests/agent_interrupt_test.py
+    line_start：
+      451
+    line_end：
+      518
+    观察：
+      通过 MockModel 和慢串行工具构造取消，检查 INTERRUPTED 回复及工具结果／上下文。
+    kind：
+      测试材料
+    原始来源：
+      https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/tests/agent_interrupt_test.py#L451-L518
+测试材料与评测边界：
+  - unittest.yml 在 Python 3.11 安装开发依赖，使用 coverage run -m pytest tests -v。
+  - 抽读权限优先级和工具取消测试；测试中存在平台条件／skip，不能假定各 OS 都有同样覆盖。
+  - 没有本次执行测试、模型调用、任务基准或跨进程故障注入；不转述任何准确率为实测。
+运行依赖说明：
+  - Python >=3.11；根 pyproject 列基础运行依赖和额外能力。
+  - service 可选依赖 FastAPI／Uvicorn 等；SQL 存储 extra 含 SQLAlchemy／Alembic，具体异步数据库驱动由使用者选择。
+  - Docker／远程沙箱、第三方记忆、真实模型 API 按选用能力另装另配；基础阅读与 MockModel 分析不要求付费模型。
+cost：
+  本次未调用模型。真实多轮工具与模型调用按供应商计费；远程沙箱、外部存储和服务也可能收费，不能把框架开源等同运行零成本。
+recommended_for：
+  - 已有 Python／异步基础，想研究工具权限、事件和取消恢复的人
+  - 需要从框架实现和测试理解 Agent 工程的人
+not_recommended_for：
+  - 想靠部署框架冒充自己实现完整 Agent 平台的人
+  - 只为增加名词数量而启用所有多 Agent／语音／渠道能力的人
+候选人与项目关系：
+  —
+interview_evidence_ids：
+  - INT01
+  - INT02
+  - INT03
+  - INT13
+  - INT17
+interview_linkage：
+  仅做主题映射：循环、工具、权限、恢复、评价与复杂度必要性。未找到本次候选人以此固定项目获得大厂 Agent 实习／SSP 的可核验因果证据。
+interview_questions：
+  - 已 ALLOWED 的工具调用在用户权限撤销后恢复，业务服务端如何处理？
+  - task.cancel() 后工具结果、上下文与回复结束事件如何保持一致？
+  - MockModel 单测通过和真实业务任务成功之间还缺哪些验证？
+商业与选择偏差：
+  组织维护的开源框架，存在关联模型／云／工具生态；按具体实现与测试评价，不把生态宣传当岗位要求。
+许可标识：
+  Apache-2.0
+license_scope：
+  根 LICENSE 原样保留；可选远程模型／沙箱服务另有条款与费用。
+固定源码提交：
+  bdad647d2fee7d66597681ecd89e086b7800dd2a
+源码提交时间：
+  2026-10-23T08:07:34Z
+default_branch：
+  main
+取得源码ZIP：
+  是
+源码包文件：
+  agentscope-ai__agentscope__bdad647d2fee.zip
+源码包SHA-256：
+  e6896e9ee7ec7165628dcd025958b49f0548ef612f8768ff95691a42f9272cf8
+运行验证范围：
+  仅固定源码与部分测试静态阅读；未安装框架、调用模型或执行测试。
+retrieved_date：
+  2026-10-23
+类别：
+  项目参考
+source_urls：
+  - https://github.com/agentscope-ai/agentscope
+  - https://github.com/agentscope-ai/agentscope/tree/bdad647d2fee7d66597681ecd89e086b7800dd2a
+  - https://api.github.com/repos/agentscope-ai/agentscope
+inspection_boundary：
+  仅固定源码与部分测试静态阅读；未安装框架、调用模型或执行测试。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-10-23T08:07:34Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    需要研究异步执行与取消语义时选读；常规业务后端先看领域服务。
+  指定模块：
+    - src/agentscope/permission/_engine.py
+    - src/agentscope/agent/_agent.py
+    - src/agentscope/state/_state.py
+    - tests/permission_engine_test.py
+Agent方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    优先读权限引擎和中断测试，学会把机制保证与业务授权/任务成功分开。
+  指定模块：
+    - src/agentscope/permission/_engine.py
+    - src/agentscope/agent/_agent.py
+    - src/agentscope/state/_state.py
+    - tests/permission_engine_test.py
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    agentscope-ai__agentscope__bdad647d2fee.zip
+  固定源码提交：
+    bdad647d2fee7d66597681ecd89e086b7800dd2a
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

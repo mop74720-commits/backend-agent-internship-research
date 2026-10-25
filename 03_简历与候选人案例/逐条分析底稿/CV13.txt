@@ -1,0 +1,183 @@
+CV13 | dong03：历史CV/多模态SSP自述、协作面经与同账号研究项目
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4
+作者：
+  dong03
+事件时间／原文日期（依分类）：
+  2022年部分面经；SSP发放年份未写明
+方向与岗位：
+  CV/多模态算法邻近参考；非Agent工程岗
+结果自述：
+  作者明确第一人称自述若干大厂SSP；未指明哪家公司属于SSP
+录用证据边界：
+  README第一人称明确SSP，未提供具体公司定档或企业证明。
+evidence_excerpt：
+  招聘告一段落，目标方向是CV/多模态算法工程师，也拿到了若干大厂的SSP，简单记录下面试过程中的知识点供参考和存档。
+资料形式：
+  本人SSP自述、知识总结与多人协作面经；非完整简历
+技术栈：
+  - PyTorch
+  - CV/多模态
+  - 模型训练
+  - 跨数据集评测
+  - 算法与数学
+本人项目与经历描述：
+  - 同账号MVSS-Net图像篡改检测研究项目；面经没有点名该项目
+project_urls：
+  - https://github.com/dong03/MVSS-Net
+来源归纳：
+  README第8行称只是记录我自己遇到的问题；TIPS第24–36行有按公司归纳的知识点。TIPS第38–39行明确更多面经由实验室同学参与整理，因此exp目录不是可确认的单作者面试全集。
+整理者分析：
+  同一公开GitHub账号、API标记非fork；面经未明确点名MVSS-Net，因此只确认账号关联，不确认简历或面试使用关系。
+值得学习之处：
+  - 借鉴数据划分、跨域测试、指标与阈值、推理/评测入口等证据组织方式。
+  - 讨论优劣时区分同分布指标和跨域泛化，避免只有单个漂亮分数。
+局限与静态风险：
+  - SSP整体自述未列公司、正式offer证明或档位口径。
+  - 协作面经存在多人来源；不得将多公司、多轮计为多个独立成功者。
+  - 2022–2023历史样本与2024–2026岗位背景不同。
+  - 未获取完整成功者CV；未读仓库全部知识点、未读项目图片、未运行任何第三方代码或模型。
+  - 同账号关系不等于本人贡献、简历使用或获SSP的因果关系
+建议用途：
+  补充算法项目的数学、实现、数据划分与跨域指标追问；不纳入近期Agent要求。
+静态阅读发现：
+  - repository：
+      dong03/MVSS-Net
+    relation_strength：
+      同一公开GitHub账号、API标记非fork；面经未明确点名MVSS-Net，因此只确认账号关联，不确认简历或面试使用关系。
+    固定源码提交：
+      cc2aed77a823723015f95e4a6a3e344f3ddb7ccc
+    源码提交时间：
+      2023-03-13T01:58:43Z
+    repository_created_at：
+      2021-07-23T10:37:07Z
+    source：
+      https://github.com/dong03/MVSS-Net/blob/cc2aed77a823723015f95e4a6a3e344f3ddb7ccc/README.md#L3
+    verified_access：
+      固定版本README全文133行已读；只静态阅读说明，未下载代码、数据或模型。
+    visible_evidence：
+      - README第3行说明为ICCV2021图像篡改检测论文代码与模型；未另行把论文题录作为本轮完整学术核验。
+      - 第31–52行提供训练/测试数据划分，并说明CASIAv1与CASIAv2重复样本的替换，体现泄漏意识。
+      - 第62–80行有跨数据集AUC及image-level F1结果，允许观察域外性能退化；均为项目作者报告，未复现实验。
+      - 第84–100行给推理、评测命令及demo入口；本轮未执行、未核验命令能否在当前环境运行。
+    recommended_lessons：
+      - 借鉴数据划分、跨域测试、指标与阈值、推理/评测入口等证据组织方式。
+      - 讨论优劣时区分同分布指标和跨域泛化，避免只有单个漂亮分数。
+    not_recommended_as：
+      不是Agent项目；依赖环境列Ubuntu16.04、Python3.6、CUDA10.1，不能原样当现代Agent工程栈。没有证据证明该项目带来SSP。
+原访问范围：
+  固定README、TIPS、5份短面经及MVSS-Net README已读，未读全部源码
+证据边界：
+  B：SSP自述、历史面经文本和同账号项目说明可追溯；录用、具体项目贡献与面经作者对应关系未独立验证
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    算法对照
+  招聘类型：
+    未知
+  事件时间：
+    2022年部分面经；SSP发放年份未写明
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    2022来自所选面经正文；不把2023固定commit当面试年
+  来源日期：
+    未核／无
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    固定README、TIPS、5份短面经及MVSS-Net README已读，未读全部源码
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      未披露具体公司
+    档位：
+      未逐公司对应：若干SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4
+    依据：
+      README第一人称明确SSP，未提供具体公司定档或企业证明。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  未核／无
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4
+      direct_basis：
+        README第一人称明确SSP，未提供具体公司定档或企业证明。
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4
+      direct_basis：
+        本人SSP自述、知识总结与多人协作面经；非完整简历
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://github.com/dong03/MVSS-Net
+      direct_basis：
+        同账号、非fork元数据；README只核说明
+      直接关系：
+        同账号
+      gap：
+        面经未点名MVSS-Net；未证简历使用或其与SSP因果
+  interview：
+    - 原始来源：
+        https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/TIPS.md#L24-L39
+      direct_basis：
+        dong03 CV_Interview：历史CV/多模态题目与协作面经范围
+      直接关系：
+        同账号
+      gap：
+        协作面经未逐条证实仓主亲历
+      interview_id：
+        INT58
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 面经未点名MVSS-Net；未证简历使用或其与SSP因果
+  - 协作面经未逐条证实仓主亲历
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  否
+ssp_grade_company_explicit：
+  否
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

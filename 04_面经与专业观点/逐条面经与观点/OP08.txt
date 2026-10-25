@@ -1,0 +1,82 @@
+OP08 | The rise of context engineering
+
+需求核对版 · 2026-10-24
+
+平台：
+  LangChain作者官方博客（平台外替代资料）
+作者：
+  Harrison Chase／LangChain
+原始来源：
+  https://www.langchain.com/blog/the-rise-of-context-engineering
+事件时间／原文日期（依分类）：
+  2025-06-23（原文署名区）
+access_status：
+  HTTP 200，实际读取正文
+作者身份依据：
+  LangChain官方域名署名Harrison Chase，正文以产品建设者口吻说明LangGraph与LangSmith；不把其观点当招聘部门标准。
+正文核读边界：
+  官网实际正文已读；不是B站视频或知乎回答
+verified_video_viewing：
+  否
+已读部分：
+  - What is context engineering?
+  - Why is context engineering important
+  - Examples of context engineering
+  - How LangGraph enables context engineering
+  - How LangSmith helps with context engineering
+具体观点与适用边界：
+  作者把Agent可靠性与动态上下文的构建联系起来：按任务提供必要信息、可用工具和合适格式，并区分信息缺失与模型自身错误。短期摘要、长期偏好、检索和工具输出都属于需要控制的上下文。
+evidence_type：
+  框架作者的工程主张与产品实践说明；本文没有独立对照实验支撑其关于常见失败原因的比例判断。
+阅读建议：
+  Agent方向选读。检查现有项目能否追踪一次决策所用上下文、工具集合及结果；能否说明遗漏信息、错误格式和模型错误分别怎样定位。
+局限：
+  概念与产品说明为主，没有实习样本、简历或SSP录用证据；需要结合实际面经及项目评测验证。
+商业与选择偏差：
+  作者直接推广LangGraph与LangSmith，存在框架及商业观测产品利益；采纳问题拆解，不据此规定必须使用这些产品。
+关联模块：
+  - 上下文构建入口
+  - 对话摘要及状态更新
+  - 检索结果注入
+  - 工具输出格式
+  - trace/日志与失败归因
+可采纳的核查方法：
+  - 一次失败能否定位为信息缺失、工具不可用、格式问题或模型错误
+  - 历史信息增长时是否有明确筛选与摘要策略
+  - 日志能否还原模型看到的输入及可用工具
+不能由此推出的结论：
+  - 不能说已观看相关B站视频或读到知乎版本
+  - 不能说大厂实习统一要求LangGraph或LangSmith
+  - 不能把作者关于常见原因的判断当已验证普遍统计
+retrieved_at：
+  2026-10-23
+类别：
+  专业原文补充
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    专业原文发表/更新日期，非招聘事件
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不把作者工程观点当招聘结果
+  来源日期：
+    2025-06-23（原文署名区）
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    作者官方原站实际正文；平台外原文，不是B站观看或知乎本体阅读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

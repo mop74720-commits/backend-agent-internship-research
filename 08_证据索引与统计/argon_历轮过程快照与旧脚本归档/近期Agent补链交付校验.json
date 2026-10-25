@@ -1,0 +1,448 @@
+{
+  "passed": true,
+  "scope": "近期Agent补链来源边界与交付一致性，不证明整体目标完成",
+  "checks": [
+    {
+      "name": "全部JSON可解析",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "5条增量与184条旧快照吻合",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "三份分类主表均与总表相同",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "31候选人76面经25项目与统计一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "31候选人均呈现四段关系",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "69全文7部分严格近期9实习事件年未知38",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "INT11发表年不冒充面试年",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CV07两项后端offer只确认2025而非AgentSSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两篇本人面经与offer批次年份结果分开",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两位新候选人保持独立缺口",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "25项目375维均有来源及阅读范围",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "旧托马斯对照未重复计作新人面经",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新完整CV直接关联本人实现且未升级SSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sprout机制与正确率预算边界分开",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "NoWorries14文件选读与权限风险明确",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "逐字稿选读不记B站观看或完整正文",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "中兴大模型SSP不计Agent完整关系",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新2源码文本包CRC及33指定文件hash和许可",
+      "passed": true,
+      "detail": [
+        {
+          "file": "05_项目源码归档/近期Agent本人项目_补链/Sprout_固定源码文本_去联系字段_3ecd36e5a4.zip",
+          "passed": true,
+          "files": [
+            {
+              "path": ".github/workflows/ci.yml",
+              "passed": true
+            },
+            {
+              "path": ".gitignore",
+              "passed": true
+            },
+            {
+              "path": "LICENSE",
+              "passed": true
+            },
+            {
+              "path": "README.md",
+              "passed": true
+            },
+            {
+              "path": "docs/architecture.md",
+              "passed": true
+            },
+            {
+              "path": "docs/design-notes.md",
+              "passed": true
+            },
+            {
+              "path": "examples/benchmark.py",
+              "passed": true
+            },
+            {
+              "path": "examples/code_fix.py",
+              "passed": true
+            },
+            {
+              "path": "examples/rubric_demo.py",
+              "passed": true
+            },
+            {
+              "path": "pyproject.toml",
+              "passed": true
+            },
+            {
+              "path": "sprout/__init__.py",
+              "passed": true
+            },
+            {
+              "path": "sprout/config.py",
+              "passed": true
+            },
+            {
+              "path": "sprout/llm.py",
+              "passed": true
+            },
+            {
+              "path": "sprout/task_tree.py",
+              "passed": true
+            },
+            {
+              "path": "sprout/types.py",
+              "passed": true
+            },
+            {
+              "path": "sprout/worker.py",
+              "passed": true
+            },
+            {
+              "path": "tests/__init__.py",
+              "passed": true
+            },
+            {
+              "path": "tests/test_task_tree.py",
+              "passed": true
+            },
+            {
+              "path": "tests/test_worker.py",
+              "passed": true
+            }
+          ]
+        },
+        {
+          "file": "05_项目源码归档/近期Agent本人项目_补链/NoWorries_固定文本选读_去联系字段_c811e697bb.zip",
+          "passed": true,
+          "files": [
+            {
+              "path": "README.md",
+              "passed": true
+            },
+            {
+              "path": "LICENSE",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/LICENSE",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/SECURITY.md",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/sandbox/index.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/sandbox/command-validator.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/clawdbot/memory-manager.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/manager-search.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/memory-consolidation.ts",
+              "passed": true
+            },
+            {
+              "path": "noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "新简历实物hash全部专业模块及去联系字段",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "课程项目边界与Agent反例风险明确",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "平台5正文与视频0分列且未重复作者",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "专家JD观点未计成功者面经且已移出正文待核",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "16原ZIP6派生3仅链接总量分开",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新2ZIP实物CRC哈希许可及12条核读文件",
+      "passed": true,
+      "detail": [
+        {
+          "file": "05_项目源码归档/大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip",
+          "passed": true,
+          "read_files": [
+            {
+              "path": "README.md",
+              "passed": true
+            },
+            {
+              "path": "raft/raft.go",
+              "passed": true
+            },
+            {
+              "path": "kv/server/server.go",
+              "passed": true
+            },
+            {
+              "path": "LICENSE",
+              "passed": true
+            }
+          ]
+        },
+        {
+          "file": "05_项目源码归档/大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip",
+          "passed": true,
+          "read_files": [
+            {
+              "path": "README.md",
+              "passed": true
+            },
+            {
+              "path": "src/agents/base_agent.py",
+              "passed": true
+            },
+            {
+              "path": "src/utils/code_executor_async.py",
+              "passed": true
+            },
+            {
+              "path": "src_rag/core/report_pipeline.py",
+              "passed": true
+            },
+            {
+              "path": "src_rag/core/llm_client.py",
+              "passed": true
+            },
+            {
+              "path": "demo/backend/app.py",
+              "passed": true
+            },
+            {
+              "path": "docs/migration_notes.md",
+              "passed": true
+            },
+            {
+              "path": "LICENSE",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "新完整脱敏PDF实物hash全部专业模块及隐私",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "5核心完整脱敏履历与3研究对照分列",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV 03_简历与候选人案例/候选人证据链对照.csv",
+      "passed": true,
+      "detail": 31
+    },
+    {
+      "name": "CSV 04_面经与专业观点/面经统一分类.csv",
+      "passed": true,
+      "detail": 76
+    },
+    {
+      "name": "CSV 06_项目分析与推荐/项目统一比较.csv",
+      "passed": true,
+      "detail": 375
+    },
+    {
+      "name": "CSV 08_证据索引与统计/全部资料统一分类.csv",
+      "passed": true,
+      "detail": 189
+    },
+    {
+      "name": "CSV 08_证据索引与统计/能力要求四类证据对照.csv",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "CSV 03_简历与候选人案例/履历文件索引.csv",
+      "passed": true,
+      "detail": 8
+    },
+    {
+      "name": "全部报告本地文件链接及锚点",
+      "passed": true,
+      "detail": {
+        "count": 3221,
+        "broken": []
+      }
+    },
+    {
+      "name": "PDF无空白孤立页且覆盖全部本轮ID",
+      "passed": true,
+      "detail": {
+        "pages": 25,
+        "characters": [
+          1885,
+          1003,
+          1949,
+          1718,
+          1567,
+          2294,
+          3103,
+          1240,
+          1360,
+          1592,
+          3039,
+          3316,
+          2377,
+          1769,
+          1611,
+          2575,
+          2622,
+          1561,
+          1594,
+          2490,
+          3426,
+          2951,
+          2157,
+          2369,
+          732
+        ]
+      }
+    },
+    {
+      "name": "PDF文本无横向裁切",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "当前真实浏览器与移动端交互通过",
+      "passed": true,
+      "detail": 42
+    },
+    {
+      "name": "维持未完成目标及缺口",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "local_links": 3221,
+  "pdf_pages": 25,
+  "goal_status": "active",
+  "visual_review": {
+    "reviewer": "根代理",
+    "date": "2026-10-23",
+    "report_pdf_pages": [
+      1,
+      13,
+      25
+    ],
+    "report_layout": "终版首中末页目视通过：表格和来源完整、无重叠或横向裁切。末页为缺口和文件索引，保留自然留白。",
+    "new_resume_pdf_pages": [
+      1
+    ],
+    "resume_layout": "全部专业模块可读；联系头部、链接注释及元数据已移除。",
+    "scope": "报告抽样3页；全25页文字边界与空白由机器另核。新简历全1页目视。"
+  },
+  "pdf_sha256": "a72e439a15f768f554e0524b3e920ceb4937007c9a7d5bc00265e8a7d5a924d4"
+}

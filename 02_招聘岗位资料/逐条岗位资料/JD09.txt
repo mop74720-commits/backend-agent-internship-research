@@ -1,0 +1,93 @@
+JD09 | 后端开发实习生-飞书（Agent/RAG）
+
+需求核对版 · 2026-10-24
+
+公司：
+  字节跳动/飞书
+role_type：
+  Agent工程实习
+原始来源：
+  https://www.nowcoder.com/jobs/detail/432353
+publish_date：
+  未展示；日常实习
+retrieved_date：
+  2026-10-23
+source_type：
+  企业在牛客发布的JD
+evidence_excerpt：
+  检索、召回、重排
+own_summary：
+  明确后端底座加Agent/RAG基础；工作含召回、重排、知识索引、Prompt版本和基础评测，而非只连接LLM接口。
+required_stack：
+  - 后端开发经验
+  - Go/Java/Python择一
+  - 系统设计
+  - 存储缓存协议
+  - LLM应用架构
+  - Agent/RAG/SFT基本认知
+  - 测试日志规范
+preferred_stack：
+  - Golang
+  - LLM应用工程
+  - AI研发工具
+  - 校园/竞赛/开源实践
+degree_constraint：
+  本科及以上在读；相关专业优先
+availability_constraint：
+  5天/周；3个月以上
+recruiting_status：
+  已结束
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 网络协议
+  - 数据库或存储
+  - 缓存
+  - 工程质量测试
+  - 架构性能可靠性
+  - Agent实践
+  - RAG
+  - 工具编排
+  - 记忆上下文
+  - 观测评测
+duties：
+  规划、工具、对话管理；RAG召回重排；Prompt版本、评测与监控
+局限：
+  
+类别：
+  招聘JD
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    未展示；日常实习
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    招聘发布时间未展示，不按2027届或本次抓取年补写
+  来源日期：
+    未展示；日常实习
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

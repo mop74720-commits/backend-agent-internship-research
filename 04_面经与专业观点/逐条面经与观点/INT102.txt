@@ -1,0 +1,236 @@
+INT102 | 字节AI Agent实习面经
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96
+公司：
+  字节跳动
+方向与岗位：
+  字节跳动；AI Agent；日常实习
+事件时间／原文日期（依分类）：
+  08-13一面、08-16二面，年份未知
+发表／来源日期：
+  08-18（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    08-13一面、08-16二面，年份未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    08-18（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习、事件年未知
+结果分类：
+  next_round_or_waiting_self_report
+结果自述：
+  本人已二面等待后续，未披露offer
+逐项结果与档位：
+  - 公司：
+      字节跳动
+    方向与岗位：
+      字节跳动；AI Agent；日常实习
+    档位：
+      未披露
+    状态：
+      next_round_or_waiting_self_report
+    事件时间／原文日期（依分类）：
+      08-13一面、08-16二面，年份未知
+    证据：
+      https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96
+    依据：
+      本人已二面等待后续，未披露offer
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一、二面；等待后续
+    questions：
+      - Coding Agent架构是什么，ReAct与Plan适用于什么场景？
+      - 上下文压缩保留什么，如何防止丢失用户关键约束？
+      - 路径震荡怎样定位，长期Memory如何提取存储检索？
+      - 工具过多或返回过长时如何控制上下文？
+      - Prompt Cache怎样提升命中，小模型如何分工？
+      - 多个Agent同时修改同一文件怎样避免冲突？
+      - 现场判断平衡二叉树。
+    结果自述：
+      本人已二面等待后续，未披露offer
+涉及主题：
+  - 算法/编程
+  - 并发/线程
+  - 项目深挖/个人贡献
+  - 记忆/检索
+  - Agent循环/工具
+  - 模型运行/推理
+原文提问（归纳）：
+  - Coding Agent架构是什么，ReAct与Plan适用于什么场景？
+  - 上下文压缩保留什么，如何防止丢失用户关键约束？
+  - 路径震荡怎样定位，长期Memory如何提取存储检索？
+  - 工具过多或返回过长时如何控制上下文？
+  - Prompt Cache怎样提升命中，小模型如何分工？
+  - 多个Agent同时修改同一文件怎样避免冲突？
+  - 现场判断平衡二叉树。
+内容归纳：
+  Coding Agent被追问上下文压缩、长期记忆、工具过多、协作冲突与缓存，并有树题。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  适合非toy Agent设计：不能只提供对话页，需要状态、记忆、工具边界。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 二面仅说更深及场景题，没有给出独立二面逐题；不为其补写未公开问题。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I18
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    字节AI Agent实习面经
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96
+  resolved_url：
+    https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96
+  canonical_post_key：
+    feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .feed-content-text
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    0a313cef41dacd6b521bc3cee60ab8ce5545a95021d6dd5d2d4c32f06ef80dd7
+  body_char_count：
+    822
+  source_card_path：
+    03_面经/I18.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    08-18（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  source_date_verified：
+    否
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  event_date：
+    08-13一面、08-16二面，年份未知
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - Coding Agent架构是什么，ReAct与Plan适用于什么场景？
+    - 上下文压缩保留什么，如何防止丢失用户关键约束？
+    - 路径震荡怎样定位，长期Memory如何提取存储检索？
+    - 工具过多或返回过长时如何控制上下文？
+    - Prompt Cache怎样提升命中，小模型如何分工？
+    - 多个Agent同时修改同一文件怎样避免冲突？
+    - 现场判断平衡二叉树。
+  涉及主题：
+    - 算法/编程
+    - 并发/线程
+    - 项目深挖/个人贡献
+    - 记忆/检索
+    - Agent循环/工具
+    - 模型运行/推理
+  结果分类：
+    next_round_or_waiting_self_report
+  result：
+    本人已二面等待后续，未披露offer
+  档位：
+    未披露
+  公司：
+    字节跳动
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    8.13号一面，8月16号二面，日常实习，agent方向
+  阅读建议：
+    适合非toy Agent设计：不能只提供对话页，需要状态、记忆、工具边界。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 二面仅说更深及场景题，没有给出独立二面逐题；不为其补写未公开问题。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP06
+    - CAP07
+    - CAP09
+    - CAP11
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    未核／无
+source_key：
+  ASTRA_I18_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I18
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

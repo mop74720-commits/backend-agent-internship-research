@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-23",
+  "sources": {
+    "sglang_receiver": {
+      "url": "https://raw.githubusercontent.com/gty111/sglang/c9126ed91a6a63cef66b7474a544632583c11aba/python/sglang/srt/disaggregation/encode_receiver.py",
+      "http_status": 200,
+      "line_count": 544,
+      "sha256": "031403a1d3c686e09309be48c7fe3f652baae981e52238443a4047aef428acf6",
+      "read_ranges": [
+        [
+          483,
+          544
+        ]
+      ]
+    },
+    "wheel": {
+      "url": "https://raw.githubusercontent.com/Asthenia0412/AsTimeWheel/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc/AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/core/HashedWheelTimer.java",
+      "http_status": 200,
+      "line_count": 350,
+      "sha256": "424cbb393f0650cd178d02b0b61280b1b171940c19fe4bfdf66b13e90ad62c24",
+      "read_ranges": [
+        [
+          1,
+          350
+        ]
+      ]
+    },
+    "bucket": {
+      "url": "https://raw.githubusercontent.com/Asthenia0412/AsTimeWheel/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc/AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/core/HashedWheelBucket.java",
+      "http_status": 200,
+      "line_count": 132,
+      "sha256": "b5260adcacfb616e5d1b09f9d7909c5ea1cc2fc23a4d72cab6c0ac2eaee02e33",
+      "read_ranges": [
+        [
+          1,
+          132
+        ]
+      ]
+    },
+    "scheduler": {
+      "url": "https://raw.githubusercontent.com/Asthenia0412/AsTimeWheel/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc/AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/DefaultTimeWheelScheduler.java",
+      "http_status": 200,
+      "line_count": 182,
+      "sha256": "5553ed1029d734f33d6937bd9d8974af640c30cdc0d54a30b43d28db43d1acaf",
+      "read_ranges": [
+        [
+          50,
+          181
+        ]
+      ]
+    },
+    "wheel_test": {
+      "url": "https://raw.githubusercontent.com/Asthenia0412/AsTimeWheel/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc/AsTimeWheelCore/src/test/java/io/github/asthenia0412/astimewheelcore/DefaultTimeWheelSchedulerTest.java",
+      "http_status": 200,
+      "line_count": 155,
+      "sha256": "e08db9153b9a47ff8301c3ee2585dfbeace236c8660e772388dfa5d84a168320",
+      "read_ranges": [
+        [
+          1,
+          155
+        ]
+      ]
+    },
+    "sglang_test": {
+      "url": "https://raw.githubusercontent.com/gty111/sglang/c9126ed91a6a63cef66b7474a544632583c11aba/test/srt/test_epd_disaggregation.py",
+      "http_status": 200,
+      "line_count": 424,
+      "sha256": "870a8fab61c61483ffb7cfb5a13d5e4f82b1c76d13919881923898f6f3d347ff",
+      "read_ranges": [
+        [
+          25,
+          45
+        ],
+        [
+          138,
+          205
+        ],
+        [
+          354,
+          420
+        ]
+      ]
+    }
+  },
+  "raw_source_saved": false,
+  "execution": "未执行第三方代码，仅公开固定版本文字读取；保存摘要与哈希，不归档无许可证源码。"
+}

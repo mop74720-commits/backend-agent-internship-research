@@ -1,0 +1,276 @@
+{
+  "research_date": "2026-10-23",
+  "scope": "只沿CV07本人公开原文与主页直接给出的Higress及文章回链，核1个语义检索MCP组件、初始PR和相关修复/测试；不归档整个项目、不运行。",
+  "candidate_existing_id": "CV07",
+  "candidate_display_name": "等闲king",
+  "conclusion": {
+    "component_source_reviewable": true,
+    "candidate_to_github_account_direct_link_verified": false,
+    "attribution_status": "组件可审，个人归属未闭合",
+    "component_match_basis": "本人直接指向Higress并称写了语义检索MCP插件；官方仓库tool-search是按自然语言检索工具的组件，首次合入PR3136与其描述相符。",
+    "limit": "组件语义相符不证明牛客作者与PR作者是同人；不得把PR作者handle或全部组件工作强绑CV07。",
+    "ssp_or_hiring_effect": "未新增SSP、实习发生时间、录用因果、简历或本人独立项目数量证据。"
+  },
+  "candidate_direct_sources": [
+    {
+      "title": "AI应用开发全景路线图（补充篇）",
+      "url": "https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85",
+      "readable_url_previously_verified": "https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85?sourceSSR=users",
+      "actual_scope": "前一独立补证回合公开文字正文L51–83已读；本次同入口返回空壳，保留访问波动，不称再次稳定读取成功。",
+      "source_lines": "Higress介绍及本人插件自述见L73–77",
+      "direct_github_link": "https://github.com/alibaba/higress",
+      "self_report_paraphrased": "介绍网关MCP托管与模型路由时，作者称其中的语义检索MCP插件由自己编写。",
+      "account_link": "原文所列为Higress组织仓库，未给本人GitHub账号或PR地址。"
+    },
+    {
+      "title": "如何从零开始拥有开源经历，这可能是牛客最全的整理",
+      "url": "https://ac.nowcoder.com/discuss/768780629717549056",
+      "access": {
+        "http_status": 200,
+        "body_available": true
+      },
+      "actual_scope": "本次从公开正文提取GitHub回链，未对全文技术观点作审定。",
+      "github_link_result": "已提取的GitHub链接是lazyparser/weloveinterns，未见作者直接给出个人账号或此插件PR。",
+      "source_discovery": "CV07公开主页及2025年终总结直接链接此篇。"
+    },
+    {
+      "title": "AI应用开发学习全景路线图",
+      "url": "https://ac.nowcoder.com/discuss/847995166416703488",
+      "access": {
+        "http_status": 200,
+        "body_available": true
+      },
+      "actual_scope": "只提取正文中的专业GitHub回链，未将教程推荐视为个人贡献。",
+      "github_link_result": "回链是OpenViking、ADK、MCP SDK、Mem0、OpenJudge等组织/第三方项目；本次提取未见本人账号或3136 PR。",
+      "source_discovery": "上述补充篇直接指向此原文。"
+    },
+    {
+      "url": "https://www.nowcoder.com/users/46925511?contentPage=1",
+      "additional_url": "https://www.nowcoder.com/users/46925511?contentPage=2",
+      "actual_scope": "沿前一补证回合已读的公开职业相关文章导航；没有通过姓名、邮箱、头像、学校或隐藏身份匹配GitHub用户。"
+    }
+  ],
+  "official_repository": {
+    "candidate_linked_url": "https://github.com/alibaba/higress",
+    "canonical_repository": "https://github.com/higress-group/higress",
+    "api_alias": "公开GitHub API旧alibaba路径仍返回同仓库数据。",
+    "fixed_commit": "36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3",
+    "tree_url": "https://github.com/higress-group/higress/tree/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/",
+    "fixed_tree_api": "https://api.github.com/repos/alibaba/higress/git/trees/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3?recursive=1",
+    "tree_truncated": false,
+    "component": "Tool Search MCP Server",
+    "component_kind": "Golang Filter下的MCP工具检索子服务",
+    "task_boundary": "自然语言查询→Embedding→Milvus工具描述相似检索→返回工具定义；不是完整Agent执行循环或端到端任务平台。",
+    "snapshot_boundary": "本次固定实现与首次PR分开；当前文件含其他后续贡献，不全归首次作者，更不全归CV07。"
+  },
+  "pull_requests": [
+    {
+      "url": "https://github.com/higress-group/higress/pull/3136",
+      "title": "Add tool-search server",
+      "public_author_login": "Wangzy455",
+      "merged": true,
+      "merged_at": "2025-12-22T01:46:31Z",
+      "merge_commit_sha": "4cf1e5e6a07b42b7a275bd8cea63121cb587bb96",
+      "head_sha": "a6fc528779caf98c05c69cbed7b842e7513aef7a",
+      "related_issue": "https://github.com/alibaba/higress/issues/2999",
+      "scope": "PR正文与11个变更文件清单已读；未读所有审查评论和截图，不称逐行审完全部1191新增行。",
+      "changed_files": 11,
+      "additions": 1191,
+      "deletions": 5,
+      "contribution_boundary": "PR作者是该次patch的提交作者；正文主动说明复用RAG MCP Server的部分逻辑，不能称全部机制原创。",
+      "verification_claim": "PR作者称本地模拟工具资料，并用server_test检查Milvus连接及向量搜索；截图未读，不将自述转换为本地复现。",
+      "direct_backlink_to_candidate": "所读PR正文未提供牛客等闲king账号回链。",
+      "candidate_identity_verified": false
+    },
+    {
+      "url": "https://github.com/higress-group/higress/pull/4462",
+      "title": "bugfix: fix nil server and naked type assertions in tool-search MCP server",
+      "public_author_login": "wc4440222",
+      "merged": true,
+      "merged_at": "2026-09-28T08:54:16Z",
+      "merge_commit_sha": "e3dd3d92aa5417aa0f08d11b07a7750f8255cb38",
+      "scope": "仅核PR正文、修复说明及对应当前代码防护；不扩到其他插件。",
+      "finding": "修复Milvus连接失败时nil SearchService被注册，以及ListAllDocs列类型断言panic风险。",
+      "current_version_check": "本次固定版server.go L193–195有nil检测；milvus.go L90–124已用comma-ok处理列和取值类型。",
+      "attribution_boundary": "不同公开handle的后续修复，不归为CV07或初始PR作者的工作；也不把已修问题写成当前版本仍存在。",
+      "test_boundary": "PR称需要完整Envoy/Milvus环境未新增相应测试；本文未运行或验证其运行时故障描述。"
+    }
+  ],
+  "source_reading": [
+    {
+      "path": "plugins/golang-filter/mcp-server/servers/tool-search/README.md",
+      "url": "https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/README.md",
+      "lines": 144,
+      "scope": "全文阅读，配置示例仅作说明，未使用其中示例凭据。"
+    },
+    {
+      "path": "plugins/golang-filter/mcp-server/servers/tool-search/server.go",
+      "url": "https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go",
+      "lines": 204,
+      "scope": "注册、配置解析、实例构造、nil防护与工具注册定点静态核读。"
+    },
+    {
+      "path": "plugins/golang-filter/mcp-server/servers/tool-search/tools.go",
+      "url": "https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/tools.go",
+      "lines": 114,
+      "scope": "全文阅读：参数处理、超时、调用和序列化。"
+    },
+    {
+      "path": "plugins/golang-filter/mcp-server/servers/tool-search/search.go",
+      "url": "https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/search.go",
+      "lines": 237,
+      "scope": "SearchTools、结果转写、searchToolsInDB及GetAllTools核心路径核读。"
+    },
+    {
+      "path": "plugins/golang-filter/mcp-server/servers/tool-search/embedding.go",
+      "url": "https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/embedding.go",
+      "lines": 79,
+      "scope": "全文阅读：兼容API构造、上下文、空响应与向量转换。"
+    },
+    {
+      "path": "plugins/golang-filter/mcp-server/servers/tool-search/milvus.go",
+      "url": "https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/milvus.go",
+      "lines": 218,
+      "scope": "连接、列转换、HNSW查询与清理定点核读。"
+    },
+    {
+      "path": "plugins/golang-filter/mcp-server/servers/tool-search/server_test.go",
+      "url": "https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go",
+      "lines": 198,
+      "scope": "全文阅读；未运行。"
+    },
+    {
+      "path": "plugins/golang-filter/mcp-server/servers/tool-search/config-example.json",
+      "url": "https://raw.githubusercontent.com/alibaba/higress/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/config-example.json",
+      "lines": 18,
+      "scope": "字段关系检查；不保存或复用示例认证值。"
+    }
+  ],
+  "implementation_findings": [
+    {
+      "dimension": "实际任务与工具",
+      "status": "源码可见",
+      "finding": "注册tool-search服务与x_higress_tool_search；查询生成向量后检索Milvus，并返回数据库中的工具元数据。",
+      "evidence": [
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go#L24",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go#L171",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/search.go#L61",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/search.go#L86"
+      ],
+      "limit": "只证明工具发现机制；没有审定完整Agent计划、执行、状态持久化或业务闭环。"
+    },
+    {
+      "dimension": "检索方法",
+      "status": "源码可见",
+      "finding": "当前仅向量语义检索，HNSW搜索参数及内积IP可定位；README也明确未包含全文或混合搜索。",
+      "evidence": [
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/README.md#L3",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/milvus.go#L139"
+      ],
+      "limit": "config-example及测试仍展示vectorWeight/Text Weight字段，不能据这些词声称已实现BM25混合检索或rerank。"
+    },
+    {
+      "dimension": "参数与失败处理",
+      "status": "源码可见",
+      "finding": "query做类型与空串检查，topK默认10、范围1至100，超界回退；Embedding错误或空响应返回错误，当前构造有Milvus连接失败的nil防护。",
+      "evidence": [
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/tools.go#L22",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/tools.go#L35",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/embedding.go#L57",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go#L193"
+      ],
+      "limit": "未验证上层协议校验、超时分布、重试退避或所有异常组合。"
+    },
+    {
+      "dimension": "超时与取消传播",
+      "status": "静态风险",
+      "finding": "入口给context加30秒超时，但数据库查询另起context.Background加10秒，调用方取消未沿该子路径直接传入。",
+      "evidence": [
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/tools.go#L58",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/search.go#L166"
+      ],
+      "limit": "这是代码路径观察，未运行取消/延迟测试，不宣称已复现资源泄漏。"
+    },
+    {
+      "dimension": "权限与租户范围",
+      "status": "本组件未核",
+      "finding": "所读Milvus查询filter expression为空；本组件没有展示调用者级工具过滤。",
+      "evidence": [
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/milvus.go#L149"
+      ],
+      "limit": "网关上层认证/鉴权不在本次范围，不能据此断言整个Higress没有权限隔离或存在已证实越权。"
+    },
+    {
+      "dimension": "日志",
+      "status": "静态风险",
+      "finding": "ParseConfig按debug格式记录整个配置对象；该对象包括认证字段，需结合实际日志级别与脱敏策略检查。",
+      "evidence": [
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server.go#L85"
+      ],
+      "limit": "未读取任何部署日志或真实凭据，没有运行并复现泄露。"
+    },
+    {
+      "dimension": "测试与评测",
+      "status": "测试源码可见、未运行",
+      "finding": "TestServer接真实Milvus和兼容Embedding服务，mock主要用于日志；启动失败会Fatal，但GetAllTools和逐query失败主要记录日志或continue。",
+      "evidence": [
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go#L29",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go#L94",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go#L120",
+        "https://github.com/higress-group/higress/blob/36f2f1ac5c7305c5a46c296c617b45d1fbacb7d3/plugins/golang-filter/mcp-server/servers/tool-search/server_test.go#L148"
+      ],
+      "limit": "未见这份测试以期望工具集合、召回率、错误率、P95或成本基线作断言；不能把有测试程序当检索质量评测通过。"
+    }
+  ],
+  "recommendation": {
+    "priority": "选读具体组件",
+    "reason": "适合研究把工具检索嵌入网关的接口、依赖、参数、元数据与失败边界，阅读规模小于整个网关。",
+    "read_order": [
+      "plugins/golang-filter/mcp-server/servers/tool-search/README.md",
+      "plugins/golang-filter/mcp-server/servers/tool-search/tools.go",
+      "plugins/golang-filter/mcp-server/servers/tool-search/search.go",
+      "plugins/golang-filter/mcp-server/servers/tool-search/milvus.go",
+      "plugins/golang-filter/mcp-server/servers/tool-search/embedding.go",
+      "plugins/golang-filter/mcp-server/servers/tool-search/server_test.go"
+    ],
+    "learning_questions": [
+      "数据如何预先入库、描述如何影响工具召回、向量维度和数据库schema如何保持一致？",
+      "如何为多租户工具发现设计权限过滤，哪层负责？",
+      "请求取消、Embedding失败、向量库不可用与空召回应该怎样传播和观测？",
+      "测试为什么只有连接与打印还不够，怎样建立相关工具真值集合和成本/延迟基线？"
+    ],
+    "not_recommended_claims": [
+      "不将整个Higress打包成CV07本人项目。",
+      "不将组件命中视为CV07=PR3136作者的身份确认。",
+      "不将这一子服务当成熟端到端Agent项目、SSP证明或已运行验证。"
+    ]
+  },
+  "remaining_gaps": [
+    "CV07本人公开原文对GitHub账号或PR3136的直接链接，或PR作者公开返回CV07账号的回链。",
+    "初始版本是否确为作者投递/实习时使用版本。",
+    "当前代码中个人贡献范围与后续他人改动的逐项界定。",
+    "检索质量、权限过滤、请求取消及成本的实际测试和运行数据。"
+  ],
+  "access_limits": [
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85?sourceSSR=users",
+      "state": "本次空壳；前一回合已实际读正文，来源证据不覆盖本次不可读状态。"
+    },
+    {
+      "url": "https://higress.cn/docs/plugins/mcp-server/",
+      "state": "猜测文档路径工具不可读，未据此声称官方文档不存在；改从本人链接的仓库树定位组件。"
+    }
+  ],
+  "execution": {
+    "third_party_code_executed": false,
+    "tests_run": false,
+    "models_called": false,
+    "archive_added": false,
+    "repository_downloaded": false,
+    "main_tables_modified": false,
+    "ids_allocated": false,
+    "contact_data_saved": false,
+    "identity_guessed": false
+  },
+  "integration_note": "可将CV07本人直接点名组件自述与一个可审查官方实现并列，归属状态保留未闭合。当前读取的是1个组件及相关PR/测试，不增加独立源码包或完整Agent项目数量。"
+}

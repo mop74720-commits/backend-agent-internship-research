@@ -1,0 +1,6 @@
+{
+  "url": "https://go.dev/blog/swisstable",
+  "status": 200,
+  "title": "Faster Go maps with Swiss Tables - The Go Programming Language",
+  "finding": "Go官方文章说明Go1.24引入基于Swiss Table的新map实现；2022面经内hmap结构示例属于历史上下文，不直接作当前版本标准答案。"
+}

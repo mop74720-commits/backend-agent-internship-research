@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "scope": "窄补搜B站read/opus专业者关于项目与简历的实际图文正文；不重试受限视频，不观看视频，不修改主表或分配OP编号。",
+  "result": {"qualified_bilibili_article_bodies_read": 1, "videos_watched": 0, "new_ssp_case_evidence": 0},
+  "sources": [
+    {
+      "lead_key": "BILI_YUPI_RESUME_35877783",
+      "title": "程序员鱼皮的保姆级写简历指南第一弹，基础入手带你写好简历",
+      "author": "程序员鱼皮",
+      "original_url": "https://www.bilibili.com/read/cv35877783",
+      "canonical_url": "https://www.bilibili.com/opus/949414868828553234",
+      "source_date": "编辑于2024-07-04 10:01（原页显示）",
+      "platform": "哔哩哔哩",
+      "material_type": "作者署名的公开长图文",
+      "track": "后端/通用工程简历",
+      "recruitment": "通用建议，不计具体招聘事件",
+      "reading": {
+        "scope": "公开可见文字全文",
+        "body_read": true,
+        "video_watched": false,
+        "images_read": false,
+        "method": "web open直接打开read原链接，平台重定向opus；返回569行正文，实际阅读全文。搜索结果仅用于发现。",
+        "locator": "网页正文中的专业技能、工作经历、项目经历、参考写法章节；其中项目经历和参考写法在工具提取L366—488。行号是本次提取定位，不是B站固定行号。"
+      },
+      "substantive_findings_paraphrased": [
+        {"point": "把技术名词落到掌握细节和具体实践，说明自己能用它解决什么问题。", "section": "专业技能", "locator": "L255—307"},
+        {"point": "项目简介应简短，把篇幅留给本人职责、技术选择、解决的问题和效果；区分团队整体项目与个人工作。", "section": "工作经历/项目经历", "locator": "L326—418"},
+        {"point": "量化效果应来自实际测量，写出背景、方法和变化；没有测量不要编造数据。", "section": "项目经历技巧2", "locator": "L418—437"},
+        {"point": "亮点可来自对既有实现的优化与扩展，并考虑可用性、稳定性、吞吐及延迟。", "section": "项目经历技巧3", "locator": "L439—447"},
+        {"point": "了解同类技术的优缺点与场景，才能解释选型而非只列使用过的框架。", "section": "项目经历技巧4", "locator": "L449—455"},
+        {"point": "可访问的项目和实际部署能补真实性；教程项目应增加自主工作，但改名换外观本身不足以证明技术深度。", "section": "项目经历技巧5—6及研究者评注", "locator": "L457—470；末半句为本调研评注"}
+      ],
+      "evidence_type": "从业内容创作者的经验建议，非企业招聘标准或独立录用因果研究",
+      "author_basis": "页面署名与第一人称自述改过大量简历；本页没有可审计样本、评审记录或SSP与普通档对照。",
+      "commercial_background": "正文推荐作者团队简历工具；文末关联编程导航、老鱼简历、面试鸭及本人项目教程。建议与商业推广同时存在，课程效果和录用概率不当作已证事实。",
+      "limitations": [
+        "文章编辑时间为2024年，不是近期Agent专项观点。",
+        "未核示例截图，不收集或下载图中个人信息，也不计真实简历原件。",
+        "文内QPS数字是教学示例，不能当作候选人的实测成绩或源码性能。",
+        "关于有无线上地址影响面试机会的比例属于作者估计，没有公开抽样支持。",
+        "仅阅读一篇图文，不代表看过其关联视频、全部专栏或付费课程。",
+        "文内关于照片、年龄等排版建议不作为本调研技术要求结论。"
+      ],
+      "recommendation": {
+        "backend": "选读专业技能与项目经历，重点将职责、取舍和测试证据写清楚。",
+        "agent": "可借用表达与证据要求；Agent工程标准仍结合实际面经、JD和代码，不能据此判定非toy或SSP水平。",
+        "relationship_to_new_interviews": "与九号对指标口径、深信服对个人价值、名创优品对故障恢复的本人面经形成主题对照；作者之间没有项目归属关系。"
+      },
+      "possible_deduplication": "现有OP01是另一条鱼皮视频，OP05是另一篇知乎来源简历指南；此B站read/opus为本次直接核读新源。若未来发现同文其他平台版本，按同一正文去重。"
+    }
+  ],
+  "discovery_and_exclusions": [
+    {
+      "url": "https://www.bilibili.com/opus/1093031355367817224",
+      "title": "程序员鱼皮2025-07-24动态",
+      "status": "搜索可见完整短动态；未另行打开全文核读",
+      "reason": "主要是AI智能体/工作流课程直播宣传，缺少工程评价依据；不补入专业评价正文数量。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV17DMQzUE1u/",
+      "title": "做了一堆crud项目，校招面试没得，讲怎么办？",
+      "status": "仅搜索标题与作者简介可见；未访问视频或字幕",
+      "reason": "小傅哥相关内容看似合题，但未读实际内容，不根据标题补写观点。"
+    },
+    {
+      "url": "https://xiaolincoding.com/other/offer.html",
+      "status": "检索返回作者站训练营介绍",
+      "reason": "不是B站本体，不能替补B站图文；本轮不扩写课程营销材料。"
+    }
+  ],
+  "search_log": [
+    {"path": "平台域名限定", "queries": ["site.bilibili.com/read 鱼皮 项目 简历", "site.bilibili.com/opus 小林coding 项目", "site.bilibili.com/read 小傅哥 项目 面试"], "result": "发现鱼皮简历长文和课程/视频线索。"},
+    {"path": "Agent/选型限定", "queries": ["site.bilibili.com/read 程序员鱼皮 Agent 项目 评测", "site.bilibili.com/read 小傅哥 项目 选型", "site.bilibili.com/read 小林coding 项目 面试官"], "result": "未发现第二篇合格B站工程评价正文；搜索返回的官网和推广不凑平台数量。"}
+  ],
+  "remaining_gaps": ["B站实际视频观看/字幕核读仍0。", "本轮新增图文只覆盖简历与项目表达；近期Agent项目工程性专业评价仍需补。", "知乎本体阅读状态由平台主管独立核算，此文件不更改。"]
+}

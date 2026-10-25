@@ -1,0 +1,182 @@
+INT11 | 腾讯后端实习一面90min
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271
+事件时间／原文日期（依分类）：
+  面试日期及事件年未知；2025-12-07为原帖发表日期
+方向与岗位：
+  后端实习，可接受Java转Go
+公司：
+  腾讯
+结果自述：
+  未公布
+涉及主题：
+  - 项目深挖/个人贡献
+  - 编程语言/并发
+  - 数据库/缓存
+  - 消息队列/一致性
+  - 系统设计/取舍
+  - 算法/编程
+  - 评测/指标
+原文提问（归纳）：
+  - 数GB文件的处理方案有没有真正测过？
+  - MQ宕机后订单超时取消怎样兜底？
+  - 为何CAS不能自动实现一人一单，库存正确性怎样保障？
+内容归纳：
+  最推荐的后端项目审计样本之一：把常见项目追到容量测试、故障路径及业务不变量。背技术名词很难覆盖这些问题。
+原访问范围：
+  正文可读
+证据边界：
+  B：具体第一人称面试记录
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  面试与项目自测参考
+统计组：
+  明确实习面经
+role_boundary：
+  依role字段限定
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    面试日期及事件年未知；2025-12-07为原帖发表日期
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原帖 time-text 与本人主页对应卡片确认发表时间；正文没有具体面试年月日，不能用发表年推事件年。
+  来源日期：
+    2025-12-07 06:30（原帖显示发表时间）
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文可读
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      腾讯
+    档位：
+      未披露
+    状态：
+      unknown
+    证据：
+      https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271
+    依据：
+      未公布
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-12-07 06:30（原帖显示发表时间）
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  是
+结果分类：
+  unknown
+related_record_ids：
+  —
+fulltext_verified：
+  是
+latest_time_and_question_review：
+  record_id：
+    INT11
+  标题：
+    腾讯后端实习一面90min
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271
+  统一分类：
+    方向：
+      后端
+    招聘类型：
+      实习
+    event_year：
+      未核／无
+    事件年份可证：
+      否
+  作者：
+    display_name：
+      幸运的回笼觉觉主在参加牛客活动
+    public_profile：
+      https://www.nowcoder.com/users/977323204?contentPage=2
+  navigation_evidence：
+    method：
+      公开 requests 主页第 2 页直接导航至同 UUID；再读该链接的 .feed-content-text、.time-text 和作者 a[href]。
+    direct_post_link：
+      https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271?sourceSSR=users
+    actual_status：
+      HTTP 200，实际正文可读；网页工具同链接不可访问，普通 URL 与 toCommentId 变体曾返回空壳。
+    author_relation：
+      正文页作者 href=/users/977323204，与主页一致。
+    已读部分：
+      全文 27 项问题与发表时间节点；不含完整答题过程或面试结果。
+  time_evidence：
+    exact_publication_node：
+      selector：
+        .time-text
+      text：
+        2025-12-07 06:30
+    independent_same_site_navigation：
+      本人主页第 2 页对应卡片也显示 2025-12-07 06:30。
+    explicit_event_date：
+      未核／无
+    conclusion：
+      现已分清该完整日期是原帖显示的发表时间；正文没有具体面试年月日，事件年继续未知。
+  project_followup：
+    recorded_question_chains：
+      - 线程池的数据分片或导出 → 几 GB 文件是否实际测过
+      - 催单提醒 WebSocket 与其他方案 → 用户量激增 → 服务端具体应对
+      - 店铺缓存结构 → 热门菜品 → 拆分 → 数据库与 Redis 一致性
+      - 延迟取消订单 → 消息持久化 → MQ 宕机或丢消息后的具体兜底
+      - 库存超卖 → CAS 库存条件 → 一人一单的独立约束 → 具体下单流程
+    project_ownership_limit：
+      正文未给个人仓库、压测报告或履历附件；同作者其他帖子不得直接当作同一实习/同一项目。
+    answer_scope：
+      实际问题链已读；不能从提问反推出作者已解决问题。
+  result：
+    状态：
+      unknown
+    依据：
+      该原帖没有结果
+    ssp：
+      未披露
+  proposed_main_fields：
+    发表／来源日期：
+      2025-12-07 06:30（原帖显示发表时间）
+    事件时间／原文日期（依分类）：
+      具体面试日及事件年未披露；2025-12-07 为原帖显示发表日
+    taxonomy.source_date_text：
+      2025-12-07 06:30（原帖显示发表时间）
+    taxonomy.date_precision：
+      未知
+    taxonomy.year_confirmed：
+      否
+    taxonomy.date_basis：
+      原帖 time-text 与本人主页对应卡片确认发表时间；正文没有具体面试年月日，不能用发表年推事件年。
+    近期发表但事件年份未知：
+      是
+    严格近期明确实习：
+      否

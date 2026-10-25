@@ -1,0 +1,118 @@
+PRO03 | mall：业务建模与常用技术栈参考
+
+需求核对版 · 2026-10-24
+
+仓库：
+  macrozheng/mall
+原始来源：
+  https://github.com/macrozheng/mall
+方向与岗位：
+  后端
+阅读建议：
+  作为业务链和工程组织样本，挑订单模块阅读
+技术栈：
+  - Spring Boot
+  - Spring Security
+  - MyBatis
+  - Redis
+  - RabbitMQ
+  - Elasticsearch
+  - Docker
+值得学习之处：
+  - 订单、会员、权限、检索等模块完整
+  - 可查看订单取消消费者与业务服务的交互
+局限与静态风险：
+  - 全部照做耗时，容易停留在CRUD
+  - 仓库规模和功能数量不能证明自己的技术深度
+  - 不能将示例支付流程当真实支付系统经验
+borrow：
+  业务实体、服务分层与延迟关闭订单的组织方式。
+extend：
+  只取预约/订单状态机，新增确认与超时竞争、跨租户访问、幂等重试的可重复实验。
+已定位阅读路径：
+  - mall-portal/src/main/java/com/macro/mall/portal/service/impl/OmsPortalOrderServiceImpl.java
+  - mall-portal/src/main/java/com/macro/mall/portal/component/CancelOrderReceiver.java
+  - mall-portal/src/main/java/com/macro/mall/portal/config/RabbitMqConfig.java
+interview_questions：
+  - 库存预占与订单生成是否同一事务？
+  - 支付成功与取消同时发生怎么办？
+  - 权限在控制器还是服务层检查？
+商业与选择偏差：
+  文档/课程生态存在；本报告仅依据公开源码。
+取得源码ZIP：
+  是
+固定源码提交：
+  dcaa93b3150352e5044708d7211b5bed0af4509f
+源码提交时间：
+  2026-09-15T02:33:19Z
+许可标识：
+  Apache-2.0
+源码包文件：
+  macrozheng__mall__dcaa93b31503.zip
+源码包SHA-256：
+  6024126e980894f3f730854f6bce3f9bba280ff93ad3b8c3b8e1f5240c4d8a2c
+类别：
+  项目参考
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-09-15T02:33:19Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    读订单生成与超时取消即可，避免为覆盖功能把时间耗在全站CRUD。
+  指定模块：
+    - mall-portal/src/main/java/com/macro/mall/portal/service/impl/OmsPortalOrderServiceImpl.java
+    - mall-portal/src/main/java/com/macro/mall/portal/component/CancelOrderReceiver.java
+    - mall-portal/src/main/java/com/macro/mall/portal/config/RabbitMqConfig.java
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    订单平台未核Agent实现；不能靠增加对话入口改称成熟Agent。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    macrozheng__mall__dcaa93b31503.zip
+  固定源码提交：
+    dcaa93b3150352e5044708d7211b5bed0af4509f
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

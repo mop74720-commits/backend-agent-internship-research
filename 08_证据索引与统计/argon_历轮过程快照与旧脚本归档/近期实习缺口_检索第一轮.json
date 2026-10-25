@@ -1,0 +1,86 @@
+[
+  {
+    "provider": "yahoo",
+    "query": "等闲king Agent 实习 Github",
+    "status": 500,
+    "url": "https://search.yahoo.com/search?p=%E7%AD%89%E9%97%B2king+Agent+%E5%AE%9E%E4%B9%A0+Github"
+  },
+  {
+    "provider": "yahoo",
+    "query": "2025 Agent 实习 已offer 简历 Github 项目",
+    "status": 200,
+    "url": "https://search.yahoo.com/search?p=2025+Agent+%E5%AE%9E%E4%B9%A0+%E5%B7%B2offer+%E7%AE%80%E5%8E%86+Github+%E9%A1%B9%E7%9B%AE",
+    "items": [
+      {
+        "url": "https://github.com/ggua94965-tech/Agent-/blob/main/Agent%E5%BC%80%E5%8F%91%E5%AE%9E%E4%B9%A0%E5%87%86%E5%A4%87%E6%8C%87%E5%8D%97.md",
+        "text": "Github https://github.com › ggua94965-tech › Agent- Agent-/Agent开发实习准备指南.md at main · ggua94965-tech/Agent- ·... 项目 简介： AutoGPT 是 2023 年引爆 AI Agent 概念的开创性项目。 它实现了\"给定一个目标，AI 自主拆解任务、使用工具、迭代执行\"的完整闭环。 虽然后续热度有所下降，但其架构思想（任务拆解、工具调用、记忆管理）影响了后续几乎所有 Agent 框架。"
+      },
+      {
+        "url": "https://jishuzhan.net/article/2042792788325105666",
+        "text": "jishuzhan.net https://jishuzhan.net › article › 2042792788325105666 幻想简历！博主本人期望的 AI Agent 全栈简历：Java + Python + Vue3 ... Apr 10, 2026 · 如今，我将自己打磨数月的 Agent 实习生 简历 完整公开—— 不仅包含 跨语言全栈技术栈（Java + Python + Vue3），还附带 两个已开源的生产级项目（金融信贷平台 + AI 刷题系统），代码、文档、部署方案一应俱全。"
+      },
+      {
+        "url": "https://github.com/bcefghj/ai-agent-interview-guide",
+        "text": "Github https://github.com › bcefghj › ai-agent-interview-guide GitHub - bcefghj/ai-agent-interview-guide: AI Agent 面试全攻略：... Apr 1, 2026 · AI Agent 面试全攻略 -- 从零到 Offer 面向小白的、最全最详细的 AI Agent 面试准备资料，包含面试八股文、企业级实战 项目 （Python/Java/Go 三版本）、 简历 模板、STAR 面试稿、漫画图解。"
+      },
+      {
+        "url": "https://www.nowcoder.com/discuss/912309942026002432",
+        "text": "牛客网 https://www.nowcoder.com › discuss › 912309942026002432 AI Agent 岗位简历模板（含可直接搬的项目经历描述范例和撰写技巧） 核心职责： • 基于 MCP Python SDK 开发 6 个工具服务器，覆盖数据库查询（MySQL/PostgreSQL）、 全文检索（Elasticsearch）、 项目 管理（Jira）、即时通讯（飞书/钉钉）、 文件系统操作、HTTP API 代理等能力 • 设计 MCP Server 的统一安全框架：实现 API Key 认证、输入参数 JSON Schema 验证、敏感操作确认机制（destructive annotation）、操作审计日志 • 实现 MCP Server 的 stdio 和 HTTP+SSE 双传输模式支持，本地开发使用 stdio 模式提升调试效率，生产环境使用 HTTP+SSE 模式支持远程访问和多用户共享 • 编写完整的工具描述文档，确保 LLM 能准确理解每个工具的用途和参数要求， 将工具调用准确率从 78% 提升至 93% 项目 成果： • 6 个 MCP Server 已 集成到 3 个不同的 AI Agent 应用中（Nanobot、Cursor、 内部 Agent 平台），验证了 MCP 的「一次开发，多处复用」核心价值 • 将新 AI 应用接入内部系统的开发周期从平均 2 周缩短到 2 天 • 项目 文档和设计方案被团队采纳为 MCP Server 开发规范"
+      },
+      {
+        "url": "https://blog.csdn.net/AAI666666/article/details/158696527",
+        "text": "CSDN博客 https://blog.csdn.net › AAI666666 › article 【全网最全】Agent开发暑期实习保姆级路线-CSDN博客 Mar 5, 2026 · 本文面向2026年AI大模型应用开发暑期 实习 岗位，系统梳理 Agent 开发所需的核心能力体系：扎实的Python工程基础（asyncio、FastAPI、Docker）、大模型底层理解（Transformer、Prompt Engineering、Function Calling）、RAG全流程实战（Embedding、向量数据库、多轮对话）、 Agent 架构设计 ..."
+      },
+      {
+        "url": "https://zhuanlan.zhihu.com/p/2085381747202699487",
+        "text": "知乎专栏 https://zhuanlan.zhihu.com › p › 2085381747202699487 可以写进简历的20个真实 Agent 项目！ - 知乎 Sep 21, 2026 · 今天整理 20 个从入门、进阶到企业级，完全可以写进 简历 的 Agent 实战 项目 ，覆盖个人练习、业务应用、 多智能体系统，你可以按需挑选练习，丰富自己作品集。 这里也给大家整理了一套 Agent 从入门到进阶全套学习包。"
+      },
+      {
+        "url": "https://www.nowcoder.com/discuss/868082243900559360",
+        "text": "牛客网 https://www.nowcoder.com › discuss › 868082243900559360 开源 Agent 项目推荐 + 如何用它们丰富简历_牛客网 引言\"我的 简历 上没有 Agent 相关的 实习 经历怎么办？ \"这是校招季被问得最多的问题之一。 答案很简单——开源项目就是你的实习。 而且某种意义上比实习更有价值： 实习 经历面试官只能听你描述，开源贡献面试官能直接看你的代码。"
+      }
+    ]
+  },
+  {
+    "provider": "yahoo",
+    "query": "2025 后端 实习 已offer 简历 Github 项目",
+    "status": 200,
+    "url": "https://search.yahoo.com/search?p=2025+%E5%90%8E%E7%AB%AF+%E5%AE%9E%E4%B9%A0+%E5%B7%B2offer+%E7%AE%80%E5%8E%86+Github+%E9%A1%B9%E7%9B%AE",
+    "items": [
+      {
+        "url": "https://github.com/pandalee99/Intern-Project",
+        "text": "Github https://github.com › pandalee99 › Intern-Project GitHub - pandalee99/Intern-Project: 自认为适合找实习、校招等，写... 实习 项目 (持续更新中) 自认为适合找 实习 、校招等，写在 简历 上的项目。 写这个目的，是为了广大学子真正学到一些东西，并且助力于 实习 和校招。 git hub 有这么多的资源，不如推荐点好东西给看到文章的各位。"
+      },
+      {
+        "url": "https://github.com/dachangoffer/dachangoffer",
+        "text": "Github https://github.com › dachangoffer › dachangoffer GitHub - dachangoffer/dachangoffer: 大厂offer研习社：大厂求职校招... 实习 最新信息： 招商银行 2024 校招： https://cmb-recruitment-mobile.paas.cmbchina.com/positionSchool 建设银行 2024 校招： http://job3.ccb.com/cn/job/mobilev3/branchs.html?planType=XY 工商银行2024 校招： https://job.icbc.com.cn/mobile/index.html"
+      },
+      {
+        "url": "https://linsensn.github.io/",
+        "text": "linsensn.github.io https://linsensn.github.io Xinran Liu - 刘欣然 6 days ago · Xinran Liu 我是 刘欣然，郑州大学计算机科学与技术本科大四， 已 保研大连理工大学计算机技术专硕（2027年9月入学）。 拥有10个月稳定 实习 空档，可从10月下旬全职 实习 至2027年8月，时间充裕无课业负担。主攻 后端 与AI工程方向，熟练使用 Python、PyTorch、FastAPI，了解模型LoRA微调、量化压缩、推理服务 ..."
+      },
+      {
+        "url": "https://blog.csdn.net/m0_45362454/article/details/144808692",
+        "text": "CSDN博客 https://blog.csdn.net › m0_45362454 › article 后端开发实习生简历迭代的5个版本，希望能帮你找到实习_实习简历算法... Dec 29, 2024 · 博主分享 后 端 开发 实习生 简历 迭代的5个版本。 最初以深度学习项目总结为主，获算法实习；后转后端，用Java做项目获小厂实习；不断完善技术栈、丰富项目经历，删除深度学习项目；最终凭借简历获大厂实习，并将大厂实习内容补充到 简历 。"
+      },
+      {
+        "url": "https://cv.devtool.tech/templates/go-intern",
+        "text": "cv.devtool.tech https://cv.devtool.tech › templates › go-intern Go后端实习生简历模板 2025 - 校招求职 | 一纸简历 - 一纸简历 2025 最新Go 后端实习 生 简历 模板，适合在校生和应届生求职使用。突出Go语言 项目 实践、微服务架构和学习能力。"
+      },
+      {
+        "url": "https://resume-ai-liart-six.vercel.app/blog/programmer-resume-template-2025",
+        "text": "resume-ai-liart-six.vercel.app https://resume-ai-liart-six.vercel.app › blog › programmer 程序员简历模板 2025：前端/后端/算法/测试 分方向完整模板 Apr 26, 2026 · 程序员 简历 不是求职信，是一份技术作品集。 本文分前端、 后 端 、算法、测试 4 个方向，给出大厂实际录用版的 简历 模板，附 项目 经验写法、技能栈分层、 G it Hub 引用等 15 个实操要点。"
+      },
+      {
+        "url": "https://cv.devtool.tech/templates/java-intern",
+        "text": "cv.devtool.tech https://cv.devtool.tech › templates › java-intern Java后端实习生简历模板 2025 - 校招求职 | 一纸简历 - 一纸简历 2025 最新Java 后端实习 生 简历 模板，适合在校生和应届生求职使用。突出Spring Boot 项目 实践、数据库应用和学习能力。"
+      }
+    ]
+  },
+  {
+    "provider": "yahoo",
+    "query": "2026 Agent 实习 成功 简历 开源",
+    "status": 500,
+    "url": "https://search.yahoo.com/_bv/v.gif?orig=%2Fsearch%3Fp%3D2026%2BAgent%2B%25E5%25AE%259E%25E4%25B9%25A0%2B%25E6%2588%2590%25E5%258A%259F%2B%25E7%25AE%2580%25E5%258E%2586%2B%25E5%25BC%2580%25E6%25BA%2590&_bvc=1.a086494dfad16111bf63fb46722da3dc68bc9b9cd05a3e1d2d67bee5c13ccc77"
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "scope": "从具体已收录作者回溯公开原站：补CV03事件时间及公司档位措辞，补CV01本人逐轮面经与SSP公司关系。另记录Agent应用SSP商业案例检索边界；不改主表、不新增编号。",
+  "method": {
+    "deduplication": "对照当前all_evidence_records中的CV01、CV03、CV07及OBS09；匿名OBS09不追非展示身份。",
+    "read_scope": "CV01及CV03主文、CV03另一篇AI转岗原文全文可见文字；CV01三篇技术面经全文，作者页面与原文署名匹配。没有把主页列表当作面经全文。",
+    "dates": "主文专业时间线与具体来源时间分开；主文明确25年才记录2025，届别和抓取时间不用来推年。",
+    "outcome_scope": "具体公司和批次按本人说法即可，不额外要求企业认证；'应该/猜测'保留不确定性，不按金额自行升档。",
+    "ownership": "只有本人明确点名的经历及同作者署名原文建立关系，没有本人源码仍留缺。",
+    "privacy": "仅取必要职业事实，不保存联系方式、IP、家庭、健康、群号等资料；不执行第三方项目。"
+  },
+  "existing_candidate_updates": [
+    {
+      "existing_id": "CV03",
+      "author": "Richard奇",
+      "public_author_id": "273840892",
+      "profile_url": "https://ac.nowcoder.com/profile/273840892",
+      "primary_url": "https://ac.nowcoder.com/discuss/832657601983688704",
+      "original_url": "https://www.nowcoder.com/discuss/832657601983688704",
+      "title": "26届双非本鼠硕拿下5个ssp的秋招总结及一条龙经验分享",
+      "access": {"status": 200, "selector": ".nc-post-content", "scope": "公开可见文字全文已读", "images_read": false},
+      "event_timeline_paraphrased": [
+        {"date": "2024年7—10月", "event": "小厂实习3个月"},
+        {"date": "2025年3—4月", "event": "找暑期实习及面试"},
+        {"date": "2025年5—8月", "event": "美团暑期实习"},
+        {"date": "2025年8月下旬", "event": "美团意向"},
+        {"date": "2025年9—10月底", "event": "集中秋招面试"},
+        {"date": "2025年10月底", "event": "美团开奖SSP"},
+        {"date": "2025年11月", "event": "选offer、签三方；华为段具体称11月下旬开奖"}
+      ],
+      "date_basis": "原文1.2.1直接写23年、24年、25年各阶段；1.2.2在同一叙述下列美团4月offer、5—8月实习、8月下旬意向、10月底SSP。与仅凭26届倒推年份不同。",
+      "suggested_taxonomy": {
+        "track": "混合（作者自述方向Java后端或大模型应用，未逐公司给具体职称）",
+        "recruitment": "混合：2025暑期实习＋实习后同公司意向/SSP＋外部秋招",
+        "experience_date_text": "2025年3—4月暑期招聘；5—8月美团实习；8月下旬意向，10月底美团SSP；9—11月其他秋招结果",
+        "year_confirmed": true,
+        "recent_status": "近期确认",
+        "boundary": "可标美团实习后同公司录用；称实习转正时附注其关系由连续本人时间线支持，正文没有单独给转正批次名称。其他公司仍是外部秋招，不统归实习转正。"
+      },
+      "outcome_updates": [
+        {"company": "美团", "role": "未逐项明确正式岗位；作者总体为Java后端/大模型应用方向", "grade": "SSP", "status": "offer_self_report", "recruitment": "暑期实习后同公司意向及校招录用", "event_date": "2025-10月底；暑期2025-05至08", "basis": "本人单独公司段明确先实习、后意向、再SSP。", "boundary": "最早北京拼好饭业务一面被转上海公海，不证明最终团队仍是拼好饭；不得补为Agent SSP。"},
+        {"company": "京东", "role": "未逐项披露", "grade": "作者推定SSP", "status": "offer_self_report_grade_inferred_by_author", "recruitment": "2025外部秋招", "event_date": "2025秋招，确切开奖日未知", "basis": "总表写SSP，但单独段落使用应该是SSP；以后者更具体措辞保留档位不确定性。"},
+        {"company": "安克创新", "role": "未逐项披露", "grade": "SSP", "status": "offer_self_report", "recruitment": "2025外部秋招", "event_date": "2025秋招，确切日未知", "basis": "单独段直接称拿了SSP。"},
+        {"company": "网易", "role": "未逐项披露", "grade": "作者猜测SP", "status": "offer_self_report_grade_inferred_by_author", "recruitment": "2025外部秋招", "event_date": "2025秋招，确切日未知", "basis": "HR称非普通档；作者按薪资猜测SP，未获得明确档位称谓。"},
+        {"company": "华为", "role": "未逐项披露", "grade": "15a（原公司级别）", "status": "offer_self_report", "recruitment": "2025外部秋招", "event_date": "2025-11下旬", "basis": "本人直接给15a及杭州，不能换算成SSP。"}
+      ],
+      "additional_same_author_source": {
+        "url": "https://ac.nowcoder.com/discuss/885841229328420864",
+        "title": "关于我如何从Java开发转岗成为AI工程师",
+        "access": {"status": 200, "scope": "公开文字全文已读"},
+        "professional_summary": "同作者直接回顾25年美团暑期入职，称团队使用并探索AI Coding，自己请教过RAG索引问题；其后关于Agent任务、学习项目的部分主要是建议。",
+        "boundary": "AI Coding开发经验不自动等于Agent应用/平台工程岗位。本文没给本人具体Agent项目、代码或实际职责，不能把CV03补成明确Agent SSP。"
+      },
+      "project_and_resume_status": {"complete_resume_file": false, "personal_repository": null, "named_company_project_details": null, "scope": "主文仍只有课程商城及实习经过；未获公开本人源码，不把看懂开源项目记作原创实现。"},
+      "action_suggestions": ["将原taxonomy的校招发生年未知纠正为2025近期确认。", "以公司级结果拆开美团实习后录用、外部秋招和15a，不将全条统一实习或SSP。", "京东SSP、网易SP保留作者推定措辞。", "不增加候选人数量；主文无逐轮完整题单，不另拆16场面经。"]
+    },
+    {
+      "existing_id": "CV01",
+      "author": "Lewy华",
+      "public_author_id": "541749765",
+      "profile_url": "https://ac.nowcoder.com/profile/541749765",
+      "primary_url": "https://ac.nowcoder.com/discuss/825498059369955328",
+      "original_url": "https://www.nowcoder.com/discuss/825498059369955328",
+      "access": {"status": 200, "selector": ".nc-post-content", "scope": "公开文字全文已读；简历图片本轮未重读"},
+      "direct_chain_evidence": "主文2025章节及其面试经验部分直接列出快手、字节、小鹏等逐轮面经链接；本次三篇各自原站署名均为Lewy华、541749765。不是拿同账号无关仓库补链。",
+      "ssp_company_updates": [
+        {"company": "字节跳动", "role": "后端；面经中有AI后端业务讨论，未明确Agent职称", "grade": "SSP", "status": "offer_self_report", "recruitment": "2025秋招", "basis": "主文结尾举字节1/3/4面没答全后仍获SSP；本人四轮面经标题更新为已接Offer。"},
+        {"company": "快手", "role": "Golang后端", "grade": "SSP", "status": "offer_self_report", "recruitment": "2025秋招正式批", "basis": "主文同段直接举快手3/4面后最终SSP；独立面经四轮原文与已Offer标题一致。"},
+        {"company": "小鹏", "role": "Golang后端，业务反问称机器人大数据上报", "grade": "SSP", "status": "offer_self_report", "recruitment": "2025秋招正式批", "basis": "主文同段直接举小鹏1面后最终SSP；单篇早期标题仍待HR，阶段差异保留。"},
+        {"company": "第四家", "role": "未知", "grade": "SSP总述", "status": "overall_claim_company_not_resolved", "recruitment": "2025秋招", "basis": "原文说4家开奖皆SSP，但本次没有逐项确认第四家公司，不从虾皮或B站等候选列表反推。"},
+        {"company": "滴滴、百度", "role": "本人有面经，档位未定", "grade": "未披露", "status": "offer_or_salary_pending_self_report", "recruitment": "2025秋招", "basis": "主文说薪资还需与业务同步；不得由其他公司的SSP推广到这两家。"}
+      ],
+      "suggested_chain_update": {"interview_relation": "直接点名＋原文作者ID一致", "replace_gap": "已有3篇本人逐轮面经全文核读；此前未建立的本人面经关系可更新。", "remaining_gaps": ["具体个人项目仓库仍未取得。", "第四家SSP公司未确定。", "字节AI后端讨论不证明Agent工程职称；不填近期Agent SSP核心缺口。"]},
+      "action_suggestions": ["不新增候选人；将CV01面经chain由未建立改为3篇原文直接关系。", "结果按主文较晚SSP总结与各篇早期流程分层保留；不把待HR原帖直接改写成当时已SSP。", "只按下面3份独立来源审定新增面经，不把每轮拆成新候选。"]
+    }
+  ],
+  "new_interview_material_candidates": [
+    {
+      "source_key": "LEWY_KUAISHOU_792809776",
+      "candidate_existing_id": "CV01",
+      "url": "https://ac.nowcoder.com/discuss/792809776626356224",
+      "canonical_url": "https://www.nowcoder.com/discuss/792809776626356224",
+      "title": "快手秋招正式批 Golang后端 一二三四面面经（已Offer）",
+      "author": "Lewy华",
+      "public_author_id": "541749765",
+      "company": "快手",
+      "role": "Golang后端",
+      "recruitment": "校招正式批",
+      "event_date": "2025秋招；具体面试年月日单篇未写",
+      "event_year_basis": "CV01主文2025职业时间线直接链接本篇；来源时间另列，不只凭发帖年推年。",
+      "source_dates": {"published_utc": "2025-09-03T09:43:00+00:00", "updated_utc": "2025-12-02T08:40:01+00:00"},
+      "access": {"status": 200, "selector": ".nc-post-content", "scope": "公开文字全文已读"},
+      "rounds": ["一面50分钟", "二面60分钟", "三面40分钟", "四面60分钟"],
+      "questions_paraphrased": ["本人IM项目心跳、连接规模对系统指标的影响、时间轮和goroutine使用。", "消息重复与漏失的选择，项目亮点。", "Kafka取消息后磁盘读取/计算/落盘链路如何优化，数量级估算。", "IM性能如何测试，整数编码与海量热门查询设计。"],
+      "project_relation": "直接点名本人IM服务器，能和CV01主文同一项目对应；源码未取得。",
+      "result": {"single_article": "标题已Offer；正文保留担心排序和约HR的较早语气", "later_candidate_summary": "CV01主文自述快手SSP", "boundary": "依赖主文说明最终档位，单篇不单独宣称SSP。"},
+      "reading_caveats": ["问题是回忆，不是原始录音。", "作者标没答好/不会仅为其自评，不作拒绝原因。", "末尾组合题N≤3与10亿设计题存在疑似转写不完整，保留原文，不补造约束或标准答案。"]
+    },
+    {
+      "source_key": "LEWY_BYTEDANCE_793068978",
+      "candidate_existing_id": "CV01",
+      "url": "https://ac.nowcoder.com/discuss/793068978837921792",
+      "canonical_url": "https://www.nowcoder.com/discuss/793068978837921792",
+      "title": "字节后端 秋招一二三四面面经（已接Offer）",
+      "author": "Lewy华",
+      "public_author_id": "541749765",
+      "company": "字节跳动",
+      "role": "后端，具体团队未披露",
+      "recruitment": "校招",
+      "event_date": "2025秋招；具体面试日单篇未写",
+      "event_year_basis": "CV01主文2025段落直接给本人面经导航；来源时间仅辅助。",
+      "source_dates": {"published_utc": "2025-09-04T02:52:59+00:00", "updated_utc": "2025-12-02T09:02:50+00:00"},
+      "access": {"status": 200, "selector": ".nc-post-content", "scope": "公开文字全文已读"},
+      "rounds": ["一面60分钟", "二面40分钟", "三面110分钟", "四面60分钟"],
+      "questions_paraphrased": ["项目选型、瓶颈和改进；RocketMQ与Kafka对比。", "IM性能瓶颈与AI技术了解。", "本人两模块架构，通知服务为何采用MQ，稳定性和上游超时排查。", "系统输出全链路、网站慢的优化、算法及需求工期沟通。"],
+      "project_relation": "本人通知服务和IM项目直接问答，能对应CV01履历片段与主文；没有源码。",
+      "result": {"single_article": "标题已接Offer，早期正文仍等待10月薪资", "later_candidate_summary": "CV01主文自述字节SSP", "boundary": "问过AI后端的挑战不等于录用岗位明确是Agent应用/平台工程。"},
+      "questions_vs_answers": "本人回忆的问题与少量作答感受混排，未给完整回答；不能因算法没做出仍获offer而归纳算法不重要。"
+    },
+    {
+      "source_key": "LEWY_XPENG_788000430",
+      "candidate_existing_id": "CV01",
+      "url": "https://ac.nowcoder.com/discuss/788000430256037888",
+      "canonical_url": "https://www.nowcoder.com/discuss/788000430256037888",
+      "title": "小鹏秋招正式批 Golang后端 一二面面经（待HR面）",
+      "author": "Lewy华",
+      "public_author_id": "541749765",
+      "company": "小鹏",
+      "role": "Golang后端；反问业务为机器人大数据上报",
+      "recruitment": "校招正式批",
+      "event_date": "2025秋招；具体面试日单篇未写",
+      "event_year_basis": "主文2025段落明确关联本篇；来源时间另列。",
+      "source_dates": {"published_utc": "2025-08-21T03:12:23+00:00", "updated_utc": "2025-09-15T14:37:31+00:00"},
+      "access": {"status": 200, "selector": ".nc-post-content", "scope": "公开文字全文已读"},
+      "rounds": ["一面50分钟", "二面50分钟"],
+      "questions_paraphrased": ["Protobuf选型、Unix Domain Socket、channel分离、生产消费和读多写少场景。", "服务器TCP容量需要哪些资源估算，连接各阶段内存差异。", "每用户最新记录SQL、Golang与Java原理差别、MySQL性能及协作。"],
+      "project_relation": "主文直接关联且作者一致，项目技术细节可对应IM服务器；未核个人源码。",
+      "result": {"single_article": "待HR", "later_candidate_summary": "CV01主文自述最终小鹏SSP", "boundary": "明确保留原文记录时点，不倒写当时已拿SSP。"},
+      "questions_vs_answers": "文中SQL在作者说没做出后列出，作为事后补充参考，不称当场成功作答。"
+    }
+  ],
+  "new_paths_without_qualifying_complete_chain": [
+    {
+      "path": "具体Agent课程成果回溯",
+      "url": "https://www.codefather.cn/vip",
+      "accessible_mirror": "https://nextoriginweb.codefather.cn/vip",
+      "status": "200公开页面实读学员评价文字",
+      "finding": "平台刊载匿名学员评价，分别称美团成都智能客服SSP、美团全栈SSP与AI应用生成项目有关。",
+      "boundary": "这是课程方选取的匿名评价，未找到可直接回溯本人原帖、事件年、本人源码或面经；不新增成功候选、不将教学仓库当学员实现。"
+    },
+    {
+      "path": "Agent社区成果原站",
+      "url": "https://agentalpha.top/learn",
+      "status": "200公开课程页选读成果段",
+      "finding": "课程方展示多种offer、论文与项目案例，但当前SSP旗舰故事链接/projects/stories.html为404。字节Agent面经页面自行说明是多场素材整理，未给本人原文链接。",
+      "boundary": "没有完成作者—具体工程SSP—本人实现对应，不用算法人才计划或合并题单替补。"
+    },
+    {
+      "path": "GitHub定向新README",
+      "queries": ["SSP 大模型应用 in:readme fork:false", "SSP Agent offer in:readme fork:false", "SSP 智能体 面经 in:readme fork:false"],
+      "status": "三个GitHub公共检索200，分别8、365、4结果；只扫描前20项，非全覆盖",
+      "read_repositories": ["backtraxe/offer-is-all-you-need", "adongwanai/AgentGuide", "frankjing3/AgentGuide"],
+      "finding": "backtraxe为汇编笔记，SSP在第三人称采集日志中；AgentGuide的SSP是冲刺目标。未找到新本人录用与实现链。",
+      "boundary": "不把搜索命中、题库目标、第三人称汇总变为仓主已获SSP，也未执行仓库指令。"
+    }
+  ],
+  "delivery_summary": {
+    "existing_candidates_strengthened": ["CV01", "CV03"],
+    "new_personal_interview_sources_actually_read": 3,
+    "new_candidate_count": 0,
+    "new_recent_agent_engineering_ssp_complete_chain": 0,
+    "new_complete_resume_files": 0,
+    "new_personal_code_archives": 0,
+    "main_tables_modified": false,
+    "remaining_work": "根代理可审定更新2位既有候选人的结果/批次/面经关系，并按3个来源去重新增逻辑面经。近期Agent工程SSP仍缺具体岗位与本人实现关联，不声称全网不存在。"
+  }
+}

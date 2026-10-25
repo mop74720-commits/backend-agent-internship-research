@@ -1,0 +1,225 @@
+CV16 | LittleChild：地平线SSP与本人多轮面经，属自动驾驶算法邻近参考
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+作者：
+  LittleChild
+事件时间／原文日期（依分类）：
+  秋招接春招；具体发生年未直接明示
+方向与岗位：
+  历史SLAM/自动驾驶/视觉算法；非Java后端或Agent工程
+结果自述：
+  自述地平线SSP，拒绝后选小马智行；小马原文为算法普通档
+evidence_excerpt：
+  过了。拿到了SSP，，，
+资料形式：
+  本人秋招多公司多轮回忆；非完整简历
+技术栈：
+  - C++
+  - SLAM
+  - 3D视觉
+  - 自动驾驶感知
+  - 算法
+本人项目与经历描述：
+  - SLAM/定位及科研项目
+  - 美团自动驾驶相关实习
+  - GCNv2/Monodepth/OpenVSLAM等模型/系统问题
+project_relationship：
+  article_project_mentions：
+    - SLAM/定位及科研项目
+    - 美团自动驾驶相关实习
+    - GCNv2/Monodepth/OpenVSLAM等模型/系统问题
+  direct_project_repository_links_in_article：
+    未见将某个GitHub项目明确标为本人求职项目的直接链条
+  same_account_observations：
+    - 仓库：
+        LittleChild/MagWiFi
+      fork：
+        否
+      language：
+        Java
+      description：
+        Android无线/地磁/图像采集工具
+    - 仓库：
+        LittleChild/wifimage
+      fork：
+        否
+      language：
+        Java
+      description：
+        室内定位图像与无线信号采集Android工具
+    - 仓库：
+        LittleChild/GCNv2_SLAM
+      fork：
+        是
+      language：
+        C++
+      description：
+        上游SLAM项目fork
+  boundary：
+    同账号存在项目不等于本文被面试的项目；Java采集App不构成Java服务端履历。多数SLAM仓库为fork，未核贡献，不能当原创或整库打包。
+  archive_status：
+    未下载源码
+静态阅读发现：
+  - 固定源码提交：
+      6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21
+    源码提交时间：
+      2022-03-18T14:33:50Z
+    path：
+      README.md
+    line_start：
+      243
+    line_end：
+      251
+    原始来源：
+      https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+    公司：
+      地平线
+    quote：
+      过了。拿到了SSP，，，
+    context：
+      地平线段列一/二/三面和HR面，随后称拿到SSP并拒绝、选择pony；小马智行段L226写算法白菜，不能把小马结果也记为SSP。
+    independent_employer_verification：
+      否
+  - 原始来源：
+      https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L180-L203
+    观察：
+      SLAM、3D视觉、自动驾驶感知与C++为主体；不同公司岗位可能不同，地平线段未单独写岗位名称。
+值得学习之处：
+  - SSP公司与同段轮次结果可定位
+  - 同文区分不同公司的档位，保留拒绝与接受选择
+建议用途：
+  可比较实习/科研项目如何被持续深挖、SSP与普通档如何在同文区分；属于邻近算法方向，不能用它填补后端或Agent工程成功者缺口。
+局限：
+  - SSP与结果未经企业核验
+  - 地平线具体岗位名未在该段明示
+  - 没有完整简历或个人项目源码闭环
+  - 不能将作者对面试官的情绪、原因猜测或价值判断当事实
+  - 历史自动驾驶方向，不代表Java/Go或Agent应用工程门槛
+证据边界：
+  B：本人历史回忆；项目源码关系未闭环
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    算法对照
+  招聘类型：
+    校招
+  事件时间：
+    秋招接春招；具体发生年未直接明示
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    22领航员可为届别；2022-03-18是commit，不能补成2021/2022面试
+  来源日期：
+    未核／无
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按source_findings已读范围归类；全文仅指该篇已定位公开正文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      地平线
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+    依据：
+      自述地平线SSP，拒绝后选小马智行；小马原文为算法普通档
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      小马智行/pony
+    档位：
+      普通档（原文白菜）
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+    依据：
+      自述地平线SSP，拒绝后选小马智行；小马原文为算法普通档
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  未核／无
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+      direct_basis：
+        自述地平线SSP，拒绝后选小马智行；小马原文为算法普通档
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+      direct_basis：
+        本人秋招多公司多轮回忆；非完整简历
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+      direct_basis：
+        面经提SLAM、科研和实习项目
+      直接关系：
+        直接点名
+      gap：
+        未明确本人求职仓库；同账号fork不算原创
+  interview：
+    - 原始来源：
+        https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+      direct_basis：
+        LittleChild：地平线SSP与小马普通档的同作者面经对照
+      直接关系：
+        直接点名
+      gap：
+        本记录并非各家SSP完整面试录音；以已读范围为准
+      interview_id：
+        INT61
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 未明确本人求职仓库；同账号fork不算原创
+  - 本记录并非各家SSP完整面试录音；以已读范围为准
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  否
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

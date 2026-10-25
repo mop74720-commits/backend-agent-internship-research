@@ -1,0 +1,233 @@
+PRO18 | Crony：Go分布式定时任务工程参考，未证作者SSP
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f
+作者：
+  tmnhs
+固定源码提交：
+  00df3df90306811332d0aff66a259cf90ad6954f
+源码提交时间：
+  2023-06-03T11:22:54Z
+类别：
+  项目参考
+retrieved_at：
+  2026-10-23
+方向与岗位：
+  Go后端工程项目；不是Agent或已核SSP成功者项目
+技术栈：
+  - Go
+  - Gin
+  - Gorm
+  - MySQL
+  - Etcd
+  - Viper
+  - Zap
+  - jakecoffman/cron
+project_relationship：
+  - type：
+      作者第一人称自述
+    source_repo：
+      tmnhs/go-interview-resume
+    source_commit：
+      f4f3dbd824a8bdc70854997f501addc4a5011309
+    source_commit_date：
+      2024-03-16T06:02:09Z
+    原始来源：
+      https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22
+    quote：
+      我个人做的分布式定时任务管理平台
+    interpretation：
+      资料作者直接将 Crony 关联到自己的项目，而非仅收藏第三方仓库。此证据仍是公开自述。
+  - type：
+      作者第一人称自述及实现边界
+    原始来源：
+      https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3
+    quote：
+      这个项目其实是本人在XXXX公司实习时做的一个项目，感觉挺有意思，就自己写了一份代码（与原版还是有很大差别的，因为忘记了）上传到了github
+    interpretation：
+      个人开源代码是作者对实习项目的重新实现；公司原版、原实习职责与个人仓库能力不能直接等同。公司名称及录用结果均未由此证实。
+  - type：
+      原实习职责自述
+    原始来源：
+      https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28
+    quote：
+      负责完成执行节点模块和go-sdk的研发
+    interpretation：
+      不能将公司项目所有模块均归为作者个人负责，也不能将 go-sdk 自动算作当前公开仓库已有实现。
+结果自述：
+  未证实。关联资料 README 和项目经历介绍中未找到本人获得 SSP 的明确表述；不得由项目质量推导招聘档位。
+静态阅读发现：
+  - 观察：
+      围绕任务散落、执行状态不透明和失败排查成本构建集中管理平台，有可解释的业务动机；后端采用 Go、Gin、Gorm、MySQL、Etcd、Viper、Zap。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L16-L24
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L88-L92
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L39
+    boundary：
+      未验证生产用户、吞吐量、故障恢复时延或业务收益。不要把 README 功能表当成性能验收记录。
+  - 观察：
+      执行节点通过 Etcd Grant、KeepAlive 和带租约 Put 注册；管理端监听节点删除事件，执行任务重新分配。该项目存在实际服务注册和故障转移代码。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L28-L78
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L48-L69
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308
+    boundary：
+      有实现不等于已证明网络分区、管理端多实例和进程崩溃下的执行语义。
+  - 观察：
+      AutoAllocateNode 遍历活节点、读取任务数量并选择任务数最少者；加权轮询和平滑加权轮询列在 README 的 TODO 中。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go#L117-L143
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L135-L137
+      - https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L9-L28
+    boundary：
+      实习经历中的 Coa RPC、加权轮询和 go-sdk 是公司项目描述；当前个人仓库不能据此宣称已实现这些能力。作者明确说明重写与原版不同，不能据差异指控经历虚假。
+  - 观察：
+      管理端先 Get 节点快照并处理结果，之后才启动不带 WithRev 的 Watch；setNodeList 内还包含启动等待和任务分配。执行端同样先 loadJobs，再启动 WatchJobs，后者也未携带快照 revision。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L37-L49
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L108-L154
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L142-L165
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L214-L216
+    inference：
+      快照读取完成到 Watch 生效之间存在需验证的事件遗漏窗口，适合改造成从快照 revision+1 续接、处理 compaction 并进行周期校准。
+    verification_status：
+      静态发现，未通过并发故障注入复现。
+  - 观察：
+      assignJob 先将新节点任务写入 Etcd，再更新 MySQL；FailOver 完成新分配后才删除旧节点任务键。所读流程为多个分步操作。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L245-L267
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308
+    inference：
+      需要验证中途失败后的 Etcd/MySQL 一致性、双节点短暂持有同一任务以及多管理端并发迁移；不能只用管理服务多实例和负载均衡证明高可用。
+    verification_status：
+      未声称全仓不存在其他补偿；未做生产或运行时验证。
+  - 观察：
+      keepAlive 收到 nil 后记录日志并返回；节点 Cron 的停止在 NodeServer.Stop 路径中。所读租约续期函数未显示断租后主动停止调度、重建租约或重新注册。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L60-L72
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L110-L123
+    verification_status：
+      未复现；作为后续项目正确性实验，不能称已验证故障。
+  - 观察：
+      CreateJob 包含重试次数、重试间隔、成功/失败日志写入与失败通知的代码；RunWithRecovery 是另一条手动运行路径，不宜把两者的重试语义直接视为相同。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L77-L100
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L137-L209
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go#L119-L134
+  - 观察：
+      固定源码树发现 5 个 *_test.go；已读的命令测试依赖本地脚本，HTTP 相关测试依赖 localhost 服务，主要检查 error 并记录输出。所读测试没有证明故障转移、断租或快照/Watch 一致性。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_cmd_test.go#L9-L34
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go#L9-L33
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/httpclient/http_client_test.go#L9-L17
+    boundary：
+      文件数不能证明项目从未做过其他测试。未发现固定源码树中的常见 GitHub Actions / GitLab CI / Jenkins 配置入口，未运行现有测试。
+  - 观察：
+      README 链接 robfig/cron，但 go.mod 与执行节点代码实际引用 jakecoffman/cron；该固定版本声明 Go 1.16，Etcd 依赖为 3.3.9+incompatible。
+    sources：
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L92
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L16
+      - https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L3-L18
+    boundary：
+      技术栈应按实际源码记录；未做漏洞扫描，不据版本号单独宣称漏洞或不可用。重新开发应单独验证依赖兼容性。
+值得学习之处：
+  - 从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。
+  - 代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。
+  - 作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。
+局限：
+  - 不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。
+  - 不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。
+  - 不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。
+  - 不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。
+建议用途：
+  沿任务创建、注册、分配、执行、重试和迁移做代码走读；对照文档与实现在何处一致、何处仍是TODO。此项只用于信息调研和工程比较，个人项目设计暂缓。
+license_notes：
+  spdx_id：
+    MIT
+  状态：
+    已阅读固定 commit 根 LICENSE，并与 GitHub 仓库元数据核对。
+  原始来源：
+    https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/LICENSE#L1-L13
+  copyright：
+    Copyright (c) 2022 tmnhs
+  redistribution_condition：
+    复制或分发软件副本及实质部分时须保留版权和许可声明。
+  boundary：
+    该 MIT 核查仅针对 Crony 仓库；关联资料仓库 go-interview-resume 的 API 未返回许可证，不能将 Crony 的 MIT 授权延伸到该资料仓库的全文或简历模板。
+archive_status：
+  固定9文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行
+证据边界：
+  B：本人归属自述、许可证及关键源码已读；招聘结果与运行效果未核实
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2023-06-03T11:22:54Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    Go方向精读注册、任务分配与失败迁移，特别对照公司描述与个人重写的边界。
+  指定模块：
+    - README.md
+    - go.mod
+    - common/pkg/etcdclient/registry.go
+    - admin/internal/service/node.go
+Agent方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    仅作为Agent长任务调度/重试的后端参照；本身不是Agent或SSP成功者项目。
+  指定模块：
+    - README.md
+    - go.mod
+    - common/pkg/etcdclient/registry.go
+    - admin/internal/service/node.go
+附件状态：
+  状态：
+    固定源码选读派生ZIP已归档
+  源码包文件：
+    Crony_固定源码选读.zip
+  exists：
+    是
+  理由：
+    固定9文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行
+  源码包SHA-256：
+    cb4deff1ffd0b6a07c42a4e2f55851227ba6a963ee15386e5e3a0cc730e468d6
+  source_manifest：
+    08_证据索引与统计/Crony_选读归档补齐.json
+  source_file_count：
+    9
+  selection_only：
+    是
+  runtime_verified：
+    否
+取得源码ZIP：
+  是
+source_selection_manifest：
+  08_证据索引与统计/Crony_选读归档补齐.json

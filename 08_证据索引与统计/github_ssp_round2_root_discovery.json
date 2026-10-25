@@ -1,0 +1,64 @@
+{
+  "retrieved_at": "2026-10-23",
+  "scope": "第二轮GitHub与本人跨站复盘检索；没有穷尽性保证",
+  "recent_cross_platform_reference": {
+    "id": "CV17",
+    "author": "码间烟火录／小烟",
+    "role": "25届Java后端研发；2024实习与秋招，2025公开复盘",
+    "urls": [
+      "https://juejin.cn/post/7461269186713321491",
+      "https://www.nowcoder.com/discuss/710535736860180480",
+      "https://www.nowcoder.com/discuss/712641117967093760"
+    ],
+    "date": "掘金第一篇2025-01-19；牛客第二篇2025-01-25",
+    "ssp_excerpt": "25届Java后端研发岗，有一段美团日常实习一段淘天暑期实习，秋招拿到了字节ssp、快手ssp、淘天ssp、京东ssp、美团sp等offer",
+    "outcome_boundary": "第一人称自述；美团是SP，不是SSP；未独立核验公司、身份、offer或薪酬。",
+    "read_method": "requests公开GET＋BeautifulSoup。掘金正文选择器.article-viewer.markdown-body；牛客.post-content-box。最初按旧.article-content/.nc-post-content选择器未命中，后定位新容器读到正文，不能将选择器未命中说成原文不存在。",
+    "read_range": "掘金第一篇学习复盘正文、牛客第二篇技术与项目/实习/面试表达正文实际已读；未读总结图片、未采集评论或联系方式。",
+    "github_identity_or_project_repo": "未在已读两篇正文找到本人GitHub/项目代码直链；不计作新确认GitHub成功者。",
+    "projects": "作者明确说先跟随小傅哥视频/手册，再优化技术并准备追问；具体项目名和本人源码未公开，不能把课程作者仓库当其本人实现。",
+    "stack": ["Java", "SSM", "JUC", "JVM", "MySQL", "Redis", "Kafka/RocketMQ", "Zookeeper", "Dubbo", "分布式"],
+    "project_interview_topics": [
+      "Redis分段锁为何采用、替代方案和差异",
+      "锁超时释放、极端场景和看门狗机制",
+      "Kafka异步解耦与库存扣减，MQ消费失败后的XXL-JOB补偿",
+      "项目不足和可优化之处，以及耗时/QPS等指标如何表达"
+    ],
+    "topic_boundary": "这些是作者项目复盘的追问主题与简历写法示例，不是逐公司逐轮逐字面经，不证明作者全部生产落地过。",
+    "recommended_use": "补充近期Java实习→秋招路线与项目追问准备；和GitHub源码案例互相对照，不因SSP自述认定课程项目足以获得相同结果。",
+    "limitations": ["没有本人代码仓库或完整CV", "课程/知识星球推荐存在商业信息偏差，未独立证明收益", "作者关于简历筛选和算法数量的意见仅是个人经验，不作为公司统一规则"]
+  },
+  "unresolved_or_excluded": [
+    {
+      "repo": "Azurer0121/Obsidan",
+      "source_url": "https://github.com/Azurer0121/Obsidan/blob/main/%E6%B1%82%E8%81%8C/24%E5%B1%8Asp%E3%80%81ssp%E5%A4%A7%E5%8E%82%E4%B8%8A%E5%B2%B8%E5%BF%83%E5%BE%97.md",
+      "search_status": "Yahoo仍索引标题《24届sp、ssp大厂上岸心得》",
+      "read_status": "本轮repository API和精确raw路径均404，正文未取得。",
+      "decision": "待追源，不确认为成功者；不能据404断定作者或经历不存在，可能删除、改名或转私有，原因未知。"
+    },
+    {
+      "repo": "Mapshiny/CampusRecruit",
+      "source_url": "https://github.com/Mapshiny/CampusRecruit",
+      "read_status": "main/master下README可读，介绍无实习背景、C/C++ offer和求职困难。",
+      "decision": "已读README未见本人SSP声明，不纳入SSP案例；不据此否认其全部经历。"
+    },
+    {
+      "repo": "tmnhs/go-interview-resume",
+      "source_url": "https://github.com/tmnhs/go-interview-resume",
+      "read_status": "README可读，直接介绍本人Crony分布式定时任务平台。",
+      "decision": "在所读README未见本人SSP自述，保留为项目关系线索，暂不算SSP成功者。"
+    },
+    {
+      "repo": "DreamCats/java-notes",
+      "source_url": "https://github.com/DreamCats/java-notes",
+      "read_status": "README可读，含本人school-bus项目直链和面经目录。",
+      "decision": "在所读README未见本人SSP自述，可继续追历史秋招文章，暂不算SSP成功者。"
+    }
+  ],
+  "coverage": {
+    "repository_searches": "见github_ssp_round2_repository_search.json；含48结果查询与一个错误约束language:Markdown的零结果查询，后者不能作没有案例的证据。",
+    "readme_scan": "见github_ssp_round2_readme_scan.json；只扫描选定README，不等于扫过仓库全部文件或GitHub全站。",
+    "web_searches": "见github_ssp_round2_web_search.json和github_ssp_round2_recent_search.json；搜索摘要只用于发现。",
+    "access_limits": "Yahoo随查询可能500，User-Agent Mozilla/5.0后部分查询可用；搜狗/百度/部分其他引擎有验证码；Bing中文限定多次返回无关结果。不将失败查询视为负面证据。"
+  }
+}

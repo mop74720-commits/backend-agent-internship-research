@@ -1,0 +1,123 @@
+OP18 | 程序员鱼皮的保姆级写简历指南第三弹 简历常见问题和建议汇总
+
+需求核对版 · 2026-10-24
+
+类别：
+  B站与知乎
+原始来源：
+  https://www.bilibili.com/opus/950153255348862982
+平台：
+  程序员鱼皮；B站原创专栏
+作者：
+  程序员鱼皮
+事件时间／原文日期（依分类）：
+  2024-07-04；正文明确日期
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    不适用
+  事件时间：
+    技术文档/教学观点，非招聘事件
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  来源日期：
+    2026-10-24
+  时间依据：
+    不把文档读取日期当招聘事件
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    B站正文第7节项目经历及相邻职责/实测段选读；没有观看视频
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+具体观点与适用边界：
+  直接支持两项目各有侧重；补个人工作、业务约束与前后实测的说明方法。
+作者身份依据：
+  本人GitHub主页自述前腾讯全栈开发/新人导师；属于自述，未另行认证。 作者经营编程导航、项目课程及求职工具，存在销售相关服务的利益。
+商业与选择偏差：
+  作者经营编程导航、项目课程与求职工具；前腾讯经历是本人公开自述。
+局限：
+  - “改名换皮”不能证明独立工程贡献；“参与”换成“负责/主导”必须符合真实职责；同作者跨平台不算独立印证。
+阅读建议：
+  高度匹配用户“两项目各有侧重”的想法。
+platform_native_fulltext_verified：
+  否
+verified_video_viewing：
+  否
+source_record：
+  source_id：
+    V02
+  type：
+    opinion
+  source_category：
+    04_B站知乎与从业者观点
+  标题：
+    程序员鱼皮的保姆级写简历指南第三弹 简历常见问题和建议汇总
+  source_url：
+    https://www.bilibili.com/opus/950153255348862982
+  source_card：
+    04_B站知乎与从业者观点/V02.html
+  existing_id：
+    未核／无
+  decision：
+    new
+  new_primary_project：
+    否
+  source_folder_modified：
+    否
+  reading_scope：
+    B站正文第7节项目经历及相邻职责/实测段选读；没有观看视频
+  状态：
+    B站正文200；同一鱼皮作者，不能当新独立专家
+  import_target：
+    platform_opinion
+  read_evidence：
+    - read_url：
+        https://www.bilibili.com/opus/950153255348862982
+      http_status：
+        200
+      body_text_chars：
+        8530
+      已读部分：
+        第7节7.1—7.12及职责相关段
+      short_original_basis：
+        7.3“最好能够让各个项目形成互补”；7.11“而不是脱离实际的测试去盲目做优化”。
+      checked_on：
+        2026-10-24
+      text_sha256：
+        b866ea247fe1ebe311725857f5f4c97b9865e4772de518a7de86a8a68f5f3660
+  作者：
+    程序员鱼皮
+  commercial_context：
+    作者经营编程导航、项目课程与求职工具；前腾讯经历是本人公开自述。
+  unique_value：
+    直接支持两项目各有侧重；补个人工作、业务约束与前后实测的说明方法。
+  facts_boundary：
+    “改名换皮”不能证明独立工程贡献；“参与”换成“负责/主导”必须符合真实职责；同作者跨平台不算独立印证。
+  platform_fulltext_count_increment：
+    0
+source_nature_boundary：
+  教学/官方能力或卖方介绍；不当本人SSP项目，不计新增源码附件或25项目实现审查分母。
+source_key：
+  ASTRA_V02_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    V02
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_候选人与观点项目.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

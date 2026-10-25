@@ -1,0 +1,16 @@
+DOC09 | Redis Distributed Locks
+==================================================
+原始链接：
+https://redis.io/docs/latest/develop/clients/patterns/distributed-locks/
+
+日期：
+访问于2026-10-23
+
+摘要与评价：
+锁具有有效期与失效条件；不能把拥有Redis锁直接当作业务效果只发生一次的证明。
+
+资料类别：
+官方技术资料
+
+检索日期：
+2026-10-23

@@ -1,0 +1,16 @@
+DOC02 | Demystifying evals for AI agents
+==================================================
+原始链接：
+https://www.anthropic.com/research/demystifying-evals-for-ai-agents
+
+日期：
+2026-01-09
+
+摘要与评价：
+Agent评测需要任务、重复试验、评分规则和实际执行轨迹；最终效果与模型声称完成应分别核验。
+
+资料类别：
+官方技术资料
+
+检索日期：
+2026-10-23

@@ -1,0 +1,224 @@
+CV12 | muluoleiguo：2021秋招SSP自述与Muluo系统库项目材料
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1
+作者：
+  muluoleiguo
+事件时间／原文日期（依分类）：
+  2021秋招
+方向与岗位：
+  Linux C++服务器/游戏研发；历史校招
+结果自述：
+  百度、阿里、字节、网易等offer中有SP及SSP，未指明哪家；最终选网易互娱不等于网易SSP
+录用证据边界：
+  作者本人仓库第一人称自述；未标哪家公司给 SSP，不能把全部公司或最终网易 offer 认定为 SSP。
+evidence_excerpt：
+  2021年秋招……大厂收获了百度、阿里巴巴、字节跳动、网易等offer，有白菜也有sp和ssp……我最后选择了网易互娱广州游戏研发
+资料形式：
+  本人结果自述＋项目材料与面经汇总，非完整简历
+技术栈：
+  - C++11
+  - Linux网络IO
+  - 日志
+  - JSON
+  - 线程池
+  - RPC
+  - 协程
+本人项目与经历描述：
+  - Muluo：同仓展示的日志/JSON/网络/RPC/协程材料，未找到独立完整可构建源码
+project_urls：
+  - https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/README.md#L1
+来源归纳：
+  可读项目模块说明、连接生命周期片段和日志性能讨论；同仓网易面经含外部链接，不能全算仓主亲历。
+整理者分析：
+  学习其模块分解与深挖路径，选少量自己能证明的能力；不照搬模块数量、吞吐数字或自称原创。
+值得学习之处：
+  - 把网络 IO、线程池、调度、定时器、日志与协议解析贯穿起来，适合观察系统基础如何在项目中体现。
+  - 除 API 清单外，还展示连接生命周期等类设计片段与性能讨论，可作为追问提纲。
+局限与静态风险：
+  - 仓库资料混有他人源码分析和题库；不能把所有模块都认定为独立原创成果。
+  - 项目完整源码、可重复构建入口和测试脚本未定位，无法确认模块实际集成程度。
+  - 性能数字属于作者记录，缺充分可复现实验上下文，不能作为当前性能承诺。
+  - 不能确定哪家 offer 为 SSP。
+  - 不能把已选择网易互娱等同于网易 SSP 证明。
+  - 没有完整公开简历；不能反推 GPA、实习、学校等未明确背景。
+  - 没有源码复现，也没有证明项目导致 SSP 的因果关系。
+建议用途：
+  作为项目拆分与追问导航；不将文档清单当已实现全量能力。本仓只给链接与短摘录，不整库归档。
+静态阅读发现：
+  - path：
+      面试/项目/网络库/代码详解/connection.md
+    原始来源：
+      https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E7%BD%91%E7%BB%9C%E5%BA%93/%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3/connection.md#L1
+    line_start：
+      1
+    line_end：
+      34
+    内容归纳：
+      Connection 类片段：连接状态回调、输入输出缓冲区及连接生命周期。
+  - path：
+      面试/项目/日志库/你做过性能测试吗(Webbench).md
+    原始来源：
+      https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E6%97%A5%E5%BF%97%E5%BA%93/%E4%BD%A0%E5%81%9A%E8%BF%87%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%90%97%28Webbench%29.md#L64
+    line_start：
+      64
+    line_end：
+      84
+    内容归纳：
+      MuLog 单线程/多线程写日志的作者记录表格，未运行复现。
+  - path：
+      面试/项目/日志库/你做过性能测试吗(Webbench).md
+    原始来源：
+      https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E6%97%A5%E5%BF%97%E5%BA%93/%E4%BD%A0%E5%81%9A%E8%BF%87%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%90%97%28Webbench%29.md#L93
+    line_start：
+      93
+    line_end：
+      109
+    内容归纳：
+      作者记录 echo Server 加日志后的 QPS 影响；需独立核测试脚本、硬件和统计口径。
+interview_sources：
+  - path：
+      面试/面试记录/网易/网易互娱/2021年面经/项目.md
+    原始来源：
+      https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95/%E7%BD%91%E6%98%93/%E7%BD%91%E6%98%93%E4%BA%92%E5%A8%B1/2021%E5%B9%B4%E9%9D%A2%E7%BB%8F/%E9%A1%B9%E7%9B%AE.md#L1
+    line_start：
+      1
+    line_end：
+      17
+    内容归纳：
+      含项目测试、难点、高并发、分布式锁、Linux 监控等提问。
+    first_person_status：
+      未证实作者亲历：文本有“我说了两个难点”，同时含 nowcoder jump 链接、未标原始作者；整仓自称汇总资料。只能按该仓收集的面经条目计。
+    can_count_as_author_personal_interview：
+      否
+license_notes：
+  未见根总许可证，子目录许可证不授权整个资料仓库；未归档。
+原访问范围：
+  固定commit README、项目材料与所选题目已读
+证据边界：
+  B：本人SSP自述；项目实现完整度与面经作者关系未闭环
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    校招
+  事件时间：
+    2021秋招
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    原文直接写2021秋招
+  来源日期：
+    未核／无
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    固定commit README、项目材料与所选题目已读
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      公司未逐家对应（百度/阿里/字节/网易）
+    档位：
+      未逐公司对应：SP/SSP/普通
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1
+    依据：
+      作者本人仓库第一人称自述；未标哪家公司给 SSP，不能把全部公司或最终网易 offer 认定为 SSP。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      网易互娱（最终选择）
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1
+    依据：
+      作者本人仓库第一人称自述；未标哪家公司给 SSP，不能把全部公司或最终网易 offer 认定为 SSP。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  未核／无
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1
+      direct_basis：
+        作者本人仓库第一人称自述；未标哪家公司给 SSP，不能把全部公司或最终网易 offer 认定为 SSP。
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1
+      direct_basis：
+        本人结果自述＋项目材料与面经汇总，非完整简历
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/README.md#L1
+      direct_basis：
+        本人资料明确列出项目：Muluo：同仓展示的日志/JSON/网络/RPC/协程材料，未找到独立完整可构建源码
+      直接关系：
+        直接点名
+      gap：
+        公开代码存在不等于当时版本或已独立验证贡献
+      project_id：
+        未核／无
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        收集文件包含第一人称及牛客跳转，未证为仓主亲历，不能补成本人面经。
+      直接关系：
+        未建立
+      gap：
+        收集文件包含第一人称及牛客跳转，未证为仓主亲历，不能补成本人面经。
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 公开代码存在不等于当时版本或已独立验证贡献
+  - 收集文件包含第一人称及牛客跳转，未证为仓主亲历，不能补成本人面经。
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  否
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

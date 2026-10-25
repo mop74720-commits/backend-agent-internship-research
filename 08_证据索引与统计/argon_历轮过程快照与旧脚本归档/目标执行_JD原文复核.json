@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "scope": "重新打开原始招聘正文；不核实时HC，不把职责等同入职要求",
+  "records": [
+    {
+      "id": "JD11",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9",
+      "access": "官网正文实际读取；招聘页显示2026-07-21日常实习",
+      "reading_scope": "工作职责与职责要求，包括单列加分项",
+      "required_summary": "Java与JVM、并发、集合，Spring/Boot、REST服务，MySQL与Redis列为要求。",
+      "preferred_summary": "MQ了解者优先；Agent/RAG/MCP实践、流式调用和Token计费、网关权限、高并发与开源经验列为加分。",
+      "boundary": "这些优先项不能变成每个Agent实习岗位的统一硬门槛。"
+    },
+    {
+      "id": "JD08",
+      "url": "https://www.nowcoder.com/jobs/detail/432128?urlSource=sitemap",
+      "access": "企业招聘原页面正文实际读取；未显示可确认发布时间",
+      "reading_scope": "岗位职责与五项岗位要求",
+      "required_summary": "面向2027届，要求算法、数据结构及一门熟练语言。",
+      "preferred_summary": "Agent开发、框架、Skills经验写为优先。",
+      "duties_summary": "记忆、知识、鉴权、观测、多Agent属于团队工作范围。",
+      "boundary": "不能把工作范围中的全部模块说成申请者必须已掌握；不按届别补发布时间。"
+    },
+    {
+      "id": "JD14",
+      "url": "https://www.shixiseng.com/intern/inn_py1hkw0wds9o?pcm=pc_SearchList",
+      "access": "企业招聘原页面正文实际读取；2026-09-22刷新",
+      "reading_scope": "完整职位描述、任职资格与投递要求",
+      "required_summary": "语言、算法与调试、LLM应用认知、系统设计和抽象；正文要求稳定实习六个月以上。",
+      "preferred_summary": "框架或中间件的设计落地经验被标为加分。",
+      "duties_summary": "规划、工具、调度、上下文、异常恢复，以及成功率和稳定性的持续评测。",
+      "boundary": "页头四个月与正文六个月冲突，保留冲突；不以正文职责推定本人已做过所有模块。"
+    }
+  ]
+}

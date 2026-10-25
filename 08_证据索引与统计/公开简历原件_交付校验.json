@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "checked_core_candidates": 34,
+    "original_pdfs": 9,
+    "original_docx": 1,
+    "article_original_images": 3,
+    "reference_images": 5,
+    "web_exports": 5,
+    "word_exports": 1
+  },
+  "asset_entries": 25,
+  "checked_local_links": 229,
+  "source_files_unchanged": 138,
+  "errors": []
+}

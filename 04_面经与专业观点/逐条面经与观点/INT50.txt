@@ -1,0 +1,241 @@
+INT50 | 字节、蚂蚁、腾讯Agent实习面经（凉经） 看一看有什么问题呢
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/discuss/904029765160497152
+公司：
+  字节跳动/蚂蚁集团/腾讯
+事件时间／原文日期（依分类）：
+  三家公司流程；各轮年月日未确认
+方向与岗位：
+  Agent后端/智能体应用实习；腾讯实际调剂为云架构平台
+round：
+  字节一面、腾讯一二面、蚂蚁一面，同一作者汇总
+role_boundary：
+  标题为实习汇总；腾讯已被调剂为非Agent云平台，蚂蚁技术安全轮偏微调算法，三个岗位必须分开
+结果自述：
+  作者自述三公司流程均未通过
+涉及主题：
+  - 项目深挖/个人贡献
+  - 模型训练基础
+  - RAG/检索
+  - 算法/编程
+  - 编程语言/并发
+  - 系统设计/取舍
+原文提问（归纳）：
+  - 字节把进程线程、Transformer与训练泛化问题连到具体项目。
+  - 腾讯云平台以多轮现场编码和变更约束为主，而不是Agent题。
+  - 蚂蚁追问微调/RAG选择、LoRA、显存和batch size依据。
+内容归纳：
+  这是反例价值很高的样本：同样投AI应用，调剂与团队定位会让实际考察方向明显不同。
+建议用途：
+  优先用于投递岗位边界核对与失败样本对照，避免统一套用Agent题单。
+局限：
+  - 自评答得好不能证明实际作答正确；评论的HC猜测不作事实。
+  - 没有答题实录、代码和录用依据，不推导失败概率。
+source_project_description：
+  有既往项目讨论但未明确名称或仓库。
+统计组：
+  明确实习面经
+原访问范围：
+  原文正文全文已读（网页工具）
+outcome_status：
+  failure_self_report
+author_group：
+  nowcoder_电子神技青年
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）；本卡为原创提炼
+证据边界：
+  B：原文已读，经历、作答与结果未经企业侧独立验证
+source_project_links：
+  —
+ssp_status：
+  原文未明确SSP，不计SSP成功样本
+reading_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+商业与选择偏差：
+  已读正文未见直接售课；不代表作者身份与动机已获验证
+independence_note：
+  一篇原文，同一候选人多场，不拆成独立候选人样本
+fulltext_verified：
+  是
+read_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+verification_notes：
+  已实际读取原文文字正文；搜索摘要和聚合索引仅用作发现。全文指该篇公开正文，不代表完整面试录音、答案、项目代码或企业验证。
+类别：
+  面经复盘
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    三家公司流程；各轮年月日未确认
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    07-07
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    原文正文全文已读（网页工具）
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      字节跳动/蚂蚁集团/腾讯
+    档位：
+      未披露
+    状态：
+      failure_self_report
+    证据：
+      https://www.nowcoder.com/discuss/904029765160497152
+    依据：
+      作者自述三公司流程均未通过
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  07-07
+面经形式：
+  同候选人多场汇总（不拆成独立候选人）
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  failure_self_report
+related_record_ids：
+  —
+external_research_reviews：
+  I24：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        I24
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_面经核对.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        I24
+      existing_id：
+        INT50
+      decision：
+        existing
+      标题：
+        字节 蚂蚁 腾讯Agent实习面经 凉经
+      原始来源：
+        https://ac.nowcoder.com/discuss/1654721?channel=-1&source_id=discuss_tags_discuss_hot_nctrack&type=0
+      resolved_url：
+        https://ac.nowcoder.com/discuss/1654721?channel=-1&source_id=discuss_tags_discuss_hot_nctrack&type=0
+      canonical_post_key：
+        discuss/1654721
+      access_status：
+        HTTP 200，原始作者主文全文可读
+      已读部分：
+        全文
+      fulltext_verified：
+        是
+      body_selector：
+        .nc-post-content
+      retrieved_at：
+        2026-10-24
+      reading_note：
+        只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+      body_text_sha256：
+        8f933997d5ded3b5db4c1367027c8a1b3057444f1c6f265ba26a8a4ce78bd950
+      body_char_count：
+        905
+      source_card_path：
+        03_面经/I24.html
+      source_card_role：
+        提供检索线索和原URL，不能代替本次原文实读
+      发表／来源日期：
+        发布于  07-07 15:31
+      source_date_verified：
+        是
+      方向：
+        混合
+      招聘类型：
+        实习
+      event_date：
+        三家公司流程，各轮年月日未知
+      event_year_confirmed：
+        否
+      event_year：
+        未核／无
+      时间依据：
+        正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+      questions：
+        - 字节Agent后端问进程线程、Transformer和过拟合欠拟合怎样说明？
+        - 蚂蚁智能体应用为何微调，如何与RAG作取舍？
+        - LoRA、训练显存、语料与batch size怎样解释？
+        - 腾讯调剂云架构后端后如何完成编程变式和场景数据结构设计？
+      涉及主题：
+        - 算法/编程
+        - 操作系统
+        - 项目深挖/个人贡献
+        - RAG/检索
+        - 模型训练资源
+      结果分类：
+        rejected_self_report
+      result：
+        本人自述三家公司均未通过；无SSP或offer
+      档位：
+        未披露
+      公司：
+        字节跳动/蚂蚁/腾讯
+      ai_organized：
+        否
+      ai_marker_basis：
+        作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+      short_quote：
+        首先声明我投的是AI应用开发，给我调剂到了云架构后端开发。
+      阅读建议：
+        投递需核对团队实际方向；Agent标签下的应用、模型和传统后端可能差异很大。
+      局限：
+        - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+        - 三个流程合并一篇；腾讯已调剂云架构，不能将其题目当Agent应用统一门槛。
+      same_author_relations：
+        —
+      商业背景：
+        正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+      duplicate_basis：
+        原旧INT50长ID 904029765160497152实际GET重定向到/discuss/1654721；同作者/profile/818176286且正文相同。
+      author_profile：
+        https://www.nowcoder.com/profile/818176286
+      merge_policy：
+        同一逻辑来源不新增计数；只补本次核验路径、短引文、问题和必要纠错，既有未知年不回填。
+      capability_ids：
+        - CAP01
+        - CAP06
+        - CAP08
+      reading_boundary：
+        本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+      original_outcome_quote：
+        未核／无
+same_author_relations：
+  —

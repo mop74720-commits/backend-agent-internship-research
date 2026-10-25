@@ -1,0 +1,245 @@
+CV02 | JavaWxy：作者学习路线、求职项目与面试自我介绍
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/viego1999/JavaWxy
+supporting_urls：
+  - https://github.com/viego1999/JavaWxy/blob/master/Introduction.md
+事件时间／原文日期（依分类）：
+  实习与秋招具体发生年份未确认
+方向与岗位：
+  Java后端实习与校招
+结果自述：
+  本人自述腾讯SSP，另有拼多多/快手/阿里等offer；暑期选择拼多多
+录用证据边界：
+  作者GitHub README自述，与作者自我介绍和公开仓库互相对应；没有企业证明
+资料形式：
+  成功者公开履历与自我介绍材料（非完整简历）
+专业背景：
+  双非本科、985硕士；拼多多暑期约两个半月
+技术栈：
+  - Java
+  - Spring Boot/Cloud
+  - MyBatis
+  - MySQL
+  - Redis
+  - RabbitMQ
+  - Netty
+  - ZooKeeper
+  - Elasticsearch
+本人项目与经历描述：
+  - 自定义RPC框架
+  - 在线教育平台的内容与订单模块
+  - 点评练习项目的秒杀思路迁移
+project_urls：
+  - https://github.com/viego1999/wxy-rpc
+  - https://github.com/viego1999/xuecheng-plus-project
+  - https://github.com/viego1999/xy-dianping
+来源归纳：
+  本人明确采用基础组件项目与业务项目组合，公开自我介绍写清负责模块，仓库可追溯。在线教育项目与课程相关，并非全新业务原创。
+整理者分析：
+  可借鉴两项目分工，进一步补充真实需求、故障复现与实验记录。RPC项目有价值的条件是能解释协议、超时、连接管理和替代方案。
+值得学习之处：
+  - 候选人—项目仓库链条清楚
+  - 个人模块职责具体
+  - 可同时观察业务与基础机制
+局限与静态风险：
+  - 历史求职结果不能代表2026门槛
+  - 课程项目重复度较高
+  - 单个吞吐量数字缺少可比实验上下文
+商业与选择偏差：
+  作者推荐公开课程；未据此推定课程有效或付费关系
+原访问范围：
+  GitHub正文及自我介绍全文
+证据边界：
+  项目存在性较高；成功结果为本人自述
+license_notes：
+  JavaWxy与wxy-rpc根目录未见LICENSE；xuecheng-plus-project显示Unlicense，但保留教程来源说明；xy-dianping本轮未核查许可
+original_file_status：
+  无完整简历原件；提供分析卡与原文
+阅读建议：
+  优先阅读；用于学习项目组合与深挖准备，不能直接把课程项目包装成个人生产经历
+supplement_update：
+  本轮已补齐学成在线固定源码（PRO08）；RPC和点评仍仅有链接。
+github_ssp_update：
+  source：
+    quote：
+      秋招面了5家拿了 **腾讯**ssp
+    source_path：
+      README.md
+    line_start：
+      5
+    line_end：
+      5
+    permalink：
+      https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L5
+    claim_scope：
+      腾讯校招SSP；同段其他公司分别为SP或未分级，实习offer未称SSP
+    independently_verified：
+      否
+  interview_source：
+    https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md
+  interview_id：
+    INT56
+  attribution_boundary：
+    L52起0317美团一面明确标注（同学），不能算作者本人面经；全文件不得整体标为纯本人样本。
+  ssp_interview_boundary：
+    已读面试记录.md没有腾讯专门轮次；能证明SSP自述、同作者项目和其他公司的面经关联，不能声称拿到了腾讯SSP完整面经。
+类别：
+  候选人资料
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    实习与秋招具体发生年份未确认
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    24暑期/24秋招可能为届别；不能用2024仓库提交或知乎搜索结果补写事件年
+  来源日期：
+    知乎搜索结果2024-04-10；GitHub首发未明
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    GitHub正文及自我介绍全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      腾讯
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/viego1999/JavaWxy
+    依据：
+      作者GitHub README自述，与作者自我介绍和公开仓库互相对应；没有企业证明
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      拼多多（暑期）
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/viego1999/JavaWxy
+    依据：
+      作者GitHub README自述，与作者自我介绍和公开仓库互相对应；没有企业证明
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      快手/阿里等（不据本简表逐家补档）
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/viego1999/JavaWxy
+    依据：
+      作者GitHub README自述，与作者自我介绍和公开仓库互相对应；没有企业证明
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  知乎搜索结果2024-04-10；GitHub首发未明
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/viego1999/JavaWxy
+      direct_basis：
+        作者GitHub README自述，与作者自我介绍和公开仓库互相对应；没有企业证明
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/viego1999/JavaWxy/blob/master/Introduction.md
+      direct_basis：
+        成功者公开履历与自我介绍材料（非完整简历）
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://github.com/viego1999/wxy-rpc
+      direct_basis：
+        本人资料明确列出项目：自定义RPC框架；在线教育平台的内容与订单模块；点评练习项目的秒杀思路迁移
+      直接关系：
+        直接点名
+      gap：
+        课程复现，需区分本人模块与上游框架；公开代码存在不等于当时版本或已独立验证贡献
+      project_id：
+        未核／无
+    - 原始来源：
+        https://github.com/viego1999/xuecheng-plus-project
+      direct_basis：
+        本人资料明确列出项目：自定义RPC框架；在线教育平台的内容与订单模块；点评练习项目的秒杀思路迁移
+      直接关系：
+        直接点名
+      gap：
+        课程复现，需区分本人模块与上游框架；公开代码存在不等于当时版本或已独立验证贡献
+      project_id：
+        PRO08
+    - 原始来源：
+        https://github.com/viego1999/xy-dianping
+      direct_basis：
+        本人资料明确列出项目：自定义RPC框架；在线教育平台的内容与订单模块；点评练习项目的秒杀思路迁移
+      直接关系：
+        直接点名
+      gap：
+        课程复现，需区分本人模块与上游框架；公开代码存在不等于当时版本或已独立验证贡献
+      project_id：
+        未核／无
+  interview：
+    - 原始来源：
+        https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md
+      direct_basis：
+        JavaWxy本人面试记录：携程、菜鸟、美团项目追问对照
+      直接关系：
+        直接点名
+      gap：
+        排除0317美团明确标同学段；无腾讯专门轮次，不能称腾讯SSP完整面经
+      interview_id：
+        INT56
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 课程复现，需区分本人模块与上游框架；公开代码存在不等于当时版本或已独立验证贡献
+  - 排除0317美团明确标同学段；无腾讯专门轮次，不能称腾讯SSP完整面经
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

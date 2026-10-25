@@ -1,0 +1,77 @@
+JD03 | 暑期实习-Java研发工程师（供应链&IDC-天基）
+
+需求核对版 · 2026-10-24
+
+公司：
+  阿里云
+role_type：
+  后端实习
+原始来源：
+  https://mnowpick.nowcoder.com/m/detail/index?jobId=379097
+publish_date：
+  投递期2025-03-01至2025-04-30
+retrieved_date：
+  2026-10-23
+source_type：
+  企业在牛客发布的JD
+evidence_excerpt：
+  有熟练的编程能力
+own_summary：
+  围绕云数据中心运维与管理平台；学历与数理、编程、算法基础明确，未列出Spring或中间件清单。
+required_stack：
+  - 熟练编程
+  - 数据结构与算法
+  - 数理基础
+preferred_stack：
+  —
+degree_constraint：
+  硕士及以上在读；2025-09至2026-06毕业优先
+availability_constraint：
+  未展示
+recruiting_status：
+  历史招聘期已结束
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 数据结构算法
+duties：
+  数据中心监控、能耗、智能运维
+局限：
+  Java来自岗位标题；不得推断该JD明确要求Spring、Redis。
+类别：
+  招聘JD
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    投递期2025-03-01至2025-04-30
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    招聘页面直接显示发布/刷新日期或投递期；不是实际面试日期，也不证明当前HC
+  来源日期：
+    投递期2025-03-01至2025-04-30
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

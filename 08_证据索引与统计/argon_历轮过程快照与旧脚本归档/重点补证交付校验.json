@@ -1,0 +1,268 @@
+{
+  "passed": true,
+  "scope": "重点补证来源边界与交付一致性，不证明整体目标完成",
+  "checks": [
+    {
+      "name": "全部JSON可解析",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "8条增量与176条旧快照吻合",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "三份分类主表均与总表相同",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "30候选人76面经23项目与统计一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "30候选人均呈现四段关系",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "69全文7部分严格近期9实习事件年未知38",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "INT11发表年不冒充面试年",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CV07两项后端offer只确认2025而非AgentSSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两篇本人面经与offer批次年份结果分开",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两位新候选人保持独立缺口",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "23项目345维均有来源及阅读范围",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "课程项目边界与Agent反例风险明确",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "平台5正文与视频0分列且未重复作者",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "专家JD观点未计成功者面经且已移出正文待核",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "16原ZIP4派生3仅链接总量分开",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新2ZIP实物CRC哈希许可及12条核读文件",
+      "passed": true,
+      "detail": [
+        {
+          "file": "05_项目源码归档/大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip",
+          "passed": true,
+          "read_files": [
+            {
+              "path": "README.md",
+              "passed": true
+            },
+            {
+              "path": "raft/raft.go",
+              "passed": true
+            },
+            {
+              "path": "kv/server/server.go",
+              "passed": true
+            },
+            {
+              "path": "LICENSE",
+              "passed": true
+            }
+          ]
+        },
+        {
+          "file": "05_项目源码归档/大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip",
+          "passed": true,
+          "read_files": [
+            {
+              "path": "README.md",
+              "passed": true
+            },
+            {
+              "path": "src/agents/base_agent.py",
+              "passed": true
+            },
+            {
+              "path": "src/utils/code_executor_async.py",
+              "passed": true
+            },
+            {
+              "path": "src_rag/core/report_pipeline.py",
+              "passed": true
+            },
+            {
+              "path": "src_rag/core/llm_client.py",
+              "passed": true
+            },
+            {
+              "path": "demo/backend/app.py",
+              "passed": true
+            },
+            {
+              "path": "docs/migration_notes.md",
+              "passed": true
+            },
+            {
+              "path": "LICENSE",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "新完整脱敏PDF实物hash全部专业模块及隐私",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4核心完整脱敏履历与3研究对照分列",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV 03_简历与候选人案例/候选人证据链对照.csv",
+      "passed": true,
+      "detail": 30
+    },
+    {
+      "name": "CSV 04_面经与专业观点/面经统一分类.csv",
+      "passed": true,
+      "detail": 76
+    },
+    {
+      "name": "CSV 06_项目分析与推荐/项目统一比较.csv",
+      "passed": true,
+      "detail": 345
+    },
+    {
+      "name": "CSV 08_证据索引与统计/全部资料统一分类.csv",
+      "passed": true,
+      "detail": 184
+    },
+    {
+      "name": "CSV 08_证据索引与统计/能力要求四类证据对照.csv",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "CSV 03_简历与候选人案例/履历文件索引.csv",
+      "passed": true,
+      "detail": 7
+    },
+    {
+      "name": "全部报告本地文件链接及锚点",
+      "passed": true,
+      "detail": {
+        "count": 3131,
+        "broken": []
+      }
+    },
+    {
+      "name": "PDF无空白孤立页且覆盖全部本轮ID",
+      "passed": true,
+      "detail": {
+        "pages": 24,
+        "characters": [
+          1788,
+          504,
+          1944,
+          1721,
+          1523,
+          2191,
+          2964,
+          1193,
+          1249,
+          2206,
+          3576,
+          1865,
+          2372,
+          1764,
+          1606,
+          2289,
+          2630,
+          1552,
+          1555,
+          2143,
+          3163,
+          2641,
+          2206,
+          2503
+        ]
+      }
+    },
+    {
+      "name": "PDF文本无横向裁切",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "当前真实浏览器与移动端交互通过",
+      "passed": true,
+      "detail": 40
+    },
+    {
+      "name": "维持未完成目标及缺口",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "local_links": 3131,
+  "pdf_pages": 24,
+  "goal_status": "active",
+  "visual_review": {
+    "reviewer": "根代理",
+    "date": "2026-10-23",
+    "report_pdf_pages": [
+      1,
+      13,
+      24
+    ],
+    "report_layout": "终版首中末页目视通过：表格完整、无覆盖、无孤立页或裁切",
+    "new_resume_pdf_pages": [
+      1
+    ],
+    "resume_layout": "教育、全部经历、项目与技能完整可读，联系头移除",
+    "scope": "报告抽样3页；全部24页文字边界与空白另做机器检查；履历全1页目视"
+  },
+  "pdf_sha256": "2bc24f39ba6908e78b0beabf0b289e3409cd41d4b3a77324bbc447feaa70c3f4",
+  "followup_access_validation": {
+    "manual_links": 67,
+    "new_original_urls_present": true,
+    "video_read_count_unchanged": true,
+    "new_qualifying_records": 0
+  }
+}

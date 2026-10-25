@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "scope": "针对现有事件年未知的实习面经，选取INT68和INT71做原文及同作者关联文章补核；不新增逻辑资料，不修改主表。",
+  "method": "HTTP状态来自正常公开GET；正文用.post-content-box（否则.nc-post-content）提取并以get_text换行、strip=True规范化；长度为Unicode字符数，SHA256为该规范化正文UTF-8字节。只保存专业归纳和必要短摘录，不保存全文、联系方式或SSR。",
+  "search_paths": [
+    "原面经与已有同作者导航主文直接核对，比较公开作者路径、岗位和场次绑定。",
+    "原面经ID及作者站点关键词定向检索，发现同作者投递总表后正常GET核读；不以搜索摘要、编辑日期、毕业届别或仓库时间补年份。"
+  ],
+  "records": [
+    {
+      "id": "INT68",
+      "title": "华为AI应用实习：专业面、主管面与offer时间线",
+      "primary": {
+        "canonical_url": "https://www.nowcoder.com/discuss/884479038142586880",
+        "read_url": "https://ac.nowcoder.com/discuss/884479038142586880",
+        "http_status": 200,
+        "body_characters": 1068,
+        "body_sha256": "7468057d8c24de13fd9964222021322ae706626d7463a371834cbb8cf65d7243",
+        "reading_scope": "公开文字正文核读，重点复核最终流程梳理；未读评论及图片。",
+        "public_author_path": "/profile/407412033"
+      },
+      "supporting": {
+        "title": "27届实习投递总结贴：AI/算法/数据方向，简历挂和一面挂都记录一下",
+        "canonical_url": "https://www.nowcoder.com/discuss/883814345203798016",
+        "read_url": "https://ac.nowcoder.com/discuss/883814345203798016",
+        "http_status": 200,
+        "body_characters": 4280,
+        "body_sha256": "9aee555758a0afbd91512432ce60344d217204b0028ed101c1abd8fe4ea5c3a0",
+        "reading_scope": "全文已取得；实际核读投递总表华为行、对应华为叙述及上下文日期范围，不称逐条审定其余公司流程。",
+        "public_author_path": "/profile/407412033",
+        "necessary_short_excerpt": "2026-04-01",
+        "same_row_paraphrase": "华为AI应用工程师／AI技术应用这一行，日期为2026-04-01，后续状态列出5.14面试通过、5.15确认杭州、5.25收到offer。"
+      },
+      "direct_relationship": {
+        "same_public_author_path": true,
+        "basis": "两个原始文章DOM中的作者链接均为/profile/407412033，不依赖昵称、学校或头像匹配。",
+        "same_role": "投递总表明确华为AI应用工程师／AI技术应用，与既有面经所记岗位对应。",
+        "matching_event_nodes": [
+          {"month_day": "05-14", "primary": "完成技术面与主管面", "supporting": "同一华为行记面试通过后等待"},
+          {"month_day": "05-15", "primary": "HR沟通工作地点杭州", "supporting": "同一行记接口HR确认杭州"},
+          {"month_day": "05-25", "primary": "收到HR电话后于当日收到offer邮件", "supporting": "同一行记收到offer"}
+        ],
+        "year_basis": "总表直接使用2026-04-01这一完整日期，并将5月三项事件列在同一华为招聘流程行；结合相同作者、岗位和三个日期/结果节点，对应为2026年流程。此为同作者正文关联补年，不使用来源编辑时间或届别。",
+        "not_claimed": "没有文章超链接逐场绑定；采用同作者、同岗位和三项匹配节点建立招聘流程对应，不由此补全个人项目、SSP或企业独立确认。"
+      },
+      "timeline_difference": {
+        "primary": "原面经记03-31注册华为招聘系统并由HR投递指定岗位。",
+        "supporting": "投递总表华为行日期为2026-04-01。",
+        "handling": "两处登记／投递日期存在一天差异，分别保留原口径；不统一改成其中一天，不用该差异改变5.14/5.15/5.25的匹配。"
+      },
+      "recommended_changes": {
+        "decision": "可用关联正文将INT68的招聘事件年补为2026；根代理集成时保留证据和日期口径差别。",
+        "date": "2026-05-14专业面及主管面，05-15沟通杭州，05-25收到offer自述；原面经另记03-31注册，关联总表华为行记2026-04-01投递。",
+        "taxonomy": {
+          "year_confirmed": true,
+          "recent_status": "近期确认",
+          "date_precision": "范围",
+          "date_basis": "同作者/profile/407412033的投递总表华为AI应用岗位行直接给出2026-04-01，并在同一行列5.14面试、5.15杭州、5.25offer；与原面经三个事件节点对应，非依据编辑日期或届别补年。"
+        },
+        "strict_recent_internship": true,
+        "supporting_url": "https://ac.nowcoder.com/discuss/883814345203798016",
+        "result_status": "offer_self_report",
+        "ssp": "未披露；不变更为SSP",
+        "source_date": "保持现有来源日期字段的独立口径，不把2026招聘事件日期写成初发日期。"
+      }
+    },
+    {
+      "id": "INT71",
+      "title": "字节-TikTok-后端一面",
+      "primary": {
+        "canonical_url": "https://www.nowcoder.com/discuss/876046266558398464",
+        "read_url": "https://ac.nowcoder.com/discuss/876046266558398464",
+        "http_status": 200,
+        "body_characters": 638,
+        "body_sha256": "64a4300de35bed114f4cbd8c896448bc2d4dc52e78bdf765619f50a48d67a9f7",
+        "reading_scope": "公开文字正文全部核读；没有明确面试年月日。",
+        "public_author_path": "/profile/590781977"
+      },
+      "supporting": {
+        "read_url": "https://ac.nowcoder.com/discuss/1610772",
+        "http_status": 200,
+        "body_characters": 1485,
+        "body_sha256": "7c1c1973f20c594a06f4950f3285c687da5e1e5380488f7ecbc58134af31ba0c",
+        "reading_scope": "公开文字正文核读，重点检查开篇2026立贴日期、TikTok暑期流程和面经超链接。",
+        "public_author_path": "/profile/590781977",
+        "necessary_short_excerpt": "2026.02.25",
+        "facts": "主帖同作者，记录2026暑期投递；TikTok流程有3.27一面等节点，但正文未包含指向INT71这篇面经的直接文章链接。"
+      },
+      "direct_relationship": {
+        "same_public_author_path": true,
+        "basis": "原面经和主帖DOM的作者路径均为/profile/590781977。",
+        "same_company_direction": "主帖确有TikTok后端暑期流程，但这不足以自动将单篇一面绑定到3.27这一场。",
+        "missing": "单篇未写绝对年月日，也没有主帖明示超链接或相同日期/题目等额外场次绑定。不能把主帖年份自动复制给此篇。"
+      },
+      "recommended_changes": {
+        "decision": "不变更事件年，保留关联文章供后续核对。",
+        "taxonomy": {"year_confirmed": false, "recent_status": "年份未知"},
+        "strict_recent_internship": false,
+        "date": "单篇未写；同作者2026暑期主帖有3月27日TikTok一面，但未直接绑定此篇具体场次。"
+      }
+    }
+  ],
+  "access_notes": [
+    "网页搜索工具直接打开这三条ac.nowcoder文章URL一度不可访问；正常公开GET成功，以上HTTP、正文长度及hash只指成功的GET。",
+    "www.nowcoder对应两个面经入口一度HTTP200但正文选择器为空；不据此称不存在或正文已删除。",
+    "没有读取或保存SSR个人字段、联系方式、评论或简历图片，没有修改主数据。"
+  ],
+  "expected_delta_if_int68_accepted": {
+    "new_logical_records": 0,
+    "new_candidate_cases": 0,
+    "new_interviews": 0,
+    "strict_recent_internships": "10→11，最终由根代理生成器重算",
+    "internship_event_year_unknown": "40→39，最终由根代理生成器重算"
+  }
+}

@@ -1,0 +1,198 @@
+JD20 | 字节跳动 后端工程师开发 实习
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  字节跳动
+role_type：
+  Java业务后端；北京；本科；2027届；5天/周；至少3个月；页标有转正
+原始来源：
+  https://www.nowcoder.com/jobs/detail/447232
+publish_date：
+  未显示发布日期；明确投递期2026-05-10—2026-08-10
+retrieved_date：
+  2026-10-24
+source_type：
+  牛客平台招聘页，发布者企业身份未独立核验
+own_summary：
+  该页“岗位职责”部分实际也列学历与Java基础资格；按原文性质记录，不据栏目标题改写为工作经历。
+required_stack：
+  - Java/集合/IO/反射/泛型/JVM/类加载
+  - 线程池/锁/CAS/AQS/ThreadLocal/ConcurrentHashMap
+  - Spring Boot/Cloud/MyBatis及微服务项目
+  - MySQL/索引/事务/锁/执行计划/慢SQL/分库分表
+  - Redis/缓存/分布式锁/限流
+  - 至少一种Kafka/RocketMQ/RabbitMQ，可靠性/幂等/重复消费
+  - RESTful/接口设计/代码规范
+preferred_stack：
+  - 高并发/高可用/分布式系统
+  - 跨境电商/支付/订单/库存/履约/营销经验
+degree_constraint：
+  本科及以上，计算机/软件等相关专业；2027届
+availability_constraint：
+  北京；5天/周；至少3个月；页标有转正
+recruiting_status：
+  页标已结束
+matrix_include：
+  是
+duties：
+  该页“岗位职责”部分实际也列学历与Java基础资格；按原文性质记录，不据栏目标题改写为工作经历。
+阅读建议：
+  用于检查基础后端项目是否覆盖并发、一致性和异步可靠性。
+局限：
+  原页岗位名称泛化；未与字节官网职位ID交叉核验。
+原访问范围：
+  正文全文
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    未显示发布日期；明确投递期2026-05-10—2026-08-10
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    未显示发布日期；明确投递期2026-05-10—2026-08-10
+  时间依据：
+    原文日期/窗口
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    职责、要求、资格及页表状态实际核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - Java/集合/IO/反射/泛型/JVM/类加载
+  - 线程池/锁/CAS/AQS/ThreadLocal/ConcurrentHashMap
+  - Spring Boot/Cloud/MyBatis及微服务项目
+  - MySQL/索引/事务/锁/执行计划/慢SQL/分库分表
+  - Redis/缓存/分布式锁/限流
+  - 至少一种Kafka/RocketMQ/RabbitMQ，可靠性/幂等/重复消费
+  - RESTful/接口设计/代码规范
+  - 高并发/高可用/分布式系统
+  - 跨境电商/支付/订单/库存/履约/营销经验
+source_record：
+  source_id：
+    J02
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    字节跳动 后端工程师开发 实习
+  原始来源：
+    https://www.nowcoder.com/jobs/detail/447232
+  canonical_key：
+    nowcoder:job:447232
+  source_file：
+    01_岗位JD/J02.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      牛客平台招聘页（发布者身份未独立核验）；投递窗口2026-05-10—2026-08-10
+    岗位状态：
+      已结束，仅作要求样本
+    方向与资格：
+      Java业务后端；北京；本科；2027届；5天/周；至少3个月；页标有转正
+    明确要求：
+      Java/JVM / 并发/CAS/AQS/线程池 / Spring Boot/Cloud/MyBatis / MySQL索引事务锁 / Redis / 一种MQ/幂等
+    加分项：
+      高并发/分布式 / 交易订单库存履约经验
+    工作摘要：
+      职位文本集中列Java业务后端基础与中间件要求。
+    推荐理由：
+      用于检查基础后端项目是否覆盖并发、一致性和异步可靠性。
+    局限：
+      岗位名称较泛；牛客账号列字节开发工程师，未与同一官方职位ID交叉确认。
+  live_access：
+    状态：
+      200
+    标题：
+      后端工程师开发（实习）_字节跳动实习_牛客网
+    原始来源：
+      https://www.nowcoder.com/jobs/detail/447232
+    已读部分：
+      职责、要求、资格及页表状态实际核读
+    已读定位正文全文：
+      是
+    professional_text：
+      岗位关键词
+毕业要求：2027届
+投递时间：2026年5月10日-2026年8月10日（即将截止）
+岗位职责
+本科及以上学历，计算机、软件工程或相关专业；
+Java 基础扎实，熟悉集合、IO、反射、泛型、异常处理、JVM、类加载机制等基础知识；
+熟悉 Java 多线程、并发编程，了解线程池、锁机制、CAS、AQS、ThreadLocal、ConcurrentHashMap 等常用并发工具和原理；
+熟悉 Spring Boot、Spring Cloud、MyBatis/MyBatis-Plus 等主流 Java 开发框架，有微服务项目经验；
+岗位要求
+熟悉 MySQL 数据库设计与优化，了解索引、事务、锁、执行计划、慢 SQL 优化和分库分表等常见方案；
+熟悉 Redis 常见使用场景，如缓存、分布式锁、限流、热点数据、缓存穿透/击穿/雪崩治理等；
+熟悉消息队列 Kafka、RocketMQ、RabbitMQ 中至少一种，理解异步解耦、削峰填谷、消息可靠性、幂等和重复消费处理；
+熟悉 RESTful API 设计，具备良好的接口设计能力和系统抽象能力；
+具备良好的代码规范意识、文档编写能力、问题分析能力和团队协作能力；
+有高并发、高可用、分布式系统、跨境电商、支付、订单、库存、履约、营销等业务经验者优先；
+    text_sha256：
+      b963697c6db355af2c82ec373472533a38a1acee9e68a3d74327975739118f7d
+  方向：
+    后端
+  required_stack：
+    - Java/集合/IO/反射/泛型/JVM/类加载
+    - 线程池/锁/CAS/AQS/ThreadLocal/ConcurrentHashMap
+    - Spring Boot/Cloud/MyBatis及微服务项目
+    - MySQL/索引/事务/锁/执行计划/慢SQL/分库分表
+    - Redis/缓存/分布式锁/限流
+    - 至少一种Kafka/RocketMQ/RabbitMQ，可靠性/幂等/重复消费
+    - RESTful/接口设计/代码规范
+  preferred_stack：
+    - 高并发/高可用/分布式系统
+    - 跨境电商/支付/订单/库存/履约/营销经验
+  duties：
+    该页“岗位职责”部分实际也列学历与Java基础资格；按原文性质记录，不据栏目标题改写为工作经历。
+  degree_constraint：
+    本科及以上，计算机/软件等相关专业；2027届
+  availability_constraint：
+    北京；5天/周；至少3个月；页标有转正
+  publish_date：
+    未显示发布日期；明确投递期2026-05-10—2026-08-10
+  date_year_confirmed：
+    是
+  recruiting_status：
+    页标已结束
+  source_type：
+    牛客平台招聘页，发布者企业身份未独立核验
+  matrix_include：
+    是
+  阅读建议：
+    用于检查基础后端项目是否覆盖并发、一致性和异步可靠性。
+  局限：
+    原页岗位名称泛化；未与字节官网职位ID交叉核验。
+  招聘类型：
+    实习
+  source_date_basis：
+    原文日期/窗口
+source_key：
+  ASTRA_J02_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J02
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

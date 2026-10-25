@@ -1,0 +1,233 @@
+CV05 | erdengk：后端大SSP历史履历与2026 Agent方向更新
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/erdengk
+事件时间／原文日期（依分类）：
+  2023-12：快手、小红书商业化录用自述
+方向与岗位：
+  广告后端；现自述转向Agent（不是Agent实习录用证明）
+结果自述：
+  本人自述快手、小红书商业化大SSP，选择小红书
+录用证据边界：
+  作者GitHub简介自述；近期简历链接404
+资料形式：
+  成功者公开履历（完整简历链接已失效）
+专业背景：
+  2024届；曾于快手、百度、网易实习，参与GSoC与Apache项目
+技术栈：
+  - 分布式系统
+  - 云与可观测性
+  - Apache ShenYu
+  - Agent（未披露完整技术栈）
+本人项目与经历描述：
+  - Apache ShenYu相关开源参与
+  - ShenYu Helm Chart
+  - 近一年Agent方向工作，细节未公开
+project_urls：
+  - https://github.com/apache/shenyu
+  - https://github.com/apache/shenyu-helm-chart
+来源归纳：
+  履历同时包含多段实习、开源活动和社区角色。2026 Agent方向说明发生在2023录用之后，不能反推Agent项目造成当年的SSP。
+整理者分析：
+  可学习让经历留有可公开追溯的贡献记录；贡献质量需看具体PR、评审、测试与维护，而不只看活动名和star。
+值得学习之处：
+  - 公开长期账号与项目线索
+  - 实习和开源组合
+局限与静态风险：
+  - 新的完整简历链接404
+  - 已核2022年两项测试PR，其余贡献未逐条审计
+  - 历史录用与当前Agent方向更新必须分开
+商业与选择偏差：
+  简介自述付费知识星球合伙人；应区分履历事实和商业推荐
+原访问范围：
+  个人GitHub全文；简历https://erdengk.github.io/cv/返回404
+证据边界：
+  公开履历中等；当前完整简历不可得
+original_file_status：
+  链接失效，不能提供原件
+阅读建议：
+  辅助参考；关注开源贡献的证据形式，不当作2026 Agent实习成功简历
+supplement_update：
+  本轮已补齐Apache ShenYu当前固定源码（PRO09）；Helm Chart未归档。当前功能不等于2023年个人贡献。
+类别：
+  候选人资料
+已核个人贡献：
+  - 原始来源：
+      https://github.com/apache/shenyu/pull/3848
+    author_login：
+      erdengk
+    merged_at：
+      2022-08-29T07:31:32Z
+    merge_commit：
+      22546ae0e6a4047ee08bf4a41f9114f47ba57e19
+    范围：
+      OAuth2插件集成测试，5个变更文件
+    code_url：
+      https://github.com/apache/shenyu/blob/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java#L38
+    static_findings：
+      初始化插件并断言成功，异步请求授权接口，断言返回值非null。
+    局限：
+      所读测试未断言授权码/token或拒绝路径，不能据此称完整验证OAuth2正确性。
+  - 原始来源：
+      https://github.com/apache/shenyu/pull/3672
+    author_login：
+      erdengk
+    merged_at：
+      2022-07-06T15:54:15Z
+    merge_commit：
+      5ba8e13c2c3cf330bb30924190ca6a97fb112283
+    范围：
+      logging-rocketmq插件集成测试，4个变更文件
+    code_url：
+      https://github.com/apache/shenyu/blob/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java#L54
+    static_findings：
+      初始化插件与生产者，构造请求日志并调用consume；异常则断言失败。成功路径调用close；插件清理另置于@AfterAll。
+    局限：
+      所读测试没有消费者接收消息的断言；调用未抛异常不能等同消息完整送达；断言失败会跳过紧随其后的close。
+round3_contribution_boundary：
+  GitHub API确认作者账号、合并状态、日期和提交；静态读2个测试文件，未运行测试或项目；未联系作者。；从仅框架关联补到同账号真实已合并PR；SSP仍为本人自述，PR不能证明录用因果。
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    未知
+  事件时间：
+    2023-12：快手、小红书商业化录用自述
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    录用自述明示23年12月；2026-01 Agent方向更新是后续经历，不用于改写SSP岗位或年份
+  来源日期：
+    2026-01方向更新，非SSP录用日期
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    个人GitHub全文；简历https://erdengk.github.io/cv/返回404
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      快手商业化
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/erdengk
+    依据：
+      作者GitHub简介自述；近期简历链接404
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      小红书商业化
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/erdengk
+    依据：
+      作者GitHub简介自述；近期简历链接404
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  2026-01方向更新，非SSP录用日期
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/erdengk
+      direct_basis：
+        作者GitHub简介自述；近期简历链接404
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://erdengk.github.io/cv/
+      direct_basis：
+        本人主页链接完整简历
+      直接关系：
+        直接点名
+      gap：
+        HTTP404；未取得原件
+    - 原始来源：
+        https://github.com/erdengk
+      direct_basis：
+        本人公开主页经历叙述
+      直接关系：
+        直接点名
+      gap：
+        只能作经历自述，不能替代完整履历
+  project：
+    - 原始来源：
+        https://github.com/apache/shenyu/pull/3848
+      direct_basis：
+        OAuth2插件集成测试，5个变更文件；作者账号erdengk，GitHub API确认已合并
+      直接关系：
+        贡献
+      gap：
+        所读测试未断言授权码/token或拒绝路径，不能据此称完整验证OAuth2正确性。；不把框架整体算本人贡献、不证明SSP因果
+      code_url：
+        https://github.com/apache/shenyu/blob/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java#L38
+      merged_at：
+        2022-08-29T07:31:32Z
+    - 原始来源：
+        https://github.com/apache/shenyu/pull/3672
+      direct_basis：
+        logging-rocketmq插件集成测试，4个变更文件；作者账号erdengk，GitHub API确认已合并
+      直接关系：
+        贡献
+      gap：
+        所读测试没有消费者接收消息的断言；调用未抛异常不能等同消息完整送达；断言失败会跳过紧随其后的close。；不把框架整体算本人贡献、不证明SSP因果
+      code_url：
+        https://github.com/apache/shenyu/blob/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java#L54
+      merged_at：
+        2022-07-06T15:54:15Z
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        已核开源PR不构成本人SSP面经；未定位本人逐轮题目。
+      直接关系：
+        未建立
+      gap：
+        已核开源PR不构成本人SSP面经；未定位本人逐轮题目。
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - HTTP404；未取得原件
+  - 只能作经历自述，不能替代完整履历
+  - 所读测试未断言授权码/token或拒绝路径，不能据此称完整验证OAuth2正确性。；不把框架整体算本人贡献、不证明SSP因果
+  - 所读测试没有消费者接收消息的断言；调用未抛异常不能等同消息完整送达；断言失败会跳过紧随其后的close。；不把框架整体算本人贡献、不证明SSP因果
+  - 已核开源PR不构成本人SSP面经；未定位本人逐轮题目。
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

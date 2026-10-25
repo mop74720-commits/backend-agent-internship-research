@@ -1,0 +1,24 @@
+{
+  "cards": 109,
+  "initialCount": "109 条匹配记录（逻辑记录，含同源交叉引用）",
+  "idSearch": 1,
+  "interviewFilter": 48,
+  "projectFilter": 13,
+  "hashReveal": true,
+  "historicalReveal": true,
+  "supplementCards": 37,
+  "supplementOpen": 37,
+  "localArchiveLinks": 5,
+  "supplementHeadings": [
+    "本轮交付与使用范围",
+    "新增面经总览",
+    "按追问检索资料",
+    "面经追问与项目源码怎样对照阅读",
+    "新增项目总览",
+    "新增面经阅读卡",
+    "新增项目拆读卡",
+    "候选人项目对照与来源复核"
+  ],
+  "pdfBytes": 1153001,
+  "pageErrors": []
+}

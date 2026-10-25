@@ -1,0 +1,168 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "全部JSON可解析",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "仅新增INT84且旧189条记录保持一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "上一轮189快照统计保留",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "当前统计和累计目标一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "分类表实物与主记录一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "77面经70全文7部分49明确实习",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "严格近期9与辅助13不因推定年增加",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新面经15问全文范围及来源",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "结果未知不从算法失误推拒绝或SSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "展示编辑时间不冒充事件直接年或初发",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "目标UUID白名单时间字段可追溯",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "没有将新作者拼到既有候选人",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "具体追问映射5项能力且未误作权限证据",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "技术要求分层及Agent阅读路线纳入新面经",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两视频接口200空字幕不计观看",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "手动清单不再误标新面经正文未读",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两视频手动状态已合并最新事实",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SSP复核排除不虚增成功者",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "既有25项目375维与附件统计保持",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV 03_简历与候选人案例/候选人证据链对照.csv",
+      "passed": true,
+      "detail": 31
+    },
+    {
+      "name": "CSV 04_面经与专业观点/面经统一分类.csv",
+      "passed": true,
+      "detail": 77
+    },
+    {
+      "name": "CSV 06_项目分析与推荐/项目统一比较.csv",
+      "passed": true,
+      "detail": 375
+    },
+    {
+      "name": "CSV 08_证据索引与统计/全部资料统一分类.csv",
+      "passed": true,
+      "detail": 190
+    },
+    {
+      "name": "CSV 08_证据索引与统计/能力要求四类证据对照.csv",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "全部报告本地链接和锚点可达",
+      "passed": true,
+      "detail": {
+        "count": 3245,
+        "broken": []
+      }
+    },
+    {
+      "name": "PDF包含本轮结论且无空白孤页",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF文字不越出页面",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "当前浏览器筛选搜索及手机显示通过",
+      "passed": true,
+      "detail": 47
+    },
+    {
+      "name": "仍保留完整目标及未满足项",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "local_links": 3245,
+  "pdf_pages": 25,
+  "pdf_sha256": "ac23cd318564d4ef93f281dad14cb979fccd4508fb265c31e8e17ca76a348933",
+  "goal_status": "active",
+  "scope": "本轮新增面经及当前交付核对，不证明全目标完成",
+  "visual_review": {
+    "passed": true,
+    "pages": [
+      1,
+      13,
+      25
+    ],
+    "scope": "根代理目视本轮PDF首中末页；新面经结论、表格及来源可读，无重叠或横向裁切；末页文件索引保留自然留白。",
+    "pdf_sha256": "ac23cd318564d4ef93f281dad14cb979fccd4508fb265c31e8e17ca76a348933"
+  }
+}

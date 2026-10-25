@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "status": "active",
+  "new_record_ids": [
+    "INT84"
+  ],
+  "current_totals": {
+    "logical_evidence_records": 190,
+    "candidate_cases": 31,
+    "interview_materials": 77,
+    "projects": 25,
+    "source_archives": 22,
+    "fixed_link_only": 3,
+    "jd_leads": 19,
+    "engineering_jd_fulltext": 14,
+    "platform_opinion_records": 13,
+    "additional_primary_texts": 2,
+    "manual_links": 68,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 6
+  },
+  "summary": "新增百度Agent日常实习本人面经；复核SSP误读线索，更新公开视频字幕接口事实。",
+  "remaining_gaps": [
+    "近期成功Agent实习者的完整CV与本人项目已部分补齐，但同人具体面经和SSP关联仍缺。",
+    "近期Agent SSP的公司、具体岗位、招聘批次及档位尚未补到完整直接样本；标题党和岗位未明线索不充数。",
+    "两个B站公开视频接口已返回200/code0但字幕列表为空；仍未观看视频或读取字幕，可由用户手动核读。"
+  ],
+  "new_interviews": 1,
+  "new_candidate_profiles": 0,
+  "new_projects": 0,
+  "new_ssp_cases": 0,
+  "strict_recent_increment": 0,
+  "actual_video_watched_increment": 0
+}

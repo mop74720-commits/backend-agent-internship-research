@@ -1,0 +1,96 @@
+OBS04 | GUI-Agent：2026竞赛项目获SSP面试卡，不能当SSP offer
+
+原文链接：https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md#L22
+
+公开作者：UAVLLMs
+
+日期与确定性：{
+  "explicit_year": "README第58行明确捧月2026算法大赛决赛；docs/算法设计说明.md第1行也写2026。",
+  "source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md#L58",
+  "repo_created_at_from_search_api": "2026-06-21T06:04:48Z",
+  "direction": "多模态GUI Agent、安卓设备操作、Agent应用与控制工程；竞赛算法方向",
+  "recruitment_type": "自述奖励为中兴校招面试通道；不是实习JD或实习录用",
+  "unknowns": "比赛举行的具体月日、具体岗位/部门、团队成员分工、面试是否参加/通过、最终offer及档位均未在已读材料得到确认。"
+}
+
+岗位方向：GUI Agent竞赛工程；校招面试资格线索
+
+结果口径（自述）：SSP面试直通卡；不是录用通知，不计SSP成功候选人
+
+短摘录：本项目在第十六届「中兴捧月」全球精英挑战赛总决赛中荣获全国第二名，并获得中兴校招SSP面试直通卡与5万元奖金。
+
+项目与作者关系：{
+  "strength": "SSP面试卡与具体Agent项目同仓同段明确关联；属于项目/团队自述，不能进一步推成个人独立完成或项目带来正式SSP录用。",
+  "contribution_boundary": "README第418行明确agent_base.py、设备控制、测试runner等是赛题官方框架；自述核心贡献为agent.py、utils/finals_decoder.py及utils/finals_prompt.py。不能把官方框架全算作者原创。",
+  "contribution_source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md#L418",
+  "description": "PC通过ADB操控真实安卓App，以截图和中文指令循环决策，内部维护动作历史与带键记忆；包含动作解析、循环/停滞处理、调用重试。",
+  "same_author_interview_material": "已读仓库材料是项目/算法设计复盘，未提供可对应的中兴求职逐轮面经。该范围内未确认正式录用，不等于作者没有后续面试或offer。"
+}
+
+固定版本源码证据：{
+  "scope": "固定commit的README关键段、算法设计说明、agent.py关键函数、decoder/prompt与runner关键区段；未运行、未读GIF/图片、未使用ADB或模型API。",
+  "visible_strengths": [
+    {
+      "finding": "历史与记忆注入实际存在；将模型REMEMBER标记按键覆盖，并有条目与文本长度限制。",
+      "sources": [
+        "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L225",
+        "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L542"
+      ]
+    },
+    {
+      "finding": "模型调用有重试与线性退避，空响应转WAIT；重复打开App和动作循环有具体处理代码。",
+      "sources": [
+        "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L317",
+        "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L367",
+        "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L388"
+      ]
+    },
+    {
+      "finding": "文档交代初赛硬编码不适应决赛新任务及无历史输入，说明为什么改为自行维护状态；可借鉴迁移失败和工程取舍的表达。",
+      "source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/docs/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E8%AF%B4%E6%98%8E.md#L17"
+    }
+  ],
+  "critical_limits": [
+    {
+      "finding": "README所称agent_completed并不是独立任务成功指标；runner收到模型/Agent输出COMPLETE便设置此退出原因。不能据此宣称成功率100%。",
+      "source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/test_runner.py#L273",
+      "line_start": 273,
+      "line_end": 277
+    },
+    {
+      "finding": "decoder无法解析时兜底COMPLETE；agent对部分无完成意图的情况转WAIT，但_ensure_valid仍有非法动作/缺参数返回COMPLETE的分支。终止、解析失败与业务成功仍需分开评测。",
+      "sources": [
+        "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/utils/finals_decoder.py#L153",
+        "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L338",
+        "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L471"
+      ],
+      "verification_boundary": "静态代码风险，不是本轮运行复现的故障。"
+    },
+    {
+      "finding": "README第395–400行数据飞轮、奖励模型与蒸馏位于拓展思考，不能当作已实现的RL训练系统或生产闭环。",
+      "source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md#L395"
+    }
+  ],
+  "recommendation": "可作为GUI Agent项目阅读与反思对照：学习状态、工具动作、异常处理和贡献边界；重点反查终止信号与真实任务完成的区别。当前证据不够认定生产成熟度，也不能以SSP面试卡背书其所有技术结论。"
+}
+
+读取范围与限制：{
+  "award": "未取得官方获奖名单；两轮精确搜索无独立结果，另一次只重索引同仓，不能计第二来源。",
+  "offer": "未获取录用材料；面试直通卡本身不构成offer。",
+  "code": "源文件和关键实现可静态读取；未做运行与效果验证。"
+}
+
+原材料许可：{
+  "readme_claim": "README第14行徽标写MIT。",
+  "tree_observation": "GitHub固定commit树包含LICENSE文件。",
+  "license_body_verified": false,
+  "boundary": "本轮未实际读取LICENSE正文，不能宣称已核完整许可条款；未下载、复制或打包源码。若后续复用代码，应先读固定版本许可证并保留所需声明。"
+}
+
+建议用途：可以研究带状态的GUI操作循环及失败处理；已有源码可读，正式SSP录用和本人求职面经仍未确认。
+
+证据边界：B-：项目与面试通道的原站自述清楚、代码可读；竞赛名次、个人贡献及招聘结果未经独立验证
+
+category：候选人对照
+
+retrieved_at：2026-10-23

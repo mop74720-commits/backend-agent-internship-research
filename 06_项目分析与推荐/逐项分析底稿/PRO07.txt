@@ -1,0 +1,171 @@
+PRO07 | RAGFlow：文档解析与检索工程参考
+
+需求核对版 · 2026-10-24
+
+仓库：
+  infiniflow/ragflow
+原始来源：
+  https://github.com/infiniflow/ragflow
+方向与岗位：
+  RAG工程
+阅读建议：
+  按解析、索引、检索模块选读，不作为完整复刻目标
+技术栈：
+  - 文档解析
+  - 分块
+  - 混合检索
+  - Agent workflow
+  - 检索测试
+值得学习之处：
+  - 覆盖从复杂文档到检索与引用的链路
+  - 仓库含检索测试指引、SDK示例和基准测试目录
+局限与静态风险：
+  - 大平台搭建成本高，容易遮蔽自己的核心贡献
+  - 装好平台和导入PDF不能证明检索质量
+  - 检索指标必须结合自己的语料、权限和任务集重新测量
+borrow：
+  解析与分块、索引质量诊断、检索回归测试的分层。
+extend：
+  做中文规章/表格/版本冲突样本，评估Recall@k和引用准确性，并测试撤权后是否仍泄露旧缓存。
+已定位阅读路径：
+  - docs/guides/dataset/retrieval_testing.md
+  - example/sdk/retrieval_example.py
+  - test/benchmark/README.md
+  - test/README.md
+interview_questions：
+  - 检索错来自解析、分块还是排序？
+  - 文档更新怎样让旧索引失效？
+  - 租户权限过滤是否发生在检索阶段？
+商业与选择偏差：
+  存在商业云服务；本报告仅使用公开仓库能力证据。
+取得源码ZIP：
+  是
+固定源码提交：
+  4cb2e5abfe0c490ccbb05c9278e2d42b8b395996
+源码提交时间：
+  2026-10-23T08:30:50Z
+许可标识：
+  Apache-2.0
+源码包文件：
+  infiniflow__ragflow__4cb2e5abfe0c.zip
+源码包SHA-256：
+  6b3c3497d72b44eb6b6a1d2a6ee1d42cf39e682e048f2f3e6b9a7f166728c6ed
+inspection_boundary：
+  所选benchmark主要是HTTP性能测试，不能替代检索准确率和权限测试。
+类别：
+  项目参考
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-10-23T08:30:50Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    只取检索服务和测试工程片段，不为大平台体量整库复刻。
+  指定模块：
+    - docs/guides/dataset/retrieval_testing.md
+    - example/sdk/retrieval_example.py
+    - test/benchmark/README.md
+    - test/README.md
+Agent方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    RAG方向先读召回诊断与SDK，分清检索质量、生成质量、HTTP性能三者。
+  指定模块：
+    - docs/guides/dataset/retrieval_testing.md
+    - example/sdk/retrieval_example.py
+    - test/benchmark/README.md
+    - test/README.md
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    infiniflow__ragflow__4cb2e5abfe0c.zip
+  固定源码提交：
+    4cb2e5abfe0c490ccbb05c9278e2d42b8b395996
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否
+external_research_reviews：
+  P05：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        P05
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_候选人与观点项目.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        P05
+      type：
+        project
+      source_category：
+        05_参考项目
+      标题：
+        infiniflow/ragflow
+      source_url：
+        https://github.com/infiniflow/ragflow
+      source_card：
+        05_参考项目/P05.html
+      existing_id：
+        PRO07
+      decision：
+        duplicate
+      new_primary_project：
+        否
+      source_folder_modified：
+        否
+      reading_scope：
+        对照astra README/文档卡与旧包已有静态实现核读，未重复阅读全仓
+      状态：
+        相同仓库；既有主表与附件范围更深入
+      import_target：
+        existing_cross_reference
+      repo_identity：
+        infiniflow/ragflow
+      unique_value：
+        没有新增源码核读；保留上游宣传不能当本人实测与贡献的判断。
+      facts_boundary：
+        教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。
+      evidence_count_increment：
+        0

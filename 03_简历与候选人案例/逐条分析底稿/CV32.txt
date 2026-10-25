@@ -1,0 +1,307 @@
+CV32 | 无实习人士如何上岸秋招（总结+面经+路线）
+
+需求核对版 · 2026-10-24
+
+类别：
+  候选人资料
+原始来源：
+  https://www.nowcoder.com/discuss/545916636923006976
+方向与岗位：
+  后端开发
+事件时间／原文日期（依分类）：
+  原文未直接给出招聘事件年
+发表／来源日期：
+  页面2023-11-10编辑；不等于招聘事件日期
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    校招
+  事件时间：
+    原文未直接给出招聘事件年
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    页面2023-11-10编辑；不等于招聘事件日期
+  时间依据：
+    原帖月日时间线与24届标签可见，未从届别或2023编辑时间倒推招聘事件年。
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    牛客本人正文选读：简介、公司结果、项目面经、优化与压测段；未核投递汇总图和原始简历
+  实际观看视频：
+    否
+结果自述：
+  本人校招经历及项目追问；录用档位未披露
+逐项结果与档位：
+  - 公司：
+      美团
+    状态：
+      offer_self_report
+    档位：
+      未披露
+    依据：
+      正文已开奖、已拒
+    事件时间／原文日期（依分类）：
+      原文未直接给出招聘事件年
+    证据：
+      https://www.nowcoder.com/discuss/545916636923006976
+    方向与岗位：
+      后端开发；具体岗位按本人原文
+    企业独立验证：
+      否
+  - 公司：
+      阿里云
+    状态：
+      intention_self_report
+    档位：
+      未披露
+    依据：
+      正文10.15意向
+    事件时间／原文日期（依分类）：
+      原文未直接给出招聘事件年
+    证据：
+      https://www.nowcoder.com/discuss/545916636923006976
+    方向与岗位：
+      后端开发；具体岗位按本人原文
+    企业独立验证：
+      否
+  - 公司：
+      快手
+    状态：
+      intention_self_report
+    档位：
+      未披露
+    依据：
+      astra资料卡和本人意向章节；不升格最终offer
+    事件时间／原文日期（依分类）：
+      原文未直接给出招聘事件年
+    证据：
+      https://www.nowcoder.com/discuss/545916636923006976
+    方向与岗位：
+      后端开发；具体岗位按本人原文
+    企业独立验证：
+      否
+履历材料形式：
+  经历/求职自述（非简历原件）
+资料形式：
+  经历/求职自述（非简历原件）
+技术栈：
+  - Java
+  - Redis
+  - RocketMQ
+  - MySQL
+  - RPC
+  - Nacos/Zookeeper
+本人项目与经历描述：
+  - 作者自述改造消息推送开源项目和RPC、扩展实验室横向业务；原仓库未直接命名，不认定为某特定开源项目。
+来源归纳：
+  作者自述改造消息推送开源项目和RPC、扩展实验室横向业务；原仓库未直接命名，不认定为某特定开源项目。
+整理者分析：
+  增加消息系统追问链：消费进度隔离→消费速率→链路追踪→丢失补发；压测关注机器参数、负载参数和前后对照，不要求夸大的QPS。
+值得学习之处：
+  - 适合选后端主项目：消息系统同时承载幂等、顺序、重试、削峰和可观测性，技术点有共同业务理由。
+局限与静态风险：
+  - 作者有“堆组件/少量命令谈调优”等建议，不能照单全收；没有本人源码与完整CV，不把面试问题当已实现能力。
+阅读建议：
+  适合选后端主项目：消息系统同时承载幂等、顺序、重试、削峰和可观测性，技术点有共同业务理由。
+商业与选择偏差：
+  依据本人公开叙述；存在主动分享与结果选择偏差
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/545916636923006976
+      direct_basis：
+        本人校招经历及项目追问；录用档位未披露
+      gap：
+        录用仅本人自述；未披露档位不标SSP
+      直接关系：
+        直接点名
+  profile：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/545916636923006976
+      direct_basis：
+        仅说明简历两页、项目放技能前，未读取完整简历原件
+      gap：
+        本轮没有新增完整CV实物
+      直接关系：
+        直接点名
+  project：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/545916636923006976
+      direct_basis：
+        项目为横向业务扩展、消息推送和RPC，重点深挖Redis与RocketMQ。面试追问消费隔离、消息补发、限流、链路追踪和压测条件。
+      gap：
+        仅作者描述；未取得本人源码，不拼接框架
+      直接关系：
+        直接点名
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/545916636923006976
+      direct_basis：
+        同篇经历中出现面试描述
+      gap：
+        是否逐轮具体问题仅按实际阅读，不与其他作者拼接
+      直接关系：
+        直接点名
+未建立或未核的关系：
+  - 录用仅本人自述；未披露档位不标SSP
+  - 本轮没有新增完整CV实物
+  - 仅作者描述；未取得本人源码，不拼接框架
+  - 是否逐轮具体问题仅按实际阅读，不与其他作者拼接
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  否
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+complete_cv_file_received：
+  否
+complete_redacted_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+personal_source_code_verified：
+  否
+source_record：
+  source_id：
+    R02
+  type：
+    candidate
+  source_category：
+    02_简历与录用经历
+  标题：
+    无实习人士如何上岸秋招（总结+面经+路线）
+  source_url：
+    https://www.nowcoder.com/discuss/545916636923006976
+  source_card：
+    02_简历与录用经历/R02.html
+  existing_id：
+    未核／无
+  decision：
+    new
+  new_primary_project：
+    否
+  source_folder_modified：
+    否
+  reading_scope：
+    牛客本人正文选读：简介、公司结果、项目面经、优化与压测段；未核投递汇总图和原始简历
+  状态：
+    本人校招经历及项目追问；录用档位未披露
+  import_target：
+    candidate_and_interview_evidence
+  read_evidence：
+    - read_url：
+        https://ac.nowcoder.com/discuss/1228157
+      http_status：
+        200
+      body_text_chars：
+        11299
+      已读部分：
+        指定正文段
+      short_original_basis：
+        实验室横向扩展、消息推送改造、RPC三项目；美团段“已开奖，已拒”；项目面经列消费进度隔离、速率、追踪与消息补发。
+      checked_on：
+        2026-10-24
+      text_sha256：
+        54bc29124f4f0eb99d1c38c8236add88dce4cb8761aa309a3d198c18a8cf41cf
+  normalized_aliases：
+    - https://www.nowcoder.com/discuss/545916636923006976
+    - https://ac.nowcoder.com/discuss/1228157
+  统一分类：
+    方向：
+      后端
+    招聘类型：
+      校招
+    event_year：
+      未核／无
+    时间依据：
+      原帖月日时间线与24届标签可见，未从届别或2023编辑时间倒推招聘事件年。
+  逐项结果与档位：
+    - 公司：
+        美团
+      状态：
+        offer_self_report
+      档位：
+        未披露
+      依据：
+        正文已开奖、已拒
+      事件时间／原文日期（依分类）：
+        原文未直接给出招聘事件年
+      证据：
+        https://www.nowcoder.com/discuss/545916636923006976
+      方向与岗位：
+        后端开发；具体岗位按本人原文
+      企业独立验证：
+        否
+    - 公司：
+        阿里云
+      状态：
+        intention_self_report
+      档位：
+        未披露
+      依据：
+        正文10.15意向
+      事件时间／原文日期（依分类）：
+        原文未直接给出招聘事件年
+      证据：
+        https://www.nowcoder.com/discuss/545916636923006976
+      方向与岗位：
+        后端开发；具体岗位按本人原文
+      企业独立验证：
+        否
+    - 公司：
+        快手
+      状态：
+        intention_self_report
+      档位：
+        未披露
+      依据：
+        astra资料卡和本人意向章节；不升格最终offer
+      事件时间／原文日期（依分类）：
+        原文未直接给出招聘事件年
+      证据：
+        https://www.nowcoder.com/discuss/545916636923006976
+      方向与岗位：
+        后端开发；具体岗位按本人原文
+      企业独立验证：
+        否
+  履历材料形式：
+    经历/求职自述（非简历原件）
+  技术栈：
+    - Java
+    - Redis
+    - RocketMQ
+    - MySQL
+    - RPC
+    - Nacos/Zookeeper
+  personal_project_summary：
+    作者自述改造消息推送开源项目和RPC、扩展实验室横向业务；原仓库未直接命名，不认定为某特定开源项目。
+  unique_value：
+    增加消息系统追问链：消费进度隔离→消费速率→链路追踪→丢失补发；压测关注机器参数、负载参数和前后对照，不要求夸大的QPS。
+  facts_boundary：
+    作者有“堆组件/少量命令谈调优”等建议，不能照单全收；没有本人源码与完整CV，不把面试问题当已实现能力。
+  eligible_for_success_candidate_count：
+    是
+source_key：
+  ASTRA_R02_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    R02
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_候选人与观点项目.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

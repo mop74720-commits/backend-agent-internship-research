@@ -1,0 +1,595 @@
+{
+  "date": "2026-10-24",
+  "passed": true,
+  "checks": [
+    {
+      "name": "64张源卡、三个核读清单与实施映射逐条一一覆盖",
+      "passed": true,
+      "detail": {
+        "cards": 64,
+        "reviews": 64,
+        "mappings": 64
+      }
+    },
+    {
+      "name": "所有源卡均有有效内部去向或明确保留边界",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "新增逻辑条目由合并前快照和实施映射独立复算",
+      "passed": true,
+      "detail": {
+        "baseline": 193,
+        "delta": {
+          "候选人资料": 3,
+          "招聘JD": 14,
+          "面经复盘": 20,
+          "B站与知乎": 2,
+          "官方技术资料": 4,
+          "专业原文补充": 2,
+          "候选人对照": 1
+        },
+        "current": 239
+      }
+    },
+    {
+      "name": "本批新增20面经14JD3候选与1候选对照",
+      "passed": true,
+      "detail": {
+        "new_interviews": 20,
+        "new_jds": 14
+      }
+    },
+    {
+      "name": "全部新增记录来源标记准确且未给重复条目新增ID",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "五篇重复面经只补核读记录而不重复计数",
+      "passed": true,
+      "detail": {
+        "I01": "INT16",
+        "I03": "INT22",
+        "I19": "INT54",
+        "I22": "INT53",
+        "I24": "INT50"
+      }
+    },
+    {
+      "name": "20新增面经主文、日期、结果与AI标记和实读清单一致",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "14新增JD要求加分资格及受限范围未被改写",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "主索引与分类表专业字段一致，项目补核元数据可仅存主表",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "normalized记录和统计与主分类一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "主统计与实施映射及实际分类一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "面经阅读范围和招聘类型计数一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "近期总组15工程组14且新增四篇均有正文事件年",
+      "passed": true,
+      "detail": {
+        "strict": [
+          "INT10",
+          "INT12",
+          "INT20",
+          "INT22",
+          "INT24",
+          "INT28",
+          "INT42",
+          "INT47",
+          "INT68",
+          "INT77",
+          "INT85",
+          "INT91",
+          "INT93",
+          "INT101",
+          "INT106"
+        ],
+        "engineering_count": 14
+      }
+    },
+    {
+      "name": "AI Infra明确为算法对照而非Agent工程",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "OC与未知失败不变成正式offer或SSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两篇明确AI整理均降权包括重复旧条目",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "同作者不同轮次和不同流程已互链且不合并人数",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "25篇面经能力映射已完整进入能力对照",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "技术要求分层只收全文工程JD且要求与加分分别保留",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R05未读简历图仅作对照不增加完整CV或成功候选人",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R06教学例子未列作成功者履历或实际项目",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "完整CV和核心脱敏副本没有新增",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "25项目375比较项和原比较内容保持",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "25源码附件文件名大小hash均与合并前相同",
+      "passed": true,
+      "detail": {
+        "archive_errors": []
+      }
+    },
+    {
+      "name": "个人项目设计继续暂缓且快照覆盖六份草案未变",
+      "passed": true,
+      "detail": {
+        "design_imported": false,
+        "snapshot_covered_files": 6,
+        "snapshot_covered_files_unchanged": true,
+        "files_without_premerge_hash": [
+          "07_个人项目设计_暂缓/agent_eval_seed_examples.jsonl"
+        ],
+        "whole_directory_historical_hash_verified": false,
+        "boundary": "合并前ZIP只收六份txt草案。既有agent_eval_seed_examples.jsonl未入该快照，没有合并前hash；本校验不把它判为本轮新增，也不声称其历史字节未变。"
+      }
+    },
+    {
+      "name": "平台本体全文仍5且视频仍0选读不充全文",
+      "passed": true,
+      "detail": {
+        "native_fulltexts": [
+          "OP10",
+          "OP11",
+          "OP12",
+          "OP13",
+          "OP14"
+        ],
+        "watched": []
+      }
+    },
+    {
+      "name": "内部证据ID和CAP引用没有悬空",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "interview分类统计track可独立复算",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "interview分类统计recruitment可独立复算",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate分类统计track可独立复算",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate分类统计recruitment可独立复算",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV行数 08_证据索引与统计/全部资料统一分类.csv",
+      "passed": true,
+      "detail": {
+        "actual": 239,
+        "expected": 239
+      }
+    },
+    {
+      "name": "CSV行数 04_面经与专业观点/面经统一分类.csv",
+      "passed": true,
+      "detail": {
+        "actual": 99,
+        "expected": 99
+      }
+    },
+    {
+      "name": "CSV行数 03_简历与候选人案例/候选人证据链对照.csv",
+      "passed": true,
+      "detail": {
+        "actual": 34,
+        "expected": 34
+      }
+    },
+    {
+      "name": "CSV行数 06_项目分析与推荐/项目统一比较.csv",
+      "passed": true,
+      "detail": {
+        "actual": 375,
+        "expected": 375
+      }
+    },
+    {
+      "name": "CSV行数 08_证据索引与统计/能力要求四类证据对照.csv",
+      "passed": true,
+      "detail": {
+        "actual": 11,
+        "expected": 11
+      }
+    },
+    {
+      "name": "统一分类CSV全部ID及每个字段与主索引一致",
+      "passed": true,
+      "detail": {
+        "mismatched_ids": []
+      }
+    },
+    {
+      "name": "能力CSV逐项来源ID及全部说明与JSON一致",
+      "passed": true,
+      "detail": {
+        "mismatched_abilities": []
+      }
+    },
+    {
+      "name": "主题JSON按主表问题与正则复算所有数量和分组ID",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "主题CSV主题数量与全部ID逐项和JSON一致",
+      "passed": true,
+      "detail": {
+        "csv_themes": 10,
+        "json_themes": 10
+      }
+    },
+    {
+      "name": "阅读Markdown条目与JSON顺序一致 backend",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "CV29",
+          "CV30",
+          "CV28",
+          "CV23",
+          "CV22",
+          "CV27",
+          "CV25",
+          "CV09",
+          "CV04",
+          "CV21",
+          "CV02",
+          "CV18",
+          "CV32",
+          "CV33",
+          "CV34",
+          "INT77",
+          "INT10",
+          "INT12",
+          "INT20",
+          "INT22",
+          "INT24",
+          "INT28",
+          "INT85",
+          "INT91",
+          "INT93",
+          "INT101",
+          "INT81",
+          "INT71",
+          "INT07",
+          "INT09",
+          "INT11",
+          "INT86",
+          "INT87",
+          "INT88",
+          "INT89",
+          "INT94",
+          "INT99",
+          "INT100",
+          "INT66",
+          "INT78",
+          "INT79",
+          "INT80"
+        ],
+        "expected": [
+          "CV29",
+          "CV30",
+          "CV28",
+          "CV23",
+          "CV22",
+          "CV27",
+          "CV25",
+          "CV09",
+          "CV04",
+          "CV21",
+          "CV02",
+          "CV18",
+          "CV32",
+          "CV33",
+          "CV34",
+          "INT77",
+          "INT10",
+          "INT12",
+          "INT20",
+          "INT22",
+          "INT24",
+          "INT28",
+          "INT85",
+          "INT91",
+          "INT93",
+          "INT101",
+          "INT81",
+          "INT71",
+          "INT07",
+          "INT09",
+          "INT11",
+          "INT86",
+          "INT87",
+          "INT88",
+          "INT89",
+          "INT94",
+          "INT99",
+          "INT100",
+          "INT66",
+          "INT78",
+          "INT79",
+          "INT80"
+        ]
+      }
+    },
+    {
+      "name": "阅读Markdown条目与JSON顺序一致 agent",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "CV31",
+          "CV30",
+          "CV07",
+          "CV24",
+          "CV25",
+          "CV26",
+          "CV08",
+          "CV09",
+          "CV33",
+          "INT42",
+          "INT47",
+          "INT74",
+          "INT72",
+          "INT73",
+          "INT75",
+          "INT76",
+          "INT01",
+          "INT02",
+          "INT40",
+          "INT41",
+          "INT54",
+          "INT55",
+          "INT84",
+          "INT102",
+          "INT103",
+          "INT104",
+          "INT67",
+          "INT82",
+          "INT83"
+        ],
+        "expected": [
+          "CV31",
+          "CV30",
+          "CV07",
+          "CV24",
+          "CV25",
+          "CV26",
+          "CV08",
+          "CV09",
+          "CV33",
+          "INT42",
+          "INT47",
+          "INT74",
+          "INT72",
+          "INT73",
+          "INT75",
+          "INT76",
+          "INT01",
+          "INT02",
+          "INT40",
+          "INT41",
+          "INT54",
+          "INT55",
+          "INT84",
+          "INT102",
+          "INT103",
+          "INT104",
+          "INT67",
+          "INT82",
+          "INT83"
+        ]
+      }
+    },
+    {
+      "name": "astra原138文件全部字节和hash不变且无增删",
+      "passed": true,
+      "detail": {
+        "verified": true,
+        "source_path": "C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24",
+        "files_before": 138,
+        "files_after": 138,
+        "changed": [],
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "name": "本包所有HTML的本地文件和锚点无断链",
+      "passed": true,
+      "detail": {
+        "html_files": 16,
+        "local_links": 3859,
+        "broken": []
+      }
+    },
+    {
+      "name": "主入口首页index和外部新增模块存在",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "首页当前数量和工程对照范围明确",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "增补页列出全部64源卡去重映射及Infra边界",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "手动JSON首页导航及手动页数量一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "已读全文面经手动项不再冒称只有外壳",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "当前PDF存在且非空",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF文字含当前外部增补与核心新资料",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF无空白页且文字块未越出页面",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "根代理PDF目视记录绑定当前hash页数及有效抽查页",
+      "passed": true,
+      "detail": {
+        "record": "08_证据索引与统计/外部调研合并PDF目视记录.json",
+        "pages_reviewed": [
+          1,
+          2,
+          14,
+          27
+        ]
+      }
+    },
+    {
+      "name": "根代理浏览器筛选搜索移动端与当前PDF通过",
+      "passed": true,
+      "detail": {
+        "checks": 60
+      }
+    }
+  ],
+  "current_totals": {
+    "logical_evidence_records": 239,
+    "candidate_cases": 34,
+    "interview_materials": 99,
+    "projects": 25,
+    "source_archives": 25,
+    "fixed_link_only": 0,
+    "jd_leads": 33,
+    "engineering_jd_fulltext": 24,
+    "platform_opinion_records": 15,
+    "additional_primary_texts": 5,
+    "manual_links": 74,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9
+  },
+  "pdf_sha256": "ec69a536f2851f110dd64d67b27584c214eea528a5294d17baf17a7a0e4d5a2f",
+  "source_preserved": {
+    "verified": true,
+    "source_path": "C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24",
+    "files_before": 138,
+    "files_after": 138,
+    "changed": [],
+    "added": [],
+    "removed": []
+  },
+  "visual_review": "根代理已目视抽查，记录绑定当前PDF的hash与页数",
+  "design_preservation": {
+    "design_imported": false,
+    "snapshot_covered_files": 6,
+    "snapshot_covered_files_unchanged": true,
+    "files_without_premerge_hash": [
+      "07_个人项目设计_暂缓/agent_eval_seed_examples.jsonl"
+    ],
+    "whole_directory_historical_hash_verified": false,
+    "boundary": "合并前ZIP只收六份txt草案。既有agent_eval_seed_examples.jsonl未入该快照，没有合并前hash；本校验不把它判为本轮新增，也不声称其历史字节未变。"
+  },
+  "local_link_checks": 3859,
+  "pdf_pages": 27,
+  "pdf_visual_review_record": {
+    "date": "2026-10-24",
+    "passed": true,
+    "pdf_sha256": "ec69a536f2851f110dd64d67b27584c214eea528a5294d17baf17a7a0e4d5a2f",
+    "pdf_pages": 27,
+    "pages_reviewed": [
+      1,
+      2,
+      14,
+      27
+    ],
+    "observations": [
+      "页1核对当前239条来源汇总、99面经及外部增补说明，标题与表格无重叠。",
+      "页2正文与补证边界段落分隔清楚，无明显截断。",
+      "页14候选人关联表表头可见，列内容保持在页宽内，未见文字越界。",
+      "页27新增平台观点、资料缺口及下载入口均在页内，页脚正确。"
+    ],
+    "rendered_contact_sheet": "C:/Users/GW/.codex/visualizations/2026/10/23/01a16839-9742-7672-812b-1576a3dd064f/external_merge_pdf_contact_sheet.png",
+    "scope": "抽查首、次、中、末页；其余页由PDF文本块边界和空页检查补充，不声称全部页面目视。"
+  }
+}

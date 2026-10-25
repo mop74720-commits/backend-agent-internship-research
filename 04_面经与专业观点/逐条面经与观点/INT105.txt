@@ -1,0 +1,250 @@
+INT105 | 字节Agent一面面经 挂了
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=dynamic
+公司：
+  字节跳动
+方向与岗位：
+  字节跳动；Agent开发；校招秋招
+事件时间／原文日期（依分类）：
+  秋招一面约45分钟，年月日未知
+发表／来源日期：
+  08-14（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    校招
+  事件时间：
+    秋招一面约45分钟，年月日未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    08-14（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  校招对照
+结果分类：
+  rejected_self_report
+结果自述：
+  本人自述感谢信，未通过
+逐项结果与档位：
+  - 公司：
+      字节跳动
+    方向与岗位：
+      字节跳动；Agent开发；校招秋招
+    档位：
+      未披露
+    状态：
+      rejected_self_report
+    事件时间／原文日期（依分类）：
+      秋招一面约45分钟，年月日未知
+    证据：
+      https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=post
+    依据：
+      本人自述感谢信，未通过
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面；自述收到感谢信
+    questions：
+      - 项目最大挑战是什么、怎样解决？
+      - RAG的chunk具体流程和细节是什么？
+      - Embedding模型怎样选择，依据是什么？
+      - 内存溢出和泄漏如何区分及解决？
+      - TCP怎样保证可靠性？
+      - 实习经历中的具体实现是什么；算法题题面未公开。
+    结果自述：
+      本人自述感谢信，未通过
+涉及主题：
+  - 算法/编程
+  - 网络/协议
+  - 操作系统
+  - 项目深挖/个人贡献
+  - RAG/检索
+  - 记忆/检索
+原文提问（归纳）：
+  - 项目最大挑战是什么、怎样解决？
+  - RAG的chunk具体流程和细节是什么？
+  - Embedding模型怎样选择，依据是什么？
+  - 内存溢出和泄漏如何区分及解决？
+  - TCP怎样保证可靠性？
+  - 实习经历中的具体实现是什么；算法题题面未公开。
+内容归纳：
+  项目难点后追问分块、Embedding选择、内存问题、TCP及实习，并有算法。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  Agent项目之外仍要掌握基础；自觉答得好不构成录用或SSP证据。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 候选人感觉答得好不能证明KPI面；实读入口为sourceSSR=dynamic/post，先前多个subject入口返回空壳。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I23
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    字节Agent一面面经 挂了
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=dynamic
+  resolved_url：
+    https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=post
+  canonical_post_key：
+    feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .feed-content-text
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    8311027b48f8547b5b02bc548a4f2ecddaf88e9a335aa12326e713b6c278c25c
+  body_char_count：
+    250
+  source_card_path：
+    03_面经/I23.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    08-14（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  source_date_verified：
+    否
+  方向：
+    Agent工程
+  招聘类型：
+    校招
+  event_date：
+    秋招一面约45分钟，年月日未知
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 项目最大挑战是什么、怎样解决？
+    - RAG的chunk具体流程和细节是什么？
+    - Embedding模型怎样选择，依据是什么？
+    - 内存溢出和泄漏如何区分及解决？
+    - TCP怎样保证可靠性？
+    - 实习经历中的具体实现是什么；算法题题面未公开。
+  涉及主题：
+    - 算法/编程
+    - 网络/协议
+    - 操作系统
+    - 项目深挖/个人贡献
+    - RAG/检索
+    - 记忆/检索
+  结果分类：
+    rejected_self_report
+  result：
+    本人自述感谢信，未通过
+  档位：
+    未披露
+  公司：
+    字节跳动
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    #秋招面试记录#…第二天评价 一小时后直接感谢信
+  阅读建议：
+    Agent项目之外仍要掌握基础；自觉答得好不构成录用或SSP证据。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 候选人感觉答得好不能证明KPI面；实读入口为sourceSSR=dynamic/post，先前多个subject入口返回空壳。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  access_attempts：
+    - 原始来源：
+        https://api-cdn.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=subject
+      状态：
+        200
+      body_found：
+        否
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=subject
+      状态：
+        200
+      body_found：
+        否
+    - 原始来源：
+        https://ac.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=subject
+      状态：
+        200
+      body_found：
+        否
+  capability_ids：
+    - CAP01
+    - CAP06
+    - CAP08
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    #秋招面试记录#…第二天评价 一小时后直接感谢信
+source_key：
+  ASTRA_I23_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I23
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

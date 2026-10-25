@@ -1,0 +1,133 @@
+INT76 | 科大讯飞（AI相关岗）一面
+
+需求核对版 · 2026-10-24
+
+source_key：
+  IFLYTEK_1c425483
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/1c425483516d4af1813d2dcdf98f4781?sourceSSR=users
+方向与岗位：
+  AI相关，结合本人后续实习经历理解，单篇未精确写职称
+公司：
+  科大讯飞
+事件时间／原文日期（依分类）：
+  几天前，绝对年月日未明
+发表／来源日期：
+  发表时间未核
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    几天前，绝对年月日未明
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    单篇事件年未明；同作者导航或发表元数据不自动绑定具体场次
+  来源日期：
+    未核
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文可见文字已读
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  - CV26
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习面经
+结果分类：
+  next_round_or_waiting_self_report
+结果自述：
+  单篇称该轮已过；不等于本篇已经正式offer。后续同作者自述讯飞实习可另立职业事实。
+逐项结果与档位：
+  - 公司：
+      科大讯飞
+    档位：
+      未披露
+    状态：
+      next_round_or_waiting_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/1c425483516d4af1813d2dcdf98f4781?sourceSSR=users
+    依据：
+      单篇称该轮已过；不等于本篇已经正式offer。后续同作者自述讯飞实习可另立职业事实。
+    企业独立验证：
+      否
+涉及主题：
+  - 规划选型
+  - 工具边界
+  - 异常兜底
+  - 评测
+原文提问（归纳）：
+  - ReAct与计划/固定workflow的选择；OCR缺失的兜底和建单评测证据。
+  - 工具分层、动态发现、ORM接口暴露为工具的偏移控制。
+  - 提示词与Skills的评估，以及AI Coding实际故障与实践。
+内容归纳：
+  是实习项目追问回忆，不是结构化答题标准。
+questions_vs_retrospective_answers：
+  是实习项目追问回忆，不是结构化答题标准。
+rounds：
+  - 一面
+原访问范围：
+  全文可见文字已读
+source_record：
+  key：
+    IFLYTEK_1c425483
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/1c425483516d4af1813d2dcdf98f4781?sourceSSR=users
+  标题：
+    科大讯飞（AI相关岗）一面
+  author_id：
+    216541357
+  公司：
+    科大讯飞
+  方向与岗位：
+    AI相关，结合本人后续实习经历理解，单篇未精确写职称
+  招聘类型：
+    实习（作者同职业时间线）
+  rounds：
+    - 一面
+  event_date：
+    几天前，绝对年月日未明
+  event_year_confirmed：
+    否
+  范围：
+    全文可见文字已读
+  questions_paraphrased：
+    - ReAct与计划/固定workflow的选择；OCR缺失的兜底和建单评测证据。
+    - 工具分层、动态发现、ORM接口暴露为工具的偏移控制。
+    - 提示词与Skills的评估，以及AI Coding实际故障与实践。
+  questions_vs_answers：
+    是实习项目追问回忆，不是结构化答题标准。
+  project_modules：
+    - 规划选型
+    - 工具边界
+    - 异常兜底
+    - 评测
+  结果自述：
+    单篇称该轮已过；不等于本篇已经正式offer。后续同作者自述讯飞实习可另立职业事实。
+  access：
+    http_status：
+      200
+    selector：
+      .post-content-box
+    read：
+      是

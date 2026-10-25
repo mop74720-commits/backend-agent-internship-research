@@ -1,0 +1,342 @@
+CV24 | 林祥庆 / Huoma LXQ：近期实习完整公开履历脱敏副本
+
+需求核对版 · 2026-10-24
+
+source_key：
+  huomalxq
+原始来源：
+  https://huomalxq.github.io/resume/
+方向与岗位：
+  Agent应用工程实习
+履历材料形式：
+  完整公开PDF履历的脱敏专业模块副本
+资料形式：
+  完整公开PDF履历的脱敏专业模块副本
+结果自述：
+  本人完整履历明确实习公司、岗位和起止时间；档位未披露
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    Philips 2026.03–2026.05；上海诺基亚贝尔 2023.09–2024.01
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    完整履历实习段直接标年月；非从届别/仓库日期推事件年
+  来源日期：
+    2026-06-15T06:03:59Z
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    固定PDF全部专业模块、本人公开HTML和相关项目文档核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      Philips
+    方向与岗位：
+      Agent开发实习生（苏州）
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2026.03–2026.05
+    证据：
+      https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf
+    依据：
+      本人公开PDF和HTML均明确职位与时间；均无企业独立核验
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      上海诺基亚贝尔
+    方向与岗位：
+      后端开发/数据清洗实习生（杭州）
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2023.09–2024.01
+    证据：
+      https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf
+    依据：
+      本人PDF/HTML，历史经历不计近期
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+complete_redacted_cv_file_received：
+  是
+redacted_cv_local_file：
+  03_简历与候选人案例/核心Agent履历_脱敏副本/huomalxq_公开简历_脱敏副本.pdf
+技术栈：
+  —
+本人项目与经历描述：
+  - name：
+      自然语言问数/数据分析Agent后端
+    原始来源：
+      https://huomalxq.github.io/study/data-analysis-agent/
+    直接关系：
+      简历直接写Philips问数Agent职责，主页Internship卡片和本人后端复盘呼应；复盘正文未写公司名
+    caveat：
+      无公开实现源码，本材料只能审职责与设计说明，不能称源码验证
+  - name：
+      Teco-RAG竞赛
+    原始来源：
+      https://huomalxq.github.io/study/teco-rag-project-summary/
+    直接关系：
+      CV获奖和本人站学习记录直接列出
+    caveat：
+      本分支未核竞赛官网，不将自述结果叫企业认证
+来源归纳：
+  硕士公开完整单页CV，近期Philips Agent应用工程实习对应LangGraph问数链路，职责具体到表结构检索、SQL校验与重试、耗时测试；履历指标为自述。Philips为跨国企业，不将其写成中国互联网大厂SSP。
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf
+      direct_basis：
+        Philips Agent开发实习生（苏州） 2026.03–2026.05
+      直接关系：
+        直接点名
+      gap：
+        本人公开履历自述，任职未企业独立核验，档位未披露
+    - 原始来源：
+        https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf
+      direct_basis：
+        上海诺基亚贝尔 后端开发/数据清洗实习生（杭州） 2023.09–2024.01
+      直接关系：
+        直接点名
+      gap：
+        本人公开履历自述，任职未企业独立核验，档位未披露
+  profile：
+    - 原始来源：
+        https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf
+      direct_basis：
+        固定来源完整专业模块；本地提供去联系方式副本
+      直接关系：
+        直接点名
+      gap：
+        副本不是未修改原件；不能证明是求职当时投递版本
+  project：
+    - 原始来源：
+        https://huomalxq.github.io/study/data-analysis-agent/
+      direct_basis：
+        简历直接写Philips问数Agent职责，主页Internship卡片和本人后端复盘呼应；复盘正文未写公司名
+      直接关系：
+        直接点名
+      gap：
+        企业/个人实现仅按已核范围；无公开实现时不补参考框架，未运行
+    - 原始来源：
+        https://huomalxq.github.io/study/teco-rag-project-summary/
+      direct_basis：
+        CV获奖和本人站学习记录直接列出
+      直接关系：
+        直接点名
+      gap：
+        企业/个人实现仅按已核范围；无公开实现时不补参考框架，未运行
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        未定位本人公开求职面经；项目开发复盘单列
+      直接关系：
+        未建立
+      gap：
+        未定位本人公开求职面经；项目开发复盘单列
+阅读建议：
+  硕士公开完整单页CV，近期Philips Agent应用工程实习对应LangGraph问数链路，职责具体到表结构检索、SQL校验与重试、耗时测试；履历指标为自述。Philips为跨国企业，不将其写成中国互联网大厂SSP。
+has_direct_named_project_or_contribution：
+  是
+personal_source_code_verified：
+  否
+direct_named_relationship_scope：
+  只表示本人履历/文档直接点名；不表示具体源码已审或求职因果成立
+局限与静态风险：
+  - 未披露SSP
+  - 没有本人求职面经
+  - 企业Agent项目没有公开源码
+  - 文中性能/召回指标未经本地复现
+  - 完整CV是实习之后公开版，不等于当时投递版
+  - 后训练科研项目不等于实习岗位全部要求
+source_record：
+  key：
+    huomalxq
+  作者：
+    林祥庆 / Huoma LXQ
+  方向：
+    Agent应用工程
+  home：
+    https://huomalxq.github.io/resume/
+  live_pdf：
+    https://huomalxq.github.io/assets/files/resume.pdf
+  仓库：
+    huomalxq/huomalxq.github.io
+  sha：
+    6b8add7398dcbf1f79fd4c850b0c0b047344bc4d
+  path：
+    docs/assets/files/resume.pdf
+  源码提交时间：
+    2026-06-15T06:03:59Z
+  modules：
+    - 教育经历
+    - 项目/科研经历
+    - 实习经历
+    - 获奖情况
+  逐项结果与档位：
+    - 公司：
+        Philips
+      方向与岗位：
+        Agent开发实习生（苏州）
+      time：
+        2026.03–2026.05
+      依据：
+        本人公开PDF和HTML均明确职位与时间；均无企业独立核验
+    - 公司：
+        上海诺基亚贝尔
+      方向与岗位：
+        后端开发/数据清洗实习生（杭州）
+      time：
+        2023.09–2024.01
+      依据：
+        本人PDF/HTML，历史经历不计近期
+  analysis：
+    硕士公开完整单页CV，近期Philips Agent应用工程实习对应LangGraph问数链路，职责具体到表结构检索、SQL校验与重试、耗时测试；履历指标为自述。Philips为跨国企业，不将其写成中国互联网大厂SSP。
+  本人项目与经历描述：
+    - name：
+        自然语言问数/数据分析Agent后端
+      原始来源：
+        https://huomalxq.github.io/study/data-analysis-agent/
+      直接关系：
+        简历直接写Philips问数Agent职责，主页Internship卡片和本人后端复盘呼应；复盘正文未写公司名
+      caveat：
+        无公开实现源码，本材料只能审职责与设计说明，不能称源码验证
+    - name：
+        Teco-RAG竞赛
+      原始来源：
+        https://huomalxq.github.io/study/teco-rag-project-summary/
+      直接关系：
+        CV获奖和本人站学习记录直接列出
+      caveat：
+        本分支未核竞赛官网，不将自述结果叫企业认证
+  局限：
+    - 未披露SSP
+    - 没有本人求职面经
+    - 企业Agent项目没有公开源码
+    - 文中性能/召回指标未经本地复现
+    - 完整CV是实习之后公开版，不等于当时投递版
+    - 后训练科研项目不等于实习岗位全部要求
+  fixed_pdf_url：
+    https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf
+  original_sha256：
+    5b81955d82f3fe3d0d609ef29ac12dd9a734e75295927a2277a7e2def0438bf6
+  source_status：
+    200
+  original_saved：
+    否
+  local_path：
+    03_简历与候选人案例/核心Agent履历_脱敏副本/huomalxq_公开简历_脱敏副本.pdf
+  redacted_sha256：
+    5f16d57d06c6c4055469a445066fb756f48da6e3c62aacb9f5d9e175b8a39ab3
+  pages：
+    1
+  professional_modules_complete：
+    是
+  packaging_type：
+    公开完整履历的整理者脱敏PDF副本，不是原始未修改文件
+  redaction：
+    operations：
+      - 移除首页教育模块之前的个人信息/联系区（含姓名）
+      - 删除所有可点击链接注释以清除隐藏联系方式
+      - 清除原始PDF元数据及XML元数据
+      - 扫描全页邮箱/电话/微信/地址标记
+      - 保留完整教育、经历、项目、论文、技能与专业其他模块（原文件有的全部保留）
+    redaction_regions：
+      1
+    removed_link_annotations：
+      1
+    visible_contact_email_or_phone_after：
+      否
+    image_or_qr_count：
+      0
+    visual_review：
+      单页完整渲染目视通过，教育/项目科研/实习/获奖全部完整可读，未见联系方式或二维码
+    visible_url_kinds：
+      页面原有的专业项目/论文/机构等可见文本可能保留；链接注释已全部移除；原来源/项目URL由JSON列明
+    professional_body_text_identical_after_header_removal：
+      是
+    page_link_annotations_after：
+      0
+    nonformat_metadata_fields_after：
+      —
+  outcome_grade：
+    未披露
+  enterprise_verified：
+    否
+  core_application_engineering_sample：
+    是
+  full_core_internship_resume_gap_closed：
+    否
+  is_full_public_profile：
+    是
+  complete_as_published：
+    是
+  resume_file_format：
+    PDF
+  source_role_scope：
+    非中国互联网大厂，Philips应用工程实习
+  招聘类型：
+    实习
+  近期归类：
+    近期确认（作者自述）
+  specific_progress：
+    新增1份Agent应用工程成功实习完整公开CV；中国互联网大厂Agent SSP完整链仍未闭合
+  原始来源：
+    https://huomalxq.github.io/resume/
+  source_url：
+    https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf
+  履历材料形式：
+    完整公开PDF履历的脱敏专业模块副本
+  阅读范围：
+    固定PDF全部专业模块、本人公开HTML和相关项目文档核读
+  阅读建议：
+    硕士公开完整单页CV，近期Philips Agent应用工程实习对应LangGraph问数链路，职责具体到表结构检索、SQL校验与重试、耗时测试；履历指标为自述。Philips为跨国企业，不将其写成中国互联网大厂SSP。
+  局限：
+    - 未披露SSP
+    - 没有本人求职面经
+    - 企业Agent项目没有公开源码
+    - 文中性能/召回指标未经本地复现
+    - 完整CV是实习之后公开版，不等于当时投递版
+    - 后训练科研项目不等于实习岗位全部要求
+类别：
+  候选人资料
+事件时间／原文日期（依分类）：
+  Philips 2026.03–2026.05；上海诺基亚贝尔 2023.09–2024.01
+发表／来源日期：
+  2026-06-15T06:03:59Z
+未建立或未核的关系：
+  - 本人公开履历自述，任职未企业独立核验，档位未披露
+  - 副本不是未修改原件；不能证明是求职当时投递版本
+  - 企业/个人实现仅按已核范围；无公开实现时不补参考框架，未运行
+  - 未定位本人公开求职面经；项目开发复盘单列
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_confirmed_personal_interview_source：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否

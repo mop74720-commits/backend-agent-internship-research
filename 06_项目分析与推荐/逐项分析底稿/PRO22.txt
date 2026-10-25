@@ -1,0 +1,212 @@
+PRO22 | Distributed Key-Value Store：课程框架上的Raft/MVCC实现
+
+需求核对版 · 2026-10-24
+
+source_key：
+  shufengc/distributed-kv-store
+类别：
+  项目参考
+原始来源：
+  https://github.com/shufengc/distributed-kv-store/tree/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+作者：
+  shufengc及课程/第三方依赖作者
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    项目版本，非招聘事件
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  来源日期：
+    固定SHA，日期未独立核定
+  时间依据：
+    未写事件年
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    指定核心源码与README静态选读，范围见逐文件清单
+  实际观看视频：
+    否
+固定源码提交：
+  d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+逐项结果与档位：
+  —
+静态阅读发现：
+  - 状态：
+      已见实现
+    claim：
+      raft.go包含候选/Leader切换、投票、AppendEntries和多数派提交索引逻辑
+    file：
+      raft/raft.go
+    ranges：
+      - L253–333
+      - L488–532
+      - L722–952
+  - 状态：
+      已见实现
+    claim：
+      事务handler包含local latches、write conflict/lock检查、Prewrite的value/lock写入、Commit的write record与释放锁
+    file：
+      kv/server/server.go
+    ranges：
+      - L87–209
+  - 状态：
+      未核
+    claim：
+      未运行课程测试；未证明所有partition场景linearizability或独立实现比例；当前固定版本不自动代表2025腾讯投递时项目
+source_record：
+  name：
+    Distributed Key-Value Store
+  仓库：
+    shufengc/distributed-kv-store
+  sha：
+    d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+  原始来源：
+    https://github.com/shufengc/distributed-kv-store/tree/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+  类别：
+    TinyKV课程框架上的分布式系统实现
+  ownership：
+    README Acknowledgements明确基于PingCAP Talent Plan/TinyKV；网络模拟/测试框架/协议定义来自课程，作者自述实现Raft、raftstore、scheduler、事务；本轮仅核2核心文件存在实质实现，未逐diff审定全部独立贡献
+  许可标识：
+    LICENSE原文Apache-2.0已读取，不能把继承框架所有源码算个人原创
+  findings：
+    - 状态：
+        已见实现
+      claim：
+        raft.go包含候选/Leader切换、投票、AppendEntries和多数派提交索引逻辑
+      file：
+        raft/raft.go
+      ranges：
+        - L253–333
+        - L488–532
+        - L722–952
+    - 状态：
+        已见实现
+      claim：
+        事务handler包含local latches、write conflict/lock检查、Prewrite的value/lock写入、Commit的write record与释放锁
+      file：
+        kv/server/server.go
+      ranges：
+        - L87–209
+    - 状态：
+        未核
+      claim：
+        未运行课程测试；未证明所有partition场景linearizability或独立实现比例；当前固定版本不自动代表2025腾讯投递时项目
+  阅读范围：
+    后端进阶选读：先看课程任务边界，再看Raft quorum提交与MVCC prewrite/commit；不作为普通业务闭环/大厂SSP充分条件
+  附件：
+    name：
+      Distributed-Key-Value-Store
+    仓库：
+      shufengc/distributed-kv-store
+    sha：
+      d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+    许可标识：
+      Apache-2.0原文已读并原样保留；包含TinyKV继承框架，不能把全包认定为个人原创
+    类别：
+      TinyKV课程框架上的进阶系统实现，未运行测试
+    source_url：
+      https://codeload.github.com/shufengc/distributed-kv-store/zip/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+    source_http_status：
+      200
+    original_archive_sha256：
+      f52afbfd4b2692aebb25235be28f9baa502ff7d2c2f57d23ca3afd457d7e6529
+    original_archive_bytes：
+      1276660
+    original_archive_members：
+      351
+    original_crc：
+      全部成员通过CRC
+    original_saved：
+      否
+    archive_type：
+      固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP
+    execution：
+      未运行、未构建、未安装依赖、未调用模型/API
+    license_sha256：
+      1d1b1e95c6f5345385b0127350cbda7bdb8c1c5d676fc93380bae5583fbffcdf
+    license_unchanged：
+      是
+    retained_text_members：
+      254
+    omitted_members：
+      - path：
+          doc/imgs/balance1.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          doc/imgs/balance2.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          doc/imgs/keyspace.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          doc/imgs/multiraft.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          doc/imgs/overview.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          doc/imgs/region.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+    modified_text_members：
+      - path：
+          proto/include/google/protobuf/compiler/plugin.proto
+        email_pattern_replacements：
+          1
+        phone_pattern_replacements：
+          0
+        范围：
+          涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值
+      - path：
+          proto/include/google/protobuf/descriptor.proto
+        email_pattern_replacements：
+          2
+        phone_pattern_replacements：
+          0
+        范围：
+          涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值
+    credential_scan：
+      UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。
+    contact_scan：
+      除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。
+    functional_limit：
+      继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。
+    local_path：
+      05_项目源码归档/大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip
+    sha256：
+      962e2e97e5e563b1a379890069aba448cfed03ef80019f5072a9de71204daa93
+    bytes：
+      636645
+    members：
+      255
+    crc：
+      全部成员通过CRC
+    post_archive_privacy_scan：
+      通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息
+值得学习之处：
+  - raft.go包含候选/Leader切换、投票、AppendEntries和多数派提交索引逻辑
+  - 事务handler包含local latches、write conflict/lock检查、Prewrite的value/lock写入、Commit的write record与释放锁
+局限：
+  - 未运行课程测试；未证明所有partition场景linearizability或独立实现比例；当前固定版本不自动代表2025腾讯投递时项目
+  - README Acknowledgements明确基于PingCAP Talent Plan/TinyKV；网络模拟/测试框架/协议定义来自课程，作者自述实现Raft、raftstore、scheduler、事务；本轮仅核2核心文件存在实质实现，未逐diff审定全部独立贡献
+源码包文件：
+  大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip
+license_notes：
+  LICENSE原文Apache-2.0已读取，不能把继承框架所有源码算个人原创
+建议用途：
+  后端进阶选读：先看课程任务边界，再看Raft quorum提交与MVCC prewrite/commit；不作为普通业务闭环/大厂SSP充分条件

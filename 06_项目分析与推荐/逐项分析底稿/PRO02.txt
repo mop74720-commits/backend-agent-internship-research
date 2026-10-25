@@ -1,0 +1,162 @@
+PRO02 | SaaS短链接：读多写少与统计链路参考
+
+需求核对版 · 2026-10-24
+
+仓库：
+  nageoffer/shortlink
+原始来源：
+  https://github.com/nageoffer/shortlink
+方向与岗位：
+  后端
+阅读建议：
+  范围较清晰，适合学习热点缓存与异步统计
+技术栈：
+  - Java
+  - Spring Boot
+  - MySQL
+  - Redis
+  - Redis Streams
+值得学习之处：
+  - 跳转、更新、访问统计可分开测量
+  - 源码可见热点重建锁、读写锁、异步消费与幂等处理
+局限与静态风险：
+  - 教学项目同质化
+  - 只讲布隆过滤器和缓存穿透，无法体现独立贡献
+  - 热点变更、统计重复与失效策略仍需自己测量
+borrow：
+  借鉴访问路径与统计路径拆分，设计读接口缓存、异步审计和聚合报表。
+extend：
+  提供Zipf热点负载、缓存失效前后曲线、重复消息回放和数据核对脚本；说明一致性与延迟取舍。
+已定位阅读路径：
+  - project/src/main/java/com/nageoffer/shortlink/project/service/impl/ShortLinkServiceImpl.java
+  - project/src/main/java/com/nageoffer/shortlink/project/mq/consumer/ShortLinkStatsSaveConsumer.java
+interview_questions：
+  - 更新短链时旧缓存如何处理？
+  - PV重复计数与消息重复如何区分？
+  - 热点锁失效会有什么后果？
+商业与选择偏差：
+  作者付费课程/社群；不采信未经复现的性能宣传。
+取得源码ZIP：
+  是
+固定源码提交：
+  02da2983c9211928cb473bbbaac67b93f925c138
+源码提交时间：
+  2026-03-12T14:47:12Z
+许可标识：
+  Apache-2.0
+源码包文件：
+  nageoffer__shortlink__02da2983c921.zip
+源码包SHA-256：
+  0bffdf2e37ee1829136f12d566dedd307816ae61790c90adec597f2919a72652
+类别：
+  项目参考
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-03-12T14:47:12Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    比大平台范围集中，适合读热点缓存、访问链与异步统计的取舍。
+  指定模块：
+    - project/src/main/java/com/nageoffer/shortlink/project/service/impl/ShortLinkServiceImpl.java
+    - project/src/main/java/com/nageoffer/shortlink/project/mq/consumer/ShortLinkStatsSaveConsumer.java
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    未核Agent任务循环或工具恢复；可作为业务服务基础参考。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    nageoffer__shortlink__02da2983c921.zip
+  固定源码提交：
+    02da2983c9211928cb473bbbaac67b93f925c138
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否
+external_research_reviews：
+  P02：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        P02
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_候选人与观点项目.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        P02
+      type：
+        project
+      source_category：
+        05_参考项目
+      标题：
+        nageoffer/shortlink
+      source_url：
+        https://github.com/nageoffer/shortlink
+      source_card：
+        05_参考项目/P02.html
+      existing_id：
+        PRO02
+      decision：
+        duplicate
+      new_primary_project：
+        否
+      source_folder_modified：
+        否
+      reading_scope：
+        对照astra README/文档卡与旧包已有静态实现核读，未重复阅读全仓
+      状态：
+        相同仓库；既有主表与附件范围更深入
+      import_target：
+        existing_cross_reference
+      repo_identity：
+        nageoffer/shortlink
+      unique_value：
+        没有新增源码核读；保留上游宣传不能当本人实测与贡献的判断。
+      facts_boundary：
+        教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。
+      evidence_count_increment：
+        0

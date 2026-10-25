@@ -1,0 +1,15 @@
+{
+  "imageLoad": {
+    "all": 23,
+    "broken": 0
+  },
+  "pdfFilter": 9,
+  "nameSearch": 2,
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "alias": true,
+  "atlasSearch": 1,
+  "errors": []
+}

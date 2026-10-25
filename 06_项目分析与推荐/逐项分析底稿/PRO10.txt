@@ -1,0 +1,219 @@
+PRO10 | Casdoor：从候选人开源条目拆读身份与权限工程
+
+需求核对版 · 2026-10-24
+
+仓库：
+  casdoor/casdoor
+原始来源：
+  https://github.com/casdoor/casdoor
+方向与岗位：
+  Go后端／身份认证与授权
+阅读建议：
+  作为 Go 后端的权限模型、协议与开源测试参考；仅部署登录页不构成有深度的个人项目。
+技术栈：
+  - Go 1.25+
+  - React／TypeScript／Vite
+  - Yarn 1.x
+  - OAuth／OIDC／SAML 等身份协议
+  - Casbin
+  - XORM
+  - SQLite／MySQL／PostgreSQL
+值得学习之处：
+  - CV06 实际公开简历片段出现 Casdoor，能追到具体公开仓库，补齐此前只有链接的资料链。
+  - permission_enforcer 明确区分主体、资源、动作、domain、effect 和 permissionId，并用过滤加载减少不必要策略载入。
+  - 权限策略测试有具体预期数组和断言；前端 package.json 还列出 typecheck、lint 和 e2e 入口，可观察服务端与 UI 的测试分工。
+局限与静态风险：
+  - 认证平台的协议和身份提供商范围很大；全面重做会分散时间，接入 SDK 本身也不能证明理解认证与授权。
+  - 所选 permission_enforcer_test 只验证策略生成与 domain 的结构，不是完整 OAuth/OIDC、租户隔离或撤权端到端验证。
+  - 所选密钥生成测试主要生成并写入临时文件、检查错误，不能据此认定签名校验、轮换和协议安全均已覆盖。
+  - CV06 的片段是 2021 年经历，当前仓库含后来增加的 Agent／MCP 能力；二者不能混合，也不能补写被打码的个人职责。
+borrow：
+  围绕 permission_enforcer.go 的策略生成／过滤载入与对应单测阅读，再按需要延伸 token 处理；先弄清认证、授权与租户域边界。
+extend：
+  关注贡献证据：具体改动、测试断言、评审与维护。公开简历只证明出现项目条目，不等于其实现或贡献可被完整还原。
+已定位阅读路径：
+  - object/permission_enforcer.go
+  - object/permission_enforcer_test.go
+  - object/token_jwt_key.go
+  - object/token_jwt_key_test.go
+  - go.mod
+  - web/package.json
+静态阅读发现：
+  - path：
+      object/permission_enforcer.go
+    line_start：
+      30
+    line_end：
+      71
+    观察：
+      创建 Casbin Enforcer，设置 model／adapter，用 permissionId 过滤 p 规则，再载入运行时分组策略。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/casdoor/casdoor/blob/171f4dbafbab735dabfa37350aa4f432aaaf0713/object/permission_enforcer.go#L30-L71
+  - path：
+      object/permission_enforcer.go
+    line_start：
+      127
+    line_end：
+      154
+    观察：
+      把 users／groups／roles 与 resources／actions 组合，domain 存在时产生不同的策略元组。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/casdoor/casdoor/blob/171f4dbafbab735dabfa37350aa4f432aaaf0713/object/permission_enforcer.go#L127-L154
+  - path：
+      object/permission_enforcer_test.go
+    line_start：
+      22
+    line_end：
+      64
+    观察：
+      测试用户、组、角色及有 domain 的组，使用 reflect.DeepEqual 检查预期策略。
+    kind：
+      测试材料
+    原始来源：
+      https://github.com/casdoor/casdoor/blob/171f4dbafbab735dabfa37350aa4f432aaaf0713/object/permission_enforcer_test.go#L22-L64
+  - path：
+      object/token_jwt_key_test.go
+    line_start：
+      25
+    line_end：
+      65
+    观察：
+      三类密钥生成测试写入 t.TempDir，所选测试没有签名／验签或轮换断言。
+    kind：
+      测试覆盖边界
+    原始来源：
+      https://github.com/casdoor/casdoor/blob/171f4dbafbab735dabfa37350aa4f432aaaf0713/object/token_jwt_key_test.go#L25-L65
+测试材料与评测边界：
+  - 抽读策略生成单测和密钥生成测试；未运行 go test。
+  - 前端 scripts 声明 typecheck／lint／Cypress e2e；脚本存在不代表本次执行或所有环境能通过。
+  - 本次没有执行真实身份提供商回调、撤权、多租户、MFA 或协议兼容测试。
+运行依赖说明：
+  - go.mod 要求 Go 1.25.0；README 源码路径要求 Node.js 20 LTS、Yarn 1.x 和支持的数据库。
+  - Dockerfile 前端构建 Node 20.20.1、后端构建 Go 1.25.8；版本描述仅适用于固定快照。
+  - README 的 all-in-one 以 SQLite／样例数据供试用，提醒容器内数据随容器删除；Compose 路线使用 MySQL 并需调整数据库配置。
+cost：
+  本地源码分析无服务费用。自托管需要数据库和机器资源；外部短信／邮件／身份服务及官方托管可能收费，本次未调用或购买。
+recommended_for：
+  - 具备 Go 基础，希望理解身份、权限模型和有断言测试的学生
+  - 想以小范围 PR／回归测试形成开源协作材料的人
+not_recommended_for：
+  - 把套一个登录页或接 SDK 直接算成核心创新的人
+  - 没有协议基础却计划自行实现全部认证标准的人
+候选人与项目关系：
+  - candidate_id：
+      CV06
+    直接关系：
+      公开打码简历片段出现 Casdoor；无法还原具体 PR 或被遮挡职责。
+    录用因果边界：
+      历史字节 SSP 和其他 offer 为作者／转载方自述；不证明 Casdoor 贡献的独立录用作用。
+interview_evidence_ids：
+  - INT10
+  - INT12
+  - INT13
+interview_linkage：
+  主题映射为 Go／系统基础、项目真实性与权限边界；未发现这些面经明确询问 Casdoor。
+interview_questions：
+  - 认证成功之后，资源级授权为什么仍要独立检查？
+  - domain、组织、角色、组和 permissionId 分别解决什么问题？
+  - 策略生成单测与撤权后真实请求被拒绝的集成测试差在哪里？
+商业与选择偏差：
+  开源项目另有官方托管产品；本卡以公开代码为依据，不推荐付费托管。
+许可标识：
+  Apache-2.0
+license_scope：
+  根 LICENSE 原样保留；只对固定公共源码作许可识别，不认证外部身份服务条款。
+固定源码提交：
+  171f4dbafbab735dabfa37350aa4f432aaaf0713
+源码提交时间：
+  2026-10-22T14:56:02Z
+default_branch：
+  master
+取得源码ZIP：
+  是
+源码包文件：
+  casdoor__casdoor__171f4dbafbab.zip
+源码包SHA-256：
+  a7b082c753c686c5f4a6d315a88e5a3761a873bb5979f6367ff9fbc948999d2c
+运行验证范围：
+  未构建、未启动、未执行 Go／前端测试或真实身份验证。
+retrieved_date：
+  2026-10-23
+类别：
+  项目参考
+source_urls：
+  - https://github.com/casdoor/casdoor
+  - https://github.com/casdoor/casdoor/tree/171f4dbafbab735dabfa37350aa4f432aaaf0713
+  - https://api.github.com/repos/casdoor/casdoor
+inspection_boundary：
+  未构建、未启动、未执行 Go／前端测试或真实身份验证。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-10-22T14:56:02Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    按权限策略和测试模块精确选读；候选人具体贡献保留待核。
+  指定模块：
+    - object/permission_enforcer.go
+    - object/permission_enforcer_test.go
+    - object/token_jwt_key.go
+    - object/token_jwt_key_test.go
+Agent方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    仅作工具背后业务授权的配套材料，不列为已核Agent求职项目。
+  指定模块：
+    - object/permission_enforcer.go
+    - object/permission_enforcer_test.go
+    - object/token_jwt_key.go
+    - object/token_jwt_key_test.go
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    casdoor__casdoor__171f4dbafbab.zip
+  固定源码提交：
+    171f4dbafbab735dabfa37350aa4f432aaaf0713
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

@@ -1,0 +1,260 @@
+CV17 | 码间烟火录：25届Java多家SSP复盘，尚未找到本人代码仓库
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://juejin.cn/post/7461269186713321491
+supporting_urls：
+  - https://www.nowcoder.com/discuss/710535736860180480
+  - https://www.nowcoder.com/discuss/712641117967093760
+作者：
+  码间烟火录／小烟
+事件时间／原文日期（依分类）：
+  2024日常/暑期实习与秋招；具体轮次月日未核
+方向与岗位：
+  25届Java后端研发；2024实习与秋招，2025公开复盘
+结果自述：
+  第一人称自述；美团是SP，不是SSP；未独立核验公司、身份、offer或薪酬。
+evidence_excerpt：
+  25届Java后端研发岗，有一段美团日常实习一段淘天暑期实习，秋招拿到了字节ssp、快手ssp、淘天ssp、京东ssp、美团sp等offer
+资料形式：
+  跨站本人学习与求职复盘；不计新确认GitHub成功作者
+技术栈：
+  - Java
+  - SSM
+  - JUC
+  - JVM
+  - MySQL
+  - Redis
+  - Kafka/RocketMQ
+  - Zookeeper
+  - Dubbo
+  - 分布式
+本人项目与经历描述：
+  - 作者明确说先跟随小傅哥视频/手册，再优化技术并准备追问；具体项目名和本人源码未公开，不能把课程作者仓库当其本人实现。
+来源归纳：
+  未在已读两篇正文找到本人GitHub/项目代码直链；不计作新确认GitHub成功者。
+值得学习之处：
+  - 2024年两段实习到25届秋招的时间线较清楚
+  - 具体讨论锁超时、补偿、指标及项目不足
+建议用途：
+  补充近期Java实习→秋招路线与项目追问准备；和GitHub源码案例互相对照，不因SSP自述认定课程项目足以获得相同结果。
+局限：
+  - 没有本人代码仓库或完整CV
+  - 课程/知识星球推荐存在商业信息偏差，未独立证明收益
+  - 作者关于简历筛选和算法数量的意见仅是个人经验，不作为公司统一规则
+原访问范围：
+  掘金第一篇学习复盘正文、牛客第二篇技术与项目/实习/面试表达正文实际已读；未读总结图片、未采集评论或联系方式。
+证据边界：
+  B：正文已读，结果自述；本人仓库、完整CV和逐轮题目未确认
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    2024日常/暑期实习与秋招；具体轮次月日未核
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    时间边界待核
+  时间依据：
+    2024由现有履历角色说明；秋招可能跨2024-10-23起点，不能严格纳入近期。实习月日也未逐段锁定。
+  来源日期：
+    2025-01-19及2025-01-25公开复盘
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    掘金第一篇学习复盘正文、牛客第二篇技术与项目/实习/面试表达正文实际已读；未读总结图片、未采集评论或联系方式。
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      字节跳动
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://juejin.cn/post/7461269186713321491
+    依据：
+      第一人称自述；美团是SP，不是SSP；未独立核验公司、身份、offer或薪酬。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      快手
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://juejin.cn/post/7461269186713321491
+    依据：
+      第一人称自述；美团是SP，不是SSP；未独立核验公司、身份、offer或薪酬。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      淘天
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://juejin.cn/post/7461269186713321491
+    依据：
+      第一人称自述；美团是SP，不是SSP；未独立核验公司、身份、offer或薪酬。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      京东
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://juejin.cn/post/7461269186713321491
+    依据：
+      第一人称自述；美团是SP，不是SSP；未独立核验公司、身份、offer或薪酬。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      美团
+    档位：
+      SP
+    状态：
+      offer_self_report
+    证据：
+      https://juejin.cn/post/7461269186713321491
+    依据：
+      第一人称自述；美团是SP，不是SSP；未独立核验公司、身份、offer或薪酬。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  2025-01-19及2025-01-25公开复盘
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://juejin.cn/post/7461269186713321491
+      direct_basis：
+        第一人称自述；美团是SP，不是SSP；未独立核验公司、身份、offer或薪酬。
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://juejin.cn/post/7461269186713321491
+      direct_basis：
+        跨站本人学习与求职复盘；不计新确认GitHub成功作者
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://juejin.cn/post/7461269186713321491
+      direct_basis：
+        作者明确说先跟随小傅哥视频/手册，再优化技术并准备追问；具体项目名和本人源码未公开，不能把课程作者仓库当其本人实现。
+      直接关系：
+        直接点名
+      gap：
+        仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/712641117967093760
+      direct_basis：
+        25届Java SSP作者：锁超时、异步补偿与项目指标的追问复盘
+      直接关系：
+        直接点名
+      gap：
+        主题复盘非逐公司逐轮；没有本人源码，2025发表不等于2025面试
+      interview_id：
+        INT62
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  - 主题复盘非逐公司逐轮；没有本人源码，2025发表不等于2025面试
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  否
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否
+external_research_reviews：
+  R07：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        R07
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_候选人与观点项目.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        R07
+      type：
+        candidate
+      source_category：
+        02_简历与录用经历
+      标题：
+        我的秋招ssp总结（一）
+      source_url：
+        https://www.nowcoder.com/discuss/710535736860180480?sourceSSR=users
+      source_card：
+        02_简历与录用经历/R07.html
+      existing_id：
+        CV17
+      decision：
+        duplicate
+      new_primary_project：
+        否
+      source_folder_modified：
+        否
+      reading_scope：
+        旧包已读相关原文并有此牛客URL作补充来源；本轮对照来源关系
+      状态：
+        CV17同一作者第一篇，非新候选人
+      import_target：
+        existing_cross_reference
+      unique_value：
+        原文链接补显示；既有CV17及INT62已覆盖学习与技术追问。
+      facts_boundary：
+        美团SP不能算SSP；没有本人项目源码，不能把付费课程仓库当其本人贡献。
+      eligible_for_success_candidate_count：
+        否

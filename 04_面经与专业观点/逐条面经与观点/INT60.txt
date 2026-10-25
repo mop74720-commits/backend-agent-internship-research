@@ -1,0 +1,225 @@
+INT60 | CyC2018：从项目太浅的失败到头条SSP的本人多轮复盘
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+公司：
+  阿里／腾讯／虎牙／头条等；SSP仅头条明确
+方向与岗位：
+  历史后台研发
+事件时间／原文日期（依分类）：
+  2018春招/实习/秋招
+结果自述：
+  头条后台SSP、腾讯SP；不推定其他公司档位
+candidate_group：
+  CV15_CyC2018
+统计组：
+  混合批次或多公司汇总（单列）
+role_boundary：
+  同一固定全文从第一人称经历逐段叙述，未见转载他人面经的归属切换；可计本人春招/秋招复盘。不是逐字稿；多个轮次属于一个人，不计多个独立成功者。
+涉及主题：
+  - 项目深挖
+  - 微博Feed流
+  - 线程安全
+  - ThreadLocal
+  - ConcurrentHashMap
+  - 限流边界
+  - SQL索引
+  - Paxos
+  - 网络ET/LT
+  - 算法
+  - 实习优化
+原文提问（归纳）：
+  - 项目为何太浅，如何从微博时间线继续追问？
+  - 实习项目和开源博客的个人贡献如何讲清？
+  - 头条加面项目问题与SQL执行/索引如何定位？
+rounds：
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L37-L39
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      37
+    line_end：
+      39
+    内容归纳：
+      本人春招阿里：表达未切题、线程安全/ThreadLocal/函数式编程不足；失败复盘。
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L41-L47
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      41
+    line_end：
+      47
+    内容归纳：
+      本人腾讯春招多次面试：限流计数器边界、扫码、守护进程/信号/线程状态、任务调度；同时承认项目太浅。
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L49-L51
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      49
+    line_end：
+      51
+    内容归纳：
+      本人虎牙：微博时间线、ConcurrentHashMap、Spring与交流复盘。
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L95-L99
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      95
+    line_end：
+      99
+    内容归纳：
+      本人秋招阿里/阿里云：实习项目、开源博客、Paxos、信号量生产消费者与位运算；未将阿里云结果改为SSP。
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L107-L113
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      107
+    line_end：
+      113
+    内容归纳：
+      本人腾讯秋招：堆排序、二部图、网络触发模式、实习项目与交流；最终原文明言SP。
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L115-L117
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      115
+    line_end：
+      117
+    内容归纳：
+      本人头条SSP相关轮次：算法、SQL执行/索引、加面项目与最终结果。
+原访问范围：
+  固定历史求职复盘原文已读；保留6段定位，不计6个独立成功者
+fulltext_verified：
+  是
+建议用途：
+  优先读L33–51的失败与项目问题、L73–79改进，再读L115–117头条结果，避免只看成功结论。
+局限：
+  - 2018历史求职，当前网页快照为2020，不能直接当2026实习要求或当年简历原样。
+  - SSP、实习贡献、科研与性能结果都是作者自述，没有企业或实验独立认证。
+  - 公开HTML页没有教育模块，未取得经授权的完整CV原件；未打包页面或联系方式。
+  - 微博独立源码当前404，不能宣称已附成熟后端项目源码。
+  - 作者关于加面评级、薪酬、部门、工作时间和招聘流程的说法是历史个人认知，不能升级为当前企业统一规则。
+  - 不证明某个项目或某项技术单独导致SSP，也不是近期Agent成功案例。
+类别：
+  面经复盘
+retrieved_at：
+  2026-10-23
+证据边界：
+  B：本人公开记录；未经企业独立核验，阅读范围单列
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    2018春招/实习/秋招
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    2018年度复盘正文
+  来源日期：
+    2018年度复盘
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    固定历史求职复盘原文已读；保留6段定位，不计6个独立成功者
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      字节跳动/头条后台
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+    依据：
+      本人明确头条后台SSP、腾讯SP；不互换档位
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+  - 公司：
+      腾讯
+    档位：
+      SP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+    依据：
+      本人明确头条后台SSP、腾讯SP；不互换档位
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+  - 公司：
+      阿里
+    档位：
+      未披露
+    状态：
+      pending_offer_self_report
+    证据：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+    依据：
+      本人明确头条后台SSP、腾讯SP；不互换档位
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2018年度复盘
+面经形式：
+  同候选人多场汇总（不拆成独立候选人）
+候选人关联ID：
+  - CV15
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  mixed_or_overall_self_report
+related_record_ids：
+  —

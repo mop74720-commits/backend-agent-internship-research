@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "scope": "标准联网恢复后的窄补核：近期Agent应用/平台工程SSP本人自述，以及此前牛客667800837791461376空壳。未修改主表、未分配新ID。",
+  "method": {
+    "search": "两轮标准web搜索发现，公开原站requests正文验证；不根据搜索摘要判已录用。",
+    "date": "区分当前帖createdAt、编辑时间和事件年；2026届不倒推2025，2025编辑不把2024旧面试改成近期。",
+    "identity": "只使用当前公开署名核关系。当前作者与搜索缓存发生冲突时，不尝试还原匿名身份，不将其他账号项目/面经拼接。",
+    "privacy": "只保存职业技术事实与公开原帖定位，不保存联系方式、IP、评论者个人资料。",
+    "claims": "薪级均作者自述，非企业认证；观点性裁员/行业判断不提炼为事实。"
+  },
+  "verified_sources": [
+    {
+      "key": "OLD_SSP_667800837791461376",
+      "title": "我是怎么拿到中兴字节华为等10个SSP offer的",
+      "original_url": "https://www.nowcoder.com/discuss/667800837791461376",
+      "readable_url": "https://ac.nowcoder.com/discuss/667800837791461376",
+      "author": "在努力存钱的卡尔",
+      "public_author_id": "1030054897",
+      "access": {"status": 200, "selector": ".nc-post-content", "scope": "公开文字全文已读", "images_read": false},
+      "source_dates": {"published_utc": "2024-09-23T10:42:07+00:00", "updated_utc": "2024-11-14T09:17:22+00:00", "basis": "原页当前公开脚本createTime/updateTime，非猜测或Snowflake反推"},
+      "taxonomy": {"track": "算法对照", "recruitment": "校招", "event_date": "回顾去年秋招、今年7月入职；不据此补写确切年", "recent_status": "历史确认", "recent_basis": "首次发表2024-09-23已回顾录用与入职，早于本轮窗口2024-10-23；后续编辑不改变该上界。"},
+      "professional_summary": "自动化本硕、视觉与模式识别方向；文章回顾论文、竞赛与秋招选择，未给后端或Agent应用工程项目。OPPO、中兴的算法工程师SSP被单独明确提及；百度、快手亦自述SSP。其他公司在泛指总述内，没有逐一岗位说明。",
+      "outcomes": [
+        {"company": "OPPO", "role": "算法工程师", "grade": "SSP", "status": "offer自述", "basis": "第三部分直接指出首个offer的公司、算法工程师与SSP。"},
+        {"company": "中兴通讯", "role": "算法工程师", "grade": "SSP", "status": "offer并入职自述", "basis": "选择部分直接指出算法工程师SSP及7月入职。"},
+        {"company": "百度", "role": "未单独披露", "grade": "SSP", "status": "offer自述", "basis": "第三部分直接点百度和快手收到SSP邀请。"},
+        {"company": "快手", "role": "未单独披露", "grade": "SSP", "status": "offer自述", "basis": "同上。"},
+        {"company": "字节、华为等", "role": "未单独披露", "grade": "总述称近10家公司SSP", "status": "整体自述", "basis": "不能据此补各公司具体岗位、档位文件或一一因果。"}
+      ],
+      "project_or_interview_chain": {"resume_file": null, "personal_repository": null, "specific_interview_questions": null, "boundary": "只有通用表达和求职经历建议，没有可映射个人源码或逐轮技术问题。"},
+      "decision": "原先待访问已取得正文，应更新为已读且不适合作为近期后端/Agent工程核心样本；不为凑SSP数量新增核心候选。",
+      "remaining_unknowns": ["各公司岗位与档位原件未核。", "没有取得完整或脱敏简历、个人实现仓库。"]
+    },
+    {
+      "key": "AGENT_SSP_3fc0f728",
+      "title": "26届字节阿里ssp对27届说",
+      "url": "https://www.nowcoder.com/feed/main/detail/3fc0f728c1bb4a968d3942c9d1563c6f?sourceSSR=subject",
+      "access": {"status": 200, "selector": ".feed-content-text", "scope": "公开文字全文已读", "images_read": false},
+      "source_dates": {"published_utc": "2026-09-16T09:28:47+00:00", "edited_utc": "2026-09-16T16:24:42+00:00", "basis": "本帖uuid一致的contentData.createdAt/editTime。"},
+      "taxonomy": {"track": "Agent工程（仅作者宽泛自述）", "recruitment": "校招", "event_date": "秋招，实际年未知", "recent_status": "事件年份未知，来源发表近期", "boundary": "26届及2026发帖不自动证明2025或2026秋招的具体时间。"},
+      "claim_paraphrased": "正文自称有多段大厂实习，秋招8个头部公司offer都是SSP，方向为Agent开发；标题点名字节、阿里。",
+      "outcomes": [
+        {"company": "字节、阿里（标题），其余未点名", "role": "Agent开发，未细到团队/职责", "grade": "SSP自述", "status": "本人宽泛自述，非企业验证", "date": "实际秋招年未知", "boundary": "没有薪级文件、公司逐一对应、实习转正说明或offer书；不能认定为Agent实习SSP。"}
+      ],
+      "identity_discrepancy": {
+        "current_public_name": "匿名牛油",
+        "current_public_user_id": "1030037872",
+        "current_post_uuid": "3fc0f728c1bb4a968d3942c9d1563c6f",
+        "search_result_identity_differs": true,
+        "resolution": "搜索缓存与当前原页公开署名不一致，只能判断同人关系未建立；不据缓存恢复匿名身份，不将其他公开账号的历史面经绑定给此SSP原帖。"
+      },
+      "project_or_interview_chain": {"resume_file": null, "personal_repository": null, "specific_agent_interview_questions": null, "relation": "未建立"},
+      "decision": "保留SSP线索待核，不能升级为完整成功者项目链或近期明确实习样本。",
+      "remaining_unknowns": ["公司、招聘批次和实际发生时间的逐项关系。", "本人履历、项目职责、源码及Agent面经。", "当前公开署名与缓存冲突，无可靠跨账号关联。"]
+    },
+    {
+      "key": "SEPARATE_245578146_INTERVIEWS",
+      "author": "俊朗的铁猫希望被捞",
+      "public_author_id": "245578146",
+      "profile_url": "https://ac.nowcoder.com/profile/245578146",
+      "sources": [
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/aa577e014d674a0bb4aa8c5ed268a381?sourceSSR=subject",
+          "title": "字节暑期实习面经-三面",
+          "access": {"status": 200, "scope": "公开文字全文已读"},
+          "source_dates": {"published_utc": "2025-03-11T05:46:52+00:00", "edited_utc": "2025-03-11T05:47:43+00:00"},
+          "event_date": "未明确绝对年月日",
+          "role": "字节暑期实习，单篇未细岗位",
+          "questions_paraphrased": "围绕离开又选择字节、既往实习挫折和经历；另有二叉树与智力题。作者称一小时后约HR。",
+          "result": "进入HR，非正式offer或SSP证据",
+          "limit": "没有Agent项目追问，不能用作3fc0f728 SSP的本人面经。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/b01ce11a7fa947e9914e73177f8846af?sourceSSR=subject",
+          "title": "字节跳动实习后端开发面经-java",
+          "access": {"status": 200, "scope": "公开文字全文已读"},
+          "source_dates": {"published_utc": "2024-08-06T05:18:53+00:00", "edited_utc": "2025-09-01T08:14:55+00:00"},
+          "event_date": "单篇未写；原始发表已早于近期窗口",
+          "recent_status": "历史确认；不得用2025编辑时间升级近期",
+          "role": "Java后端实习",
+          "questions_paraphrased": "订单重复提交、Redis与Lua幂等、缓存模式、设计模式、网络和联合索引排查。作者在尾部称将入职。",
+          "questions_vs_answers": "问题、本人的当场回答、后来补入的缓存模式/HTTP知识解释混排；明确不能把解释段全称真实追问或成功答题记录。",
+          "result": "将入职自述，未披露档位",
+          "limit": "本人具体项目名/仓库未给；与匿名SSP帖子不建立关系。"
+        }
+      ],
+      "decision": "为审查身份冲突已读，保留独立来源；本轮不为扩量新增核心面经，不归Agent SSP。"
+    }
+  ],
+  "excluded_search_results": [
+    {"url": "https://www.codefather.cn/qa/1910137578681974786", "reason": "淘天与WXG实习offer选择，SSP是未来目标，不是已获SSP结果。"},
+    {"url": "https://modelers.csdn.net/69a556bb7bbde9200b9b7993.html", "reason": "搜广推转大模型算法、论文导向，不代替Agent应用/平台工程样本；本轮仅搜索发现未作正文核验。"},
+    {"url": "https://www.nowcoder.com/discuss/931945556920848384?sourceSSR=dynamic&weFlow=true", "reason": "泛薪资与备考观点，非作者已获岗经历；本轮未将其金额或SSP要求视为验证事实。"},
+    {"url": "https://adg.csdn.net/69533a6a5b9f5f31781bef4f.html", "reason": "中兴蓝剑算法岗投稿面经，出现定级环节不等于最终拿到SSP；非本轮工程目标。"}
+  ],
+  "search_log": [
+    {"path": "事件年和Agent自述限定", "queries": ["2026 Agent SSP 我 面经", "2025 Agent SSP 拿到", "667800837791461376", "Agent开发 SSP 项目 复盘"], "result": "读到旧受限原帖，并发现匿名Agent SSP自述。"},
+    {"path": "平台原文与作者回溯", "queries": ["26届字节阿里ssp对27届说", "俊朗的铁猫希望被捞 ssp", "Agent应用 SSP offer 复盘", "Agent平台 SSP 秋招 我", "2025 智能体 SSP 面经", "2026 Agent ssp GitHub offer"], "result": "原帖作者与缓存不一致，未找到可验证的本人项目/近期Agent面经关系；泛教程/算法结果不凑数。"}
+  ],
+  "counts": {
+    "previously_restricted_post_body_now_read": 1,
+    "new_agent_ssp_self_report_but_chain_incomplete": 1,
+    "new_confirmed_recent_agent_internship_ssp_complete_chain": 0,
+    "new_complete_resume_files": 0,
+    "new_personal_project_archives": 0
+  },
+  "remaining_gaps": ["近期Agent应用/平台工程SSP仍没有完成公司—批次—履历—项目—面经的直接链。", "没有找到新合格完整/脱敏简历或本人源码。", "本轮证明原先一个受限来源现可读，但其方向和时间不符合近期工程核心。"]
+}

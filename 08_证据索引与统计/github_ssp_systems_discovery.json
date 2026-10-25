@@ -1,0 +1,264 @@
+{
+  "retrieved_date": "2026-10-23",
+  "scope": "C++ / 系统 / 开源贡献方向的本人 SSP 自述、作者项目与面经关联核查",
+  "methodology": [
+    "仅将第一人称文章或本人仓库明确 SSP 自述计入；不把聚合仓库中第三方 SSP 标题算成仓库作者的结果。",
+    "SSP 仍是作者自述，无企业 offer 文件或其他独立认证；公司列表中未明确划定的级别不得分配到某家公司。",
+    "GitHub 源码与文档使用固定 commit 和逐行定位；牛客文章保留原网址、标题与短摘录，不存联系方式或全文。",
+    "分开记录本人 SSP、自述项目、完整源码、个人逐轮面经四种证据；同仓库出现某条面经不自动证明作者亲历。",
+    "历史校招案例仅用于提炼能力与项目设计取舍，不等同于 2026 年实习 JD 或企业 SSP 统一标准。"
+  ],
+  "access_status": {
+    "github_rest_search_calls_used": 3,
+    "further_search_stopped": "父代理通知 GitHub 网页 search 出现 429 secondary limit 后停止搜索；本阶段只读已发现 repo/API/raw 和牛客原文。",
+    "github_repo_api": "可访问",
+    "github_fixed_raw_files": "可访问；linyacool README 所链 面试问题.md 为 404，已核 tree 确认不存在",
+    "nowcoder_original_article": "可访问，https://www.nowcoder.com/discuss/147538 重定向至 https://www.nowcoder.com/discuss/353154787879362560",
+    "archives_downloaded_by_this_subtask": 0,
+    "build_or_runtime_validation": "未构建运行；本子任务只核来源、关联、源码存在和许可证。"
+  },
+  "counts": {
+    "first_person_ssp_cases": 2,
+    "cases_with_complete_public_project_source": 1,
+    "cases_with_verified_personal_round_by_round_interview_records": 0,
+    "cases_with_full_public_resume": 0,
+    "fully_closed_ssp_project_personal_round_interview_chains": 0
+  },
+  "cases": [
+    {
+      "id": "GSSP_SYS01",
+      "author_handle": "muluoleiguo",
+      "case_type": "2021 秋招第一人称 SSP 自述 + 同仓项目说明；本人逐轮面经与完整项目源码未闭环",
+      "year": 2021,
+      "ssp_evidence": {
+        "source_url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1",
+        "commit": "a462daeb32728eb27f5c154d0e715f4d9399915a",
+        "path": "README.md",
+        "line_start": 1,
+        "line_end": 3,
+        "excerpt": "2021年秋招……大厂收获了百度、阿里巴巴、字节跳动、网易等offer，有白菜也有sp和ssp……我最后选择了网易互娱广州游戏研发",
+        "verification": "作者本人仓库第一人称自述；未标哪家公司给 SSP，不能把全部公司或最终网易 offer 认定为 SSP。",
+        "candidate_level": "作者称本科生；属于历史校招结果，不是当前实习录用证据。"
+      },
+      "project_sources": [
+        {
+          "name": "Muluo Linux C++11 基础库",
+          "repo": "https://github.com/muluoleiguo/interview",
+          "commit": "a462daeb32728eb27f5c154d0e715f4d9399915a",
+          "relation_to_author": "README 第3行自称“我秋招的汇总资料”，第21行链接同仓“项目”；这是作者展示的求职项目材料，未找到独立完整 Muluo 代码仓库。",
+          "source": {
+            "path": "面试/项目/README.md",
+            "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/README.md#L1",
+            "line_start": 1,
+            "line_end": 35,
+            "summary": "声明日志、JSON、网络、RPC、协程等模块；为项目说明，不能替代完整源码。"
+          },
+          "inspect_paths": [
+            {
+              "path": "面试/项目/网络库/代码详解/connection.md",
+              "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E7%BD%91%E7%BB%9C%E5%BA%93/%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3/connection.md#L1",
+              "line_start": 1,
+              "line_end": 34,
+              "summary": "Connection 类片段：连接状态回调、输入输出缓冲区及连接生命周期。"
+            },
+            {
+              "path": "面试/项目/日志库/你做过性能测试吗(Webbench).md",
+              "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E6%97%A5%E5%BF%97%E5%BA%93/%E4%BD%A0%E5%81%9A%E8%BF%87%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%90%97%28Webbench%29.md#L64",
+              "line_start": 64,
+              "line_end": 84,
+              "summary": "MuLog 单线程/多线程写日志的作者记录表格，未运行复现。"
+            },
+            {
+              "path": "面试/项目/日志库/你做过性能测试吗(Webbench).md",
+              "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E6%97%A5%E5%BF%97%E5%BA%93/%E4%BD%A0%E5%81%9A%E8%BF%87%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%90%97%28Webbench%29.md#L93",
+              "line_start": 93,
+              "line_end": 109,
+              "summary": "作者记录 echo Server 加日志后的 QPS 影响；需独立核测试脚本、硬件和统计口径。"
+            }
+          ],
+          "full_source_status": "仅核到项目描述、代码解释片段和部分练习源码；未定位独立完整 Muluo 可构建项目，不记为完整源码。",
+          "license": {
+            "root_license": null,
+            "status": "GitHub license=null；tree 未见根总许可证，只有 Nginx、并发教程等引用子目录自己的 LICENSE。",
+            "archive_recommendation": "只存链接与短摘录；不得据子目录许可证推断整仓可再分发。"
+          },
+          "strengths": [
+            "把网络 IO、线程池、调度、定时器、日志与协议解析贯穿起来，适合观察系统基础如何在项目中体现。",
+            "除 API 清单外，还展示连接生命周期等类设计片段与性能讨论，可作为追问提纲。"
+          ],
+          "weaknesses": [
+            "仓库资料混有他人源码分析和题库；不能把所有模块都认定为独立原创成果。",
+            "项目完整源码、可重复构建入口和测试脚本未定位，无法确认模块实际集成程度。",
+            "性能数字属于作者记录，缺充分可复现实验上下文，不能作为当前性能承诺。"
+          ],
+          "recommended_use": "学习其模块分解与深挖路径，选少量自己能证明的能力；不照搬模块数量、吞吐数字或自称原创。"
+        }
+      ],
+      "interview_sources": [
+        {
+          "path": "面试/面试记录/网易/网易互娱/2021年面经/项目.md",
+          "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95/%E7%BD%91%E6%98%93/%E7%BD%91%E6%98%93%E4%BA%92%E5%A8%B1/2021%E5%B9%B4%E9%9D%A2%E7%BB%8F/%E9%A1%B9%E7%9B%AE.md#L1",
+          "line_start": 1,
+          "line_end": 17,
+          "summary": "含项目测试、难点、高并发、分布式锁、Linux 监控等提问。",
+          "first_person_status": "未证实作者亲历：文本有“我说了两个难点”，同时含 nowcoder jump 链接、未标原始作者；整仓自称汇总资料。只能按该仓收集的面经条目计。",
+          "can_count_as_author_personal_interview": false
+        }
+      ],
+      "relationship_strength": "本人 SSP 自述强；作者所展示的项目材料中；完整源码与本人面经链弱。",
+      "limits": [
+        "不能确定哪家 offer 为 SSP。",
+        "不能把已选择网易互娱等同于网易 SSP 证明。",
+        "没有完整公开简历；不能反推 GPA、实习、学校等未明确背景。",
+        "没有源码复现，也没有证明项目导致 SSP 的因果关系。"
+      ]
+    },
+    {
+      "id": "GSSP_SYS02",
+      "author_handle": "linyacool",
+      "author_display": "林亚 / 牛客原文账号当前显示“健康成长天线宝宝啊”",
+      "case_type": "本人历史 SSP 自述 + 本人正文指向完整 C++ 项目；逐轮面经缺失",
+      "year": null,
+      "source_date_note": "牛客页面显示 2020-03-04 22:59 已编辑；原始发布日期和具体 offer 年份未独立确认。GitHub 根 LICENSE 版权年 2018 只说明代码许可年份。",
+      "ssp_evidence": {
+        "source_url": "https://www.nowcoder.com/discuss/353154787879362560",
+        "legacy_url": "https://www.nowcoder.com/discuss/147538",
+        "title": "我的C++后台/基础架构岗位学习路线(offer大多是ssp",
+        "excerpt": "标题“offer大多是ssp”；正文“秋招拿到：字节跳动后台开发、网易游戏游戏研发、阿里云基础平台开发、华为、腾讯后台开发”。",
+        "verification": "文章作者第一人称自述，非企业独立验证；未划定哪家公司给 SSP。",
+        "locator": "文章标题、正文“秋招拿到”与“项目”小节；网页段落定位，不伪造源代码行号。"
+      },
+      "author_project_link_evidence": {
+        "source_url": "https://www.nowcoder.com/discuss/353154787879362560",
+        "section": "项目",
+        "linked_repo": "https://github.com/linyacool/WebServer",
+        "excerpt": "写了一个静态Web服务器，主要是找实习的时候用的，参考了muduo网络库。",
+        "strength": "强：SSP 自述同一篇作者正文直接给出项目链接，并明言本人完成；不依赖昵称猜测。",
+        "author_caution_excerpt": "千万不要把github里的描述直接写进简历，结果一问三不知。"
+      },
+      "project_sources": [
+        {
+          "name": "A C++ High Performance Web Server",
+          "repo": "https://github.com/linyacool/WebServer",
+          "commit": "7e18602f15c5c64e006091aa03e04b927c255983",
+          "commit_date": "2022-03-21T03:40:21Z",
+          "relation_to_author": "牛客第一人称“项目”段直接链接；同仓“项目目的.md”第4行称本人实习期间利用晚上和周末完成。",
+          "source": {
+            "path": "README.md",
+            "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/README.md#L7",
+            "line_start": 7,
+            "line_end": 51,
+            "summary": "C++11 静态 HTTP 服务：Reactor、epoll ET、线程池、长连接、流水线、异步日志、定时器。"
+          },
+          "inspect_paths": [
+            {
+              "path": "项目目的.md",
+              "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md#L3",
+              "line_start": 3,
+              "line_end": 21,
+              "summary": "解释项目动机、覆盖基础知识，并明确学习与借鉴 muduo。"
+            },
+            {
+              "path": "并发模型.md",
+              "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md#L3",
+              "line_start": 3,
+              "line_end": 32,
+              "summary": "One loop per thread、主从 Reactor、eventfd、队列唤醒与小根堆超时管理。"
+            },
+            {
+              "path": "WebServer/HttpData.cpp",
+              "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/WebServer/HttpData.cpp#L155",
+              "line_start": 155,
+              "line_end": 270,
+              "summary": "实际 HTTP 读处理和请求分析源码；源码存在核验，未运行。"
+            },
+            {
+              "path": "测试及改进.md",
+              "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E6%B5%8B%E8%AF%95%E5%8F%8A%E6%94%B9%E8%BF%9B.md#L3",
+              "line_start": 3,
+              "line_end": 31,
+              "summary": "披露测试环境、短/长连接、关闭日志与内存 Hello World 条件，以及 string Buffer 的不足。"
+            },
+            {
+              "path": "遇到的困难.md",
+              "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E9%81%87%E5%88%B0%E7%9A%84%E5%9B%B0%E9%9A%BE.md#L3",
+              "line_start": 3,
+              "line_end": 18,
+              "summary": "本人记录线程职责理解、减少竞态与 GDB 分析异步日志等开发困难。"
+            }
+          ],
+          "full_source_status": "已核固定 commit tree 共 206 个文件；包括 CMakeLists/build.sh、HTTP/epoll/EventLoop/线程池/定时器/异步日志源码、测试和内嵌 WebBench。具备完整公开源码结构；本子任务未下载或编译验证。",
+          "license": {
+            "root_license": "MIT",
+            "root_license_source": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/LICENSE#L1",
+            "embedded_component": "WebBench",
+            "embedded_component_license": "GPL-3.0，WebBench/LICENSE 第1–2行",
+            "embedded_license_source": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/WebBench/LICENSE#L1",
+            "archive_recommendation": "可供后续归档评估；若保存完整仓库，应原样保留根 MIT 和内嵌 WebBench GPLv3 许可证，不能把整个 ZIP 标成仅 MIT。"
+          },
+          "strengths": [
+            "本人成功经历到本人项目的来源链明确，且有源码、设计、测试、改进和开发困难材料。",
+            "能把 C++/RAII、线程、网络、协议、性能测试和调试连成可追问的工程过程。",
+            "主动承认 muduo 借鉴与 Buffer 性能不足，适合学习如何诚实区分复用、取舍和个人改进。"
+          ],
+          "weaknesses": [
+            "主要是静态 HTTP 基础库练习，不能替代含数据库、缓存、一致性、业务约束的现代业务后端项目。",
+            "工程与基线较旧：README 是 Ubuntu 14.04 / g++4.8；需要重新验证现代工具链兼容性。",
+            "性能实验用本机、关闭日志、内存 Hello World，缺生产负载、尾延迟、资源成本与故障条件；作者 QPS 不可直接复用。",
+            "README 的“面试问题.md”链接在固定 tree 中不存在，不能把该未读死链作为面经证据。"
+          ],
+          "recommended_use": "作为 C++ 系统基础与实验方法对照材料；学习其透明基线、设计取舍和改进记录，另行补业务能力、可重复压测与异常条件。"
+        }
+      ],
+      "interview_sources": [
+        {
+          "url": "https://www.nowcoder.com/discuss/353154787879362560",
+          "type": "本人学习与求职复盘",
+          "first_person_status": "本人自述成立，讨论 C++、网络、Linux、Redis/leveldb、算法与项目准备；不是逐轮逐问记录。",
+          "can_count_as_author_personal_round_interview": false
+        },
+        {
+          "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md",
+          "type": "README 所链文档",
+          "status": "404；fixed commit tree 无该路径",
+          "can_count_as_interview_material": false
+        }
+      ],
+      "relationship_strength": "本人 SSP 与本人完整项目链强；项目开发复盘强；逐轮面经与正式简历不足。",
+      "limits": [
+        "无法给字节、腾讯等逐一指定 SSP 级别。",
+        "历史秋招结果不证明当前实习招聘门槛；项目用于找实习，文章所列 offer 则为秋招，需保留时间/岗位区别。",
+        "没有完整公开简历，文章书单和刷题量不能等同于因果性 SSP 要求。",
+        "未运行构建或性能复现，源码存在不等同于现代环境直接可运行。"
+      ]
+    }
+  ],
+  "rejected_or_incomplete_candidates": [
+    {
+      "repo": "https://github.com/KyelYang/c-plus-Interview",
+      "status": "不得计为仓库作者本人 SSP",
+      "reason": "README 自称 C++ 面试资料整理，含第三方牛客/知乎文章链接；“offer 大多是 ssp”指向 linyacool 原作者文章，不能转给聚合者。"
+    },
+    {
+      "repo": "https://github.com/qinguoyi/TinyWebServer",
+      "status": "本轮未找到本人 SSP 自述",
+      "reason": "已读 README 未检出 SSP/offer/秋招/面经的本人结果；热门项目本身不能当作者 SSP 证明。"
+    },
+    {
+      "repo": "https://github.com/linw7/Skill-Tree",
+      "status": "本轮未找到本人 SSP 自述",
+      "reason": "README 只有准备秋招与学习总结，不支持 SSP 结果。"
+    },
+    {
+      "repo": "https://github.com/huihut/interview",
+      "status": "本子任务不计入，由父代理另核本人博客",
+      "reason": "此处已读 README 的面经为第三方链接；仅凭聚合 README 无法认定作者本人 SSP，父代理继续找一手结果文章。"
+    },
+    {
+      "repo": "https://github.com/shpilu/cloriSearch",
+      "status": "仅搜索候选，未核验",
+      "reason": "网页检索命中广告检索引擎，但尚未读本人 SSP 原文；停止搜索后不继续扩散，不能计入。"
+    }
+  ],
+  "packaging_note": "本文件仅存来源、短摘录和审慎分析；没有下载 ZIP，没有新增完整简历，没有复制联系方式，未改动主 manifest/报告。"
+}

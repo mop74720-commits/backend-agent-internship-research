@@ -1,0 +1,188 @@
+外部调研合并当前口径（2026-10-24）
+239条逻辑证据；33份JD线索，其中24份工程JD全文进入要求比较；34份候选人分析；99份面经（92全文、7部分）；25项目、375维比较；25份源码附件（16原始ZIP＋9文本/选读包）。
+核心完整脱敏专业履历5；研究/Infra完整履历对照3另列。本次完整履历与源码附件均新增0，所有项目仍未运行。
+64张外部卡逐条处理：46条新增＋13条重复补核＋4条手动入口＋1条商业背景。新增为14JD、20面经、3候选人、1候选对照、2专业原文、2B站图文选读、4官方文档。
+明确实习面经64份；严格近期实习15份（工程方向14＋AI Infra对照1）；实习事件年未知48份；辅助“近期发表但事件年未知”13份不混入严格近期组。
+B站图文全文2篇、另新增选读2篇；知乎正文全文3篇；视频/字幕0。平台外原文、官方文档、教学示例及卖方介绍分别标注；同作者多篇不当多位独立专家。
+SSP候选人自述16、公司明确11；本次没有新增SSP成功者。年份、结果、本人贡献和来源范围分别核对；教学200+/xx%示例不当真实项目指标。
+原astra目录保留原样，4份源JSON另存来源快照；五类仓库材料只作文档参考，不增加25项目实现比较分母，不导入两套项目设计或16周路线。个人项目设计继续暂缓。
+当前统计：需求覆盖统计.json；合并映射：astra合并_实施映射.json；待手动链接74。原目标完成状态及回执保留；本次54项交付检查、60项浏览器检查通过；3859个本地链接与锚点无断链。27页PDF与当前HTML/CSV统计一致，已目视抽查第1、2、14、27页。原astra目录138个文件的路径、大小及SHA-256均与合并前一致。
+
+以下保留各轮历史快照，不能代替以上当前口径：
+
+持续补证最新口径（2026-10-23）
+193逻辑证据；31候选人；79面经；25项目；25源码ZIP。
+核心完整脱敏专业履历5；研究/Infra对照3，未修改原件0。
+B站图文2、知乎正文3、视频0；平台题库不计真实面经。
+严格近期实习面经11，发表近期事件年未知13，校招新3篇另列。
+当前统计需求覆盖统计.json、进展持续补证统计.json。本轮调研动作已完成，资料覆盖缺口另列；见目标完成回执.json。
+
+以下为前轮历史方法说明，不作为当前统计：
+
+需求核对版最新口径（2026-10-23）
+最新统计：需求覆盖统计.json；统一报告：01_调研报告/需求核对与阅读优先级.html。
+146逻辑记录；21候选人分析；63面经（57全文、6部分）；19项目；16ZIP；完整CV文件0。
+明确实习40；事件时间明确近期8；实习事件年未知31；辅助近期发表事件年未知9。
+B站实际观看0、知乎本体正文0；官网替代全文1、选读1；另补官方原文2。
+结果、个人贡献、源码快照和实际运行分开；全部项目未运行；个人项目设计暂缓。
+
+以下均为历史轮次快照，不能代替最新统计：
+
+以下为上轮信息搜集快照；最新数量见文末GitHub SSP更新。
+本包共109条逻辑资料；同原文可在不同类别交叉引用，不代表独立样本。
+招聘JD19；候选人资料9；面经资料48；B站/知乎7；项目分析13；官方技术参考10；候选人对照2；检索导航1。
+本轮新增29条面经均读取具体正文；其余旧条目按原访问说明。新增分组见本轮增补统计.json，主题频次只作资料检索。
+结果均为作者自述；同作者、多场及历史材料分别标注。不用项目存在性推断录用因果。
+JD工程分母仍14，其中部分员工招募帖身份未独立核验；要求、偏好和职责的提及不等于统一硬门槛。
+视频仍仅标题/简介；OP05作者官网正文可读不等于知乎本体已读。
+个人项目设计暂缓。
+
+GitHub SSP后续更新：
+{
+  "date": "2026-10-23",
+  "scope": "GitHub SSP作者、项目与面经专项；个人项目设计暂缓",
+  "core_profiles_reviewed": 5,
+  "new_candidate_profiles": 4,
+  "existing_candidate_strengthened": 1,
+  "new_project_analysis": 4,
+  "new_source_archives": 4,
+  "new_interview_material_records": 3,
+  "new_weak_counterexample": 1,
+  "engineering_priority_profiles": [
+    "CV02",
+    "CV10",
+    "CV11"
+  ],
+  "partial_engineering_profile": [
+    "CV12"
+  ],
+  "historical_algorithm_adjacent_profile": [
+    "CV13"
+  ],
+  "weak_algorithm_self_report": [
+    "OBS03"
+  ],
+  "recent_agent_ssp_with_mature_project_and_personal_interview_chain": 0,
+  "totals": {
+    "candidate_cases": 13,
+    "interview_material_records": 51,
+    "project_analysis": 17,
+    "source_archives": 16,
+    "logical_evidence_records": 121
+  },
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 13,
+    "面经复盘": 51,
+    "B站与知乎": 7,
+    "项目参考": 17,
+    "官方技术资料": 10,
+    "候选人对照": 3,
+    "检索导航": 1
+  },
+  "caution": "同作者同原文跨类别交叉引用不等于独立样本；SSP均为作者自述，完整成功者CV和企业独立核验数量仍为0。"
+}
+
+GitHub SSP第二轮最新更新：
+{
+  "date": "2026-10-23",
+  "scope": "第二轮扩搜；不保证穷尽",
+  "new_confirmed_github_ssp_self_report_authors": 3,
+  "new_backend_authors": [
+    "CV14",
+    "CV15"
+  ],
+  "new_adjacent_algorithm_author": "CV16",
+  "new_cross_platform_java_reference": "CV17",
+  "new_interview_records": 4,
+  "new_interview_channel_counterexample": "OBS04",
+  "public_html_profiles_read": 1,
+  "complete_cv_originals_authorized_for_packaging": 0,
+  "new_source_archives": 0,
+  "recent_agent_ssp_offer_mature_personal_project_and_interview_chain_confirmed": 0,
+  "totals": {
+    "candidate_cases": 17,
+    "interview_material_records": 55,
+    "project_analysis": 17,
+    "source_archives": 16,
+    "logical_evidence_records": 130
+  },
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 17,
+    "面经复盘": 55,
+    "B站与知乎": 7,
+    "项目参考": 17,
+    "官方技术资料": 10,
+    "候选人对照": 4,
+    "检索导航": 1
+  },
+  "boundary": "未检得不等于不存在；面试通道不是offer；同源多轮不是独立成功者；录用与贡献均自述。"
+}
+
+GitHub SSP第三轮最新更新：
+{
+  "date": "2026-10-23",
+  "scope": "第三轮扩搜；未穷尽",
+  "new_candidate_self_reports": 2,
+  "new_interview_records": 1,
+  "new_project_analysis": 1,
+  "new_source_archives": 0,
+  "strengthened_existing_ids": [
+    "CV05",
+    "PRO09"
+  ],
+  "manual_access_links": 11,
+  "recent_agent_complete_chain": "本轮未新增已核实案例；不能推断不存在",
+  "totals": {
+    "candidate_cases": 19,
+    "interview_material_records": 56,
+    "project_analysis": 18,
+    "source_archives": 16,
+    "logical_evidence_records": 134
+  },
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 19,
+    "面经复盘": 56,
+    "B站与知乎": 7,
+    "项目参考": 18,
+    "官方技术资料": 10,
+    "候选人对照": 4,
+    "检索导航": 1
+  },
+  "boundary": "SP/SSP混合结果不逐家公司指定档位；实习转正与秋招分开；未读链接不计录用成功；PR合并不证明SSP因果。"
+}
+
+GitHub SSP第四轮最新更新：
+{
+  "date": "2026-10-23",
+  "scope": "第四轮继续搜集，不保证穷尽",
+  "new_candidates": 2,
+  "new_historical_guest_ssp_self_report": 1,
+  "new_non_ssp_project_interview_case": 1,
+  "new_interview_records": 7,
+  "new_project_analysis": 1,
+  "new_source_archives": 0,
+  "manual_access_links_new": 10,
+  "manual_access_links_total": 21,
+  "totals": {
+    "candidate_cases": 21,
+    "interview_material_records": 63,
+    "project_analysis": 19,
+    "source_archives": 16,
+    "logical_evidence_records": 144
+  },
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 21,
+    "面经复盘": 63,
+    "B站与知乎": 7,
+    "项目参考": 19,
+    "官方技术资料": 10,
+    "候选人对照": 4,
+    "检索导航": 1
+  },
+  "boundary": "本轮仅新增1位历史署名来稿中的SSP自述；不是新核实的近期Agent SSP完整链。失败面经、意向书、普通offer和SSP分别标注，未保证检索穷尽。",
+  "method": "第四轮转向GitHub署名来稿、个人面经目录、固定源码与Agent原帖追源；实际并行代理执行服务失败后由根代理接手。联网搜索连接器一次返回空错误，随后使用公开requests GET。未付费、未联系作者、未运行第三方项目。"
+}

@@ -1,0 +1,105 @@
+INT12 | 27双非本—腾讯IEG游戏安全后台实习面经
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true
+事件时间／原文日期（依分类）：
+  2025-09-26 offer；2025-10-04复盘
+方向与岗位：
+  Go后台日常实习，兼问Agent
+公司：
+  腾讯
+结果自述：
+  自述正式offer
+涉及主题：
+  - 项目深挖/个人贡献
+  - 编程语言/并发
+  - 网络/操作系统
+  - 数据库/缓存
+  - 系统设计/取舍
+  - Agent循环/工具
+  - 算法/编程
+原文提问（归纳）：
+  - K8S与Casbin RBAC实习做了什么？
+  - Go调度、网络IO、Raft、LSM分别是什么？
+  - Agent与模型、LangChain与LangGraph、Function Call与MCP怎样区分？
+内容归纳：
+  具有后端底座与Agent广度的成功自述。依赖前段实习、语言与系统基础，不应包装成只做Agent项目即可拿offer。
+原访问范围：
+  正文可读
+证据边界：
+  B：候选人自述；职业标签不独立证明
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  面试与项目自测参考
+统计组：
+  明确实习面经
+role_boundary：
+  依role字段限定
+root_recheck：
+  研究中曾读全文；后续部分请求只返回动态页面空壳，访问可能不稳定。
+类别：
+  面经复盘
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    2025-09-26 offer；2025-10-04复盘
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    原记录明确2025年和09-26收到offer
+  来源日期：
+    2025-10-04发布
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文可读
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      腾讯
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true
+    依据：
+      自述正式offer
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-10-04发布
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  - CV09
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+结果分类：
+  offer_self_report
+related_record_ids：
+  —
+fulltext_verified：
+  是

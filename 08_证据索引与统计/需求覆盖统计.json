@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "priority": "近期实习优先",
+  "recent_window": {
+    "start": "2024-10-23",
+    "end": "2026-10-23",
+    "inclusive": true
+  },
+  "totals": {
+    "logical_evidence_records": 239,
+    "candidate_cases": 34,
+    "interview_materials": 99,
+    "projects": 25,
+    "source_archives": 25,
+    "fixed_link_only": 0,
+    "jd_leads": 33,
+    "engineering_jd_fulltext": 24,
+    "platform_opinion_records": 15,
+    "additional_primary_texts": 5,
+    "manual_links": 74,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9
+  },
+  "candidate_coverage": {
+    "total": 34,
+    "track": {
+      "后端": 20,
+      "混合": 9,
+      "算法对照": 2,
+      "Agent工程": 3
+    },
+    "recruitment": {
+      "校招": 7,
+      "混合": 8,
+      "实习转正": 2,
+      "未知": 3,
+      "实习": 14
+    },
+    "recent_status": {
+      "近期确认": 14,
+      "年份未知": 8,
+      "历史确认": 11,
+      "时间边界待核": 1
+    },
+    "reading_scope": {
+      "全文": 26,
+      "部分": 8
+    },
+    "fulltext_count": 26,
+    "profile_type": {
+      "已读简历图片片段": 2,
+      "经历/求职自述（非简历原件）": 17,
+      "面经中的局部履历": 2,
+      "公开HTML履历页（缺教育模块）": 1,
+      "2019历史TeX履历专业内容": 1,
+      "本人GitHub公开履历片段": 1,
+      "完整公开HTML履历的脱敏专业模块副本": 1,
+      "完整公开PDF履历的脱敏专业模块副本": 2,
+      "职业经历自述": 1,
+      "面经与职业经历片段": 1,
+      "本人专业经历复盘": 1,
+      "完整公开HTML职业履历的脱敏专业模块转录": 1,
+      "本人专业主页履历片段，缺完整教育模块且未发现CV/PDF直链": 1,
+      "本人站公开完整PDF专业模块脱敏副本": 1,
+      "面经中的局部履历；无完整CV": 1
+    },
+    "complete_cv_files_received": 0,
+    "cv_files_licensed_for_redistribution": 0,
+    "actual_resume_fragments_read": 2,
+    "public_html_profile_pages_read": 1,
+    "historical_tex_profile_sources_read": 1,
+    "interview_profile_excerpts": 2,
+    "ssp_claim_cases": 16,
+    "ssp_company_explicit_cases": 11,
+    "confirmed_personal_interview_source_cases": 19,
+    "all_recruitment_offers_independently_employer_verified": 0,
+    "denominator_note": "候选人分析卡包含历史和混合方向，不是同等质量的完整简历。完整脱敏专业履历单独计；研究/Infra三份对照不纳此分母。",
+    "ssp_company_explicit_guest_article_cases": 1,
+    "ssp_company_explicit_excluding_CV20_guest_article": 10,
+    "source_attribution_note": "CV20为第三方收录署名来稿；CV06经技术站点发布/转载。排除CV20后10份为公司明确SSP自述，不等于全部由作者原账号发布，也不是证据等级计分。",
+    "complete_redacted_cv_files_received": 5
+  },
+  "interview_coverage": {
+    "total": 99,
+    "track": {
+      "Agent工程": 36,
+      "后端": 50,
+      "混合": 10,
+      "算法对照": 3
+    },
+    "recruitment": {
+      "实习": 64,
+      "未知": 16,
+      "校招": 13,
+      "混合": 6
+    },
+    "recent_status": {
+      "年份未知": 71,
+      "近期确认": 21,
+      "历史确认": 6,
+      "时间边界待核": 1
+    },
+    "reading_scope": {
+      "全文": 92,
+      "部分": 7
+    },
+    "fulltext_count": 92,
+    "strict_recent_explicit_internship_count": 15,
+    "strict_recent_explicit_internship_ids": [
+      "INT10",
+      "INT12",
+      "INT20",
+      "INT22",
+      "INT24",
+      "INT28",
+      "INT42",
+      "INT47",
+      "INT68",
+      "INT77",
+      "INT85",
+      "INT91",
+      "INT93",
+      "INT101",
+      "INT106"
+    ],
+    "explicit_internship_all_years_count": 64,
+    "explicit_internship_event_year_unknown_count": 48,
+    "publication_recent_event_year_unknown_count": 13,
+    "publication_recent_event_year_unknown_ids": [
+      "INT06",
+      "INT07",
+      "INT09",
+      "INT11",
+      "INT15",
+      "INT16",
+      "INT19",
+      "INT25",
+      "INT26",
+      "INT27",
+      "INT71",
+      "INT73",
+      "INT81"
+    ],
+    "mixed_recruitment_count": 6,
+    "unconfirmed_recruitment_count": 16,
+    "result_status": {
+      "next_round_or_waiting_self_report": 10,
+      "unknown": 34,
+      "failure_self_report": 15,
+      "offer_self_report": 14,
+      "intention_self_report": 6,
+      "mixed_oc_and_failure_self_report": 1,
+      "no_followup_self_assessment": 1,
+      "mixed_intern_offer_and_campus_ssp": 1,
+      "mixed_or_overall_self_report": 9,
+      "rejected_self_report": 3,
+      "multiple_outcomes_self_report": 2,
+      "oc_self_report": 3
+    },
+    "material_type": {
+      "本人具体问题记录": 73,
+      "同候选人多场汇总（不拆成独立候选人）": 13,
+      "面经与整理/协作笔记混合": 4,
+      "本人总体/主题复盘（非逐轮原题）": 4,
+      "面试问题与部分事后解答混合": 5
+    },
+    "read_source_material_count": 99,
+    "denominator_note": "99份逻辑资料；不是独立候选人或成功人数；同作者和AI整理分别标注。",
+    "strict_recent_engineering_internship_ids": [
+      "INT10",
+      "INT12",
+      "INT20",
+      "INT22",
+      "INT24",
+      "INT28",
+      "INT42",
+      "INT47",
+      "INT68",
+      "INT77",
+      "INT85",
+      "INT91",
+      "INT93",
+      "INT101"
+    ],
+    "strict_recent_engineering_internship_count": 14,
+    "strict_recent_control_internship_count": 1
+  },
+  "job_coverage": {
+    "total": 33,
+    "track": {
+      "后端": 11,
+      "Agent工程": 13,
+      "混合": 4,
+      "算法对照": 5
+    },
+    "recruitment": {
+      "实习": 30,
+      "未知": 1,
+      "校招/实习混合": 2
+    },
+    "recent_status": {
+      "年份未知": 13,
+      "近期确认": 20
+    },
+    "reading_scope": {
+      "全文": 30,
+      "摘要": 3
+    },
+    "fulltext_count": 30,
+    "strict_recent_explicit_internship_count": 19,
+    "first_party_engineering_matrix_fulltext_count": 24
+  },
+  "opinion_coverage": {
+    "total": 15,
+    "track": {
+      "混合": 6,
+      "后端": 5,
+      "Agent工程": 4
+    },
+    "recruitment": {
+      "未知": 7,
+      "不适用": 8
+    },
+    "recent_status": {
+      "不适用": 15
+    },
+    "reading_scope": {
+      "摘要": 5,
+      "全文": 6,
+      "部分": 4
+    },
+    "fulltext_count": 6,
+    "actual_video_watched_count": 0,
+    "primary_bilibili_or_zhihu_full_content_verified_count": 5,
+    "author_original_fulltext_substitute_count": 1,
+    "author_original_selected_sections_substitute_count": 1,
+    "new_external_official_fulltexts": 2,
+    "zhihu_native_fulltexts_read": 3,
+    "bilibili_native_articles_read": 2,
+    "bilibili_articles_read_excluded": 1,
+    "new_native_source_authors": 1,
+    "identity_boundary": "HR身份仅自述；鱼皮有商业推广且一篇署名/叙述矛盾；OP13是可核教学内容作者，不升格企业面试官或生产团队。",
+    "native_authors_scope": "原平台5篇已读全文来自3位署名作者；同一作者多篇材料不当多位独立意见者。",
+    "primary_external_transcripts_selected": 1
+  },
+  "project_coverage": {
+    "projects": 25,
+    "source_archives": 25,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9,
+    "fixed_link_only": 0,
+    "executed_projects": 0
+  },
+  "new_qualifying_internship_chains_this_pass": 0,
+  "recent_agent_ssp_complete_chain_confirmed": 0,
+  "new_complete_cv_files_this_pass": 0,
+  "search_rounds_completed_per_gap": 2,
+  "remaining_gaps": [
+    "近期Agent SSP的具体岗位、招聘批次与本人履历/源码/面经关联仍不足。",
+    "已读B站图文和知乎正文按实际内容计入；视频/字幕未读仅为阅读范围，专业观点仍按背景、商业关系和技术依据分别评估。",
+    "部分实习面经事件年、项目源码与个人贡献范围仍缺；不能从编辑时间、第三方汇编或同账号仓库补齐。"
+  ],
+  "source_boundaries": {
+    "scope": "现有基础资料与本轮实际核读增量统一分类；研究/Infra履历对照另列。日期、结果、源码归属及正文阅读分别验证。",
+    "track_values": [
+      "后端",
+      "Agent工程",
+      "算法对照",
+      "混合",
+      "未知"
+    ],
+    "recruitment_values": [
+      "实习",
+      "实习转正",
+      "校招",
+      "社招",
+      "混合",
+      "未知"
+    ],
+    "date_precision_values": [
+      "完整日期",
+      "仅年份",
+      "仅月日",
+      "范围",
+      "未知"
+    ],
+    "recent_status_values": [
+      "近期确认",
+      "历史确认",
+      "年份未知",
+      "时间边界待核",
+      "不适用"
+    ],
+    "source_date_rule": "事件时间与发布/编辑/抓取/仓库commit时间分列。届别不作事件年；导航或搜索推定不作确认年。原文明确面试年，或既有date_certainty明确把原页面年份与具体时间线核对，才纳严格近期。",
+    "history_upper_bound_rule": "原文在近期窗口前已经发表并回顾结果，可认历史上界而不补确切年；year_confirmed=false不必等于近期未知。",
+    "year_confirmed_scope": "指experience_date_text所列至少一个明确专业经历/招聘事件的年，不保证同候选人每段经历与SSP结果同年；CV05尤其以2023录用为主事件，2026方向更新另述。",
+    "reading_rule": "全文/部分/摘要/未读依据实际access_level与既有核读范围，不把缺fulltext_verified当未读。全文限定一篇已定位公开文字正文，不代表整库答案审定、全部图片/视频或企业认证。",
+    "outcome_rule": "SSP/SP/其他公司档位、普通或未分档offer、意向/OC、进下一轮、失败自述/自评、未知均独立。普通offer指收到offer且档位未披露，不擅自判低薪普通档。",
+    "reliability_rule": "全部录用与履历仍为公开自述；GitHub合并PR只核贡献事实，不核录用因果。",
+    "personal_project_design": "继续暂缓"
+  },
+  "category_counts": {
+    "候选人资料": 34,
+    "官方技术资料": 14,
+    "本人项目文档": 1,
+    "观点范围对照": 1,
+    "面经复盘": 99,
+    "招聘JD": 33,
+    "候选人对照": 8,
+    "履历对照材料": 3,
+    "B站与知乎": 15,
+    "专业原文补充": 5,
+    "项目参考": 25,
+    "检索导航": 1
+  },
+  "current_round_summary": "外部64张卡逐条去重并核读；本轮新增14份招聘JD、20份面经复盘、3份候选人资料、1份候选人对照、2份专业原文补充、2份B站与知乎、4份官方技术资料。重复来源补核说明不重复计数；受限正文保留手动链接。个人项目设计继续暂缓。",
+  "new_complete_core_redacted_cvs_this_pass": 0,
+  "qualifying_chain_scope": "CV31完整Agent实习CV→本人项目直接链接；NoWorries仅14文件选读归档，Sprout为编排机制库。本人面经/SSP缺，未运行。",
+  "runtime_boundary": "全部项目静态阅读；性能/评测未复现。此为证据范围，不新增必须运行全部项目的验收要求。",
+  "current_pass": "外部调研核读合并",
+  "project_text_selection_archive_count": 4,
+  "updated_date": "2026-10-24",
+  "external_merge": {
+    "date": "2026-10-24",
+    "source_cards": 64,
+    "new_by_category": {
+      "招聘JD": 14,
+      "面经复盘": 20,
+      "候选人资料": 3,
+      "候选人对照": 1,
+      "专业原文补充": 2,
+      "B站与知乎": 2,
+      "官方技术资料": 4
+    },
+    "source_preservation": "通过：138个来源文件的路径、大小和SHA-256均与合并前一致",
+    "source_fingerprint_verified": true,
+    "project_document_references": 4,
+    "design_imported": false,
+    "new_resume_files": 0,
+    "new_project_source_archives": 0
+  }
+}

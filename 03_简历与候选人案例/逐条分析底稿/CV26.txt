@@ -1,0 +1,449 @@
+CV26 | 金蝶/讯飞Agent实习经历、360实习offer与多家公司项目深挖
+
+需求核对版 · 2026-10-24
+
+source_key：
+  AGENT_216541357
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+方向与岗位：
+  Agent工程实习
+结果自述：
+  360 收到offer自述；名创优品 后续汇总列为手上实习机会；九号公司 单篇OC；后续汇总称已拒绝；深信服 两轮后收到感谢信自述；小红书/百度 一面失败自述
+资料形式：
+  本人职业经历与面经自述，非完整简历
+履历材料形式：
+  面经与职业经历片段
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    正文仅写8月底离职、本周求职；事件年保留未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    事件年份未明确，不按发表年补写
+  来源日期：
+    九号公司原页contentData.createdAt=1787837524000，2026-08-27 UTC；只确认该篇发表时间。其余不能用推荐区第一条createTime拼接。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文读到上述5篇原站可见文字及offer汇总；作者主页直接列出这些原帖，非转载题库。
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      360
+    方向与岗位：
+      Agent开发实习
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    事件时间／原文日期（依分类）：
+      事件年未确认
+    证据：
+      https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+    依据：
+      同文先写三轮后OC，后文更新到已发offer；分别记录流程状态，最终自述为offer。
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      名创优品
+    方向与岗位：
+      Agent开发实习
+    档位：
+      未披露
+    状态：
+      mixed_or_overall_self_report
+    事件时间／原文日期（依分类）：
+      事件年未确认
+    证据：
+      https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+    依据：
+      单篇一面只说通过等待后续，不能把一面时点写为已收到正式offer。
+    boundary：
+      单篇一面只说通过等待后续，不能把一面时点写为已收到正式offer。
+    企业独立验证：
+      否
+  - 公司：
+      九号公司
+    方向与岗位：
+      Agent开发实习
+    档位：
+      未披露
+    状态：
+      declined_opportunity_self_report
+    事件时间／原文日期（依分类）：
+      事件年未确认
+    证据：
+      https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+    依据：
+      后续同作者汇总称九号机会已拒绝；不倒写单篇面试时状态
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      九号公司
+    方向与岗位：
+      Agent开发实习
+    档位：
+      未披露
+    状态：
+      intention_self_report
+    事件时间／原文日期（依分类）：
+      事件年未确认
+    证据：
+      https://www.nowcoder.com/feed/main/detail/c0b53fdd38e041d2bc779753d04ee2ce?sourceSSR=subject
+    依据：
+      本人九号公司单篇面经称OC；不提升为正式offer
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      深信服
+    方向与岗位：
+      Agent开发实习
+    档位：
+      不适用
+    状态：
+      failure_self_report
+    事件时间／原文日期（依分类）：
+      事件年未确认
+    证据：
+      https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject
+    依据：
+      作者猜测被横向，无法证明企业内部拒绝原因。
+    boundary：
+      作者猜测被横向，无法证明企业内部拒绝原因。
+    企业独立验证：
+      否
+  - 公司：
+      小红书
+    方向与岗位：
+      Agent开发实习
+    档位：
+      不适用
+    状态：
+      failure_self_report
+    事件时间／原文日期（依分类）：
+      事件年未确认
+    证据：
+      https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject
+    依据：
+      本人合并面经分别叙述两家一面失败；拒绝原因仍为自我复盘
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      百度
+    方向与岗位：
+      Agent开发实习
+    档位：
+      不适用
+    状态：
+      failure_self_report
+    事件时间／原文日期（依分类）：
+      事件年未确认
+    证据：
+      https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject
+    依据：
+      本人合并面经分别叙述两家一面失败；拒绝原因仍为自我复盘
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+      direct_basis：
+        360；同文先写三轮后OC，后文更新到已发offer；分别记录流程状态，最终自述为offer。
+      直接关系：
+        直接点名
+      gap：
+        公开自述，不证明项目导致录用
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+      direct_basis：
+        名创优品；单篇一面只说通过等待后续，不能把一面时点写为已收到正式offer。
+      直接关系：
+        直接点名
+      gap：
+        单篇一面只说通过等待后续，不能把一面时点写为已收到正式offer。
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+      direct_basis：
+        九号公司；后续同作者汇总称九号机会已拒绝；不倒写单篇面试时状态
+      直接关系：
+        直接点名
+      gap：
+        公开自述，不证明项目导致录用
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/c0b53fdd38e041d2bc779753d04ee2ce?sourceSSR=subject
+      direct_basis：
+        九号公司；本人九号公司单篇面经称OC；不提升为正式offer
+      直接关系：
+        直接点名
+      gap：
+        公开自述，不证明项目导致录用
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject
+      direct_basis：
+        深信服；作者猜测被横向，无法证明企业内部拒绝原因。
+      直接关系：
+        直接点名
+      gap：
+        作者猜测被横向，无法证明企业内部拒绝原因。
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject
+      direct_basis：
+        小红书；本人合并面经分别叙述两家一面失败；拒绝原因仍为自我复盘
+      直接关系：
+        直接点名
+      gap：
+        公开自述，不证明项目导致录用
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject
+      direct_basis：
+        百度；本人合并面经分别叙述两家一面失败；拒绝原因仍为自我复盘
+      直接关系：
+        直接点名
+      gap：
+        公开自述，不证明项目导致录用
+  profile：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+      direct_basis：
+        本人称有金蝶电商Agent、科大讯飞数据处理提效Agent两段实习。；多个同作者面经持续围绕自动建单、LangGraph自动切题、工具注册中心展开。
+      直接关系：
+        直接点名
+      gap：
+        仅职业经历片段，非完整简历
+  project：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/c0b53fdd38e041d2bc779753d04ee2ce?sourceSSR=subject
+      direct_basis：
+        科大讯飞：OCR/提单/筛选流程与LangGraph子图。
+      直接关系：
+        直接点名
+      gap：
+        企业内部项目，无公开实现源码；指标与职责限作者回忆
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/c0b53fdd38e041d2bc779753d04ee2ce?sourceSSR=subject
+      direct_basis：
+        金蝶：电商自动建单Agent、三层工具抽象与动态注册。
+      直接关系：
+        直接点名
+      gap：
+        企业内部项目，无公开实现源码；指标与职责限作者回忆
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject
+      direct_basis：
+        本人主页直接串联该面经
+      直接关系：
+        直接点名
+      gap：
+        提问为本人回忆；公司结果不可串用
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/c0b53fdd38e041d2bc779753d04ee2ce?sourceSSR=subject
+      direct_basis：
+        本人主页直接串联该面经
+      直接关系：
+        直接点名
+      gap：
+        提问为本人回忆；公司结果不可串用
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c?sourceSSR=subject
+      direct_basis：
+        本人主页直接串联该面经
+      直接关系：
+        直接点名
+      gap：
+        提问为本人回忆；公司结果不可串用
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject
+      direct_basis：
+        本人主页直接串联该面经
+      直接关系：
+        直接点名
+      gap：
+        提问为本人回忆；公司结果不可串用
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/1c425483516d4af1813d2dcdf98f4781?sourceSSR=users
+      direct_basis：
+        本人主页直接串联该面经
+      直接关系：
+        直接点名
+      gap：
+        提问为本人回忆；公司结果不可串用
+has_confirmed_personal_interview_source：
+  是
+interview_evidence_ids：
+  - INT72
+  - INT73
+  - INT74
+  - INT75
+  - INT76
+本人项目与经历描述：
+  直接关系：
+    同作者主页及面经直接点名企业实习项目
+  本人项目与经历描述：
+    - 科大讯飞：OCR/提单/筛选流程与LangGraph子图。
+    - 金蝶：电商自动建单Agent、三层工具抽象与动态注册。
+  仓库：
+    未核／无
+  metrics_boundary：
+    90%以上准确率、100多个工具均是面经中的被追问内容或作者自述；没有测试集、计算口径或源码，不标已独立验证。
+  gap：
+    企业项目无公开源码、无完整CV、无SSP证据。
+技术栈：
+  —
+来源归纳：
+  Agent项目追问优先精读，特别是宕机恢复重复提单、工具检索、错误经验污染、权限与效果证明；成功录用和具体问题的公司仍逐条区别。
+阅读建议：
+  Agent项目追问优先精读，特别是宕机恢复重复提单、工具检索、错误经验污染、权限与效果证明；成功录用和具体问题的公司仍逐条区别。
+局限与静态风险：
+  - 企业项目无公开源码、无完整CV、无SSP证据。
+source_record：
+  lead_key：
+    AGENT_216541357
+  作者：
+    杰尼龟准备秋招中
+  public_author_id：
+    216541357
+  profile_url：
+    https://ac.nowcoder.com/profile/216541357
+  primary_url：
+    https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject
+  标题：
+    金蝶/讯飞Agent实习经历、360实习offer与多家公司项目深挖
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  event_date：
+    正文仅写8月底离职、本周求职；事件年保留未知
+  event_year_confirmed：
+    否
+  严格近期明确实习：
+    否
+  发表／来源日期：
+    九号公司原页contentData.createdAt=1787837524000，2026-08-27 UTC；只确认该篇发表时间。其余不能用推荐区第一条createTime拼接。
+  逐项结果与档位：
+    - 公司：
+        360
+      方向与岗位：
+        Agent开发实习
+      状态：
+        收到offer自述
+      档位：
+        未披露
+      evidence：
+        同文先写三轮后OC，后文更新到已发offer；分别记录流程状态，最终自述为offer。
+    - 公司：
+        名创优品
+      方向与岗位：
+        Agent开发实习
+      状态：
+        后续汇总列为手上实习机会
+      档位：
+        未披露
+      boundary：
+        单篇一面只说通过等待后续，不能把一面时点写为已收到正式offer。
+    - 公司：
+        九号公司
+      方向与岗位：
+        Agent开发实习
+      状态：
+        单篇OC；后续汇总称已拒绝
+      档位：
+        未披露
+    - 公司：
+        深信服
+      方向与岗位：
+        Agent开发实习
+      状态：
+        两轮后收到感谢信自述
+      档位：
+        不适用
+      boundary：
+        作者猜测被横向，无法证明企业内部拒绝原因。
+    - 公司：
+        小红书/百度
+      方向与岗位：
+        Agent开发实习
+      状态：
+        一面失败自述
+      档位：
+        不适用
+  profile：
+    type：
+      面经与职业经历片段
+    facts：
+      - 本人称有金蝶电商Agent、科大讯飞数据处理提效Agent两段实习。
+      - 多个同作者面经持续围绕自动建单、LangGraph自动切题、工具注册中心展开。
+    complete_resume_file：
+      否
+  project_chain：
+    直接关系：
+      同作者主页及面经直接点名企业实习项目
+    本人项目与经历描述：
+      - 科大讯飞：OCR/提单/筛选流程与LangGraph子图。
+      - 金蝶：电商自动建单Agent、三层工具抽象与动态注册。
+    仓库：
+      未核／无
+    metrics_boundary：
+      90%以上准确率、100多个工具均是面经中的被追问内容或作者自述；没有测试集、计算口径或源码，不标已独立验证。
+    gap：
+      企业项目无公开源码、无完整CV、无SSP证据。
+  interview_keys：
+    - SANGFOR_14b2c379
+    - NINEBOT_c0b53fdd
+    - MINISO_f844a4ac
+    - XHS_BAIDU_e319aadc
+    - IFLYTEK_1c425483
+  阅读范围：
+    全文读到上述5篇原站可见文字及offer汇总；作者主页直接列出这些原帖，非转载题库。
+  阅读建议：
+    Agent项目追问优先精读，特别是宕机恢复重复提单、工具检索、错误经验污染、权限与效果证明；成功录用和具体问题的公司仍逐条区别。
+类别：
+  候选人资料
+事件时间／原文日期（依分类）：
+  正文仅写8月底离职、本周求职；事件年保留未知
+发表／来源日期：
+  九号公司原页contentData.createdAt=1787837524000，2026-08-27 UTC；只确认该篇发表时间。其余不能用推荐区第一条createTime拼接。
+未建立或未核的关系：
+  - 公开自述，不证明项目导致录用
+  - 单篇一面只说通过等待后续，不能把一面时点写为已收到正式offer。
+  - 作者猜测被横向，无法证明企业内部拒绝原因。
+  - 仅职业经历片段，非完整简历
+  - 企业内部项目，无公开实现源码；指标与职责限作者回忆
+  - 提问为本人回忆；公司结果不可串用
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_direct_named_project_or_contribution：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

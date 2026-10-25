@@ -1,0 +1,203 @@
+{
+  "scope": "本地交付完整性与统计一致性；未运行被调研项目",
+  "checks": [
+    {
+      "name": "全部本地JSON可解析",
+      "passed": true,
+      "details": {
+        "count": 97,
+        "errors": []
+      }
+    },
+    {
+      "name": "146唯一资料且分类完整",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "主表与146目录逐项一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "21候选人四段关系完整",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "严格近期8按事件年且明确实习",
+      "passed": true,
+      "details": [
+        "INT10",
+        "INT12",
+        "INT20",
+        "INT22",
+        "INT24",
+        "INT28",
+        "INT42",
+        "INT47"
+      ]
+    },
+    {
+      "name": "发表近期辅助9不混入严格组",
+      "passed": true,
+      "details": [
+        "INT06",
+        "INT07",
+        "INT09",
+        "INT15",
+        "INT16",
+        "INT19",
+        "INT25",
+        "INT26",
+        "INT27"
+      ]
+    },
+    {
+      "name": "63面经阅读57全文6部分",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "未知批次不计明确实习",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "OC意向不升级正式offer",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "真实简历0和原平台正文0保留",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "19项目285维均有状态依据范围",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "16源码ZIP大小与SHA256一致",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "三份只保留链接且全部未运行",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV行数：03_简历与候选人案例/候选人证据链对照.csv",
+      "passed": true,
+      "details": 21
+    },
+    {
+      "name": "CSV行数：04_面经与专业观点/面经统一分类.csv",
+      "passed": true,
+      "details": 63
+    },
+    {
+      "name": "CSV行数：06_项目分析与推荐/19项目统一比较.csv",
+      "passed": true,
+      "details": 285
+    },
+    {
+      "name": "CSV行数：08_证据索引与统计/能力要求四类证据对照.csv",
+      "passed": true,
+      "details": 11
+    },
+    {
+      "name": "CSV行数：08_证据索引与统计/全部资料统一分类.csv",
+      "passed": true,
+      "details": 146
+    },
+    {
+      "name": "全部HTML本地链接与锚点",
+      "passed": true,
+      "details": {
+        "checked": 1217,
+        "broken": []
+      }
+    },
+    {
+      "name": "首页19项目与32手动入口数量一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "32待核JSON与HTML同量",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "PDF无空白页",
+      "passed": true,
+      "details": {
+        "pages": 13,
+        "characters": [
+          1127,
+          1517,
+          1528,
+          2930,
+          3037,
+          3194,
+          2305,
+          2082,
+          1553,
+          1708,
+          3072,
+          2593,
+          2442
+        ]
+      }
+    },
+    {
+      "name": "PDF覆盖21候选人与19项目",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "PDF正文包含核心统计与缺口",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "PDF文本块无水平剪裁",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "浏览器检查均通过",
+      "passed": true,
+      "details": 28
+    }
+  ],
+  "passed": true,
+  "pdf_pages": 13,
+  "json_files_parsed": 97,
+  "csv_rows": {
+    "03_简历与候选人案例/候选人证据链对照.csv": 21,
+    "04_面经与专业观点/面经统一分类.csv": 63,
+    "06_项目分析与推荐/19项目统一比较.csv": 285,
+    "08_证据索引与统计/能力要求四类证据对照.csv": 11,
+    "08_证据索引与统计/全部资料统一分类.csv": 146
+  },
+  "local_links_checked": 1217,
+  "remaining_gaps": [
+    "未补到新的近期Agent正式SSP、本人可读履历、本人具体项目和本人面经的完整关系，也未取得新的可打包完整成功简历原件。",
+    "B站实际观看/字幕0；知乎本体正文0，平台外原文不能抵扣此缺口",
+    "19项目均未运行；源码/测试可见不等于效果复现"
+  ],
+  "visual_review": {
+    "passed": true,
+    "pdf_pages_reviewed": [
+      1,
+      7,
+      13
+    ],
+    "desktop_and_mobile_reviewed": true,
+    "finding": "正文、表格及页尾可见；无空白页或水平裁切。"
+  }
+}

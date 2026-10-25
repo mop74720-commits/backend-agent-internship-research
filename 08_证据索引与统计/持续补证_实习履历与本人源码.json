@@ -1,0 +1,1919 @@
+{
+  "research_date": "2026-10-23",
+  "scope": "近期实习完整专业履历→作者直接点名本人项目→可审源码/测试；不扩博士对照",
+  "existing_candidate_checks": [
+    {
+      "id": "CV23",
+      "author": "zhh2001",
+      "source": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md",
+      "result": "内部项目只列名称/角色，无公开源码直接链接；主页只有账号链接，不能拿pinned个人仓库填成内部项目源码",
+      "stop": "保留原缺口，不继续追内部未公开代码"
+    },
+    {
+      "id": "CV24",
+      "author": "huomalxq",
+      "source": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/study/teco-rag-project-summary.md",
+      "result": "问数Agent复盘与Teco-RAG复盘没有直接开源代码链接；同账号spec-decode-learning不冒充企业问数实现",
+      "stop": "补读Teco复盘后确认本轮不新增源码关系，不否认以后可公开"
+    }
+  ],
+  "candidate": {
+    "discovery_key": "DavidHLP",
+    "author": "贺恋棚 / DavidHLP",
+    "title": "近期后端交付实习完整公开履历直接点名两个本人开源项目",
+    "url": "https://davidhlp.github.io/about/",
+    "fixed_source": {
+      "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md",
+      "http_status": 200,
+      "sha256": "7f00c4ee233fd67db151e7ccdca545315731b667f79445255f7564be70d2b2a1",
+      "lines": 147
+    },
+    "source_repo": "DavidHLP/DavidHLP.github.io",
+    "source_sha": "f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64",
+    "source_commit_time": "2026-10-05T05:34:00Z",
+    "profile_type": "完整公开HTML职业履历的脱敏专业模块转录",
+    "professional_modules": [
+      "实习经历",
+      "项目经历",
+      "专业技能",
+      "教育背景",
+      "开源贡献与技术沉淀"
+    ],
+    "reading_scope": "公开HTML正文及固定来源全部专业模块已读",
+    "local_path": "03_简历与候选人案例/核心后端履历_脱敏副本/DavidHLP_公开完整履历_脱敏转录.html",
+    "redacted_sha256": "759de2534c269df998c1b0d54a00793d893413654417cba61d1878e078594ee8",
+    "track": "后端",
+    "recruitment": "实习",
+    "event_time": "2026.01–2026.06",
+    "recent_status": "近期确认（作者自述明确起止月）",
+    "outcome": {
+      "employer": "博彦科技",
+      "role": "后端开发实习生",
+      "client_project": "阿里云专有云·安骑士主机安全",
+      "employer_is_client": false,
+      "employer_verified": false,
+      "grade": "未披露",
+      "ssp": false
+    },
+    "internship_responsibilities": [
+      "集群GPU资源接入聚合",
+      "AI资产识别相关后端逻辑",
+      "SQL查询优化",
+      "Arthas线上问题定位与回归",
+      "containerd/Harbor TLS链排查"
+    ],
+    "education": "洛阳师范学院，数据科学与大数据技术本科；原稿2021.09–2026.07",
+    "direct_project_links": [
+      {
+        "name": "UltiCode",
+        "url": "https://github.com/DavidHLP/UltiCode",
+        "basis": "固定履历L44–45点名并直接链接；正文称个人开源平台",
+        "relation": "直接点名本人项目"
+      },
+      {
+        "name": "ResiCache",
+        "url": "https://github.com/DavidHLP/ResiCache",
+        "basis": "固定履历L63–64点名并直接链接；正文称个人开源扩展",
+        "relation": "直接点名本人项目"
+      }
+    ],
+    "privacy": {
+      "original_saved": false,
+      "removed_contact_or_demographic_lines": 4,
+      "contact_pattern_after": false,
+      "external_images": 0,
+      "professional_module_presence_checked": true,
+      "visual_review": "桌面1050px/手机390px完整页渲染目视通过，5个专业模块可读，无横向溢出，无脚本错误"
+    },
+    "limits": [
+      "雇主为博彦科技，不能冒称阿里直签大厂实习",
+      "任职与个人职责未企业独立核验",
+      "未披露SSP",
+      "现版项目含实习之后的实现，不证明求职当时水平",
+      "履历没有提供企业内部源码"
+    ]
+  },
+  "projects": [
+    {
+      "name": "UltiCode",
+      "repo": "DavidHLP/UltiCode",
+      "sha": "d53b582e2fae32ef644642651086df0e5ed3163d",
+      "source_commit_time": "2026-10-23T15:12:39Z",
+      "fixed_repo": "https://github.com/DavidHLP/UltiCode/tree/d53b582e2fae32ef644642651086df0e5ed3163d",
+      "fork": false,
+      "ownership_evidence": "作者完整专业履历直接点名、链接并称个人开源；不把所有依赖/第三方代码算本人独立完成",
+      "license": {
+        "label": "MIT",
+        "actual_text_read": true,
+        "url": "https://raw.githubusercontent.com/DavidHLP/UltiCode/d53b582e2fae32ef644642651086df0e5ed3163d/LICENSE",
+        "http_status": 200,
+        "sha256": "2be36e9d56578c1111740b6fe339ea3619cf1f2000af718f1a59e97d2e5d995c",
+        "lines": 21,
+        "note": "UltiCode为完整标准MIT正文；ResiCache有MIT标题/许可与免责声明，但缺常见标准MIT尾部责任段，应保留其实际文本而不只依API标签"
+      },
+      "implementation_and_tests": [
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/queue/outbox/dispatcher/JudgeOutboxDispatcher.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/UltiCode/d53b582e2fae32ef644642651086df0e5ed3163d/services/submission/src/main/java/com/ulticode/modules/queue/outbox/dispatcher/JudgeOutboxDispatcher.java",
+          "http_status": 200,
+          "sha256": "572ded2305a3cb3b2eef9870f28518cb379e6788dd404fc8c44f887878a57dd9",
+          "lines": 206,
+          "reading_scope": "L47–206类与dispatch/回退重试路径",
+          "finding": "dispatch存在事务边界、队列不可用时保留可重试outbox、投递与退避路径；不是仅README架构词",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        },
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/submission/mapper/SubmissionMapper.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/UltiCode/d53b582e2fae32ef644642651086df0e5ed3163d/services/submission/src/main/java/com/ulticode/modules/submission/mapper/SubmissionMapper.java",
+          "http_status": 200,
+          "sha256": "c343d9e66d9b16ea6e9ab895bc0a6d39af23788f1bccab7b9cd3c6603cadce4f",
+          "lines": 494,
+          "reading_scope": "L44–143租约、generation和attempt条件写入",
+          "finding": "结果写回SQL同时限制generation与current_attempt_id；租约恢复与新attempt领取也有条件更新。只证明该机制代码存在，不证明全部竞态正确",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        },
+        {
+          "path": "services/auth/src/main/java/com/ulticode/auth/refreshtoken/service/RefreshTokenService.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/UltiCode/d53b582e2fae32ef644642651086df0e5ed3163d/services/auth/src/main/java/com/ulticode/auth/refreshtoken/service/RefreshTokenService.java",
+          "http_status": 200,
+          "sha256": "afd4d4edc12010c30c25194526bf84e36289ceda584927dec86b68ff4abd9a8a",
+          "lines": 231,
+          "reading_scope": "L55–156刷新令牌创建、轮换与拒绝分支",
+          "finding": "刷新令牌哈希、用途/有效期/旧令牌消费及轮换事务有源码；不据此宣称安全认证已通过",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        },
+        {
+          "path": "services/judge-runtime/src/test/java/com/ulticode/modules/queue/port/adapter/JudgeStreamRedisIntegrationTest.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/UltiCode/d53b582e2fae32ef644642651086df0e5ed3163d/services/judge-runtime/src/test/java/com/ulticode/modules/queue/port/adapter/JudgeStreamRedisIntegrationTest.java",
+          "http_status": 200,
+          "sha256": "bfc63bd9956bd1b43c69a4a37ff142e1d27f552aa07521d7c972068baee2c5aa",
+          "lines": 245,
+          "reading_scope": "测试类及命名、主要断言/测试容器路径",
+          "finding": "有面向Redis Streams的集成测试代码；未运行，不能将测试存在写为已通过",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        },
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/submission/port/DefaultSubmissionWritePort.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/UltiCode/d53b582e2fae32ef644642651086df0e5ed3163d/services/submission/src/main/java/com/ulticode/modules/submission/port/DefaultSubmissionWritePort.java",
+          "http_status": 200,
+          "sha256": "8a9c05e3cc516f6d184b3f2592bb9baf68121c10eb5c13f3d5eefaffa16c2ca4",
+          "lines": 395,
+          "reading_scope": "L92–123事务入口；L161–182提交持久化与按特性开关写JudgeOutbox",
+          "finding": "submit/submitContest事务入口先persistSubmission再recordJudgeDispatch；Outbox写入依赖useJudgeOutbox及mapper可用。能证明具体代码路径，不等于所有特性开关/部署组合下可靠性已验证。",
+          "verification": "静态源码可见，未运行"
+        }
+      ],
+      "run_status": "未运行",
+      "archive_status": "已归档固定源码文本去联系字段副本；不是原始完整ZIP，未运行",
+      "reading_scope": "仅所列文件与方法的定点静态核读，不称整仓审计",
+      "recommendation": "UltiCode适合研究业务闭环、消息故障与结果竞争；ResiCache适合研究缓存并发、状态清理与真实集成测试。按实际模块读，不能由文件规模推项目质量。",
+      "limitations": [
+        "无本地构建/测试证据",
+        "未核每次提交的个人工作占比或AI辅助比例",
+        "当前源码晚于实习开始时间，不能证明求职因果",
+        "源码存在不等于生产性能或成熟度通过"
+      ],
+      "attachment": {
+        "project": "UltiCode",
+        "source_repo": "DavidHLP/UltiCode",
+        "commit": "d53b582e2fae32ef644642651086df0e5ed3163d",
+        "source_archive_url": "https://codeload.github.com/DavidHLP/UltiCode/zip/d53b582e2fae32ef644642651086df0e5ed3163d",
+        "source_archive_sha256": "4d67962eda2a3fdca19541bebab868b6cb812f98807703172fadcf2561e18c8b",
+        "source_archive_bytes": 19143113,
+        "source_archive_crc": "全部成员通过CRC",
+        "archive_type": "固定提交的源码文本归档（去联系字段），不是未经修改的完整原ZIP",
+        "execution": "未运行、未构建、未安装依赖",
+        "retained_text_members": 4328,
+        "omitted_members": [
+          {
+            "path": "apps/console/public/favicon.ico",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/console/src/ico/favicon.ico",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/landing/public/favicon.ico",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/landing/src/assets/landing/algorithmic-garden.webp",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/landing/src/assets/landing/algorithmic-horizon.webp",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/landing/src/assets/landing/engineering-still-life.webp",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/landing/src/assets/landing/foliage-left.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/landing/src/assets/landing/foliage-left.webp",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/landing/src/assets/landing/foliage-right.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/landing/src/assets/landing/foliage-right.webp",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "apps/management/public/favicon.ico",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/achievements-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/admin-dashboard-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/analytics-dashboard-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/contest-detail-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/contest-management-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/contests-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/forum-detail-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/forum-list-light.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/forum-thread-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/moderation-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/personal-dashboard-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/problem-detail-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/problem-list-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/problem-set-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/submissions-audit-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/submissions-list-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          },
+          {
+            "path": "assets/screenshots/user-management-dark.png",
+            "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+          }
+        ],
+        "modified_text_members": [
+          {
+            "path": ".env.example",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/console/src/api/__tests__/auth.spec.ts",
+            "email_pattern_replacements": 3,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/console/src/api/__tests__/projection.spec.ts",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/console/src/api/__tests__/user.spec.ts",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/console/src/composables/__tests__/useNotificationNavigation.spec.ts",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/console/src/stores/__tests__/auth.spec.ts",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/management/src/api/admin/__tests__/solutions.spec.ts",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/management/src/api/admin/account.test.ts",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/management/src/components/layout/AppSidebar.vue",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/management/src/stores/__tests__/auth.spec.ts",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/management/src/stores/admin/__tests__/system-settings.spec.ts",
+            "email_pattern_replacements": 4,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/management/src/views/settings/components/EmailSettings.vue",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/management/src/views/system/EmailView.vue",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "apps/management/src/views/users/UserDetailDrawer.test.ts",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "init-db/migrations/V20260602_120100__Insert_Admin_User_And_Permissions.sql",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "init-db/migrations/V20260603_120300__Seed_Users_And_Permissions.sql",
+            "email_pattern_replacements": 11,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "init-db/migrations/V20260603_120700__Seed_Forum_Posts_Per_User.sql",
+            "email_pattern_replacements": 3,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "init-db/target/classes/migrations/V20260530140000__Insert_Admin_User.sql",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "packages/auth-core/src/__tests__/navigation.spec.ts",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "packages/auth-ui/src/__tests__/AccountSwitcher.spec.ts",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "packages/markdown-utils/src/__tests__/renderMarkdown.test.ts",
+            "email_pattern_replacements": 3,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "pnpm-lock.yaml",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "scripts/dev/init-env.sh",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "scripts/dev/owner-migration-safety-integration-test.sh",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "scripts/dev/up.sh",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/admin/security/DelegationAssertionFilterSpiTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/AdminUserVOContractTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/bootstrap/AdminBootstrapRunnerTest.java",
+            "email_pattern_replacements": 4,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/bootstrap/DevUserBootstrapRunnerTest.java",
+            "email_pattern_replacements": 6,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/controller/AdminAccountControllerTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/controller/AdminSettingsControllerTest.java",
+            "email_pattern_replacements": 4,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/port/adapter/UserProvisioningAdapterTest.java",
+            "email_pattern_replacements": 27,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminNotificationProjectionTest.java",
+            "email_pattern_replacements": 3,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminSolutionProjectionTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminSubmissionProjectionTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminUserEnricherTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminUserProjectionTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/DefaultAdminProblemListProjectionTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/query/AdminUserDetailQueryTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/service/UserManagementServiceImplTest.java",
+            "email_pattern_replacements": 13,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/service/impl/SystemSettingsServiceImplIT.java",
+            "email_pattern_replacements": 6,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/service/impl/SystemSettingsServiceImplTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/admin/src/test/java/com/ulticode/modules/admin/service/impl/UserPermissionServiceImplTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/app/app-web/src/test/java/com/ulticode/app/user/port/OwnerUserReadAdapterWhitespaceCrTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/app/app-web/src/test/java/com/ulticode/modules/moderation/port/adapter/ModerationAccountAdapterTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/app/app-web/src/test/java/com/ulticode/modules/submission/port/DefaultSubmissionUserReadAdapterTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/app/app-web/src/test/java/com/ulticode/modules/user/projection/DefaultUserReadProjectionTest.java",
+            "email_pattern_replacements": 4,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/account/AuthAccountPersistenceIT.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/account/AuthProfileSchemaOwnershipIT.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/account/MyBatisAuthAccountAdapterTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/AuthControllerCurrentSessionContractTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/AuthControllerRateLimitTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/AuthControllerSessionContractTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/OAuthControllerContractTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/PasswordResetControllerContractTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/UserCredentialControllerTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/authorization/DefaultAuthorizationMutationWorkflowTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/authorization/DefaultRoleMutationWorkflowTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountAdministrationProviderTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountAdministrationTransactionalIT.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountManagementProviderTest.java",
+            "email_pattern_replacements": 21,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountManagementTransactionalIT.java",
+            "email_pattern_replacements": 6,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountQueryProviderTest.java",
+            "email_pattern_replacements": 4,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/NotificationRecipientQueryProviderTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/UserIdentityQueryProviderTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/permission/service/RoleAdministrationServiceImplTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/service/AccountSessionServiceTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/service/CurrentSessionQueryTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/service/DefaultAuthenticationWorkflowTest.java",
+            "email_pattern_replacements": 3,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/service/OAuthLoginWorkflowTest.java",
+            "email_pattern_replacements": 9,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/service/PasswordResetWorkflowTest.java",
+            "email_pattern_replacements": 7,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/auth/src/test/java/com/ulticode/auth/session/DefaultAuthSessionAdapterTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/core/src/test/java/com/ulticode/core/CoreEnabledOwnerJourneyIT.java",
+            "email_pattern_replacements": 4,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/core/src/test/java/com/ulticode/core/CoreLocalAdapterWiringTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/judge-runtime/src/test/java/com/ulticode/modules/queue/service/QueueServiceTest.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/notification/src/main/java/com/ulticode/modules/email/port/adapter/JavaMailSmtpSenderAdapter.java",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/notification/src/test/java/com/ulticode/modules/email/service/EmailServiceTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/notification/src/test/java/com/ulticode/modules/notification/channel/EmailNotificationChannelTest.java",
+            "email_pattern_replacements": 4,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/notification/src/test/java/com/ulticode/modules/notification/dispatcher/DefaultAnnouncementBroadcasterTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/notification/src/test/java/com/ulticode/notification/recipient/DubboUserNotificationReadAdapterTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "services/platform/web-security/src/test/java/com/ulticode/websecurity/RateLimitIT.java",
+            "email_pattern_replacements": 3,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          }
+        ],
+        "contact_policy": "GitHub SSH服务git@github.com保留；其余邮箱样式均转唯一example.invalid占位；手机号样式去除；不保存原始未脱敏ZIP",
+        "credential_scan": "全部UTF-8文本扫描常见API令牌/私钥正文签名；未发现。RsaKeyMaterial中的PEM头去除字符串是解析代码，不是私钥正文。非示例.env/凭据文件不纳入包。扫描不等于完整安全审计。",
+        "functional_limit": "内容有联系字段替换、UltiCode前端图片/图标省略；测试邮件可能变化，未验证可构建性。复现实验应自行核对固定上游原版，不能把本包当已通过测试的原始发行物。",
+        "license": "保留上游LICENSE原文；UltiCode标准MIT，ResiCache为MIT标题及许可/免责声明的原有短文本。",
+        "local_path": "05_项目源码归档/本人履历直接关联_持续补证/UltiCode_固定源码文本_去联系字段_d53b582e2f.zip",
+        "sha256": "cd079b7b2e39ee2d59e043155851726e49a0a89b0508211482c25569c90f55d2",
+        "bytes": 10947346,
+        "members": 4329,
+        "crc_result": "全部成员通过CRC",
+        "post_archive_contact_scan": "所有文本仅保留GitHub SSH服务语法和example.invalid占位，无原始邮件/手机号样式",
+        "read_module_archive_checks": [
+          {
+            "path": "services/submission/src/main/java/com/ulticode/modules/queue/outbox/dispatcher/JudgeOutboxDispatcher.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          },
+          {
+            "path": "services/submission/src/main/java/com/ulticode/modules/submission/mapper/SubmissionMapper.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          },
+          {
+            "path": "services/auth/src/main/java/com/ulticode/auth/refreshtoken/service/RefreshTokenService.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          },
+          {
+            "path": "services/judge-runtime/src/test/java/com/ulticode/modules/queue/port/adapter/JudgeStreamRedisIntegrationTest.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          },
+          {
+            "path": "services/submission/src/main/java/com/ulticode/modules/submission/port/DefaultSubmissionWritePort.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          }
+        ]
+      },
+      "backend_dimension_guidance": {
+        "业务闭环": {
+          "status": "文档宣称/部分源码可见",
+          "finding": "作者履历描述练习、竞赛、提交、判题和后台；本轮仅核提交入口/任务投递/结果落库部分，不宣称全平台功能跑通",
+          "paths": [
+            "完整履历项目段",
+            "DefaultSubmissionWritePort.java L92–123"
+          ]
+        },
+        "一致性": {
+          "status": "源码可见",
+          "finding": "提交与Outbox同事务入口；结果SQL有generation+attempt双条件，需结合特性开关和部署核验",
+          "paths": [
+            "DefaultSubmissionWritePort.java L92–182",
+            "SubmissionMapper.java L84–99"
+          ]
+        },
+        "并发": {
+          "status": "源码可见",
+          "finding": "租约领取/恢复、attempt与generation条件更新可审；未复现并发竞态",
+          "paths": [
+            "SubmissionMapper.java L44–143"
+          ]
+        },
+        "缓存MQ": {
+          "status": "源码可见",
+          "finding": "Outbox投递退避与Redis Streams队列集成测试存在，旧面经Kafka说法与现版不同",
+          "paths": [
+            "JudgeOutboxDispatcher.java",
+            "JudgeStreamRedisIntegrationTest.java L62–173"
+          ]
+        },
+        "测试": {
+          "status": "测试源码可见",
+          "finding": "Streams入队/ACK、消费接管、重复抑制及死信测试断言可读；全部未运行",
+          "paths": [
+            "JudgeStreamRedisIntegrationTest.java"
+          ]
+        },
+        "可运行材料": {
+          "status": "文档/构建材料可见",
+          "finding": "仓库有构建描述与多种Docker Compose；归档去联系字段且省图像，未构建验证",
+          "paths": [
+            "README.zh-CN.md",
+            "docker/docker-compose.yml"
+          ]
+        },
+        "个人贡献": {
+          "status": "本人文档自述",
+          "finding": "履历直接点名并称个人开源；代码与提交归属未逐条审，第三方依赖不算个人实现",
+          "paths": [
+            "固定履历L44–59"
+          ]
+        }
+      },
+      "agent_dimension_guidance": {
+        "真实任务": "不适用：不是Agent项目",
+        "状态工具": "不适用：不把后台或缓存状态冒充Agent状态",
+        "恢复": "可选读后台故障处理机制，但不是Agent恢复实现证据",
+        "权限": "不适用Agent权限；UltiCode沙箱/鉴权仅可类比，未审全部安全链",
+        "评测基线": "不适用：没有Agent任务评测",
+        "成本延迟": "不适用Agent成本；未复现项目性能",
+        "超API封装证据": "不适用：并非模型API应用",
+        "个人贡献": "按本人后端项目自述和源码范围，不称Agent工作贡献"
+      }
+    },
+    {
+      "name": "ResiCache",
+      "repo": "DavidHLP/ResiCache",
+      "sha": "1ed3be36af0795a363d624d38de676c0d00b4cf7",
+      "source_commit_time": "2026-10-09T15:30:33Z",
+      "fixed_repo": "https://github.com/DavidHLP/ResiCache/tree/1ed3be36af0795a363d624d38de676c0d00b4cf7",
+      "fork": false,
+      "ownership_evidence": "作者完整专业履历直接点名、链接并称个人开源；不把所有依赖/第三方代码算本人独立完成",
+      "license": {
+        "label": "MIT",
+        "actual_text_read": true,
+        "url": "https://raw.githubusercontent.com/DavidHLP/ResiCache/1ed3be36af0795a363d624d38de676c0d00b4cf7/LICENSE",
+        "http_status": 200,
+        "sha256": "01ba9c7b158e986c69aadd374dfdaa754ca8213e28e34d08395bc0fb85613cc4",
+        "lines": 17,
+        "note": "UltiCode为完整标准MIT正文；ResiCache有MIT标题/许可与免责声明，但缺常见标准MIT尾部责任段，应保留其实际文本而不只依API标签"
+      },
+      "implementation_and_tests": [
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupport.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/ResiCache/1ed3be36af0795a363d624d38de676c0d00b4cf7/src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupport.java",
+          "http_status": 200,
+          "sha256": "fa2a6a7232287b1101d6e9b3f1df447832c861151464fb0326841eafe6f7809e",
+          "lines": 188,
+          "reading_scope": "L137–186同步与独占写的角色选择",
+          "finding": "重入、leader/follower及独占写路径明确分开，避免把写操作作为读请求合并",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        },
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncRole.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/ResiCache/1ed3be36af0795a363d624d38de676c0d00b4cf7/src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncRole.java",
+          "http_status": 200,
+          "sha256": "0ac54f830af3ae43171e93a28dfe8e138e5d5b1ec0edd761880bdc220a128c45",
+          "lines": 462,
+          "reading_scope": "L158–190 follower超时；L286–327注册/完成/清理",
+          "finding": "ConcurrentHashMap存in-flight Future，以putIfAbsent选leader；成功或异常完成，按key和future身份删除，存在具体并发机制",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        },
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/EarlyRefresh.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/ResiCache/1ed3be36af0795a363d624d38de676c0d00b4cf7/src/main/java/io/github/davidhlp/spring/cache/redis/cache/EarlyRefresh.java",
+          "http_status": 200,
+          "sha256": "7f475f48d727f27444e3d0a89bd869eeddb59d843c12a1ec5948f4fb62f1b823",
+          "lines": 289,
+          "reading_scope": "L51–94脚本与L238–287执行参数",
+          "finding": "Lua检查payload.version后缩短TTL；原值版本是CAS依据，区别于封装格式版本",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        },
+        {
+          "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupportSingleFlightTest.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/ResiCache/1ed3be36af0795a363d624d38de676c0d00b4cf7/src/test/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupportSingleFlightTest.java",
+          "http_status": 200,
+          "sha256": "d091a4f32d45e2cc55376ed1b5ed715a9aebf9df75bebba5b1d41ae2fe14f17e",
+          "lines": 483,
+          "reading_scope": "定点核读L88起并发共享、L375起异常传播、L427起重入、L448起超时测试",
+          "finding": "覆盖单次回源/共享结果、leader异常、重入不自等待、follower超时等场景的测试代码；未运行",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        },
+        {
+          "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/EarlyExpirationHandlerRaceConditionIntegrationTest.java",
+          "url": "https://raw.githubusercontent.com/DavidHLP/ResiCache/1ed3be36af0795a363d624d38de676c0d00b4cf7/src/test/java/io/github/davidhlp/spring/cache/redis/cache/EarlyExpirationHandlerRaceConditionIntegrationTest.java",
+          "http_status": 200,
+          "sha256": "dc002a77309e5c5fec328489d5cba279b054f2b0855b6e302665e090828e547e",
+          "lines": 291,
+          "reading_scope": "测试方法、并发场景和断言定点核读",
+          "finding": "有提前过期与并发写入的竞态集成测试代码；尚未本地运行或复现",
+          "verification": "静态源码可见/测试代码可见，未运行"
+        }
+      ],
+      "run_status": "未运行",
+      "archive_status": "已归档固定源码文本去联系字段副本；不是原始完整ZIP，未运行",
+      "reading_scope": "仅所列文件与方法的定点静态核读，不称整仓审计",
+      "recommendation": "UltiCode适合研究业务闭环、消息故障与结果竞争；ResiCache适合研究缓存并发、状态清理与真实集成测试。按实际模块读，不能由文件规模推项目质量。",
+      "limitations": [
+        "无本地构建/测试证据",
+        "未核每次提交的个人工作占比或AI辅助比例",
+        "当前源码晚于实习开始时间，不能证明求职因果",
+        "源码存在不等于生产性能或成熟度通过"
+      ],
+      "attachment": {
+        "project": "ResiCache",
+        "source_repo": "DavidHLP/ResiCache",
+        "commit": "1ed3be36af0795a363d624d38de676c0d00b4cf7",
+        "source_archive_url": "https://codeload.github.com/DavidHLP/ResiCache/zip/1ed3be36af0795a363d624d38de676c0d00b4cf7",
+        "source_archive_sha256": "a4f7045f9c0cbc4ee9b5d7ee2ff653c4ba79600b063b9d8073b0d38ea9a6a4bb",
+        "source_archive_bytes": 721341,
+        "source_archive_crc": "全部成员通过CRC",
+        "archive_type": "固定提交的源码文本归档（去联系字段），不是未经修改的完整原ZIP",
+        "execution": "未运行、未构建、未安装依赖",
+        "retained_text_members": 330,
+        "omitted_members": [],
+        "modified_text_members": [
+          {
+            "path": "pom.xml",
+            "email_pattern_replacements": 1,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "scripts/ci/tests/test_pipeline.py",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          },
+          {
+            "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/CacheOperationsIntegrationTest.java",
+            "email_pattern_replacements": 2,
+            "phone_pattern_replacements": 0,
+            "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+          }
+        ],
+        "contact_policy": "GitHub SSH服务git@github.com保留；其余邮箱样式均转唯一example.invalid占位；手机号样式去除；不保存原始未脱敏ZIP",
+        "credential_scan": "全部UTF-8文本扫描常见API令牌/私钥正文签名；未发现。RsaKeyMaterial中的PEM头去除字符串是解析代码，不是私钥正文。非示例.env/凭据文件不纳入包。扫描不等于完整安全审计。",
+        "functional_limit": "内容有联系字段替换、UltiCode前端图片/图标省略；测试邮件可能变化，未验证可构建性。复现实验应自行核对固定上游原版，不能把本包当已通过测试的原始发行物。",
+        "license": "保留上游LICENSE原文；UltiCode标准MIT，ResiCache为MIT标题及许可/免责声明的原有短文本。",
+        "local_path": "05_项目源码归档/本人履历直接关联_持续补证/ResiCache_固定源码文本_去联系字段_1ed3be36af.zip",
+        "sha256": "eae16d257fe8751eadfa62316a4ab2af90f1f8bebf34de658bb07e4b3e531786",
+        "bytes": 695726,
+        "members": 331,
+        "crc_result": "全部成员通过CRC",
+        "post_archive_contact_scan": "所有文本仅保留GitHub SSH服务语法和example.invalid占位，无原始邮件/手机号样式",
+        "read_module_archive_checks": [
+          {
+            "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupport.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          },
+          {
+            "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncRole.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          },
+          {
+            "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/EarlyRefresh.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          },
+          {
+            "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupportSingleFlightTest.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          },
+          {
+            "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/EarlyExpirationHandlerRaceConditionIntegrationTest.java",
+            "present": true,
+            "identical_to_read_upstream_file": true
+          }
+        ]
+      },
+      "backend_dimension_guidance": {
+        "业务闭环": {
+          "status": "不适用完整业务产品",
+          "finding": "缓存扩展中间件，不能强行与电商/业务系统闭环比较",
+          "paths": [
+            "固定履历ResiCache段",
+            "README.zh-CN.md"
+          ]
+        },
+        "一致性": {
+          "status": "源码可见",
+          "finding": "缓存值版本校验后缩短TTL，避免旧异步任务改变新值；不等于DB与缓存强一致",
+          "paths": [
+            "EarlyRefresh.java L51–94、L238–287"
+          ]
+        },
+        "并发": {
+          "status": "源码可见",
+          "finding": "in-flight Future选leader/follower，包含重入与超时分支，exclusive写不合并",
+          "paths": [
+            "SyncSupport.java L137–186",
+            "SyncRole.java L158–190、L286–327"
+          ]
+        },
+        "缓存MQ": {
+          "status": "源码可见",
+          "finding": "Redis缓存保护、single-flight与提前过期可审；MQ非本项目必要组件",
+          "paths": [
+            "SyncSupport.java",
+            "SyncRole.java",
+            "EarlyRefresh.java"
+          ]
+        },
+        "测试": {
+          "status": "测试源码可见",
+          "finding": "并发共享、异常传播、重入、超时及提前过期竞态测试；未运行",
+          "paths": [
+            "SyncSupportSingleFlightTest.java",
+            "EarlyExpirationHandlerRaceConditionIntegrationTest.java"
+          ]
+        },
+        "可运行材料": {
+          "status": "文档/构建材料可见",
+          "finding": "pom与测试材料可读；开发者邮箱/合成测试地址样式已替换，未构建运行",
+          "paths": [
+            "pom.xml",
+            "README.zh-CN.md"
+          ]
+        },
+        "个人贡献": {
+          "status": "本人文档自述",
+          "finding": "履历直接点名并称个人开源；代码与提交归属未逐条审，第三方依赖不算个人实现",
+          "paths": [
+            "固定履历L63–78"
+          ]
+        }
+      },
+      "agent_dimension_guidance": {
+        "真实任务": "不适用：不是Agent项目",
+        "状态工具": "不适用：不把后台或缓存状态冒充Agent状态",
+        "恢复": "可选读后台故障处理机制，但不是Agent恢复实现证据",
+        "权限": "不适用Agent权限；UltiCode沙箱/鉴权仅可类比，未审全部安全链",
+        "评测基线": "不适用：没有Agent任务评测",
+        "成本延迟": "不适用Agent成本；未复现项目性能",
+        "超API封装证据": "不适用：并非模型API应用",
+        "个人贡献": "按本人后端项目自述和源码范围，不称Agent工作贡献"
+      }
+    }
+  ],
+  "interview": {
+    "title": "从一面到二面：Java后端实习面试复盘",
+    "source": {
+      "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md",
+      "http_status": 200,
+      "sha256": "0cb4a346ea239b774b44747d57907afa164524f8c656dcdb22f2abb5ab472021",
+      "lines": 713
+    },
+    "author_relation": "本人站公开文章，自称基于两轮真实Java后端实习面试整理；未给企业名或逐轮原始录音",
+    "publication_time": "2026-02-25 00:00:00+08:00（原稿timestamp）",
+    "interview_event_time": "未知",
+    "strict_recent_interview": false,
+    "recruitment": "实习",
+    "company": "未知",
+    "outcome": "未知",
+    "ssp": false,
+    "reading_scope": "713行原文已取得；定点核读来源说明、3.1/3.2项目追问、4.1–4.5二面追问、5排障、7项目表达和结尾边界；非逐字逐行技术审定",
+    "material_type": "自述面试问题与推荐回答模板/事后工程化补充混合",
+    "question_answer_boundary": "文中的推荐回答模板、能力雷达主观分数和后续补齐建议，不等于候选人在面试当场实际答出；文章声明两轮约30/45分钟，不拆成两位候选人",
+    "project_relationship": "原文追问Spring Cache二开和OJ沙箱；与履历ResiCache/UltiCode领域对应，但原文未点名仓库名，所以只能标主题/实现领域关联，不能保证同一版本或当年面试项目",
+    "version_difference": "原文OJ用Kafka作回答，当前UltiCode所核版本用Redis Streams；必须保留差异，不能把旧面经答案贴为现版实现",
+    "questions": [
+      {
+        "section": "3.1",
+        "question": "Spring Cache二开怎样防穿透/击穿/雪崩",
+        "source_lines": "L78–112",
+        "code_module": "ResiCache SyncSupport/SyncRole、EarlyRefresh",
+        "relation": "主题对应，不证明原面试仓库版本"
+      },
+      {
+        "section": "3.2",
+        "question": "OJ怎样用Docker运行不可信用户代码",
+        "source_lines": "L114–163",
+        "code_module": "UltiCode judge-runtime，沙箱细节本轮未审",
+        "relation": "主题对应，Docker限制不能凭模板宣称全部源码已核"
+      },
+      {
+        "section": "4.2",
+        "question": "为什么OJ引入Kafka",
+        "source_lines": "L279–316",
+        "code_module": "现版JudgeOutboxDispatcher/Redis Streams",
+        "relation": "历史回答与当前实现不同；可比较异步投递需求，不混写具体中间件"
+      },
+      {
+        "section": "4.4",
+        "question": "缓存责任链如何避免过度设计",
+        "source_lines": "L358–387",
+        "code_module": "ResiCache职责拆分",
+        "relation": "主题对应，需结合实际文件考察取舍"
+      },
+      {
+        "section": "5",
+        "question": "高CPU如何定位进程、线程和调用链",
+        "source_lines": "L429–513",
+        "code_module": "履历Arthas排障职责",
+        "relation": "知识/专业经历交叉，不是已复现线上事故"
+      }
+    ],
+    "current_synthesis": {
+      "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/note/zh-cn/java-internship-interview-blog-polished.md",
+      "http_status": 200,
+      "sha256": "c6b7be1ac6c090ec9d649cfd2575dbd25d791643cfa1cc8ebc827c904c909087",
+      "lines": 101,
+      "kind": "synthesis",
+      "status": "provisional",
+      "boundary": "当前101行文章自称综合能力模型，不另计为第二份真实面经"
+    },
+    "cannot_link_to_specific_employer_offer": true
+  },
+  "chain_audit": {
+    "internship_to_profile": "直接：完整本人职业履历列雇主、客户项目、岗位与年月；仍属自述",
+    "profile_to_named_personal_repos": "直接：同页点名且直接链接UltiCode和ResiCache，不是同账号猜测",
+    "repos_to_implementation_tests": "直接：所列固定源码/测试文件可读，未执行",
+    "profile_to_interview": "本人站原文；具体面试公司/事件日期/录用结果缺失",
+    "named_repos_to_interview": "主题对应，原文未直接点名这两个仓库名，且Kafka/Streams版本有区别",
+    "interview_to_internship_offer": "未建立，不能把两轮复盘等同博彦录用流程",
+    "ssp": "未披露，无新增SSP证据"
+  },
+  "remaining_gap": "闭合了一个近期后端实习完整履历→本人直接点名源码的样本，但雇主是交付企业，非互联网大厂直签；没有近期Agent正式SSP或同一录用流程完整四段链。",
+  "search_paths": [
+    "中英文近期实习/完整CV/项目链接检索",
+    "作者公开about页→固定GitHub履历源→点名仓库",
+    "固定源码定点实现/测试→站内原版面经与当前综合版比较"
+  ],
+  "no_execution_or_outreach": true,
+  "source_archives": [
+    {
+      "project": "UltiCode",
+      "source_repo": "DavidHLP/UltiCode",
+      "commit": "d53b582e2fae32ef644642651086df0e5ed3163d",
+      "source_archive_url": "https://codeload.github.com/DavidHLP/UltiCode/zip/d53b582e2fae32ef644642651086df0e5ed3163d",
+      "source_archive_sha256": "4d67962eda2a3fdca19541bebab868b6cb812f98807703172fadcf2561e18c8b",
+      "source_archive_bytes": 19143113,
+      "source_archive_crc": "全部成员通过CRC",
+      "archive_type": "固定提交的源码文本归档（去联系字段），不是未经修改的完整原ZIP",
+      "execution": "未运行、未构建、未安装依赖",
+      "retained_text_members": 4328,
+      "omitted_members": [
+        {
+          "path": "apps/console/public/favicon.ico",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/console/src/ico/favicon.ico",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/landing/public/favicon.ico",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/landing/src/assets/landing/algorithmic-garden.webp",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/landing/src/assets/landing/algorithmic-horizon.webp",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/landing/src/assets/landing/engineering-still-life.webp",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/landing/src/assets/landing/foliage-left.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/landing/src/assets/landing/foliage-left.webp",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/landing/src/assets/landing/foliage-right.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/landing/src/assets/landing/foliage-right.webp",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "apps/management/public/favicon.ico",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/achievements-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/admin-dashboard-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/analytics-dashboard-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/contest-detail-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/contest-management-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/contests-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/forum-detail-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/forum-list-light.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/forum-thread-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/moderation-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/personal-dashboard-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/problem-detail-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/problem-list-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/problem-set-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/submissions-audit-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/submissions-list-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        },
+        {
+          "path": "assets/screenshots/user-management-dark.png",
+          "reason": "二进制图像/图标未纳入文本源码包，避免未经逐图审查的信息"
+        }
+      ],
+      "modified_text_members": [
+        {
+          "path": ".env.example",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/console/src/api/__tests__/auth.spec.ts",
+          "email_pattern_replacements": 3,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/console/src/api/__tests__/projection.spec.ts",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/console/src/api/__tests__/user.spec.ts",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/console/src/composables/__tests__/useNotificationNavigation.spec.ts",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/console/src/stores/__tests__/auth.spec.ts",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/management/src/api/admin/__tests__/solutions.spec.ts",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/management/src/api/admin/account.test.ts",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/management/src/components/layout/AppSidebar.vue",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/management/src/stores/__tests__/auth.spec.ts",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/management/src/stores/admin/__tests__/system-settings.spec.ts",
+          "email_pattern_replacements": 4,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/management/src/views/settings/components/EmailSettings.vue",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/management/src/views/system/EmailView.vue",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "apps/management/src/views/users/UserDetailDrawer.test.ts",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "init-db/migrations/V20260602_120100__Insert_Admin_User_And_Permissions.sql",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "init-db/migrations/V20260603_120300__Seed_Users_And_Permissions.sql",
+          "email_pattern_replacements": 11,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "init-db/migrations/V20260603_120700__Seed_Forum_Posts_Per_User.sql",
+          "email_pattern_replacements": 3,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "init-db/target/classes/migrations/V20260530140000__Insert_Admin_User.sql",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "packages/auth-core/src/__tests__/navigation.spec.ts",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "packages/auth-ui/src/__tests__/AccountSwitcher.spec.ts",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "packages/markdown-utils/src/__tests__/renderMarkdown.test.ts",
+          "email_pattern_replacements": 3,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "scripts/dev/init-env.sh",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "scripts/dev/owner-migration-safety-integration-test.sh",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "scripts/dev/up.sh",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/admin/security/DelegationAssertionFilterSpiTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/AdminUserVOContractTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/bootstrap/AdminBootstrapRunnerTest.java",
+          "email_pattern_replacements": 4,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/bootstrap/DevUserBootstrapRunnerTest.java",
+          "email_pattern_replacements": 6,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/controller/AdminAccountControllerTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/controller/AdminSettingsControllerTest.java",
+          "email_pattern_replacements": 4,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/port/adapter/UserProvisioningAdapterTest.java",
+          "email_pattern_replacements": 27,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminNotificationProjectionTest.java",
+          "email_pattern_replacements": 3,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminSolutionProjectionTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminSubmissionProjectionTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminUserEnricherTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/AdminUserProjectionTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/projection/DefaultAdminProblemListProjectionTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/query/AdminUserDetailQueryTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/service/UserManagementServiceImplTest.java",
+          "email_pattern_replacements": 13,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/service/impl/SystemSettingsServiceImplIT.java",
+          "email_pattern_replacements": 6,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/service/impl/SystemSettingsServiceImplTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/admin/src/test/java/com/ulticode/modules/admin/service/impl/UserPermissionServiceImplTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/app/app-web/src/test/java/com/ulticode/app/user/port/OwnerUserReadAdapterWhitespaceCrTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/app/app-web/src/test/java/com/ulticode/modules/moderation/port/adapter/ModerationAccountAdapterTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/app/app-web/src/test/java/com/ulticode/modules/submission/port/DefaultSubmissionUserReadAdapterTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/app/app-web/src/test/java/com/ulticode/modules/user/projection/DefaultUserReadProjectionTest.java",
+          "email_pattern_replacements": 4,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/account/AuthAccountPersistenceIT.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/account/AuthProfileSchemaOwnershipIT.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/account/MyBatisAuthAccountAdapterTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/AuthControllerCurrentSessionContractTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/AuthControllerRateLimitTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/AuthControllerSessionContractTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/OAuthControllerContractTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/PasswordResetControllerContractTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/adapter/in/web/UserCredentialControllerTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/authorization/DefaultAuthorizationMutationWorkflowTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/authorization/DefaultRoleMutationWorkflowTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountAdministrationProviderTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountAdministrationTransactionalIT.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountManagementProviderTest.java",
+          "email_pattern_replacements": 21,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountManagementTransactionalIT.java",
+          "email_pattern_replacements": 6,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/AccountQueryProviderTest.java",
+          "email_pattern_replacements": 4,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/NotificationRecipientQueryProviderTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/dubbo/provider/UserIdentityQueryProviderTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/permission/service/RoleAdministrationServiceImplTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/service/AccountSessionServiceTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/service/CurrentSessionQueryTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/service/DefaultAuthenticationWorkflowTest.java",
+          "email_pattern_replacements": 3,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/service/OAuthLoginWorkflowTest.java",
+          "email_pattern_replacements": 9,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/service/PasswordResetWorkflowTest.java",
+          "email_pattern_replacements": 7,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/auth/src/test/java/com/ulticode/auth/session/DefaultAuthSessionAdapterTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/core/src/test/java/com/ulticode/core/CoreEnabledOwnerJourneyIT.java",
+          "email_pattern_replacements": 4,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/core/src/test/java/com/ulticode/core/CoreLocalAdapterWiringTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/judge-runtime/src/test/java/com/ulticode/modules/queue/service/QueueServiceTest.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/notification/src/main/java/com/ulticode/modules/email/port/adapter/JavaMailSmtpSenderAdapter.java",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/notification/src/test/java/com/ulticode/modules/email/service/EmailServiceTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/notification/src/test/java/com/ulticode/modules/notification/channel/EmailNotificationChannelTest.java",
+          "email_pattern_replacements": 4,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/notification/src/test/java/com/ulticode/modules/notification/dispatcher/DefaultAnnouncementBroadcasterTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/notification/src/test/java/com/ulticode/notification/recipient/DubboUserNotificationReadAdapterTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "services/platform/web-security/src/test/java/com/ulticode/websecurity/RateLimitIT.java",
+          "email_pattern_replacements": 3,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        }
+      ],
+      "contact_policy": "GitHub SSH服务git@github.com保留；其余邮箱样式均转唯一example.invalid占位；手机号样式去除；不保存原始未脱敏ZIP",
+      "credential_scan": "全部UTF-8文本扫描常见API令牌/私钥正文签名；未发现。RsaKeyMaterial中的PEM头去除字符串是解析代码，不是私钥正文。非示例.env/凭据文件不纳入包。扫描不等于完整安全审计。",
+      "functional_limit": "内容有联系字段替换、UltiCode前端图片/图标省略；测试邮件可能变化，未验证可构建性。复现实验应自行核对固定上游原版，不能把本包当已通过测试的原始发行物。",
+      "license": "保留上游LICENSE原文；UltiCode标准MIT，ResiCache为MIT标题及许可/免责声明的原有短文本。",
+      "local_path": "05_项目源码归档/本人履历直接关联_持续补证/UltiCode_固定源码文本_去联系字段_d53b582e2f.zip",
+      "sha256": "cd079b7b2e39ee2d59e043155851726e49a0a89b0508211482c25569c90f55d2",
+      "bytes": 10947346,
+      "members": 4329,
+      "crc_result": "全部成员通过CRC",
+      "post_archive_contact_scan": "所有文本仅保留GitHub SSH服务语法和example.invalid占位，无原始邮件/手机号样式",
+      "read_module_archive_checks": [
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/queue/outbox/dispatcher/JudgeOutboxDispatcher.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        },
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/submission/mapper/SubmissionMapper.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        },
+        {
+          "path": "services/auth/src/main/java/com/ulticode/auth/refreshtoken/service/RefreshTokenService.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        },
+        {
+          "path": "services/judge-runtime/src/test/java/com/ulticode/modules/queue/port/adapter/JudgeStreamRedisIntegrationTest.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        },
+        {
+          "path": "services/submission/src/main/java/com/ulticode/modules/submission/port/DefaultSubmissionWritePort.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        }
+      ]
+    },
+    {
+      "project": "ResiCache",
+      "source_repo": "DavidHLP/ResiCache",
+      "commit": "1ed3be36af0795a363d624d38de676c0d00b4cf7",
+      "source_archive_url": "https://codeload.github.com/DavidHLP/ResiCache/zip/1ed3be36af0795a363d624d38de676c0d00b4cf7",
+      "source_archive_sha256": "a4f7045f9c0cbc4ee9b5d7ee2ff653c4ba79600b063b9d8073b0d38ea9a6a4bb",
+      "source_archive_bytes": 721341,
+      "source_archive_crc": "全部成员通过CRC",
+      "archive_type": "固定提交的源码文本归档（去联系字段），不是未经修改的完整原ZIP",
+      "execution": "未运行、未构建、未安装依赖",
+      "retained_text_members": 330,
+      "omitted_members": [],
+      "modified_text_members": [
+        {
+          "path": "pom.xml",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "scripts/ci/tests/test_pipeline.py",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        },
+        {
+          "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/CacheOperationsIntegrationTest.java",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "note": "包括开发者元数据及合成测试邮件等全部邮箱样式；仅记录数量，不记录原值"
+        }
+      ],
+      "contact_policy": "GitHub SSH服务git@github.com保留；其余邮箱样式均转唯一example.invalid占位；手机号样式去除；不保存原始未脱敏ZIP",
+      "credential_scan": "全部UTF-8文本扫描常见API令牌/私钥正文签名；未发现。RsaKeyMaterial中的PEM头去除字符串是解析代码，不是私钥正文。非示例.env/凭据文件不纳入包。扫描不等于完整安全审计。",
+      "functional_limit": "内容有联系字段替换、UltiCode前端图片/图标省略；测试邮件可能变化，未验证可构建性。复现实验应自行核对固定上游原版，不能把本包当已通过测试的原始发行物。",
+      "license": "保留上游LICENSE原文；UltiCode标准MIT，ResiCache为MIT标题及许可/免责声明的原有短文本。",
+      "local_path": "05_项目源码归档/本人履历直接关联_持续补证/ResiCache_固定源码文本_去联系字段_1ed3be36af.zip",
+      "sha256": "eae16d257fe8751eadfa62316a4ab2af90f1f8bebf34de658bb07e4b3e531786",
+      "bytes": 695726,
+      "members": 331,
+      "crc_result": "全部成员通过CRC",
+      "post_archive_contact_scan": "所有文本仅保留GitHub SSH服务语法和example.invalid占位，无原始邮件/手机号样式",
+      "read_module_archive_checks": [
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupport.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        },
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncRole.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        },
+        {
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/EarlyRefresh.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        },
+        {
+          "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupportSingleFlightTest.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        },
+        {
+          "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/EarlyExpirationHandlerRaceConditionIntegrationTest.java",
+          "present": true,
+          "identical_to_read_upstream_file": true
+        }
+      ]
+    }
+  ]
+}

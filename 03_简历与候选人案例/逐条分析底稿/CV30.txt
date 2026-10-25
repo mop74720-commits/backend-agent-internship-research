@@ -1,0 +1,366 @@
+CV30 | Andrew Wang：字节后端与Agent实习完整专业履历
+
+需求核对版 · 2026-10-24
+
+source_key：
+  AndrewWang_wandrew0
+类别：
+  候选人资料
+原始来源：
+  https://andrewtheterp.com/
+方向与岗位：
+  后端与Agent应用工程
+履历材料形式：
+  本人站公开完整PDF专业模块脱敏副本
+资料形式：
+  本人站公开完整PDF专业模块脱敏副本
+事件时间／原文日期（依分类）：
+  ByteDance (TikTok Shop) 2026.05–2026.08；ByteDance (TikTok Shop) 2025.05–2025.08
+发表／来源日期：
+  2026-10-23公开版本读取，非事件时间
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    ByteDance (TikTok Shop) 2026.05–2026.08；ByteDance (TikTok Shop) 2025.05–2025.08
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    2026-10-23公开版本读取，非事件时间
+  时间依据：
+    本人职业经历明确年月；教育背景和所在地不用于推招聘批次或中国薪资档位
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    公开完整PDF全部专业模块已读、脱敏副本保留教育/全部经历/项目/技能
+  实际观看视频：
+    否
+结果自述：
+  两段大厂实习经历自述；SSP/SP档位未披露
+逐项结果与档位：
+  - 公司：
+      ByteDance (TikTok Shop)
+    方向与岗位：
+      Backend Software Engineer Intern — Creator Assistant
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2026.05–2026.08
+    依据：
+      公开PDF EXPERIENCE第一段；Go后端集成内部ReAct Agent平台；配置skills/MCP tools/knowledge；实现live-data MCP、tool-schema token优化；RPC自动执行、工具技能trace、盲评的Agent评测harness；模型上下文与工具调用trace viewer；作者称面向全部Affiliate creators上线
+    证据：
+      https://andrewtheterp.com/assets/download/resume.pdf
+    boundary：
+      履历为美国高校背景，PDF没有明确写出两段字节实习工作地；不推定中国校招档位
+    企业独立验证：
+      否
+  - 公司：
+      ByteDance (TikTok Shop)
+    方向与岗位：
+      Backend Software Engineer Intern — Journey Builder
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2025.05–2025.08
+    依据：
+      公开PDF EXPERIENCE第三段；React onboarding UI；Go/Kitex服务；GORM/MySQL指标接口；内部CI/CD与生产问题处理
+    证据：
+      https://andrewtheterp.com/assets/download/resume.pdf
+    boundary：
+      履历为美国高校背景，PDF没有明确写出两段字节实习工作地；不推定中国校招档位
+    企业独立验证：
+      否
+技术栈：
+  - Go
+  - ReAct
+  - MCP
+  - Agent评测
+  - trace
+  - Kitex
+  - GORM
+  - MySQL
+本人项目与经历描述：
+  - name：
+      UMIACS Wiki Chatbot
+    period：
+      2024.08–2024.12
+    直接关系：
+      PDF PROJECTS直接点名六人团队与本人Developer身份，并直接链接Technical Report
+    document：
+      https://andrewtheterp.com/assets/download/Chatbot.pdf
+    source_repo：
+      未核／无
+    boundary：
+      本人贡献为LangChain/Qdrant RAG与LLaMA3 LoRA；项目开始在近期窗口之前、结束在窗口内；报告和PDF未给直接GitHub源码链接
+  - name：
+      Doodles and Character Classifier
+    period：
+      2024.07–2024.08
+    直接关系：
+      PDF直接点名并链接Live Demo
+    demo：
+      https://imageclassifier.andrewtheterp.com
+    source_repo：
+      未核／无
+    boundary：
+      早于近期窗口；demo页面未给GitHub源码；同账号ImageClassifier仓README对应相似用途，但没有直接履历到源码链接，不补成已确认求职项目
+  - name：
+      Creator Assistant Agent / Journey Builder
+    直接关系：
+      实习职责直接点名
+    source_repo：
+      未核／无
+    boundary：
+      企业内部系统；未发现对外源码，不能以同账号仓库代替
+来源归纳：
+  当前最贴近Agent应用后端实习的完整专业CV之一：职责明确到MCP工具、真实对话评测、trace可观测、上线使用；适合看简历怎样写工程闭环
+complete_redacted_cv_file_received：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  是
+personal_source_code_verified：
+  否
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://andrewtheterp.com/assets/download/resume.pdf
+      direct_basis：
+        ByteDance (TikTok Shop) Backend Software Engineer Intern — Creator Assistant 2026.05–2026.08
+      gap：
+        任职/职责限本人自述；无SSP
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://andrewtheterp.com/assets/download/resume.pdf
+      direct_basis：
+        ByteDance (TikTok Shop) Backend Software Engineer Intern — Journey Builder 2025.05–2025.08
+      gap：
+        任职/职责限本人自述；无SSP
+      直接关系：
+        直接点名
+  profile：
+    - 原始来源：
+        https://andrewtheterp.com/assets/download/resume.pdf
+      direct_basis：
+        本人站公开完整PDF专业模块脱敏副本
+      gap：
+        不是投递版本；脱敏转录不等于未修改原件
+      直接关系：
+        直接点名
+  project：
+    - 原始来源：
+        https://andrewtheterp.com/assets/download/Chatbot.pdf
+      direct_basis：
+        UMIACS Wiki Chatbot；PDF PROJECTS直接点名六人团队与本人Developer身份，并直接链接Technical Report
+      gap：
+        本人贡献为LangChain/Qdrant RAG与LLaMA3 LoRA；项目开始在近期窗口之前、结束在窗口内；报告和PDF未给直接GitHub源码链接
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://imageclassifier.andrewtheterp.com
+      direct_basis：
+        Doodles and Character Classifier；PDF直接点名并链接Live Demo
+      gap：
+        早于近期窗口；demo页面未给GitHub源码；同账号ImageClassifier仓README对应相似用途，但没有直接履历到源码链接，不补成已确认求职项目
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://andrewtheterp.com/assets/download/resume.pdf
+      direct_basis：
+        Creator Assistant Agent / Journey Builder；实习职责直接点名
+      gap：
+        企业内部系统；未发现对外源码，不能以同账号仓库代替
+      直接关系：
+        直接点名
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        未定位本人公开求职面经
+      gap：
+        保持缺口
+      直接关系：
+        未建立
+局限与静态风险：
+  - 职责、使用规模和上线结果均为作者自述，未企业独立核验
+  - 不是SSP证明
+  - 未取得本人面经
+  - 未闭合完整履历→本人公开源码
+  - 没有将内部项目称为可复用开源项目
+阅读建议：
+  精读实习职责及工程机制；公开源码、课程框架、内部项目分别核对，不推导录用因果。
+source_record：
+  key：
+    AndrewWang_wandrew0
+  作者：
+    Andrew Wang
+  home：
+    https://andrewtheterp.com/
+  方向：
+    后端与Agent应用工程
+  招聘类型：
+    实习
+  履历材料形式：
+    本人站公开完整PDF专业模块脱敏副本
+  education：
+    - University of Maryland，CS本科，2026.05
+    - Carnegie Mellon University，CS硕士，2026.08–2028.01预计
+  逐项结果与档位：
+    - 公司：
+        ByteDance (TikTok Shop)
+      方向与岗位：
+        Backend Software Engineer Intern — Creator Assistant
+      time：
+        2026.05–2026.08
+      依据：
+        公开PDF EXPERIENCE第一段
+      content：
+        Go后端集成内部ReAct Agent平台；配置skills/MCP tools/knowledge；实现live-data MCP、tool-schema token优化；RPC自动执行、工具技能trace、盲评的Agent评测harness；模型上下文与工具调用trace viewer；作者称面向全部Affiliate creators上线
+    - 公司：
+        ByteDance (TikTok Shop)
+      方向与岗位：
+        Backend Software Engineer Intern — Journey Builder
+      time：
+        2025.05–2025.08
+      依据：
+        公开PDF EXPERIENCE第三段
+      content：
+        React onboarding UI；Go/Kitex服务；GORM/MySQL指标接口；内部CI/CD与生产问题处理
+  event_region：
+    履历为美国高校背景，PDF没有明确写出两段字节实习工作地；不推定中国校招档位
+  档位：
+    未披露
+  enterprise_verified：
+    否
+  ssp_relation：
+    没有SSP/SP/意向书的直接证据
+  附件：
+    原始来源：
+      https://andrewtheterp.com/assets/download/resume.pdf
+    source_status：
+      200
+    retrieved_on：
+      2026-10-23
+    fixed_git_sha：
+      未核／无
+    fixed_git_sha_note：
+      作者站点实时PDF；未取得网站源仓固定提交，以此次原文件内容hash标识版本
+    source_sha256：
+      d02ca839560e82487ded8b861dc4dbcbadb8986a9f6bf15d9d903e508709ab27
+    original_saved：
+      否
+    local_path：
+      03_简历与候选人案例/核心后端履历_脱敏副本/AndrewWang_字节后端与Agent实习_公开完整简历_脱敏副本.pdf
+    sha256：
+      b85d1bbdfdcb362a230c8c8d081d789b27ac47493ba78e45e417d2841c3de7c7
+    bytes：
+      135369
+    pages：
+      1
+    professional_modules：
+      - EDUCATION
+      - EXPERIENCE
+      - PROJECTS
+      - TECHNICAL SKILLS
+    professional_modules_complete：
+      是
+    professional_text_unchanged_after_education：
+      是
+    packaging_type：
+      整理者制作的公开完整专业履历脱敏PDF副本；不是未经修改的作者原件
+    redaction：
+      header_contact_region_removed：
+        是
+      all_link_annotations_removed：
+        5
+      contact_regex_hits：
+        0
+      image_or_qr_count：
+        0
+      metadata_nonempty_private_fields：
+        0
+      annotation_count：
+        0
+      visible_url_types：
+        正文保留Research Report/Technical Report/Live Demo文字，无联系URL；实际专业链接列在JSON
+      visual_review：
+        2026-10-23逐页目视通过：1页，联系头部已移除，教育/全部经历/项目/技能完整，排版可读
+    qa_images：
+      - C:\Users\GW\.codex\visualizations\2026\10\23\01a16839-9742-7672-812b-1576a3dd064f\重点补证_AndrewWang_脱敏简历_第1页.png
+  本人项目与经历描述：
+    - name：
+        UMIACS Wiki Chatbot
+      period：
+        2024.08–2024.12
+      直接关系：
+        PDF PROJECTS直接点名六人团队与本人Developer身份，并直接链接Technical Report
+      document：
+        https://andrewtheterp.com/assets/download/Chatbot.pdf
+      source_repo：
+        未核／无
+      boundary：
+        本人贡献为LangChain/Qdrant RAG与LLaMA3 LoRA；项目开始在近期窗口之前、结束在窗口内；报告和PDF未给直接GitHub源码链接
+    - name：
+        Doodles and Character Classifier
+      period：
+        2024.07–2024.08
+      直接关系：
+        PDF直接点名并链接Live Demo
+      demo：
+        https://imageclassifier.andrewtheterp.com
+      source_repo：
+        未核／无
+      boundary：
+        早于近期窗口；demo页面未给GitHub源码；同账号ImageClassifier仓README对应相似用途，但没有直接履历到源码链接，不补成已确认求职项目
+    - name：
+        Creator Assistant Agent / Journey Builder
+      直接关系：
+        实习职责直接点名
+      source_repo：
+        未核／无
+      boundary：
+        企业内部系统；未发现对外源码，不能以同账号仓库代替
+  interview：
+    未核／无
+  reading_reason：
+    当前最贴近Agent应用后端实习的完整专业CV之一：职责明确到MCP工具、真实对话评测、trace可观测、上线使用；适合看简历怎样写工程闭环
+  局限：
+    - 职责、使用规模和上线结果均为作者自述，未企业独立核验
+    - 不是SSP证明
+    - 未取得本人面经
+    - 未闭合完整履历→本人公开源码
+    - 没有将内部项目称为可复用开源项目
+  source_url：
+    https://andrewtheterp.com/assets/download/resume.pdf
+redacted_cv_local_file：
+  03_简历与候选人案例/核心后端履历_脱敏副本/AndrewWang_字节后端与Agent实习_公开完整简历_脱敏副本.pdf
+未建立或未核的关系：
+  - 任职/职责限本人自述；无SSP
+  - 不是投递版本；脱敏转录不等于未修改原件
+  - 本人贡献为LangChain/Qdrant RAG与LLaMA3 LoRA；项目开始在近期窗口之前、结束在窗口内；报告和PDF未给直接GitHub源码链接
+  - 早于近期窗口；demo页面未给GitHub源码；同账号ImageClassifier仓README对应相似用途，但没有直接履历到源码链接，不补成已确认求职项目
+  - 企业内部系统；未发现对外源码，不能以同账号仓库代替
+  - 保持缺口

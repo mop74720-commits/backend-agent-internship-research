@@ -1,0 +1,290 @@
+[
+  {
+    "id": "PRO08",
+    "repo": "viego1999/xuecheng-plus-project",
+    "commit": "5c0929f5523a46a2e9b8ea8457d638a65b849474",
+    "license": "Unlicense",
+    "source_url": "https://github.com/viego1999/xuecheng-plus-project",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "viego1999__xuecheng-plus-project__5c0929f5523a.zip",
+    "archive_bytes": 881347,
+    "archive_sha256": "5e327cfa066a34a653129fd9c202a07c845b5bc46de4826161124211bbc095b4",
+    "member_count": 1161,
+    "license_files": [
+      "xuecheng-plus-project-5c0929f5523a46a2e9b8ea8457d638a65b849474/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/viego1999/xuecheng-plus-project/zip/5c0929f5523a46a2e9b8ea8457d638a65b849474",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java",
+        "exists": true
+      },
+      {
+        "path": "xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java",
+        "exists": true
+      },
+      {
+        "path": "xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java",
+        "exists": true
+      },
+      {
+        "path": "xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java",
+        "exists": true
+      },
+      {
+        "path": "xuecheng-plus-parent/pom.xml",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "master",
+    "commit_date": "2023-11-04T07:16:16Z",
+    "size_kb_git_history": 339,
+    "source_archive": true
+  },
+  {
+    "id": "PRO09",
+    "repo": "apache/shenyu",
+    "commit": "34f2ed036747936a5e28aea2c94cd9b3cddcce47",
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/apache/shenyu",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "apache__shenyu__34f2ed036747.zip",
+    "archive_bytes": 13453929,
+    "archive_sha256": "60aa52d113c0fba6dee91b5cb2212bf309e4878de5f658c86091b9b057a5cd15",
+    "member_count": 10146,
+    "license_files": [
+      "shenyu-34f2ed036747936a5e28aea2c94cd9b3cddcce47/LICENSE",
+      "shenyu-34f2ed036747936a5e28aea2c94cd9b3cddcce47/NOTICE"
+    ],
+    "download_url": "https://codeload.github.com/apache/shenyu/zip/34f2ed036747936a5e28aea2c94cd9b3cddcce47",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java",
+        "exists": true
+      },
+      {
+        "path": "shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java",
+        "exists": true
+      },
+      {
+        "path": "shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/main/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPlugin.java",
+        "exists": true
+      },
+      {
+        "path": "shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java",
+        "exists": true
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "master",
+    "commit_date": "2026-10-23T03:39:41Z",
+    "size_kb_git_history": 93861,
+    "source_archive": true
+  },
+  {
+    "id": "PRO10",
+    "repo": "casdoor/casdoor",
+    "commit": "171f4dbafbab735dabfa37350aa4f432aaaf0713",
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/casdoor/casdoor",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "casdoor__casdoor__171f4dbafbab.zip",
+    "archive_bytes": 8691636,
+    "archive_sha256": "a7b082c753c686c5f4a6d315a88e5a3761a873bb5979f6367ff9fbc948999d2c",
+    "member_count": 1447,
+    "license_files": [
+      "casdoor-171f4dbafbab735dabfa37350aa4f432aaaf0713/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/casdoor/casdoor/zip/171f4dbafbab735dabfa37350aa4f432aaaf0713",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "object/permission_enforcer.go",
+        "exists": true
+      },
+      {
+        "path": "object/permission_enforcer_test.go",
+        "exists": true
+      },
+      {
+        "path": "object/token_jwt_key.go",
+        "exists": true
+      },
+      {
+        "path": "object/token_jwt_key_test.go",
+        "exists": true
+      },
+      {
+        "path": "go.mod",
+        "exists": true
+      },
+      {
+        "path": "web/package.json",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "master",
+    "commit_date": "2026-10-22T14:56:02Z",
+    "size_kb_git_history": 51247,
+    "source_archive": true
+  },
+  {
+    "id": "PRO11",
+    "repo": "agentscope-ai/agentscope",
+    "commit": "bdad647d2fee7d66597681ecd89e086b7800dd2a",
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/agentscope-ai/agentscope",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "agentscope-ai__agentscope__bdad647d2fee.zip",
+    "archive_bytes": 9032453,
+    "archive_sha256": "e6896e9ee7ec7165628dcd025958b49f0548ef612f8768ff95691a42f9272cf8",
+    "member_count": 1397,
+    "license_files": [
+      "agentscope-bdad647d2fee7d66597681ecd89e086b7800dd2a/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/agentscope-ai/agentscope/zip/bdad647d2fee7d66597681ecd89e086b7800dd2a",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "src/agentscope/permission/_engine.py",
+        "exists": true
+      },
+      {
+        "path": "src/agentscope/agent/_agent.py",
+        "exists": true
+      },
+      {
+        "path": "src/agentscope/state/_state.py",
+        "exists": true
+      },
+      {
+        "path": "tests/permission_engine_test.py",
+        "exists": true
+      },
+      {
+        "path": "tests/agent_interrupt_test.py",
+        "exists": true
+      },
+      {
+        "path": ".github/workflows/unittest.yml",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "main",
+    "commit_date": "2026-10-23T08:07:34Z",
+    "size_kb_git_history": 66812,
+    "source_archive": true
+  },
+  {
+    "id": "PRO12",
+    "repo": "FoundationAgents/OpenManus",
+    "commit": "3309bf4e416fb1c74b008f3e86494439a31bad53",
+    "license": "MIT",
+    "source_url": "https://github.com/FoundationAgents/OpenManus",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "FoundationAgents__OpenManus__3309bf4e416f.zip",
+    "archive_bytes": 656900,
+    "archive_sha256": "280b5a708fae8efd68dd8fe4f96d95ab900bc7265fa9d733e122df0340ec3b76",
+    "member_count": 179,
+    "license_files": [
+      "OpenManus-3309bf4e416fb1c74b008f3e86494439a31bad53/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/FoundationAgents/OpenManus/zip/3309bf4e416fb1c74b008f3e86494439a31bad53",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "app/agent/base.py",
+        "exists": true
+      },
+      {
+        "path": "app/agent/toolcall.py",
+        "exists": true
+      },
+      {
+        "path": "app/sandbox/core/sandbox.py",
+        "exists": true
+      },
+      {
+        "path": "tests/sandbox/test_sandbox.py",
+        "exists": true
+      },
+      {
+        "path": "tests/tools/test_browser_use_mcp.py",
+        "exists": true
+      },
+      {
+        "path": "requirements.txt",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "main",
+    "commit_date": "2026-08-16T10:29:11Z",
+    "size_kb_git_history": 4565,
+    "source_archive": true
+  },
+  {
+    "repo": "datawhalechina/hello-agents",
+    "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+    "license": "CC-BY-NC-SA-4.0（顶层）；部分子目录另有声明",
+    "source_url": "https://github.com/datawhalechina/hello-agents",
+    "retrieved_date": "2026-10-23",
+    "status": "not_archived",
+    "archive_file": null,
+    "archive_bytes": null,
+    "archive_sha256": null,
+    "member_count": null,
+    "license_files": [
+      "LICENSE.txt"
+    ],
+    "download_url": null,
+    "verification": "Fixed remote tree and selected raw source inspected; no full archive downloaded; no application/tests executed",
+    "archive_omission_reason": "递归 Git tree 未截断，2,607 个文件合计约 195 MB；为避免把大量教材图片／共创项目和不同许可材料混装，本轮只提供固定 commit 的官方源码链接及已读路径。并非因为没有许可证。",
+    "path_checks": [
+      {
+        "path": "LICENSE.txt",
+        "exists_in_fixed_remote_tree": true
+      },
+      {
+        "path": "code/chapter12/README.md",
+        "exists_in_fixed_remote_tree": true
+      },
+      {
+        "path": "code/chapter12/03_bfcl_custom_evaluation.py",
+        "exists_in_fixed_remote_tree": true
+      },
+      {
+        "path": "code/chapter12/04_run_bfcl_evaluation.py",
+        "exists_in_fixed_remote_tree": true
+      },
+      {
+        "path": "code/chapter12/08_data_generation_llm_judge.py",
+        "exists_in_fixed_remote_tree": true
+      },
+      {
+        "path": "code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+        "exists_in_fixed_remote_tree": true
+      }
+    ],
+    "crc_checked": false,
+    "default_branch": "main",
+    "commit_date": "2026-10-13T22:28:54Z",
+    "size_kb_git_history": 314699,
+    "source_archive": false,
+    "id": "PRO13"
+  }
+]

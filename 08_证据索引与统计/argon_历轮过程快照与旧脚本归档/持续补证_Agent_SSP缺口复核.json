@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "scope": "两条新路径核查近期Agent应用/平台工程SSP：先按具体AI工程岗位与结果措辞找本人原文，再按具体招聘团队和公开作者主页回溯。未改主表、不占ID、不扩纯Go/C++历史SSP。",
+  "qualification_rule": "公司、工程岗位、招聘批次和SSP需由具体本人内容建立关系即可，不额外要求企业认证。作者已获岗自述与企业验证不同；明确AI应用方向但公司未披露的材料保留为部分线索，不升级完整目标链。",
+  "privacy_boundary": "未追OBS09匿名者的非展示身份；未联系作者、未登录、未付费。不保存联系方式或未经处理的简历图片。",
+  "new_partial_primary_evidence": [
+    {
+      "source_key": "AI_APPLICATION_SSP_956bb0e7",
+      "title": "秋招打算走后端和agent开发，简历求批",
+      "url": "https://www.nowcoder.com/feed/main/detail/956bb0e7113949a5af496c6506397e59?toCommentId=22698650",
+      "readable_variant": "https://www.nowcoder.com/feed/main/detail/956bb0e7113949a5af496c6506397e59?sourceSSR=post",
+      "author": "养乐多的多多",
+      "public_author_id": "448374441",
+      "profile_url": "https://www.nowcoder.com/users/448374441",
+      "access": {"status": 200, "scope": "本人公开文字全文已读，非搜索摘要", "text_length_approx": 373, "resume_image_read": false, "full_cv_obtained": false},
+      "source_dates": {"createdAt_epoch_ms": 1751727179000, "editTime_epoch_ms": 1772083573000, "basis": "本帖contentData且当前作者ID448374441一致；这些是发表/编辑时间，不能代替事件年。"},
+      "taxonomy": {"track": "AI应用后端；具体Agent工程职称未披露", "recruitment": "校招与实习转正混合", "event_date": "秋招结束，实际年未明确", "recent_status": "事件年份未知，来源发表近期"},
+      "outcomes": [
+        {"company": "未披露中厂", "role": "AI应用", "grade": "SSP", "status": "offer_self_report", "recruitment": "秋招校招", "basis": "原文更新段明确将中厂SSP与AI应用方向对应。", "limit": "公司名、具体岗位、实际招聘年均缺；不是已证大厂Agent工程SSP。"},
+        {"company": "未披露大厂", "role": "传统后端", "grade": "SP", "status": "offer_self_report", "recruitment": "秋招校招", "basis": "同更新段另列；不与AI应用SSP合并。"},
+        {"company": "未披露打车公司", "role": "未明", "grade": "作者称普通档", "status": "offer_self_report", "recruitment": "实习转正", "basis": "同更新段单独注明实习转正。", "limit": "不把打车厂推定为某个具体公司。"}
+      ],
+      "professional_profile_paraphrased": "本人称有B端后端、LLM后端与偏基础架构三段实习；当时用Dify做RAG，并探索过Agent demo。其自评偏探索，组内经验不足。",
+      "project_relation": {"relation": "本人原文将简历与实习Agent demo直接提及", "repo": null, "contribution_detail": "正文没有具体节点、工具实现、指标或职责清单。", "scope": "作者说结果更新后简历基本未改，但本轮没有读到简历图片，不据此增加简历原件或片段数量。"},
+      "author_trace": {"profile_access": "公开主页已读，显示发布1帖，直接列该原帖", "additional_personal_interviews_found": 0, "additional_personal_repository_found": 0, "company_disclosure_found": false},
+      "decision": "新的AI应用SSP本人自述部分证据，可作为待核线索；不新增明确公司Agent SSP成功样本或近期实习数。",
+      "next_missing_evidence": ["公司与具体工程岗位名。", "招聘实际发生年。", "本人项目/职责细节、源码或本人面经。"]
+    }
+  ],
+  "false_positive_checks": [
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/bfc30688de0f49a3af4b0e43a97fa97d?sourceSSR=post",
+      "title": "最近准备入职字节财经的ai应用开发",
+      "access": "原页可见本人文字全文已读",
+      "finding": "楼主只说准备入职字节财经AI应用开发，询问业务Agent工作内容，未自述SSP。",
+      "ssp_keyword_origin": "来自另一评论者的昵称，非楼主录用档位。",
+      "decision": "排除SSP关系；不追昵称或把评论者与楼主合并。"
+    },
+    {
+      "url": "https://www.nowcoder.com/creation/subject/9e7f3a01abf24c01bda048f301906b35",
+      "title": "我的秋招10月新进展",
+      "access": "主题页搜索可见一则投递结果片段，未当独立原帖全文",
+      "finding": "片段对蚂蚁与B站写加面、可能SSP，其余为意向或失败。",
+      "decision": "未公布最终SSP，不能用加面当高档录用。"
+    },
+    {
+      "url": "https://www.nowcoder.com/users/716721493",
+      "title": "qiuqiu给我一个offer吧的公开主页",
+      "access": "仅搜索发现，未作正文核读",
+      "finding": "本人写字节与小红书大SP，SSP是评论者按薪资猜测。",
+      "decision": "不将他人评论升格成作者SSP；本轮未新增。"
+    },
+    {
+      "url": "https://www.xiaoyuzhoufm.com/episode/69c3fb60565a991256dc5f96",
+      "title": "李叔离职创业访谈",
+      "access": "只读搜索发现的简介",
+      "finding": "历史SSP是产品经理校招，当前做金融Agent定制。",
+      "decision": "岗位与时间不可拼接成Agent工程SSP，不作为目标材料。"
+    }
+  ],
+  "search_paths": [
+    {
+      "path": "A：工程岗位与已获结果的措辞匹配",
+      "queries": ["SSP 大模型应用开发 秋招总结", "SSP AI应用开发 拿到", "SSP 智能体开发 offer -课程 -训练营 -薪资表", "SSP Agent开发 转正 -薪资 -课程 -训练营", "AI后端 SSP 拿", "Agent 大SSP 项目", "智能体 大SSP 我", "AI工程师 ssp 秋招 字节"],
+      "new_primary_read": ["956bb0e7113949a5af496c6506397e59", "bfc30688de0f49a3af4b0e43a97fa97d"],
+      "result": "得到1条本人AI应用SSP部分证据，未给公司；另1条SSP关键词来自评论昵称。既有Richard奇、erdengk以及营销课程结果不重复计数。"
+    },
+    {
+      "path": "B：具体团队反向检索＋本人公开主页回溯",
+      "queries": ["AlipayPlus SSP 智能体", "Token Foundry SSP", "美团 智能客服 SSP 面经", "字节财经 SSP AI"],
+      "author_trace_url": "https://www.nowcoder.com/users/448374441",
+      "result": "具体团队检索返回招聘、聚合与算法/产品材料，未发现明确工程岗位最终SSP原文；新作者主页仅1帖，未补出公司、逐轮面经或仓库。"
+    }
+  ],
+  "counts": {
+    "new_first_person_ai_application_ssp_partial_records": 1,
+    "new_company_role_batch_ssp_direct_records": 0,
+    "new_complete_agent_ssp_profile_project_interview_chains": 0,
+    "new_resume_files_or_images_read": 0,
+    "main_records_modified": false
+  },
+  "remaining_gap": "本轮有新的AI应用SSP本人自述，但仍未建立具体公司＋Agent应用/平台工程岗位＋招聘批次的完整直接关系。缺口保留，不宣称全网不存在；本轮不继续添加纯后端历史SSP或泛题库。"
+}

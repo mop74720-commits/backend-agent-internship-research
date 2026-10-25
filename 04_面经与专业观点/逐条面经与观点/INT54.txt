@@ -1,0 +1,237 @@
+INT54 | 字节数据中台Agent全栈面经
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b?sourceSSR=dynamic
+公司：
+  字节跳动
+事件时间／原文日期（依分类）：
+  09-20一面、09-21二面，年未明
+方向与岗位：
+  数据中台Agent全栈实习
+round：
+  一面、二面，同一候选人流程
+role_boundary：
+  实习标签和28届找实习上下文明确；是全栈数据平台方向，HTTPS/SSE与编码仍占一部分
+结果自述：
+  已到二面；最终结果未公布
+涉及主题：
+  - 项目深挖/个人贡献
+  - Agent循环/工具
+  - 网络/操作系统
+  - 系统设计/取舍
+  - 算法/编程
+原文提问（归纳）：
+  - 通用Agent应包含哪些功能，既往两段实习各负责什么？
+  - 如何决定能力封成Skill还是Tool，LangChain与LangGraph的取舍是什么？
+  - HTTPS与浏览器到机房链路、SSE底层，以及前缀树和树右视图编码。
+内容归纳：
+  两轮串起来看，实习贡献、协议基础与Agent抽象共同被考察；不能用一场偏项目推断不考基础。
+建议用途：
+  优先：作为Agent实习与网络/算法并行准备的对照样本。
+局限：
+  - 两轮属于同一候选人，不当作两个独立样本。
+  - 没有最终录用信息，不能把二面记录说成已offer。
+source_project_description：
+  两段既往实习未公开名称与仓库。
+统计组：
+  明确实习面经
+原访问范围：
+  原文正文全文已读（网页工具）
+outcome_status：
+  next_round_self_report
+author_group：
+  nowcoder_RyanChen123
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）；本卡为原创提炼
+证据边界：
+  B：原文已读，经历、作答与结果未经企业侧独立验证
+source_project_links：
+  —
+ssp_status：
+  原文未明确SSP，不计SSP成功样本
+reading_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+商业与选择偏差：
+  已读正文未见直接售课；不代表作者身份与动机已获验证
+independence_note：
+  一篇原文；多轮不增加独立候选人数
+fulltext_verified：
+  是
+read_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+verification_notes：
+  已实际读取原文文字正文；搜索摘要和聚合索引仅用作发现。全文指该篇公开正文，不代表完整面试录音、答案、项目代码或企业验证。
+类别：
+  面经复盘
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    09-20一面、09-21二面，年未明
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    09-21
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    原文正文全文已读（网页工具）
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      字节跳动
+    档位：
+      未披露
+    状态：
+      next_round_or_waiting_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b?sourceSSR=dynamic
+    依据：
+      已到二面；最终结果未公布
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  09-21
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  next_round_or_waiting_self_report
+related_record_ids：
+  —
+external_research_reviews：
+  I19：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        I19
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_面经核对.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        I19
+      existing_id：
+        INT54
+      decision：
+        existing
+      标题：
+        字节数据中台Agent全栈面经
+      原始来源：
+        https://api-cdn.nowcoder.com/feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b?sourceSSR=post
+      resolved_url：
+        https://api-cdn.nowcoder.com/feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b?sourceSSR=post
+      canonical_post_key：
+        feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b
+      access_status：
+        HTTP 200，原始作者主文全文可读
+      已读部分：
+        全文
+      fulltext_verified：
+        是
+      body_selector：
+        .feed-content-text
+      retrieved_at：
+        2026-10-24
+      reading_note：
+        只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+      body_text_sha256：
+        69e7ad98c7274d6a13b2a51f9fdc20157c1cc396d8b2ed2f98c7fb519987169c
+      body_char_count：
+        300
+      source_card_path：
+        03_面经/I19.html
+      source_card_role：
+        提供检索线索和原URL，不能代替本次原文实读
+      发表／来源日期：
+        09-21（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+      source_date_verified：
+        否
+      方向：
+        Agent工程
+      招聘类型：
+        实习
+      event_date：
+        09-20一面、09-21二面，年份未知
+      event_year_confirmed：
+        否
+      event_year：
+        未核／无
+      时间依据：
+        正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+      questions：
+        - 通用智能体需要考虑哪些功能点？
+        - Skill和Tool何时选择，实习中是否遇到？
+        - LangChain和LangGraph有何区别，ReAct以外有哪些交互模式？
+        - HTTPS、浏览器到机房全链路、SSE底层怎样实现？
+        - 现场实现二叉树右视图和前缀树并解释应用场景。
+      涉及主题：
+        - 算法/编程
+        - 网络/协议
+        - 项目深挖/个人贡献
+        - Agent循环/工具
+        - 框架/机制
+      结果分类：
+        next_round_or_waiting_self_report
+      result：
+        记录两轮面试，未披露最终录用
+      档位：
+        未披露
+      公司：
+        字节跳动
+      ai_organized：
+        否
+      ai_marker_basis：
+        作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+      short_quote：
+        一面(9.20)…二面(9.21)
+      阅读建议：
+        Agent工程依旧会考网络和算法，项目实现要能贯通前后端。
+      局限：
+        - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+        - 28届为届别，不能补事件年；与旧INT54相同feed UUID。
+      same_author_relations：
+        —
+      商业背景：
+        正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+      merge_policy：
+        同一逻辑来源不新增计数；只补本次核验路径、短引文、问题和必要纠错，既有未知年不回填。
+      capability_ids：
+        - CAP01
+        - CAP06
+        - CAP07
+      reading_boundary：
+        本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+      original_outcome_quote：
+        未核／无
+same_author_relations：
+  —

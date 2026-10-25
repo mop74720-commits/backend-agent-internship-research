@@ -1,0 +1,19 @@
+{
+  "all_records": 146,
+  "unique_ids": 146,
+  "classified_all": true,
+  "candidates_with_all_chain_nodes": 21,
+  "projects_compared": 19,
+  "dimensions": 285,
+  "source_archives_checked": {
+    "required_project_ids_match": true,
+    "all_19_backend_and_agent_dimensions_present": true,
+    "archive_checks_pass": true,
+    "zip_read_paths_checked": 108,
+    "zip_read_path_errors": [],
+    "status_values_valid": true,
+    "priority_values_valid": true,
+    "every_dimension_has_source_and_read_scope": true
+  },
+  "personal_project_design_modified": false
+}

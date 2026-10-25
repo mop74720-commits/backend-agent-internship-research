@@ -1,0 +1,483 @@
+{
+  "title": "GitHub后端SSP第一人称项目与面经：发现和排除记录",
+  "retrieved_at": "2026-10-23",
+  "scope": "后端/Java/Go方向；仅网络只读核验与本结果文件写入",
+  "summary": {
+    "deep_checked_repositories": 3,
+    "eligible_first_person_ssp_cases": 1,
+    "new_independent_successful_candidates": 0,
+    "excluded_repositories": 2,
+    "note": "不能为达到数量目标将SP、他人自述或题库升级为SSP。唯一符合者为既有CV02的证据补强。"
+  },
+  "search_log": [
+    {
+      "channel": "GitHub rate_limit API",
+      "http_status": 200,
+      "finding": "API可访问"
+    },
+    {
+      "channel": "GitHub repositories search API",
+      "query": "SSP 面经 in:readme",
+      "http_status": 200,
+      "total_count": 45
+    },
+    {
+      "channel": "GitHub repositories search API",
+      "query": "SSP 后端 in:readme",
+      "http_status": 200,
+      "total_count": 168
+    },
+    {
+      "channel": "Bing HTML search",
+      "http_status": 200,
+      "finding": "返回SSP通用英文结果，与中文及site限定不符，不作为有效发现证据"
+    }
+  ],
+  "search_api_calls_used": 2,
+  "search_api_calls_limit": 3,
+  "accepted_candidates": [
+    {
+      "id": "GHB01",
+      "status": "已核实符合第一人称SSP自述与本人项目/面经关联；录用未独立核验",
+      "existing_case_id": "CV02",
+      "new_independent_candidate": false,
+      "repo": "viego1999/JavaWxy",
+      "repo_url": "https://github.com/viego1999/JavaWxy",
+      "author": "viego1999",
+      "role": "Java后端；历史暑期实习与秋招",
+      "fixed_commit": "69c82b68d5d7b023adadc2421c2d0a1406641397",
+      "commit_date": "2024-03-08T14:07:44Z",
+      "ssp_claim": {
+        "quote": "秋招面了5家拿了 **腾讯**ssp",
+        "source_path": "README.md",
+        "line_start": 5,
+        "line_end": 5,
+        "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L5",
+        "claim_scope": "腾讯校招SSP；同段其他公司分别为SP或未分级，实习offer未称SSP",
+        "independently_verified": false
+      },
+      "author_linkage_evidence": [
+        {
+          "path": "README.md",
+          "line_start": 5,
+          "line_end": 13,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L5-L13",
+          "finding": "作者以个人背景、暑期实习及签约结果作第一人称陈述，并给出本人GitHub与牛客账号；不保存联系方式。"
+        },
+        {
+          "path": "README.md",
+          "line_start": 204,
+          "line_end": 206,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L204-L206",
+          "finding": "README明确把面经合集指向同仓库面试记录.md。"
+        },
+        {
+          "path": "Introduction.md",
+          "line_start": 5,
+          "line_end": 11,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/Introduction.md#L5-L11",
+          "finding": "自我介绍将在线教育平台与Netty RPC列为本人参与项目，写明课程内容与订单模块职责；自我介绍稿不等于完整简历或生产证明。"
+        }
+      ],
+      "interview_paths": [
+        {
+          "path": "面试记录.md",
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md",
+          "access": "完整正文已读取，共1186行；所列定位均对照固定commit核验",
+          "batch_labels": [
+            "24暑期（L5）",
+            "24提前批（L906）",
+            "24秋招（L1036）"
+          ],
+          "attribution_limit": "L52起0317美团一面明确标注（同学），不能算作者本人面经；全文件不得整体标为纯本人样本。"
+        },
+        {
+          "path": "面试记录.md",
+          "line_start": 7,
+          "line_end": 37,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L7-L37",
+          "company": "携程",
+          "round": "0315一面",
+          "project_questions": [
+            "RPC注册发现与完整调用流程",
+            "远程调用是否每次访问注册中心",
+            "同步/异步返回",
+            "订单全流程、消息积压和Spring事务"
+          ],
+          "recommended_use": "先对照作者两个项目，再检查能否回答自己的调用链与故障处理。"
+        },
+        {
+          "path": "面试记录.md",
+          "line_start": 632,
+          "line_end": 692,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L632-L692",
+          "company": "菜鸟",
+          "round": "0421一面",
+          "project_questions": [
+            "RPC节点宕机与故障恢复",
+            "压测实施与本人贡献",
+            "本地消息表+MQ与退款竞态",
+            "消息重复消费、限流和架构取舍"
+          ],
+          "recommended_use": "优先用于提炼项目深挖问题；面经回忆和括号答案均不作为标准答案。"
+        },
+        {
+          "path": "面试记录.md",
+          "line_start": 1138,
+          "line_end": 1170,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L1138-L1170",
+          "company": "美团",
+          "round": "0831二面",
+          "project_questions": [
+            "RPC与本地调用区别、熔断/降级和链路追踪",
+            "压测与一致性哈希适用场景",
+            "多线程结果汇总、实习挑战与负反馈、抢单并发安全"
+          ],
+          "recommended_use": "补充实习贡献与反思问题；不将该轮等同腾讯SSP面试。"
+        },
+        {
+          "path": "Introduction.md",
+          "line_start": 449,
+          "line_end": 515,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/Introduction.md#L449-L515",
+          "material_type": "RPC项目踩坑、BUG与性能测试准备笔记",
+          "recommended_use": "观察作者如何组织工程细节；这不是独立面试场次或本次实测。"
+        }
+      ],
+      "projects": [
+        {
+          "repo": "viego1999/wxy-rpc",
+          "url": "https://github.com/viego1999/wxy-rpc",
+          "relationship": "作者同账号项目，README直接列为本人参考项目；Introduction说明本人开发/学习背景",
+          "relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L139-L149",
+          "relationship_lines": [
+            143,
+            143
+          ],
+          "stack": [
+            "Java",
+            "Netty",
+            "ZooKeeper",
+            "Spring Boot",
+            "序列化",
+            "负载均衡"
+          ],
+          "recommended_use": "对应基础组件与网络调用链；深读协议、连接、超时与重试，不能仅复现接口。",
+          "limits": [
+            "未在此子任务下载、运行或审查完整代码",
+            "不确认每行原创或候选人时期版本",
+            "不等同该项目单独促成SSP"
+          ]
+        },
+        {
+          "repo": "viego1999/xuecheng-plus-project",
+          "url": "https://github.com/viego1999/xuecheng-plus-project",
+          "relationship": "README L145链接课程项目，L149自述把点评秒杀业务融合进去；Introduction称承担内容与订单模块",
+          "relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L143-L149",
+          "relationship_lines": [
+            145,
+            149
+          ],
+          "stack": [
+            "Spring Cloud",
+            "MyBatis",
+            "Redis",
+            "RabbitMQ",
+            "MySQL",
+            "订单/内容管理"
+          ],
+          "recommended_use": "与RPC形成业务项目+基础组件项目组合；对照消息、事务、状态竞态和本人改动。",
+          "limits": [
+            "课程来源明确，不能包装为全新业务原创",
+            "没有企业侧核验交付或个人贡献",
+            "本包已有PRO08，此次不重复归档"
+          ]
+        },
+        {
+          "repo": "viego1999/xy-dianping",
+          "url": "https://github.com/viego1999/xy-dianping",
+          "relationship": "README L147同账号项目；L149自述迁移其中秒杀模块",
+          "relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L143-L149",
+          "relationship_lines": [
+            147,
+            149
+          ],
+          "stack": [
+            "Java",
+            "Redis",
+            "秒杀业务"
+          ],
+          "recommended_use": "学习模块迁移与取舍，不把教程名称数量当项目实力。",
+          "limits": [
+            "未单独核查代码、许可证或求职时期版本",
+            "未下载源码"
+          ]
+        }
+      ],
+      "batch": {
+        "literal": "文件分组24暑期、24提前批、24秋招",
+        "certainty": "历史材料；固定commit日期为2024-03-08，因此不能把分组误解为尚未发生的2024年暑期/秋季面试；很可能指2024届，具体轮次只保留原文月日，不补写未经确认年份。"
+      },
+      "ssp_specific_interview_available": false,
+      "ssp_specific_interview_limit": "已读面试记录.md没有腾讯专门轮次；能证明SSP自述、同作者项目和其他公司的面经关联，不能声称拿到了腾讯SSP完整面经。",
+      "recommended_reason": "本次Java链条最明确：同一账号的SSP自述→两个项目的职责→同仓库具体面试问题和项目踩坑。比题库或营销承诺更接近用户要求，但它是已有CV02补强，不新增独立成功者人数。",
+      "verification_method": [
+        "GitHub commits/master端点HTTP200，固定完整40位commit与日期",
+        "固定及分支raw README/Introduction/面试记录原文HTTP200并读取正文",
+        "核对README的项目/面经直接链接与Introduction的项目职责",
+        "区分本人记录、标明同学的一轮及普通笔记；未联系作者或雇主"
+      ],
+      "limits": [
+        "SSP、offer、学历、实习与量化结果均为作者自述，未获企业独立验证",
+        "没有证明这些项目独立导致SSP，其他背景与表现无法控制",
+        "历史课程项目与历史市场条件不能直接作为2026实习门槛",
+        "未取得完整可再分发成功者简历",
+        "不下载/归档第三方源码，不抓取或保存私人联系方式"
+      ]
+    }
+  ],
+  "excluded_leads": [
+    {
+      "repo": "zslomo/2019-Autumn-recruitment-experience",
+      "author": "zslomo",
+      "fixed_commit": "8787b3860145d555d529c5bbfad8bd2081d7e4bd",
+      "commit_date": "2019-03-31T11:45:24Z",
+      "status": "排除为后端SSP成功者；可作历史算法求职旁证",
+      "ssp_quote": "这6家中有5家是sp",
+      "ssp_quote_source": "https://github.com/zslomo/2019-Autumn-recruitment-experience/blob/8787b3860145d555d529c5bbfad8bd2081d7e4bd/%E6%88%91%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L67",
+      "ssp_word_context": "https://github.com/zslomo/2019-Autumn-recruitment-experience/blob/8787b3860145d555d529c5bbfad8bd2081d7e4bd/README.md#L11-L16",
+      "attribution": "README明确把本人（本菜鸡的）与他人（大佬们的）分列；不是整库转载，也不是整库都属于仓主。我的秋招之路L2称应邀撰写。",
+      "batch": "2019届，具体腾讯广告面经L1明确2018.8.6；历史算法岗",
+      "interview_paths": [
+        "本菜鸡的/腾讯广告算法.md",
+        "大佬们的/阿里技术部开发.md"
+      ],
+      "interview_evidence": "https://github.com/zslomo/2019-Autumn-recruitment-experience/blob/8787b3860145d555d529c5bbfad8bd2081d7e4bd/%E6%9C%AC%E8%8F%9C%E9%B8%A1%E7%9A%84/%E8%85%BE%E8%AE%AF%E5%B9%BF%E5%91%8A%E7%AE%97%E6%B3%95.md#L1-L25",
+      "project_association": "本次未找到属于仓主的Java/Go后端项目关系；他人目录的阿里开发经历不能移植到仓主",
+      "reason": [
+        "SSP出现于一般薪酬说明及周围同学结果，未明确仓主本人取得SSP",
+        "README😍定义为SP或高2k，并非SSP标记",
+        "作者本人结果主要算法方向，不能记为后端成功者",
+        "自述总结明确5个SP，不应升级为SSP"
+      ],
+      "verification_method": "读取固定commit README、我的秋招之路、本人腾讯广告面经与他人阿里开发文档；HTTP200"
+    },
+    {
+      "repo": "Brave-peng/java-interview-conclusion",
+      "author": "Brave-peng",
+      "fixed_commit": "376d5882f1adefd4256486bd5b60a16c99bae754",
+      "commit_date": "2022-08-16T14:09:35Z",
+      "status": "排除为仓主本人SSP；可作带来源限制的Java复习资料",
+      "ssp_quote": "为去年在各大厂拿下SP、SSP大佬所提供的java面经",
+      "ssp_quote_source": "https://github.com/Brave-peng/java-interview-conclusion/blob/376d5882f1adefd4256486bd5b60a16c99bae754/README.md#L6",
+      "batch": "仓库最新commit为2022-08-16；README去年未具体说明录用公司/年份，不补写2021结果",
+      "interview_paths": [
+        "Java八股文第一版.md",
+        "公司面经/兴业数金面经.md",
+        "模拟面试/0810.md"
+      ],
+      "interview_evidence": "https://github.com/Brave-peng/java-interview-conclusion/blob/376d5882f1adefd4256486bd5b60a16c99bae754/%E5%85%AC%E5%8F%B8%E9%9D%A2%E7%BB%8F/%E5%85%B4%E4%B8%9A%E6%95%B0%E9%87%91%E9%9D%A2%E7%BB%8F.md#L1-L15",
+      "project_association": "原稿含社区项目等笔记，但未找到可核实成功者身份、本人项目仓库与SSP的关系；不能把仓库中的项目描述视作Brave-peng成功履历",
+      "reason": [
+        "README明确将SSP归于他人提供者，仓主只说自己修订笔记",
+        "未明确提供者账号、公司/录用等级、批次与本人项目",
+        "公司面经题目及技术答案不等于offer证明；原稿中classPath等子串不算SSP录用文字"
+      ],
+      "verification_method": "读取固定commit README、兴业数金文档及Java八股文第一版正文；HTTP200"
+    }
+  ],
+  "handoff_note": "muluoleiguo/interview和linyacool/WebServer的C++系统方向线索已交父代理转交systems代理，本文件不重复计数。",
+  "verification_boundary": "公开本人陈述只证明作者如此表述，不证明公司确认录用，不证明项目导致SSP；未下载源码、未执行模型或付费服务。",
+  "suggested_interview_records": [
+    {
+      "id": "SUG_CV02_CTRIP_0315",
+      "title": "JavaWxy本人记录：携程0315一面（24暑期分组）",
+      "company": "携程",
+      "role": "Java后端暑期实习；按原文24暑期分组",
+      "date": "03-15；原文未在轮次处补写四位年份",
+      "rounds": [
+        "一面"
+      ],
+      "sample_group": "历史实习面经",
+      "source_line_range": [
+        7,
+        50
+      ],
+      "url": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L7-L50",
+      "outcome": "该轮正文未单独公布结果；README总体自述曾获携程实习offer，不独立核验",
+      "topics": [
+        "RPC注册发现/远程调用",
+        "同步与异步",
+        "消息积压/可靠性",
+        "订单/事务",
+        "Spring事务",
+        "技术选型"
+      ],
+      "project_questions": [
+        "服务如何注册、客户端如何发现？远程调用是否每次访问注册中心？",
+        "RPC从客户端到服务端的完整流程与同步/异步结果怎样组织？",
+        "订单业务与RabbitMQ发送流程如何衔接，消息积压时怎样避免丢失？",
+        "新技术是否适合项目，如何衡量复杂度、匹配度与实施成本？"
+      ],
+      "summary": "同一轮连问RPC与在线教育订单，直接展示基础组件项目和业务项目怎样互相补位；题后部分为作者整理答案，不是面试官标准答案。",
+      "public_project_repositories": [
+        "https://github.com/viego1999/wxy-rpc",
+        "https://github.com/viego1999/xuecheng-plus-project"
+      ],
+      "repository_relationship": "项目名称、职责与README/Introduction一致，属于同账号关联；不证明每行原创或所有声称均已完成。",
+      "borrowable_points": [
+        "先画出调用、注册发现及业务消息的完整流程",
+        "把同步/异步与积压取舍落实到具体故障场景"
+      ],
+      "weaknesses_and_limits": [
+        "个别题后答案和外链是复习整理，不能当原始对话逐字记录",
+        "没有本轮offer证明、代码运行或压测证据"
+      ],
+      "recommended_use": "优先从两项目对照读起，检查自己的“调用链→事务→消息”叙述能否深入到代码与异常路径。",
+      "source_repository": "viego1999/JavaWxy",
+      "author": "viego1999",
+      "candidate_group": "CV02_viego1999",
+      "fixed_commit": "69c82b68d5d7b023adadc2421c2d0a1406641397",
+      "source_path": "面试记录.md",
+      "fulltext_verified": true,
+      "access_level": "fixed_commit_raw_fulltext",
+      "confidence": "B：本人面经与结果自述，未经雇主独立核验",
+      "retrieved_at": "2026-10-23",
+      "evidence_type": "同仓第一人称历史面经；不含明确标为同学的轮次",
+      "ssp_status": "作者README自述腾讯秋招SSP；本记录并非腾讯SSP专属轮次，不扩展成该公司SSP结果",
+      "independence_note": "三条建议记录属于同一CV02候选人；与该作者牛客原帖可能同源，合并前去重，不新增三个独立成功者",
+      "project_relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L139-L152",
+      "role_boundary": "Java后端工程方向；历史批次不能视为2026实习门槛",
+      "repository_review_boundary": "本子任务仅读取资料原文与关系，不下载源码或验证作者性能；源码已归档情况由主记录负责"
+    },
+    {
+      "id": "SUG_CV02_CAINIAO_0421",
+      "title": "JavaWxy本人记录：菜鸟0421一面（24暑期分组）",
+      "company": "阿里巴巴/菜鸟",
+      "role": "Java后端暑期实习；按原文24暑期分组",
+      "date": "04-21；原文未在轮次处补写四位年份",
+      "rounds": [
+        "一面，作者记1h7min"
+      ],
+      "sample_group": "历史实习面经",
+      "source_line_range": [
+        632,
+        692
+      ],
+      "url": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L632-L692",
+      "outcome": "本轮未单独给出最终结果；README总体自述阿里实习offer，不能推定为独立企业验证",
+      "topics": [
+        "RPC故障容错",
+        "个人贡献/压测",
+        "本地消息表与MQ",
+        "退款状态竞态",
+        "消息幂等",
+        "限流/架构",
+        "IO/线程池"
+      ],
+      "project_questions": [
+        "RPC十台服务节点中一台宕机，如何继续调用并维护本地服务列表？",
+        "RPC压测怎样实施，框架本人实现还是小组合作？",
+        "本地消息表+MQ尚未完成时，用户支付后马上退款应如何处理订单状态？",
+        "怎样避免消息重复消费、应对多账号脚本抢购，并说明限流与分库分表取舍？"
+      ],
+      "summary": "把“RPC+业务项目”追到故障节点、实测依据、退款竞态及业务幂等，是优先推荐的项目深挖样本。",
+      "public_project_repositories": [
+        "https://github.com/viego1999/wxy-rpc",
+        "https://github.com/viego1999/xuecheng-plus-project",
+        "https://github.com/viego1999/xy-dianping"
+      ],
+      "repository_relationship": "README L149自述把点评秒杀移入学成在线；面经的抢购问题与此主题吻合，但不能确定发帖时具体代码版本。",
+      "borrowable_points": [
+        "把容量、状态与消息三类失败窗口并排解释",
+        "展示基线、压测脚本和个人改动，而非仅背组件名"
+      ],
+      "weaknesses_and_limits": [
+        "“新增退款中”等括号内容是作者回忆答案，不能据此断言方案完整正确",
+        "课程项目关系不能包装为公司生产经历",
+        "未核验该轮每个问题的回答效果"
+      ],
+      "recommended_use": "优先拿来检验自己的异常恢复和业务状态机；先写出竞态，再对照源代码寻找缺失保证。",
+      "source_repository": "viego1999/JavaWxy",
+      "author": "viego1999",
+      "candidate_group": "CV02_viego1999",
+      "fixed_commit": "69c82b68d5d7b023adadc2421c2d0a1406641397",
+      "source_path": "面试记录.md",
+      "fulltext_verified": true,
+      "access_level": "fixed_commit_raw_fulltext",
+      "confidence": "B：本人面经与结果自述，未经雇主独立核验",
+      "retrieved_at": "2026-10-23",
+      "evidence_type": "同仓第一人称历史面经；不含明确标为同学的轮次",
+      "ssp_status": "作者README自述腾讯秋招SSP；本记录并非腾讯SSP专属轮次，不扩展成该公司SSP结果",
+      "independence_note": "三条建议记录属于同一CV02候选人；与该作者牛客原帖可能同源，合并前去重，不新增三个独立成功者",
+      "project_relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L139-L152",
+      "role_boundary": "Java后端工程方向；历史批次不能视为2026实习门槛",
+      "repository_review_boundary": "本子任务仅读取资料原文与关系，不下载源码或验证作者性能；源码已归档情况由主记录负责"
+    },
+    {
+      "id": "SUG_CV02_MEITUAN_0831",
+      "title": "JavaWxy本人记录：美团0831二面（24秋招分组）",
+      "company": "美团",
+      "role": "Java后端秋招；按原文24秋招分组",
+      "date": "08-31；原文未在轮次处补写四位年份",
+      "rounds": [
+        "二面"
+      ],
+      "sample_group": "历史校招面经，单独统计",
+      "source_line_range": [
+        1138,
+        1170
+      ],
+      "url": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L1138-L1170",
+      "outcome": "该轮未单独说明结果；README列美团offer但未给档位，不能改写为美团SSP",
+      "topics": [
+        "RPC与本地调用",
+        "熔断/降级",
+        "链路追踪",
+        "压测",
+        "一致性哈希",
+        "并发结果汇总",
+        "实习贡献/负反馈",
+        "团队协作",
+        "抢单线程安全"
+      ],
+      "project_questions": [
+        "为什么做RPC，本地调用与远程调用有何区别，熔断降级及链路追踪怎样实现？",
+        "压测怎样做，一致性哈希相比普通哈希在RPC中适用什么场景？",
+        "多个线程结果如何汇总，多个骑手抢单怎样保证线程安全？",
+        "实习最大的难点、收到的负反馈、未做好之处与协作分歧如何处理？"
+      ],
+      "summary": "同轮串起RPC工程细节与实习反思，表明课程项目之外还需交付证据和个人贡献；只证明作者报告被问到这些问题。",
+      "public_project_repositories": [
+        "https://github.com/viego1999/wxy-rpc"
+      ],
+      "repository_relationship": "与README同账号RPC项目、Introduction项目准备对应；实习业务并未公开仓库，不把个人RPC代码等同实习源码。",
+      "borrowable_points": [
+        "把组件实现、实验与适用场景连起来",
+        "准备真实负反馈、改进及协作故事"
+      ],
+      "weaknesses_and_limits": [
+        "没有本轮SSP结果",
+        "校招二面与实习一面不可直接合并成统一强度",
+        "没有作者实习内部代码或独立绩效材料"
+      ],
+      "recommended_use": "用于对照准备“为什么这样设计、如何验证、本人贡献和不足”，保留历史校招边界。",
+      "source_repository": "viego1999/JavaWxy",
+      "author": "viego1999",
+      "candidate_group": "CV02_viego1999",
+      "fixed_commit": "69c82b68d5d7b023adadc2421c2d0a1406641397",
+      "source_path": "面试记录.md",
+      "fulltext_verified": true,
+      "access_level": "fixed_commit_raw_fulltext",
+      "confidence": "B：本人面经与结果自述，未经雇主独立核验",
+      "retrieved_at": "2026-10-23",
+      "evidence_type": "同仓第一人称历史面经；不含明确标为同学的轮次",
+      "ssp_status": "作者README自述腾讯秋招SSP；本记录并非腾讯SSP专属轮次，不扩展成该公司SSP结果",
+      "independence_note": "三条建议记录属于同一CV02候选人；与该作者牛客原帖可能同源，合并前去重，不新增三个独立成功者",
+      "project_relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L139-L152",
+      "role_boundary": "Java后端工程方向；历史批次不能视为2026实习门槛",
+      "repository_review_boundary": "本子任务仅读取资料原文与关系，不下载源码或验证作者性能；源码已归档情况由主记录负责"
+    }
+  ],
+  "suggested_interview_integration_note": "仅建议内容，未修改主interview_records.json。三条是同一作者、同一文件的不同轮次；先排查既有牛客卡同源，再分历史实习/历史校招统计。明确排除面试记录.md L52–90的0317美团一面（同学）。"
+}

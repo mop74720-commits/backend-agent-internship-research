@@ -1,0 +1,18 @@
+{
+  "local_links_checked": 118,
+  "link_errors": [],
+  "unique_evidence_records": 130,
+  "candidate_cases": 17,
+  "interview_materials": 55,
+  "pdf_pages": 23,
+  "pdf_bytes": 618325,
+  "all_new_ids_in_pdf": true,
+  "blank_pages": [],
+  "rendered_pages": [
+    1,
+    12,
+    23
+  ],
+  "scope": "本地文件、阅读功能和导出检查；项目未运行，录用仍自述",
+  "pdf_visual_review": "第1、12、23页目视通过；文字可读，无重叠或截断。"
+}

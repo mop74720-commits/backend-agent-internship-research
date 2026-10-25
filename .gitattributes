@@ -1,0 +1,9 @@
+# Preserve the saved UTF-8 sources and their existing line endings.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.zip binary
+*.docx binary

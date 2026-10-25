@@ -1,0 +1,80 @@
+OP15 | Linear生产Agent：B站导读与发布者公开转写稿选读
+
+需求核对版 · 2026-10-24
+
+source_key：
+  LINEAR_PRODUCTION_AGENT_PRIMARY_TRANSCRIPT
+类别：
+  B站与知乎
+原始来源：
+  https://www.bilibili.com/video/BV1P6tN6bEps/
+平台：
+  B站视频公开导读；原始播客逐字稿为平台外来源
+作者：
+  B站Easonlee；原访谈Nan Yu/Jacob Shumway，主持Peter Yang
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    专业观点，非招聘事件
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  来源日期：
+    B站2026-08-28；原访谈2026-08-09
+  时间依据：
+    未取得明确事件年；届别、发表时间、仓库时间不替代事件年
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    B站公开导读选读，视频未观看；原始公开逐字稿选读开场及L69/71/79/83/87，未读整篇
+  实际观看视频：
+    否
+platform_native_fulltext_verified：
+  否
+verified_video_viewing：
+  否
+primary_external_transcript_selected：
+  是
+具体观点与适用边界：
+  按真实工作流定义完成与人工检查点；按需加载技能/上下文；用户反馈转为回归样本，LLM评分器需人工校准。
+作者身份依据：
+  原始访谈页明示两位嘉宾参与构建Linear Agent；B站为转述/导读，不升格原团队署名。
+商业与选择偏差：
+  原发布页有付费订阅及Oceans Talent合作；Linear为自身产品案例，效果不视为独立测评。B站作者商业关系未核。
+局限：
+  - 未观看视频、未取得B站字幕；原始逐字稿不算B站字幕。
+  - 不将针对特定字段/意图的评测取舍泛化成所有Agent不需要评测。
+  - 逐字稿有转写拼写错误，属于公开文本选读而非音视频逐句校对。
+阅读建议：
+  与项目状态、权限及评测维度对读；只支持具体工程观点，不充作招聘门槛。
+source_record：
+  primary_url：
+    https://github.com/petergyang/behind-the-craft-transcripts/blob/fee802bad021ed071dc55b1a6e45c5ac1b5c114c/transcripts/2026/159-5-rules-for-building-ai-agents-that-work-in-production-nan-yu-jacob-shumway.md
+  primary_article：
+    https://creatoreconomy.so/p/5-rules-for-building-ai-agents-in-production-linear-nan-jacob
+  transcript_sha256：
+    797758b28016f6378e21aea99a0202799ed42505119448e858a262a09e5394a7
+  fixed_commit：
+    fee802bad021ed071dc55b1a6e45c5ac1b5c114c
+  reading_ranges：
+    - 开场/循环与工作流
+    - L69/71/79/83/87评测/用户反馈/按需技能
+  bilibili_access：
+    网页工具可读公开导读；普通GET412
+  publisher_relationship：
+    GitHub公开账号petergyang的blog字段直接指向creatoreconomy.so；固定版本README明确称本人Behind the Craft频道的转写档案，自动从已发布视频更新。账号自述与来源链接对应，不等于逐句人工校对。
+  publisher_readme_url：
+    https://github.com/petergyang/behind-the-craft-transcripts/blob/fee802bad021ed071dc55b1a6e45c5ac1b5c114c/README.md
+  media_downloaded：
+    否
+  full_transcript_archived：
+    否

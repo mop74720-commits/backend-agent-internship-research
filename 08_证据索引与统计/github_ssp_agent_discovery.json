@@ -1,0 +1,286 @@
+{
+  "retrieved_at": "2026-10-23",
+  "scope": "GitHub公开仓库中Agent/LLM/算法应用方向作者自述获得SSP的发现与核验；只读原站文本，不下载项目、模型或附件。",
+  "result_summary": {
+    "direct_first_person_ssp_statements": 2,
+    "recent_2024_2026_llm_statement_leads": 1,
+    "historical_cv_multimodal_adjacent_cases": 1,
+    "confirmed_agent_ssp_cases": 0,
+    "independently_verified_offers": 0,
+    "mature_non_toy_agent_projects_linked_to_ssp": 0,
+    "assessment": "不足3–5条，不补齐数量。两条均只能支持作者作过SSP自述，不能支持企业已认证、项目导致SSP或当前实习岗位标准。近年LLM线索的代码未成形；历史CV/多模态样本不能冒充近年Agent成功案例。"
+  },
+  "method": {
+    "github_search_api_calls": 3,
+    "github_search_queries": [
+      "SSP offer interview in:readme",
+      "SSP 大模型 in:readme",
+      "SSP 算法 面经 in:readme"
+    ],
+    "access": "Python requests读取GitHub公开repository API、公开仓库网页及raw.githubusercontent.com；纳入条目的SSP摘录和项目说明均按固定commit重读。",
+    "discovery_only": "搜索结果仅用于发现，不将索引或标题当成作者成功证据。GitHub网页另检索过SSP与Agent，父代理报告secondary rate limit后停止GitHub搜索。",
+    "search_limitations": [
+      "repository search检索README等仓库信息，不等同全站代码、issue、discussion或所有作者博客的完整检索。",
+      "Bing中文精确查询返回大量无关SSP释义；Google仅返回跳转壳；DuckDuckGo返回验证码。",
+      "Yahoo部分查询可用，发现以题库及转载索引为主；包含2024的两次查询返回HTTP 500。",
+      "未登录GitHub，未绕过平台访问限制，也未读取需要授权的内容。"
+    ],
+    "inclusion_rule": "作者在具体公开正文中明确说自己获得SSP；记录年份、岗位、公司未知项，并区分本人记录与协作收录。SP不升级为SSP，SSP题库或目标不算获录用。",
+    "project_relation_rule": "同一GitHub账号只能支持账号关联；除非正文明确说明，不能推断该项目是面试项目、简历项目或获SSP原因。"
+  },
+  "candidates": [
+    {
+      "id": "GHA01",
+      "repository": "cotsaaaaa-hash/Disassemble_the_black_box_1",
+      "public_author": "cotsaaaaa-hash",
+      "classification": "2026年LLM算法作者SSP自述线索；项目未成形的对照案例",
+      "disposition": "保留明确自述，不纳入成熟推荐项目，不计Agent SSP成功案例",
+      "ssp_status": "作者明确第一人称自述若干SSP；无企业独立核验",
+      "ssp_excerpt": "作为应届生，我对此感同身受。在经历了100多场算法岗面试后，我也拿到了若干ssp的offer。",
+      "ssp_source": {
+        "commit": "8cba5518918e1a7ef7cd80e8052e2642c4b7ca45",
+        "path": "README.md",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/README.md#L1",
+        "raw_url": "https://raw.githubusercontent.com/cotsaaaaa-hash/Disassemble_the_black_box_1/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/README.md",
+        "verified_access": "HTTP 200；该固定版本README全文仅1行，已读"
+      },
+      "year_and_role": {
+        "explicit_year": "README开头明确写在2026年的今天；该commit时间2026-01-26",
+        "repository_created_at": "2026-01-26T14:27:38Z",
+        "commit_date": "2026-01-26T15:41:28Z",
+        "recruitment_type": "自述应届生；未给届别、实习/秋招批次和offer日期",
+        "direction": "大模型算法；谈及模型结构、SFT、强化学习",
+        "agent_role_confirmed": false,
+        "companies": [],
+        "unknowns": "具体公司、岗位名称、档位定义、薪酬、offer数量及录用材料均未给出。不能把2026文字直接换成2026届或2026年发放offer。"
+      },
+      "interview_materials": {
+        "available": "README仅给百余场算法面试的概括和对背诵术语的反思，没有逐公司、逐轮、逐题面经。",
+        "is_detailed_interview_experience": false,
+        "use": "适合作为只会术语、未落实实现的反思线索，不能据此生成真实面试题频次或招聘标准。"
+      },
+      "same_account_project_relation": {
+        "relation": "SSP自述与项目介绍在同一仓库同一README；作者文字顺序是面试之后反思并写项目，不能当作此前凭该项目获得SSP。",
+        "readme_claim": "计划从Qwen3-0.6B展示next-token预测全部流程，包含embedding、位置编码、attention、RMSNorm、FFN与logits。",
+        "actual_code": [
+          {
+            "path": "1-qwen_inference/inference.py",
+            "url": "https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/1-qwen_inference/inference.py#L1",
+            "line_start": 1,
+            "line_end": 6,
+            "finding": "固定版本仅import torch、空行和print hello world，没有Qwen推理或模型结构实现。"
+          },
+          {
+            "path": "models/download.py",
+            "url": "https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/models/download.py#L4",
+            "line_start": 4,
+            "line_end": 36,
+            "finding": "Hugging Face snapshot_download封装，示例模型为facebook/opt-125m；不是README承诺的Qwen完整拆解。"
+          }
+        ],
+        "project_recommendation": "不推荐作为用户所需的非toy Agent或成熟后端项目；仅保留为项目承诺必须用代码核验的反例。"
+      },
+      "limitations": [
+        "SSP结果只有匿名公开账号的第一人称陈述，无法独立认证。",
+        "没有原始CV、具体公司面经或可对应SSP的项目材料。",
+        "静态读取未执行代码、未下载模型；未读图片或视频。",
+        "仓库无检测到的许可证，未复制或再分发项目源码。"
+      ],
+      "confidence": "B-：原文SSP自述与代码存在性可核对；身份、经历和录用结果未独立验证；不构成成熟项目案例"
+    },
+    {
+      "id": "GHA02",
+      "repository": "dong03/CV_Interview",
+      "public_author": "dong03",
+      "classification": "历史CV/多模态算法邻近SSP自述；不属于2024–2026 Agent证据",
+      "disposition": "历史对照阅读；不计近期Agent样本或独立成功人数扩增",
+      "ssp_status": "作者明确第一人称自述若干大厂SSP；未指明哪家公司属于SSP",
+      "ssp_excerpt": "招聘告一段落，目标方向是CV/多模态算法工程师，也拿到了若干大厂的SSP，简单记录下面试过程中的知识点供参考和存档。",
+      "ssp_source": {
+        "commit": "6ff6dde31ef16c9c691bce7b1caab0391f1b6c38",
+        "path": "README.md",
+        "line_start": 4,
+        "line_end": 4,
+        "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4",
+        "raw_url": "https://raw.githubusercontent.com/dong03/CV_Interview/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md",
+        "verified_access": "HTTP 200；固定版本README 94行全文已读"
+      },
+      "year_and_role": {
+        "repository_created_at": "2023-03-08T08:13:17Z",
+        "commit_date": "2023-05-23T07:37:59Z",
+        "interview_dates": "已读腾讯初面/二面分别写2022.3.17、2022.3.24；蚂蚁写2022.3。",
+        "offer_year": "README未明确发放SSP的年份；仓库归档和正文表明为历史材料，不能归入2024–2026。",
+        "direction": "CV/多模态算法，包含实习和秋招面经，也混入开发岗条目",
+        "agent_role_confirmed": false,
+        "companies_with_ssp_confirmed": [],
+        "recruitment_boundary": "具体面经涉及腾讯、字节、蚂蚁等，不等于这些公司均给作者SSP，更不能把实验室同学的面经结果归给仓库作者。"
+      },
+      "interview_materials": {
+        "author_scope": "README第8行称只是记录我自己遇到的问题；TIPS第24–36行有按公司归纳的知识点。TIPS第38–39行明确更多面经由实验室同学参与整理，因此exp目录不是可确认的单作者面试全集。",
+        "self_summary_source": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/TIPS.md#L24",
+        "collaboration_boundary_source": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/TIPS.md#L38",
+        "read_examples": [
+          {
+            "company": "腾讯CSIG安全",
+            "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/tencent.md#L3",
+            "read_range": "22行全文；日期2022.3.17及2022.3.24",
+            "questions": "论文与实习项目、focal loss参数、FLOPs、BatchNorm工程实现、受限空间排序。",
+            "outcome_boundary": "未提供本条SSP结果；协作来源，个人作者与总体SSP陈述未逐条对应。"
+          },
+          {
+            "company": "蚂蚁IoT",
+            "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/ant_cxr.md#L3",
+            "read_range": "12行全文；日期2022.3",
+            "questions": "实习、论文、全连接层零初始化、softmax梯度、weight decay、PyTorch function/module和底层理解。",
+            "outcome_boundary": "只有一面回忆，没有此条SSP结果或个人仓库对应。"
+          },
+          {
+            "company": "字节TikTok推荐视频理解",
+            "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/bytedance_tiktok_tkb.md#L1",
+            "read_range": "15行全文；未明确日期",
+            "questions": "数组组合约束、DeepLabV3+、视频tag/embedding冷启动业务。",
+            "outcome_boundary": "项目仅写项目二字，无内容、无录用结果，不能补写项目细节。"
+          },
+          {
+            "company": "Microsoft",
+            "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/microsoft.md#L1",
+            "read_range": "4行全文；AA面8.5但未写年份",
+            "questions": "实习收获、业务场景理解、项目后续规划。",
+            "outcome_boundary": "未给录用结果，不能归为微软SSP。"
+          },
+          {
+            "company": "小红书",
+            "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/xhs_tkb.md#L1",
+            "read_range": "3行全文；未写日期",
+            "questions": "矩阵转置与取球概率题；本轮仅记录题目存在，不将答案当技术核验。",
+            "outcome_boundary": "无项目详情及录用结果。"
+          }
+        ],
+        "recommendation": "适合查漏：同一算法项目会被追到数学、损失函数、底层实现与业务价值；不能把目录中所有问题当作2026 Agent实习必考清单。"
+      },
+      "same_account_project_relation": {
+        "repository": "dong03/MVSS-Net",
+        "relation_strength": "同一公开GitHub账号、API标记非fork；面经未明确点名MVSS-Net，因此只确认账号关联，不确认简历或面试使用关系。",
+        "commit": "cc2aed77a823723015f95e4a6a3e344f3ddb7ccc",
+        "commit_date": "2023-03-13T01:58:43Z",
+        "repository_created_at": "2021-07-23T10:37:07Z",
+        "source": "https://github.com/dong03/MVSS-Net/blob/cc2aed77a823723015f95e4a6a3e344f3ddb7ccc/README.md#L3",
+        "verified_access": "固定版本README全文133行已读；只静态阅读说明，未下载代码、数据或模型。",
+        "visible_evidence": [
+          "README第3行说明为ICCV2021图像篡改检测论文代码与模型；未另行把论文题录作为本轮完整学术核验。",
+          "第31–52行提供训练/测试数据划分，并说明CASIAv1与CASIAv2重复样本的替换，体现泄漏意识。",
+          "第62–80行有跨数据集AUC及image-level F1结果，允许观察域外性能退化；均为项目作者报告，未复现实验。",
+          "第84–100行给推理、评测命令及demo入口；本轮未执行、未核验命令能否在当前环境运行。"
+        ],
+        "recommended_lessons": [
+          "借鉴数据划分、跨域测试、指标与阈值、推理/评测入口等证据组织方式。",
+          "讨论优劣时区分同分布指标和跨域泛化，避免只有单个漂亮分数。"
+        ],
+        "not_recommended_as": "不是Agent项目；依赖环境列Ubuntu16.04、Python3.6、CUDA10.1，不能原样当现代Agent工程栈。没有证据证明该项目带来SSP。"
+      },
+      "limitations": [
+        "SSP整体自述未列公司、正式offer证明或档位口径。",
+        "协作面经存在多人来源；不得将多公司、多轮计为多个独立成功者。",
+        "2022–2023历史样本与2024–2026岗位背景不同。",
+        "未获取完整成功者CV；未读仓库全部知识点、未读项目图片、未运行任何第三方代码或模型。"
+      ],
+      "confidence": "B：SSP自述、历史面经文本和同账号项目说明可追溯；录用、具体项目贡献与面经作者对应关系未独立验证"
+    }
+  ],
+  "excluded_or_unresolved": [
+    {
+      "repository": "backtraxe/offer-is-all-you-need",
+      "url": "https://github.com/backtraxe/offer-is-all-you-need/blob/main/README.md",
+      "observed": "README第83行汇总26届20+Offer、10+SSP等小红书经历，第82行也有SSP薪酬和人才计划讨论。",
+      "reason": "第三方内容汇总，不是仓库作者获SSP。原作者/原帖与结果尚未核对，不能纳入第一人称成功人数。",
+      "status": "交父代理追原作者；本文件不以聚合器代替一手证据"
+    },
+    {
+      "repository": "adongwanai/AgentGuide",
+      "url": "https://github.com/adongwanai/AgentGuide/blob/main/README.md",
+      "observed": "第1481行称高级项目适合冲刺SP/SSP，另有8–10周拿offer的求职导向表述。",
+      "reason": "学习目标与宣传，不是作者已获SSP；未用其题库标签推断录用。"
+    },
+    {
+      "repository": "Lau-Jonathan/agentic-rl-interview-kb",
+      "url": "https://github.com/Lau-Jonathan/agentic-rl-interview-kb",
+      "observed": "仓库描述含SSP级通关与面试真题；README说明为Agentic RL知识地图与题库。",
+      "reason": "SSP级题库标题不等于作者获得SSP，未见所读正文的获录用陈述。"
+    },
+    {
+      "repository": "MAXUPUPUP/Ai_infra_journey",
+      "url": "https://github.com/MAXUPUPUP/Ai_infra_journey/blob/main/README.md",
+      "observed": "第15行招聘画像写校招SP/SSP级，第274行把头部大厂SSP列为目标优先级。",
+      "reason": "两年学习路线和目标，未见作者已获SSP的陈述。"
+    },
+    {
+      "repository": "YingaoWang-casia/shushu-InterviewProof-RAG",
+      "url": "https://github.com/YingaoWang-casia/shushu-InterviewProof-RAG/blob/main/README.md",
+      "observed": "第231、553行出现SP/SSP Scorecard。",
+      "reason": "项目压测评分概念，不是获录用结果。"
+    },
+    {
+      "repository": "YingaoWang-casia/shushu-ProjectProof",
+      "url": "https://github.com/YingaoWang-casia/shushu-ProjectProof/blob/main/README.md",
+      "observed": "多处SP/SSP Scorecard、投递前检查。",
+      "reason": "工具面向求职评价，不能证明作者已获SSP。"
+    },
+    {
+      "repository": "amusi/AI-Job-Notes",
+      "url": "https://github.com/amusi/AI-Job-Notes/blob/master/README.md",
+      "observed": "2024秋招时间表与SP/SSP一般性建议。",
+      "reason": "求职攻略，所读README不是作者已获SSP的第一人称经历。"
+    },
+    {
+      "repository": "extreme-assistant/AI-job-interview",
+      "url": "https://github.com/extreme-assistant/AI-job-interview/blob/master/README.md",
+      "observed": "SSP薪酬档位介绍及2020届攻略引用。",
+      "reason": "一般档位介绍和转载资料，不能归为仓库作者SSP结果。"
+    },
+    {
+      "repository": "zslomo/2019-Autumn-recruitment-experience",
+      "url": "https://github.com/zslomo/2019-Autumn-recruitment-experience/blob/master/README.md",
+      "observed": "历史机器学习面经；README谈普通/SP/SSP，且说不知道自己的拼多多offer算不算SP。",
+      "reason": "未见明确自身SSP陈述，不能由薪酬或SSP释义升级为SSP成功；年份也不属于近期。"
+    },
+    {
+      "repository": "shenweichen/AlgoNotes",
+      "url": "https://github.com/shenweichen/AlgoNotes/blob/main/README.md#L573",
+      "observed": "链接非科班如何拿到外企和国内大厂SSP Offer的微信文章。",
+      "reason": "文章索引不是该仓库作者自身结果，本轮未读到微信原文，不纳入成功样本。",
+      "external_lead": "https://mp.weixin.qq.com/s/I3mD5QbixIShti0zKKt5bw"
+    },
+    {
+      "repository": "jiji262/ai-agent-021 和 jiji262/ssp-web",
+      "url": "https://github.com/jiji262/ai-agent-021/blob/main/README.md",
+      "observed": "SSP指Shanghai Social Security Planner。",
+      "reason": "社保规划项目缩写，与招聘SSP无关。"
+    },
+    {
+      "repository": "ERVeepp/resume",
+      "url": "https://github.com/ERVeepp/resume",
+      "observed": "SSP出现在DSP/SSP/ADX广告技术栈中。",
+      "reason": "广告供应侧平台缩写，与招聘SSP无关；不采集联系方式或其他隐私字段。"
+    },
+    {
+      "repository": "wmjxxxy/ocean-data-agent",
+      "url": "https://github.com/wmjxxxy/ocean-data-agent/blob/main/README.md#L93",
+      "observed": "ssp为声速变量，单位m/s。",
+      "reason": "物理变量名，与招聘SSP无关。"
+    },
+    {
+      "repository": "Geaming2002/NLPVault",
+      "url": "https://github.com/Geaming2002/NLPVault/blob/main/README.md#L305",
+      "observed": "LM-SSP文献/资源分类。",
+      "reason": "研究资源名称，不是SSP offer。"
+    },
+    {
+      "repository": "Tfcccc-bot/ai-infra-offer-radar",
+      "url": "https://github.com/Tfcccc-bot/ai-infra-offer-radar/blob/main/README.md#L67",
+      "observed": "阿里星等招聘计划与普通SP/SSP比较。",
+      "reason": "招聘计划汇总，不是作者自己获得SSP。"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+JD12 | 阿里国际实习招聘（AI应用研发）
+
+需求核对版 · 2026-10-24
+
+公司：
+  阿里国际
+role_type：
+  Agent工程实习
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/22154e3d68ed481588263f61f5f616b4
+publish_date：
+  页面03-24；年份未明示
+retrieved_date：
+  2026-10-23
+source_type：
+  自称雇员发布的招聘帖
+evidence_excerpt：
+  自动化评测与回测机制
+own_summary：
+  从业务问题、知识环境到工程闭环，要求理解模型局限与风险；评测回测、观测、异步降级均是明确方向。
+required_stack：
+  - Java/Python/JS等一种深入实践
+  - 数据结构算法
+  - 网络操作系统
+  - LLM应用范式
+  - Context/Prompt工程
+  - 工具调用
+  - Agent框架
+  - AI Coding经验
+preferred_stack：
+  - RAG/多Agent/MCP/Skills落地
+  - 高质量开源/博客
+  - vLLM/Ollama/延迟/KV cache理解
+  - CV/NLP/SFT/RL经验
+degree_constraint：
+  相关专业优先；学历/届别未展示
+availability_constraint：
+  未展示
+recruiting_status：
+  未核验
+原访问范围：
+  全文
+证据边界：
+  中高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 数据结构算法
+  - 操作系统Linux
+  - 网络协议
+  - Agent实践
+  - RAG
+  - 框架
+  - 工具编排
+  - 记忆上下文
+  - 权限安全
+  - 观测评测
+  - 架构性能可靠性
+duties：
+  业务归因、反思纠错、自动评测回测、链路归因、异步与降级
+局限：
+  牛客带阿里研发职业标签；招聘人身份未由雇主二次验证。
+类别：
+  招聘JD
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    页面03-24；年份未明示
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    页面只给月日，不从届别补年
+  来源日期：
+    页面03-24；年份未明示
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

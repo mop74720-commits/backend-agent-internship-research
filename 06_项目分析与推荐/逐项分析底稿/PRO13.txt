@@ -1,0 +1,222 @@
+PRO13 | Hello-Agents：评测方法与教材代码参考，整库不归档
+
+需求核对版 · 2026-10-24
+
+仓库：
+  datawhalechina/hello-agents
+原始来源：
+  https://github.com/datawhalechina/hello-agents
+方向与岗位：
+  Agent教材／评测样例
+阅读建议：
+  推荐补课与核对 BFCL／GAIA／LLM Judge 方法；不把教材示例或共创项目数量当成熟个人作品。
+技术栈：
+  - Python
+  - hello-agents评测extra
+  - BFCL
+  - GAIA
+  - LLM Judge
+  - 数据生成／Win Rate
+  - 部分章节FastAPI／研究助手
+值得学习之处：
+  - 中文教程把记忆、检索、上下文、协议与评测分章，并给出可定位代码，比只有概念名词更适合建立学习索引。
+  - chapter12 将数据集加载、执行、结果导出以及官方 BFCL 命令拆开，可用于理解不同评估步骤和依赖。
+  - README／子章节明确有示例性质，能拿来学习如何区分预期输出、作者材料和自己实测。
+局限与静态风险：
+  - 这是课程与共创仓库，不是一个统一部署／统一测试的成品系统；不能把不同作者项目的功能合并声称成一个已经验证的平台。
+  - 03_bfcl_custom_evaluation.py 默认只跑 5 个样本；README 的 5/5、100% 标为预期输出，不是本次实测，也不足以代表 BFCL 全集。
+  - chapter12 README 安装 hello-agents[evaluation]==0.2.3，而 chapter14 研究助手 pyproject 固定 hello-agents==0.2.9；不同章节需隔离环境，不能假定同一依赖版本通吃。
+  - 04_run_bfcl_evaluation 会调用外部 bfcl evaluate，并需要数据／工具安装；固定源码没有自动把官方数据许可、模型访问与复现环境全部附带。
+  - 顶层许可为 CC BY-NC-SA 4.0，部分子目录另有 MIT 等声明；体量和混合许可需按目录看，不按 GitHub API 的 NOASSERTION 猜测无许可。
+borrow：
+  优先查第十二章的评测概念、代码入口和依赖，再按自己欠缺的章节阅读；把原作者输出与自己的结果分开。
+extend：
+  评价教程时核对模型／数据版本、实际样本量、官方评分与自定义评分区别；不要把 template_output 或预期输出当外部认证成绩。
+已定位阅读路径：
+  - LICENSE.txt
+  - code/chapter12/README.md
+  - code/chapter12/03_bfcl_custom_evaluation.py
+  - code/chapter12/04_run_bfcl_evaluation.py
+  - code/chapter12/08_data_generation_llm_judge.py
+  - code/chapter14/helloagents-deepresearch/backend/pyproject.toml
+静态阅读发现：
+  - path：
+      code/chapter12/03_bfcl_custom_evaluation.py
+    line_start：
+      17
+    line_end：
+      35
+    观察：
+      加载 simple_python 类别并以 max_samples=5 演示自定义评估。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py#L17-L35
+  - path：
+      code/chapter12/README.md
+    line_start：
+      53
+    line_end：
+      65
+    观察：
+      快速开始的 100%／5/5 被作者标为预期输出，不能拿来证明实际性能。
+    kind：
+      证据口径
+    原始来源：
+      https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/README.md#L53-L65
+  - path：
+      code/chapter12/04_run_bfcl_evaluation.py
+    line_start：
+      165
+    line_end：
+      209
+    观察：
+      用 subprocess 调用 bfcl evaluate --partial-eval，并处理命令缺失／非零退出；需额外安装 BFCL 环境。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/04_run_bfcl_evaluation.py#L165-L209
+  - path：
+      code/chapter14/helloagents-deepresearch/backend/pyproject.toml
+    line_start：
+      9
+    line_end：
+      20
+    观察：
+      子项目声明 MIT、Python >=3.10、hello-agents==0.2.9 及 FastAPI／Tavily／OpenAI 等依赖，说明章节间环境和许可应分开核对。
+    kind：
+      依赖／许可范围
+    原始来源：
+      https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml#L9-L20
+测试材料与评测边界：
+  - 已读 chapter12 README、自定义 BFCL 样例、调用官方评估脚本和 LLM Judge 示例；是评测入口材料，不是本次运行记录。
+  - 共创目录含各自 tests，但本次未统一审查或执行其全部代码，不把它们计为整库统一质量证据。
+  - 未下载完整 BFCL／GAIA 数据、未访问需要授权的数据集、未调用模型或裁判。
+运行依赖说明：
+  - chapter12 README 推荐 hello-agents[evaluation]==0.2.3；BFCL 数据与 bfcl-eval 需另行取得并核对版本。
+  - 部分 GAIA 数据访问需 Hugging Face 授权；真实模型和 Judge 另需供应商访问。
+  - chapter14 研究助手是不同子项目，Python >=3.10，使用 hello-agents 0.2.9、FastAPI 与搜索供应商依赖。
+cost：
+  本次只读公开原文／指定源码。真实生成、Agent执行和 LLM Judge 会消耗模型预算；Tavily 等搜索可能另收费，未发起任何付费调用。
+recommended_for：
+  - 需要系统补 Agent 原理和评价方法的 Python 学习者
+  - 已有项目但缺评测知识的人
+not_recommended_for：
+  - 希望直接把教材输出、共创别人的项目或 5 题示例写成自己成果的人
+  - 希望一个环境直接启动整本教程所有项目的人
+候选人与项目关系：
+  —
+interview_evidence_ids：
+  - INT01
+  - INT05
+  - INT13
+  - INT17
+interview_linkage：
+  主题映射为评测集、指标依据、功能必要性；未找到本次候选人因 Hello-Agents 获得目标岗位／SSP 的直接证据。
+interview_questions：
+  - 5 题 simple_python 正确能否代表真实多轮任务成功？为什么？
+  - 自定义匹配评分、官方 BFCL 评分和业务结果 oracle 有什么区别？
+  - Judge 的偏差、重复试验和数据泄漏如何影响结果解释？
+商业与选择偏差：
+  Datawhale 社区课程／共创内容；章节引用外部框架和服务，单独检查来源与条款。
+许可标识：
+  CC-BY-NC-SA-4.0（顶层）；部分子目录另有声明
+license_scope：
+  已读取固定 commit 的 LICENSE.txt 和 README 许可段；不将顶层 CC 许可概括为全部子项目软件同许可。
+固定源码提交：
+  36f583c233ea5cee4537ef93455702b55053af18
+源码提交时间：
+  2026-10-13T22:28:54Z
+default_branch：
+  main
+取得源码ZIP：
+  是
+源码包文件：
+  未核／无
+源码包SHA-256：
+  未核／无
+archive_omission_reason：
+  递归 Git tree 未截断，2,607 个文件合计约 195 MB；为避免把大量教材图片／共创项目和不同许可材料混装，本轮只提供固定 commit 的官方源码链接及已读路径。并非因为没有许可证。
+运行验证范围：
+  未整库下载；指定原文与源码通过固定 commit 的 raw.githubusercontent.com 阅读。未运行代码或评测。
+retrieved_date：
+  2026-10-23
+类别：
+  项目参考
+source_urls：
+  - https://github.com/datawhalechina/hello-agents
+  - https://github.com/datawhalechina/hello-agents/tree/36f583c233ea5cee4537ef93455702b55053af18
+  - https://api.github.com/repos/datawhalechina/hello-agents
+inspection_boundary：
+  未整库下载；指定原文与源码通过固定 commit 的 raw.githubusercontent.com 阅读。未运行代码或评测。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-10-13T22:28:54Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    后端实习主线无需整本教材；用作Agent知识补课即可。
+  指定模块：
+    - LICENSE.txt
+    - code/chapter12/README.md
+    - code/chapter12/03_bfcl_custom_evaluation.py
+    - code/chapter12/04_run_bfcl_evaluation.py
+Agent方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    先补第十二章评价方法，分清示例、预期输出和实际基准；按缺口读章节。
+  指定模块：
+    - LICENSE.txt
+    - code/chapter12/README.md
+    - code/chapter12/03_bfcl_custom_evaluation.py
+    - code/chapter12/04_run_bfcl_evaluation.py
+附件状态：
+  状态：
+    固定源码选读派生ZIP已归档
+  源码包文件：
+    Hello_Agents_固定源码选读.zip
+  exists：
+    是
+  理由：
+    固定6文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行
+  源码包SHA-256：
+    271f736d59c25bc9ec1053f7f22d054f2bf516c8da8d741f3ebc26272b944a4a
+  source_manifest：
+    08_证据索引与统计/Hello_Agents_选读归档补齐.json
+  source_file_count：
+    6
+  selection_only：
+    是
+  runtime_verified：
+    否
+archive_status：
+  固定6文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行
+source_selection_manifest：
+  08_证据索引与统计/Hello_Agents_选读归档补齐.json

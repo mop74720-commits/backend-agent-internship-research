@@ -1,0 +1,317 @@
+CV15 | CyC2018：2018头条后台SSP、本人多轮面试复盘与可读公开HTML履历页
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+作者：
+  CyC2018
+事件时间／原文日期（依分类）：
+  2018春招、游戏实习与秋招
+方向与岗位：
+  历史Java/后台研发；另有图形学科研与网易游戏实习
+结果自述：
+  本人明确头条后台SSP、腾讯SP；不互换档位
+evidence_excerpt：
+  字节跳动，头条后台研发，SSP
+资料形式：
+  本人年度复盘＋可读公开HTML履历页；未打包完整CV原件
+技术栈：
+  - Java
+  - Spring
+  - MySQL主从
+  - Redis
+  - Feed流
+  - 并发与网络
+  - 实习项目优化
+本人项目与经历描述：
+  - 微博系统：本人记录PHP实现后改Java/Spring；履历说明主从读写分离、热点缓存和Feed流
+  - CS-Notes及Markdown转换工具
+  - 网易游戏场景破坏重建实习：图形学邻近材料
+public_html_profile：
+  public_url：
+    https://cyc2018.github.io/page.html
+  source_url：
+    https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html
+  固定源码提交：
+    bdc22b780acef89f2c0eb3588f15343dd09a38a6
+  源码提交时间：
+    2020-11-19T17:53:07Z
+  资料形式：
+    可读公开HTML履历/项目展示页；作者自称个人简历，不是下载到本地的CV原件。
+  已读部分：
+    解析完整HTML的非联系专业内容：页头、网易实习、两项科研、开源博客、微博系统、Markdown工具、Leetcode样式、编程语言/Web/中间件技能；联系与地址模块主动忽略。
+  education_boundary：
+    page.html未见教育/学历模块；研究生方向只能另据本人年度复盘L29，不补写学校、学历时间线或本科学校。
+  privacy_and_packaging：
+    只记录专业模块短摘录和来源链接；未存原始整页或联系方式，不用GitHub代码许可推定简历再分发许可；不打包该HTML原件。
+project_relationship：
+  - name：
+      微博系统 / MBlog
+    relationship：
+      本人2018复盘称为求实习自己做的微博系统；同篇称后续学习Spring后改用Java实现；本人公开HTML履历直接给出MBlog仓库链接。
+    source_status：
+      2026-10-23 repo API HTTP404，当前公开本人仓库清单无该库；本轮未定位独立源码或可构建快照。
+    建议用途：
+      - 项目需求由读多写少、热点与Feed流推出技术选择，可对照常用后端能力，但仅列技术名不足以证明掌握。
+      - 优先读作者自认项目太浅、面试被追问的部分，学习如何补验证与机制深度。
+    局限：
+      - 未读代码，不能确认主从一致性、缓存失效、Feed拉推模式、并发和测试质量。
+      - 从PHP换Java/Spring是作者记录的学习过程，不能推断换框架直接导致SSP。
+      - 该项目不是非toy Agent项目，不替代当前Agent工程案例。
+  - name：
+      网易实习：游戏场景任意破坏与重建算法研究
+    relationship：
+      SSP本人复盘讲实习与项目面试；本人HTML履历给日期、部门和技术，并链接同仓优化说明。
+    source_status：
+      有公开设计/优化说明及页面演示素材；未定位完整业务源码，不下载、运行或打包。
+    建议用途：
+      - 真实领域约束与失败模式比堆技术名更有讨论深度；可以研究共享数据、遍历与内存取舍。
+      - 将动机、方法与结果分开陈述，验证落地计划是否真正完成；履历“打算落地”不是已上线证明。
+    局限：
+      - 技术结果、落地计划与性能改进均作者自述，未跑实验。
+      - 优化说明将迭代改进描述为基本不消耗内存，不应照搬为普遍结论；显式工作队列仍占空间，应记录峰值内存与栈限制。
+      - 这是历史游戏引擎/图形学项目，不能包装成成熟分布式后端或Agent项目。
+  - name：
+      CS-Notes 与 Markdown转换工具
+    relationship：
+      本人复盘末尾直接称CS-Notes为自己的技术博客；历史README L189–197称提取本人文档排版和转换工具；公开履历也直链工具。
+    source_status：
+      本轮仅核博客/工具关系及文档；没有抽读转换工具当前代码，不把技术笔记仓库等同可运行后端业务系统。
+    建议用途：
+      - 开源输出可作为长期学习、表达与工程工具化的旁证；不能用star量替代个人贡献与项目质量。
+    局限：
+      —
+静态阅读发现：
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      11
+    line_end：
+      21
+    内容归纳：
+      本人逐一列offer，其中头条SSP、腾讯SP。
+    short_excerpt：
+      字节跳动，头条后台研发，SSP
+    源码提交时间：
+      2018-12-31T12:16:36Z
+    result_grade：
+      B：第一人称公开自述，未经企业或offer文件独立验证
+    company_boundary：
+      仅原文明确的字节/头条后台SSP；腾讯原文明确为SP；阿里当时仍申报offer，不能推定SSP。
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L115-L117
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      115
+    line_end：
+      117
+    内容归纳：
+      头条本人面试叙述：前三面、错排问题争议、SQL执行与索引、加面主要问项目、最终确定SSP。
+    short_excerpt：
+      苦苦等了好多天之后，最后确定是 SSP 之后，还是很惊喜的
+  - 原始来源：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L139-L139
+    仓库：
+      CyC2018/CS-Notes
+    固定源码提交：
+      6ea58eff7e40a8b449a567af5ba7dcd20f7cd058
+    path：
+      other/2018 这一年.md
+    line_start：
+      139
+    line_end：
+      139
+    内容归纳：
+      SSP本人原文明确称这个网页为自己的简历。
+    short_excerpt：
+      只要允许，我都会用这个简历给面试官演示：[个人简历](https://cyc2018.github.io)
+值得学习之处：
+  - SSP公司与档位明确：字节/头条后台；同文腾讯SP，避免混淆。
+  - 同篇第一人称叙述本人项目、本人面经，并直接链接自己的公开简历网页，来源关系强。
+  - 失败、改进与成功都保留，能观察项目深度、基础广度、实习经历和表达等多因素。
+建议用途：
+  可优先新增为CV15：它把本人SSP、失败与成功面试、项目迭代和公开履历连起来，符合吸取好处与坏处的需求。先读失败项目复盘，再读公开履历中的技术选择。
+局限：
+  - 2018历史求职，当前网页快照为2020，不能直接当2026实习要求或当年简历原样。
+  - SSP、实习贡献、科研与性能结果都是作者自述，没有企业或实验独立认证。
+  - 公开HTML页没有教育模块，未取得经授权的完整CV原件；未打包页面或联系方式。
+  - 微博独立源码当前404，不能宣称已附成熟后端项目源码。
+  - 作者关于加面评级、薪酬、部门、工作时间和招聘流程的说法是历史个人认知，不能升级为当前企业统一规则。
+  - 不证明某个项目或某项技术单独导致SSP，也不是近期Agent成功案例。
+证据边界：
+  B：同作者SSP、面经、项目与履历页面关系清楚；仍是自述
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    2018春招、游戏实习与秋招
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    本人2018年度复盘明确，不用2020网页快照补写面试年
+  来源日期：
+    未核／无
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    按source_findings已读范围归类；全文仅指该篇已定位公开正文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      字节跳动/头条后台
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+    依据：
+      本人明确头条后台SSP、腾讯SP；不互换档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      腾讯
+    档位：
+      SP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+    依据：
+      本人明确头条后台SSP、腾讯SP；不互换档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      阿里
+    档位：
+      未披露
+    状态：
+      pending_offer_self_report
+    证据：
+      https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+    依据：
+      本人明确头条后台SSP、腾讯SP；不互换档位
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  未核／无
+履历材料形式：
+  公开HTML履历页（缺教育模块）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+      direct_basis：
+        本人明确头条后台SSP、腾讯SP；不互换档位
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html
+      direct_basis：
+        本人2018年度复盘直接称该网页为个人简历；已读专业模块
+      直接关系：
+        直接点名
+      gap：
+        page.html未见教育/学历模块；研究生方向只能另据本人年度复盘L29，不补写学校、学历时间线或本科学校。；页面2020快照不等于2018求职快照
+      public_url：
+        https://cyc2018.github.io/page.html
+  project：
+    - 原始来源：
+        https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html
+      direct_basis：
+        微博系统 / MBlog：本人2018复盘称为求实习自己做的微博系统；同篇称后续学习Spring后改用Java实现；本人公开HTML履历直接给出MBlog仓库链接。
+      直接关系：
+        直接点名
+      gap：
+        2026-10-23 repo API HTTP404，当前公开本人仓库清单无该库；本轮未定位独立源码或可构建快照。
+      project_name：
+        微博系统 / MBlog
+    - 原始来源：
+        https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html
+      direct_basis：
+        网易实习：游戏场景任意破坏与重建算法研究：SSP本人复盘讲实习与项目面试；本人HTML履历给日期、部门和技术，并链接同仓优化说明。
+      直接关系：
+        直接点名
+      gap：
+        有公开设计/优化说明及页面演示素材；未定位完整业务源码，不下载、运行或打包。
+      project_name：
+        网易实习：游戏场景任意破坏与重建算法研究
+    - 原始来源：
+        https://github.com/CyC2018/CyC2018.github.io/blob/bdc22b780acef89f2c0eb3588f15343dd09a38a6/page.html
+      direct_basis：
+        CS-Notes 与 Markdown转换工具：本人复盘末尾直接称CS-Notes为自己的技术博客；历史README L189–197称提取本人文档排版和转换工具；公开履历也直链工具。
+      直接关系：
+        直接点名
+      gap：
+        本轮仅核博客/工具关系及文档；没有抽读转换工具当前代码，不把技术笔记仓库等同可运行后端业务系统。
+      project_name：
+        CS-Notes 与 Markdown转换工具
+  interview：
+    - 原始来源：
+        https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21
+      direct_basis：
+        CyC2018：从项目太浅的失败到头条SSP的本人多轮复盘
+      直接关系：
+        直接点名
+      gap：
+        本记录并非各家SSP完整面试录音；以已读范围为准
+      interview_id：
+        INT60
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - page.html未见教育/学历模块；研究生方向只能另据本人年度复盘L29，不补写学校、学历时间线或本科学校。；页面2020快照不等于2018求职快照
+  - 2026-10-23 repo API HTTP404，当前公开本人仓库清单无该库；本轮未定位独立源码或可构建快照。
+  - 有公开设计/优化说明及页面演示素材；未定位完整业务源码，不下载、运行或打包。
+  - 本轮仅核博客/工具关系及文档；没有抽读转换工具当前代码，不把技术笔记仓库等同可运行后端业务系统。
+  - 本记录并非各家SSP完整面试录音；以已读范围为准
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

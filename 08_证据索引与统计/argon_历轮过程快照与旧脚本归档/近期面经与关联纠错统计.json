@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-23",
+  "status": "active",
+  "new_record_ids": [
+    "INT85",
+    "INT86"
+  ],
+  "current_totals": {
+    "logical_evidence_records": 193,
+    "candidate_cases": 31,
+    "interview_materials": 79,
+    "projects": 25,
+    "source_archives": 25,
+    "fixed_link_only": 0,
+    "jd_leads": 19,
+    "engineering_jd_fulltext": 14,
+    "platform_opinion_records": 13,
+    "additional_primary_texts": 3,
+    "manual_links": 70,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9
+  },
+  "summary": "新增一份正文明确2025日期的Java实习失败面经及一份美团后端已offer二面，修正候选人总体结果的单场面试适用标记。另由同作者投递总表补核INT68为2026年实习流程，保留登记与投递日期差别。",
+  "remaining_gaps": [
+    "近期Agent SSP的具体岗位、招聘批次与本人履历/源码/面经关联仍不足。",
+    "已读B站图文和知乎正文按实际内容计入；视频/字幕未读仅为阅读范围，专业观点仍按背景、商业关系和技术依据分别评估。",
+    "部分实习面经事件年、项目源码与个人贡献范围仍缺；不能从编辑时间、第三方汇编或同账号仓库补齐。"
+  ],
+  "new_interviews": 2,
+  "new_candidate_profiles": 0,
+  "new_projects": 0,
+  "new_ssp_cases": 0,
+  "strict_recent_increment": 2,
+  "existing_interview_year_confirmations": [
+    "INT68"
+  ]
+}

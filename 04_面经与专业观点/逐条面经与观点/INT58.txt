@@ -1,0 +1,165 @@
+INT58 | dong03 CV_Interview：历史CV/多模态题目与协作面经范围
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/TIPS.md#L24-L39
+公司：
+  腾讯／蚂蚁／字节等（含实验室协作来源）
+方向与岗位：
+  CV/多模态算法邻近参考
+事件时间／原文日期（依分类）：
+  部分面经正文明确2022年，其他轮次年未知
+结果自述：
+  仓主整体自述若干SSP；不能将各公司轮次或同学面经归为其SSP结果
+统计组：
+  招聘类型未确认（单列）
+candidate_group：
+  CV13_dong03_协作
+role_boundary：
+  非近期Agent工程实习，不参与近期工程面经分母
+ssp_status：
+  整体自述明确，具体公司/轮次不明确
+涉及主题：
+  - PyTorch
+  - 损失函数
+  - FLOPs
+  - BatchNorm
+  - 梯度
+  - 论文与实习项目
+  - 业务场景
+  - 算法
+原文提问（归纳）：
+  - 论文与实习项目、focal loss参数、FLOPs、BatchNorm工程实现、受限空间排序。
+  - 实习、论文、全连接层零初始化、softmax梯度、weight decay、PyTorch function/module和底层理解。
+  - 数组组合约束、DeepLabV3+、视频tag/embedding冷启动业务。
+  - 实习收获、业务场景理解、项目后续规划。
+  - 矩阵转置与取球概率题；本轮仅记录题目存在，不将答案当技术核验。
+rounds：
+  - 公司：
+      腾讯CSIG安全
+    原始来源：
+      https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/tencent.md#L3
+    read_range：
+      22行全文；日期2022.3.17及2022.3.24
+    questions：
+      论文与实习项目、focal loss参数、FLOPs、BatchNorm工程实现、受限空间排序。
+    outcome_boundary：
+      未提供本条SSP结果；协作来源，个人作者与总体SSP陈述未逐条对应。
+  - 公司：
+      蚂蚁IoT
+    原始来源：
+      https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/ant_cxr.md#L3
+    read_range：
+      12行全文；日期2022.3
+    questions：
+      实习、论文、全连接层零初始化、softmax梯度、weight decay、PyTorch function/module和底层理解。
+    outcome_boundary：
+      只有一面回忆，没有此条SSP结果或个人仓库对应。
+  - 公司：
+      字节TikTok推荐视频理解
+    原始来源：
+      https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/bytedance_tiktok_tkb.md#L1
+    read_range：
+      15行全文；未明确日期
+    questions：
+      数组组合约束、DeepLabV3+、视频tag/embedding冷启动业务。
+    outcome_boundary：
+      项目仅写项目二字，无内容、无录用结果，不能补写项目细节。
+  - 公司：
+      Microsoft
+    原始来源：
+      https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/microsoft.md#L1
+    read_range：
+      4行全文；AA面8.5但未写年份
+    questions：
+      实习收获、业务场景理解、项目后续规划。
+    outcome_boundary：
+      未给录用结果，不能归为微软SSP。
+  - 公司：
+      小红书
+    原始来源：
+      https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/xhs_tkb.md#L1
+    read_range：
+      3行全文；未写日期
+    questions：
+      矩阵转置与取球概率题；本轮仅记录题目存在，不将答案当技术核验。
+    outcome_boundary：
+      无项目详情及录用结果。
+内容归纳：
+  README第8行称只是记录我自己遇到的问题；TIPS第24–36行有按公司归纳的知识点。TIPS第38–39行明确更多面经由实验室同学参与整理，因此exp目录不是可确认的单作者面试全集。
+建议用途：
+  适合查漏：同一算法项目会被追到数学、损失函数、底层实现与业务价值；不能把目录中所有问题当作2026 Agent实习必考清单。
+局限：
+  - SSP整体自述未列公司、正式offer证明或档位口径。
+  - 协作面经存在多人来源；不得将多公司、多轮计为多个独立成功者。
+  - 2022–2023历史样本与2024–2026岗位背景不同。
+  - 未获取完整成功者CV；未读仓库全部知识点、未读项目图片、未运行任何第三方代码或模型。
+  - 同账号MVSS-Net未在这些面经中被点名，不能补写项目对应或获SSP因果
+原访问范围：
+  固定README、TIPS、所选5篇短面经已读；未读全库全部知识点
+fulltext_verified：
+  否
+证据边界：
+  B-：公开文本可核；多人来源，不能全算仓主亲历
+类别：
+  面经复盘
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    算法对照
+  招聘类型：
+    未知
+  事件时间：
+    部分面经正文明确2022年，其他轮次年未知
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    2022来自所选原文；不能把全仓协作问题均归为仓主
+  来源日期：
+    固定commit2023，非面试时间
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    固定README、TIPS、所选5篇短面经已读；未读全库全部知识点
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      未披露具体公司
+    档位：
+      未逐公司对应：若干SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4
+    依据：
+      README第一人称明确SSP，未提供具体公司定档或企业证明。；为同作者整体求职结果，不能反填到本记录每一轮或公司
+    applies_to_this_interview：
+      否
+    企业独立验证：
+      否
+发表／来源日期：
+  固定commit2023，非面试时间
+面经形式：
+  面经与整理/协作笔记混合
+候选人关联ID：
+  - CV13
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  mixed_or_overall_self_report
+related_record_ids：
+  —

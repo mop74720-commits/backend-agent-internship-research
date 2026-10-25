@@ -1,0 +1,217 @@
+{
+  "id": "INT68",
+  "before": {
+    "id": "INT68",
+    "title": "华为AI应用实习：专业面、主管面与offer时间线",
+    "url": "https://www.nowcoder.com/discuss/884479038142586880",
+    "company": "华为云软件研发部／杭州研究所（作者自述）",
+    "role": "AI应用工程师-AI技术应用；原帖带27届实习标签",
+    "date": "03-31至05-25过程；05-25自述offer，年未由正文确认",
+    "outcome": "作者自述5.25收到offer邮件；未写SSP",
+    "topics": [
+      "个人贡献",
+      "项目架构",
+      "团队协作",
+      "科研/竞赛",
+      "Agent架构",
+      "三数之和"
+    ],
+    "project_questions": [
+      "实习负责哪些模块、产出是什么，项目各阶段做了什么？",
+      "科研/项目困难如何分析和解决，在团队中是主导还是配合？",
+      "Agent概念、宏观架构与系统准备方式"
+    ],
+    "recommended_use": "重点对照技术面与主管面对个人贡献的不同问法，补足项目真实性、时间线和协作表达。",
+    "limitations": [
+      "仅该作者流程，不能把跳过机考条件推广到所有申请者",
+      "项目及竞赛效果仍是自述，没有对应代码仓库或完整CV"
+    ],
+    "access_level": "原始正文实际取得并核读；只保存专业归纳和必要短摘录",
+    "fulltext_verified": true,
+    "confidence": "B：公开面试自述可读，录用和技术答案未获独立认证",
+    "category": "面经复盘",
+    "retrieved_at": "2026-10-23",
+    "taxonomy": {
+      "track": "Agent工程",
+      "recruitment": "实习",
+      "experience_date_text": "03-31至05-25过程；05-25自述offer，年未由正文确认",
+      "date_precision": "仅月日",
+      "year_confirmed": false,
+      "recent_status": "年份未知",
+      "date_basis": "原记录未给可确认的事件年",
+      "source_date_text": "3.31至5.25仅月日"
+    },
+    "reading": {
+      "scope": "全文",
+      "fulltext": true,
+      "scope_note": "原始正文实际取得并核读；只保存专业归纳和必要短摘录",
+      "legacy_fulltext_verified": true,
+      "video_watched": false
+    },
+    "outcomes": [
+      {
+        "company": "华为云软件研发部／杭州研究所（作者自述）",
+        "grade": "未披露",
+        "status": "offer_self_report",
+        "evidence_url": "https://www.nowcoder.com/discuss/884479038142586880",
+        "basis": "作者自述5.25收到offer邮件；未写SSP",
+        "applies_to_this_interview": true,
+        "independent_employer_verified": false
+      }
+    ],
+    "source_date": "3.31至5.25仅月日",
+    "material_type": "本人具体问题记录",
+    "candidate_link_ids": [],
+    "strict_recent_internship": false,
+    "publication_recent_event_year_unknown": false,
+    "result_status": "offer_self_report",
+    "related_record_ids": [],
+    "sample_group": "明确实习面经"
+  },
+  "after": {
+    "id": "INT68",
+    "title": "华为AI应用实习：专业面、主管面与offer时间线",
+    "url": "https://www.nowcoder.com/discuss/884479038142586880",
+    "company": "华为云软件研发部／杭州研究所（作者自述）",
+    "role": "AI应用工程师-AI技术应用；原帖带27届实习标签",
+    "date": "2026-05-14专业面及主管面，05-15沟通杭州，05-25收到offer自述；原面经另记03-31注册，关联总表华为行记2026-04-01投递。",
+    "outcome": "作者自述5.25收到offer邮件；未写SSP",
+    "topics": [
+      "个人贡献",
+      "项目架构",
+      "团队协作",
+      "科研/竞赛",
+      "Agent架构",
+      "三数之和"
+    ],
+    "project_questions": [
+      "实习负责哪些模块、产出是什么，项目各阶段做了什么？",
+      "科研/项目困难如何分析和解决，在团队中是主导还是配合？",
+      "Agent概念、宏观架构与系统准备方式"
+    ],
+    "recommended_use": "重点对照技术面与主管面对个人贡献的不同问法，补足项目真实性、时间线和协作表达。",
+    "limitations": [
+      "仅该作者流程，不能把跳过机考条件推广到所有申请者",
+      "项目及竞赛效果仍是自述，没有对应代码仓库或完整CV"
+    ],
+    "access_level": "原始正文实际取得并核读；只保存专业归纳和必要短摘录",
+    "fulltext_verified": true,
+    "confidence": "B：公开面试自述可读，录用和技术答案未获独立认证",
+    "category": "面经复盘",
+    "retrieved_at": "2026-10-23",
+    "taxonomy": {
+      "track": "Agent工程",
+      "recruitment": "实习",
+      "experience_date_text": "2026-05-14专业面及主管面，05-15沟通杭州，05-25收到offer自述；原面经另记03-31注册，关联总表华为行记2026-04-01投递。",
+      "date_precision": "范围",
+      "year_confirmed": true,
+      "recent_status": "近期确认",
+      "date_basis": "同作者/profile/407412033的投递总表华为AI应用岗位行直接给出2026-04-01，并在同一行列5.14面试、5.15杭州、5.25offer；与原面经三个事件节点对应，非依据编辑日期或届别补年。",
+      "source_date_text": "3.31至5.25仅月日"
+    },
+    "reading": {
+      "scope": "全文",
+      "fulltext": true,
+      "scope_note": "原始正文实际取得并核读；只保存专业归纳和必要短摘录",
+      "legacy_fulltext_verified": true,
+      "video_watched": false
+    },
+    "outcomes": [
+      {
+        "company": "华为云软件研发部／杭州研究所（作者自述）",
+        "grade": "未披露",
+        "status": "offer_self_report",
+        "evidence_url": "https://www.nowcoder.com/discuss/884479038142586880",
+        "basis": "作者自述5.25收到offer邮件；未写SSP",
+        "applies_to_this_interview": true,
+        "independent_employer_verified": false
+      }
+    ],
+    "source_date": "3.31至5.25仅月日",
+    "material_type": "本人具体问题记录",
+    "candidate_link_ids": [],
+    "strict_recent_internship": true,
+    "publication_recent_event_year_unknown": false,
+    "result_status": "offer_self_report",
+    "related_record_ids": [],
+    "sample_group": "明确事件年实习",
+    "supporting_url": "https://ac.nowcoder.com/discuss/883814345203798016",
+    "event_date_verification": {
+      "id": "INT68",
+      "title": "华为AI应用实习：专业面、主管面与offer时间线",
+      "primary": {
+        "canonical_url": "https://www.nowcoder.com/discuss/884479038142586880",
+        "read_url": "https://ac.nowcoder.com/discuss/884479038142586880",
+        "http_status": 200,
+        "body_characters": 1068,
+        "body_sha256": "7468057d8c24de13fd9964222021322ae706626d7463a371834cbb8cf65d7243",
+        "reading_scope": "公开文字正文核读，重点复核最终流程梳理；未读评论及图片。",
+        "public_author_path": "/profile/407412033"
+      },
+      "supporting": {
+        "title": "27届实习投递总结贴：AI/算法/数据方向，简历挂和一面挂都记录一下",
+        "canonical_url": "https://www.nowcoder.com/discuss/883814345203798016",
+        "read_url": "https://ac.nowcoder.com/discuss/883814345203798016",
+        "http_status": 200,
+        "body_characters": 4280,
+        "body_sha256": "9aee555758a0afbd91512432ce60344d217204b0028ed101c1abd8fe4ea5c3a0",
+        "reading_scope": "全文已取得；实际核读投递总表华为行、对应华为叙述及上下文日期范围，不称逐条审定其余公司流程。",
+        "public_author_path": "/profile/407412033",
+        "necessary_short_excerpt": "2026-04-01",
+        "same_row_paraphrase": "华为AI应用工程师／AI技术应用这一行，日期为2026-04-01，后续状态列出5.14面试通过、5.15确认杭州、5.25收到offer。"
+      },
+      "direct_relationship": {
+        "same_public_author_path": true,
+        "basis": "两个原始文章DOM中的作者链接均为/profile/407412033，不依赖昵称、学校或头像匹配。",
+        "same_role": "投递总表明确华为AI应用工程师／AI技术应用，与既有面经所记岗位对应。",
+        "matching_event_nodes": [
+          {
+            "month_day": "05-14",
+            "primary": "完成技术面与主管面",
+            "supporting": "同一华为行记面试通过后等待"
+          },
+          {
+            "month_day": "05-15",
+            "primary": "HR沟通工作地点杭州",
+            "supporting": "同一行记接口HR确认杭州"
+          },
+          {
+            "month_day": "05-25",
+            "primary": "收到HR电话后于当日收到offer邮件",
+            "supporting": "同一行记收到offer"
+          }
+        ],
+        "year_basis": "总表直接使用2026-04-01这一完整日期，并将5月三项事件列在同一华为招聘流程行；结合相同作者、岗位和三个日期/结果节点，对应为2026年流程。此为同作者正文关联补年，不使用来源编辑时间或届别。",
+        "not_claimed": "没有文章超链接逐场绑定；采用同作者、同岗位和三项匹配节点建立招聘流程对应，不由此补全个人项目、SSP或企业独立确认。"
+      },
+      "timeline_difference": {
+        "primary": "原面经记03-31注册华为招聘系统并由HR投递指定岗位。",
+        "supporting": "投递总表华为行日期为2026-04-01。",
+        "handling": "两处登记／投递日期存在一天差异，分别保留原口径；不统一改成其中一天，不用该差异改变5.14/5.15/5.25的匹配。"
+      },
+      "recommended_changes": {
+        "decision": "可用关联正文将INT68的招聘事件年补为2026；根代理集成时保留证据和日期口径差别。",
+        "date": "2026-05-14专业面及主管面，05-15沟通杭州，05-25收到offer自述；原面经另记03-31注册，关联总表华为行记2026-04-01投递。",
+        "taxonomy": {
+          "year_confirmed": true,
+          "recent_status": "近期确认",
+          "date_precision": "范围",
+          "date_basis": "同作者/profile/407412033的投递总表华为AI应用岗位行直接给出2026-04-01，并在同一行列5.14面试、5.15杭州、5.25offer；与原面经三个事件节点对应，非依据编辑日期或届别补年。"
+        },
+        "strict_recent_internship": true,
+        "supporting_url": "https://ac.nowcoder.com/discuss/883814345203798016",
+        "result_status": "offer_self_report",
+        "ssp": "未披露；不变更为SSP",
+        "source_date": "保持现有来源日期字段的独立口径，不把2026招聘事件日期写成初发日期。"
+      }
+    }
+  },
+  "allowed_fields": [
+    "date",
+    "taxonomy",
+    "strict_recent_internship",
+    "sample_group",
+    "supporting_url",
+    "event_date_verification"
+  ]
+}

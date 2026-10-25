@@ -1,0 +1,102 @@
+JD14 | Agent研发工程师（实习生）
+
+需求核对版 · 2026-10-24
+
+公司：
+  百度
+role_type：
+  Agent工程实习
+原始来源：
+  https://www.shixiseng.com/intern/inn_py1hkw0wds9o?pcm=pc_SearchList
+publish_date：
+  2026-09-22刷新
+retrieved_date：
+  2026-10-23
+source_type：
+  企业在实习僧发布的JD
+evidence_excerpt：
+  任务成功率、执行效率、稳定性
+own_summary：
+  围绕任务规划、工具、上下文和异常恢复建设Agent Harness；明确用成功率、执行效率和稳定性持续评测。
+required_stack：
+  - Python/Go等一种语言
+  - 数据结构与算法
+  - LLM/RAG/Function Call/任务规划认知
+  - 系统设计与抽象
+preferred_stack：
+  - 框架/中间件设计落地
+degree_constraint：
+  相关专业在读本科/硕士
+availability_constraint：
+  正文6个月以上；页头4个月；5天/周
+recruiting_status：
+  页面有投递入口；截止2027-01-01，HC未核验
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 数据结构算法
+  - Agent实践
+  - RAG
+  - 工具编排
+  - 记忆上下文
+  - 观测评测
+  - 架构性能可靠性
+  - 工程质量测试
+duties：
+  多Agent、任务调度、异常恢复；测试集与任务成功率
+局限：
+  实习时长字段冲突：以正文6个月作为保守筛选，投递前问招聘方。
+类别：
+  招聘JD
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    2026-09-22刷新
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    招聘页面直接显示发布/刷新日期或投递期；不是实际面试日期，也不证明当前HC
+  来源日期：
+    2026-09-22刷新
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+latest_access_recheck：
+  资料ID：
+    JD14
+  原始来源：
+    https://www.shixiseng.com/intern/inn_py1hkw0wds9o?pcm=pc_SearchList
+  access：
+    企业招聘原页面正文实际读取；2026-09-22刷新
+  reading_scope：
+    完整职位描述、任职资格与投递要求
+  required_summary：
+    语言、算法与调试、LLM应用认知、系统设计和抽象；正文要求稳定实习六个月以上。
+  preferred_summary：
+    框架或中间件的设计落地经验被标为加分。
+  duties_summary：
+    规划、工具、调度、上下文、异常恢复，以及成功率和稳定性的持续评测。
+  boundary：
+    页头四个月与正文六个月冲突，保留冲突；不以正文职责推定本人已做过所有模块。

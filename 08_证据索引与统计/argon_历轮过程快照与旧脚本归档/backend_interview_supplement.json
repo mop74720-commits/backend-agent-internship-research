@@ -1,0 +1,696 @@
+[
+  {
+    "id": "INT20",
+    "title": "阿里云Java研发实习 - 一面",
+    "url": "https://www.nowcoder.com/discuss/743798386737897472?sourceSSR=dynamic",
+    "canonical_url": "https://www.nowcoder.com/discuss/743798386737897472",
+    "company": "阿里云",
+    "team": "云智能集团／全面风险管理",
+    "role": "Java研发暑期实习，2026届",
+    "date": "2025-04-25编辑；面试04-21",
+    "date_certainty": "页面明确2025年；04-21由同月正文补全为2025-04-21",
+    "rounds": [
+      "一面"
+    ],
+    "outcome": "作者自述一面未通过",
+    "topics": [
+      "项目深挖/个人贡献",
+      "Java并发/JVM",
+      "SQL优化/事务",
+      "Spring/AOP",
+      "网络协议",
+      "限流",
+      "AI编码"
+    ],
+    "project_questions": [
+      "项目数据库访问做过哪些优化，去掉SELECT *为何能改善查询？",
+      "统一日志切面如何实现，怎样读取参数并控制多个切面的次序？",
+      "面对突发请求怎样选择限流方法，令牌桶与漏桶有何取舍？"
+    ],
+    "summary": "一场以基础和实现细节为主的失败实习样本。价值在于把SQL优化、日志切面和限流从名词追到代码；末尾了解AI工具并未替代Java底层考察。",
+    "borrowable_points": [
+      "将优化描述连接到查询字段、索引与执行计划。",
+      "能解释框架功能涉及的类、注解和执行顺序。"
+    ],
+    "weaknesses_and_limits": [
+      "项目专有细节仅概括为约10分钟，未完整公开。",
+      "评论中的KPI面猜测没有雇主证据，不采纳。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "暑期实习，不是SSP校招面试",
+    "candidate_group": "SUP_BACKEND_C01",
+    "public_project_repositories": [],
+    "repository_relationship": "原文未提供可确认属于候选人的项目仓库。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–104行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT21",
+    "title": "百度-java后端实习-凉经",
+    "url": "https://www.nowcoder.com/discuss/905123127074582528?sourceSSR=post",
+    "canonical_url": "https://www.nowcoder.com/discuss/905123127074582528",
+    "company": "百度",
+    "team": "未公开具体团队",
+    "role": "Java后端实习；作者自述27届本科",
+    "date": "页面07-23编辑；面试07-10，年份未展示",
+    "date_certainty": "月日可见；结合27届与当前页面推测2026年，未独立确认",
+    "rounds": [
+      "技术面，未明确第几轮"
+    ],
+    "outcome": "作者自述截至07-23未收到后续，已去小厂；不能把无后续等同正式拒信",
+    "topics": [
+      "项目深挖/个人贡献",
+      "Java并发/JVM",
+      "MySQL事务/索引",
+      "Redis/GEO",
+      "Canal/ES同步",
+      "设计模式",
+      "算法/编程"
+    ],
+    "project_questions": [
+      "附近商户查询如何把Redis GEO与地图服务连接起来？",
+      "购物车计价为何采用策略、工厂和模板方法，各自如何实现？",
+      "MySQL到ES出现同步差异时怎样排查，添加索引会带来哪些运行风险？"
+    ],
+    "summary": "典型失败复盘：已有AI项目和业务组件，仍被问到缓存、数据同步、类型与索引等基础。适合检查常见课程改造项目是否真正理解实现。",
+    "borrowable_points": [
+      "以完整数据流解释选型和异常，而非只罗列中间件。",
+      "从简单Java对象创建继续解释类加载、内存和回收。"
+    ],
+    "weaknesses_and_limits": [
+      "作者承认复习较浅、算法准备不足；并未提供统一录用面评。",
+      "文中的技术问法和回忆不能当标准答案，GC细节应核对所用JDK。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "后端实习中介绍AI项目，不等于Agent专岗",
+    "candidate_group": "SUP_BACKEND_C02",
+    "public_project_repositories": [],
+    "repository_relationship": "购物车/GEO/同步项目均未附候选人源码链接。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–114行及后段结果说明",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT22",
+    "title": "四非本 滴滴-后端实习面经(已OC)",
+    "url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee",
+    "company": "滴滴",
+    "team": "具体业务组未披露",
+    "role": "Java后端实习",
+    "date": "2025-03-21一面，03-25二面；04-15编辑",
+    "date_certainty": "正文时间线明确年份与月日",
+    "rounds": [
+      "一面",
+      "二面"
+    ],
+    "outcome": "自述2025-03-26口头OC，03-28正式offer；未经企业独立验证",
+    "topics": [
+      "项目深挖/个人贡献",
+      "Java并发/JVM",
+      "消息顺序/一致性",
+      "RPC协议",
+      "事务",
+      "系统设计",
+      "算法/编程"
+    ],
+    "project_questions": [
+      "采用RocketMQ顺序消息解决了什么需求，同时损失什么能力？",
+      "自研RPC为什么值得做，协议包含哪些信息、如何保证可解析？",
+      "如何把服务同步编排改成CompletableFuture，怎样设计充值和转账的事务边界？"
+    ],
+    "summary": "成功实习样本同时保留业务约束和底层追问。尤其适合比较组件项目与业务项目如何分别证明协议、并发、事务和取舍能力。",
+    "borrowable_points": [
+      "解释使用顺序消息的业务前提及代价。",
+      "从线程池、异步编排延伸到实际任务的正确性。"
+    ],
+    "weaknesses_and_limits": [
+      "RPC仓库和原始运行指标未公开，不能验证实现质量。",
+      "作者对公司难度的比较属于个人体验，不用于公司排名。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "录用自述不能推导SSP档位",
+    "candidate_group": "SUP_BACKEND_C03",
+    "public_project_repositories": [],
+    "repository_relationship": "原文描述自研RPC，但未给出能确认作者关系的仓库。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–95行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT23",
+    "title": "27实习面经-蚂蚁后端ai开发一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/db9292f9a3dc4102bec84668a7f2df18?urlSource=home-api",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/db9292f9a3dc4102bec84668a7f2df18",
+    "company": "蚂蚁集团",
+    "team": "未公开",
+    "role": "后端AI开发实习，标题称27届",
+    "date": "页面04-26，未显示年份",
+    "date_certainty": "月日可见；27届实习背景推测2026年，年份未证实",
+    "rounds": [
+      "一面"
+    ],
+    "outcome": "自述发帖时无后续，未公布拒信或最终offer",
+    "topics": [
+      "Agent概念",
+      "Redis锁/缓存一致性",
+      "CAS",
+      "网络协议",
+      "Linux/Shell",
+      "短链系统",
+      "算法/编程"
+    ],
+    "project_questions": [
+      "自己实现的锁为何采用Lua，哪些操作需要保持原子性？",
+      "缓存更新方案怎样处理Redis与MySQL的时间差？",
+      "短链系统的读写瓶颈在哪里，如何按瓶颈调整架构？"
+    ],
+    "summary": "后端AI岗位仍穿插锁、缓存、Linux和系统设计。价值是看到Agent知识广度与传统后端基本功同时出现，不能用AI名词替代工程解释。",
+    "borrowable_points": [
+      "把锁的实现、超时和业务风险连起来讨论。",
+      "先判断短链场景的负载特点，再提出优化。"
+    ],
+    "weaknesses_and_limits": [
+      "原文没有给候选人具体项目的实现或规模。",
+      "题目中的‘必须Lua’是面试问法，不能推广为所有锁方案的唯一实现。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "后端与AI混合实习，不代表算法训练岗",
+    "candidate_group": "SUP_BACKEND_C04",
+    "public_project_repositories": [],
+    "repository_relationship": "原文没有候选人公开项目仓库。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–67行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT24",
+    "title": "26届快手暑期实习（已OC）",
+    "url": "https://www.nowcoder.com/feed/main/detail/8c1a63e46e4e462892474e405d611028",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/8c1a63e46e4e462892474e405d611028",
+    "company": "快手",
+    "team": "杭州电商",
+    "role": "后端暑期实习，2026届",
+    "date": "2025-04-23发布；03-24/03-31技术面，04-15 HR",
+    "date_certainty": "页面2025年明确，正文给出各轮月日",
+    "rounds": [
+      "一面",
+      "二面",
+      "HR面"
+    ],
+    "outcome": "自述4月下旬发offer；标题称OC，未核验企业材料",
+    "topics": [
+      "项目深挖/个人贡献",
+      "Redis数据结构/GEO",
+      "空间查询",
+      "算法/编程",
+      "业务理解"
+    ],
+    "project_questions": [
+      "实习中POI表保存了哪些字段，如何限定中心点附近的结果？",
+      "使用GEO查询时，其底层如何组织和查找坐标？",
+      "Hash与跳表为何适合相应数据，为什么没有选择其他树结构？"
+    ],
+    "summary": "成功实习案例把Redis追问连接到具体POI业务。已有多段实习，是重要混杂因素；不能把录用归功于单个Redis项目。",
+    "borrowable_points": [
+      "能从表字段、查询条件一路讲到索引结构。",
+      "了解申请团队的业务与个人经历的连接。"
+    ],
+    "weaknesses_and_limits": [
+      "作者承认部分问题记不全。",
+      "关于其他公司空间召回方案的朋友转述不作为事实采纳。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "26届暑期实习，不是SSP评级证据",
+    "candidate_group": "SUP_BACKEND_C05",
+    "public_project_repositories": [],
+    "repository_relationship": "原文只描述实习字段与方案，无作者源码仓库。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–75行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT25",
+    "title": "京东-京东零售-jdy- java实习-一面凉经",
+    "url": "https://ac.nowcoder.com/discuss/1535507?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+    "canonical_url": "https://ac.nowcoder.com/discuss/1535507",
+    "company": "京东",
+    "team": "京东零售，原帖称jdy",
+    "role": "Java实习",
+    "date": "2025-08-15发布；面试具体日期未写",
+    "date_certainty": "发布日期明确，不能把发布日期直接当面试日",
+    "rounds": [
+      "一面，约45分钟"
+    ],
+    "outcome": "作者自述四天后未通过",
+    "topics": [
+      "项目深挖/个人贡献",
+      "网关/限流",
+      "线程池/OOM",
+      "监控/链路追踪",
+      "AOP",
+      "分布式锁选型",
+      "事务"
+    ],
+    "project_questions": [
+      "突发流量时，限流精度与系统开销怎样平衡？",
+      "线程池参数考虑了哪些资源约束，任务堆积导致内存问题时如何定位？",
+      "每段业务链路能否观测，锁注解有哪些参数、粒度和替代方案？"
+    ],
+    "summary": "最值得优先读的失败样本之一。面试沿简历不断追问证据：发现故障、定位故障、观测覆盖及选型取舍，比背参数更接近实际工程。",
+    "borrowable_points": [
+      "将监控指标落实到业务链路中的具体步骤。",
+      "解释锁粒度和MySQL、Redis、ZooKeeper方案的取舍。"
+    ],
+    "weaknesses_and_limits": [
+      "作者关于面试官‘应该想问什么’是事后推测，单独区分。",
+      "帖中没有监控截图、代码和压测数据，不能据此验证作者实现。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "实习一面失败；不代表京东所有团队的标准",
+    "candidate_group": "SUP_BACKEND_C06",
+    "public_project_repositories": [],
+    "repository_relationship": "涉及实习与第二项目，未给候选人本人仓库。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第15–80行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT26",
+    "title": "美团java后端日常实习一二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/d27704499b5c41e0bd0019a8d158a052",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/d27704499b5c41e0bd0019a8d158a052",
+    "company": "美团",
+    "team": "未披露",
+    "role": "Java后端日常实习",
+    "date": "2025-02-18编辑；各轮具体日期未写",
+    "date_certainty": "编辑日期明确，面试日未知",
+    "rounds": [
+      "一面",
+      "二面"
+    ],
+    "outcome": "正文未公布最终结果",
+    "topics": [
+      "缓存/限流",
+      "MySQL/MVCC",
+      "Maven依赖",
+      "Spring生命周期",
+      "WebSocket/轮询",
+      "线程池/JVM",
+      "算法/编程"
+    ],
+    "project_questions": [
+      "用户规模变大后，轮询对服务端造成什么压力，改用推送有何取舍？",
+      "项目怎样排查SQL，重复读的快照与当前读如何影响行为？",
+      "如何发现和管理依赖版本冲突？"
+    ],
+    "summary": "基础覆盖较广，第二轮将通信方式与用户规模联系起来。与INT27为同一公开账号的不同公司面试，不应当成两个独立候选人。",
+    "borrowable_points": [
+      "把基础组件原理与业务规模变化连接。",
+      "补齐构建依赖和Linux等交付常识。"
+    ],
+    "weaknesses_and_limits": [
+      "项目相关内容在原帖大多没有展开，通信场景题比项目材料更具体。",
+      "作者回忆和评论不构成标准答案；每轮均有算法，不宜凭八股覆盖推断可取消编码准备。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "日常实习，与暑期转正批次分开",
+    "candidate_group": "SUP_BACKEND_C07",
+    "related_record_ids": [
+      "INT27"
+    ],
+    "public_project_repositories": [],
+    "repository_relationship": "原文未提供候选人仓库。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–79行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT27",
+    "title": "快手Java日常实习一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/dd1f2a0a303644dab4b53c5be40caf9b?sourceSSR=users",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/dd1f2a0a303644dab4b53c5be40caf9b",
+    "company": "快手",
+    "team": "未披露",
+    "role": "Java后端日常实习",
+    "date": "2025-02-13发布；面试日期未明确",
+    "date_certainty": "发布日期明确",
+    "rounds": [
+      "一面"
+    ],
+    "outcome": "自述第一次面试且紧张，正文未给最终结果",
+    "topics": [
+      "消息队列选型/幂等",
+      "协议设计",
+      "Redis/限流",
+      "MySQL日志/隔离",
+      "Spring自动配置",
+      "排障",
+      "算法/编程"
+    ],
+    "project_questions": [
+      "为何选RabbitMQ，重复投递会在什么情况下发生，消费者如何去重？",
+      "项目自定义协议有哪些字段，怎样处理半包和粘包？",
+      "缺少日志与后台数据时，怎样逐步缩小线上故障范围？"
+    ],
+    "summary": "组件选择被连着追到协议、重复消费和排障，适合审查常见RPC或消息项目。与INT26同作者，记录两次不同面试而非两个人。",
+    "borrowable_points": [
+      "用业务约束说明MQ选择及失败语义。",
+      "能画出一条消息从编码到消费确认的路径。"
+    ],
+    "weaknesses_and_limits": [
+      "候选人没有公开完整协议定义或幂等实现。",
+      "结果未公布，不能因自评发挥不好就写成正式淘汰。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "实习后端，不等于快手研究岗",
+    "candidate_group": "SUP_BACKEND_C07",
+    "related_record_ids": [
+      "INT26"
+    ],
+    "public_project_repositories": [],
+    "repository_relationship": "协议与消息项目未提供源码链接，不臆配教程仓库。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–67行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT28",
+    "title": "26届后端实习-蚂蚁集团后端开发一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/bb4c92b4084f44e69388ac342c1ca809?sourceSSR=users",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/bb4c92b4084f44e69388ac342c1ca809",
+    "company": "蚂蚁集团",
+    "team": "未披露",
+    "role": "后端暑期实习，2026届",
+    "date": "2025-03-20发布；03-17电话面",
+    "date_certainty": "发布日期年份明确，正文月日与其一致",
+    "rounds": [
+      "一面，电话"
+    ],
+    "outcome": "正文未公布结果；其他读者关于拒信的提问不作为结果证据",
+    "topics": [
+      "实验室/项目经历",
+      "Java泛型/集合",
+      "设计模式",
+      "线程池",
+      "Redis高可用",
+      "TCP"
+    ],
+    "project_questions": [
+      "研究生阶段在实验室实际做了什么、如何说明自己的贡献？",
+      "为什么目前项目方向没有选择AI？",
+      "高可用Redis集群怎样处理节点故障？"
+    ],
+    "summary": "短篇实习原帖，支持实验室工作与项目选择动机也会被追问。没有具体系统结构，不宜当高强度项目深挖样本；作为基础覆盖和反问动机的补充。",
+    "borrowable_points": [
+      "清楚表达读研期间真实交付和方向选择。"
+    ],
+    "weaknesses_and_limits": [
+      "项目细节只简写为聊项目，信息密度低于INT25。",
+      "原帖没有手撕只是这一场情况，不是整个公司的规则。"
+    ],
+    "sample_group": "明确实习面经",
+    "role_boundary": "26届暑期实习，不是算法研究或SSP对照",
+    "candidate_group": "SUP_BACKEND_C08",
+    "public_project_repositories": [],
+    "repository_relationship": "没有可识别的候选人项目仓库。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–68行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT29",
+    "title": "26届秋招字节后端二+三面速通面经详细版（附timeline）",
+    "url": "https://www.nowcoder.com/discuss/796747192839991296",
+    "canonical_url": "https://www.nowcoder.com/discuss/796747192839991296",
+    "company": "字节跳动",
+    "team": "财经／风控引擎后端（同作者结果帖说明）",
+    "role": "后端秋招，2026届",
+    "date": "2025-09-04二面、09-08三面；10-09编辑",
+    "date_certainty": "原帖有2025年编辑日期与月日时间线，同作者结果帖确认09-28意向",
+    "rounds": [
+      "二面，约60分钟",
+      "三面，约40分钟"
+    ],
+    "outcome": "面经自述技术面及HR通过、等待意向；同作者09-28结果帖自述收到意向，仍未经企业验证",
+    "topics": [
+      "实习深挖/系统理解",
+      "分布式一致性",
+      "个人挑战",
+      "算法/编程",
+      "业务上下游"
+    ],
+    "project_questions": [
+      "自己负责的服务在全系统上下游什么位置，为哪项业务服务？",
+      "系统选择何种一致性方案，为什么可以接受相应延迟？",
+      "最难挑战如何解决，竞赛经历能否转成清晰的算法解释与现场实现？"
+    ],
+    "summary": "成功校招样本中，实习系统理解与现场算法占主要时间。与INT31为同一候选人；其美团S级转正自述不能推导字节也给SSP。",
+    "borrowable_points": [
+      "按照业务请求链路讲系统，而非仅讲自己修改的函数。",
+      "解释一致性、挑战、个人职责，并保留现场算法能力。"
+    ],
+    "weaknesses_and_limits": [
+      "业务细节出于实习内容限制未公开，无法验证具体实现。",
+      "原帖动态规划解题叙述未经本包运行核验，不作为最优解。"
+    ],
+    "sample_group": "校招面经（单独统计）",
+    "role_boundary": "2026届校招；不能直接外推实习硬门槛",
+    "candidate_group": "SUP_BACKEND_C09",
+    "related_record_ids": [
+      "INT31"
+    ],
+    "supporting_url": "https://www.nowcoder.com/feed/main/detail/1041cf81950e4242b34d853d46b758e7",
+    "related_urls": [
+      "https://www.nowcoder.com/discuss/795268104220602368?sourceSSR=users",
+      "https://ac.nowcoder.com/discuss/1570456?channel=-1&source_id=discuss_tag_discuss_hot_nctrack&type=0"
+    ],
+    "same_candidate_notes": "同作者另有美团金融国际支付S级转正复盘与京东科技面经；以上不新增候选人数。",
+    "public_project_repositories": [],
+    "repository_relationship": "正文未附候选人可确认的项目源码仓库。",
+    "ssp_status": "字节仅自述意向；同作者美团SSP自述仅作交叉资料",
+    "source_line_range": "原页面正文第46–114行；同作者结果帖第46–62行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT30",
+    "title": "百度秋招后端一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/4f3b80037f7e42778eabe9358b84deba",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/4f3b80037f7e42778eabe9358b84deba",
+    "company": "百度",
+    "team": "未披露",
+    "role": "后端秋招，含Agent场景；届别未明确",
+    "date": "页面07-30；面试07-22，约45分钟",
+    "date_certainty": "月日明确，年份未展示；按当前展示推定2026，未独立证实",
+    "rounds": [
+      "一面"
+    ],
+    "outcome": "正文未公布录用结果",
+    "topics": [
+      "项目指标/个人贡献",
+      "高并发与排障",
+      "缓存/数据库一致性",
+      "消息积压",
+      "Agent工具失败恢复",
+      "Prompt/Skill治理",
+      "算法/编程"
+    ],
+    "project_questions": [
+      "Skill上线效果怎样量化，流量放大后系统哪段先受限？",
+      "Prompt配置出错怎样止损，缓存的过期与更新依据是什么？",
+      "多次工具执行中间失败时，如何恢复且避免已完成动作重复发生？"
+    ],
+    "summary": "最值得优先读的后端与Agent交叉样本。把AI项目从调用接口追到实际QPS、配置治理、缓存和失败恢复，适合识别项目叙述是否有业务闭环。",
+    "borrowable_points": [
+      "让每个效果主张对应观测指标和回归依据。",
+      "明确中途失败的状态、重试范围和已经产生的副作用。"
+    ],
+    "weaknesses_and_limits": [
+      "作者明确回忆不完整，年份和届别未确认。",
+      "只列问题，没有可核验的项目数据、仓库或最终面评。"
+    ],
+    "sample_group": "校招面经（单独统计）",
+    "role_boundary": "后端秋招中考Agent，岗位标题未证明是Agent专岗",
+    "candidate_group": "SUP_BACKEND_C10",
+    "public_project_repositories": [],
+    "repository_relationship": "未附候选人本人仓库；不把问题中的Skill与任何开源项目强行关联。",
+    "ssp_status": "未声称SSP",
+    "source_line_range": "原页面正文第46–80行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT31",
+    "title": "京东科技后端秋招一面与二面（同候选人合并）",
+    "url": "https://www.nowcoder.com/discuss/805923665652039680",
+    "canonical_url": "https://www.nowcoder.com/discuss/805923665652039680",
+    "company": "京东",
+    "team": "京东科技；具体组未公开",
+    "role": "后端校招，结合结果时间线为2026届秋招",
+    "date": "2025-09-04/09-09两轮；两篇均10-09发布或编辑",
+    "date_certainty": "2025年由页面与同作者结果帖确认；各轮日期由结果帖提供",
+    "rounds": [
+      "一面，约30分钟",
+      "二面，约30分钟"
+    ],
+    "outcome": "两篇正文均自述已意向；同作者结果帖称2025-10-09收到意向",
+    "topics": [
+      "实习深挖/稳定性",
+      "Spring/AOP/生命周期",
+      "责任链",
+      "JVM排障",
+      "索引/回表",
+      "循环依赖"
+    ],
+    "project_questions": [
+      "实习系统的复杂度和稳定性改进体现在哪里，能否用几句话概括？",
+      "LiteFlow在需求里承担什么职责，和责任链思路如何对应？",
+      "服务CPU与内存同时升高怎样排查，手写Spring如何处理循环依赖？"
+    ],
+    "summary": "同一候选人的两轮合并，避免重复计样本；与INT29同人。亮点是系统理解、稳定性和表达，另有可识别的错误作答，不能把成功者回答当标准答案。",
+    "borrowable_points": [
+      "先说明系统与贡献，再讨论框架原理。",
+      "准备长短两个版本的技术挑战解释。"
+    ],
+    "weaknesses_and_limits": [
+      "原帖把三级缓存编号与对象工厂、完整单例的对应关系说反。Spring官方源码显示singletonObjects保存单例、earlySingletonObjects保存早期对象、singletonFactories保存ObjectFactory；不采纳原作答。",
+      "同候选人已有美团实习，不能将意向归因于手写Spring项目。"
+    ],
+    "technical_crosscheck_urls": [
+      "https://raw.githubusercontent.com/spring-projects/spring-framework/v6.2.0/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java"
+    ],
+    "sample_group": "校招面经（单独统计）",
+    "role_boundary": "校招，不是实习JD；未公布京东档位",
+    "candidate_group": "SUP_BACKEND_C09",
+    "related_record_ids": [
+      "INT29"
+    ],
+    "related_urls": [
+      "https://www.nowcoder.com/discuss/805942352731713536",
+      "https://www.nowcoder.com/discuss/806131151709433856"
+    ],
+    "url_variants": [
+      "https://www.nowcoder.com/share/jump/3565462671760068476469",
+      "https://www.nowcoder.com/share/jump/3565462671760068482191"
+    ],
+    "public_project_repositories": [],
+    "repository_relationship": "简历涉及手写Spring和实习业务；未提供能确认作者关系的仓库。",
+    "ssp_status": "京东意向自述，档位未公开；不可借同作者美团SSP补成京东SSP",
+    "source_line_range": "一面正文第46–110行；二面正文第46–104行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  },
+  {
+    "id": "INT32",
+    "title": "滴滴秋储后端实习生面经+秋招正式批面经（历史SSP对照）",
+    "url": "https://www.nowcoder.com/discuss/366180144833200128",
+    "canonical_url": "https://www.nowcoder.com/discuss/366180144833200128",
+    "company": "滴滴",
+    "team": "最终到岗业务组未披露",
+    "role": "秋储实习与校招正式批，历史资料分开使用",
+    "date": "2022-06-17编辑；正文称实习面试为‘去年’，约2021年",
+    "date_certainty": "编辑年明确，具体各轮日期缺失；不算2025–2026样本",
+    "rounds": [
+      "实习两轮技术面及HR",
+      "校招四轮技术面，第四轮自称SP/SSP加面"
+    ],
+    "outcome": "作者自述实习offer及校招SSP；仅候选人公开自述，无独立企业验证",
+    "topics": [
+      "RPC/Netty",
+      "配置/服务发现",
+      "并发与本地缓存",
+      "分布式系统",
+      "系统设计",
+      "项目深挖",
+      "协作与学习"
+    ],
+    "project_questions": [
+      "为何采用不同配置与注册组件，更新推拉方式各有什么代价？",
+      "自研RPC如何实现负载均衡，缓存线程安全怎样保证？",
+      "在订单、结算场景如何提高系统可靠性，多维约束下如何匹配人车资源？"
+    ],
+    "summary": "作为明确出现SSP加面的历史对照有价值：后期面试涉及系统设计、学习和协作，早期仍有基础与编码。年代较早，不用于当前门槛或统一流程推断。",
+    "borrowable_points": [
+      "把项目选型解释回业务约束。",
+      "准备超出已有实现的容量、可靠性与协作讨论。"
+    ],
+    "weaknesses_and_limits": [
+      "不把文中数千万订单或数据规模当本包核实的公司现状。",
+      "实习与秋招同文、同人，不能按六轮拆成六个独立样本。",
+      "官方没有确认该流程为所有候选人统一SSP规则。"
+    ],
+    "sample_group": "历史校招与实习对照（不混入近期样本）",
+    "role_boundary": "历史SP/SSP自述，不是当前实习档位定义",
+    "candidate_group": "SUP_BACKEND_C11",
+    "public_project_repositories": [],
+    "repository_relationship": "描述简易RPC与实习工作，但原文没有候选人源码链接。",
+    "ssp_status": "作者自述校招SSP及SP/SSP加面；历史对照",
+    "source_line_range": "原页面正文第46–147行",
+    "access_level": "已打开原文并读取正文具体问题；动态页后续可不稳定",
+    "fulltext_verified": true,
+    "confidence": "B：候选人第一人称公开自述；未独立验证面试、身份或录用结果",
+    "retrieved_at": "2026-10-23",
+    "evidence_type": "候选人第一人称公开自述（未经独立验证）",
+    "recommended_use": "理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证"
+  }
+]
+

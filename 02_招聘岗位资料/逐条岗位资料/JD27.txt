@@ -1,0 +1,198 @@
+JD27 | 美图 暑期实习 AI Agent研发实习生
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  美图
+role_type：
+  Agent应用工程；厦门；本科以上在读；2027届以后；5天/周；至少5个月
+原始来源：
+  https://www.nowcoder.com/jobs/detail/445785
+publish_date：
+  正文2026暑期；投递期2026-04-16—2026-07-31
+retrieved_date：
+  2026-10-24
+source_type：
+  牛客平台招聘页，发布者企业身份未独立核验
+own_summary：
+  记忆管理、复杂状态机、知识库检索；前后端接口；自动评测；监控与全链路可观测。
+required_stack：
+  - 主流语言至少一种/算法/数据结构
+  - Agent系统与LangGraph/ADK/AgentScope原理
+  - 了解Claude Code机制/可扩展架构
+  - Prompt/RAG/Tool Calling/Harness/Skills
+  - 能解释架构权衡和技术决策
+preferred_stack：
+  - Agent生态实际PR
+  - 了解ML/DL框架与Transformer实战
+degree_constraint：
+  本科及以上在读，2027届及以后；计算机/软件/AI优先
+availability_constraint：
+  厦门；5天/周；全职至少5个月；优秀者有留用机会
+recruiting_status：
+  页标已结束
+matrix_include：
+  是
+duties：
+  记忆管理、复杂状态机、知识库检索；前后端接口；自动评测；监控与全链路可观测。
+阅读建议：
+  适合作为非toy Agent项目验收清单，尤其评测与可观测性。
+局限：
+  美图而非美团；职责不全部等同已有经验要求，留用有条件。
+原访问范围：
+  正文全文
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    正文2026暑期；投递期2026-04-16—2026-07-31
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    正文2026暑期；投递期2026-04-16—2026-07-31
+  时间依据：
+    原文日期/窗口
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    职责、要求、资格及页表状态实际核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - 主流语言至少一种/算法/数据结构
+  - Agent系统与LangGraph/ADK/AgentScope原理
+  - 了解Claude Code机制/可扩展架构
+  - Prompt/RAG/Tool Calling/Harness/Skills
+  - 能解释架构权衡和技术决策
+  - Agent生态实际PR
+  - 了解ML/DL框架与Transformer实战
+source_record：
+  source_id：
+    J09
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    美图 暑期实习 AI Agent研发实习生
+  原始来源：
+    https://www.nowcoder.com/jobs/detail/445785
+  canonical_key：
+    nowcoder:job:445785
+  source_file：
+    01_岗位JD/J09.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      牛客平台招聘页（发布者身份未独立核验）；投递窗口2026-04-16—2026-07-31
+    岗位状态：
+      已结束，仅作要求样本
+    方向与资格：
+      Agent应用工程；厦门；本科以上在读；2027届以后；5天/周；至少5个月
+    明确要求：
+      主语言/算法基础 / Agent框架及原理 / Prompt/RAG/Tool Calling / Harness/Skills / 解释架构权衡
+    加分项：
+      Agent生态真实PR / Transformer实践
+    工作摘要：
+      长短记忆、工作流状态机、知识检索、自动评测、性能监控和链路可观测。
+    推荐理由：
+      适合作为非toy Agent项目验收清单，尤其评测与可观测性。
+    局限：
+      美图不是美团；仅该团队要求，留用有条件。
+  live_access：
+    状态：
+      200
+    标题：
+      暑期实习-AI Agent 研发实习生 _美图实习_牛客网
+    原始来源：
+      https://www.nowcoder.com/jobs/detail/445785
+    已读部分：
+      职责、要求、资格及页表状态实际核读
+    已读定位正文全文：
+      是
+    professional_text：
+      投递时间：2026年4月16日-2026年7月31日（即将截止）
+岗位职责
+参与 AI Agent 中台的架构设计与核心功能开发，构建生产级 Agentic AI 系统，将前沿 AI 工具理论转化为解决多业务领域问题的真实应用。 
+本岗位为 2026 年暑期实习，全职实习时长 5 个月以上。实习期间表现优秀者，将有机会获得留用。 
+
+职责描述
+- 设计、实现并部署 AI 智能体，构建具备长短时记忆管理、复杂工作流状态机编排以及外部知识库检索能力的服务架构 
+- 参与 AI Agent 中台的架构设计与核心功能开发（含系统前后端接口研发） 
+- 构建 Agent 自动化评测框架，对不同大模型的 Agent 能力进行深度评估 
+- 推进平台的性能监控与全链路可观测性建设 
+- 跟进业界最新 Agent 论文和框架，参与内部技术预研
+岗位要求
+- 本科及以上学历在读，计算机、软件工程、人工智能等相关专业优先（2027 届及以后）
+- 熟练掌握 Python / JavaScript / TypeScript / Java / Go / C++ 等至少一种主流语言，具备扎实的算法与数据结构基础
+- 具备 Agent 系统开发经验，掌握 LangGraph / ADK / AgentScope 等框架及实现原理；了解 Claude Code 等前沿 Agent 实现机制，能设计高可用、高扩展性的大模型工程架构
+- 掌握 Prompt 工程、RAG、Tool Calling、Harness Engineering、Skills 等 AI 应用关键技术
+- 具备良好的沟通表达能力，能清晰阐述架构权衡与技术决策；学习能力强，有独立解决问题的能力
+
+加分项
+- 在 GitHub 等开源社区的 Agent 相关生态中有实际 PR 贡献
+- 了解机器学习/深度学习框架，有 Transformer 等模型实战经验
+    text_sha256：
+      c19fd6efa468f0f7701bc51f7272db59f4ff247b3a17d2c59402fddcafe67867
+  方向：
+    Agent工程
+  required_stack：
+    - 主流语言至少一种/算法/数据结构
+    - Agent系统与LangGraph/ADK/AgentScope原理
+    - 了解Claude Code机制/可扩展架构
+    - Prompt/RAG/Tool Calling/Harness/Skills
+    - 能解释架构权衡和技术决策
+  preferred_stack：
+    - Agent生态实际PR
+    - 了解ML/DL框架与Transformer实战
+  duties：
+    记忆管理、复杂状态机、知识库检索；前后端接口；自动评测；监控与全链路可观测。
+  degree_constraint：
+    本科及以上在读，2027届及以后；计算机/软件/AI优先
+  availability_constraint：
+    厦门；5天/周；全职至少5个月；优秀者有留用机会
+  publish_date：
+    正文2026暑期；投递期2026-04-16—2026-07-31
+  date_year_confirmed：
+    是
+  recruiting_status：
+    页标已结束
+  source_type：
+    牛客平台招聘页，发布者企业身份未独立核验
+  matrix_include：
+    是
+  阅读建议：
+    适合作为非toy Agent项目验收清单，尤其评测与可观测性。
+  局限：
+    美图而非美团；职责不全部等同已有经验要求，留用有条件。
+  招聘类型：
+    实习
+  source_date_basis：
+    原文日期/窗口
+source_key：
+  ASTRA_J09_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J09
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

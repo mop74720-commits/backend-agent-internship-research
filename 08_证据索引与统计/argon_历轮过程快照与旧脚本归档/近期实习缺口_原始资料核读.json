@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://linsensn.github.io/",
+    "status": 200,
+    "title": "Xinran Liu - 刘欣然",
+    "body_length": 1968,
+    "short_excerpt": "刘欣然\n关于我\n项目经历\n我的简历\n刘欣然\n郑大计科，保研大连理工，求职后端/AI日常实习\nFollow\n河南郑州\n郑州大学\nEmail\nGitHub\nXinran Liu\n我是\n刘欣然\n，郑州大学计算机科学与技术本科大四，已保研大连理工大学计算机技术专硕（2027年9月入学）。\n拥有10个月稳定实习空档，可从10月下旬全职实习至2027年8月，时间充裕无课",
+    "professional_links": [
+      {
+        "label": "项目经历",
+        "url": "https://Linsensn.github.io/portfolio/"
+      },
+      {
+        "label": "我的简历",
+        "url": "https://Linsensn.github.io/cv/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Linsensn"
+      },
+      {
+        "label": "我的简历",
+        "url": "/cv/"
+      },
+      {
+        "label": "项目经历",
+        "url": "/portfolio/"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/Linsensn/bookway"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/Linsensn/LiteKnow"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/Linsensn/llama3-sentiment-concurrent"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Linsensn"
+      },
+      {
+        "label": "AcademicPages",
+        "url": "https://github.com/academicpages/academicpages.github.io"
+      }
+    ],
+    "counting_decision": "仍在求实习，未见已获岗结果；仅为履历/项目公开的对照线索，不纳入成功者或新增CV"
+  },
+  {
+    "url": "https://blog.csdn.net/m0_45362454/article/details/144808692",
+    "status": 521,
+    "title": "",
+    "body_length": 0,
+    "short_excerpt": "",
+    "professional_links": []
+  },
+  {
+    "url": "https://www.nowcoder.com/discuss/894194616499466240",
+    "status": 200,
+    "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+    "body_length": 0,
+    "short_excerpt": "目标文章正文未取得；主容器仅返回热榜等外围内容，不计读到正文",
+    "professional_links": [],
+    "access_result": "文章可能删除或动态空壳，保留先前读取事实与本轮不稳定状态"
+  },
+  {
+    "url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065",
+    "status": 200,
+    "title": "27双非本—腾讯IEG游戏安全后台实习面经_牛客网",
+    "body_length": 0,
+    "short_excerpt": "",
+    "professional_links": []
+  }
+]

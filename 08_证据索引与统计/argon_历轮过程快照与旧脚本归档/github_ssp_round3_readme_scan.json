@@ -1,0 +1,109 @@
+[
+  {
+    "repo": "yessimida/yes",
+    "url": "https://raw.githubusercontent.com/yessimida/yes/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 52,
+        "text": "这里还有一份算法刷题笔记分享给大家。\n\n我当初刷算法题也是各种寻觅，找各题型专题来练习，去年在算法群遇到个小姐姐，研二拿到了多个公司的 SSP offer。\n\n她刷题期间汇总了一份算法刷题笔记，**很完备，很贴心，1730 页，20W 字，汇总了各大题型，基本上每题都附上了各大佬们在LeetCode上的高质量解题思路**，并附上链接，方便查看原文，整理的很细心。"
+      }
+    ]
+  },
+  {
+    "repo": "YingaoWang-casia/shushu-ProjectProof",
+    "url": "https://raw.githubusercontent.com/YingaoWang-casia/shushu-ProjectProof/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 44,
+        "text": "```text\n使用 ProjectProof for Codex。\n请先不要润色，先做真实性边界、Evidence Contract、Production Gap 和 SP/SSP 评分。\n\n目标岗位/JD："
+      },
+      {
+        "line": 66,
+        "text": "| ProjectProof 是什么？ | 一个用于 Codex 的项目面试与简历诊断 Skill。 |\n| 它解决什么问题？ | 小厂项目、内部工具、Agent/RAG demo、算法实验、数据清洗经历写出来像 toy demo，面试中经不起追问。 |\n| 它的核心方法是什么？ | Truth Boundary、Evidence Contract、Production Gap、Question Tree、SP/SSP Scorecard。 |\n| 它最终产出什么？ | 简历 bullet 三档版本、面试追问树、回答防线、项目口述稿、补证据计划。 |\n| 它不做什么？ | 不虚构上线、指标、用户规模、个人贡献，也不把 demo 包装成生产系统。 |"
+      },
+      {
+        "line": 158,
+        "text": "| 4 | Production Gap | 找出 toy demo 和大厂生产系统之间的工程缺口。 |\n| 5 | Question Tree | 模拟真实项目深挖，生成面试官可能继续追问的问题链。 |\n| 6 | SP/SSP Scorecard | 判断项目竞争力、硬伤和补强优先级。 |\n| 7 | 输出结果 | 生成简历 bullet、面试回答、防线说明、口述稿和补强计划。 |\n"
+      },
+      {
+        "line": 260,
+        "text": "```text\n使用 ProjectProof for Codex。\n请先不要润色，先做真实性边界、Evidence Contract、Production Gap 和 SP/SSP 评分。\n\n目标岗位/JD："
+      },
+      {
+        "line": 302,
+        "text": "| 简历 | 保守版、标准版、偏强版 bullet，并标注证据依赖。 |\n| 面试 | 大厂项目追问树、危险 / 可过 / 强回答卡、2-3 分钟项目口述稿。 |\n| 投递 | SP/SSP Scorecard、投递前补证据 checklist。 |\n\n---"
+      },
+      {
+        "line": 385,
+        "text": "| 强回答 | 更接近大厂候选人的项目表达。 |\n\n### 6. SP/SSP Scorecard：判断项目竞争力\n\nProjectProof 会从岗位相关性、贡献清晰度、技术深度、工程闭环、证据强度、面试可解释性等维度给出判断。"
+      },
+      {
+        "line": 649,
+        "text": "使用 ProjectProof。\n读取 reports/projectproof_input.md。\n请先做 Truth Boundary、Evidence Contract、Production Gap 和 SP/SSP Scorecard。\n不要先润色简历。\n缺少证据的 claim 必须降级。"
+      }
+    ]
+  },
+  {
+    "repo": "YingaoWang-casia/shushu-InterviewProof-RAG",
+    "url": "https://raw.githubusercontent.com/YingaoWang-casia/shushu-InterviewProof-RAG/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 231,
+        "text": "使用 ProjectProof。\n读取 reports/projectproof_input.md。\n先做 Truth Boundary、Evidence Contract、Production Gap 和 SP/SSP Scorecard。\n不要直接润色简历。\n```"
+      },
+      {
+        "line": 553,
+        "text": "使用 ProjectProof。\n读取 reports/projectproof_input.md。\n先做 Truth Boundary、Evidence Contract、Production Gap、SP/SSP Scorecard。\n不要直接润色简历。\n```"
+      }
+    ]
+  },
+  {
+    "repo": "sunyd1006/ssp",
+    "url": "https://raw.githubusercontent.com/sunyd1006/ssp/master/README.md",
+    "status": 404,
+    "ssp_matches": []
+  },
+  {
+    "repo": "Pluviobyte/Rain_learning",
+    "url": "https://raw.githubusercontent.com/Pluviobyte/Rain_learning/main/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "SuleynanAuir/SuleynanAuir",
+    "url": "https://raw.githubusercontent.com/SuleynanAuir/SuleynanAuir/main/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "alany-dev/coro",
+    "url": "https://raw.githubusercontent.com/alany-dev/coro/main/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "shejishi/GlideTransformation",
+    "url": "https://raw.githubusercontent.com/shejishi/GlideTransformation/master/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 255,
+        "text": " * FitCenter} transform, but the resulting image is masked to a circle.\n *\n * <p>Uses a PorterDuff blend mode, see http://ssp.impulsetrain.com/porterduff.html.\n */\npublic class CircleCrop extends BitmapTransformation {"
+      }
+    ]
+  },
+  {
+    "repo": "liyupi/yupi-skill",
+    "url": "https://raw.githubusercontent.com/liyupi/yupi-skill/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 45,
+        "text": "## 我是谁\n\n98 年，前腾讯全栈工程师（SSP offer，竞赛冠军，5 星员工），现科技公司 [鱼鸢网络](https://yuyuanweb.com) CEO。\n\n全网 **200 万+** 粉丝的 AI + 编程知识博主，[编程导航](https://www.codefather.cn) 创始人，GitHub 中国区关注者 **前 7**。"
+      }
+    ]
+  }
+]

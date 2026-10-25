@@ -1,0 +1,93 @@
+OP03 | 【终于把项目讲明白了】如何封装简历上的项目？
+
+需求核对版 · 2026-10-24
+
+平台：
+  B站
+作者：
+  TALKDATA
+原始来源：
+  https://www.bilibili.com/video/BV1EE411T7HF/
+作者原站：
+  https://github.com/TALKDATA/JavaBigData
+事件时间／原文日期（依分类）：
+  2020-03-10（B站检索列表）
+作者身份依据：
+  作者GitHub自述蚂蚁程序员、非科班转Java/大数据；任职及offer为自述。
+具体观点与适用边界：
+  仅标题/简介可见的定位或主张（并非已核验视频观点）：视频简介聚焦项目亮点写法、流程表达与面试沟通；适用于整理讲述结构。
+局限：
+  历史资料，只读简介；不用于推断2026技术栈或SSP门槛。所谓封装应是清楚呈现真实工作。
+商业与选择偏差：
+  有公众号/群引流；是否收费未核验。
+原访问范围：
+  视频简介与作者GitHub索引可见，未观看视频
+阅读建议：
+  表达辅料，优先级低于2025-2026实际面经。
+retrieved_at：
+  2026-10-23
+正文核读边界：
+  未观看或取得字幕；作者导航没有直接提供该项目封装视频的已读逐字稿
+verified_video_viewing：
+  否
+类别：
+  B站与知乎
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    未知
+  事件时间：
+    2020-03-10（检索列表；视频未观看）
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    不适用
+  时间依据：
+    专业观点发表/更新的日期，不是候选人的招聘事件；搜索推定不记确认年
+  来源日期：
+    2020-03-10（B站检索列表）
+阅读范围：
+  范围：
+    摘要
+  已读定位正文全文：
+    否
+  核读说明：
+    视频简介与作者GitHub索引可见，未观看视频；未核验完整视频或回答，仅索引标题/简介/摘要
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+  primary_platform_scope：
+    摘要
+  substitute_original_scope：
+    无
+  substitute_original_url：
+    未核／无
+逐项结果与档位：
+  —
+本轮访问复核：
+  资料ID：
+    OP03
+  original_url：
+    https://www.bilibili.com/video/BV1EE411T7HF/
+  access_status：
+    本轮原视频页HTTP 412；作者本人GitHub README HTTP 200，但只是导航
+  author_navigation_url：
+    https://raw.githubusercontent.com/TALKDATA/JavaBigData/master/README.md
+  正文核读边界：
+    未观看或取得字幕；作者导航没有直接提供该项目封装视频的已读逐字稿
+  verified_video_viewing：
+    否
+  discrepancy：
+    卡片原BV1EE411T7HF与作者当前README中“如何封装简历上的项目”所链接BV1XE411P7s8不一致。不能把两个视频默认为同一内容。
+  author_navigation_video_url：
+    https://www.bilibili.com/video/BV1XE411P7s8
+  identity_evidence_update：
+    作者本人GitHub README自述蚂蚁程序员、非科班转大数据；任职及帮助人数均未外部核实。
+  manual_check：
+    先核对两个视频标题、作者和发布日期，再核正文；保留历史表达辅料定位。
+来源不一致待核：
+  卡片原BV1EE411T7HF与作者当前README中“如何封装简历上的项目”所链接BV1XE411P7s8不一致。不能把两个视频默认为同一内容。

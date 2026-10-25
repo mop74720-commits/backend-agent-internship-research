@@ -1,0 +1,71 @@
+{
+  "scope": "本地阅读功能与PDF导出；不运行第三方项目",
+  "browser_errors": [],
+  "checks": [
+    {
+      "name": "主目录121条",
+      "passed": true,
+      "details": "121 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "候选人资料分类数量",
+      "passed": true,
+      "details": "13 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "面经复盘分类数量",
+      "passed": true,
+      "details": "51 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "项目参考分类数量",
+      "passed": true,
+      "details": "17 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "作者搜索",
+      "passed": true,
+      "details": {
+        "matches": 5
+      }
+    },
+    {
+      "name": "展开匹配",
+      "passed": true
+    },
+    {
+      "name": "全部收起",
+      "passed": true
+    },
+    {
+      "name": "面经编号搜索",
+      "passed": true
+    },
+    {
+      "name": "编号跳转自动展开",
+      "passed": true
+    },
+    {
+      "name": "专题12卡完整展开",
+      "passed": true
+    },
+    {
+      "name": "4个源码下载入口",
+      "passed": true
+    },
+    {
+      "name": "桌面无横向溢出",
+      "passed": true
+    },
+    {
+      "name": "手机无整页横向溢出",
+      "passed": true
+    },
+    {
+      "name": "无页面脚本错误",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "pdf_exported": true
+}

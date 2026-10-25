@@ -1,0 +1,78 @@
+JD17 | AI Agent研发实习生
+
+需求核对版 · 2026-10-24
+
+公司：
+  华为云算法创新Lab
+role_type：
+  Agent研究与工程混合实习（对照）
+原始来源：
+  https://www.huaweicloud.com/lab/algorithm/intern_recruitment.html
+publish_date：
+  未展示
+retrieved_date：
+  2026-10-23
+source_type：
+  官方团队招聘
+evidence_excerpt：
+  AI Agent研发实习生
+own_summary：
+  要求语言与Agent框架，职责涉及强化学习、多模态规划、泛化研究和训练推理部署；应按混合岗位准备。
+required_stack：
+  - Python/C/C++/Java/Go择一
+  - LangChain/LlamaIndex/AutoGen/QwenAgent至少一种
+preferred_stack：
+  —
+degree_constraint：
+  计算机/应用数学/统计/AI等本科及以上（原文即将取得）
+availability_constraint：
+  未展示
+recruiting_status：
+  页面可读；实时HC未核验
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  否
+tags：
+  - 编程基础
+  - Agent实践
+  - 框架
+  - 模型训练研究
+duties：
+  复杂决策、元学习/因果泛化与低延迟可靠部署
+局限：
+  
+类别：
+  招聘JD
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    未展示
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    招聘发布时间未展示，不按2027届或本次抓取年补写
+  来源日期：
+    未展示
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

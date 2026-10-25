@@ -1,0 +1,249 @@
+INT98 | 百度海外业务 后端Go二面
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api
+公司：
+  百度
+方向与岗位：
+  百度；海外业务Go后端；未在正文明确；作者页面显示实习身份
+事件时间／原文日期（依分类）：
+  二面年月日未知；页面09-04编辑且无年份
+发表／来源日期：
+  编辑于  09-04 14:08
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    未知
+  事件时间：
+    二面年月日未知；页面09-04编辑且无年份
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    编辑于  09-04 14:08
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。作者明确AI整理，逐字和条目数量降权。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  面经与整理/协作笔记混合
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  未知对照
+结果分类：
+  oc_self_report
+结果自述：
+  本人后续明确OC，未披露正式offer或档位；标题/徽标不能证明具体实习招聘类型
+逐项结果与档位：
+  - 公司：
+      百度
+    方向与岗位：
+      百度；海外业务Go后端；未在正文明确；作者页面显示实习身份
+    档位：
+      未披露
+    状态：
+      oc_self_report
+    事件时间／原文日期（依分类）：
+      二面年月日未知；页面09-04编辑且无年份
+    证据：
+      https://ac.nowcoder.com/discuss/1672647
+    依据：
+      本人后续明确OC，未披露正式offer或档位；标题/徽标不能证明具体实习招聘类型
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      二面；自述OC
+    questions：
+      - 幂等ID由谁生成，重复请求怎样得到同一ID？
+      - 为什么使用分布式事务，串行RPC不能满足什么要求？
+      - DTM挂掉或回退库存失败怎样恢复？
+      - k6是压单接口还是整链路，在哪里跑，Prometheus是否真实使用？
+      - Agent任务目标谁指定，如何判断执行路径和最终结论正确？
+      - Agent问题闭环与逐步工具调用轨迹如何记录？
+      - Go Context、GORM及gRPC/HTTP区别是什么？
+    结果自述：
+      本人后续明确OC，未披露正式offer或档位；标题/徽标不能证明具体实习招聘类型
+涉及主题：
+  - 算法/编程
+  - 缓存/Redis
+  - 网络/协议
+  - 分布式/一致性
+  - 项目深挖/个人贡献
+  - Agent循环/工具
+  - 评测/指标
+  - 安全/权限
+  - 可观测性
+  - 框架/机制
+原文提问（归纳）：
+  - 幂等ID由谁生成，重复请求怎样得到同一ID？
+  - 为什么使用分布式事务，串行RPC不能满足什么要求？
+  - DTM挂掉或回退库存失败怎样恢复？
+  - k6是压单接口还是整链路，在哪里跑，Prometheus是否真实使用？
+  - Agent任务目标谁指定，如何判断执行路径和最终结论正确？
+  - Agent问题闭环与逐步工具调用轨迹如何记录？
+  - Go Context、GORM及gRPC/HTTP区别是什么？
+内容归纳：
+  从幂等ID来源、事务回滚失败、压测和监控追到Agent轨迹评估，再问Go及gRPC。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  直接借鉴为项目验收清单：压测环境、失败补偿、执行轨迹都需可复现。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 作者明确AI整理，逐字和题数降权；例题中的2025-05-13是算法输入示例，绝不作为面试年。
+ai_organized：
+  是
+ai_marker_basis：
+  作者主文明确AI整理/总结；逐字和题数降权。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I14
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    百度海外业务 后端Go二面
+  原始来源：
+    https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1672647
+  canonical_post_key：
+    discuss/1672647
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    502737b7a58151fed375a4e12a36b9c7e521430b32b21f2ea16c95610a9c8892
+  body_char_count：
+    1247
+  source_card_path：
+    03_面经/I14.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    编辑于  09-04 14:08
+  source_date_verified：
+    是
+  方向：
+    混合
+  招聘类型：
+    未知
+  event_date：
+    二面年月日未知；页面09-04编辑且无年份
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 幂等ID由谁生成，重复请求怎样得到同一ID？
+    - 为什么使用分布式事务，串行RPC不能满足什么要求？
+    - DTM挂掉或回退库存失败怎样恢复？
+    - k6是压单接口还是整链路，在哪里跑，Prometheus是否真实使用？
+    - Agent任务目标谁指定，如何判断执行路径和最终结论正确？
+    - Agent问题闭环与逐步工具调用轨迹如何记录？
+    - Go Context、GORM及gRPC/HTTP区别是什么？
+  涉及主题：
+    - 算法/编程
+    - 缓存/Redis
+    - 网络/协议
+    - 分布式/一致性
+    - 项目深挖/个人贡献
+    - Agent循环/工具
+    - 评测/指标
+    - 安全/权限
+    - 可观测性
+    - 框架/机制
+  结果分类：
+    oc_self_report
+  result：
+    本人后续明确OC，未披露正式offer或档位；标题/徽标不能证明具体实习招聘类型
+  档位：
+    未披露
+  公司：
+    百度
+  ai_organized：
+    是
+  ai_marker_basis：
+    作者主文明确AI整理/总结；逐字和题数降权。
+  short_quote：
+    AI 整理的面经…后续：oc 了，准备奔赴深圳
+  阅读建议：
+    直接借鉴为项目验收清单：压测环境、失败补偿、执行轨迹都需可复现。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 作者明确AI整理，逐字和题数降权；例题中的2025-05-13是算法输入示例，绝不作为面试年。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  author_profile：
+    https://www.nowcoder.com/profile/350101071
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP02
+    - CAP03
+    - CAP04
+    - CAP05
+    - CAP06
+    - CAP07
+    - CAP11
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。作者明确AI整理，逐字和条目数量降权。
+  original_outcome_quote：
+    AI 整理的面经…后续：oc 了，准备奔赴深圳
+source_key：
+  ASTRA_I14_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I14
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

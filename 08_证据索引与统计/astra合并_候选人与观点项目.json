@@ -1,0 +1,909 @@
+{
+  "merge_date": "2026-10-24",
+  "source_root": "C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24",
+  "source_index_sha256": "c6cf849bb394dbcbb41e382d845a536182b482b9a30e1f393b8a54dacc4bd7c2",
+  "method": "24条逐条与旧主证据/candidate_cases/25项目仓库身份、补充URL对照；新候选人和专业原站用普通GET核指定正文段；新仓库只读README及相关官方文档。只保存脱敏专业判断与短引文，不保存全页/联系方式，不修改astra原文件。",
+  "decision_definitions": {
+    "new": "旧主证据/关系中未有此材料；仍按import_target决定是否入证据或仅待手动链接，不自动计为全文/成功者/已审项目。",
+    "enrich": "给已有来源/人物/官方文档补一手关系、指定段核读或本次状态，不重复计数。",
+    "duplicate": "既有同一逻辑证据，保留外部来源关系，不加数量。",
+    "rejected": "不采用为事实证据；本清单以facts_boundary/rejected_as_candidate_reason说明被拒用途。"
+  },
+  "records": [
+    {
+      "source_id": "R01",
+      "type": "candidate",
+      "source_category": "02_简历与录用经历",
+      "title": "后端秋招24场100%胜率的SSP，真的只是靠卷技术吗？",
+      "source_url": "https://www.nowcoder.com/discuss/825498059369955328",
+      "source_card": "02_简历与录用经历/R01.html",
+      "existing_id": "CV01",
+      "decision": "duplicate",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "既有CV01全文与片段核读；本轮对照astra资料卡与旧记录，未重复读取原图",
+      "status": "重复来源，不增加候选人数/简历数",
+      "import_target": "existing_cross_reference",
+      "unique_value": "无新增个人项目或逐公司定档事实。保留astra关于自报性能指标和IM鲁棒性的补充说明，但这些边界在CV01已有。",
+      "facts_boundary": "作者公开自述不等于独立录用认证；实习片段不是完整简历。",
+      "eligible_for_success_candidate_count": false
+    },
+    {
+      "source_id": "R02",
+      "type": "candidate",
+      "source_category": "02_简历与录用经历",
+      "title": "无实习人士如何上岸秋招（总结+面经+路线）",
+      "source_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "source_card": "02_简历与录用经历/R02.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "牛客本人正文选读：简介、公司结果、项目面经、优化与压测段；未核投递汇总图和原始简历",
+      "status": "本人校招经历及项目追问；录用档位未披露",
+      "import_target": "candidate_and_interview_evidence",
+      "read_evidence": [
+        {
+          "read_url": "https://ac.nowcoder.com/discuss/1228157",
+          "http_status": 200,
+          "body_text_chars": 11299,
+          "read_scope": "指定正文段",
+          "short_original_basis": "实验室横向扩展、消息推送改造、RPC三项目；美团段“已开奖，已拒”；项目面经列消费进度隔离、速率、追踪与消息补发。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "54bc29124f4f0eb99d1c38c8236add88dce4cb8761aa309a3d198c18a8cf41cf"
+        }
+      ],
+      "normalized_aliases": [
+        "https://www.nowcoder.com/discuss/545916636923006976",
+        "https://ac.nowcoder.com/discuss/1228157"
+      ],
+      "taxonomy": {
+        "track": "后端",
+        "recruitment": "校招",
+        "event_year": null,
+        "date_basis": "原帖月日时间线与24届标签可见，未从届别或2023编辑时间倒推招聘事件年。"
+      },
+      "outcomes": [
+        {
+          "company": "美团",
+          "status": "offer_self_report",
+          "grade": "未知",
+          "basis": "正文已开奖、已拒"
+        },
+        {
+          "company": "阿里云",
+          "status": "intent_self_report",
+          "grade": "未知",
+          "basis": "正文10.15意向"
+        },
+        {
+          "company": "快手",
+          "status": "intent_self_report",
+          "grade": "未知",
+          "basis": "astra资料卡和本人意向章节；不升格最终offer"
+        }
+      ],
+      "profile_type": "经历/求职自述（非简历原件）",
+      "stack": [
+        "Java",
+        "Redis",
+        "RocketMQ",
+        "MySQL",
+        "RPC",
+        "Nacos/Zookeeper"
+      ],
+      "personal_project_summary": "作者自述改造消息推送开源项目和RPC、扩展实验室横向业务；原仓库未直接命名，不认定为某特定开源项目。",
+      "unique_value": "增加消息系统追问链：消费进度隔离→消费速率→链路追踪→丢失补发；压测关注机器参数、负载参数和前后对照，不要求夸大的QPS。",
+      "facts_boundary": "作者有“堆组件/少量命令谈调优”等建议，不能照单全收；没有本人源码与完整CV，不把面试问题当已实现能力。",
+      "eligible_for_success_candidate_count": true
+    },
+    {
+      "source_id": "R03",
+      "type": "candidate",
+      "source_category": "02_简历与录用经历",
+      "title": "干货!普通人的秋招经验分享.",
+      "source_url": "https://www.nowcoder.com/discuss/353155859792470016",
+      "source_card": "02_简历与录用经历/R03.html",
+      "existing_id": "CV18",
+      "decision": "enrich",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "牛客原帖指定段：2019年结果、简历链接和GitHub锚点；旧包固定GitHub正文另已读",
+      "status": "同一作者的牛客原站关系补核，不增候选人数",
+      "import_target": "existing_candidate_provenance",
+      "read_evidence": [
+        {
+          "read_url": "https://ac.nowcoder.com/discuss/334233",
+          "http_status": 200,
+          "body_text_chars": 6074,
+          "read_scope": "原帖结果与公开链接段",
+          "short_original_basis": "正文明确“2019年11月”；多处章节锚点直接指向IcyCC/effective_note秋招总结，简历入口指向IcyCC/AboutMe。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "e5eac12f4c3e680c47822a931520150d683fc7b12ac878e8cd00aece4d04eded"
+        }
+      ],
+      "normalized_aliases": [
+        "https://www.nowcoder.com/discuss/353155859792470016",
+        "https://ac.nowcoder.com/discuss/334233"
+      ],
+      "direct_relationship_url": "https://github.com/IcyCC/effective_note/blob/master/秋招/秋招总结.md",
+      "unique_value": "补一手原站与既有GitHub历史总结的直接对应。",
+      "facts_boundary": "2019历史校招；总体多数SP/SSP，未逐公司定档。原简历PDF没有本次取得，不拿工作后TeX版本倒推求职原版。",
+      "eligible_for_success_candidate_count": false
+    },
+    {
+      "source_id": "R04",
+      "type": "candidate",
+      "source_category": "02_简历与录用经历",
+      "title": "非科班转码：211化学本→985材料硕→字节后端开发",
+      "source_url": "https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+      "source_card": "02_简历与录用经历/R04.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "牛客本人正文选读：求职时间、TT失败、财经offer及RAG/压测问题；未核图片",
+      "status": "明确2026实习；字节财经未披露档位offer自述，TT失败分开",
+      "import_target": "candidate_and_interview_evidence",
+      "read_evidence": [
+        {
+          "read_url": "https://ac.nowcoder.com/discuss/1626909",
+          "http_status": 200,
+          "body_text_chars": 3009,
+          "read_scope": "求职时间与两条面试流程",
+          "short_original_basis": "“2025年12月开始海投海面，2026年1月面了二十多场”；TT横向对比后挂；财经段末“无hr面，大概一周后offer”。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "04a7c287db64abd72ac0458542c8a8d0dc0a6f311e940b88e65bc3b07f7ca761"
+        }
+      ],
+      "taxonomy": {
+        "track": "混合",
+        "recruitment": "实习",
+        "event_year": 2026,
+        "date_basis": "本人正文明确投递2025.12、面试2026.1；实习到岗和时长被问。"
+      },
+      "outcomes": [
+        {
+          "company": "字节跳动TT",
+          "status": "rejected_self_report",
+          "grade": "不适用",
+          "basis": "正文横向比较后挂"
+        },
+        {
+          "company": "字节跳动财经",
+          "status": "offer_self_report",
+          "grade": "未知",
+          "basis": "财经末段一周后offer，并述已入职一个月"
+        }
+      ],
+      "profile_type": "面经中的局部履历；无完整CV",
+      "stack": [
+        "Java",
+        "MySQL",
+        "Redis",
+        "RocketMQ",
+        "Leaf",
+        "Cassandra",
+        "RAG",
+        "ReAct"
+      ],
+      "personal_project_summary": "笔记业务/上传及RAG为本人自述，未公开本人源码；不能把技术名词对应到课程作者仓库。",
+      "question_modules": [
+        "Leaf分布式ID",
+        "元数据和文本分离",
+        "RocketMQ事务/顺序消息",
+        "RAG混合检索与召回率",
+        "历史消息与prompt结构",
+        "上线、压测、QPS"
+      ],
+      "unique_value": "同一近期后端实习把传统一致性、网络和RAG工程放在一起追问；可补后端+AI能力交叉证据。",
+      "facts_boundary": "是后端实习，不提升为Agent专岗或SSP；作者正文括号内面后答案/归因不作为面试官原话或可靠答案，例如Canal→ES不能等同异地容灾。",
+      "eligible_for_success_candidate_count": true
+    },
+    {
+      "source_id": "R05",
+      "type": "candidate",
+      "source_category": "02_简历与录用经历",
+      "title": "后端开发收藏内容分享 附完整脱敏简历",
+      "source_url": "https://www.nowcoder.com/discuss/755767217509117952?sourceSSR=subject",
+      "source_card": "02_简历与录用经历/R05.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "本轮只读930字分享正文和图片入口；未读取或归档简历图，astra称已读图片仅作外部卡片主张",
+      "status": "录用未知的公开简历线索/对照，不能增加成功简历或本包完整CV数",
+      "import_target": "candidate_control_and_manual_resume",
+      "read_evidence": [
+        {
+          "read_url": "https://ac.nowcoder.com/discuss/1510086",
+          "http_status": 200,
+          "body_text_chars": 930,
+          "read_scope": "文字正文与简历图入口",
+          "short_original_basis": "正文“附上我的简历供大家参考”；本帖主要是收藏与外链，未见本人录用结论。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "c50972c4f7eb92b662e02cb7fb4dc8eb4804fce7cae7ce185c379040f2dbe93b"
+        }
+      ],
+      "normalized_aliases": [
+        "https://www.nowcoder.com/discuss/755767217509117952",
+        "https://ac.nowcoder.com/discuss/1510086"
+      ],
+      "taxonomy": {
+        "track": "后端",
+        "recruitment": "未知",
+        "event_year": null,
+        "date_basis": "2025-05-31是页面编辑时间，未用作招聘事件年。"
+      },
+      "profile_type": "公开简历图片入口；本轮未读图",
+      "outcomes": [
+        {
+          "company": "未知",
+          "status": "unknown",
+          "grade": "未知",
+          "basis": "正文无本人录用结果"
+        }
+      ],
+      "unique_value": "提供网盘与轻量RPC互补的外部分析线索；技术和性能指标来自astra图读摘要，本包未独立图核，不入已核实现或履历统计。",
+      "facts_boundary": "收藏文章标题中的5 offer、7 offer属于外链作者，不属于本帖作者；不能据此外推成功。",
+      "eligible_for_success_candidate_count": false
+    },
+    {
+      "source_id": "R06",
+      "type": "opinion",
+      "source_category": "02_简历与录用经历",
+      "title": "简历上写了 RAG / Agent 项目，面试官到底想听什么？",
+      "source_url": "https://ac.nowcoder.com/discuss/1649000?type=0",
+      "source_card": "02_简历与录用经历/R06.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "本人教学原文选读：offer开场、PaiSmart学习示范、评测占位数字和工具治理段",
+      "status": "教学写法观点；拒绝作为成功者简历/本人实现证据",
+      "import_target": "nonplatform_professional_original",
+      "read_evidence": [
+        {
+          "read_url": "https://ac.nowcoder.com/discuss/1649000",
+          "http_status": 200,
+          "body_text_chars": 2885,
+          "read_scope": "教学写法与示例边界",
+          "short_original_basis": "“就拿我不久前学习过的派聪明(PaiSmart)源码为例”；“如果你有真实的测试数据”后给200+和xx%模板。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "f76ac6d9b6c11f1eedcefcbeb7c416e52b6415c044c0bc229802be116bb3808f"
+        }
+      ],
+      "unique_value": "把RAG追问拆成检索、引用、拒答、权限和工具失败；可作题目准备清单。",
+      "facts_boundary": "开头字节日常实习offer为自述，岗位、年和档位未明确；不能把教学指标或PaiSmart上游代码当其录用项目。存在项目推荐倾向，不列独立在职面试官认证。",
+      "eligible_for_success_candidate_count": false,
+      "rejected_as_candidate_reason": "没有实际本人投递简历/实现与录用因果；示例不是履历事实"
+    },
+    {
+      "source_id": "R07",
+      "type": "candidate",
+      "source_category": "02_简历与录用经历",
+      "title": "我的秋招ssp总结（一）",
+      "source_url": "https://www.nowcoder.com/discuss/710535736860180480?sourceSSR=users",
+      "source_card": "02_简历与录用经历/R07.html",
+      "existing_id": "CV17",
+      "decision": "duplicate",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "旧包已读相关原文并有此牛客URL作补充来源；本轮对照来源关系",
+      "status": "CV17同一作者第一篇，非新候选人",
+      "import_target": "existing_cross_reference",
+      "unique_value": "原文链接补显示；既有CV17及INT62已覆盖学习与技术追问。",
+      "facts_boundary": "美团SP不能算SSP；没有本人项目源码，不能把付费课程仓库当其本人贡献。",
+      "eligible_for_success_candidate_count": false
+    },
+    {
+      "source_id": "R08",
+      "type": "candidate",
+      "source_category": "02_简历与录用经历",
+      "title": "择难路 未有疑 四非学院本春招拿下大厂后端",
+      "source_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "source_card": "02_简历与录用经历/R08.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "牛客本人正文选读：项目更替、实习经历、春招滴滴三轮与最终邮件offer、排查工具；未读图",
+      "status": "春招后端未披露档位offer；本次未独立确认事件年",
+      "import_target": "candidate_and_interview_evidence",
+      "read_evidence": [
+        {
+          "read_url": "https://ac.nowcoder.com/discuss/1518502",
+          "http_status": 200,
+          "body_text_chars": 15508,
+          "read_scope": "经历、项目与滴滴流程段",
+          "short_original_basis": "滴滴段先口头Offer、后审批一周多、最后“邮件发到了邮箱…Offer到了”；此前写12306+网关+抽奖后换真实业务经历。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "3f910b735748622d5647305dd532ac1bb13566243a7e1ddd190589cf4192d7ac"
+        }
+      ],
+      "taxonomy": {
+        "track": "后端",
+        "recruitment": "校招",
+        "event_year": null,
+        "date_basis": "正文春招/毕业设计可定位校招；不把2025-07-08编辑或面向26/27届写成招聘事件年。"
+      },
+      "outcomes": [
+        {
+          "company": "滴滴",
+          "status": "offer_self_report",
+          "grade": "未知",
+          "basis": "口头offer→审批→邮件offer均有本人文字"
+        }
+      ],
+      "profile_type": "经历/求职自述（非简历原件）",
+      "stack": [
+        "Java",
+        "Go",
+        "MySQL",
+        "Redis",
+        "MQ",
+        "Linux网络",
+        "JUC/JVM",
+        "pprof"
+      ],
+      "personal_project_summary": "先用12306、网关和抽奖，后换真实业务/实习；保密模块不公开，不要求取内部代码。",
+      "question_modules": [
+        "JDBC和MyBatis差别",
+        "池化与工厂复用",
+        "对象池/内存池/缓冲池在OS、中间件、工程中的对应",
+        "项目与线上排查"
+      ],
+      "unique_value": "补“业务项目+基架实习”如何互补，以及从未见场景题用OS/网络机制推导的具体经历。",
+      "facts_boundary": "换项目后约面变多是个人观察，不能建立因果；不照搬保密业务，也不把付费推荐/投递规则当公司统一规定。",
+      "eligible_for_success_candidate_count": true
+    },
+    {
+      "source_id": "V01",
+      "type": "opinion",
+      "source_category": "04_B站知乎与从业者观点",
+      "title": "解密互联网大厂研发流程",
+      "source_url": "https://www.bilibili.com/opus/578080002218926853",
+      "source_card": "04_B站知乎与从业者观点/V01.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "B站图文相关正文选读：需求、设计、容量/容灾、评审、测试与发布；没有观看视频",
+      "status": "B站正文200；2021历史稳定工程观点",
+      "import_target": "platform_opinion",
+      "read_evidence": [
+        {
+          "read_url": "https://www.bilibili.com/opus/578080002218926853",
+          "http_status": 200,
+          "body_text_chars": 3972,
+          "read_scope": "工程流程相关段",
+          "short_original_basis": "“一个项目从开发到上线到后面的维护，从流程上就保证大家少出错，也方便后面人继续维护”。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "4aa32699039d7b066121e820fc4c6fe2db30be840fb357199ddae7ba4f3ba53c"
+        }
+      ],
+      "author": "程序员Carl/代码随想录",
+      "commercial_context": "自述曾在两家BAT任职；有自有刷题站及培训背景，非独立雇佣认证。",
+      "unique_value": "补完整交付流程、容量与失败恢复的观点；可用作项目阅读时检查证据的维度。",
+      "facts_boundary": "不证明2026招聘门槛；“大厂都深夜上线”等概括不采纳；视频未观看。",
+      "platform_fulltext_count_increment": 0
+    },
+    {
+      "source_id": "V02",
+      "type": "opinion",
+      "source_category": "04_B站知乎与从业者观点",
+      "title": "程序员鱼皮的保姆级写简历指南第三弹 简历常见问题和建议汇总",
+      "source_url": "https://www.bilibili.com/opus/950153255348862982",
+      "source_card": "04_B站知乎与从业者观点/V02.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "B站正文第7节项目经历及相邻职责/实测段选读；没有观看视频",
+      "status": "B站正文200；同一鱼皮作者，不能当新独立专家",
+      "import_target": "platform_opinion",
+      "read_evidence": [
+        {
+          "read_url": "https://www.bilibili.com/opus/950153255348862982",
+          "http_status": 200,
+          "body_text_chars": 8530,
+          "read_scope": "第7节7.1—7.12及职责相关段",
+          "short_original_basis": "7.3“最好能够让各个项目形成互补”；7.11“而不是脱离实际的测试去盲目做优化”。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "b866ea247fe1ebe311725857f5f4c97b9865e4772de518a7de86a8a68f5f3660"
+        }
+      ],
+      "author": "程序员鱼皮",
+      "commercial_context": "作者经营编程导航、项目课程与求职工具；前腾讯经历是本人公开自述。",
+      "unique_value": "直接支持两项目各有侧重；补个人工作、业务约束与前后实测的说明方法。",
+      "facts_boundary": "“改名换皮”不能证明独立工程贡献；“参与”换成“负责/主导”必须符合真实职责；同作者跨平台不算独立印证。",
+      "platform_fulltext_count_increment": 0
+    },
+    {
+      "source_id": "V03",
+      "type": "opinion",
+      "source_category": "04_B站知乎与从业者观点",
+      "title": "程序员简历应该怎么写 程序员鱼皮的回答",
+      "source_url": "https://www.zhihu.com/question/25002833/answer/2381116420",
+      "source_card": "04_B站知乎与从业者观点/V03.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "仅外部索引卡和本次访问状态；未取得正文/字幕",
+      "status": "受限阅读入口",
+      "import_target": "manual_only",
+      "read_evidence": [
+        {
+          "read_url": "https://www.zhihu.com/question/25002833/answer/2381116420",
+          "http_status": 403,
+          "body_text_chars": 35,
+          "read_scope": "受限页，无文章正文",
+          "short_original_basis": "本次未取得正文，不采纳astra索引片段作为新全文。",
+          "checked_on": "2026-10-24"
+        }
+      ],
+      "unique_value": "保留原始入口供用户自行访问。",
+      "facts_boundary": "鱼皮回答原页403，astra也只有索引片段；同作者V02可读部分不替代知乎全文。",
+      "evidence_count_increment": 0,
+      "existing_manual_url": null
+    },
+    {
+      "source_id": "V04",
+      "type": "opinion",
+      "source_category": "04_B站知乎与从业者观点",
+      "title": "如何评价鱼皮程序员的OJ项目 九章算法的回答",
+      "source_url": "https://www.zhihu.com/question/629921585/answer/30006369306",
+      "source_card": "04_B站知乎与从业者观点/V04.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "仅外部索引卡和本次访问状态；未取得正文/字幕",
+      "status": "受限阅读入口",
+      "import_target": "manual_only",
+      "read_evidence": [
+        {
+          "read_url": "https://www.zhihu.com/question/629921585/answer/30006369306",
+          "http_status": 403,
+          "body_text_chars": 35,
+          "read_scope": "受限页，无文章正文",
+          "short_original_basis": "本次未取得正文，不采纳astra索引片段作为新全文。",
+          "checked_on": "2026-10-24"
+        }
+      ],
+      "unique_value": "保留原始入口供用户自行访问。",
+      "facts_boundary": "九章算法回答原页403，机构培训/潜在商业竞争背景；不能从摘要推课程SSP效果。",
+      "evidence_count_increment": 0,
+      "existing_manual_url": null
+    },
+    {
+      "source_id": "V05",
+      "type": "opinion",
+      "source_category": "04_B站知乎与从业者观点",
+      "title": "如何成为一个AI Agent工程师 回答2070483858739262746",
+      "source_url": "https://www.zhihu.com/question/2012551138705167575/answer/2070483858739262746",
+      "source_card": "04_B站知乎与从业者观点/V05.html",
+      "existing_id": null,
+      "decision": "enrich",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "仅外部索引卡和本次访问状态；未取得正文/字幕",
+      "status": "受限阅读入口",
+      "import_target": "manual_only",
+      "read_evidence": [
+        {
+          "read_url": "https://www.zhihu.com/question/2012551138705167575/answer/2070483858739262746",
+          "http_status": 403,
+          "body_text_chars": 35,
+          "read_scope": "受限页，无文章正文",
+          "short_original_basis": "本次未取得正文，不采纳astra索引片段作为新全文。",
+          "checked_on": "2026-10-24"
+        }
+      ],
+      "unique_value": "保留原始入口供用户自行访问。",
+      "facts_boundary": "原页403且署名从业背景未核；既有待手动链接已收录，不能升级专家全文。",
+      "evidence_count_increment": 0,
+      "existing_manual_url": "https://www.zhihu.com/question/2012551138705167575/answer/2070483858739262746"
+    },
+    {
+      "source_id": "V06",
+      "type": "opinion",
+      "source_category": "04_B站知乎与从业者观点",
+      "title": "Java面试 如何写好简历中的项目经历 作为一名面试官谈谈我的看法",
+      "source_url": "https://www.bilibili.com/video/BV1he4y1U7cz/",
+      "source_card": "04_B站知乎与从业者观点/V06.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "仅外部索引卡和本次访问状态；未取得正文/字幕",
+      "status": "受限阅读入口",
+      "import_target": "manual_only",
+      "read_evidence": [
+        {
+          "read_url": "https://www.bilibili.com/video/BV1he4y1U7cz/",
+          "http_status": 412,
+          "body_text_chars": 170,
+          "read_scope": "受限页，无文章正文",
+          "short_original_basis": "本次未取得正文，不采纳astra索引片段作为新全文。",
+          "checked_on": "2026-10-24"
+        }
+      ],
+      "unique_value": "保留原始入口供用户自行访问。",
+      "facts_boundary": "B站播放页412；只有题目/简介，无字幕/观看证据，不能还原具体观点。",
+      "evidence_count_increment": 0,
+      "existing_manual_url": null
+    },
+    {
+      "source_id": "V07",
+      "type": "opinion",
+      "source_category": "04_B站知乎与从业者观点",
+      "title": "Agent项目面试怎么讲 从系统架构 技术选型到Badcase复盘",
+      "source_url": "https://javaguide.cn/ai/interview-questions/agent-project-interview-guide.html",
+      "source_card": "04_B站知乎与从业者观点/V07.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "作者自站正文指定章节：项目真实性、请求链路、工具治理、副作用、状态与Badcase/评测；未称全篇逐句审定",
+      "status": "作者原站专业方法，平台外单列",
+      "import_target": "nonplatform_professional_original",
+      "read_evidence": [
+        {
+          "read_url": "https://javaguide.cn/ai/interview-questions/agent-project-interview-guide.html",
+          "http_status": 200,
+          "body_text_chars": 13588,
+          "read_scope": "上述相关章节",
+          "short_original_basis": "“权限校验、用户确认、幂等和执行结果核验都必须由业务系统负责”；采用MCP后“权限、参数校验和副作用治理仍然要在业务侧完成”。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "cc885421a75bd4edb4142efaaaec30f927b43f0722dd40180930b3f9a4a679f9"
+        }
+      ],
+      "author": "Guide/JavaGuide",
+      "commercial_context": "技术内容站有知识星球/课程等商业入口；文章是公开方法，不是已认证面试官统计。",
+      "unique_value": "补30秒/3分钟叙述、问题→链路→约束→方案→失败复盘→证据的阅读检查方法，以及MCP不替代业务治理的明确论述。",
+      "facts_boundary": "文中的售后工单、200条评测集、8%到2%等为讲法示例，未证明是作者真实生产数据或候选人成果；不把这些问法混入真实面试频次。"
+    },
+    {
+      "source_id": "V08",
+      "type": "opinion",
+      "source_category": "04_B站知乎与从业者观点",
+      "title": "智能OnCall Agent项目 大模型Agent开发项目",
+      "source_url": "https://www.xiaolincoding.com/project/aioncallagent.html",
+      "source_card": "04_B站知乎与从业者观点/V08.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "公开卖方介绍指定段：三模块、学习方式、技术栈与声明；没有购买/查看完整付费源码",
+      "status": "卖方项目介绍，独立列商业背景，非成功者材料",
+      "import_target": "commercial_context_only",
+      "read_evidence": [
+        {
+          "read_url": "https://www.xiaolincoding.com/project/aioncallagent.html",
+          "http_status": 200,
+          "body_text_chars": 6913,
+          "read_scope": "公开介绍及学习方式",
+          "short_original_basis": "自称知识库/对话/运维三个Agent；“会提供源码，但是没有视频教学”；包含“无ReAct的Agent无法拆分任务、调用工具”绝对化表述。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "e814fdda22718ec6ea38fccec36e18a8abef1717915d703832411167c3ede584"
+        }
+      ],
+      "author": "小林coding及项目团队（卖方）",
+      "commercial_context": "直接销售项目文档、代码与答疑；导师工作经历和学员offer均为卖方自述，未独立核验。",
+      "unique_value": "补现有课程/项目市场定位、文档授课与工程覆盖宣传的比较入口；可记录业务场景，但不据此推荐购买。",
+      "facts_boundary": "“企业级/非玩具/学员offer”不作事实认证；公开页没有评测不等于付费源码没有。ReAct不是Agent调用工具的必要条件，该绝对化语句不采纳。",
+      "evidence_count_increment": 0
+    },
+    {
+      "source_id": "P01",
+      "type": "project",
+      "source_category": "05_参考项目",
+      "title": "nageoffer/12306",
+      "source_url": "https://github.com/nageoffer/12306",
+      "source_card": "05_参考项目/P01.html",
+      "existing_id": "PRO01",
+      "decision": "duplicate",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "对照astra README/文档卡与旧包已有静态实现核读，未重复阅读全仓",
+      "status": "相同仓库；既有主表与附件范围更深入",
+      "import_target": "existing_cross_reference",
+      "repo_identity": "nageoffer/12306",
+      "unique_value": "没有新增源码核读；保留上游宣传不能当本人实测与贡献的判断。",
+      "facts_boundary": "教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。",
+      "evidence_count_increment": 0
+    },
+    {
+      "source_id": "P02",
+      "type": "project",
+      "source_category": "05_参考项目",
+      "title": "nageoffer/shortlink",
+      "source_url": "https://github.com/nageoffer/shortlink",
+      "source_card": "05_参考项目/P02.html",
+      "existing_id": "PRO02",
+      "decision": "duplicate",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "对照astra README/文档卡与旧包已有静态实现核读，未重复阅读全仓",
+      "status": "相同仓库；既有主表与附件范围更深入",
+      "import_target": "existing_cross_reference",
+      "repo_identity": "nageoffer/shortlink",
+      "unique_value": "没有新增源码核读；保留上游宣传不能当本人实测与贡献的判断。",
+      "facts_boundary": "教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。",
+      "evidence_count_increment": 0
+    },
+    {
+      "source_id": "P05",
+      "type": "project",
+      "source_category": "05_参考项目",
+      "title": "infiniflow/ragflow",
+      "source_url": "https://github.com/infiniflow/ragflow",
+      "source_card": "05_参考项目/P05.html",
+      "existing_id": "PRO07",
+      "decision": "duplicate",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "对照astra README/文档卡与旧包已有静态实现核读，未重复阅读全仓",
+      "status": "相同仓库；既有主表与附件范围更深入",
+      "import_target": "existing_cross_reference",
+      "repo_identity": "infiniflow/ragflow",
+      "unique_value": "没有新增源码核读；保留上游宣传不能当本人实测与贡献的判断。",
+      "facts_boundary": "教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。",
+      "evidence_count_increment": 0
+    },
+    {
+      "source_id": "P03",
+      "type": "project",
+      "source_category": "05_参考项目",
+      "title": "temporalio/temporal",
+      "source_url": "https://github.com/temporalio/temporal",
+      "source_card": "05_参考项目/P03.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "实际GET README及官方MCP集成文档中Activity重试/超时/副作用段；未运行、未审服务端代码",
+      "status": "新仓库的文档参考，不新增已审项目/源码包分母",
+      "import_target": "document_reference",
+      "repo_identity": "temporalio/temporal",
+      "read_evidence": [
+        {
+          "read_url": "https://raw.githubusercontent.com/temporalio/temporal/main/README.md",
+          "http_status": 200,
+          "body_text_chars": 3886,
+          "read_scope": "定位与恢复机制简介",
+          "short_original_basis": "README定位为durable execution平台；自动处理间歇故障和失败重试。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "269838d3de5da90d4c2c0b45bf7fc745b384a5a05c0932582e923638e8994189"
+        },
+        {
+          "read_url": "https://docs.temporal.io/develop/python/integrations/mcp",
+          "http_status": 200,
+          "body_text_chars": 9966,
+          "read_scope": "Activity副作用、重试与超时段",
+          "short_original_basis": "“Make tools with side effects idempotent. An Activity can execute more than once, such as when a Worker loses the response after the MCP server has completed a tool call.”",
+          "checked_on": "2026-10-24",
+          "text_sha256": "c04d169347aa4be7f922e99499a944bb4d7943b71e1032e5e7e1f6db8738d6f9"
+        }
+      ],
+      "unique_value": "工作流恢复与外部副作用幂等需分开；响应丢失仍可能重复执行，不能把引擎恢复等同端到端exactly-once。",
+      "facts_boundary": "文档事实与研究者对比判断分开；MCP+Python集成语义不自动代表所有SDK/活动类型；不声称自研了其可靠性机制。"
+    },
+    {
+      "source_id": "P04",
+      "type": "project",
+      "source_category": "05_参考项目",
+      "title": "langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "source_card": "05_参考项目/P04.html",
+      "existing_id": "DOC04",
+      "decision": "enrich",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "实际GET README与persistence/interrupts指定段；未运行示例/审库源码",
+      "status": "新仓库身份参考，既有DOC04/DOC05文档补核，不新增已审项目",
+      "import_target": "document_reference_enrichment",
+      "existing_ids": [
+        "DOC04",
+        "DOC05"
+      ],
+      "repo_identity": "langchain-ai/langgraph",
+      "read_evidence": [
+        {
+          "read_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md",
+          "http_status": 200,
+          "body_text_chars": 6351,
+          "read_scope": "有状态执行/持久执行定位",
+          "short_original_basis": "README提供long-running、stateful workflow/agent定位。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "3a13e257af1216962d53d72414a7f44ac1fc5cea34d994bdff60ea2a3b045933"
+        },
+        {
+          "read_url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+          "http_status": 200,
+          "body_text_chars": 3809,
+          "read_scope": "checkpointer和store的不同作用与quickstart",
+          "short_original_basis": "Checkpointers持久化线程的graph state；Stores存跨线程信息。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "c70038dc358af6441e6a75b3ef53c8b2c4af920fe074928db5fcaa575a877a77"
+        },
+        {
+          "read_url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+          "http_status": 200,
+          "body_text_chars": 37813,
+          "read_scope": "Resuming interrupts与幂等副作用段",
+          "short_original_basis": "“The node restarts from the beginning ... any code before the interrupt runs again”；“Side effects called before interrupt must be idempotent”。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "238e94085126bf0ba8ebe0c9f72e74f2bde956bd4bb0d6992f86e44d2721fcee"
+        }
+      ],
+      "unique_value": "checkpoint不能保证外部业务只写一次；恢复时节点前置代码重跑，应把写入幂等/结果查询作为独立能力来核读。",
+      "facts_boundary": "这是框架文档保证及限制，不是成功者个人贡献；内存示例不能证明跨进程持久化效果。"
+    },
+    {
+      "source_id": "P06",
+      "type": "project",
+      "source_category": "05_参考项目",
+      "title": "OpenHands/software-agent-sdk",
+      "source_url": "https://github.com/OpenHands/software-agent-sdk",
+      "source_card": "05_参考项目/P06.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "实际GET README的组件划分、workspace、工具与Agent Server示例段；未运行本地或Docker工具",
+      "status": "新SDK文档参考，不新增已审项目/源码包",
+      "import_target": "document_reference",
+      "repo_identity": "openhands/software-agent-sdk",
+      "read_evidence": [
+        {
+          "read_url": "https://raw.githubusercontent.com/OpenHands/software-agent-sdk/main/README.md",
+          "http_status": 200,
+          "body_text_chars": 10801,
+          "read_scope": "组件与workspace段",
+          "short_original_basis": "“Agents can either use the local machine as their workspace, or run inside ephemeral workspaces (e.g. in Docker or Kubernetes) using the Agent Server.”",
+          "checked_on": "2026-10-24",
+          "text_sha256": "95094c9745c7cc58136d4eaa1688fb6038aafefec2be05344293f6df7e55dbf8"
+        }
+      ],
+      "unique_value": "区分Agent/工具/会话/workspace和独立Agent Server；本地工具可调用不等于完成隔离，需要实际核读权限与资源边界。",
+      "facts_boundary": "本次只有README指定段，不认证沙箱安全、资源限制、测试表现；SDK许可不延伸到同组织Cloud产品。"
+    },
+    {
+      "source_id": "P07",
+      "type": "project",
+      "source_category": "05_参考项目",
+      "title": "langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_card": "05_参考项目/P07.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "实际GET README相关定位和LICENSE全文1800字符；未运行/审产品代码",
+      "status": "新产品与工作流基线文档参考，不新增已审项目/源码包",
+      "import_target": "document_reference",
+      "repo_identity": "langgenius/dify",
+      "read_evidence": [
+        {
+          "read_url": "https://raw.githubusercontent.com/langgenius/dify/main/README.md",
+          "http_status": 200,
+          "body_text_chars": 12007,
+          "read_scope": "产品定位与许可证段",
+          "short_original_basis": "README明确license based on Apache 2.0 with additional conditions。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "3c7fe487f1e89e6faec52f5421c71e749c1cecc3486725be3e03fb3fbb62e484"
+        },
+        {
+          "read_url": "https://raw.githubusercontent.com/langgenius/dify/main/LICENSE",
+          "http_status": 200,
+          "body_text_chars": 1800,
+          "read_scope": "许可证全文",
+          "short_original_basis": "多租户运营需书面授权；前端使用不可移除/修改LOGO与copyright信息；其余权利限制依Apache2.0。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "232cf91474932d5110ed304e53b6b742a58463857c571fae803fdf2ac36d7bb3"
+        }
+      ],
+      "unique_value": "可作现成工具/产品基线，许可需准确记录附加条件；配置现有工作流不能写成自研编排。",
+      "facts_boundary": "不推荐购买，不作法律结论；README随main更新，未固定commit、不声称本次审计完整产品实现。"
+    },
+    {
+      "source_id": "P08",
+      "type": "project",
+      "source_category": "05_参考项目",
+      "title": "vibrantlabsai/ragas",
+      "source_url": "https://github.com/vibrantlabsai/ragas",
+      "source_card": "05_参考项目/P08.html",
+      "existing_id": null,
+      "decision": "new",
+      "new_primary_project": false,
+      "source_folder_modified": false,
+      "reading_scope": "实际GET README和Faithfulness定义/计算步骤；未执行指标/下载模型",
+      "status": "新评测工具文档参考，不新增已审项目/源码包",
+      "import_target": "document_reference",
+      "repo_identity": "vibrantlabsai/ragas",
+      "read_evidence": [
+        {
+          "read_url": "https://raw.githubusercontent.com/vibrantlabsai/ragas/main/README.md",
+          "http_status": 200,
+          "body_text_chars": 6966,
+          "read_scope": "工具定位与指标入口",
+          "short_original_basis": "README为LLM应用评测工具入口，许可徽标为Apache2.0；本次未运行。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "af20b2258507b12bf930e897b63ee5bb87aac4a4696da078ea5a3c29addb6db7"
+        },
+        {
+          "read_url": "https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/faithfulness/",
+          "http_status": 200,
+          "body_text_chars": 4767,
+          "read_scope": "定义与计算步骤",
+          "short_original_basis": "“The Faithfulness metric measures how factually consistent a response is with the retrieved context”；claims是否被context支持。",
+          "checked_on": "2026-10-24",
+          "text_sha256": "fb6cfaa8db00ea8b189ec66c07b2860e08086e416d9bb8e6f5d5e382b3cac051"
+        }
+      ],
+      "unique_value": "从指标定义可推论faithfulness不等于现实真相、根因准确率或故障修复率；需把引用支持度和任务成功/回归验证分开。",
+      "facts_boundary": "前半句是官方定义；不等于修复率是本报告依据指标范围的推论。不能把0.9写为整体准确率90%；没有运行或评价裁判偏差的实证。"
+    }
+  ],
+  "summary": {
+    "source_records": 24,
+    "by_type": {
+      "candidate": 7,
+      "opinion": 9,
+      "project": 8
+    },
+    "by_decision": {
+      "duplicate": 5,
+      "new": 16,
+      "enrich": 3
+    },
+    "new_success_candidate_source_ids": [
+      "R02",
+      "R04",
+      "R08"
+    ],
+    "new_control_candidate_source_ids": [
+      "R05"
+    ],
+    "teaching_instead_of_candidate": [
+      "R06"
+    ],
+    "platform_body_selected_read_sources": [
+      "V01",
+      "V02"
+    ],
+    "restricted_manual_only": [
+      "V03",
+      "V04",
+      "V05",
+      "V06"
+    ],
+    "commercial_context_only": [
+      "V08"
+    ],
+    "new_repo_identities": [
+      "temporalio/temporal",
+      "langchain-ai/langgraph",
+      "openhands/software-agent-sdk",
+      "langgenius/dify",
+      "vibrantlabsai/ragas"
+    ],
+    "new_code_archives": 0,
+    "new_executed_projects": 0,
+    "new_primary_project_comparison_rows": 0,
+    "new_verified_full_cv_files": 0,
+    "new_verified_ssp_people": 0,
+    "personal_project_design_imported": false
+  },
+  "limitations": [
+    "全部正文范围按read_scope保守记为指定段；GET成功/正文字符数不等于通篇已逐句审定。",
+    "R05外包摘要的简历图判断未在本轮读图复核，不增加完整简历统计。",
+    "R02/R08事件年仍未知；不从编辑时间和届别填年。",
+    "知乎3项和B站视频仍受限，不以摘要补正文，不增加平台全文数。",
+    "五个新仓库均为通用文档参考；不纳25项目375维静态比较、不增加源码包或成功者作品数。",
+    "不导入astra 06_项目设计两方案或16周路线，个人项目设计继续暂缓。"
+  ]
+}

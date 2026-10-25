@@ -1,0 +1,86 @@
+JD07 | 后端开发实习生-飞书项目
+
+需求核对版 · 2026-10-24
+
+公司：
+  字节跳动/飞书项目
+role_type：
+  后端实习
+原始来源：
+  https://www.nowcoder.com/jobs/detail/463791
+publish_date：
+  未展示；当前抓取样本
+retrieved_date：
+  2026-10-23
+source_type：
+  企业在牛客发布的JD
+evidence_excerpt：
+  基础系统设计能力
+own_summary：
+  项目管理产品服务端，需要基础系统设计、存储缓存、测试日志和排障；高并发与解耦属于工作内容。
+required_stack：
+  - 后端开发经验
+  - Go/Java/Python择一
+  - 后端框架
+  - 协议
+  - 存储
+  - 缓存
+  - 系统设计
+  - 测试日志规范
+preferred_stack：
+  - Golang
+degree_constraint：
+  本科及以上在读；计算机/软件/AI相关优先
+availability_constraint：
+  5天/周；3个月以上
+recruiting_status：
+  页面有投递入口；HC未核验
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 网络协议
+  - 数据库或存储
+  - 缓存
+  - 工程质量测试
+  - 架构性能可靠性
+duties：
+  高并发、系统解耦、技术调研
+局限：
+  存储未指定MySQL，不在精确MySQL频次中计数。
+类别：
+  招聘JD
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    未展示；当前抓取样本
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    招聘发布时间未展示，不按2027届或本次抓取年补写
+  来源日期：
+    未展示；当前抓取样本
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

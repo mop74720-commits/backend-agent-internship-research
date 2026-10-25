@@ -1,0 +1,353 @@
+[
+  {
+    "query": "SSP 拿到 in:readme language:Markdown",
+    "status": 200,
+    "total_count": 0,
+    "items": [],
+    "message": null
+  },
+  {
+    "query": "ssp offer 秋招 in:readme",
+    "status": 200,
+    "total_count": 48,
+    "items": [
+      {
+        "repo": "zslomo/2019-Autumn-recruitment-experience",
+        "description": "2019届秋招面经集合",
+        "branch": "master",
+        "updated_at": "2026-10-16T13:02:39Z",
+        "fork": false
+      },
+      {
+        "repo": "amusi/AI-Job-Notes",
+        "description": "AI算法岗求职攻略（涵盖准备攻略、刷题指南、内推和AI公司清单等资料）",
+        "branch": "master",
+        "updated_at": "2026-10-23T07:26:37Z",
+        "fork": false
+      },
+      {
+        "repo": "muluoleiguo/interview",
+        "description": "linux C++ 服务器/后台开发 秋招整理资料 ",
+        "branch": "master",
+        "updated_at": "2026-10-19T09:15:56Z",
+        "fork": false
+      },
+      {
+        "repo": "puge-up/programming-play",
+        "description": "致力于实习/校招/社招进大厂打法，计算机基础知识学习，C++、Java、算法学习路线，专注于编程打法！",
+        "branch": "main",
+        "updated_at": "2026-10-23T06:27:41Z",
+        "fork": false
+      },
+      {
+        "repo": "extreme-assistant/AI-job-interview",
+        "description": "AI算法岗面试经验汇总",
+        "branch": "master",
+        "updated_at": "2026-06-29T12:49:25Z",
+        "fork": false
+      },
+      {
+        "repo": "0voice/Campus_recruitment_interview_questions",
+        "description": "2025 最新校招面试题合集， 面向 2026 届应届生，全网最全整理！收录 1000+道真实面试题以及面经，涵盖阿里、腾讯、字节、美团、百度、华为、小米、英伟达、微软、米哈游等百家大中小厂。每题配备视频解析 or 文字讲解，持续更新中，助力拿下 Dream Offer！",
+        "branch": "main",
+        "updated_at": "2026-10-22T14:19:22Z",
+        "fork": false
+      },
+      {
+        "repo": "viego1999/JavaWxy",
+        "description": "Java学习路线和资料分享",
+        "branch": "master",
+        "updated_at": "2026-10-13T09:00:17Z",
+        "fork": false
+      },
+      {
+        "repo": "erdengk/erdengk",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2026-10-22T18:59:05Z",
+        "fork": false
+      },
+      {
+        "repo": "adongwanai/AgentGuide",
+        "description": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成",
+        "branch": "main",
+        "updated_at": "2026-10-23T11:12:21Z",
+        "fork": false
+      },
+      {
+        "repo": "shenweichen/AlgoNotes",
+        "description": "【浅梦学习笔记】文章汇总:包含 排序&CXR预估，召回匹配，用户画像&特征工程，推荐搜索综合  计算广告，大数据，图算法，NLP&CV，求职面试 等内容",
+        "branch": "main",
+        "updated_at": "2026-10-22T09:36:48Z",
+        "fork": false
+      },
+      {
+        "repo": "Yang6149/notes",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2025-11-08T07:45:12Z",
+        "fork": false
+      },
+      {
+        "repo": "zimuzi2019/xducs-learning-tips",
+        "description": "关于西电计科本科学习的一些经验分享与资料汇总",
+        "branch": "main",
+        "updated_at": "2026-09-27T07:01:22Z",
+        "fork": false
+      },
+      {
+        "repo": "Jeansding/2019-Autumn-recruitment-experience",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2019-05-06T03:31:43Z",
+        "fork": false
+      },
+      {
+        "repo": "youta7/2019-Autumn-recruitment-experience",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2025-11-11T07:25:31Z",
+        "fork": false
+      },
+      {
+        "repo": "trialley/TA2020",
+        "description": "I want job.",
+        "branch": "master",
+        "updated_at": "2020-10-27T10:29:06Z",
+        "fork": false
+      },
+      {
+        "repo": "apachecn-archive/AI-Job-Notes",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2023-05-03T13:30:29Z",
+        "fork": false
+      },
+      {
+        "repo": "yjt2018/AI-Job-Notes",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2021-07-12T14:15:59Z",
+        "fork": false
+      },
+      {
+        "repo": "WJZVCGFB/OFFER_MARKET",
+        "description": null,
+        "branch": "main",
+        "updated_at": "2026-09-10T17:32:30Z",
+        "fork": false
+      },
+      {
+        "repo": "LeoLee0812/CodeWhisper",
+        "description": "基于 Whisper 的语音转文字工具。一键转录至剪贴板，解决云端吞字与隐私忧虑。针对中文环境优化，打破网页端限制，实现与各家大模型（ChatGPT/Grok/Gemini 等）的无缝对话。Local Whisper-based voice input tool. One-click transcribe to clipboard, zero privacy leaks, no more cloud swallowing text. Optimized for Chinese, breaks web-side limits, enabling seamless voice chat with LLMs",
+        "branch": "main",
+        "updated_at": "2026-09-10T19:36:40Z",
+        "fork": false
+      },
+      {
+        "repo": "KyelYang/c-plus-Interview",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2026-09-16T06:58:47Z",
+        "fork": false
+      },
+      {
+        "repo": "CCzzsd/xhs-content-creator",
+        "description": null,
+        "branch": "main",
+        "updated_at": "2026-08-14T10:45:37Z",
+        "fork": false
+      },
+      {
+        "repo": "CloudCreateThink/CodingOffer",
+        "description": "Get your offer in one go",
+        "branch": "main",
+        "updated_at": "2026-04-20T07:47:35Z",
+        "fork": false
+      },
+      {
+        "repo": "MAXUPUPUP/Ai_infra_journey",
+        "description": "Let's do AI Infra!!!",
+        "branch": "main",
+        "updated_at": "2026-05-04T05:04:50Z",
+        "fork": false
+      },
+      {
+        "repo": "MAXUPUPUP/-Bioinfo_journey",
+        "description": "Let's do Bioinfo!!!",
+        "branch": "main",
+        "updated_at": "2026-05-12T06:53:15Z",
+        "fork": false
+      },
+      {
+        "repo": "boyang-x/next-stop-graduation",
+        "description": "下一站，毕业：从大学入学到升学、秋招与毕业的事件池人生模拟游戏。",
+        "branch": "main",
+        "updated_at": "2026-10-03T03:48:07Z",
+        "fork": false
+      },
+      {
+        "repo": "LittleChild/Preparation-For-OFFER",
+        "description": "在此记录自己的秋招，同时准备秋招，复习基础知识，加油！",
+        "branch": "main",
+        "updated_at": "2021-12-06T15:05:46Z",
+        "fork": false
+      },
+      {
+        "repo": "aiyuedi/intelligent-manufacturing-roadmap",
+        "description": "智能制造工程本科学习路线图 | Intelligent Manufacturing Engineering Undergraduate Roadmap",
+        "branch": "main",
+        "updated_at": "2026-10-03T14:21:42Z",
+        "fork": false
+      },
+      {
+        "repo": "Tfcccc-bot/ai-infra-offer-radar",
+        "description": null,
+        "branch": "main",
+        "updated_at": "2026-08-29T11:02:25Z",
+        "fork": false
+      },
+      {
+        "repo": "itwanger/zsxq",
+        "description": "二哥编程星球介绍",
+        "branch": "main",
+        "updated_at": "2025-10-27T08:10:13Z",
+        "fork": false
+      },
+      {
+        "repo": "backtraxe/offer-is-all-you-need",
+        "description": "面经、八股、系统设计，一个都不能少。Offer 是我的，也是你的。",
+        "branch": "main",
+        "updated_at": "2026-10-19T07:23:19Z",
+        "fork": false
+      },
+      {
+        "repo": "BJLIYANLIANG/Security_Service_Interview",
+        "description": "安全面试经验汇总 (80+篇)",
+        "branch": "main",
+        "updated_at": "2026-09-16T10:47:09Z",
+        "fork": false
+      },
+      {
+        "repo": "wshzd/AI",
+        "description": "include all knowledge about AI",
+        "branch": "main",
+        "updated_at": "2022-03-14T15:39:41Z",
+        "fork": false
+      },
+      {
+        "repo": "Remanced/AgentGuide",
+        "description": "AgentGuide",
+        "branch": "main",
+        "updated_at": "2026-06-18T08:20:43Z",
+        "fork": false
+      },
+      {
+        "repo": "frankjing3/AgentGuide",
+        "description": null,
+        "branch": "main",
+        "updated_at": "2026-09-13T04:34:52Z",
+        "fork": false
+      },
+      {
+        "repo": "qiao12/C-_learning",
+        "description": "C++技术栈学习代码",
+        "branch": "main",
+        "updated_at": "2023-08-02T07:46:31Z",
+        "fork": false
+      },
+      {
+        "repo": "ChHsiching/GitHub-Chinese-Top-Charts",
+        "description": "🇨🇳 GitHub中文排行榜，帮助你发现高分优秀中文项目。",
+        "branch": "main",
+        "updated_at": "2026-10-23T11:56:09Z",
+        "fork": false
+      },
+      {
+        "repo": "pinkie-ljz/GitHub-Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2026-10-22T14:07:00Z",
+        "fork": false
+      },
+      {
+        "repo": "markWJJ/GitHub-Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2026-08-21T04:41:28Z",
+        "fork": false
+      },
+      {
+        "repo": "qingyuanfeiniao/Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2026-04-18T11:06:07Z",
+        "fork": false
+      },
+      {
+        "repo": "Mbilse/GitHub-Chinese-Top-Charts",
+        "description": "🇨🇳 GitHub中文排行榜",
+        "branch": "main",
+        "updated_at": "2026-10-09T11:06:56Z",
+        "fork": false
+      },
+      {
+        "repo": "shangjunimo/GitHub-Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2026-04-08T07:06:17Z",
+        "fork": false
+      },
+      {
+        "repo": "qince1455373819/GitHub-Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2026-05-21T01:36:15Z",
+        "fork": false
+      },
+      {
+        "repo": "koala2099/GitHub-Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2026-10-22T00:15:07Z",
+        "fork": false
+      },
+      {
+        "repo": "GHWXY/Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2024-12-16T03:53:54Z",
+        "fork": false
+      },
+      {
+        "repo": "ningpengtao-coder/awesome-stars",
+        "description": "A curated list of my GitHub stars!",
+        "branch": "main",
+        "updated_at": "2024-12-31T07:04:27Z",
+        "fork": false
+      },
+      {
+        "repo": "ningpengtao-coder/starred-1w",
+        "description": "A curated list of my GitHub stars!",
+        "branch": "main",
+        "updated_at": "2024-12-31T07:24:33Z",
+        "fork": false
+      },
+      {
+        "repo": "kaibady/GitHub-Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2023-02-06T09:46:55Z",
+        "fork": false
+      },
+      {
+        "repo": "qiaoshuixia521/GitHub-Chinese-Top-Charts",
+        "description": null,
+        "branch": "master",
+        "updated_at": "2020-11-25T15:50:08Z",
+        "fork": false
+      }
+    ],
+    "message": null
+  }
+]

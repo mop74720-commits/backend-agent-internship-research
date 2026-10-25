@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-23",
+  "records": [
+    {
+      "url": "https://api-cdn.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60?sourceSSR=users",
+      "status": 200,
+      "ssr_state_found": false
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60?sourceSSR=users&weFlow=true",
+      "status": 200,
+      "ssr_state_found": true,
+      "title": "9.7百度agent开发日常实习面经",
+      "uuid": "bb8c28105f364770b57ff5eb5649cc60",
+      "time_fields": {
+        "editTime": 1788768154000,
+        "showTime": 1788768154000
+      },
+      "converted_times": {
+        "editTime": "2026-09-07T16:02:34+08:00",
+        "showTime": "2026-09-07T16:02:34+08:00"
+      }
+    }
+  ],
+  "scope": "只保存目标uuid的必要时间字段；不保留原始脚本或IP/联系方式"
+}

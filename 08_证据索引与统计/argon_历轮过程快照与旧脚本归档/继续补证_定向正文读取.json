@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-23",
+  "scope": "普通公开GET，正文供实际核读；未读不入主表",
+  "records": [
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2073084629918148573",
+      "status": 403,
+      "final_url": "https://zhuanlan.zhihu.com/p/2073084629918148573",
+      "body_chars": 0,
+      "body_sha256": null,
+      "title": null,
+      "time_nodes": [],
+      "reading_decision_source": "继续补证_检索决策与交付.json"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2070161578142479372",
+      "status": 403,
+      "final_url": "https://zhuanlan.zhihu.com/p/2070161578142479372",
+      "body_chars": 0,
+      "body_sha256": null,
+      "title": null,
+      "time_nodes": [],
+      "reading_decision_source": "继续补证_检索决策与交付.json"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/d9ac01c30b9b4f57aa9294ceda1004e2?sourceSSR=subject",
+      "status": 200,
+      "final_url": "https://www.nowcoder.com/feed/main/detail/d9ac01c30b9b4f57aa9294ceda1004e2?sourceSSR=subject",
+      "body_chars": 0,
+      "body_sha256": null,
+      "title": "选测开还是agent开发_牛客网",
+      "time_nodes": [],
+      "reading_decision_source": "继续补证_检索决策与交付.json"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60?sourceSSR=其他",
+      "status": 200,
+      "final_url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60?sourceSSR=%E5%85%B6%E4%BB%96",
+      "body_chars": 0,
+      "body_sha256": null,
+      "title": "9.7百度agent开发日常实习面经_牛客网",
+      "time_nodes": [],
+      "reading_decision_source": "继续补证_检索决策与交付.json"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/940390952902914048?sourceSSR=post",
+      "status": 200,
+      "final_url": "https://www.nowcoder.com/discuss/940390952902914048?sourceSSR=post",
+      "body_chars": 3328,
+      "body_sha256": "48f72d49142522ccf83e6ce2e6c69526657d2e84bb6268b992b6573ee8e5bc36",
+      "title": "字节面经 字节跳动AI Agent开发岗面经-07_牛客网",
+      "time_nodes": [
+        "10-15 23:37"
+      ],
+      "reading_decision_source": "继续补证_检索决策与交付.json"
+    }
+  ]
+}

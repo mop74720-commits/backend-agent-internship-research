@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-23",
+  "execution": "未运行第三方代码；以下风险为指定版本的静态推断，未声称已复现。",
+  "reviews": [
+    {
+      "related_id": "CV22",
+      "repo": "Asthenia0412/AsTimeWheel",
+      "commit": "b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc",
+      "source_URL": "https://github.com/Asthenia0412/AsTimeWheel/tree/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc",
+      "relationship": "仅同账号仓库；职业履历未直接点名本项目，不能据此证明投递使用或录用原因。",
+      "reading_scope": "固定tree的12个文件路径；时间轮350行、桶132行、调度器50—181行、调度器测试155行。未审所有配置与依赖。",
+      "strengths": [
+        "可定位延迟任务队列、取消队列、双向链表桶、轮次及槽位计算，而非仅有README。",
+        "调度器包装层有Mockito测试，覆盖登记、取消及重复任务重新调度等路径；不代表时间轮核心正确。"
+      ],
+      "risks": [
+        {
+          "finding": "实例初始化顺序风险：worker字段在构造器赋timeUnit等字段前执行new Worker，而Worker构造器读取timeUnit.toNanos；按Java初始化顺序推断可触发空引用。",
+          "status": "静态推断，未运行",
+          "path": "AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/core/HashedWheelTimer.java",
+          "line_ranges": [[41,51],[95,105],[207,210]],
+          "reading_question": "测试为什么只mock底层定时器？真实构造路径是否覆盖？"
+        },
+        {
+          "finding": "任务deadline按相对startTime计算，waitForNextTick返回System.nanoTime绝对值，桶直接比较两者；时间基准需要统一，不能把纳秒单位宣称等同实际精度。",
+          "status": "静态推断，未运行",
+          "path": "AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/core/HashedWheelTimer.java",
+          "line_ranges": [[133,135],[225,241],[254,267]],
+          "other_path": "AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/core/HashedWheelBucket.java#L69-L79",
+          "reading_question": "同一时钟基准、tick量化和长任务阻塞如何影响触发误差？"
+        },
+        {
+          "finding": "scheduleAtFixedRate在任务执行后按period再次登记，且未更新taskMap中对应的新Timeout；固定速率语义和取消后待排任务行为都需专门验证。",
+          "status": "静态风险，未运行",
+          "path": "AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/DefaultTimeWheelScheduler.java",
+          "line_ranges": [[110,134],[144,153]],
+          "reading_question": "固定速率与固定延迟有何区别？取消能否阻止已登记的下一次执行？"
+        }
+      ],
+      "build_and_license": "固定tree无pom.xml、Gradle构建文件和LICENSE；不据README的starter坐标声称可独立构建或已发布，不归档完整源码。",
+      "recommendation": "适合选读作为文档、核心实现与mock测试不一致的反例；不推荐照搬为成熟实习项目。"
+    },
+    {
+      "related_id": "OBS05",
+      "repo": "sgl-project/sglang",
+      "source_URL": "https://github.com/sgl-project/sglang/pull/12263",
+      "pr_author": "gty111",
+      "pr_title": "feat: support EPD disaggregation",
+      "merged": true,
+      "merged_at": "2025-12-14T14:30:08Z",
+      "head_sha": "c9126ed91a6a63cef66b7474a544632583c11aba",
+      "merge_sha": "9acb21ae27be7f930a68da2dee5085c2da86f491",
+      "commits": 76,
+      "changed_files": 19,
+      "relationship": "本人完整履历直接点名此PR，PR作者账号可对应；原帖明确多人协作，不能将76个提交及全部变更归个人独立完成。仍为研究/AI Infra对照，不计Agent应用实习或SSP样本。",
+      "implemented_scope": "编码、prefill、decode拆分；独立encode server与receiver、模型载入分支、传输后端配置及端到端评测测试。按PR描述和文件列表核，不声称审完19个文件。",
+      "reviewed_modules": [
+        {
+          "path": "python/sglang/srt/disaggregation/encode_receiver.py",
+          "line_ranges": [[483,544]],
+          "finding": "接收嵌入有20秒等待、超时清理buffer、成功路径deregister和socket.close；能具体讨论跨服务资源生命周期。",
+          "static_risk": "本段socket.close仅在成功路径，发送任务由create_task启动且未见超时分支取消句柄；需核超时后的socket与任务生命周期，不能仅有超时参数就推断资源回收完整。",
+          "status": "局部静态阅读，未运行；不代表全部传输后端审核"
+        },
+        {
+          "path": "test/srt/test_epd_disaggregation.py",
+          "line_ranges": [[25,45],[138,205],[354,420]],
+          "finding": "有单encoder和多encoder服务启动、健康检查及MMMU结果读取，两个用例均断言准确率大于0.40；测试函数默认limit为50。",
+          "boundary": "实际存在测试逻辑不等于本机通过；作者PR报告或阈值均不是本研究复现实测，也不是Agent任务成功率。"
+        }
+      ],
+      "recommendation": "AI Infra进阶选读资源生命周期和测试设计；应用工程读者按需选取，不复刻整个serving框架。"
+    }
+  ],
+  "source_manifest": "08_证据索引与统计/持续补证_静态源码核查来源.json"
+}

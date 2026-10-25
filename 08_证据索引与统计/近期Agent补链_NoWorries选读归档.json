@@ -1,0 +1,147 @@
+{
+  "repo": "hlbbbbbbb/No-worries",
+  "sha": "c811e697bb48a979ee14bd932de80057b98b464f",
+  "source_url": "https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f",
+  "archive_type": "固定文本选读派生归档，不是完整仓库或原ZIP",
+  "selection_scope": "14个README、许可、沙箱/记忆实现与权限测试文件；上游树14635个文件，未下载bundled Python和其余文件",
+  "source_http_status": 200,
+  "local_path": "05_项目源码归档/近期Agent本人项目_补链/NoWorries_固定文本选读_去联系字段_c811e697bb.zip",
+  "sha256": "0ee50cd0260edd6c02d25b659889b12bcaa726936a2dab3dbdbdeabf27e67fd5",
+  "bytes": 39659,
+  "members": 15,
+  "files": [
+    {
+      "path": "README.md",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+      "source_status": 200,
+      "upstream_sha256": "98124dd8e80b2aab4074fb676d93029b14ba3097b0259fb159654d28b561d2d7",
+      "archived_sha256": "98124dd8e80b2aab4074fb676d93029b14ba3097b0259fb159654d28b561d2d7",
+      "same_as_upstream": true,
+      "lines": 413
+    },
+    {
+      "path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/LICENSE",
+      "source_status": 200,
+      "upstream_sha256": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+      "archived_sha256": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+      "same_as_upstream": true,
+      "lines": 21
+    },
+    {
+      "path": "noworries_app/LICENSE",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/LICENSE",
+      "source_status": 200,
+      "upstream_sha256": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+      "archived_sha256": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+      "same_as_upstream": true,
+      "lines": 21
+    },
+    {
+      "path": "noworries_app/SECURITY.md",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/SECURITY.md",
+      "source_status": 200,
+      "upstream_sha256": "c95fc9f8644c65ac944dfca2a4acb40bcd176837676af78e3c1edd11c5eaec5f",
+      "archived_sha256": "c95fc9f8644c65ac944dfca2a4acb40bcd176837676af78e3c1edd11c5eaec5f",
+      "same_as_upstream": true,
+      "lines": 63
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/sandbox/index.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/index.ts",
+      "source_status": 200,
+      "upstream_sha256": "2e5b66d272c8723674512533bea6871217ab8521ce5940823f986541a7523e53",
+      "archived_sha256": "2e5b66d272c8723674512533bea6871217ab8521ce5940823f986541a7523e53",
+      "same_as_upstream": true,
+      "lines": 156
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+      "source_status": 200,
+      "upstream_sha256": "929cd64ca4b9391ce66b8e974a64e861344f4a441d65cbc75c787c1e7bfbc16a",
+      "archived_sha256": "929cd64ca4b9391ce66b8e974a64e861344f4a441d65cbc75c787c1e7bfbc16a",
+      "same_as_upstream": true,
+      "lines": 199
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+      "source_status": 200,
+      "upstream_sha256": "ffd5df4f0672fca1a904294f5be2ca2d02469d92cd026fd0d0a7872128c98de8",
+      "archived_sha256": "ffd5df4f0672fca1a904294f5be2ca2d02469d92cd026fd0d0a7872128c98de8",
+      "same_as_upstream": true,
+      "lines": 328
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+      "source_status": 200,
+      "upstream_sha256": "ee65a2c7880b22fde335884d60b7a382083c2444fb5186046f3467ca7746dfe8",
+      "archived_sha256": "ee65a2c7880b22fde335884d60b7a382083c2444fb5186046f3467ca7746dfe8",
+      "same_as_upstream": true,
+      "lines": 289
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/sandbox/command-validator.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/command-validator.ts",
+      "source_status": 200,
+      "upstream_sha256": "d6f7fcc9f7ab05385c0149abeeec0e5907b7385ebec9adc6b112c3ee14d843b9",
+      "archived_sha256": "d6f7fcc9f7ab05385c0149abeeec0e5907b7385ebec9adc6b112c3ee14d843b9",
+      "same_as_upstream": true,
+      "lines": 289
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/clawdbot/memory-manager.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory-manager.ts",
+      "source_status": 200,
+      "upstream_sha256": "5d8956608045caeed615aa661db921b24783f41c49e5e00d8b8f52f7d79cc4ef",
+      "archived_sha256": "5d8956608045caeed615aa661db921b24783f41c49e5e00d8b8f52f7d79cc4ef",
+      "same_as_upstream": true,
+      "lines": 296
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/manager-search.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/manager-search.ts",
+      "source_status": 200,
+      "upstream_sha256": "5b82fb41f2ba6810665a371bf582a23dd00ee3c98e472179ecf5e7da97fb211b",
+      "archived_sha256": "5b82fb41f2ba6810665a371bf582a23dd00ee3c98e472179ecf5e7da97fb211b",
+      "same_as_upstream": true,
+      "lines": 182
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+      "source_status": 200,
+      "upstream_sha256": "5f057cb3929db7c74ba515f705d9988f4f8c6a57bd33a7881a96cb6147f00b63",
+      "archived_sha256": "5f057cb3929db7c74ba515f705d9988f4f8c6a57bd33a7881a96cb6147f00b63",
+      "same_as_upstream": true,
+      "lines": 876
+    },
+    {
+      "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/memory-consolidation.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/memory-consolidation.ts",
+      "source_status": 200,
+      "upstream_sha256": "f9bbef59ce48e558be6822df41f5d9f89685735a5ab80b5ed4efc434b7840a63",
+      "archived_sha256": "f9bbef59ce48e558be6822df41f5d9f89685735a5ab80b5ed4efc434b7840a63",
+      "same_as_upstream": true,
+      "lines": 566
+    },
+    {
+      "path": "noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts",
+      "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts",
+      "source_status": 200,
+      "upstream_sha256": "3a6734d3b0a3bfdbd057ed3ff58d73aa5f01944797245ee280731dc296974b1d",
+      "archived_sha256": "3a6734d3b0a3bfdbd057ed3ff58d73aa5f01944797245ee280731dc296974b1d",
+      "same_as_upstream": true,
+      "lines": 120
+    }
+  ],
+  "modified_files": [],
+  "license": "根与noworries_app的MIT许可正文已读、原样保留",
+  "licenses": {
+    "LICENSE": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+    "noworries_app/LICENSE": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a"
+  },
+  "execution": "未运行、未构建、未安装依赖、未调用模型"
+}

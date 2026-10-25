@@ -1,0 +1,87 @@
+JD06 | 服务端研发工程师（Golang）
+
+需求核对版 · 2026-10-24
+
+公司：
+  百度网盘/文库内容安全
+role_type：
+  后端实习
+原始来源：
+  https://www.shixiseng.com/intern/inn_5lxff4vehchx?pcm=pc_SearchList
+publish_date：
+  2026-09-14刷新
+retrieved_date：
+  2026-10-23
+source_type：
+  企业在实习僧发布的JD
+evidence_excerpt：
+  Golang优先
+own_summary：
+  内容安全服务端要求理解数据库、缓存、消息队列原理，同时强调系统与网络基础、代码规范和稳定性治理。
+required_stack：
+  - 至少一门后端语言
+  - MySQL
+  - Redis
+  - MQ原理
+  - 数据结构
+  - 操作系统
+  - 网络
+preferred_stack：
+  - Golang
+degree_constraint：
+  本科（页面字段）
+availability_constraint：
+  5天/周；3个月
+recruiting_status：
+  页面有投递入口；截止2027-01-01，HC未核验
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 数据结构算法
+  - 操作系统Linux
+  - 网络协议
+  - 数据库或存储
+  - 缓存
+  - 消息队列
+  - 架构性能可靠性
+duties：
+  分布式性能与线上稳定性维护
+局限：
+  
+类别：
+  招聘JD
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2026-09-14刷新
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    招聘页面直接显示发布/刷新日期或投递期；不是实际面试日期，也不证明当前HC
+  来源日期：
+    2026-09-14刷新
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

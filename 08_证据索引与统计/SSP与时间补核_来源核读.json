@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-23",
+  "summary": "新增百度Agent日常实习本人面经；复核SSP误读线索，更新公开视频字幕接口事实。",
+  "interview": {
+    "id": "INT84",
+    "source_key": "BAIDU_AGENT_DAILY_INTERNSHIP_BB8C2810",
+    "title": "9.7百度agent开发日常实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60",
+    "read_url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60?sourceSSR=users&weFlow=true",
+    "author": "牛客原帖作者（未补写显示名）",
+    "company": "百度",
+    "role": "Agent开发日常实习",
+    "reading_scope": "已读公开文字正文15个问题、手撕题及本人自评；不含评论、图片或个人资料页",
+    "access": "HTTP200；带sourceSSR参数的公开入口取得正文，普通入口部分请求为空壳；本轮再次读取成功",
+    "body_hash_previous_capture": "edbc44b53c1e81c03e6fc747946d91337751b7a1dc2510bb426456ddb313961b",
+    "event_date": "标题为9.7；正文称15点刚面完，面试约45分钟；未直接写事件年",
+    "source_version_time": "目标UUID的showTime/editTime均为2026-09-07T16:02:34+08:00；未取得createTime或初发字段",
+    "year_inference": "标题9.7、刚面完叙述与当前展示/编辑日期相合，合理推定为2026-09-07；推定单列，不作原文直接确认年",
+    "result": "未公布最终结果；不能从算法未写出或本人负面体验推断拒绝，更不能算offer或SSP",
+    "questions_paraphrased": [
+      "介绍本人经历及做过的工作。",
+      "混合检索采用什么实现。",
+      "RAG文档切片粒度如何选择，依据是什么。",
+      "Coding Agent是否由开源项目改造，基于哪个项目。",
+      "本人实现相对开源Agent的具体优势。",
+      "工具层兜底具体覆盖什么失败。",
+      "工具执行器的具体实现。",
+      "Agent实现中最难的问题及处理。",
+      "长期记忆如何实现。",
+      "MCP stdio和Streamable HTTP如何实现，后者的流式含义。",
+      "面试官进一步询问这种流式传输对音视频的适用性；只记录提问，不作为协议结论。",
+      "任务中断后，下次如何继续执行。",
+      "如何感知Agent当前执行动作，是否呈黑盒。",
+      "如何通过日志定位Agent卡点。",
+      "Multi-Agent的具体设计与实现。"
+    ],
+    "coding_question": "LC297二叉树序列化/反序列化，ACM模式；作者称未完成",
+    "self_assessment": "本人称项目追问约20分钟，其后主要手撕，总计45分钟；明确自认未做可观测性、未讲清相关问题。不能将其主观判断当招聘方评价或拒绝原因。",
+    "question_answer_boundary": "本人回忆的真实提问与自评；没有取得现场回答或事后完整参考答案。问题存在不证明相关功能已实现。",
+    "ownership_boundary": "未取得本人完整履历、仓库或开源基底，不能关联已有CV31等候选人；参考项目仅作主题对照。",
+    "recommended_use": "选读工具失败处理、检查点/恢复、可观测性与开源增量表达；适合核对Agent项目是否能回答具体追问。",
+    "capability_ids": ["CAP06", "CAP07", "CAP08", "CAP09", "CAP11"]
+  },
+  "ssp_review": [
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/7f752f5eb94d4c4f9fb5fb91e5ff4f0d?sourceSSR=subject",
+      "title": "双非本拿下字节ssp offer",
+      "actual_reading": "公开正文已读；开头明确承认标题党，内容是已有三段后端实习者咨询是否加Agent项目",
+      "decision": "排除SSP成功者证据；不新增候选人、面经或项目"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/ac0bff36b008468b9f95fcf809bf0ab5?sourceSSR=subject",
+      "title": "放弃字节ssp，选择阿里sp",
+      "actual_reading": "2025-11-25正文明确字节开发SSP、阿里SP，具体岗位部门未披露；秋招后继续学习Agent不能反推以Agent获SSP",
+      "decision": "旧目标执行_SSP继续补核.json已有线索，本轮复核不重复计数；不计Agent SSP直接案例"
+    },
+    {
+      "url": "https://ac.nowcoder.com/discuss/915579615060496384",
+      "title": "阿里面经检索线索的正文范围差异",
+      "actual_reading": "取得约3413字符，选读多模态模型及BFS题部分；包含事后答案，未读全篇；未核明确实习批次或事件年",
+      "decision": "不按搜索摘要补写日常实习两轮记录，不计新增合格实习面经；不付费解锁"
+    }
+  ],
+  "subtitle_evidence": "SSP与时间补核_公开字幕接口.json",
+  "time_evidence": "SSP与时间补核_百度时间字段.json",
+  "privacy_scope": "仅保存必要的公开职业内容、问题归纳和白名单时间字段，不保留原始SSR脚本、IP或联系方式",
+  "remaining": [
+    "近期成功Agent实习者的完整CV与本人项目已部分补齐，但同人具体面经和SSP关联仍缺。",
+    "近期Agent SSP的公司、具体岗位、招聘批次及档位尚未补到完整直接样本；标题党和岗位未明线索不充数。",
+    "两个B站公开视频接口已返回200/code0但字幕列表为空；仍未观看视频或读取字幕，可由用户手动核读。"
+  ]
+}

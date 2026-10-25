@@ -1,0 +1,293 @@
+PRO24 | Sprout：任务树编排、预算与文本打分边界
+
+需求核对版 · 2026-10-24
+
+source_key：
+  YIHANG_SPROUT
+类别：
+  项目参考
+原始来源：
+  https://github.com/hlbbbbbbb/sprout/tree/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c
+作者：
+  hlbbbbbbb
+固定源码提交：
+  3ecd36e5a4eac42ae90be854e415857fd0f3cf7c
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    源码版本2026.07，非招聘事件
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  来源日期：
+    固定提交
+  时间依据：
+    未取得明确事件年；届别、发表时间、仓库时间不替代事件年
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    指定代码段、许可及测试断言核读；未逐行审定整仓
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+静态阅读发现：
+  - 两阶段Worker、树形调度和拖慢检测均有具体代码。
+  - mock测试覆盖部分控制流，便于学习测试边界。
+  - benchmark文本特征分不代表功能正确；未复现任何模型效果。
+  - 预算检查不构成硬费用上限；配置max_retries与LLM内硬编码重试也未贯通。
+  - 执行路径未见持久化检查点，Worker工具主要为报告结果/放弃；不是完整外部动作闭环。
+  - 本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。
+值得学习之处：
+  - 两阶段Worker、树形调度和拖慢检测均有具体代码。
+  - mock测试覆盖部分控制流，便于学习测试边界。
+局限：
+  - benchmark文本特征分不代表功能正确；未复现任何模型效果。
+  - 预算检查不构成硬费用上限；配置max_retries与LLM内硬编码重试也未贯通。
+  - 执行路径未见持久化检查点，Worker工具主要为报告结果/放弃；不是完整外部动作闭环。
+  - 本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。
+建议用途：
+  编排机制与评测反例
+源码包文件：
+  近期Agent本人项目_补链/Sprout_固定源码文本_去联系字段_3ecd36e5a4.zip
+archive_status：
+  固定源码文本派生包
+license_notes：
+  MIT原文已读且原样保留
+project_relationship：
+  本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。
+候选人与项目关系：
+  - CV31
+source_record：
+  仓库：
+    hlbbbbbbb/sprout
+  sha：
+    3ecd36e5a4eac42ae90be854e415857fd0f3cf7c
+  源码提交时间：
+    2026-07-06T15:52:35Z
+  source_url：
+    https://codeload.github.com/hlbbbbbbb/sprout/zip/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c
+  source_http_status：
+    200
+  original_saved：
+    否
+  original_archive_sha256：
+    b02d743f726a0cf7810f8db7789015a5126cd0a88ce4874c276a860bf8a1bae4
+  local_path：
+    05_项目源码归档/近期Agent本人项目_补链/Sprout_固定源码文本_去联系字段_3ecd36e5a4.zip
+  sha256：
+    fe8fb98e44a53a07abb0b20bcdefeff40dc2d1e6d2ff00cb064e23f0fd9d20e0
+  bytes：
+    43985
+  members：
+    20
+  许可标识：
+    MIT原文已读且原样保留
+  license_sha256：
+    64d69e3830e4e7923a553c158fd40b63490d392e24c4bdc9e271b8b6cc9f4f66
+  modified_files：
+    —
+  omitted_files：
+    —
+  files：
+    - path：
+        .github/workflows/ci.yml
+      upstream_sha256：
+        2397b1a04c878319e72e2312060808a50c05421a0bd43d62dbd007444656aa65
+      archived_sha256：
+        2397b1a04c878319e72e2312060808a50c05421a0bd43d62dbd007444656aa65
+      same_as_upstream：
+        是
+      lines：
+        33
+    - path：
+        .gitignore
+      upstream_sha256：
+        0e1ecfd84ea9aaca1b7c9e29a60f4a0e0fa421b62c92d7a4e5c98798895a450b
+      archived_sha256：
+        0e1ecfd84ea9aaca1b7c9e29a60f4a0e0fa421b62c92d7a4e5c98798895a450b
+      same_as_upstream：
+        是
+      lines：
+        82
+    - path：
+        LICENSE
+      upstream_sha256：
+        64d69e3830e4e7923a553c158fd40b63490d392e24c4bdc9e271b8b6cc9f4f66
+      archived_sha256：
+        64d69e3830e4e7923a553c158fd40b63490d392e24c4bdc9e271b8b6cc9f4f66
+      same_as_upstream：
+        是
+      lines：
+        21
+    - path：
+        README.md
+      upstream_sha256：
+        21870b18fb2f311809f89fdc7a81fa1ebed881c2d498214a53f0ad99fe71a410
+      archived_sha256：
+        21870b18fb2f311809f89fdc7a81fa1ebed881c2d498214a53f0ad99fe71a410
+      same_as_upstream：
+        是
+      lines：
+        297
+    - path：
+        docs/architecture.md
+      upstream_sha256：
+        9c6f067c46ef8ba501ef813267cc04283c82135e646ee507ecb152c67fb55b86
+      archived_sha256：
+        9c6f067c46ef8ba501ef813267cc04283c82135e646ee507ecb152c67fb55b86
+      same_as_upstream：
+        是
+      lines：
+        176
+    - path：
+        docs/design-notes.md
+      upstream_sha256：
+        0daa9a7d546439514eb57f5124b53cebdb0090e576d328a8ab3059811f960248
+      archived_sha256：
+        0daa9a7d546439514eb57f5124b53cebdb0090e576d328a8ab3059811f960248
+      same_as_upstream：
+        是
+      lines：
+        194
+    - path：
+        examples/benchmark.py
+      upstream_sha256：
+        b0c3526eaccea7841d3f76a5cbeca3a8c8110da8590b01dfd5edbaad1569e565
+      archived_sha256：
+        b0c3526eaccea7841d3f76a5cbeca3a8c8110da8590b01dfd5edbaad1569e565
+      same_as_upstream：
+        是
+      lines：
+        326
+    - path：
+        examples/code_fix.py
+      upstream_sha256：
+        a8bc4522777b214e02e05b817f3f7ead244f3a90797d7abde598a45d385372ed
+      archived_sha256：
+        a8bc4522777b214e02e05b817f3f7ead244f3a90797d7abde598a45d385372ed
+      same_as_upstream：
+        是
+      lines：
+        118
+    - path：
+        examples/rubric_demo.py
+      upstream_sha256：
+        977a03418a61644e0a52751ab442cd5c3747db41252948fd38175ed6d96d02db
+      archived_sha256：
+        977a03418a61644e0a52751ab442cd5c3747db41252948fd38175ed6d96d02db
+      same_as_upstream：
+        是
+      lines：
+        213
+    - path：
+        pyproject.toml
+      upstream_sha256：
+        75bff6d5e3cc355eaa4b74be104f0f81a9f0fe4b66637125dbfa5ac52572e3ee
+      archived_sha256：
+        75bff6d5e3cc355eaa4b74be104f0f81a9f0fe4b66637125dbfa5ac52572e3ee
+      same_as_upstream：
+        是
+      lines：
+        58
+    - path：
+        sprout/__init__.py
+      upstream_sha256：
+        cec539325661b6fe7f4b3bf44f9e15a891a3f552ce8b6475e4df9e4900b4e339
+      archived_sha256：
+        cec539325661b6fe7f4b3bf44f9e15a891a3f552ce8b6475e4df9e4900b4e339
+      same_as_upstream：
+        是
+      lines：
+        18
+    - path：
+        sprout/config.py
+      upstream_sha256：
+        802557f35cf44f2e820fcdfdfb7e351f6ced38876f1abd987126f1a7cefce161
+      archived_sha256：
+        802557f35cf44f2e820fcdfdfb7e351f6ced38876f1abd987126f1a7cefce161
+      same_as_upstream：
+        是
+      lines：
+        40
+    - path：
+        sprout/llm.py
+      upstream_sha256：
+        30c3f21481196c1cf61b7dcb7c7cc101930f34e6773dfe3eb8de4b29be7f8c95
+      archived_sha256：
+        30c3f21481196c1cf61b7dcb7c7cc101930f34e6773dfe3eb8de4b29be7f8c95
+      same_as_upstream：
+        是
+      lines：
+        151
+    - path：
+        sprout/task_tree.py
+      upstream_sha256：
+        1ba28e81c16cfd63cfaac4c70e7b6af4945d055ce7b24b35e289774a6eafc21e
+      archived_sha256：
+        1ba28e81c16cfd63cfaac4c70e7b6af4945d055ce7b24b35e289774a6eafc21e
+      same_as_upstream：
+        是
+      lines：
+        369
+    - path：
+        sprout/types.py
+      upstream_sha256：
+        81685fedbd5c5c9bf4170616d2491810ab5def8dbfa69c83a32f39653f28d847
+      archived_sha256：
+        81685fedbd5c5c9bf4170616d2491810ab5def8dbfa69c83a32f39653f28d847
+      same_as_upstream：
+        是
+      lines：
+        114
+    - path：
+        sprout/worker.py
+      upstream_sha256：
+        f905cbb1c55e4075a80b64ecd91285dd2ea1801afa59784c83bfffa571956493
+      archived_sha256：
+        f905cbb1c55e4075a80b64ecd91285dd2ea1801afa59784c83bfffa571956493
+      same_as_upstream：
+        是
+      lines：
+        351
+    - path：
+        tests/__init__.py
+      upstream_sha256：
+        e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      archived_sha256：
+        e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+      same_as_upstream：
+        是
+      lines：
+        0
+    - path：
+        tests/test_task_tree.py
+      upstream_sha256：
+        592c93117f275af8b19b193a70440d845e44c05bd8d88e203636de055f333706
+      archived_sha256：
+        592c93117f275af8b19b193a70440d845e44c05bd8d88e203636de055f333706
+      same_as_upstream：
+        是
+      lines：
+        374
+    - path：
+        tests/test_worker.py
+      upstream_sha256：
+        12779e3b9bd9b4faea77f2589a54ac9aa8ca1dc3f31df8979fab673e4c5a6905
+      archived_sha256：
+        12779e3b9bd9b4faea77f2589a54ac9aa8ca1dc3f31df8979fab673e4c5a6905
+      same_as_upstream：
+        是
+      lines：
+        261
+  execution：
+    未运行、未构建、未安装依赖、未调用模型

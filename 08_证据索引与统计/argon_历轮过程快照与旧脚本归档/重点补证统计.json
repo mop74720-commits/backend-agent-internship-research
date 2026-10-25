@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-23",
+  "status": "active",
+  "new_record_ids": [
+    "CV29",
+    "CV30",
+    "INT82",
+    "INT83",
+    "OP14",
+    "DOC12",
+    "PRO22",
+    "PRO23"
+  ],
+  "strengthened_ids": [
+    "INT07",
+    "INT09",
+    "INT11",
+    "INT40",
+    "CV07"
+  ],
+  "current_totals": {
+    "logical_evidence_records": 184,
+    "candidate_cases": 30,
+    "interview_materials": 76,
+    "projects": 23,
+    "source_archives": 20,
+    "fixed_link_only": 3,
+    "jd_leads": 19,
+    "engineering_jd_fulltext": 14,
+    "platform_opinion_records": 12,
+    "additional_primary_texts": 2,
+    "manual_links": 67,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 4
+  },
+  "complete_core_redacted_resumes": 4,
+  "summary": "本轮补一份字节2025后端/2026 Agent应用完整专业CV、一份腾讯/Stripe实习主页直链项目；补等闲king2025两家后端实习offer与本人AML/百度面经；确认INT11发表日期类型。新读B站工程学习观点，并排除专家JD直接充当校招SSP门槛的推论。",
+  "remaining_gaps": [
+    "已取得近期字节Agent完整CV和腾讯实习者本人源码，但分属不同作者；同人完整履历、成熟Agent实现和具体本人面经的关联仍不足。",
+    "近期Agent工程SSP的公司、具体岗位、事件年和最终档位仍缺强直接样本；推定/加面、未具名、宽泛大模型岗位分开。",
+    "B站已读近期AI工程学习观点，但视频/字幕仍为0；生产任务评测与权限/恢复的专业平台案例仍需补强。"
+  ],
+  "strict_recent_interview_increment": 0
+}

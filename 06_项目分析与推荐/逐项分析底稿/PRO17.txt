@@ -1,0 +1,197 @@
+PRO17 | linyacool WebServer：本人SSP关联的网络工程与开发复盘
+
+需求核对版 · 2026-10-24
+
+技术栈：
+  - C++11
+  - Linux
+  - Reactor
+  - epoll ET
+  - 线程池
+  - HTTP
+  - 异步日志
+  - 定时器
+阅读建议：
+  作为 C++ 系统基础与实验方法对照材料；学习其透明基线、设计取舍和改进记录，另行补业务能力、可重复压测与异常条件。
+值得学习之处：
+  - 本人成功经历到本人项目的来源链明确，且有源码、设计、测试、改进和开发困难材料。
+  - 能把 C++/RAII、线程、网络、协议、性能测试和调试连成可追问的工程过程。
+  - 主动承认 muduo 借鉴与 Buffer 性能不足，适合学习如何诚实区分复用、取舍和个人改进。
+局限与静态风险：
+  - 主要是静态 HTTP 基础库练习，不能替代含数据库、缓存、一致性、业务约束的现代业务后端项目。
+  - 工程与基线较旧：README 是 Ubuntu 14.04 / g++4.8；需要重新验证现代工具链兼容性。
+  - 性能实验用本机、关闭日志、内存 Hello World，缺生产负载、尾延迟、资源成本与故障条件；作者 QPS 不可直接复用。
+  - README 的“面试问题.md”链接在固定 tree 中不存在，不能把该未读死链作为面经证据。
+已定位阅读路径：
+  - README.md
+  - 并发模型.md
+  - WebServer/HttpData.cpp
+  - 测试及改进.md
+  - 遇到的困难.md
+  - 项目目的.md
+静态阅读发现：
+  - path：
+      项目目的.md
+    line_start：
+      3
+    line_end：
+      21
+    观察：
+      解释项目动机、覆盖基础知识，并明确学习与借鉴 muduo。
+    kind：
+      源码/项目文档
+    原始来源：
+      https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md#L3-L21
+  - path：
+      并发模型.md
+    line_start：
+      3
+    line_end：
+      32
+    观察：
+      One loop per thread、主从 Reactor、eventfd、队列唤醒与小根堆超时管理。
+    kind：
+      源码/项目文档
+    原始来源：
+      https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md#L3-L32
+  - path：
+      WebServer/HttpData.cpp
+    line_start：
+      155
+    line_end：
+      270
+    观察：
+      实际 HTTP 读处理和请求分析源码；源码存在核验，未运行。
+    kind：
+      源码/项目文档
+    原始来源：
+      https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/WebServer/HttpData.cpp#L155-L270
+  - path：
+      测试及改进.md
+    line_start：
+      3
+    line_end：
+      31
+    观察：
+      披露测试环境、短/长连接、关闭日志与内存 Hello World 条件，以及 string Buffer 的不足。
+    kind：
+      源码/项目文档
+    原始来源：
+      https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E6%B5%8B%E8%AF%95%E5%8F%8A%E6%94%B9%E8%BF%9B.md#L3-L31
+  - path：
+      遇到的困难.md
+    line_start：
+      3
+    line_end：
+      18
+    观察：
+      本人记录线程职责理解、减少竞态与 GDB 分析异步日志等开发困难。
+    kind：
+      源码/项目文档
+    原始来源：
+      https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E9%81%87%E5%88%B0%E7%9A%84%E5%9B%B0%E9%9A%BE.md#L3-L18
+测试材料与评测边界：
+  - 原文给本地1000客户端、60s、4线程，关闭日志、内存Hello World等条件。
+  - 本次未读性能截图、未编译/压测；不将作者QPS当复现结果。
+  - README面试问题.md链接404，不计为已读面经。
+运行依赖说明：
+  - Linux、C++11、CMake/Make；原README写Ubuntu14.04/g++4.8。
+  - 内嵌WebBench保留其独立许可证；现代编译器/内核兼容性待实测。
+interview_questions：
+  - ET模式怎样把accept/read读到合适边界？
+  - 跨线程事件怎样唤醒，连接销毁与超时如何避免竞态？
+  - 关闭日志与内存响应对QPS意味着什么，怎样测尾延迟和异常连接？
+仓库：
+  linyacool/WebServer
+固定源码提交：
+  7e18602f15c5c64e006091aa03e04b927c255983
+源码提交时间：
+  2022-03-21T03:40:21Z
+许可标识：
+  根MIT；内嵌WebBench为GPL-3.0
+license_scope：
+  原样保留根及子目录许可证；不把当前版本当作求职时原始快照
+源码包文件：
+  linyacool__WebServer__7e18602f15c5.zip
+源码包SHA-256：
+  fd7a8c24a7270480d42e37434865601388dd0013080e6fb5b91691fade2b1c52
+取得源码ZIP：
+  是
+原始来源：
+  https://github.com/linyacool/WebServer
+候选人与项目关系：
+  - CV11
+cost：
+  源码阅读与本地构建不需要模型API；本轮仅静态阅读和归档，没有运行费用。
+运行验证范围：
+  固定源码和部分文档/测试静态阅读；未构建、运行、压测或修改系统配置。
+interview_linkage：
+  本人文章直接建立项目关系；固定版本晚于求职经历，不等于当时提交版本，也不证明该项目单独导致SSP。
+类别：
+  项目参考
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2022-03-21T03:40:21Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    C++/网络方向精读并发模型、测试条件和遇到的困难；Java方向按兴趣选读。
+  指定模块：
+    - README.md
+    - 并发模型.md
+    - WebServer/HttpData.cpp
+    - 测试及改进.md
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    网络服务器不是已核Agent系统。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    linyacool__WebServer__7e18602f15c5.zip
+  固定源码提交：
+    7e18602f15c5c64e006091aa03e04b927c255983
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

@@ -1,0 +1,134 @@
+{
+  "research_date": "2026-10-23",
+  "new_qualifying_platform_opinions": 1,
+  "sources": [
+    {
+      "key": "BILIBILI_YUPI_AI_ROUTE_1216966837161426944",
+      "title": "26年最新AI编程学习路线一条龙，5分钟速通！",
+      "url": "https://www.bilibili.com/opus/1216966837161426944",
+      "author": "程序员鱼皮",
+      "platform": "B站公开长图文",
+      "source_date": "2026-06-23 11:32（原页显示）",
+      "original_cv_id": "cv50800460",
+      "reading": {
+        "scope": "全文",
+        "fulltext": true,
+        "scope_note": "B站公开文字正文411行已读；图内细字和嵌入视频未核，不称已观看视频。",
+        "primary_platform_scope": "全文",
+        "video_watched": false
+      },
+      "identity_evidence": "与既有liyupi公开开源账号及内容站可对应；前腾讯经历仍为本人公开自述，不推定招聘权限。",
+      "points": [
+        {
+          "locator": "需求分析/开发流程：L187—246",
+          "paraphrase": "先拆任务，再逐步实现和审查；检查业务、异常及安全，并留可回退版本。"
+        },
+        {
+          "locator": "进阶部分：L330—369",
+          "paraphrase": "将上下文预算、失败模式和调用成本列为进阶能力；AI工具使用与AI应用开发分开。"
+        }
+      ],
+      "commercial_background": "原页明确推荐本人免费教程、商业项目课程及B站付费课，存在直接销售利益；不以其项目推荐证明招聘收益。",
+      "application_boundary": "文章首先面向零基础用AI做产品。其降低编程先修门槛的建议，不能替代本包JD对语言、并发、操作系统和数据库的具体要求。",
+      "research_comparison": [
+        {
+          "source_ids": [
+            "JD01",
+            "JD02",
+            "JD11",
+            "CAP01"
+          ],
+          "finding": "求职者仍按岗位核基础深度，不以会操作AI工具代替被问原理和故障。"
+        },
+        {
+          "source_ids": [
+            "INT74",
+            "CAP09",
+            "CAP10",
+            "CAP11"
+          ],
+          "finding": "将工具使用经验进一步核到状态恢复、副作用、权限和评测；文章没有提供这些能力的独立测试。"
+        }
+      ],
+      "limits": [
+        "未看到可复核的任务测试集、对照组、调用账单或SSP录用对照，学习时长和工具优劣不作本研究事实。",
+        "工具排名、套餐价格和产品功能具时效性，本轮未复核，不输出当前购买建议。",
+        "这是同一位鱼皮作者的新文章，不能计为新的独立专业者。"
+      ],
+      "recommendation": "选读工程流程和失败模式；产品入门、课程推广与实习招聘要求分开。"
+    }
+  ],
+  "read_but_not_core": [
+    {
+      "title": "技术赋能新维度，灵码进化新突破：通义灵码2.5新功能尝鲜及深度评测",
+      "url": "https://www.bilibili.com/opus/1066649003350818816",
+      "author": "北京-宏哥",
+      "source_date": "2025-05-14 09:42",
+      "reading": "243行公开文字全文已读，截图与实际运行未核；视频0",
+      "finding": "第一人称体验提及上下文、工具延迟与权限局限，但缺公开任务、日志、基线和测量；厂商功能说明与个人感受混排。",
+      "why_not_core": "专业资历和赞助关系未核，且正文将品牌主体混写为字节，降低编辑可靠性；不当成独立效果评测或招聘标准。"
+    }
+  ],
+  "ordinary_get_checks": [
+    {
+      "url": "https://www.bilibili.com/opus/1216966837161426944",
+      "status": 200,
+      "final_url": "https://www.bilibili.com/opus/1216966837161426944",
+      "body_selector_found": true,
+      "body_characters": 7260,
+      "body_sha256": "1cb397722ddb39e8b9caf8e442d1fbdaa2d8f685019e0fcd1218e34a5a22dfca"
+    },
+    {
+      "url": "https://www.bilibili.com/opus/1066649003350818816",
+      "status": 200,
+      "final_url": "https://www.bilibili.com/opus/1066649003350818816",
+      "body_selector_found": true,
+      "body_characters": 4909,
+      "body_sha256": "f1c49fd3a3e6ab76e711ea3b2762c3b1bb42e63bfc941cbaaac74cbe5ded0ab0"
+    }
+  ],
+  "access_attempts": [
+    {
+      "url": "https://www.zhihu.com/tardis/bd/art/2050893501324441306",
+      "status": "web不可访问，未读正文"
+    },
+    {
+      "url": "https://www.zhihu.com/tardis/zm/art/2050893501324441306",
+      "status": "web不可访问，未读正文"
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/PUbGqheJhFMmb6hGj1ZtOw",
+      "status": "原出处正常打开失败，未读"
+    },
+    {
+      "url": "https://www.zhihu.com/tardis/bd/art/661113978",
+      "status": "公开页不可访问，未提升OP05原平台阅读状态"
+    },
+    {
+      "url": "https://www.zhihu.com/tardis/bd/art/2081333572456206815",
+      "status": "公开页不可访问，未提升OP04原平台阅读状态"
+    },
+    {
+      "url": "https://www.zhihu.com/tardis/bd/ans/2000174392479606071",
+      "status": "公开页不可访问，未提升OP06阅读状态"
+    }
+  ],
+  "boundary": "只做公开阅读及原文短归纳；不下载媒体，不登录，不运行第三方代码，不把原文指令作为本会话指令。",
+  "video_subtitle_access_attempts": [
+    {
+      "url": "https://www.bilibili.com/video/BV1DCDjBRExV/",
+      "endpoint": "公开视频metadata API，未取得CID，未继续字幕调用",
+      "status": "HTTP412",
+      "video_watched": false,
+      "subtitle_read": false
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1GVJP6SE23/",
+      "endpoint": "公开视频metadata API，未取得CID，未继续字幕调用",
+      "status": "HTTP412",
+      "video_watched": false,
+      "subtitle_read": false
+    }
+  ],
+  "ordinary_get_access_boundary": "另以普通GET复核三条知乎公开bd页，均HTTP200跳tardis/error?status=400且正文0；200不代表正文可读，未提升阅读状态。"
+}

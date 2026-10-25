@@ -1,0 +1,127 @@
+INT23 | 27实习面经-蚂蚁后端ai开发一面
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/db9292f9a3dc4102bec84668a7f2df18?urlSource=home-api
+canonical_url：
+  https://www.nowcoder.com/feed/main/detail/db9292f9a3dc4102bec84668a7f2df18
+公司：
+  蚂蚁集团
+team：
+  未公开
+方向与岗位：
+  后端AI开发实习，标题称27届
+事件时间／原文日期（依分类）：
+  面试年月日未确认
+date_certainty：
+  正文仅月日或年份未明确；不依据届别、页面当前展示或抓取日期推定事件年份。
+rounds：
+  - 一面
+结果自述：
+  自述发帖时无后续，未公布拒信或最终offer
+涉及主题：
+  - Agent概念
+  - Redis锁/缓存一致性
+  - CAS
+  - 网络协议
+  - Linux/Shell
+  - 短链系统
+  - 算法/编程
+原文提问（归纳）：
+  - 自己实现的锁为何采用Lua，哪些操作需要保持原子性？
+  - 缓存更新方案怎样处理Redis与MySQL的时间差？
+  - 短链系统的读写瓶颈在哪里，如何按瓶颈调整架构？
+内容归纳：
+  后端AI岗位仍穿插锁、缓存、Linux和系统设计。价值是看到Agent知识广度与传统后端基本功同时出现，不能用AI名词替代工程解释。
+borrowable_points：
+  - 把锁的实现、超时和业务风险连起来讨论。
+  - 先判断短链场景的负载特点，再提出优化。
+weaknesses_and_limits：
+  - 原文没有给候选人具体项目的实现或规模。
+  - 题目中的‘必须Lua’是面试问法，不能推广为所有锁方案的唯一实现。
+统计组：
+  明确实习面经
+role_boundary：
+  后端与AI混合实习，不代表算法训练岗
+candidate_group：
+  SUP_BACKEND_C04
+public_project_repositories：
+  —
+repository_relationship：
+  原文没有候选人公开项目仓库。
+ssp_status：
+  未声称SSP
+source_line_range：
+  原页面正文第46–67行
+原访问范围：
+  已打开原文并读取正文具体问题；动态页后续可不稳定
+fulltext_verified：
+  是
+证据边界：
+  B：候选人第一人称公开自述；未独立验证面试、身份或录用结果
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证
+类别：
+  面经复盘
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    面试年月日未确认
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    04-26
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    已打开原文并读取正文具体问题；动态页后续可不稳定
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      蚂蚁集团
+    档位：
+      未披露
+    状态：
+      unknown
+    证据：
+      https://www.nowcoder.com/feed/main/detail/db9292f9a3dc4102bec84668a7f2df18?urlSource=home-api
+    依据：
+      自述发帖时无后续，未公布拒信或最终offer
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  04-26
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  unknown
+related_record_ids：
+  —

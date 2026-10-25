@@ -1,0 +1,1671 @@
+{
+  "version": 1,
+  "date": "2026-10-24",
+  "scope": "面向大厂后端与Agent工程实习的重点综合：使用既有99份面经、25项目375维比较和能力矩阵；个人项目设计继续暂缓。",
+  "counts": {
+    "interview_materials": 99,
+    "reading_scope": {
+      "全文": 92,
+      "部分": 7
+    },
+    "strict_recent_internship_total": 15,
+    "strict_recent_engineering_internships": 14,
+    "strict_recent_engineering_ids": [
+      "INT10",
+      "INT12",
+      "INT20",
+      "INT22",
+      "INT24",
+      "INT28",
+      "INT42",
+      "INT47",
+      "INT68",
+      "INT77",
+      "INT85",
+      "INT91",
+      "INT93",
+      "INT101"
+    ],
+    "strict_recent_infra_controls": 1,
+    "internship_event_year_unknown": 48,
+    "project_materials": 25,
+    "comparison_cells": 375,
+    "selected_projects": 8,
+    "topic_index": [
+      {
+        "theme": "项目职责、真实使用与架构取舍",
+        "all_materials": 83,
+        "strict_recent_engineering_materials": 12,
+        "internship_event_year_unknown_materials": 42
+      },
+      {
+        "theme": "Java/Go/Python与框架基础",
+        "all_materials": 58,
+        "strict_recent_engineering_materials": 10,
+        "internship_event_year_unknown_materials": 27
+      },
+      {
+        "theme": "数据库、缓存与检索存储",
+        "all_materials": 61,
+        "strict_recent_engineering_materials": 12,
+        "internship_event_year_unknown_materials": 24
+      },
+      {
+        "theme": "消息、幂等与故障恢复",
+        "all_materials": 38,
+        "strict_recent_engineering_materials": 4,
+        "internship_event_year_unknown_materials": 20
+      },
+      {
+        "theme": "RAG、分块、召回与重排",
+        "all_materials": 26,
+        "strict_recent_engineering_materials": 2,
+        "internship_event_year_unknown_materials": 16
+      },
+      {
+        "theme": "Agent编排、工具与Skill/MCP",
+        "all_materials": 47,
+        "strict_recent_engineering_materials": 4,
+        "internship_event_year_unknown_materials": 29
+      },
+      {
+        "theme": "记忆、上下文与token成本",
+        "all_materials": 19,
+        "strict_recent_engineering_materials": 1,
+        "internship_event_year_unknown_materials": 12
+      },
+      {
+        "theme": "评测、指标与上线效果",
+        "all_materials": 36,
+        "strict_recent_engineering_materials": 2,
+        "internship_event_year_unknown_materials": 22
+      },
+      {
+        "theme": "权限、审批与隔离",
+        "all_materials": 25,
+        "strict_recent_engineering_materials": 2,
+        "internship_event_year_unknown_materials": 13
+      },
+      {
+        "theme": "网络、操作系统与编码",
+        "all_materials": 81,
+        "strict_recent_engineering_materials": 13,
+        "internship_event_year_unknown_materials": 36
+      }
+    ],
+    "unit_boundary": "资料数，不是独立候选人数、面试场次数或行业出现概率；同作者、多轮及同主题允许重复归入。"
+  },
+  "method_notes": [
+    "本页综合既有已核问题与固定源码比较，不新增一轮收集日志，也不声称重新观看视频或运行项目。",
+    "每项精选2–4份可追溯面经，提问要点为转述；准备深度是研究归纳，不是作者现场答案或统一招聘标准。",
+    "14份严格近期工程实习与1份AI Infra对照分开；48份明确实习但事件年未知不计近期。发表日期、届别和仓库更新时间不替代事件年。",
+    "99份资料中92全文、7部分；全文表示阅读范围，不等于真实性已独立认证。INT81仅定点核读并保留部分标签。",
+    "主题覆盖来自topics与project_questions的本包检索；一份资料可落多个主题，数字不是独立人数、市场频率或录用因果。",
+    "项目与面经的主题对应不等于候选人做过该项目。仅candidate_evidence与ownership中的直接关系可用于本人项目关联。"
+  ],
+  "backend_findings": [
+    {
+      "id": "B1",
+      "title": "先讲业务约束和本人职责，再讲技术栈",
+      "conclusion": "能解释为什么需要这些模块、自己负责哪段链路，比把组件名写满更能承接后续追问。",
+      "question_clusters": [
+        "需求、使用者、数据与请求链路；自己负责和复用的范围",
+        "业务字段、数据访问方式与选型之间的关系；替代方案的代价"
+      ],
+      "preparation_depth": [
+        "画出一条真实请求或数据流，明确入口、状态、依赖和自己的改动。",
+        "挑一个具体业务约束，说明选择、备选方案与未解决的问题。",
+        "对个人实现、团队部分、框架代码分别给出证据。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT12",
+          "title": "27双非本—腾讯IEG游戏安全后台实习面经",
+          "url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "group": "严格近期工程实习",
+          "track": "混合",
+          "recruitment": "实习",
+          "event_date": "2025-09-26 offer；2025-10-04复盘",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "K8S与Casbin RBAC实习做了什么？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT24",
+          "title": "26届快手暑期实习（已OC）",
+          "url": "https://www.nowcoder.com/feed/main/detail/8c1a63e46e4e462892474e405d611028",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-03-24/03-31技术面；04-15 HR；4月下旬offer",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "实习中POI表保存了哪些字段，如何限定中心点附近的结果？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT28",
+          "title": "26届后端实习-蚂蚁集团后端开发一面面经",
+          "url": "https://www.nowcoder.com/feed/main/detail/bb4c92b4084f44e69388ac342c1ca809?sourceSSR=users",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-03-17面试",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "研究生阶段在实验室实际做了什么、如何说明自己的贡献？",
+            "为什么目前项目方向没有选择AI？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO19",
+        "PRO09",
+        "PRO20"
+      ],
+      "capability_ids": [
+        "CAP06"
+      ]
+    },
+    {
+      "id": "B2",
+      "title": "数据库与缓存准备到访问路径和并发边界",
+      "conclusion": "SQL、索引、Redis结构和缓存策略会接着项目中的实际查询继续问，单独背定义覆盖不了这些问题。",
+      "question_clusters": [
+        "SQL实际读取了什么、为什么命中或失去索引、容量与B+树层级估算",
+        "GEO、ZSet等结构适配什么查询；缓存击穿、更新和多实例边界"
+      ],
+      "preparation_depth": [
+        "针对一条具体查询说明索引、回表、排序和数据规模，能做数量级估算。",
+        "解释一个缓存更新与失效流程，指出并发回源、过期和失败时的结果。",
+        "用可审查测试或复现实验区别“本机合并回源”和“跨实例互斥”。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT20",
+          "title": "阿里云Java研发实习 - 一面",
+          "url": "https://www.nowcoder.com/discuss/743798386737897472?sourceSSR=dynamic",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-04-21一面",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "项目数据库访问做过哪些优化，去掉SELECT *为何能改善查询？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT24",
+          "title": "26届快手暑期实习（已OC）",
+          "url": "https://www.nowcoder.com/feed/main/detail/8c1a63e46e4e462892474e405d611028",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-03-24/03-31技术面；04-15 HR；4月下旬offer",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "实习中POI表保存了哪些字段，如何限定中心点附近的结果？",
+            "使用GEO查询时，其底层如何组织和查找坐标？",
+            "Hash与跳表为何适合相应数据，为什么没有选择其他树结构？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT101",
+          "title": "快手商业化垂直业务 Java日常实习",
+          "url": "https://www.nowcoder.com/discuss/726371483039133696",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-02-25投递、2025-02-26一面",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "订单水平分片不按商家路由查询时怎么办？",
+            "千万行数据的B+树高度怎样估计，何时不适合建索引？",
+            "Redis结构、缓存击穿怎样处理？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO21",
+        "PRO20"
+      ],
+      "capability_ids": [
+        "CAP02",
+        "CAP03"
+      ]
+    },
+    {
+      "id": "B3",
+      "title": "消息和事务的重点是失败窗口",
+      "conclusion": "顺序消息、异步编排与幂等要结合业务约束解释；引入MQ后，仍需交代重复投递、事务提交和补偿失败。",
+      "question_clusters": [
+        "为什么要MQ、是否要求顺序、吞吐与并行度会损失什么",
+        "数据库提交、投递与确认之间宕机；重复消费与转账事务边界"
+      ],
+      "preparation_depth": [
+        "按时间线推演提交前、提交后未投递、已投递未确认三个失败位置。",
+        "说明业务幂等键、状态转换、重试/补偿与对账各自处理什么问题。",
+        "能在代码中指出事务边界与条件更新，不凭框架注解宣称端到端exactly-once。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT22",
+          "title": "四非本 滴滴-后端实习面经(已OC)",
+          "url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-03-21/03-25面试；03-28正式offer",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "采用RocketMQ顺序消息解决了什么需求，同时损失什么能力？",
+            "如何把服务同步编排改成CompletableFuture，怎样设计充值和转账的事务边界？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT85",
+          "title": "爱橙科技Java暑期实习一面：MQ、测试幂等及高可用追问",
+          "url": "https://www.nowcoder.com/discuss/730542760465276928",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-03-14一面约50分钟，2025-03-15作者看到未通过",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "MQbus向RPC等组件推广时，环境隔离可能遇到什么问题。",
+            "测试框架如何设计，非幂等的数据新增操作如何清理，测试覆盖标准如何确定。"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT40",
+          "title": "智能体与大模型应用工程实习 一面",
+          "url": "https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "06-09面试，年未显示",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "异步订单怎样在个人环境验证；重复投递、删集合时宕机如何收尾？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO20",
+        "PRO19"
+      ],
+      "capability_ids": [
+        "CAP04",
+        "CAP02"
+      ]
+    },
+    {
+      "id": "B4",
+      "title": "语言、系统基础与现场编码仍要独立准备",
+      "conclusion": "有项目或Agent经历的实习者仍遇到JVM、锁、网络、Redis底层和手写算法；基础与项目需要连着解释。",
+      "question_clusters": [
+        "实际使用的JDK/GC、同步方式、网络与多实例会话",
+        "跳表操作、事务原子性、统计结构误差；现场题及边界用例"
+      ],
+      "preparation_depth": [
+        "用项目中的一个并发点解释锁保护什么、生命周期和争用代价。",
+        "沿网络请求或登录流程说清状态保存与故障位置。",
+        "现场完成典型数组、链表、树或DP题，说明复杂度和边界用例。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT91",
+          "title": "快手商业化 Java日常实习",
+          "url": "https://www.nowcoder.com/discuss/719242991700889600",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2024-11-05面试，11-06时间线标挂",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "JVM结构、HashMap旧版本扩容和AQS怎样说明？",
+            "项目中何时使用synchronized和ReentrantLock？",
+            "为什么要Redis缓存、网关和分布式Session？",
+            "手写两数之和。"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT93",
+          "title": "字节生活服务后端开发日常实习一二三面经",
+          "url": "https://www.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=dynamic",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "为什么选择JDK17，了解其GC和ZooKeeper分布式协议吗？",
+            "ZSet跳表如何插入、删除和排序？",
+            "扫码登录完整链路怎样实现？",
+            "网站UV/DAU如何统计，选用结构有什么误差？",
+            "现场解树子结构、三数之和及变式、LCS、接雨水等。"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT10",
+          "title": "腾讯日常实习一面面经（2027暑期向）",
+          "url": "https://www.nowcoder.com/feed/main/detail/37c64318e134459bbd9a5c7953e99aea?sourceSSR=post",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2026-03-10面试",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "Redis主从、哨兵、集群在项目中怎样选？",
+            "大数字符串转换的现场编码。"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO21",
+        "PRO09"
+      ],
+      "capability_ids": [
+        "CAP01"
+      ]
+    },
+    {
+      "id": "B5",
+      "title": "排障与测试要能验证自己声称的能力",
+      "conclusion": "追问不仅是“怎么设计”，还包括OOM、消息积压、测试清理和覆盖标准。准备时应把验证方法和结果边界一起讲。",
+      "question_clusters": [
+        "OOM/高CPU、消息堆积、分片查询的定位顺序",
+        "非幂等测试数据如何清理，异常、超时和竞争条件如何覆盖"
+      ],
+      "preparation_depth": [
+        "区分现象、假设、采集证据与验证步骤，避免看到慢就直接加缓存或扩容。",
+        "为关键机制提出正常、重复、异常和中断用例，并解释断言。",
+        "明确哪些测试已运行、哪些只是源码存在；作者模板不能替代自己的排障经历。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT85",
+          "title": "爱橙科技Java暑期实习一面：MQ、测试幂等及高可用追问",
+          "url": "https://www.nowcoder.com/discuss/730542760465276928",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-03-14一面约50分钟，2025-03-15作者看到未通过",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "如何排查OOM，以及如何判断消费者积压或处理缓慢的程度。",
+            "测试框架如何设计，非幂等的数据新增操作如何清理，测试覆盖标准如何确定。",
+            "为字符串形式的整数求和函数设计测试用例。",
+            "另一个算法服务项目如何保证高可用，熔断和限流如何实现。"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT101",
+          "title": "快手商业化垂直业务 Java日常实习",
+          "url": "https://www.nowcoder.com/discuss/726371483039133696",
+          "group": "严格近期工程实习",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "2025-02-25投递、2025-02-26一面",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "OOM怎样定位处理，消息分区术语是否准确？",
+            "订单水平分片不按商家路由查询时怎么办？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT81",
+          "title": "从一面到二面：Java后端实习面试复盘（原版两轮，含事后模板）",
+          "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md",
+          "group": "明确实习；事件年未知",
+          "track": "后端",
+          "recruitment": "实习",
+          "event_date": "事件年月日未知",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "部分",
+          "material_type": "面试问题与部分事后解答混合",
+          "source_questions": [
+            "高CPU如何定位进程、线程和调用链"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "只用项目追问和排障题。后补推荐回答、能力雷达与建议不作当场作答；旧文Kafka与现版UltiCode的Redis Streams分开。"
+        }
+      ],
+      "project_ids": [
+        "PRO20",
+        "PRO21",
+        "PRO09"
+      ],
+      "capability_ids": [
+        "CAP01",
+        "CAP04",
+        "CAP11"
+      ]
+    }
+  ],
+  "agent_findings": [
+    {
+      "id": "A1",
+      "title": "先证明任务和编排的必要性",
+      "conclusion": "Agent项目要回答服务谁、完成什么任务、为什么采用这套编排，以及本人贡献；多Agent数量本身无法说明收益。",
+      "question_clusters": [
+        "真实用户与工作流；实习或项目的具体产出",
+        "单Agent、多Agent、固定Workflow和自研框架的取舍"
+      ],
+      "preparation_depth": [
+        "给出任务输入、预期输出、成功与失败条件，画出状态和工具流。",
+        "解释拆分角色/步骤的理由，并列出更简单基线供比较。",
+        "定位自己的改动，说明沿用框架与未落地功能。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT47",
+          "title": "小红书大模型平台 Agentic 全栈研发练习生 一面凉经",
+          "url": "https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=search",
+          "group": "严格近期工程实习",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "2026-08-06面试",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "项目解决谁的研发问题，写操作边界与Harness职责如何划分？",
+            "如何从SQLite原型扩到数千用户；自研编排与LangGraph图结构怎样解释？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT68",
+          "title": "华为AI应用实习：专业面、主管面与offer时间线",
+          "url": "https://www.nowcoder.com/discuss/884479038142586880",
+          "group": "严格近期工程实习",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "2026-05-14专业面及主管面，05-15沟通杭州，05-25收到offer自述；原面经另记03-31注册，关联总表华为行记2026-04-01投递。",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "实习负责哪些模块、产出是什么，项目各阶段做了什么？",
+            "科研/项目困难如何分析和解决，在团队中是主导还是配合？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT17",
+          "title": "8.25 小红书实习 AI全栈开发实习一面挂凉经",
+          "url": "https://www.nowcoder.com/feed/main/detail/c712eda7fbf44ba69835b6dd2ff7fc4c?sourceSSR=dynamic",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "08-25面试；年未显示",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "为什么必须多Agent，如何编排？",
+            "系统如何评测，同事有没有准确率反馈？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO04",
+        "PRO24"
+      ],
+      "capability_ids": [
+        "CAP07",
+        "CAP06"
+      ]
+    },
+    {
+      "id": "A2",
+      "title": "RAG与效果指标要能回到数据和对照",
+      "conclusion": "切块、检索、幻觉和任务评测要能说明测什么、如何比较。当前深入提问的部分来源事件年未知，作为高相关选读保留。",
+      "question_clusters": [
+        "RAG与直接文件检索、关键词与向量召回、query和chunk粒度的取舍",
+        "Recall@k与端到端成功率分别测什么，如何找到剩余错误并避免过拟合"
+      ],
+      "preparation_depth": [
+        "说明语料、测试集构成和标注/判定依据，把检索质量与答案质量分开。",
+        "固定一套基线和对照条件，检查失败样本，而非只展示几条成功回答。",
+        "若用模型裁判，说明人工抽查、裁判偏差及成本；不把文本特征分当任务正确率。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT42",
+          "title": "26.4百度大模型生态集成实习，新鲜面经~",
+          "url": "https://www.nowcoder.com/feed/main/detail/62d4ca9866d84d63bf6eafbb0a947bb8?sourceSSR=search",
+          "group": "严格近期工程实习",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "2026-04实习面试",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "怎样组织工具调用、检索策略、向量相似度与设计模式？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT01",
+          "title": "字节跳动-Agent开发实习生 一面（45分钟）",
+          "url": "https://www.nowcoder.com/feed/main/detail/931a8a935a5e4b4f8d0b71cd4e818604",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "面试日期未标明（页面06-04）",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "检索为何选择ES，替换为向量检索损益是什么？",
+            "Recall@5怎样测出，如何避免评测过拟合？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT104",
+          "title": "美团Agent开发一面 日常",
+          "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "一面约75分钟，年月日未知",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？",
+            "无标题Markdown怎样切块，短query与长chunk如何比较并做对照？",
+            "关键词与向量召回如何互补，长query如何处理？",
+            "怎样判断幻觉，如何识别剩余1%到2%的错误？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT103",
+          "title": "实习面经分享 阿里云AI应用开发一面",
+          "url": "https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "一面年月日未知；astra卡片页面05-05无年份",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "Agent系统如何评价，实习遇到的问题如何解决？",
+            "幻觉如何处理？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO06",
+        "PRO24"
+      ],
+      "capability_ids": [
+        "CAP08",
+        "CAP11"
+      ]
+    },
+    {
+      "id": "A3",
+      "title": "工具调用准备到可观察状态与中断续跑",
+      "conclusion": "需要说明工具如何接入、执行过程是否可见，以及超时、中断、重试和知识更新怎样影响状态；会调用API只是链路的一环。",
+      "question_clusters": [
+        "Skill/Tool/MCP如何接入现有项目；工具执行器及日志怎样定位卡点",
+        "任务中断后的恢复点、重试时机、知识库持续更新与副作用"
+      ],
+      "preparation_depth": [
+        "沿一次工具调用解释参数、执行结果、错误与下一状态，能查看执行日志。",
+        "列出进程中断、工具超时和外部操作已成功但响应丢失的恢复策略。",
+        "区别内存重试、持久化恢复和业务幂等，指出项目实际实现到哪一层。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT42",
+          "title": "26.4百度大模型生态集成实习，新鲜面经~",
+          "url": "https://www.nowcoder.com/feed/main/detail/62d4ca9866d84d63bf6eafbb0a947bb8?sourceSSR=search",
+          "group": "严格近期工程实习",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "2026-04实习面试",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "接到已有大项目的新功能需求，如何规划并开发Agent Skill？",
+            "怎样组织工具调用、检索策略、向量相似度与设计模式？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT84",
+          "title": "9.7百度agent开发日常实习面经",
+          "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "标题为9.7；正文称15点刚面完，面试约45分钟；未直接写事件年",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "工具层兜底具体覆盖什么失败。",
+            "工具执行器的具体实现。",
+            "任务中断后，下次如何继续执行。",
+            "如何感知Agent当前执行动作，是否呈黑盒。",
+            "如何通过日志定位Agent卡点。"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT41",
+          "title": "腾讯实习 ai应用开发后端面经分享",
+          "url": "https://www.nowcoder.com/feed/main/detail/144c6ae334b24c0aa643ed43ccfebaac?sourceSSR=dynamic",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "面试年月日未确认（页面04-23）",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "中断后怎么安全重试；跨境汇款任务超时怎样保护资金状态？",
+            "知识库在持续提供服务时如何更新？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO04",
+        "PRO20",
+        "PRO25"
+      ],
+      "capability_ids": [
+        "CAP07",
+        "CAP09",
+        "CAP04"
+      ]
+    },
+    {
+      "id": "A4",
+      "title": "写操作、隔离与协作冲突必须有明确边界",
+      "conclusion": "能执行文件或业务操作之后，权限、回滚与并发冲突就成为工程问题。用户确认、工作目录设置和安全隔离需要分别说明。",
+      "question_clusters": [
+        "写操作边界，沙箱/快照/回滚时机",
+        "多Agent同时改文件、超时后重复执行、资金等有副作用任务的保护"
+      ],
+      "preparation_depth": [
+        "对读、写、网络及敏感工具说明服务端检查位置，不能只依赖模型提示或UI确认。",
+        "区分进程环境设置、文件路径校验和系统级隔离，明确平台差异。",
+        "解释冲突检测、审批、幂等与补偿的责任；从失败路径验证，不只跑成功演示。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT47",
+          "title": "小红书大模型平台 Agentic 全栈研发练习生 一面凉经",
+          "url": "https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=search",
+          "group": "严格近期工程实习",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "2026-08-06面试",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "项目解决谁的研发问题，写操作边界与Harness职责如何划分？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT03",
+          "title": "字节agent开发实习生一面面经 29届",
+          "url": "https://www.nowcoder.com/feed/main/detail/617d30ab75dc40db81b291b8b98dfb13",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "面试日期未标明（页面08-05）",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "为何使用沙箱，快照及回滚时机怎样选择？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT102",
+          "title": "字节AI Agent实习面经",
+          "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "08-13一面、08-16二面，年份未知",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "多个Agent同时修改同一文件怎样避免冲突？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT41",
+          "title": "腾讯实习 ai应用开发后端面经分享",
+          "url": "https://www.nowcoder.com/feed/main/detail/144c6ae334b24c0aa643ed43ccfebaac?sourceSSR=dynamic",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "面试年月日未确认（页面04-23）",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "中断后怎么安全重试；跨境汇款任务超时怎样保护资金状态？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO25",
+        "PRO04",
+        "PRO20"
+      ],
+      "capability_ids": [
+        "CAP10",
+        "CAP04"
+      ]
+    },
+    {
+      "id": "A5",
+      "title": "上下文与成本优化要连着服务基础解释",
+      "conclusion": "上下文压缩、Memory、缓存和模型分工需要交代保留什么、牺牲什么；Agent岗位也会继续考调度、网络与现场编码。",
+      "question_clusters": [
+        "压缩后保留用户约束、长期记忆提取、工具返回过长与Prompt Cache",
+        "并发任务资源上限、线程/协程区别、基础协议与算法"
+      ],
+      "preparation_depth": [
+        "说明上下文保留与丢弃规则，用失败样本检查关键约束是否丢失。",
+        "拆开输入/输出token、重试、并发和时延；区分事后计费统计与调用前硬限额。",
+        "能解释自己使用的语言和并发模型，并现场实现基础题；不能以Agent术语代替这些能力。"
+      ],
+      "depth_boundary": "本报告依据提问归纳的准备目标，不是企业统一门槛，也不证明作者当场全部答出。",
+      "sources": [
+        {
+          "id": "INT102",
+          "title": "字节AI Agent实习面经",
+          "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "08-13一面、08-16二面，年份未知",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "上下文压缩保留什么，如何防止丢失用户关键约束？",
+            "路径震荡怎样定位，长期Memory如何提取存储检索？",
+            "工具过多或返回过长时如何控制上下文？",
+            "Prompt Cache怎样提升命中，小模型如何分工？",
+            "现场判断平衡二叉树。"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT104",
+          "title": "美团Agent开发一面 日常",
+          "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+          "group": "明确实习；事件年未知",
+          "track": "Agent工程",
+          "recruitment": "实习",
+          "event_date": "一面约75分钟，年月日未知",
+          "event_year_confirmed": false,
+          "strict_recent_engineering": false,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "三万个协程和三万个线程在8核16线程机器上调度有何不同？",
+            "现场实现链表合并与最长有效括号。"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        },
+        {
+          "id": "INT12",
+          "title": "27双非本—腾讯IEG游戏安全后台实习面经",
+          "url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "group": "严格近期工程实习",
+          "track": "混合",
+          "recruitment": "实习",
+          "event_date": "2025-09-26 offer；2025-10-04复盘",
+          "event_year_confirmed": true,
+          "strict_recent_engineering": true,
+          "reading_scope": "全文",
+          "material_type": "本人具体问题记录",
+          "source_questions": [
+            "Go调度、网络IO、Raft、LSM分别是什么？",
+            "Agent与模型、LangChain与LangGraph、Function Call与MCP怎样区分？"
+          ],
+          "question_representation": "已核材料中提问要点的转述；不加引号冒充逐字原话",
+          "answer_boundary": "本人回忆的提问要点；本包转述，非逐字录音。未取得完整现场回答。"
+        }
+      ],
+      "project_ids": [
+        "PRO24",
+        "PRO25",
+        "PRO06"
+      ],
+      "capability_ids": [
+        "CAP09",
+        "CAP11",
+        "CAP01"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRO09",
+      "name": "ShenYu",
+      "title": "Apache ShenYu：插件链、响应式网关与可测试开源贡献",
+      "kind": "后端／开源贡献",
+      "learn": "学插件链、响应式生命周期和一项可核查贡献怎样配测试；优先看本人两项测试PR，再读平台实现。",
+      "modules": [
+        {
+          "name": "2022本人OAuth2测试",
+          "path": "shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java",
+          "url": "https://github.com/apache/shenyu/blob/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java#L38",
+          "why": "只核该测试文件及作者/合并关系",
+          "status": "本人贡献文件已核；未运行"
+        },
+        {
+          "name": "2022本人RocketMQ日志测试",
+          "path": "shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java",
+          "url": "https://github.com/apache/shenyu/blob/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java#L54",
+          "why": "只核该测试文件及作者/合并关系",
+          "status": "本人贡献文件已核；未运行"
+        },
+        {
+          "name": "限流插件及单测",
+          "path": "shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/main/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPlugin.java",
+          "url": "https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/main/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPlugin.java",
+          "why": "读插件链如何返回放行/限流与测试覆盖",
+          "status": "源码可见"
+        }
+      ],
+      "gaps": [
+        "Redis限流单测使用mock，不能证明集群故障或吞吐。",
+        "2026平台版本与2022本人PR、2023录用自述分开。"
+      ],
+      "do_not_copy": "不把运行整个平台或当前Agent Gateway功能写成本人当年贡献。",
+      "candidate_ids": [
+        "CV05"
+      ],
+      "ownership": [
+        {
+          "candidate_id": "CV05",
+          "relationship_type": "贡献",
+          "direct_evidence_URLs": [
+            "https://github.com/apache/shenyu/pull/3848",
+            "https://github.com/apache/shenyu/pull/3672"
+          ],
+          "finding": "仅确认PR3848(OAuth2集成测试)、3672(logging-rocketmq集成测试)由erdengk提交并于2022合并；未审其余PR。",
+          "event_time_boundary": "2023-12录用自述；2026-01方向更新",
+          "snapshot_boundary": "固定源码提交为2026-10-23T03:39:41Z；不自动等同求职当时版本",
+          "offer_causality": "录用仍为自述；未证明项目独立导致录用或SSP"
+        }
+      ],
+      "candidate_evidence": [
+        {
+          "id": "CV05",
+          "title": "erdengk：后端大SSP历史履历与2026 Agent方向更新",
+          "url": "https://github.com/erdengk",
+          "outcome": "本人自述快手、小红书商业化大SSP，选择小红书"
+        }
+      ],
+      "outcome_boundary": "本人自述快手、小红书商业化大SSP，选择小红书",
+      "source_url": "https://github.com/apache/shenyu",
+      "commit": "34f2ed036747936a5e28aea2c94cd9b3cddcce47",
+      "attachment": {
+        "status": "固定源码ZIP",
+        "archive_file": "apache__shenyu__34f2ed036747.zip",
+        "commit": "34f2ed036747936a5e28aea2c94cd9b3cddcce47",
+        "source_manifest": "05_项目源码归档/SOURCE_MANIFEST.json",
+        "exists": true,
+        "bytes_match_manifest": true,
+        "sha256_match_manifest": true,
+        "crc_previously_checked": true,
+        "runtime_verified": false
+      },
+      "run_status": "仅指定固定版本静态核读；未运行第三方项目或测试，不认证性能、正确性或成熟度。"
+    },
+    {
+      "id": "PRO19",
+      "name": "SchoolBus",
+      "title": "SchoolBus：本人面经直接关联的预约项目，附v1代码局限",
+      "kind": "后端／本人面经直连项目",
+      "learn": "学同一业务如何被字节、京东追问，并把预约、支付、取消与补偿落实到源码失败窗口。",
+      "modules": [
+        {
+          "name": "下单与补偿",
+          "path": "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+          "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+          "why": "按下单、支付竞争及补偿失败逐段读",
+          "status": "源码可见／静态风险"
+        },
+        {
+          "name": "取消消息消费",
+          "path": "school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+          "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+          "why": "读标记检查和业务操作之间的竞争窗口",
+          "status": "静态风险"
+        }
+      ],
+      "gaps": [
+        "所读v1补偿消息失败仅打印；单例可变tag存在并发覆盖静态风险。",
+        "取消消费查标记→业务→写标记，不能据此认定并发幂等；其他版本未泛化。"
+      ],
+      "do_not_copy": "不照搬高性能/高可用口号，不把Guns框架和团队全部工作算个人原创。",
+      "candidate_ids": [
+        "CV21"
+      ],
+      "ownership": [
+        {
+          "candidate_id": "CV21",
+          "relationship_type": "直接点名",
+          "direct_evidence_URLs": [
+            "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+            "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md#L27",
+            "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+            "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E4%BA%AC%E4%B8%9C.md#L2"
+          ],
+          "finding": "本人字节和京东面经直接提班车项目，根README标明作者与项目；京东offer、字节意向书分开。",
+          "event_time_boundary": "面经只标7—8月；年份未确认。资料仓固定提交2024-12-02，不当面试年份",
+          "snapshot_boundary": "固定源码提交为日期未标；不自动等同求职当时版本",
+          "offer_causality": "录用仍为自述；未证明项目独立导致录用或SSP"
+        }
+      ],
+      "candidate_evidence": [
+        {
+          "id": "CV21",
+          "title": "DreamCats：本人项目与三家面经可直接对应，SSP未证",
+          "url": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+          "outcome": "本人京东offer、字节意向书；腾讯自评不理想，未核最终结果。未写SSP档位"
+        }
+      ],
+      "outcome_boundary": "本人京东offer、字节意向书；腾讯自评不理想，未核最终结果。未写SSP档位",
+      "source_url": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+      "commit": "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+      "attachment": {
+        "status": "固定源码选读派生ZIP已归档",
+        "archive_file": "SchoolBus_固定源码选读.zip",
+        "exists": true,
+        "reason": "固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+        "archive_sha256": "e096546d2d8faa17f616d1da263c2764629578bcf79910ca486b95c1a0475a5c",
+        "source_manifest": "08_证据索引与统计/项目选读归档补齐.json",
+        "source_file_count": 4,
+        "selection_only": true,
+        "runtime_verified": false
+      },
+      "run_status": "仅指定固定版本静态核读；未运行第三方项目或测试，不认证性能、正确性或成熟度。"
+    },
+    {
+      "id": "PRO20",
+      "name": "UltiCode",
+      "title": "UltiCode：完整履历直接点名的本人判题平台",
+      "kind": "后端／本人履历直连项目",
+      "learn": "学提交、Outbox、Redis投递、租约与结果竞争的组合机制；适合练消息可靠性和业务状态转换。",
+      "modules": [
+        {
+          "name": "提交事务入口",
+          "path": "services/submission/src/main/java/com/ulticode/modules/submission/port/DefaultSubmissionWritePort.java",
+          "url": "https://github.com/DavidHLP/UltiCode/blob/d53b582e2fae32ef644642651086df0e5ed3163d/services/submission/src/main/java/com/ulticode/modules/submission/port/DefaultSubmissionWritePort.java",
+          "why": "读提交与Outbox在何条件下同事务",
+          "status": "源码可见"
+        },
+        {
+          "name": "Outbox投递",
+          "path": "services/submission/src/main/java/com/ulticode/modules/queue/outbox/dispatcher/JudgeOutboxDispatcher.java",
+          "url": "https://github.com/DavidHLP/UltiCode/blob/d53b582e2fae32ef644642651086df0e5ed3163d/services/submission/src/main/java/com/ulticode/modules/queue/outbox/dispatcher/JudgeOutboxDispatcher.java",
+          "why": "读投递、退避与崩溃重复窗口",
+          "status": "文档宣称／源码可见"
+        },
+        {
+          "name": "结果条件更新",
+          "path": "services/submission/src/main/java/com/ulticode/modules/submission/mapper/SubmissionMapper.java",
+          "url": "https://github.com/DavidHLP/UltiCode/blob/d53b582e2fae32ef644642651086df0e5ed3163d/services/submission/src/main/java/com/ulticode/modules/submission/mapper/SubmissionMapper.java",
+          "why": "读generation/attempt约束与租约恢复",
+          "status": "源码可见"
+        },
+        {
+          "name": "Streams集成测试",
+          "path": "services/judge-runtime/src/test/java/com/ulticode/modules/queue/port/adapter/JudgeStreamRedisIntegrationTest.java",
+          "url": "https://github.com/DavidHLP/UltiCode/blob/d53b582e2fae32ef644642651086df0e5ed3163d/services/judge-runtime/src/test/java/com/ulticode/modules/queue/port/adapter/JudgeStreamRedisIntegrationTest.java",
+          "why": "读断言，注意测试未执行",
+          "status": "源码可见"
+        }
+      ],
+      "gaps": [
+        "Outbox依特性开关及mapper，数据库事务不跨Redis投递；重复、死信与幂等全链路仍需核。",
+        "当前源码晚于实习，集成测试未运行；不能证明投递版本或录用因果。"
+      ],
+      "do_not_copy": "不把Outbox模式名当端到端exactly-once；旧面经Kafka答案也不能贴给现版Redis Streams。",
+      "candidate_ids": [
+        "CV28"
+      ],
+      "ownership": [
+        {
+          "candidate_id": "CV28",
+          "relationship_type": "直接点名",
+          "direct_evidence_URLs": [
+            "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md"
+          ],
+          "finding": "完整履历直接链接本人UltiCode，指定实现与测试可读；本人面经仅主题对应。",
+          "event_time_boundary": "实习2026.01—06；此源码版本另列",
+          "snapshot_boundary": "2026-10-23T15:12:39Z；不回填投递版",
+          "offer_causality": "不证明项目导致录用；不是大厂直签或SSP样本"
+        }
+      ],
+      "candidate_evidence": [
+        {
+          "id": "CV28",
+          "title": "DavidHLP：近期后端实习完整履历与本人开源项目直接关联",
+          "url": "https://davidhlp.github.io/about/",
+          "outcome": "博彦科技后端实习，服务阿里云客户项目；非阿里直签，未分档"
+        }
+      ],
+      "outcome_boundary": "博彦科技后端实习，服务阿里云客户项目；非阿里直签，未分档",
+      "source_url": "https://github.com/DavidHLP/UltiCode/tree/d53b582e2fae32ef644642651086df0e5ed3163d",
+      "commit": "d53b582e2fae32ef644642651086df0e5ed3163d",
+      "attachment": {
+        "status": "固定版本源码文本归档（去联系字段，非完整原ZIP）",
+        "archive_file": "本人履历直接关联_持续补证/UltiCode_固定源码文本_去联系字段_d53b582e2f.zip",
+        "exists": true,
+        "reason": "已归档固定源码文本去联系字段副本；不是原始完整ZIP，未运行",
+        "source_manifest": "08_证据索引与统计/持续补证_实习履历与本人源码.json",
+        "runtime_verified": false
+      },
+      "run_status": "仅指定固定版本静态核读；未运行第三方项目或测试，不认证性能、正确性或成熟度。"
+    },
+    {
+      "id": "PRO21",
+      "name": "ResiCache",
+      "title": "ResiCache：完整履历直接点名的本人缓存扩展",
+      "kind": "后端／本人履历直连项目",
+      "learn": "学single-flight、Future共享、重入/异常/超时清理和按版本CAS更新TTL，适合把缓存问到具体并发代码。",
+      "modules": [
+        {
+          "name": "并发角色",
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncRole.java",
+          "url": "https://github.com/DavidHLP/ResiCache/blob/1ed3be36af0795a363d624d38de676c0d00b4cf7/src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncRole.java",
+          "why": "读leader选择、共享Future与身份匹配清理",
+          "status": "源码可见"
+        },
+        {
+          "name": "提前刷新",
+          "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/EarlyRefresh.java",
+          "url": "https://github.com/DavidHLP/ResiCache/blob/1ed3be36af0795a363d624d38de676c0d00b4cf7/src/main/java/io/github/davidhlp/spring/cache/redis/cache/EarlyRefresh.java",
+          "why": "读缓存值版本CAS与TTL变化",
+          "status": "源码可见"
+        },
+        {
+          "name": "并发测试",
+          "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupportSingleFlightTest.java",
+          "url": "https://github.com/DavidHLP/ResiCache/blob/1ed3be36af0795a363d624d38de676c0d00b4cf7/src/test/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupportSingleFlightTest.java",
+          "why": "读异常、重入和follower超时测试",
+          "status": "源码可见"
+        }
+      ],
+      "gaps": [
+        "本地Map选leader不是分布式唯一回源。",
+        "竞态测试代码可读但未执行；逐提交个人和AI辅助比例未核。"
+      ],
+      "do_not_copy": "不因使用Redis就宣称跨节点一致；不能复制作者效果数字或把后期代码当投递版本。",
+      "candidate_ids": [
+        "CV28"
+      ],
+      "ownership": [
+        {
+          "candidate_id": "CV28",
+          "relationship_type": "直接点名",
+          "direct_evidence_URLs": [
+            "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md"
+          ],
+          "finding": "完整履历直接链接本人ResiCache，指定实现与测试可读；本人面经仅主题对应。",
+          "event_time_boundary": "实习2026.01—06；此源码版本另列",
+          "snapshot_boundary": "2026-10-09T15:30:33Z；不回填投递版",
+          "offer_causality": "不证明项目导致录用；不是大厂直签或SSP样本"
+        }
+      ],
+      "candidate_evidence": [
+        {
+          "id": "CV28",
+          "title": "DavidHLP：近期后端实习完整履历与本人开源项目直接关联",
+          "url": "https://davidhlp.github.io/about/",
+          "outcome": "博彦科技后端实习，服务阿里云客户项目；非阿里直签，未分档"
+        }
+      ],
+      "outcome_boundary": "博彦科技后端实习，服务阿里云客户项目；非阿里直签，未分档",
+      "source_url": "https://github.com/DavidHLP/ResiCache/tree/1ed3be36af0795a363d624d38de676c0d00b4cf7",
+      "commit": "1ed3be36af0795a363d624d38de676c0d00b4cf7",
+      "attachment": {
+        "status": "固定版本源码文本归档（去联系字段，非完整原ZIP）",
+        "archive_file": "本人履历直接关联_持续补证/ResiCache_固定源码文本_去联系字段_1ed3be36af.zip",
+        "exists": true,
+        "reason": "已归档固定源码文本去联系字段副本；不是原始完整ZIP，未运行",
+        "source_manifest": "08_证据索引与统计/持续补证_实习履历与本人源码.json",
+        "runtime_verified": false
+      },
+      "run_status": "仅指定固定版本静态核读；未运行第三方项目或测试，不认证性能、正确性或成熟度。"
+    },
+    {
+      "id": "PRO04",
+      "name": "Ragent",
+      "title": "Ragent：Java Agent与RAG全链路参考",
+      "kind": "Agent／Java工程参考",
+      "learn": "学Workflow/Agent、状态存储与工具确认的分层；作为Java实现参照，不作为已获岗者项目证据。",
+      "modules": [
+        {
+          "name": "引擎配置",
+          "path": "agent/src/main/java/com/nageoffer/ai/ragent/agent/config/AgentEngineConfiguration.java",
+          "url": "https://github.com/nageoffer/ragent/blob/ff93871ab88fff24a5dac7feee7ea342359a3439/agent/src/main/java/com/nageoffer/ai/ragent/agent/config/AgentEngineConfiguration.java",
+          "why": "沿配置看状态、工具与执行机制接线",
+          "status": "源码可见"
+        },
+        {
+          "name": "状态存储",
+          "path": "agent/src/main/java/com/nageoffer/ai/ragent/agent/dao/mapper/AgentStateMapper.java",
+          "url": "https://github.com/nageoffer/ragent/blob/ff93871ab88fff24a5dac7feee7ea342359a3439/agent/src/main/java/com/nageoffer/ai/ragent/agent/dao/mapper/AgentStateMapper.java",
+          "why": "读状态写入与外部操作的不同边界",
+          "status": "源码可见／未核"
+        },
+        {
+          "name": "拒绝处理",
+          "path": "agent/src/main/java/com/nageoffer/ai/ragent/agent/confirm/AgentConfirmDenialMiddleware.java",
+          "url": "https://github.com/nageoffer/ragent/blob/ff93871ab88fff24a5dac7feee7ea342359a3439/agent/src/main/java/com/nageoffer/ai/ragent/agent/confirm/AgentConfirmDenialMiddleware.java",
+          "why": "区分文案处理、用户确认与业务授权",
+          "status": "静态风险"
+        }
+      ],
+      "gaps": [
+        "持久化存在不等于断进程恢复或外部工具副作用原子。",
+        "拒绝middleware主要修正文案；确认/拒绝不能替代服务端授权，业务评测未核。"
+      ],
+      "do_not_copy": "不把整个平台冒充个人原创，也不直接采用“企业级”宣传作为质量结论。",
+      "candidate_ids": [],
+      "ownership": [
+        {
+          "candidate_id": null,
+          "relationship_type": "主题",
+          "direct_evidence_URLs": [],
+          "finding": "仅用于面经/JD能力主题对照，未核成功候选人本人求职项目或具体贡献；不凭同账号或star建立关系。",
+          "event_time_boundary": "不适用；无已核招聘事件",
+          "snapshot_boundary": "仅按固定commit阅读当前工程",
+          "offer_causality": "未建立录用关系"
+        }
+      ],
+      "candidate_evidence": [],
+      "outcome_boundary": "未建立目标成功候选人关系；工程参考，不计SSP项目。",
+      "source_url": "https://github.com/nageoffer/ragent",
+      "commit": "ff93871ab88fff24a5dac7feee7ea342359a3439",
+      "attachment": {
+        "status": "固定源码ZIP",
+        "archive_file": "nageoffer__ragent__ff93871ab88f.zip",
+        "commit": "ff93871ab88fff24a5dac7feee7ea342359a3439",
+        "source_manifest": "05_项目源码归档/SOURCE_MANIFEST.json",
+        "exists": true,
+        "bytes_match_manifest": true,
+        "sha256_match_manifest": true,
+        "crc_previously_checked": true,
+        "runtime_verified": false
+      },
+      "run_status": "仅指定固定版本静态核读；未运行第三方项目或测试，不认证性能、正确性或成熟度。"
+    },
+    {
+      "id": "PRO06",
+      "name": "Open Deep Research",
+      "title": "Open Deep Research：研究编排与评测参考",
+      "kind": "Agent／研究与评测参考",
+      "learn": "优先学评测器、基线与成对比较，再沿研究协调、工具、压缩和报告流程反查效果来源。",
+      "modules": [
+        {
+          "name": "研究流程",
+          "path": "src/open_deep_research/deep_researcher.py",
+          "url": "https://github.com/langchain-ai/open_deep_research/blob/1b7d2e80db9faa586165c60e09096dbbfd483a64/src/open_deep_research/deep_researcher.py",
+          "why": "读Supervisor、并行研究、压缩及重试",
+          "status": "源码可见"
+        },
+        {
+          "name": "多维评测器",
+          "path": "tests/evaluators.py",
+          "url": "https://github.com/langchain-ai/open_deep_research/blob/1b7d2e80db9faa586165c60e09096dbbfd483a64/tests/evaluators.py",
+          "why": "看相关性、正确性、依据与完整性怎样判",
+          "status": "源码可见"
+        },
+        {
+          "name": "成对比较",
+          "path": "tests/pairwise_evaluation.py",
+          "url": "https://github.com/langchain-ai/open_deep_research/blob/1b7d2e80db9faa586165c60e09096dbbfd483a64/tests/pairwise_evaluation.py",
+          "why": "看对照单位和裁判机制，准备人工抽核",
+          "status": "指定模块静态选读；未运行"
+        }
+      ],
+      "gaps": [
+        "模型裁判存在偏差，生成漂亮报告不足以证明结论正确。",
+        "未做等预算成本/尾延迟实验，也未验证完整业务权限和外部写操作恢复。"
+      ],
+      "do_not_copy": "不把同一模型自评或默认模型/搜索配置当可信效果；不复制未复现分数。",
+      "candidate_ids": [],
+      "ownership": [
+        {
+          "candidate_id": null,
+          "relationship_type": "主题",
+          "direct_evidence_URLs": [],
+          "finding": "仅用于面经/JD能力主题对照，未核成功候选人本人求职项目或具体贡献；不凭同账号或star建立关系。",
+          "event_time_boundary": "不适用；无已核招聘事件",
+          "snapshot_boundary": "仅按固定commit阅读当前工程",
+          "offer_causality": "未建立录用关系"
+        }
+      ],
+      "candidate_evidence": [],
+      "outcome_boundary": "未建立目标成功候选人关系；工程参考，不计SSP项目。",
+      "source_url": "https://github.com/langchain-ai/open_deep_research",
+      "commit": "1b7d2e80db9faa586165c60e09096dbbfd483a64",
+      "attachment": {
+        "status": "固定源码ZIP",
+        "archive_file": "langchain-ai__open_deep_research__1b7d2e80db9f.zip",
+        "commit": "1b7d2e80db9faa586165c60e09096dbbfd483a64",
+        "source_manifest": "05_项目源码归档/SOURCE_MANIFEST.json",
+        "exists": true,
+        "bytes_match_manifest": true,
+        "sha256_match_manifest": true,
+        "crc_previously_checked": true,
+        "runtime_verified": false
+      },
+      "run_status": "仅指定固定版本静态核读；未运行第三方项目或测试，不认证性能、正确性或成熟度。"
+    },
+    {
+      "id": "PRO24",
+      "name": "Sprout",
+      "title": "Sprout：任务树编排、预算与文本打分边界",
+      "kind": "Agent／本人主页直连机制库",
+      "learn": "学树形拆分、并发Worker、拖慢检测与重拆；特别适合对照“代码有机制”和“任务真成功”的差别。",
+      "modules": [
+        {
+          "name": "任务树",
+          "path": "sprout/task_tree.py",
+          "url": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/task_tree.py",
+          "why": "读并发、取消、重拆、合成与预算统计时机",
+          "status": "未核／源码可见／静态风险"
+        },
+        {
+          "name": "Worker",
+          "path": "sprout/worker.py",
+          "url": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/worker.py",
+          "why": "看实际可用工具是报告/放弃还是外部执行",
+          "status": "源码可见"
+        },
+        {
+          "name": "benchmark",
+          "path": "examples/benchmark.py",
+          "url": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/examples/benchmark.py",
+          "why": "核评分对象，区分文本形式与功能正确",
+          "status": "文档宣称／静态风险"
+        },
+        {
+          "name": "mock测试",
+          "path": "tests/test_task_tree.py",
+          "url": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/tests/test_task_tree.py",
+          "why": "明确控制流测试与真实任务评测的区别",
+          "status": "源码可见"
+        }
+      ],
+      "gaps": [
+        "benchmark用正则/关键词给输出文本打分，未执行生成代码，分数不等于正确率。",
+        "调用后累计token，非并发硬预算；未见持久化检查点，所读Worker未形成完整外部动作闭环。"
+      ],
+      "do_not_copy": "不复制25→100分为任务成功率，不把内存回退当重启恢复，也不回填为实习投递项目。",
+      "candidate_ids": [
+        "CV31"
+      ],
+      "ownership": [
+        {
+          "candidate_id": "CV31",
+          "relationship_type": "直接点名",
+          "direct_evidence_URLs": [
+            "https://imyihang.com/"
+          ],
+          "finding": "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。",
+          "event_time_boundary": "实习2025.12–2026.02，固定源码2026.07",
+          "snapshot_boundary": "当前固定版本不是投递版本",
+          "offer_causality": "不证明项目促成录用"
+        }
+      ],
+      "candidate_evidence": [
+        {
+          "id": "CV31",
+          "title": "黄一航：中科曙光Agent实习完整履历与本人项目",
+          "url": "https://imyihang.com/",
+          "outcome": "本人CV明确Agent开发实习经历；SSP/SP未披露"
+        }
+      ],
+      "outcome_boundary": "本人CV明确Agent开发实习经历；SSP/SP未披露",
+      "source_url": "https://github.com/hlbbbbbbb/sprout/tree/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+      "commit": "3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+      "attachment": {
+        "status": "固定源码文本派生包",
+        "archive_file": "近期Agent本人项目_补链/Sprout_固定源码文本_去联系字段_3ecd36e5a4.zip",
+        "exists": true,
+        "reason": "未运行、未构建、未安装依赖、未调用模型",
+        "source_manifest": "08_证据索引与统计/近期Agent补链_Sprout源码归档.json",
+        "runtime_verified": false
+      },
+      "run_status": "仅指定固定版本静态核读；未运行第三方项目或测试，不认证性能、正确性或成熟度。"
+    },
+    {
+      "id": "PRO25",
+      "name": "NoWorries",
+      "title": "NoWorries：桌面记忆与跨平台隔离风险选读",
+      "kind": "Agent／本人CV直连桌面项目",
+      "learn": "学情景记忆、执行器和跨平台权限差异；用具体失败路径练安全边界审查。",
+      "modules": [
+        {
+          "name": "情景记忆",
+          "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+          "url": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+          "why": "读按月JSON存储与关键词检索，核崩溃/并发边界",
+          "status": "未核／源码可见"
+        },
+        {
+          "name": "macOS执行与回退",
+          "path": "noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+          "url": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+          "why": "读无输出时的再次执行和降级",
+          "status": "静态风险"
+        },
+        {
+          "name": "Windows执行",
+          "path": "noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+          "url": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+          "why": "区分环境设置与系统隔离",
+          "status": "静态风险"
+        },
+        {
+          "name": "工作区校验",
+          "path": "noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+          "url": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+          "why": "读路径校验，审子目录与符号链接边界",
+          "status": "指定模块静态选读；未运行"
+        }
+      ],
+      "gaps": [
+        "Windows/Linux环境重定向不构成系统级隔离；macOS回退可能重复执行并降低隔离。",
+        "路径字符串前缀校验有组件边界/符号链接待核；只归档14文件，整体运行与任务评测未核。"
+      ],
+      "do_not_copy": "不把框架继承算全库原创，不把端点修复PR3064扩大为整个产品的贡献证明。",
+      "candidate_ids": [
+        "CV31"
+      ],
+      "ownership": [
+        {
+          "candidate_id": "CV31",
+          "relationship_type": "直接点名",
+          "direct_evidence_URLs": [
+            "https://imyihang.com/api/resume"
+          ],
+          "finding": "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。",
+          "event_time_boundary": "实习2025.12–2026.02，固定源码2026.07",
+          "snapshot_boundary": "当前固定版本不是投递版本",
+          "offer_causality": "不证明项目促成录用"
+        }
+      ],
+      "candidate_evidence": [
+        {
+          "id": "CV31",
+          "title": "黄一航：中科曙光Agent实习完整履历与本人项目",
+          "url": "https://imyihang.com/",
+          "outcome": "本人CV明确Agent开发实习经历；SSP/SP未披露"
+        }
+      ],
+      "outcome_boundary": "本人CV明确Agent开发实习经历；SSP/SP未披露",
+      "source_url": "https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f",
+      "commit": "c811e697bb48a979ee14bd932de80057b98b464f",
+      "attachment": {
+        "status": "固定14文件文本选读派生包，非完整源码",
+        "archive_file": "近期Agent本人项目_补链/NoWorries_固定文本选读_去联系字段_c811e697bb.zip",
+        "exists": true,
+        "reason": "未运行、未构建、未安装依赖、未调用模型",
+        "source_manifest": "08_证据索引与统计/近期Agent补链_NoWorries选读归档.json",
+        "runtime_verified": false
+      },
+      "run_status": "仅指定固定版本静态核读；未运行第三方项目或测试，不认证性能、正确性或成熟度。"
+    }
+  ],
+  "answer_boundaries": [
+    {
+      "id": "INT81",
+      "classification": "问题与事后模板混合；部分阅读",
+      "use": "只采用可定位的问题；推荐回答、主观雷达和补齐建议不算当场作答。旧Kafka与现版Redis Streams分开。"
+    },
+    {
+      "id": "INT83",
+      "classification": "问题与作者括注解释混合",
+      "use": "原帖提问可用；索引解释、纠错与应答提示单列，不当作现场完整正确答案。"
+    },
+    {
+      "id": "INT53",
+      "classification": "作者明确AI整理",
+      "use": "可作线索与低权重选读；不以整理稿强化逐字真实性。"
+    },
+    {
+      "id": "INT98",
+      "classification": "作者明确AI整理",
+      "use": "可作线索与低权重选读；不作为本页核心问题簇的唯一证据。"
+    },
+    {
+      "id": "INT77",
+      "classification": "职业/学习主题复盘",
+      "use": "自评不足用于阅读路线，不把主题总结冒充完整逐轮原题。"
+    }
+  ],
+  "ssp_observations": {
+    "evidence_level": "仅确认本人原文明确自述档位及其直接项目/面经关系；未取得企业独立录用认证。",
+    "sample_scope": "以下共同点只描述所列公开案例，不外推统一SSP门槛、录用概率或项目因果。",
+    "observations": [
+      {
+        "claim": "项目题材并不统一：业务/RPC、语言工具/网络/共识、微博系统都出现在明确SSP自述案例。共同可取之处是能把本人实践展开成具体技术讨论。",
+        "candidate_ids": [
+          "CV02",
+          "CV10",
+          "CV15"
+        ],
+        "basis": [
+          "CV02公开自我介绍写具体负责模块并可追仓库；课程复用边界已保留。",
+          "CV10原文直接链接翻译器、可靠传输与Raft实现，包含借鉴和失败材料。",
+          "CV15本人履历、项目和多轮复盘直接关联，头条SSP与腾讯SP分开。"
+        ]
+      },
+      {
+        "claim": "项目深挖和基础机制在这些案例中并存；准备重点可以落在解释选型、瓶颈、失败和验证，而不是堆项目数量。",
+        "candidate_ids": [
+          "CV01",
+          "CV10",
+          "CV15"
+        ],
+        "interview_ids": [
+          "INT78",
+          "INT79",
+          "INT80"
+        ],
+        "basis": [
+          "CV01本人面经记录通知/MQ/IM、瓶颈排查、算法和系统链路。",
+          "CV10本人复盘有Linux、C++、项目与系统设计。",
+          "CV15公开材料同时保留项目、基础、实习与表达等多因素。"
+        ]
+      }
+    ],
+    "contribution_example": {
+      "candidate_id": "CV05",
+      "project_id": "PRO09",
+      "finding": "SSP自述与两项2022本人合并PR可各自核查；目前只核OAuth2与RocketMQ日志集成测试，不能把2026整个平台或Agent功能归为其当年贡献。"
+    },
+    "unresolved": [
+      "近期Agent明确正式SSP＋本人项目＋本人面经的完整链仍缺。",
+      "现版仓库晚于求职、历史项目缺原始投递版本及逐提交贡献，不能由代码现状证明录用原因。",
+      "OC、意向书、SP、普通offer与推测SSP分开保留；本页不把它们合并成SSP。"
+    ]
+  },
+  "reading_routes": {
+    "backend": {
+      "steps": [
+        "先读B1–B3并选PRO19/20中的一个业务链，沿问题读源码。",
+        "再读PRO21的并发与测试，补B4/B5基础、排障和验证。",
+        "需要开源贡献表达时读PRO09两项真实PR；C++网络方向另选PRO17，不要求整库复刻。"
+      ],
+      "project_ids": [
+        "PRO19",
+        "PRO20",
+        "PRO21",
+        "PRO09"
+      ],
+      "additional_project_ids": [
+        "PRO17"
+      ]
+    },
+    "agent": {
+      "steps": [
+        "先读A1/A2，以PRO06观察怎样评测，以PRO04观察怎样接线。",
+        "再读PRO24的机制、评分与预算缺口；读PRO25的记忆、隔离和重复执行风险。",
+        "按A3–A5核对恢复、授权、成本和后端基础；不把四个仓库拼装成个人项目方案。"
+      ],
+      "project_ids": [
+        "PRO06",
+        "PRO04",
+        "PRO24",
+        "PRO25"
+      ]
+    }
+  },
+  "inputs": [
+    "08_证据索引与统计/interview_records.json",
+    "08_证据索引与统计/项目统一比较与阅读优先级.json",
+    "08_证据索引与统计/能力要求四类证据对照.json",
+    "08_证据索引与统计/candidate_cases.json",
+    "08_证据索引与统计/interview_topic_index.json"
+  ]
+}

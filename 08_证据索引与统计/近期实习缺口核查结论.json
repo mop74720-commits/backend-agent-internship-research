@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-23",
+  "scope": "近两年成功后端/Agent实习者的履历、本人项目与面经关联，非通用教程扩充。",
+  "search_rounds_completed": 2,
+  "rounds": [
+    {"round":1,"path":"公开搜索＋既有本人原帖和公开履历站","log":"近期实习缺口_检索第一轮.json","reading_log":"近期实习缺口_原始资料核读.json","finding":"Agent结果多为准备指南、期望简历或营销模板。公开履历Linsensn可读且链接本人项目，但作者明示仍在求实习，未取得已获岗证据；CSDN简历迭代文章遇521。CV07原文章主体本次未得，只返回外围热榜，CV09本次为标题空壳，保留先前阅读事实但不升级证据。"},
+    {"round":2,"path":"GitHub README定向检索＋筛选原始仓库","log":"近期实习缺口_检索第二轮.json","reading_log":"近期实习缺口_第二轮原文核读.json","finding":"读取三个具体原仓后，分别为FPGA/嵌入式方向求职工具与自述、Agent实习目标尚未实现、企业招聘帖；不满足本轮目标成功者关联，不增加候选人数。检索前30项不是全站穷尽。"}
+  ],
+  "decisions": [
+    {"url":"https://linsensn.github.io/","decision":"排除成功者统计，保留对照线索","reason":"公开专业履历和本人项目可读，但明示仍在寻求实习，没有已获岗结果，不因资料漂亮计为成功。"},
+    {"url":"https://blog.csdn.net/m0_45362454/article/details/144808692","decision":"待手动访问","reason":"HTTP521、正文未读，不由搜索摘要还原简历版本或录用结果。"},
+    {"url":"https://github.com/Destined-at-Dawn/career-breakthrough","decision":"不纳入核心样本","reason":"README自述2026春获得三份实习offer，其中明确FPGA应用工程师；其他公司/岗位与本人履历项目未核，不能替代大厂后端/Agent成功者证据。搜索摘要的两offer与当前README三offer也不作统一事实。"},
+    {"url":"https://github.com/sunson12/intern-finder","decision":"不纳入成功者","reason":"拿到实习offer是目标，README当前Offer为0，简历待填，不把目标算结果。"},
+    {"url":"https://github.com/lipeize127/ByteDance-RiskControl","decision":"不纳入成功者","reason":"这是招聘团队内推说明，未体现作者本人已获岗履历；不把招聘话术算求职自述。"}
+  ],
+  "new_qualifying_successful_internship_chains": 0,
+  "new_complete_resume_files": 0,
+  "gap": "未补到新的近期Agent正式SSP、本人可读履历、本人具体项目和本人面经的完整关系，也未取得新的可打包完整成功简历原件。",
+  "stop_reason": "两轮不同发现路径未新增满足缺口门槛的资料，本轮停止扩搜并保留具体未核链接；不能推断不存在更多。",
+  "privacy_and_execution": "仅记录必要专业归纳和原始入口；未保存联系方式、下载候选人完整CV、联系作者、付费或执行第三方项目。"
+}

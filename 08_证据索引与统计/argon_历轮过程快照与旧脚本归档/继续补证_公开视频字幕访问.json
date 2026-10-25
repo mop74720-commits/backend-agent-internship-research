@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-23",
+  "scope": "公开匿名元数据与字幕接口；不登录、不下载音视频",
+  "video_attempts": [
+    {
+      "url": "https://www.bilibili.com/video/BV1EFGs6YEZi/",
+      "bvid": "BV1EFGs6YEZi",
+      "video_watched": false,
+      "media_downloaded": false,
+      "subtitle_read": false,
+      "view_http_status": 412,
+      "reading_status": "未取得字幕；不按观看或正文计数"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV18J23BwEmT/",
+      "bvid": "BV18J23BwEmT",
+      "video_watched": false,
+      "media_downloaded": false,
+      "subtitle_read": false,
+      "view_http_status": 412,
+      "reading_status": "未取得字幕；不按观看或正文计数"
+    }
+  ]
+}

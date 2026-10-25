@@ -1,0 +1,280 @@
+CV28 | DavidHLP：近期后端实习完整履历与本人开源项目直接关联
+
+需求核对版 · 2026-10-24
+
+source_key：
+  DAVIDHLP_DIRECT_CV_CODE
+类别：
+  候选人资料
+原始来源：
+  https://davidhlp.github.io/about/
+方向与岗位：
+  后端开发实习
+履历材料形式：
+  完整公开HTML职业履历的脱敏专业模块转录
+资料形式：
+  完整公开HTML职业履历的脱敏专业模块转录
+事件时间／原文日期（依分类）：
+  2026.01–2026.06
+发表／来源日期：
+  2026-10-05T05:34:00Z
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2026.01–2026.06
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    2026-10-05T05:34:00Z
+  时间依据：
+    完整职业履历明确2026.01—06；雇主和服务客户分列
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    公开HTML正文及固定来源全部专业模块已读
+  实际观看视频：
+    否
+结果自述：
+  博彦科技后端实习，服务阿里云客户项目；非阿里直签，未分档
+逐项结果与档位：
+  - 公司：
+      博彦科技
+    方向与岗位：
+      后端开发实习生
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2026.01–2026.06
+    证据：
+      https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md
+    依据：
+      本人完整履历列实习时间、岗位和雇主；客户项目为阿里云专有云·安骑士主机安全
+    boundary：
+      客户不是雇主；不计阿里直签实习或SSP
+    企业独立验证：
+      否
+技术栈：
+  - Java
+  - Spring Boot
+  - Redis
+  - SQL
+  - 消息投递
+  - 缓存并发
+  - Arthas
+  - 容器排障
+本人项目与经历描述：
+  - name：
+      UltiCode
+    原始来源：
+      https://github.com/DavidHLP/UltiCode
+    依据：
+      固定履历L44–45点名并直接链接；正文称个人开源平台
+    直接关系：
+      直接点名本人项目
+  - name：
+      ResiCache
+    原始来源：
+      https://github.com/DavidHLP/ResiCache
+    依据：
+      固定履历L63–64点名并直接链接；正文称个人开源扩展
+    直接关系：
+      直接点名本人项目
+complete_redacted_cv_file_received：
+  是
+redacted_cv_local_file：
+  03_简历与候选人案例/核心后端履历_脱敏副本/DavidHLP_公开完整履历_脱敏转录.html
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_direct_named_project_or_contribution：
+  是
+personal_source_code_verified：
+  是
+has_confirmed_personal_interview_source：
+  是
+interview_evidence_ids：
+  - INT81
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md
+      direct_basis：
+        本人职业履历明确博彦雇主、阿里云客户、后端岗位与2026.01—06
+      直接关系：
+        直接点名
+      gap：
+        非阿里直签；任职限本人自述，档位未知
+  profile：
+    - 原始来源：
+        https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md
+      direct_basis：
+        全部公开专业模块；本地去联系方式转录副本
+      直接关系：
+        直接点名
+      gap：
+        不是已核投递版本
+  project：
+    - 原始来源：
+        https://github.com/DavidHLP/UltiCode/tree/d53b582e2fae32ef644642651086df0e5ed3163d
+      direct_basis：
+        完整履历直接点名并链接UltiCode；指定实现与测试已静态核读
+      直接关系：
+        直接点名
+      gap：
+        当前源码版本晚于实习，个人依赖和逐次贡献未全审
+    - 原始来源：
+        https://github.com/DavidHLP/ResiCache/tree/1ed3be36af0795a363d624d38de676c0d00b4cf7
+      direct_basis：
+        完整履历直接点名并链接ResiCache；指定实现与测试已静态核读
+      直接关系：
+        直接点名
+      gap：
+        当前源码版本晚于实习，个人依赖和逐次贡献未全审
+  interview：
+    - 原始来源：
+        https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md
+      direct_basis：
+        本人站原版自述两轮Java实习复盘
+      直接关系：
+        直接点名
+      gap：
+        公司、事件年和录用结果未知；与两仓仅主题对应，不绑定博彦录用
+来源归纳：
+  目前新增的直接履历→本人源码样本。业务项目和缓存扩展各有侧重，适合比较具体机制。
+阅读建议：
+  精读本人职责与两仓指定模块；实习与开源作品、面经时点分别核对。
+局限与静态风险：
+  - 雇主为博彦科技，不能冒称阿里直签大厂实习
+  - 任职与个人职责未企业独立核验
+  - 未披露SSP
+  - 现版项目含实习之后的实现，不证明求职当时水平
+  - 履历没有提供企业内部源码
+source_record：
+  discovery_key：
+    DavidHLP
+  作者：
+    贺恋棚 / DavidHLP
+  标题：
+    近期后端交付实习完整公开履历直接点名两个本人开源项目
+  原始来源：
+    https://davidhlp.github.io/about/
+  fixed_source：
+    原始来源：
+      https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md
+    http_status：
+      200
+    sha256：
+      7f00c4ee233fd67db151e7ccdca545315731b667f79445255f7564be70d2b2a1
+    lines：
+      147
+  source_repo：
+    DavidHLP/DavidHLP.github.io
+  source_sha：
+    f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64
+  source_commit_time：
+    2026-10-05T05:34:00Z
+  履历材料形式：
+    完整公开HTML职业履历的脱敏专业模块转录
+  professional_modules：
+    - 实习经历
+    - 项目经历
+    - 专业技能
+    - 教育背景
+    - 开源贡献与技术沉淀
+  reading_scope：
+    公开HTML正文及固定来源全部专业模块已读
+  local_path：
+    03_简历与候选人案例/核心后端履历_脱敏副本/DavidHLP_公开完整履历_脱敏转录.html
+  redacted_sha256：
+    759de2534c269df998c1b0d54a00793d893413654417cba61d1878e078594ee8
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_time：
+    2026.01–2026.06
+  近期归类：
+    近期确认（作者自述明确起止月）
+  结果自述：
+    employer：
+      博彦科技
+    方向与岗位：
+      后端开发实习生
+    client_project：
+      阿里云专有云·安骑士主机安全
+    employer_is_client：
+      否
+    employer_verified：
+      否
+    档位：
+      未披露
+    ssp：
+      否
+  internship_responsibilities：
+    - 集群GPU资源接入聚合
+    - AI资产识别相关后端逻辑
+    - SQL查询优化
+    - Arthas线上问题定位与回归
+    - containerd/Harbor TLS链排查
+  education：
+    洛阳师范学院，数据科学与大数据技术本科；原稿2021.09–2026.07
+  direct_project_links：
+    - name：
+        UltiCode
+      原始来源：
+        https://github.com/DavidHLP/UltiCode
+      依据：
+        固定履历L44–45点名并直接链接；正文称个人开源平台
+      直接关系：
+        直接点名本人项目
+    - name：
+        ResiCache
+      原始来源：
+        https://github.com/DavidHLP/ResiCache
+      依据：
+        固定履历L63–64点名并直接链接；正文称个人开源扩展
+      直接关系：
+        直接点名本人项目
+  privacy：
+    original_saved：
+      否
+    removed_contact_or_demographic_lines：
+      4
+    contact_pattern_after：
+      否
+    external_images：
+      0
+    professional_module_presence_checked：
+      是
+    visual_review：
+      桌面1050px/手机390px完整页渲染目视通过，5个专业模块可读，无横向溢出，无脚本错误
+  局限：
+    - 雇主为博彦科技，不能冒称阿里直签大厂实习
+    - 任职与个人职责未企业独立核验
+    - 未披露SSP
+    - 现版项目含实习之后的实现，不证明求职当时水平
+    - 履历没有提供企业内部源码
+  source_url：
+    https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md
+未建立或未核的关系：
+  - 非阿里直签；任职限本人自述，档位未知
+  - 不是已核投递版本
+  - 当前源码版本晚于实习，个人依赖和逐次贡献未全审
+  - 公司、事件年和录用结果未知；与两仓仅主题对应，不绑定博彦录用

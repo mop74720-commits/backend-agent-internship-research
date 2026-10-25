@@ -1,0 +1,232 @@
+JD26 | 腾讯云 Agent Runtime 校招与日常实习
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  腾讯云
+role_type：
+  Agent Infra；原文未明确；日常实习2028届及以后本科/研究生；每周至少4天，至少3个月
+原始来源：
+  https://www.nowcoder.com/discuss/932616763089383424
+publish_date：
+  原页只显示09-24 12:46，无年份
+retrieved_date：
+  2026-10-24
+source_type：
+  牛客招聘者原帖，企业任职身份为作者自述
+own_summary：
+  Agent生命周期、状态持久化、暂停恢复、弹性、工具网络；Sandbox快启/快照/隔离；跨应用、容器、MicroVM、网络存储调度定位生产问题。
+required_stack：
+  - Go/Rust/C/C++至少一种
+  - 数据结构/算法/OS
+  - Linux/网络/进程/文件系统
+  - Kubernetes/容器/分布式基础认知
+  - Agent实践兴趣
+  - 使用Coding Agent并独立验证代码方案
+  - 日志/Trace/实验定位，问题定义至实现验证
+preferred_stack：
+  - Kubernetes/Docker/containerd/Firecracker/Kata项目
+  - Agent/Sandbox/Serverless
+  - RL/Rollout/Harness/评测
+  - 开源/高质量本人项目
+  - 后端/中间件/Infra实习
+  - ACM/ICPC/CTF获奖
+degree_constraint：
+  2027届校招与2028届及以后日常实习分别列；本科/研究生，相关专业优先
+availability_constraint：
+  日常实习每周至少4天、连续至少3个月，尽快到岗优先；原文未明确工作地点
+recruiting_status：
+  原帖可读，未列截止日；日常实习优秀可获留用机会，非保证
+matrix_include：
+  是
+duties：
+  Agent生命周期、状态持久化、暂停恢复、弹性、工具网络；Sandbox快启/快照/隔离；跨应用、容器、MicroVM、网络存储调度定位生产问题。
+阅读建议：
+  对高质量个人项目给出很明确的证据要求：能从问题定义做到实验验证。
+局限：
+  不从2027/2028届或现年反推招聘发布时间；没有SSP承诺。
+原访问范围：
+  正文全文
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    校招/实习混合
+  事件时间：
+    原页只显示09-24 12:46，无年份
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    原页只显示09-24 12:46，无年份
+  时间依据：
+    年份未明，不按届次或当前年推定
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    职责、要求、资格及页表状态实际核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - Go/Rust/C/C++至少一种
+  - 数据结构/算法/OS
+  - Linux/网络/进程/文件系统
+  - Kubernetes/容器/分布式基础认知
+  - Agent实践兴趣
+  - 使用Coding Agent并独立验证代码方案
+  - 日志/Trace/实验定位，问题定义至实现验证
+  - Kubernetes/Docker/containerd/Firecracker/Kata项目
+  - Agent/Sandbox/Serverless
+  - RL/Rollout/Harness/评测
+  - 开源/高质量本人项目
+  - 后端/中间件/Infra实习
+  - ACM/ICPC/CTF获奖
+source_record：
+  source_id：
+    J08
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    腾讯云 Agent Runtime 校招与日常实习
+  原始来源：
+    https://www.nowcoder.com/discuss/932616763089383424
+  canonical_key：
+    nowcoder:post:932616763089383424
+  source_file：
+    01_岗位JD/J08.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      牛客招聘者原帖；身份为作者自述；页面显示09-24，年份未显示
+    岗位状态：
+      招聘帖可读，未列截止日；不能保证HC
+    方向与资格：
+      Agent Infra；原文未明确；日常实习2028届及以后本科/研究生；每周至少4天，至少3个月
+    明确要求：
+      Go/Rust/C++至少一门 / 数据结构算法OS/Linux / 容器/分布式基础 / 亲自开发并核验AI代码 / 日志Trace实验定位
+    加分项：
+      Kubernetes/容器/虚拟化 / Agent Sandbox/Serverless / RL Rollout/评测 / 开源/基础设施实习
+    工作摘要：
+      Agent生命周期、状态持久化、暂停恢复、隔离、快照与调度。
+    推荐理由：
+      对高质量个人项目给出很明确的证据要求：能从问题定义做到实验验证。
+    局限：
+      本文同时含2027校招与2028+日常实习，不能混为同一资格；未含SSP保证。
+  live_access：
+    状态：
+      200
+    标题：
+      腾讯云 Agent Runtime 校招 / 日常实习招聘，简历直达面试官【Agent Infra】_讨论帖_牛客网
+    原始来源：
+      https://ac.nowcoder.com/discuss/932616763089383424
+    已读部分：
+      职责、要求、资格及页表状态实际核读
+    已读定位正文全文：
+      是
+    professional_text：
+      我们在做什么
+我们在做 Agent Infra。场景包括大模型强化学习训练、Agentic Agent 构建和 Agent 提效。技术方向包括沙箱运行、工具调用、记忆技能、网络治理、身份凭证和编排调度，底层涉及 Kubernetes、容器、MicroVM、网络、存储和调度。
+目前支持 WorkBuddy、CodeBuddy、IMA、元宝等腾讯内部产品，也服务智谱、MiniMax 等 AI 客户的强化学习场景，承载数百万级 Sandbox。
+岗位职责
+参与 AgentRuntime 平台研发，支撑 WorkBuddy、ima、微信小微等腾讯核心 Agent 业务，与业务团队配合完成方案设计、研发接入、性能优化和生产落地；
+围绕对话式 Agent、常驻 Agent、长任务及多 Agent 等运行模式，参与建设生命周期管理、状态持久化、暂停恢复、弹性扩缩容、工具执行、网络访问，以及 Sandbox 快速启动、快照恢复、资源隔离等 Runtime 能力；
+参与核心业务生产环境中的问题排查与修复，能够跨应用、Kubernetes、容器、MicroVM、网络、存储和调度等多个层次定位并解决问题；
+从业务专项中识别共性需求，协助将一次性问题沉淀为 Agent Runtime 平台能力；
+我们希望你
+校园招聘｜【2027】届
+希望除了基础和兴趣之外，已经有一些实际项目能体现投入和能力，例如个人项目、开源贡献、实习、科研或长期投入形成的作品。
+【2027】届本科或研究生，计算机、软件工程、电子信息等相关专业优先。
+熟练掌握 Go、Rust、C/C++ 中至少一门语言，有扎实的数据结构、算法和操作系统基础。
+熟悉 Linux 常用操作，了解网络、进程、文件系统等基础原理；对 Kubernetes、容器或分布式系统有基本了解。
+对 Agent 有真实的兴趣，自己用过、做过或研究过 Agent，愿意深入沙箱、工具调用、记忆、身份凭证等 Agent Infra 问题。
+具备 AI Native 的工作方式，能借助 Coding Agent 学习和开发，能亲自 Build，也能独立判断 AI 生成的代码和方案是否正确。
+能通过代码、日志、Trace 和实验定位问题，结论有依据。
+保持 Builder 心态，能把一件事从问题定义、方案、实现推进到验证。
+我们也在招日常实习生。
+日常实习｜【2028】届
+更看重好奇心和动手能力。课程之外如果自己折腾过项目、读过源码、搭过环境，或写过一些未必「有用」、但你愿意花时间做的东西，都欢迎随简历一起发过来。
+【2028】届及以后毕业的本科或研究生，计算机、软件工程、电子信息等相关专业优先。
+熟练掌握 Go、Rust、C/C++ 中至少一门语言，有扎实的数据结构、算法和操作系统基础。
+熟悉 Linux 常用操作，了解网络、进程、文件系统等基础原理；对 Kubernetes、容器或分布式系统有基本了解，愿意深入学习云原生基础设施。
+对 Agent 有真实的兴趣，自己用过、做过或研究过 Agent，愿意深入沙箱、工具调用、记忆、身份凭证等 Agent Infra 问题。
+具备 AI Native 的工作方式，日常借助 Coding Agent 学习和开发，能亲自 Build，也能独立判断 AI 生成的代码和方案是否正确。
+能通过代码、日志、Trace 和实验定位问题，结论有依据。
+保持 Builder 心态，能把一件事从问题定义、方案、实现推进到验证，并主动同步进展。
+每周至少实习 4 天，连续实习 3 个月及以上，能尽快到岗者优先。
+加分项
+有 Kubernetes、Docker、containerd、Firecracker、Kata 等云原生或虚拟化技术的项目经验。
+做过 AI Agent、LLM 应用、Agent Sandbox、Serverless 相关的开发或研究。
+了解大模型强化学习和 RL Rollout，或接触过 Agent Harness、评测相关工作。
+参与过开源项目，或在 GitHub 上有高质量的个人项目。
+有后端服务、中间件或基础设施方向的实习经历。
+在 ACM/ICPC、CTF 等技术竞赛中获得过奖项。
+
+    text_sha256：
+      a28ad55b382c6288640c6a36c29c85d240f6ab81cfb68c7db6d680228d4f0549
+  方向：
+    Agent工程
+  required_stack：
+    - Go/Rust/C/C++至少一种
+    - 数据结构/算法/OS
+    - Linux/网络/进程/文件系统
+    - Kubernetes/容器/分布式基础认知
+    - Agent实践兴趣
+    - 使用Coding Agent并独立验证代码方案
+    - 日志/Trace/实验定位，问题定义至实现验证
+  preferred_stack：
+    - Kubernetes/Docker/containerd/Firecracker/Kata项目
+    - Agent/Sandbox/Serverless
+    - RL/Rollout/Harness/评测
+    - 开源/高质量本人项目
+    - 后端/中间件/Infra实习
+    - ACM/ICPC/CTF获奖
+  duties：
+    Agent生命周期、状态持久化、暂停恢复、弹性、工具网络；Sandbox快启/快照/隔离；跨应用、容器、MicroVM、网络存储调度定位生产问题。
+  degree_constraint：
+    2027届校招与2028届及以后日常实习分别列；本科/研究生，相关专业优先
+  availability_constraint：
+    日常实习每周至少4天、连续至少3个月，尽快到岗优先；原文未明确工作地点
+  publish_date：
+    原页只显示09-24 12:46，无年份
+  date_year_confirmed：
+    否
+  recruiting_status：
+    原帖可读，未列截止日；日常实习优秀可获留用机会，非保证
+  source_type：
+    牛客招聘者原帖，企业任职身份为作者自述
+  matrix_include：
+    是
+  阅读建议：
+    对高质量个人项目给出很明确的证据要求：能从问题定义做到实验验证。
+  局限：
+    不从2027/2028届或现年反推招聘发布时间；没有SSP承诺。
+  招聘类型：
+    校招/实习混合
+  source_date_basis：
+    年份未明，不按届次或当前年推定
+source_key：
+  ASTRA_J08_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J08
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

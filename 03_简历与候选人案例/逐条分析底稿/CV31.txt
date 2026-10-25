@@ -1,0 +1,257 @@
+CV31 | 黄一航：中科曙光Agent实习完整履历与本人项目
+
+需求核对版 · 2026-10-24
+
+source_key：
+  YIHANG_AGENT_INTERNSHIP
+类别：
+  候选人资料
+原始来源：
+  https://imyihang.com/
+方向与岗位：
+  Agent应用工程实习；另有AI产品实习
+事件时间／原文日期（依分类）：
+  中科曙光2025.12–2026.02；饭团外卖2024.11–2025.02
+发表／来源日期：
+  2026-10-23读取公开CV及主页；非投递时间
+履历材料形式：
+  完整公开PDF履历的脱敏专业模块副本
+资料形式：
+  完整专业履历脱敏副本
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    中科曙光Agent开发实习2025.12–2026.02；AI产品实习另列
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    公开版本读取2026-10-23
+  时间依据：
+    本人CV直接写实习起止年月
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    公开PDF全部专业模块已读；主页按履历、项目及直接链接核读；未调用网页AI分身
+  实际观看视频：
+    否
+结果自述：
+  本人CV明确Agent开发实习经历；SSP/SP未披露
+逐项结果与档位：
+  - 公司：
+      中科曙光
+    方向与岗位：
+      Agent开发实习生（RAG/多智能体方向）
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2025.12–2026.02
+    证据：
+      https://imyihang.com/api/resume
+    依据：
+      CV实习经历第一段：Dify HR Agent、企业RAG、SFT题目交叉验证及飞书质检
+    boundary：
+      产业企业应用工程经历；不改称互联网大厂SSP；指标为作者自述
+    企业独立验证：
+      否
+  - 公司：
+      饭团外卖
+    方向与岗位：
+      AI应用产品实习生
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2024.11–2025.02
+    证据：
+      https://imyihang.com/api/resume
+    依据：
+      CV第二段；产品评测和迭代职责
+    boundary：
+      产品经历单列，不当Agent研发录用或研发技术门槛
+    企业独立验证：
+      否
+技术栈：
+  - Python
+  - TypeScript
+  - Electron
+  - Dify
+  - RAG
+  - Tool Calling
+  - 多智能体
+  - Flask
+  - PostgreSQL
+本人项目与经历描述：
+  - name：
+      NoWorries
+    原始来源：
+      https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f
+    直接关系：
+      CV直接列仓库URL；OpenWork二次开发边界明确
+  - name：
+      Sprout
+    原始来源：
+      https://github.com/hlbbbbbbb/sprout/tree/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c
+    直接关系：
+      本人主页Sprout段直接链接；未在本次PDF中列出，不冒称投递项目
+  - name：
+      OpenClaw PR3064
+    原始来源：
+      https://github.com/openclaw/openclaw/pull/3064
+    直接关系：
+      主页直接链接，API核作者hlbbbbbbb及合并；仅核具体端点修复
+来源归纳：
+  完整CV有明确Agent实习时间和职责，且直接链接NoWorries；主页另链Sprout与合并PR。可研究调度、记忆及权限的真实实现差距；内部实习源码、本人面经和SSP仍缺。
+complete_redacted_cv_file_received：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+redacted_cv_local_file：
+  03_简历与候选人案例/核心后端履历_脱敏副本/黄一航_中科曙光Agent实习_公开完整简历_脱敏副本.pdf
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  是
+personal_source_code_verified：
+  是
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://imyihang.com/api/resume
+      direct_basis：
+        Agent实习的主体、职责及起止年月直接列于CV
+      gap：
+        仅本人履历自述；无SSP
+      直接关系：
+        直接点名
+  profile：
+    - 原始来源：
+        https://imyihang.com/api/resume
+      direct_basis：
+        教育、两段实习、项目与专业技能完整保留
+      gap：
+        公开现版，非求职当时投递版
+      直接关系：
+        直接点名
+  project：
+    - 原始来源：
+        https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f
+      direct_basis：
+        CV直接列NoWorries仓库；本包固定14文件选读
+      gap：
+        继承框架和独立贡献比例未审全；未运行
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://imyihang.com/
+      direct_basis：
+        主页Sprout段直接链接本人仓库
+      gap：
+        2026.07源码晚于2026.02实习结束，不倒推录用因果
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://github.com/openclaw/openclaw/pull/3064
+      direct_basis：
+        PR作者hlbbbbbbb、2026-01-28合并已由API核对
+      gap：
+        端点修复事实不证明整库均本人原创
+      直接关系：
+        直接点名
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        未定位本人公开求职面经
+      gap：
+        网页AI分身的FAQ不当真实面试
+      直接关系：
+        未建立
+局限与静态风险：
+  - 实习为产业Agent应用工程，互联网大厂目标仍需对照；未披露SSP。
+  - NoWorries基于OpenWork/OpenClaw等；只核指定路径及一项PR，不全归原创。
+  - 问答准确率、用时、订单与商业指标均为本人自述，测试及运行效果未复现。
+  - 主页演示窗口自称动画；AI分身FAQ不代表实际面经。
+  - Sprout为编排机制参考，当前未见持久化恢复或真实外部工具执行；NoWorries存在所读权限组件风险。
+阅读建议：
+  精读CV职责与本人代码关系；按项目机制及静态风险选读，独立核评测与贡献。
+source_record：
+  作者：
+    黄一航
+  source_url：
+    https://imyihang.com/api/resume
+  home：
+    https://imyihang.com/
+  附件：
+    原始来源：
+      https://imyihang.com/api/resume
+    source_status：
+      200
+    source_sha256：
+      602e6e7216f085ccb4a897b94f9cd449ea1632dd87e44bd2a54235a944ea7459
+    original_saved：
+      否
+    local_path：
+      03_简历与候选人案例/核心后端履历_脱敏副本/黄一航_中科曙光Agent实习_公开完整简历_脱敏副本.pdf
+    sha256：
+      f2fe9f32c5a208d0a1148d82a559d0b49436f117264876921a731e256c433139
+    bytes：
+      410226
+    pages：
+      1
+    professional_modules：
+      - 教育背景
+      - 实习经历
+      - 项目经历
+      - 专业技能
+    professional_text_unchanged_from_education：
+      是
+    privacy：
+      contact_regex_hits：
+        0
+      links：
+        0
+      images：
+        0
+      nonempty_metadata：
+
+      xml_metadata：
+        否
+    qa_image：
+      C:/Users/GW/.codex/visualizations/2026/10/23/01a16839-9742-7672-812b-1576a3dd064f/近期Agent补链_黄一航简历_第1页.png
+    packaging_type：
+      整理者制作的公开完整专业履历脱敏副本，非未经修改原件
+  professional_modules：
+    - 教育背景
+    - 实习经历
+    - 项目经历
+    - 专业技能
+  direct_source_relationship：
+    CV→NoWorries；主页→Sprout及PR3064
+  商业背景：
+    主页推广本人产品；PowerMyWeb开放Free/Pro订阅、ContractLens商业应用，具体收入未核
+未建立或未核的关系：
+  - 仅本人履历自述；无SSP
+  - 公开现版，非求职当时投递版
+  - 继承框架和独立贡献比例未审全；未运行
+  - 2026.07源码晚于2026.02实习结束，不倒推录用因果
+  - 端点修复事实不证明整库均本人原创
+  - 网页AI分身的FAQ不当真实面试

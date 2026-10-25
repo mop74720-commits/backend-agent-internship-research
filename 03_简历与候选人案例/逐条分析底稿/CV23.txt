@@ -1,0 +1,425 @@
+CV23 | 张恒华 / Henghua Zhang：近期实习完整公开履历脱敏副本
+
+需求核对版 · 2026-10-24
+
+source_key：
+  zhh2001
+原始来源：
+  https://zhh2001.github.io/resume
+方向与岗位：
+  后端实习
+履历材料形式：
+  完整公开HTML履历的脱敏专业模块副本
+资料形式：
+  完整公开HTML履历的脱敏专业模块副本
+结果自述：
+  本人完整履历明确实习公司、岗位和起止时间；档位未披露
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    莉莉丝游戏 2026.03–2026.06；上海简文私募基金 2025.09–2026.03；网易游戏 2026.09–至今
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    完整履历实习段直接标年月；非从届别/仓库日期推事件年
+  来源日期：
+    2026-10-22T09:31:51Z
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    固定源文件全部专业模块与公开HTML正文核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      莉莉丝游戏
+    方向与岗位：
+      Golang后端实习
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2026.03–2026.06
+    证据：
+      https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+    依据：
+      原稿实习经历与项目经历共同直接列出
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      上海简文私募基金
+    方向与岗位：
+      Golang全栈实习
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2025.09–2026.03
+    证据：
+      https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+    依据：
+      原稿实习经历直接列出；项目列LC-Event、LC-SBL及分析工具
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      网易游戏
+    方向与岗位：
+      游戏客户端实习
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2026.09–至今
+    证据：
+      https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+    依据：
+      原稿直接列出，非后端/Agent，不计对应成功样本
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+complete_redacted_cv_file_received：
+  是
+redacted_cv_local_file：
+  03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏副本.html
+技术栈：
+  —
+本人项目与经历描述：
+  - name：
+      LiLAC本地化平台
+    time：
+      2026.03–2026.06
+    方向与岗位：
+      Golang后端工程师
+    owner：
+      莉莉丝游戏
+    直接关系：
+      履历直接点名实习公司与本人角色
+    source_code：
+      未核／无
+    已读部分：
+      项目名称/时间/角色，不含实现细节
+    contribution_verified：
+      否
+  - name：
+      LC-Event交易平台
+    time：
+      2025.09–2026.03
+    方向与岗位：
+      Golang全栈工程师
+    owner：
+      简文投资
+    直接关系：
+      履历直接点名公司和本人角色
+    source_code：
+      未核／无
+    已读部分：
+      项目名称/时间/角色，不含实现细节
+    contribution_verified：
+      否
+  - name：
+      LC-SBL海外借券
+    time：
+      2025.09–2026.03
+    方向与岗位：
+      Python后端工程师
+    owner：
+      简文投资
+    直接关系：
+      履历直接点名公司和本人角色
+    source_code：
+      未核／无
+    已读部分：
+      项目名称/时间/角色，不含实现细节
+    contribution_verified：
+      否
+来源归纳：
+  可精读时间线与项目主体/角色的对应；无法从本材料分析项目实现深度。作为Go后端成功实习真实履历样本，比模板或仅offer自述更直接，但不能当作项目技术栈充分样本。
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+      direct_basis：
+        莉莉丝游戏 Golang后端实习 2026.03–2026.06
+      直接关系：
+        直接点名
+      gap：
+        本人公开履历自述，任职未企业独立核验，档位未披露
+    - 原始来源：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+      direct_basis：
+        上海简文私募基金 Golang全栈实习 2025.09–2026.03
+      直接关系：
+        直接点名
+      gap：
+        本人公开履历自述，任职未企业独立核验，档位未披露
+    - 原始来源：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+      direct_basis：
+        网易游戏 游戏客户端实习 2026.09–至今
+      直接关系：
+        直接点名
+      gap：
+        该段为客户端实习，不计后端/Agent实习证据
+  profile：
+    - 原始来源：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+      direct_basis：
+        固定来源完整专业模块；本地提供去联系方式副本
+      直接关系：
+        直接点名
+      gap：
+        副本不是未修改原件；不能证明是求职当时投递版本
+  project：
+    - 原始来源：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+      direct_basis：
+        履历直接点名实习公司与本人角色
+      直接关系：
+        直接点名
+      gap：
+        企业/个人实现仅按已核范围；无公开实现时不补参考框架，未运行
+    - 原始来源：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+      direct_basis：
+        履历直接点名公司和本人角色
+      直接关系：
+        直接点名
+      gap：
+        企业/个人实现仅按已核范围；无公开实现时不补参考框架，未运行
+    - 原始来源：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+      direct_basis：
+        履历直接点名公司和本人角色
+      直接关系：
+        直接点名
+      gap：
+        企业/个人实现仅按已核范围；无公开实现时不补参考框架，未运行
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        未定位本人公开求职面经；项目开发复盘单列
+      直接关系：
+        未建立
+      gap：
+        未定位本人公开求职面经；项目开发复盘单列
+阅读建议：
+  可精读时间线与项目主体/角色的对应；无法从本材料分析项目实现深度。作为Go后端成功实习真实履历样本，比模板或仅offer自述更直接，但不能当作项目技术栈充分样本。
+has_direct_named_project_or_contribution：
+  是
+personal_source_code_verified：
+  否
+direct_named_relationship_scope：
+  只表示本人履历/文档直接点名；不表示具体源码已审或求职因果成立
+局限与静态风险：
+  - 原稿技术技能主要列证书，没有详细技术栈能力分级
+  - 项目仅名称、角色和时间，没有职责与结果
+  - 企业项目未公开源码
+  - 无本人面经
+  - 无SSP档位
+  - 不是求职投递当时版本证明
+source_record：
+  key：
+    zhh2001
+  作者：
+    张恒华 / Henghua Zhang
+  方向：
+    后端
+  招聘类型：
+    实习
+  近期归类：
+    近期确认（作者明确起止时间，自述未企业核验）
+  原始来源：
+    https://zhh2001.github.io/resume
+  source_url：
+    https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+  仓库：
+    zhh2001/zhh2001.github.io
+  sha：
+    bdd665acc8d73c80aefc7260fdeeef598fabf48f
+  源码提交时间：
+    2026-10-22T09:31:51Z
+  source_status：
+    200
+  original_sha256：
+    f686c5f7d9f5cf124f45a29d8d18ad6fed910ed12b419db23ce4c3f687124842
+  original_saved：
+    否
+  履历材料形式：
+    完整公开HTML履历的脱敏专业模块副本
+  is_full_public_profile：
+    是
+  complete_as_published：
+    是
+  all_original_professional_modules_preserved：
+    - 教育背景
+    - 科研成果
+    - 学术服务
+    - 实习经历
+    - 获奖情况
+    - 技能证书
+    - 项目经历
+  local_html：
+    03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏副本.html
+  local_markdown：
+    03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏转录.md
+  redacted_html_sha256：
+    4a94d6692baabdee13188abc7b643f206210c853b38b4e743c3f61e5d0f2f5ba
+  redacted_markdown_sha256：
+    17ef5ed4ad97d8cbed36e9784d0c23e1f39bbb0552dc2a102fc406daea2a1e35
+  redaction：
+    removed_contact_lines：
+      3
+    removed_frontmatter：
+      是
+    email_phone_pattern_after：
+      否
+    external_images：
+      0
+    visual_review：
+      桌面1100px及手机390px浏览器渲染目视通过，7个专业模块齐全，无页面横向溢出，无脚本错误
+  逐项结果与档位：
+    - 公司：
+        莉莉丝游戏
+      方向与岗位：
+        Golang后端实习
+      time：
+        2026.03–2026.06
+      档位：
+        未披露
+      依据：
+        原稿实习经历与项目经历共同直接列出
+      project：
+        LiLAC本地化平台
+      证据：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+    - 公司：
+        上海简文私募基金
+      方向与岗位：
+        Golang全栈实习
+      time：
+        2025.09–2026.03
+      档位：
+        未披露
+      依据：
+        原稿实习经历直接列出；项目列LC-Event、LC-SBL及分析工具
+      证据：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+    - 公司：
+        网易游戏
+      方向与岗位：
+        游戏客户端实习
+      time：
+        2026.09–至今
+      档位：
+        未披露
+      依据：
+        原稿直接列出，非后端/Agent，不计对应成功样本
+      证据：
+        https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md
+  本人项目与经历描述：
+    - name：
+        LiLAC本地化平台
+      time：
+        2026.03–2026.06
+      方向与岗位：
+        Golang后端工程师
+      owner：
+        莉莉丝游戏
+      直接关系：
+        履历直接点名实习公司与本人角色
+      source_code：
+        未核／无
+      已读部分：
+        项目名称/时间/角色，不含实现细节
+      contribution_verified：
+        否
+    - name：
+        LC-Event交易平台
+      time：
+        2025.09–2026.03
+      方向与岗位：
+        Golang全栈工程师
+      owner：
+        简文投资
+      直接关系：
+        履历直接点名公司和本人角色
+      source_code：
+        未核／无
+      已读部分：
+        项目名称/时间/角色，不含实现细节
+      contribution_verified：
+        否
+    - name：
+        LC-SBL海外借券
+      time：
+        2025.09–2026.03
+      方向与岗位：
+        Python后端工程师
+      owner：
+        简文投资
+      直接关系：
+        履历直接点名公司和本人角色
+      source_code：
+        未核／无
+      已读部分：
+        项目名称/时间/角色，不含实现细节
+      contribution_verified：
+        否
+  enterprise_verified：
+    否
+  ssp_confirmed：
+    否
+  interview_material：
+    未核／无
+  阅读范围：
+    固定源文件全部专业模块与公开HTML正文核读
+  阅读建议：
+    可精读时间线与项目主体/角色的对应；无法从本材料分析项目实现深度。作为Go后端成功实习真实履历样本，比模板或仅offer自述更直接，但不能当作项目技术栈充分样本。
+  局限：
+    - 原稿技术技能主要列证书，没有详细技术栈能力分级
+    - 项目仅名称、角色和时间，没有职责与结果
+    - 企业项目未公开源码
+    - 无本人面经
+    - 无SSP档位
+    - 不是求职投递当时版本证明
+类别：
+  候选人资料
+事件时间／原文日期（依分类）：
+  莉莉丝游戏 2026.03–2026.06；上海简文私募基金 2025.09–2026.03；网易游戏 2026.09–至今
+发表／来源日期：
+  2026-10-22T09:31:51Z
+未建立或未核的关系：
+  - 本人公开履历自述，任职未企业独立核验，档位未披露
+  - 该段为客户端实习，不计后端/Agent实习证据
+  - 副本不是未修改原件；不能证明是求职当时投递版本
+  - 企业/个人实现仅按已核范围；无公开实现时不补参考框架，未运行
+  - 未定位本人公开求职面经；项目开发复盘单列
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_confirmed_personal_interview_source：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否

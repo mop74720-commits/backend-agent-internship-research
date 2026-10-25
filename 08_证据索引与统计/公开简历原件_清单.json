@@ -1,0 +1,2468 @@
+{
+  "checked_on": "2026-10-24",
+  "naming_rule": "方向+录用特征_作者_材料类型；SSP仅有自述则写SSP自述。",
+  "assets": [
+    {
+      "candidate_id": "CV01",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "source_article_url": "https://www.nowcoder.com/discuss/825498059369955328?toCommentId=22311081",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+SSP自述_通知服务与IM_简历片段原图.png",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+SSP自述_通知服务与IM_简历片段原图.png"
+      ],
+      "page_count": 1,
+      "image_size": [
+        730,
+        152
+      ],
+      "sha256": "a7b4cbcde61556fb957fa780fe6c3a3d5cb4432818cdf17fcfe46c0fab0034f4",
+      "matches_previously_downloaded_original": true,
+      "completeness": "实习简历片段",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+          "status": 200,
+          "final_url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+          "content_type": "image/png",
+          "bytes": 114128
+        }
+      ],
+      "format_origin": "文章原始图片"
+    },
+    {
+      "candidate_id": "CV06",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+      "source_article_url": "https://javabetter.cn/mianjing/quzjlsspdx.html",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+字节SSP自述_wasabi_简历片段原图.jpg",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+字节SSP自述_wasabi_简历片段原图.jpg"
+      ],
+      "page_count": 1,
+      "image_size": [
+        950,
+        334
+      ],
+      "sha256": "5a895c1e48aa471a550873544d490223feeb01abf1786319c57e83991a19c733",
+      "matches_previously_downloaded_original": true,
+      "completeness": "实习与开源简历片段",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+          "status": 200,
+          "final_url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+          "content_type": "image/jpeg",
+          "bytes": 32338
+        }
+      ],
+      "format_origin": "文章原始图片"
+    },
+    {
+      "candidate_id": "OBS11",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+      "source_article_url": "https://www.nowcoder.com/discuss/755767217509117952?sourceSSR=subject",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+录用未知_网盘与RPC_作者打码的一页简历原图.png",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+录用未知_网盘与RPC_作者打码的一页简历原图.png"
+      ],
+      "page_count": 1,
+      "image_size": [
+        792,
+        1121
+      ],
+      "sha256": "6b2e7d048620570e5b04052fbf66a6152603f04be64a7e11d7500576411cea43",
+      "matches_previously_downloaded_original": true,
+      "completeness": "公开一页简历，内部实习模块由作者打码；录用未知",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+          "status": 200,
+          "final_url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+          "content_type": "image/png",
+          "bytes": 458359
+        }
+      ],
+      "format_origin": "文章原始图片"
+    },
+    {
+      "candidate_id": "CV24",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+      "source_article_url": "https://huomalxq.github.io/resume/",
+      "local_file": "03_简历与候选人案例/公开简历原件/Agent工程+实习履历_林祥庆_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/Agent工程+实习履历_林祥庆_公开原版简历_第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "5b81955d82f3fe3d0d609ef29ac12dd9a734e75295927a2277a7e2def0438bf6",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 86052
+        }
+      ],
+      "format_origin": "作者原始PDF"
+    },
+    {
+      "candidate_id": "CV30",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://andrewtheterp.com/assets/download/resume.pdf",
+      "source_article_url": "https://andrewtheterp.com/",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+Agent+字节实习_AndrewWang_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/后端+Agent+字节实习_AndrewWang_公开原版简历_第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "d02ca839560e82487ded8b861dc4dbcbadb8986a9f6bf15d9d903e508709ab27",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://andrewtheterp.com/assets/download/resume.pdf",
+          "status": 200,
+          "final_url": "https://andrewtheterp.com/assets/download/resume.pdf",
+          "content_type": "application/pdf",
+          "bytes": 138686
+        }
+      ],
+      "format_origin": "作者原始PDF"
+    },
+    {
+      "candidate_id": "CV31",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://imyihang.com/api/resume",
+      "source_article_url": "https://imyihang.com/",
+      "local_file": "03_简历与候选人案例/公开简历原件/Agent+中科曙光实习_黄一航_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/Agent+中科曙光实习_黄一航_公开原版简历_第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "602e6e7216f085ccb4a897b94f9cd449ea1632dd87e44bd2a54235a944ea7459",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://imyihang.com/api/resume",
+          "status": 200,
+          "final_url": "https://imyihang.com/huang-yihang-resume.pdf",
+          "content_type": "application/pdf",
+          "bytes": 411302
+        }
+      ],
+      "format_origin": "作者原始PDF"
+    },
+    {
+      "candidate_id": "OBS05",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+      "source_article_url": "https://gty111.github.io/info/index.html",
+      "local_file": "03_简历与候选人案例/公开简历原件/大模型训练+研究对照_郭天宇_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/大模型训练+研究对照_郭天宇_公开原版简历_第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/大模型训练+研究对照_郭天宇_公开原版简历_第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "daa1b3aaac7287f0fda3af1c3faee1a68b7c1ed753e0ff683a42222bdc15fd42",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 40894
+        }
+      ],
+      "format_origin": "作者原始PDF"
+    },
+    {
+      "candidate_id": "OBS06",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+      "source_article_url": "https://zhongzhi660.github.io/personal_website/",
+      "local_file": "03_简历与候选人案例/公开简历原件/强化学习与多模态+研究对照_李忠智_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/强化学习与多模态+研究对照_李忠智_公开原版简历_第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/强化学习与多模态+研究对照_李忠智_公开原版简历_第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "fde3114ec04a7c6c6316ffe7530962bb6008525e704e7fd960af411de79bb472",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 164603
+        }
+      ],
+      "format_origin": "作者原始PDF"
+    },
+    {
+      "candidate_id": "OBS07",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+      "source_article_url": "https://zhang-henry.github.io/",
+      "local_file": "03_简历与候选人案例/公开简历原件/AI_Infra+研究对照_HanrongZhang_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/AI_Infra+研究对照_HanrongZhang_公开原版简历_第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/AI_Infra+研究对照_HanrongZhang_公开原版简历_第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "290a7ea7542f57ee2172b863be940fddf65b309017ba0e59b5884328f53b0b48",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 122114
+        }
+      ],
+      "format_origin": "作者原始PDF"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%86.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 53118,
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图1_投递版本未核.png",
+      "sha256": "50832328ee4419ea1d462f2f47aafccdb3805bcb74c99c9ad7288741e4201c7c",
+      "image_size": [
+        992,
+        476
+      ],
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV02",
+      "format_origin": "参考写法原图",
+      "original_url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%86.png",
+      "source_article_url": "https://github.com/viego1999/JavaWxy",
+      "identity_boundary": "README把4张PNG放在“简历可以参考如下写法”下；JPG含拼多多实习和本人wxy-rpc项目URL。不能将参考写法直接认证为作者实际SSP投递版，5图也不等于5份简历。PNG中的像素打码来自作者，文件保持原样。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图1_投递版本未核.png"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%860.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 109448,
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图2_投递版本未核.png",
+      "sha256": "ed630d4574068b143b95480005d02abb0b0b900acdc49e2cfdd17ffb944100f3",
+      "image_size": [
+        994,
+        347
+      ],
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV02",
+      "format_origin": "参考写法原图",
+      "original_url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%860.png",
+      "source_article_url": "https://github.com/viego1999/JavaWxy",
+      "identity_boundary": "README把4张PNG放在“简历可以参考如下写法”下；JPG含拼多多实习和本人wxy-rpc项目URL。不能将参考写法直接认证为作者实际SSP投递版，5图也不等于5份简历。PNG中的像素打码来自作者，文件保持原样。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图2_投递版本未核.png"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%861.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 123291,
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图3_投递版本未核.png",
+      "sha256": "c5279d60ea9428bea54daa895fc57371beb57bfa2c97aef29ea1d80914529368",
+      "image_size": [
+        992,
+        401
+      ],
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV02",
+      "format_origin": "参考写法原图",
+      "original_url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%861.png",
+      "source_article_url": "https://github.com/viego1999/JavaWxy",
+      "identity_boundary": "README把4张PNG放在“简历可以参考如下写法”下；JPG含拼多多实习和本人wxy-rpc项目URL。不能将参考写法直接认证为作者实际SSP投递版，5图也不等于5份简历。PNG中的像素打码来自作者，文件保持原样。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图3_投递版本未核.png"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%862.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 275464,
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图4_投递版本未核.png",
+      "sha256": "dd22ebb8e5fc47a6c7cd1dd1c62afc86db9ae7f9ca76b46e6a9fca22fc087c39",
+      "image_size": [
+        994,
+        692
+      ],
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV02",
+      "format_origin": "参考写法原图",
+      "original_url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%862.png",
+      "source_article_url": "https://github.com/viego1999/JavaWxy",
+      "identity_boundary": "README把4张PNG放在“简历可以参考如下写法”下；JPG含拼多多实习和本人wxy-rpc项目URL。不能将参考写法直接认证为作者实际SSP投递版，5图也不等于5份简历。PNG中的像素打码来自作者，文件保持原样。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图4_投递版本未核.png"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%86%E5%9B%BE%E7%89%87.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 650342,
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图5_投递版本未核.jpg",
+      "sha256": "9fbb5695f44344a5e3f13ebcda355791e9073e58b6d6bac911a55c06c3da39f7",
+      "image_size": [
+        1071,
+        1981
+      ],
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV02",
+      "format_origin": "参考写法原图",
+      "original_url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%86%E5%9B%BE%E7%89%87.jpg",
+      "source_article_url": "https://github.com/viego1999/JavaWxy",
+      "identity_boundary": "README把4张PNG放在“简历可以参考如下写法”下；JPG含拼多多实习和本人wxy-rpc项目URL。不能将参考写法直接认证为作者实际SSP投递版，5图也不等于5份简历。PNG中的像素打码来自作者，文件保持原样。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图5_投递版本未核.jpg"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/erdengk/erdengk/HEAD/presonal/resume.docx",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 59645,
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+SSP自述+开源贡献_erdengk_作者公开原稿.docx",
+      "sha256": "6eb2a4f7ff58eb483d3c98641f668d084417e3e515c9183357d5628f020f84fd",
+      "professional_keywords": [
+        "大学",
+        "Apache",
+        "2022",
+        "2023",
+        "2024",
+        "实习"
+      ],
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV05",
+      "format_origin": "作者原稿",
+      "original_url": "https://raw.githubusercontent.com/erdengk/erdengk/HEAD/presonal/resume.docx",
+      "source_article_url": "https://github.com/erdengk",
+      "identity_boundary": "profile README明确给出新简历链接，但新网页404。本人profile仓库公开presonal/resume.docx，内容为后端求职、网易/百度实习和GSoC经历，原稿含作者自行匿名占位字段。保留作者原DOCX；PDF是Word排版导出，不是作者原PDF，不能推定为2023正式投递版或2026 Agent最新稿。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "preview_files": []
+    },
+    {
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+SSP自述+开源贡献_erdengk_Word排版导出.pdf",
+      "url": "https://raw.githubusercontent.com/erdengk/erdengk/HEAD/presonal/resume.docx",
+      "source_http_status": 200,
+      "sha256": "4b142f2efdcaaa9b11586573108f1e4b97ecd204ce334a4e7b11d5a3e8957877",
+      "bytes": 173121,
+      "asset_kind": "作者DOCX的Word排版导出",
+      "additional_redaction": false,
+      "not_author_original_format": true,
+      "pages": 1,
+      "candidate_id": "CV05",
+      "format_origin": "DOCX排版导出",
+      "original_url": "https://raw.githubusercontent.com/erdengk/erdengk/HEAD/presonal/resume.docx",
+      "source_article_url": "https://github.com/erdengk",
+      "identity_boundary": "profile README明确给出新简历链接，但新网页404。本人profile仓库公开presonal/resume.docx，内容为后端求职、网易/百度实习和GSoC经历，原稿含作者自行匿名占位字段。保留作者原DOCX；PDF是Word排版导出，不是作者原PDF，不能推定为2023正式投递版或2026 Agent最新稿。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "page_count": 1,
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/后端+SSP自述+开源贡献_erdengk_Word排版导出_第1页.png"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dong03/dong03.github.io/HEAD/Chengbo_Dong_CV.pdf",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "local_file": "03_简历与候选人案例/公开简历原件/算法研究+SSP自述_dong03_公开原版简历.pdf",
+      "sha256": "d26c187eb6202707bd648503e9b63bfcc0a6eb26b0bc97ace8cac1a4a8b3cd45",
+      "pages": 2,
+      "bytes": 207899,
+      "professional_keywords": [
+        "Chengbo Dong",
+        "MVSS",
+        "Alibaba",
+        "Master",
+        "Research",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV13",
+      "format_origin": "作者原始PDF",
+      "original_url": "https://raw.githubusercontent.com/dong03/dong03.github.io/HEAD/Chengbo_Dong_CV.pdf",
+      "source_article_url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4",
+      "identity_boundary": "本人dong03.github.io主页同时直链Chengbo_Dong_CV.pdf及CV_Interview；PDF姓名/研究方向与主页一致。2页研究CV为算法对照材料，不是后端/Agent工程实习成功投递稿认证，也不直接证明SSP档位。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "page_count": 2,
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/算法研究+SSP自述_dong03_公开原版简历_第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/算法研究+SSP自述_dong03_公开原版简历_第2页.png"
+      ]
+    },
+    {
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器截图.png",
+      "url": "https://cyc2018.github.io/page.html",
+      "source_http_status": 200,
+      "sha256": "ea6a15efc86c3c94e08068cc1e146924a506e6d3a251dccb73aabf749f826973",
+      "bytes": 2788342,
+      "asset_kind": "作者实际网页的浏览器截图",
+      "additional_redaction": false,
+      "not_author_original_format": true,
+      "image_size": [
+        1280,
+        8846
+      ],
+      "candidate_id": "CV15",
+      "format_origin": "网页导出",
+      "original_url": "https://cyc2018.github.io/page.html",
+      "source_article_url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21",
+      "identity_boundary": "2018复盘原文直接称“个人简历”并链接本人站。https://cyc2018.github.io/和/page.html均200，站点仓库无明确作者原PNG/PDF。额外PNG和PDF忠实通过浏览器保存实际网页，不是作者原始附件，不证明为每次投递使用版。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器截图.png"
+      ]
+    },
+    {
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出.pdf",
+      "url": "https://cyc2018.github.io/page.html",
+      "source_http_status": 200,
+      "sha256": "d441a370a932a66c67aa5012057974f240e7e8d7c9b90e937aa067b16d4458e0",
+      "bytes": 1102602,
+      "asset_kind": "作者实际网页的浏览器PDF导出",
+      "additional_redaction": false,
+      "not_author_original_format": true,
+      "pages": 9,
+      "candidate_id": "CV15",
+      "format_origin": "网页导出",
+      "original_url": "https://cyc2018.github.io/page.html",
+      "source_article_url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21",
+      "identity_boundary": "2018复盘原文直接称“个人简历”并链接本人站。https://cyc2018.github.io/和/page.html均200，站点仓库无明确作者原PNG/PDF。额外PNG和PDF忠实通过浏览器保存实际网页，不是作者原始附件，不证明为每次投递使用版。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "page_count": 9,
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第2页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第3页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第4页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第5页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第6页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第7页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第8页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出_第9页.png"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/83a1a3bf881a5089002a7eea24d14e5ef34b2f51/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 130400,
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2022_原版简历.pdf",
+      "sha256": "e37ecda5b7859681b30e6143674d6f9e7bc79cbd278506ef677c24dc28437c99",
+      "pages": 1,
+      "version_date": "2022-03-10",
+      "version_boundary": "作者本人2022更新稿，不等同2019校招投递稿",
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV18",
+      "format_origin": "作者原始PDF",
+      "original_url": "https://raw.githubusercontent.com/IcyCC/AboutMe/83a1a3bf881a5089002a7eea24d14e5ef34b2f51/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+      "source_article_url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+      "identity_boundary": "2019秋招总结直接链接AboutMe/苏畅的简历.pdf；当前master404。通过该文件提交历史取得2019-08-24 fb1366f1版本1页PDF，与既有同commit TEX一致、含reimu/async项目。另保存2022-03-10更新版，分别标日期；不能把2022版倒推为2019投递稿。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "page_count": 1,
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/后端+SP与SSP自述+历史_IcyCC_2022_原版简历_第1页.png"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 4795,
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2019_作者原稿.tex",
+      "sha256": "e35590d3dfaca77bb19a18aa3652264e1a69c8c14290b526ee87d9427b900840",
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV18",
+      "format_origin": "作者原稿",
+      "original_url": "https://raw.githubusercontent.com/IcyCC/AboutMe/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex",
+      "source_article_url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+      "identity_boundary": "2019秋招总结直接链接AboutMe/苏畅的简历.pdf；当前master404。通过该文件提交历史取得2019-08-24 fb1366f1版本1页PDF，与既有同commit TEX一致、含reimu/async项目。另保存2022-03-10更新版，分别标日期；不能把2022版倒推为2019投递稿。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "preview_files": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2019_原版简历.pdf",
+      "sha256": "2272907b7e0629d391f5a475ad58dd7d17ca2ca06d11cd0b335abd993981d62e",
+      "bytes": 131674,
+      "pages": 1,
+      "version_date": "2019-08-24",
+      "version_boundary": "2019秋招复盘所链接仓库中的历史稿；不能独立证明每次正式投递均用此版",
+      "professional_keywords": [
+        "reimu",
+        "async",
+        "2018",
+        "实习",
+        "项目",
+        "技能"
+      ],
+      "asset_kind": "作者公开原件",
+      "additional_redaction": false,
+      "candidate_id": "CV18",
+      "format_origin": "作者原始PDF",
+      "original_url": "https://raw.githubusercontent.com/IcyCC/AboutMe/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+      "source_article_url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+      "identity_boundary": "2019秋招总结直接链接AboutMe/苏畅的简历.pdf；当前master404。通过该文件提交历史取得2019-08-24 fb1366f1版本1页PDF，与既有同commit TEX一致、含reimu/async项目。另保存2022-03-10更新版，分别标日期；不能把2022版倒推为2019投递稿。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "page_count": 1,
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/后端+SP与SSP自述+历史_IcyCC_2019_原版简历_第1页.png"
+      ]
+    },
+    {
+      "candidate_id": "CV23",
+      "status": "已导出作者公开网页",
+      "original_url": "https://zhh2001.github.io/resume",
+      "http_status": 200,
+      "material_type": "公开网页浏览器导出；不是作者原始PDF",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+实习履历_张恒华_网页履历_浏览器导出.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/后端+实习履历_张恒华_网页履历_浏览器导出_第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+实习履历_张恒华_网页履历_浏览器导出_第2页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+实习履历_张恒华_网页履历_浏览器导出_第3页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+实习履历_张恒华_网页履历_浏览器导出_第4页.png"
+      ],
+      "additional_redaction": false,
+      "format_origin": "网页导出",
+      "sha256": "d6410ea0b0800dfc7b4366a4a22468c14fbaccc17b8c66f7877e35a71193a887",
+      "page_count": 4
+    },
+    {
+      "candidate_id": "CV28",
+      "status": "已导出作者公开网页",
+      "original_url": "https://davidhlp.github.io/about/",
+      "http_status": 200,
+      "material_type": "公开网页浏览器导出；不是作者原始PDF",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+博彦实习_DavidHLP_网页履历_浏览器导出.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/后端+博彦实习_DavidHLP_网页履历_浏览器导出_第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+博彦实习_DavidHLP_网页履历_浏览器导出_第2页.png"
+      ],
+      "additional_redaction": false,
+      "format_origin": "网页导出",
+      "sha256": "4c9f4ed3d382440d318d22c32964d1366fd289ca22800db87bfcaf5a3144ab0a",
+      "page_count": 2
+    },
+    {
+      "candidate_id": "CV29",
+      "status": "已导出作者公开网页",
+      "original_url": "https://shufengc.dev/",
+      "http_status": 200,
+      "material_type": "公开网页浏览器导出；不是作者原始PDF",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第2页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第3页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第4页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第5页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第6页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第7页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第8页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第9页.png",
+        "03_简历与候选人案例/公开简历原件/预览/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出_第10页.png"
+      ],
+      "additional_redaction": false,
+      "format_origin": "网页导出",
+      "sha256": "b478e2c9e045c3171be0771e1c30ead2d7d5c405d16dda9377b415d3915729bc",
+      "page_count": 10
+    }
+  ],
+  "cases": {
+    "CV01": {
+      "candidate_id": "CV01",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "source_article_url": "https://www.nowcoder.com/discuss/825498059369955328?toCommentId=22311081",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+SSP自述_通知服务与IM_简历片段原图.png",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV01_原图预览.png"
+      ],
+      "page_count": 1,
+      "image_size": [
+        730,
+        152
+      ],
+      "sha256": "a7b4cbcde61556fb957fa780fe6c3a3d5cb4432818cdf17fcfe46c0fab0034f4",
+      "matches_previously_downloaded_original": true,
+      "completeness": "实习简历片段",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+          "status": 200,
+          "final_url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+          "content_type": "image/png",
+          "bytes": 114128
+        }
+      ]
+    },
+    "CV06": {
+      "candidate_id": "CV06",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+      "source_article_url": "https://javabetter.cn/mianjing/quzjlsspdx.html",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+字节SSP自述_wasabi_简历片段原图.jpg",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV06_原图预览.png"
+      ],
+      "page_count": 1,
+      "image_size": [
+        950,
+        334
+      ],
+      "sha256": "5a895c1e48aa471a550873544d490223feeb01abf1786319c57e83991a19c733",
+      "matches_previously_downloaded_original": true,
+      "completeness": "实习与开源简历片段",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+          "status": 200,
+          "final_url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+          "content_type": "image/jpeg",
+          "bytes": 32338
+        }
+      ]
+    },
+    "OBS11": {
+      "candidate_id": "OBS11",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+      "source_article_url": "https://www.nowcoder.com/discuss/755767217509117952?sourceSSR=subject",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+录用未知_网盘与RPC_作者打码的一页简历原图.png",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/OBS11_原图预览.png"
+      ],
+      "page_count": 1,
+      "image_size": [
+        792,
+        1121
+      ],
+      "sha256": "6b2e7d048620570e5b04052fbf66a6152603f04be64a7e11d7500576411cea43",
+      "matches_previously_downloaded_original": true,
+      "completeness": "公开一页简历，内部实习模块由作者打码；录用未知",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+          "status": 200,
+          "final_url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+          "content_type": "image/png",
+          "bytes": 458359
+        }
+      ]
+    },
+    "CV24": {
+      "candidate_id": "CV24",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+      "source_article_url": "https://huomalxq.github.io/resume/",
+      "local_file": "03_简历与候选人案例/公开简历原件/Agent工程+实习履历_林祥庆_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV24_原件第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "5b81955d82f3fe3d0d609ef29ac12dd9a734e75295927a2277a7e2def0438bf6",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 86052
+        }
+      ]
+    },
+    "CV30": {
+      "candidate_id": "CV30",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://andrewtheterp.com/assets/download/resume.pdf",
+      "source_article_url": "https://andrewtheterp.com/",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+Agent+字节实习_AndrewWang_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV30_原件第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "d02ca839560e82487ded8b861dc4dbcbadb8986a9f6bf15d9d903e508709ab27",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://andrewtheterp.com/assets/download/resume.pdf",
+          "status": 200,
+          "final_url": "https://andrewtheterp.com/assets/download/resume.pdf",
+          "content_type": "application/pdf",
+          "bytes": 138686
+        }
+      ]
+    },
+    "CV31": {
+      "candidate_id": "CV31",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://imyihang.com/api/resume",
+      "source_article_url": "https://imyihang.com/",
+      "local_file": "03_简历与候选人案例/公开简历原件/Agent+中科曙光实习_黄一航_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV31_原件第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "602e6e7216f085ccb4a897b94f9cd449ea1632dd87e44bd2a54235a944ea7459",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://imyihang.com/api/resume",
+          "status": 200,
+          "final_url": "https://imyihang.com/huang-yihang-resume.pdf",
+          "content_type": "application/pdf",
+          "bytes": 411302
+        }
+      ]
+    },
+    "OBS05": {
+      "candidate_id": "OBS05",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+      "source_article_url": "https://gty111.github.io/info/index.html",
+      "local_file": "03_简历与候选人案例/公开简历原件/大模型训练+研究对照_郭天宇_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/OBS05_原件第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/OBS05_原件第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "daa1b3aaac7287f0fda3af1c3faee1a68b7c1ed753e0ff683a42222bdc15fd42",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 40894
+        }
+      ]
+    },
+    "OBS06": {
+      "candidate_id": "OBS06",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+      "source_article_url": "https://zhongzhi660.github.io/personal_website/",
+      "local_file": "03_简历与候选人案例/公开简历原件/强化学习与多模态+研究对照_李忠智_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/OBS06_原件第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/OBS06_原件第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "fde3114ec04a7c6c6316ffe7530962bb6008525e704e7fd960af411de79bb472",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 164603
+        }
+      ]
+    },
+    "OBS07": {
+      "candidate_id": "OBS07",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+      "source_article_url": "https://zhang-henry.github.io/",
+      "local_file": "03_简历与候选人案例/公开简历原件/AI_Infra+研究对照_HanrongZhang_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/OBS07_原件第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/OBS07_原件第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "290a7ea7542f57ee2172b863be940fddf65b309017ba0e59b5884328f53b0b48",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 122114
+        }
+      ]
+    },
+    "CV02": {
+      "candidate_id": "CV02",
+      "title": "JavaWxy：作者学习路线、求职项目与面试自我介绍",
+      "source_article_url": "https://github.com/viego1999/JavaWxy",
+      "status": "已取得作者仓库公开图片；本人投递版关系未完全核定",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://github.com/viego1999/JavaWxy",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/viego1999/JavaWxy/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/viego1999",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%86.png",
+          "http_status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%860.png",
+          "http_status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%861.png",
+          "http_status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%862.png",
+          "http_status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%86%E5%9B%BE%E7%89%87.jpg",
+          "http_status": 200,
+          "content_type": "image/jpeg"
+        }
+      ],
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%86.png",
+          "http_status": 200,
+          "content_type": "image/png",
+          "bytes": 53118,
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图1_投递版本未核.png",
+          "sha256": "50832328ee4419ea1d462f2f47aafccdb3805bcb74c99c9ad7288741e4201c7c",
+          "image_size": [
+            992,
+            476
+          ],
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%860.png",
+          "http_status": 200,
+          "content_type": "image/png",
+          "bytes": 109448,
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图2_投递版本未核.png",
+          "sha256": "ed630d4574068b143b95480005d02abb0b0b900acdc49e2cfdd17ffb944100f3",
+          "image_size": [
+            994,
+            347
+          ],
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%861.png",
+          "http_status": 200,
+          "content_type": "image/png",
+          "bytes": 123291,
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图3_投递版本未核.png",
+          "sha256": "c5279d60ea9428bea54daa895fc57371beb57bfa2c97aef29ea1d80914529368",
+          "image_size": [
+            992,
+            401
+          ],
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%862.png",
+          "http_status": 200,
+          "content_type": "image/png",
+          "bytes": 275464,
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图4_投递版本未核.png",
+          "sha256": "dd22ebb8e5fc47a6c7cd1dd1c62afc86db9ae7f9ca76b46e6a9fca22fc087c39",
+          "image_size": [
+            994,
+            692
+          ],
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/viego1999/JavaWxy/master/asset/%E7%AE%80%E5%8E%86%E5%9B%BE%E7%89%87.jpg",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 650342,
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图5_投递版本未核.jpg",
+          "sha256": "9fbb5695f44344a5e3f13ebcda355791e9073e58b6d6bac911a55c06c3da39f7",
+          "image_size": [
+            1071,
+            1981
+          ],
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        }
+      ],
+      "identity_and_version_boundary": "README把4张PNG放在“简历可以参考如下写法”下；JPG含拼多多实习和本人wxy-rpc项目URL。不能将参考写法直接认证为作者实际SSP投递版，5图也不等于5份简历。PNG中的像素打码来自作者，文件保持原样。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV05": {
+      "candidate_id": "CV05",
+      "title": "erdengk：后端大SSP历史履历与2026 Agent方向更新",
+      "source_article_url": "https://github.com/erdengk",
+      "status": "已取得作者公开DOCX及本地PDF导出",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://github.com/erdengk",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/erdengk/erdengk/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/erdengk/erdengk.github.io/git/trees/HEAD?recursive=1",
+          "http_status": 404,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/erdengk",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "profile_readme",
+          "url": "https://raw.githubusercontent.com/erdengk/erdengk/HEAD/README.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "resume_page",
+          "url": "https://erdengk.github.io/cv/",
+          "http_status": 404,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/erdengk/erdengk/HEAD/presonal/resume.docx",
+          "http_status": 200,
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/erdengk/erdengk/HEAD/presonal/resume.docx",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 59645,
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+SSP自述+开源贡献_erdengk_作者公开原稿.docx",
+          "sha256": "6eb2a4f7ff58eb483d3c98641f668d084417e3e515c9183357d5628f020f84fd",
+          "professional_keywords": [
+            "大学",
+            "Apache",
+            "2022",
+            "2023",
+            "2024",
+            "实习"
+          ],
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        },
+        {
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+SSP自述+开源贡献_erdengk_Word排版导出.pdf",
+          "url": "https://raw.githubusercontent.com/erdengk/erdengk/HEAD/presonal/resume.docx",
+          "source_http_status": 200,
+          "sha256": "4b142f2efdcaaa9b11586573108f1e4b97ecd204ce334a4e7b11d5a3e8957877",
+          "bytes": 173121,
+          "asset_kind": "作者DOCX的Word排版导出",
+          "additional_redaction": false,
+          "not_author_original_format": true,
+          "pages": 1
+        }
+      ],
+      "identity_and_version_boundary": "profile README明确给出新简历链接，但新网页404。本人profile仓库公开presonal/resume.docx，内容为后端求职、网易/百度实习和GSoC经历，原稿含作者自行匿名占位字段。保留作者原DOCX；PDF是Word排版导出，不是作者原PDF，不能推定为2023正式投递版或2026 Agent最新稿。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV10": {
+      "candidate_id": "CV10",
+      "title": "CalvinNeo：腾讯SSP实习转正与三个本人C++项目",
+      "source_article_url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "status": "本轮未取得本人PNG/PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://www.nowcoder.com/discuss/353154880351182848",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/CalvinNeo/CalvinNeo/git/trees/HEAD?recursive=1",
+          "http_status": 404,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/CalvinNeo/CalvinNeo.github.io/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/CalvinNeo",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "about",
+          "url": "https://raw.githubusercontent.com/CalvinNeo/CalvinNeo.github.io/HEAD/about/index.html",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "repositories",
+          "url": "https://api.github.com/users/CalvinNeo/repos?per_page=100",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/CalvinNeo/resume/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "metadata",
+          "url": "https://api.github.com/repos/CalvinNeo/resume",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        }
+      ],
+      "assets": [],
+      "identity_and_version_boundary": "原牛客URL返回200但当前请求仅页面框架；本人博客仓库about页与公开仓库列表未见明确本人CV原件。CalvinNeo/resume是billryan/resume模板fork，只有模板TEX，未认成本人简历。未据此断言作者从未公开。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV11": {
+      "candidate_id": "CV11",
+      "title": "linyacool／林亚：历史SSP学习复盘与本人WebServer",
+      "source_article_url": "https://www.nowcoder.com/discuss/353154787879362560",
+      "status": "本轮未取得本人PNG/PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://www.nowcoder.com/discuss/353154787879362560",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/linyacool/linyacool/git/trees/HEAD?recursive=1",
+          "http_status": 404,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/linyacool/WebServer/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/linyacool",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "repositories",
+          "url": "https://api.github.com/users/linyacool/repos?per_page=100",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        }
+      ],
+      "assets": [],
+      "identity_and_version_boundary": "原牛客URL返回200但当前请求仅页面框架；本人WebServer README/完整树及公开仓库列表未找到明确本人简历文件。库中datum PNG是项目架构/测试图，不是简历。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV12": {
+      "candidate_id": "CV12",
+      "title": "muluoleiguo：2021秋招SSP自述与Muluo系统库项目材料",
+      "source_article_url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1",
+      "status": "本轮未取得本人PNG/PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://raw.githubusercontent.com/muluoleiguo/interview/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/muluoleiguo/interview/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/muluoleiguo",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "repositories",
+          "url": "https://api.github.com/users/muluoleiguo/repos?per_page=100",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        }
+      ],
+      "assets": [],
+      "identity_and_version_boundary": "已读interview README、递归树与本人公开仓库列表。树中大量PDF是课程讲义和教材，未发现明确本人CV文件；不把教材PDF当简历。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV13": {
+      "candidate_id": "CV13",
+      "title": "dong03：历史CV/多模态SSP自述、协作面经与同账号研究项目",
+      "source_article_url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4",
+      "status": "已取得作者主页直链的公开PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://raw.githubusercontent.com/dong03/CV_Interview/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/dong03/CV_Interview/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/dong03",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "repositories",
+          "url": "https://api.github.com/users/dong03/repos?per_page=100",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/dong03/dong03.github.io/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "metadata",
+          "url": "https://api.github.com/repos/dong03/dong03.github.io",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "homepage",
+          "url": "https://dong03.github.io/",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "pathway": "pdf",
+          "url": "https://raw.githubusercontent.com/dong03/dong03.github.io/HEAD/Chengbo_Dong_CV.pdf",
+          "http_status": 200,
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/dong03/dong03.github.io/HEAD/Chengbo_Dong_CV.pdf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "local_file": "03_简历与候选人案例/公开简历原件/算法研究+SSP自述_dong03_公开原版简历.pdf",
+          "sha256": "d26c187eb6202707bd648503e9b63bfcc0a6eb26b0bc97ace8cac1a4a8b3cd45",
+          "pages": 2,
+          "bytes": 207899,
+          "professional_keywords": [
+            "Chengbo Dong",
+            "MVSS",
+            "Alibaba",
+            "Master",
+            "Research",
+            "2020",
+            "2021",
+            "2022"
+          ],
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        }
+      ],
+      "identity_and_version_boundary": "本人dong03.github.io主页同时直链Chengbo_Dong_CV.pdf及CV_Interview；PDF姓名/研究方向与主页一致。2页研究CV为算法对照材料，不是后端/Agent工程实习成功投递稿认证，也不直接证明SSP档位。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV14": {
+      "candidate_id": "CV14",
+      "title": "mio4：历史Java后端SP/SSP自述、本人实习面经与综合笔记",
+      "source_article_url": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32",
+      "status": "本轮未取得本人PNG/PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://raw.githubusercontent.com/mio4/Java-Gold/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/mio4/Java-Gold/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/mio4",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "resume_guidance",
+          "url": "https://raw.githubusercontent.com/mio4/Java-Gold/HEAD/02-resume/README.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "repositories",
+          "url": "https://api.github.com/users/mio4/repos?per_page=100",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/mio4/mio4.github.io/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "metadata",
+          "url": "https://api.github.com/repos/mio4/mio4.github.io",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "about",
+          "url": "https://raw.githubusercontent.com/mio4/mio4.github.io/HEAD/page/3about.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        }
+      ],
+      "assets": [],
+      "identity_and_version_boundary": "已查Java-Gold README和02-resume/README、完整树、本人博客about页和公开仓库列表。02-resume是写法说明，README的“简历模板”链接为空；2019-campus PDF是面经/知识总结，不是简历。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV15": {
+      "candidate_id": "CV15",
+      "title": "CyC2018：2018头条后台SSP、本人多轮面试复盘与可读公开HTML履历页",
+      "source_article_url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md#L11-L21",
+      "status": "公开HTML履历可读；另有浏览器截图及PDF导出",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://raw.githubusercontent.com/CyC2018/CS-Notes/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/CyC2018/CyC2018.github.io/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/CyC2018",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "resume_page",
+          "url": "https://cyc2018.github.io/page.html",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "pathway": "resume_home",
+          "url": "https://cyc2018.github.io/",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8"
+        }
+      ],
+      "assets": [
+        {
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器截图.png",
+          "url": "https://cyc2018.github.io/page.html",
+          "source_http_status": 200,
+          "sha256": "ea6a15efc86c3c94e08068cc1e146924a506e6d3a251dccb73aabf749f826973",
+          "bytes": 2788342,
+          "asset_kind": "作者实际网页的浏览器截图",
+          "additional_redaction": false,
+          "not_author_original_format": true,
+          "image_size": [
+            1280,
+            8846
+          ]
+        },
+        {
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出.pdf",
+          "url": "https://cyc2018.github.io/page.html",
+          "source_http_status": 200,
+          "sha256": "d441a370a932a66c67aa5012057974f240e7e8d7c9b90e937aa067b16d4458e0",
+          "bytes": 1102602,
+          "asset_kind": "作者实际网页的浏览器PDF导出",
+          "additional_redaction": false,
+          "not_author_original_format": true,
+          "pages": 9
+        }
+      ],
+      "identity_and_version_boundary": "2018复盘原文直接称“个人简历”并链接本人站。https://cyc2018.github.io/和/page.html均200，站点仓库无明确作者原PNG/PDF。额外PNG和PDF忠实通过浏览器保存实际网页，不是作者原始附件，不证明为每次投递使用版。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": "https://cyc2018.github.io/page.html"
+    },
+    "CV16": {
+      "candidate_id": "CV16",
+      "title": "LittleChild：地平线SSP与本人多轮面经，属自动驾驶算法邻近参考",
+      "source_article_url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251",
+      "status": "本轮未取得本人PNG/PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://raw.githubusercontent.com/LittleChild/Preparation-For-OFFER/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/LittleChild/Preparation-For-OFFER/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/LittleChild",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "repositories",
+          "url": "https://api.github.com/users/LittleChild/repos?per_page=100",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        }
+      ],
+      "assets": [],
+      "identity_and_version_boundary": "已查Preparation-For-OFFER全文和完整树、本人公开仓库列表；面经提到简历项目，但未发现原简历附件/本人履历下载链接。算法邻近样本不补写为工程候选人。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV18": {
+      "candidate_id": "CV18",
+      "title": "IcyCC：2019后端SP/SSP自述、历史履历与本人项目组合",
+      "source_article_url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+      "status": "已从历史提交取得本人公开PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://raw.githubusercontent.com/IcyCC/effective_note/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/IcyCC/AboutMe/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/IcyCC",
+          "http_status": 406,
+          "content_type": "text/html"
+        },
+        {
+          "pathway": "pdf_current",
+          "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/master/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+          "http_status": 404,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "pdf_history",
+          "url": "https://api.github.com/repos/IcyCC/AboutMe/commits?path=%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf&per_page=100",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/83a1a3bf881a5089002a7eea24d14e5ef34b2f51/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+          "http_status": 200,
+          "content_type": "application/octet-stream"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "asset",
+          "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+          "http_status": 200,
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "assets": [
+        {
+          "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/83a1a3bf881a5089002a7eea24d14e5ef34b2f51/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 130400,
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2022_原版简历.pdf",
+          "sha256": "e37ecda5b7859681b30e6143674d6f9e7bc79cbd278506ef677c24dc28437c99",
+          "pages": 1,
+          "version_date": "2022-03-10",
+          "version_boundary": "作者本人2022更新稿，不等同2019校招投递稿",
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8",
+          "bytes": 4795,
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2019_作者原稿.tex",
+          "sha256": "e35590d3dfaca77bb19a18aa3652264e1a69c8c14290b526ee87d9427b900840",
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/IcyCC/AboutMe/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "local_file": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2019_原版简历.pdf",
+          "sha256": "2272907b7e0629d391f5a475ad58dd7d17ca2ca06d11cd0b335abd993981d62e",
+          "bytes": 131674,
+          "pages": 1,
+          "version_date": "2019-08-24",
+          "version_boundary": "2019秋招复盘所链接仓库中的历史稿；不能独立证明每次正式投递均用此版",
+          "professional_keywords": [
+            "reimu",
+            "async",
+            "2018",
+            "实习",
+            "项目",
+            "技能"
+          ],
+          "asset_kind": "作者公开原件",
+          "additional_redaction": false
+        }
+      ],
+      "identity_and_version_boundary": "2019秋招总结直接链接AboutMe/苏畅的简历.pdf；当前master404。通过该文件提交历史取得2019-08-24 fb1366f1版本1页PDF，与既有同commit TEX一致、含reimu/async项目。另保存2022-03-10更新版，分别标日期；不能把2022版倒推为2019投递稿。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV19": {
+      "candidate_id": "CV19",
+      "title": "鱼皮／liyupi：腾讯实习转正SSP自述，求职当时项目仍待核",
+      "source_article_url": "https://www.codefather.cn/course/yupi",
+      "status": "本轮未取得本人PNG/PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://www.codefather.cn/course/yupi",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/liyupi/liyupi/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/liyupi/yupi-skill/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/liyupi",
+          "http_status": 406,
+          "content_type": "text/html"
+        }
+      ],
+      "assets": [],
+      "identity_and_version_boundary": "已核当前本人介绍页及liyupi profile、yupi-skill公开仓库树。简历产品/教程入口不是本人求职原件，不能以其代替作者简历；本人当年求职原件仍待可核公开链接。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV20": {
+      "candidate_id": "CV20",
+      "title": "鬼卞：2019字节SSP来稿，GSoC与数据库比赛项目经历",
+      "source_article_url": "https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30",
+      "status": "本轮未取得来稿作者PNG/PDF",
+      "checked_at": "2026-10-24",
+      "attempts": [
+        {
+          "pathway": "original",
+          "url": "https://raw.githubusercontent.com/puge-up/programming-play/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md",
+          "http_status": 200,
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "pathway": "tree",
+          "url": "https://api.github.com/repos/puge-up/programming-play/git/trees/HEAD?recursive=1",
+          "http_status": 200,
+          "content_type": "application/json; charset=utf-8"
+        },
+        {
+          "pathway": "profile",
+          "url": "https://github.com/puge-up",
+          "http_status": 406,
+          "content_type": "text/html"
+        }
+      ],
+      "assets": [],
+      "identity_and_version_boundary": "已查署名鬼卞的完整来稿与收录仓库树/文内全部图片上下文。正文图片标注西班牙/广州/广州微信，为生活和实习照片；无原简历下载。puge-up是收录者，不能当鬼卞本人账号，未以收录者材料冒充作者简历。",
+      "outcome_boundary": "录用档位、岗位、年份仍沿用既有逐条证据；取得简历附件本身不新增或提升offer档位证据。",
+      "resume_web_url": ""
+    },
+    "CV03": {
+      "candidate_id": "CV03",
+      "author": "Richard奇",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "本轮检查的本人秋招总结只有2张表情图；正文“简历”段是模板/交流群指引，没有公开PDF或本人简历图片直链。本人主页第1页职业相关文章展示区也未取得合格简历原件。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/832657601983688704",
+          "final_url": "https://ac.nowcoder.com/discuss/1602822",
+          "http_status": 200,
+          "title": "26届双非本鼠硕拿下5个ssp的秋招总结及一条龙经验分享_讨论帖_牛客网",
+          "route": "路径1：原始求职总结",
+          "actual_scope": "公开正文全文及2张正文配图逐张检查；未采评论区或推荐区图片。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/273840892?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/273840892?contentPage=1",
+          "http_status": 200,
+          "title": null,
+          "route": "路径2：原作者主页",
+          "actual_scope": "本人公开主页第1页的文章标题、职业相关文章展示段和公开链接；不是读遍历史。",
+          "error": null
+        }
+      ],
+      "image_checks": {
+        "inspected": 2,
+        "reason": "2张表情图，不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    "CV04": {
+      "candidate_id": "CV04",
+      "author": "CodeBreaker",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "原成长长文有15张正文图片，实际是offer截图拼图、成绩、学习截图和日常/物品照片，未发现本人简历PNG/PDF。已从原文署名直接进入本人主页，主页可读职业发帖主要回指同一篇，未提供附件。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/753246853839269888",
+          "final_url": "https://ac.nowcoder.com/discuss/1508200",
+          "http_status": 200,
+          "title": "【双非本】上岸字节后端 | 接单 | 奖学金 | 做自媒体，分享下主包的大学四年 ✨🎓_讨论帖_牛客网",
+          "route": "路径1：原始成长长文",
+          "actual_scope": "正文全文和15张正文配图逐张检查；只检查文章内配图，不取推荐图。",
+          "error": null
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/922204324",
+          "final_url": "https://ac.nowcoder.com/profile/922204324",
+          "http_status": 200,
+          "title": "CodeBreaker - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页",
+          "actual_scope": "原文直接署名对应本人主页；职业发帖及公开链接检查。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/922204324?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/922204324?contentPage=1",
+          "http_status": 200,
+          "title": null,
+          "route": "访问状态补记",
+          "actual_scope": "请求返回通用动态空壳；随后用ac/profile入口读到真实主页。",
+          "error": null
+        }
+      ],
+      "image_checks": {
+        "inspected": 15,
+        "reason": "offer截图拼图、成绩、学习/社交截图及日常照片均不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    "CV07": {
+      "candidate_id": "CV07",
+      "author": "等闲king",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "2025年终总结的2张正文附件是开源交流聊天截屏和游戏段位图；正文没有简历附件。本人公开主页第1、2页的职业相关文章导航未见简历发布帖或本人CV直链。旧文章明确已删除，不能用删除页的推广图补简历。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d",
+          "final_url": "https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d",
+          "http_status": 200,
+          "title": "很高兴能在牛客帮助你-2025年终总结_牛客网",
+          "route": "路径1：原始总结普通访问",
+          "actual_scope": "普通HTTP只返回标题/动态空壳。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d?sourceSSR=dynamic",
+          "http_status": 200,
+          "title": "很高兴能在牛客帮助你-2025年终总结_牛客网",
+          "route": "路径1：原始总结浏览器补读",
+          "actual_scope": "真实浏览器恢复原帖正文；公开moment-data响应核到2张正文附件，均逐张目视。"
+        },
+        {
+          "url": "https://ac.nowcoder.com/discuss/1650061?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+          "final_url": "https://ac.nowcoder.com/discuss/1650061?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+          "http_status": 200,
+          "title": "来晚一步，这篇文章已经删除了_牛客网",
+          "route": "原支持链接",
+          "actual_scope": "HTTP200但页面明确“文章已被作者删除”，未获正文。",
+          "error": null
+        },
+        {
+          "url": "https://ac.nowcoder.com/users/46925511?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/46925511?contentPage=1",
+          "http_status": 200,
+          "title": "等闲king - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页",
+          "actual_scope": "本人公开主页第1页的文章标题、职业相关文章展示段和公开链接。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/46925511?contentPage=2",
+          "http_status": 200,
+          "title": "等闲king - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页第2页",
+          "actual_scope": "本人公开主页第2页职业相关文章标题/展示段和公开链接；非全历史搜索。"
+        }
+      ],
+      "image_checks": {
+        "inspected": 2,
+        "reason": "开源交流聊天截图与游戏段位图，不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    "CV08": {
+      "candidate_id": "CV08",
+      "author": "JIWOO担",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "浏览器和页面公开接口恢复原帖：只有1张“商汤大模型算法应用实习面经（已offer）”封面，不是CV。本人主页显示多篇求职面经、实习项目叙述，无公开简历图片/PDF直链。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79",
+          "final_url": "https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79",
+          "http_status": 200,
+          "title": "商汤大模型算法应用实习面经（已offer）_牛客网",
+          "route": "路径1：原帖普通访问",
+          "actual_scope": "普通HTTP只返回标题/动态空壳。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79?sourceSSR=dynamic",
+          "http_status": 200,
+          "title": "商汤大模型算法应用实习面经（已offer）_牛客网",
+          "route": "路径1：原帖浏览器补读",
+          "actual_scope": "真实浏览器正文全文；原帖moment-data只含1张正文附件，目视确认为面经封面。"
+        },
+        {
+          "url": "https://www.nowcoder.com/users/167831313?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/167831313?contentPage=1",
+          "http_status": 200,
+          "title": "JIWOO担 - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页",
+          "actual_scope": "原帖公开署名直接对应本人主页第1页，检查职业相关文章展示段与附件/外链；没有将推荐区其他人的图计为本人材料。",
+          "error": null
+        }
+      ],
+      "image_checks": {
+        "inspected": 1,
+        "reason": "面经标题封面，不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    "CV09": {
+      "candidate_id": "CV09",
+      "author": "Whitea029",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "原帖的唯一正文图片是腾讯offer邮件截图，不是简历。本人主页可见腾讯、快手和华为云求职帖，公开导航没有简历附件或本人项目/CV直链。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "final_url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "http_status": 200,
+          "title": "27双非本—腾讯IEG游戏安全后台实习面经_牛客网",
+          "route": "路径1：原帖普通访问",
+          "actual_scope": "普通HTTP只返回标题/动态空壳。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "http_status": 200,
+          "title": "27双非本—腾讯IEG游戏安全后台实习面经_牛客网",
+          "route": "路径1：原帖浏览器补读",
+          "actual_scope": "真实浏览器正文全文；公开moment-data只含1张正文附件，目视确认为offer邮件。"
+        },
+        {
+          "url": "https://www.nowcoder.com/users/536303060?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/536303060?contentPage=1",
+          "http_status": 200,
+          "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+          "route": "路径2：主页普通访问",
+          "actual_scope": "普通HTTP返回通用动态空壳。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/536303060?contentPage=1",
+          "http_status": 200,
+          "title": "Whitea029 - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页浏览器补读",
+          "actual_scope": "真实浏览器恢复本人公开主页，检查三篇职业求职帖展示段、配图归属与外链；没有简历发布帖/附件。"
+        }
+      ],
+      "image_checks": {
+        "inspected": 1,
+        "reason": "腾讯offer邮件截图，不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    "CV17": {
+      "candidate_id": "CV17",
+      "author": "码间烟火录／小烟",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "已检查牛客两篇SSP总结的23张正文图片并对照掘金本人同文：包含offer邮件、学习截图、思维导图、表情和场景照片，没有简历。本人牛客主页可读后，职业文章导航仍回指上述总结和技术文；未提供本人CV/仓库附件。",
+      "checks": [
+        {
+          "url": "https://juejin.cn/post/7461269186713321491",
+          "final_url": "https://juejin.cn/post/7461269186713321491",
+          "http_status": 200,
+          "title": "我的秋招ssp总结（一）211本985硕，秋招拿到多个大厂研发ssp，总结秋招面试经验～并且毕业论文盲审顺利通过，传播好 - 掘金",
+          "route": "路径1：跨站本人求职复盘",
+          "actual_scope": "掘金正文及正文配图链接，与牛客本人原文关系由已有证据支持；未抓评论和推荐图。",
+          "error": null
+        },
+        {
+          "url": "https://ac.nowcoder.com/discuss/710535736860180480",
+          "final_url": "https://ac.nowcoder.com/discuss/1452352",
+          "http_status": 200,
+          "title": "我的秋招ssp总结（一）_讨论帖_牛客网",
+          "route": "路径1：牛客本人总结（一）",
+          "actual_scope": "第一篇正文全文及9张正文配图逐张目视；疑似履历长图放大后实际是offer邮件清单。",
+          "error": null
+        },
+        {
+          "url": "https://ac.nowcoder.com/discuss/712641117967093760",
+          "final_url": "https://ac.nowcoder.com/discuss/1453184",
+          "http_status": 200,
+          "title": "我的秋招ssp总结（二）_讨论帖_牛客网",
+          "route": "路径1：牛客本人总结（二）",
+          "actual_scope": "第二篇正文全文及14张正文配图逐张目视；简历书写部分是文字建议，配图是表情/思维导图。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/751052086?contentPage=1",
+          "http_status": 200,
+          "title": "码间烟火录 - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页",
+          "actual_scope": "真实浏览器恢复本人主页第1页，职业文章标题/展示段及附件外链检查，未发现本人CV。"
+        }
+      ],
+      "image_checks": {
+        "inspected": 23,
+        "reason": "offer邮件、学习/社交截图、思维导图、表情及场景照片；不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    "CV21": {
+      "candidate_id": "CV21",
+      "author": "DreamCats",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "既有本人面经文件和资料仓README没有CV附件。本人GitHub用户API直接链接博客；公开java-notes固定版本完整树未见“简历/resume/.pdf/.doc”路径，README未见简历/PDF链接。本人博客TLS连接失败，不能确认站内是否另有简历。",
+      "checks": [
+        {
+          "url": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+          "final_url": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+          "http_status": 200,
+          "title": "java-notes/Java/mianjing/my字节.md at c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c · DreamCats/java-notes · GitHub",
+          "route": "路径1：原始本人面经",
+          "actual_scope": "既有本人字节面经文件公开页面复核，未见CV附件。",
+          "error": null
+        },
+        {
+          "url": "https://api.github.com/repos/DreamCats/java-notes/git/trees/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c?recursive=1",
+          "final_url": "https://api.github.com/repos/DreamCats/java-notes/git/trees/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c?recursive=1",
+          "http_status": 200,
+          "title": "",
+          "route": "路径1：本人资料仓文件树",
+          "actual_scope": "本人java-notes固定版本recursive tree完整扫描文件路径，不含简历/resume/PDF/DOC；不是以第三方项目冒充个人简历。",
+          "error": null
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DreamCats/java-notes/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md",
+          "final_url": "https://raw.githubusercontent.com/DreamCats/java-notes/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md",
+          "http_status": 200,
+          "title": "",
+          "route": "路径1：本人资料仓README",
+          "actual_scope": "本人资料仓README全文和链接检查，没有简历/PDF指引。",
+          "error": null
+        },
+        {
+          "url": "https://api.github.com/users/DreamCats",
+          "final_url": "https://api.github.com/users/DreamCats",
+          "http_status": 200,
+          "title": null,
+          "route": "路径2：本人GitHub主页",
+          "actual_scope": "公开GitHub用户对象，仅读取其直接公开博客链接，不做个人身份拼接。",
+          "error": null
+        },
+        {
+          "url": "https://api.github.com/users/DreamCats/repos?per_page=100",
+          "final_url": "https://api.github.com/users/DreamCats/repos?per_page=100",
+          "http_status": 200,
+          "title": null,
+          "route": "路径2：本人公开仓库导航",
+          "actual_scope": "本人公开仓库清单标题/描述审查，未见专门CV仓库。",
+          "error": null
+        },
+        {
+          "url": "https://blog.heiye.site",
+          "final_url": "https://blog.heiye.site",
+          "http_status": null,
+          "title": null,
+          "route": "路径2：本人博客",
+          "actual_scope": "本人GitHub直接链接博客；TLS EOF连接失败，正文未取得。",
+          "error": "HTTPSConnectionPool(host='blog.heiye.site', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+        }
+      ],
+      "image_checks": {
+        "inspected": 0,
+        "reason": "未发现可归属本人简历的附件候选。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    "CV22": {
+      "candidate_id": "CV22",
+      "title": "Stochastic / Asthenia0412：2025—2026后端与Agent工程实习履历片段",
+      "source_article_url": "https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "本人GitHub profile直接列出多段实习，但未挂PNG/PDF简历；本人博客当前404。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/Asthenia0412/Asthenia0412/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整固定版本README；4张技能/统计图不是简历，无简历附件链接。"
+        },
+        {
+          "url": "https://asthenia0412.github.io/",
+          "http_status": 404,
+          "access_status": "not_found",
+          "reading_scope": "本人profile直链博客；GitHub Pages Site not found。"
+        },
+        {
+          "url": "https://api.github.com/repos/Asthenia0412/Asthenia0412/git/trees/main?recursive=1",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "非截断公开仓库树；无resume/简历/curriculum/.pdf路径。"
+        },
+        {
+          "url": "https://api.github.com/repos/Asthenia0412/Asthenia0412.github.io/git/trees/main?recursive=1",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人主页仓库非截断目录树；无resume/简历/curriculum/.pdf路径。"
+        },
+        {
+          "url": "https://api.github.com/repos/Asthenia0412/astro-blog/git/trees/main?recursive=1",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人博客仓库非截断目录树；无resume/简历/curriculum/.pdf路径。"
+        }
+      ],
+      "limitations": [
+        "只确认上述公开路径未定位，不能推断作者从未公开过简历。",
+        "仓库统计徽章与同账号项目均不作为简历原件。"
+      ]
+    },
+    "CV25": {
+      "candidate_id": "CV25",
+      "title": "2026暑期：蚂蚁AlipayPlus智能体应用offer、TikTok后端OC及本人面经",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1610772",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "暑期主文正文图片均为表情；本人主页可关联秋招与TikTok面经，未定位简历附件。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/1610772",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整主文HTML，正文1354字符；5个图片标签为20220815站内表情，无PDF或GitHub附件。",
+          "body_image_count": 5
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/590781977",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "返回6201字节通用登录/验证壳，正文不可读。"
+        },
+        {
+          "url": "https://www.nowcoder.com/profile/590781977?type=all",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人主页正文4293字符；核主文、秋招、面经同作者；未见本人简历附件链接。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/917095780249309184?sourceSSR=users",
+          "http_status": 200,
+          "access_status": "partially_read_then_limited",
+          "reading_scope": "首次返回305504字节可读秋招正文，主体2940字符，无PDF/resume/GitHub链接；附件复核时返回6366字节页面壳。"
+        }
+      ],
+      "limitations": [
+        "秋招页后续附件检查受限，保留原文与主页人工复核链接。",
+        "不把平台导航的简历制作站链接当作者简历。"
+      ]
+    },
+    "CV26": {
+      "candidate_id": "CV26",
+      "title": "金蝶/讯飞Agent实习经历、360实习offer与多家公司项目深挖",
+      "source_article_url": "https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "已读本人主页和另一篇求实习总结，取得的均为经历/面经文字；正文图片为表情，没有取得简历PNG/PDF。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "首次6753字节页面壳，只有标题和很短摘要，未将它记作完整正文。"
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/216541357",
+          "http_status": 200,
+          "access_status": "readable_then_limited",
+          "reading_scope": "首次可读主页14714字符，核同作者多篇Agent实习面经；随后请求返回6201字节验证壳。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/986468e3aff94dcda1bd4cce68e02f88?sourceSSR=users",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人主页直链寒假前找实习总结；正文1118字符，逐个检查正文7张图均为站内表情，无简历/PDF/GitHub附件。",
+          "body_image_count": 7
+        }
+      ],
+      "limitations": [
+        "原帖和主页并非持续可读；本轮不能确认整个历史发帖列表是否有附件。",
+        "没有把评论、推荐区或平台下载图片算作者简历。"
+      ]
+    },
+    "CV27": {
+      "candidate_id": "CV27",
+      "title": "2025暑期19场复盘：阿里云基架存储offer及WebServer经验反思",
+      "source_article_url": "https://ac.nowcoder.com/discuss/737813386313940992",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "暑期总结正文的7张图是表情，另1张图由作者明确标为AI配图；无简历附件。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/737813386313940992",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "全文HTML正文3577字符，核8个正文图片标签，其中7表情＋1作者标记AI配图，无简历附件。",
+          "body_image_count": 8
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/564739493",
+          "http_status": 200,
+          "access_status": "readable_then_limited",
+          "reading_scope": "首次可读本人主页8932字符，核同作者后续秋招文；随后请求返回51字节短响应。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/10786322992d4347829849c489dd0d61?sourceSSR=users",
+          "http_status": 200,
+          "access_status": "partially_read_then_limited",
+          "reading_scope": "后续记录春天就结束的秋招首次170480字节、页面文本5025字符；附件核查再次请求返回6494字节壳。"
+        }
+      ],
+      "limitations": [
+        "后续秋招页图片未完成逐图核读，保留人工入口。",
+        "不把AI配图当简历，亦不据此确认全文未曾公开附件。"
+      ]
+    },
+    "CV29": {
+      "candidate_id": "CV29",
+      "title": "Shufeng (Alex) Chen：腾讯/Stripe实习履历与本人直链项目",
+      "source_article_url": "https://shufengc.dev/",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "官网可读的原始形式是网页履历，没有简历下载链接；公开GitHub仓库列表与Gist也未定位简历原件。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://shufengc.dev/",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整网页HTML，234777字节、页面正文10730字符；图片只有头像，全部锚点未见PDF/resume/cv简历下载。"
+        },
+        {
+          "url": "https://api.github.com/users/shufengc/repos?per_page=100",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人公开仓库列表8项，无简历/个人主页仓库；仅核目录，不把项目说明当简历。"
+        },
+        {
+          "url": "https://api.github.com/users/shufengc/gists?per_page=100",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "公开Gist列表为空。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22shufengc%22%20%22resume%22",
+          "http_status": 200,
+          "access_status": "search_unusable",
+          "reading_scope": "搜索返回重定向/需JS壳，没有可核对结果。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%22Shufeng%20Chen%22%20resume%20pdf",
+          "http_status": 200,
+          "access_status": "search_irrelevant",
+          "reading_scope": "结果与姓名及简历完全不相关，未用来归属任何文件。"
+        }
+      ],
+      "limitations": [
+        "原站没有PDF下载不能推断没有其他公开PDF；本轮只保留网页履历为网页原文。",
+        "未将网页打印或截图伪称原始PNG/PDF。"
+      ],
+      "status": "已取得网页浏览器导出，未取得作者原始PDF",
+      "original_url": "https://shufengc.dev/"
+    },
+    "CV32": {
+      "candidate_id": "CV32",
+      "title": "无实习人士如何上岸秋招（总结+面经+路线）",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "原帖15张非表情图片均逐张目视检查，是投递进度、录用/意向通知、刷题及投递列表，均非简历。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/1228157",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整正文HTML约11045字符；提取并下载15张非表情图逐张目视，无简历/PDF附件。",
+          "body_non_emoji_images_checked": 15
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/491627360",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "返回6201字节通用页面壳，未取得本人主页正文。"
+        },
+        {
+          "url": "https://www.nowcoder.com/profile/491627360?type=all",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "返回51字节短响应，未取得本人主页正文。"
+        }
+      ],
+      "limitations": [
+        "第二路径主页受限，只能确认所核主文图片不是简历，不能确认其所有其他文章。"
+      ]
+    },
+    "CV33": {
+      "candidate_id": "CV33",
+      "title": "非科班转码：211化学本→985材料硕→字节后端开发",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "原帖2张非表情图逐张目视检查，是字节录用通知及邮件流程，并非自述的两页简历。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/1626909",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整正文HTML2908字符；2张非表情图HTTP200并目视确认：录用通知、邮件流程；无简历/PDF附件。",
+          "body_non_emoji_images_checked": 2
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/1030059999",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "原帖显示匿名牛油及匿名占位账号；请求返回51字节短响应。"
+        }
+      ],
+      "limitations": [
+        "作者主动匿名，不做私人身份定位或把图片上传账号反查成真实身份。",
+        "原文自述简历两页不等于原帖附有简历；本轮未取得原件。"
+      ]
+    },
+    "CV34": {
+      "candidate_id": "CV34",
+      "title": "择难路 未有疑 四非学院本春招拿下大厂后端",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "原帖13个非表情图片地址均逐张目视检查，含操作系统图、刷题/题库、招聘页面和意向书，均不是简历。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/1518502",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整正文HTML约15521字符；提取13个非表情图片地址，逐张下载/目视（含1对跨站重复图）；未见简历/PDF附件。",
+          "body_non_emoji_image_occurrences_checked": 13
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/466216434",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "原帖直链本人主页返回51字节短响应。"
+        },
+        {
+          "url": "https://www.nowcoder.com/profile/466216434?type=all",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "主页另一规范入口仍返回51字节短响应。"
+        }
+      ],
+      "limitations": [
+        "本人主页第二路径受限，保留人工核查入口。",
+        "不把技术知识图、offer封面或平台导航图充作简历。"
+      ]
+    },
+    "CV23": {
+      "candidate_id": "CV23",
+      "status": "已取得网页浏览器导出，未取得作者原始PDF",
+      "original_url": "https://zhh2001.github.io/resume",
+      "attempts": [
+        {
+          "candidate_id": "CV23",
+          "kind": "web",
+          "url": "https://zhh2001.github.io/resume",
+          "final_url": "https://zhh2001.github.io/resume",
+          "status": 200,
+          "bytes": 29811,
+          "local_file": "03_简历与候选人案例/公开简历原件/网页来源/CV23_公开网页原始来源.html.txt",
+          "sha256": "f199baf089f6ebc8de22fc711eaec0d261abde092cab6ba66bb2a99e381cb8e3"
+        },
+        {
+          "candidate_id": "CV23",
+          "kind": "md",
+          "url": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md",
+          "final_url": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md",
+          "status": 200,
+          "bytes": 7268,
+          "local_file": "03_简历与候选人案例/公开简历原件/网页来源/CV23_公开网页原始来源.md",
+          "sha256": "f686c5f7d9f5cf124f45a29d8d18ad6fed910ed12b419db23ce4c3f687124842"
+        }
+      ]
+    },
+    "CV28": {
+      "candidate_id": "CV28",
+      "status": "已取得网页浏览器导出，未取得作者原始PDF",
+      "original_url": "https://davidhlp.github.io/about/",
+      "attempts": [
+        {
+          "candidate_id": "CV28",
+          "kind": "web",
+          "url": "https://davidhlp.github.io/about/",
+          "final_url": "https://davidhlp.github.io/about/",
+          "status": 200,
+          "bytes": 42325,
+          "local_file": "03_简历与候选人案例/公开简历原件/网页来源/CV28_公开网页原始来源.html.txt",
+          "sha256": "413768585f272887a4c873fbd192069fa2336aceb7876e32251d0c32ac0d0173"
+        },
+        {
+          "candidate_id": "CV28",
+          "kind": "md",
+          "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md",
+          "final_url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md",
+          "status": 200,
+          "bytes": 13547,
+          "local_file": "03_简历与候选人案例/公开简历原件/网页来源/CV28_公开网页原始来源.md",
+          "sha256": "7f00c4ee233fd67db151e7ccdca545315731b667f79445255f7564be70d2b2a1"
+        }
+      ]
+    }
+  },
+  "display_labels": {
+    "CV01": "后端+SSP自述｜通知服务与IM",
+    "CV02": "后端+RPC与业务项目｜JavaWxy参考写法",
+    "CV03": "后端+美团实习后SSP自述｜Richard奇",
+    "CV04": "后端+字节转正｜大学四年复盘",
+    "CV05": "后端+SSP自述+开源贡献｜erdengk",
+    "CV06": "后端+字节SSP自述｜wasabi",
+    "CV07": "后端+Agent+实习offer｜等闲king",
+    "CV08": "大模型应用+商汤实习offer｜本人面经",
+    "CV09": "后端+腾讯IEG实习offer｜游戏安全",
+    "CV10": "C++后端+腾讯转正SSP自述+历史｜CalvinNeo",
+    "CV11": "C++后端+SSP自述+历史｜linyacool",
+    "CV12": "C++后端+SP与SSP自述+2021｜muluoleiguo",
+    "CV13": "算法研究+SSP自述｜dong03",
+    "CV14": "Java后端+SSP自述+2019｜mio4",
+    "CV15": "后端+头条SSP自述+2018｜CyC2018",
+    "CV16": "自动驾驶算法+地平线SSP自述｜LittleChild",
+    "CV17": "Java后端+SSP自述+2025届｜码间烟火录",
+    "CV18": "后端+SP与SSP自述+历史｜IcyCC",
+    "CV19": "后端+腾讯转正SSP自述｜鱼皮",
+    "CV20": "后端+字节SSP自述+2019｜鬼卞",
+    "CV21": "Java后端+京东offer｜DreamCats班车项目",
+    "CV22": "后端+Agent+实习经历｜Stochastic",
+    "CV23": "后端+实习履历｜张恒华",
+    "CV24": "Agent工程+实习履历｜林祥庆",
+    "CV25": "Agent+蚂蚁实习offer｜TikTok后端OC另列",
+    "CV26": "Agent工程+360实习offer｜金蝶与讯飞经历",
+    "CV27": "C++后端+阿里云存储实习offer｜2025暑期",
+    "CV28": "后端+博彦实习｜DavidHLP",
+    "CV29": "后端+腾讯与Stripe实习｜AlexChen",
+    "CV30": "后端+Agent+字节实习｜AndrewWang",
+    "CV31": "Agent+中科曙光实习｜黄一航",
+    "CV32": "后端+秋招经历｜无实习背景",
+    "CV33": "后端+字节财经实习offer｜非科班转码",
+    "CV34": "后端+春招offer｜四非学院本",
+    "OBS11": "后端+录用未知｜网盘与RPC简历图",
+    "OBS05": "大模型训练+研究对照｜郭天宇",
+    "OBS06": "强化学习与多模态+研究对照｜李忠智",
+    "OBS07": "AI Infra+研究对照｜HanrongZhang"
+  },
+  "path_mapping": {
+    "03_简历与候选人案例/公开简历原件/CV01_文章原始简历图.png": "03_简历与候选人案例/公开简历原件/后端+SSP自述_通知服务与IM_简历片段原图.png",
+    "03_简历与候选人案例/公开简历原件/CV06_文章原始简历图.jpg": "03_简历与候选人案例/公开简历原件/后端+字节SSP自述_wasabi_简历片段原图.jpg",
+    "03_简历与候选人案例/公开简历原件/OBS11_文章原始简历图.png": "03_简历与候选人案例/公开简历原件/后端+录用未知_网盘与RPC_作者打码的一页简历原图.png",
+    "03_简历与候选人案例/公开简历原件/CV24_作者公开原始简历.pdf": "03_简历与候选人案例/公开简历原件/Agent工程+实习履历_林祥庆_公开原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/CV30_作者公开原始简历.pdf": "03_简历与候选人案例/公开简历原件/后端+Agent+字节实习_AndrewWang_公开原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/CV31_作者公开原始简历.pdf": "03_简历与候选人案例/公开简历原件/Agent+中科曙光实习_黄一航_公开原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/OBS05_作者公开原始简历.pdf": "03_简历与候选人案例/公开简历原件/大模型训练+研究对照_郭天宇_公开原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/OBS06_作者公开原始简历.pdf": "03_简历与候选人案例/公开简历原件/强化学习与多模态+研究对照_李忠智_公开原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/OBS07_作者公开原始简历.pdf": "03_简历与候选人案例/公开简历原件/AI_Infra+研究对照_HanrongZhang_公开原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/CV02_JavaWxy_简历.png": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图1_投递版本未核.png",
+    "03_简历与候选人案例/公开简历原件/CV02_JavaWxy_简历0.png": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图2_投递版本未核.png",
+    "03_简历与候选人案例/公开简历原件/CV02_JavaWxy_简历1.png": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图3_投递版本未核.png",
+    "03_简历与候选人案例/公开简历原件/CV02_JavaWxy_简历2.png": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图4_投递版本未核.png",
+    "03_简历与候选人案例/公开简历原件/CV02_JavaWxy_简历图片.jpg": "03_简历与候选人案例/公开简历原件/后端+RPC与业务项目_JavaWxy_参考简历图5_投递版本未核.jpg",
+    "03_简历与候选人案例/公开简历原件/CV05_erdengk_作者公开简历原稿.docx": "03_简历与候选人案例/公开简历原件/后端+SSP自述+开源贡献_erdengk_作者公开原稿.docx",
+    "03_简历与候选人案例/公开简历原件/CV05_erdengk_作者公开DOCX_排版导出.pdf": "03_简历与候选人案例/公开简历原件/后端+SSP自述+开源贡献_erdengk_Word排版导出.pdf",
+    "03_简历与候选人案例/公开简历原件/CV13_dong03_研究方向公开CV原件.pdf": "03_简历与候选人案例/公开简历原件/算法研究+SSP自述_dong03_公开原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/CV15_CyC2018_作者网页履历_浏览器截图.png": "03_简历与候选人案例/公开简历原件/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器截图.png",
+    "03_简历与候选人案例/公开简历原件/CV15_CyC2018_作者网页履历_浏览器导出.pdf": "03_简历与候选人案例/公开简历原件/后端+头条SSP自述+2018_CyC2018_网页履历_浏览器导出.pdf",
+    "03_简历与候选人案例/公开简历原件/CV18_IcyCC_2022历史公开简历原件.pdf": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2022_原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/CV18_IcyCC_历史简历作者原稿.tex": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2019_作者原稿.tex",
+    "03_简历与候选人案例/公开简历原件/CV18_IcyCC_2019历史公开简历原件.pdf": "03_简历与候选人案例/公开简历原件/后端+SP与SSP自述+历史_IcyCC_2019_原版简历.pdf",
+    "03_简历与候选人案例/公开简历原件/CV23_公开网页履历_浏览器导出.pdf": "03_简历与候选人案例/公开简历原件/后端+实习履历_张恒华_网页履历_浏览器导出.pdf",
+    "03_简历与候选人案例/公开简历原件/CV28_公开网页履历_浏览器导出.pdf": "03_简历与候选人案例/公开简历原件/后端+博彦实习_DavidHLP_网页履历_浏览器导出.pdf",
+    "03_简历与候选人案例/公开简历原件/CV29_公开网页履历_浏览器导出.pdf": "03_简历与候选人案例/公开简历原件/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出.pdf"
+  },
+  "counts": {
+    "checked_core_candidates": 34,
+    "original_pdfs": 9,
+    "original_docx": 1,
+    "article_original_images": 3,
+    "reference_images": 5,
+    "web_exports": 5,
+    "word_exports": 1
+  },
+  "boundaries": [
+    "公开原件不新增遮盖；不恢复作者打码。",
+    "网页及DOCX导出不是作者原始PDF。",
+    "CV02参考写法未认证为本人投递版。",
+    "CV13研究方向与后端/Agent应用工程分开。",
+    "CV18 2019与2022版本分开，未证明每次实际投递使用。"
+  ]
+}

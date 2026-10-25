@@ -1,0 +1,696 @@
+{
+  "source_path": "C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24",
+  "recorded_on": "2026-10-24",
+  "files": [
+    {
+      "path": "01_岗位JD/J01.html",
+      "bytes": 2888,
+      "sha256": "97d1695bc6e0dfff425ebb19898def935b72a37099d4bbfd2f5ee412a5bc9290"
+    },
+    {
+      "path": "01_岗位JD/J01_原文.url",
+      "bytes": 104,
+      "sha256": "bf4d806eb8adef05eeedd9829b05a90055ee77f8979bc67063c468e0f2fb9090"
+    },
+    {
+      "path": "01_岗位JD/J02.html",
+      "bytes": 2857,
+      "sha256": "baef3128ec3fbdd2f776825bfcdcabb3f1032d9d915c990d51589adbb107a7b0"
+    },
+    {
+      "path": "01_岗位JD/J02_原文.url",
+      "bytes": 67,
+      "sha256": "6ad1103fd08c4cedfe250771b832aba5d8b0ab99ce22a4c2d74b91491ff30cc6"
+    },
+    {
+      "path": "01_岗位JD/J03.html",
+      "bytes": 2892,
+      "sha256": "b27f940cf483236a9539262a7eeabd8a53cb81ca677530fe6e7795e3f0d40f74"
+    },
+    {
+      "path": "01_岗位JD/J03_原文.url",
+      "bytes": 67,
+      "sha256": "8dac74c1f53db53eaf2cf7e383418628f12e9ff88aff446dc1edf0dd0058ca89"
+    },
+    {
+      "path": "01_岗位JD/J04.html",
+      "bytes": 2841,
+      "sha256": "922cc7d69a129bf97e9ac20ccb248068e500eaca3ae05afa366776d33536302f"
+    },
+    {
+      "path": "01_岗位JD/J04_原文.url",
+      "bytes": 67,
+      "sha256": "66c6e86ca097d8c9d2329aaf64000f5deb17d21c5dee1db62fcaca699592b744"
+    },
+    {
+      "path": "01_岗位JD/J05.html",
+      "bytes": 2915,
+      "sha256": "49fb9bcd290479d60ba45fc4423c617fdf80088f39b3b00818da712a0ae59854"
+    },
+    {
+      "path": "01_岗位JD/J05_原文.url",
+      "bytes": 67,
+      "sha256": "867824ebbe0390fc85cd906f2c05c3f27119e8b8427708b9e3c0bab6d1afc09c"
+    },
+    {
+      "path": "01_岗位JD/J06.html",
+      "bytes": 2985,
+      "sha256": "fc918c343c9ae108c3cd7cb856ab3a61615651d5be64e44371e76eb538d1078e"
+    },
+    {
+      "path": "01_岗位JD/J06_原文.url",
+      "bytes": 67,
+      "sha256": "2f0d2b1cb4c5ec242d509b370ca032ec0629f040e60e0094bd3917988b8a8c82"
+    },
+    {
+      "path": "01_岗位JD/J07.html",
+      "bytes": 2903,
+      "sha256": "404887cd1d13375f9de3e6c9e1cb28895987daa6936963129016a7277d503d9e"
+    },
+    {
+      "path": "01_岗位JD/J07_原文.url",
+      "bytes": 67,
+      "sha256": "e7c42fca686716b583fa579fec18777b9ba07b56b314a79279ea54e8d51246ff"
+    },
+    {
+      "path": "01_岗位JD/J08.html",
+      "bytes": 2999,
+      "sha256": "0062de317ab24bfc2ed5d969cf37585118c132a7f70d2c69d93045aaade32fb8"
+    },
+    {
+      "path": "01_岗位JD/J08_原文.url",
+      "bytes": 75,
+      "sha256": "2ffe777ea02f10b3604c30de6b1f44e0e8653f59d62ee67d81640b686404c134"
+    },
+    {
+      "path": "01_岗位JD/J09.html",
+      "bytes": 2834,
+      "sha256": "f45cc2f858a9905aa3228bd100b50f44adbdb4698d1c21b651aaf26513231683"
+    },
+    {
+      "path": "01_岗位JD/J09_原文.url",
+      "bytes": 67,
+      "sha256": "24f8afa081a8fa5cfe64e7d820416c8cc0300e079a108c5a9fdb095b0d25ca3e"
+    },
+    {
+      "path": "01_岗位JD/J10.html",
+      "bytes": 2828,
+      "sha256": "27c04525e19182e1fc0b6aaa9f005a09d62e7a44b03bbbb644a38b589a38a4cf"
+    },
+    {
+      "path": "01_岗位JD/J10_原文.url",
+      "bytes": 67,
+      "sha256": "b593c2fee95e999b708dade9726ae3647ee776dc0de4e56214511937975c2cc1"
+    },
+    {
+      "path": "01_岗位JD/J11.html",
+      "bytes": 2909,
+      "sha256": "da46537ee2b7a33444f8b86ef927efe0ec92c0b7321fe353a706c2b4d34dd7dc"
+    },
+    {
+      "path": "01_岗位JD/J11_原文.url",
+      "bytes": 67,
+      "sha256": "0fc962115e54715656ffd6b327d357667e1249d87cc4a3dd753c28139de38366"
+    },
+    {
+      "path": "01_岗位JD/J12.html",
+      "bytes": 2799,
+      "sha256": "924b80f00c0ef433adb2724a88a3bbccd3b69fce4f780e4a0b66ea9cf10c39c2"
+    },
+    {
+      "path": "01_岗位JD/J12_原文.url",
+      "bytes": 67,
+      "sha256": "b286b129d41c1c04c22dc7cb514b6cb7fc5205c7742a15b86b0812033e95ac46"
+    },
+    {
+      "path": "01_岗位JD/J13.html",
+      "bytes": 2815,
+      "sha256": "62658566b36bee481a023a0a2544b7bb626113523f4128278c02f95aade77dc9"
+    },
+    {
+      "path": "01_岗位JD/J13_原文.url",
+      "bytes": 85,
+      "sha256": "7fa8e559463d638a06e7cb801bfe2c98c192f57ecf3ee6df1c57c9e269d611f1"
+    },
+    {
+      "path": "01_岗位JD/J14.html",
+      "bytes": 2845,
+      "sha256": "26c7614141a41d309ea462bef5c3364e994cea0238d6747bdd457f4a5ae75179"
+    },
+    {
+      "path": "01_岗位JD/J14_原文.url",
+      "bytes": 67,
+      "sha256": "26b27c0cf51813bc4f1f2737ee3359a24a53166ae2e8c45360b46c8570481cc4"
+    },
+    {
+      "path": "01_岗位JD/J15.html",
+      "bytes": 2847,
+      "sha256": "b2ceeac50fc2d7f4b06a11603f3d00387c2e148ca2764f2abe16fdd836340217"
+    },
+    {
+      "path": "01_岗位JD/J15_原文.url",
+      "bytes": 104,
+      "sha256": "3adc19aa4ba6542b559808acd07bfa56e3e229f918c1be366e464752f0450221"
+    },
+    {
+      "path": "02_简历与录用经历/R01.html",
+      "bytes": 3572,
+      "sha256": "944a46a9e9d984a3859df1f41ed97a13fcfa1e70c8c046f1e5a5dec996f47fc6"
+    },
+    {
+      "path": "02_简历与录用经历/R01_原文.url",
+      "bytes": 75,
+      "sha256": "24efa72e37f8c429a656c109a78f482a894c7ff4e791ffaa920cc6d2c13f3f90"
+    },
+    {
+      "path": "02_简历与录用经历/R02.html",
+      "bytes": 3268,
+      "sha256": "053df2c66bccac0e664d09cff7892cc93b5383bacd2e5c600c1fa705b55cb045"
+    },
+    {
+      "path": "02_简历与录用经历/R02_原文.url",
+      "bytes": 75,
+      "sha256": "852e5e0216bc913020c254b67e0b61ac598017abc2c8b132f6dad41de72f3f3c"
+    },
+    {
+      "path": "02_简历与录用经历/R03.html",
+      "bytes": 3453,
+      "sha256": "a42f668c541a49f5aeee1743b5b6a1bbf8ef115913b1834048bd5687203cc273"
+    },
+    {
+      "path": "02_简历与录用经历/R03_原文.url",
+      "bytes": 75,
+      "sha256": "b5d344405350262f8ad03b1f796cc8ba4fbaed252d384baf9a480ae735887184"
+    },
+    {
+      "path": "02_简历与录用经历/R04.html",
+      "bytes": 3375,
+      "sha256": "ff00b86aa4c9aeb01fd58184746f74fbe7c8019336cd844b50924978209384a9"
+    },
+    {
+      "path": "02_简历与录用经历/R04_原文.url",
+      "bytes": 128,
+      "sha256": "c247ccfba1841cc57611a0b2e232e042a3995d52bf0750013bddef3172845f6c"
+    },
+    {
+      "path": "02_简历与录用经历/R05.html",
+      "bytes": 3540,
+      "sha256": "bc3dcfcbec6fc1dc63790ce8965274e7dde0b113efe7a379edcb8338636dd480"
+    },
+    {
+      "path": "02_简历与录用经历/R05_原文.url",
+      "bytes": 93,
+      "sha256": "a4b5ec91d25fb3d16d50d59532cdbaa5ffac94ba9ab5cccb4de0a5d06ccb84b9"
+    },
+    {
+      "path": "02_简历与录用经历/R06.html",
+      "bytes": 3210,
+      "sha256": "e52277ebd2d0b603a52a0f877849101582fbeb34a80cfa4f10d968ef05c93838"
+    },
+    {
+      "path": "02_简历与录用经历/R06_原文.url",
+      "bytes": 70,
+      "sha256": "6355710b861389e40553d2e52cf5b8bf66433592a743e49cf0691d818bfa5134"
+    },
+    {
+      "path": "02_简历与录用经历/R07.html",
+      "bytes": 3137,
+      "sha256": "f48b4b8be77fd1c77d9b4acbf6de574de2132c16a31e9d678587c8666119ed90"
+    },
+    {
+      "path": "02_简历与录用经历/R07_原文.url",
+      "bytes": 91,
+      "sha256": "e855f12ad578961526cf93002853850ac3716b4d98368886b4b89eda546c5ef5"
+    },
+    {
+      "path": "02_简历与录用经历/R08.html",
+      "bytes": 3192,
+      "sha256": "821882134467529ae411c6ea97a71ae847852d2fab165bb30578a691311f8707"
+    },
+    {
+      "path": "02_简历与录用经历/R08_原文.url",
+      "bytes": 93,
+      "sha256": "7586fb7d57bc4ac692b5a14017b84f23d8e5bd852df47785df89bad85adf0aed"
+    },
+    {
+      "path": "03_面经/I01.html",
+      "bytes": 2890,
+      "sha256": "04d5b48fa190ebf40d0a0d643851fa87a422f17bf2282cd9e62b128399ac6ac0"
+    },
+    {
+      "path": "03_面经/I01_原文.url",
+      "bytes": 98,
+      "sha256": "23dbcd0fbe48591af5502235a146382aefcee81be183cf97330b9fc38108efd7"
+    },
+    {
+      "path": "03_面经/I02.html",
+      "bytes": 2820,
+      "sha256": "ebe0e4f95038bf5eb0247b70d75f13407a84ab1881ad03ca741efe8872029543"
+    },
+    {
+      "path": "03_面经/I02_原文.url",
+      "bytes": 97,
+      "sha256": "01c4d39dbc3423d286ea1eb9f81435c864a8a74063df33944d549acf321d099b"
+    },
+    {
+      "path": "03_面经/I03.html",
+      "bytes": 2977,
+      "sha256": "93dbde827d7d28ba1627e5529432ee98064536e450a533abf291b174e42cb792"
+    },
+    {
+      "path": "03_面经/I03_原文.url",
+      "bytes": 98,
+      "sha256": "06b23180b9748989b831e6d0a79bc40ef26155d74e9e6fa4a580e8dcd40cda42"
+    },
+    {
+      "path": "03_面经/I04.html",
+      "bytes": 2767,
+      "sha256": "ee2e3538bbe954f5000bc39bb7027142137aa85850a685a809e246442b40688f"
+    },
+    {
+      "path": "03_面经/I04_原文.url",
+      "bytes": 91,
+      "sha256": "926afa3a20e38eaeb5a8d311743f0973c9530a80340eb8cbe13a2288b293315e"
+    },
+    {
+      "path": "03_面经/I05.html",
+      "bytes": 2960,
+      "sha256": "ad7b6393fa8bde45483338c52e6c58a0fbc5eb991271bb85ffe9f118b39a5746"
+    },
+    {
+      "path": "03_面经/I05_原文.url",
+      "bytes": 123,
+      "sha256": "c00698d8be4f9f909026fde7edf3ea072b6303ae093e3a3530dbaf5f203c894b"
+    },
+    {
+      "path": "03_面经/I06.html",
+      "bytes": 3205,
+      "sha256": "369618e3931bcc529c4bb438550e39ed9daa91b2890b605f9a521a7ef26ed454"
+    },
+    {
+      "path": "03_面经/I06_原文.url",
+      "bytes": 114,
+      "sha256": "c5c86d17c93ef9176cd3da30190b8e28ddc5167678e1158a8e3c9c0118155abe"
+    },
+    {
+      "path": "03_面经/I07.html",
+      "bytes": 2899,
+      "sha256": "95aa6b48647a475e7247d9b956c77fce8f87ef55a8a592dc33517a300b470b59"
+    },
+    {
+      "path": "03_面经/I07_原文.url",
+      "bytes": 75,
+      "sha256": "94737b6fe11d34ca35d1758b83d8c614327c4a476d16e2c739ac0121cefc2b47"
+    },
+    {
+      "path": "03_面经/I08.html",
+      "bytes": 2803,
+      "sha256": "d99778e9c89939e5aab79ae6c88507831c8599b0bd5a7edebd4d54c631c1c91a"
+    },
+    {
+      "path": "03_面经/I08_原文.url",
+      "bytes": 75,
+      "sha256": "4c01f8da80b2630134e40cd956b1485db237c2b7c56a8a58e7822fa95b471585"
+    },
+    {
+      "path": "03_面经/I09.html",
+      "bytes": 3103,
+      "sha256": "8ff3b4a291e56d4c08cfecec5f8e92d8a42bfb07321461aa813cbea23d657c96"
+    },
+    {
+      "path": "03_面经/I09_原文.url",
+      "bytes": 116,
+      "sha256": "d1f73f4c248b6d027bdd5254a79a2f2ac169345a092b67a594acf35b3bcfd26b"
+    },
+    {
+      "path": "03_面经/I10.html",
+      "bytes": 3013,
+      "sha256": "f3c0c0f5409e7b3a95f47c1ee8f4e3c3207ecf6346e0318cef76a678c7148400"
+    },
+    {
+      "path": "03_面经/I10_原文.url",
+      "bytes": 70,
+      "sha256": "80fbeefd8d85b4288ecd32e1451bf0c958536814b0a24d71ac96081314ebf3c0"
+    },
+    {
+      "path": "03_面经/I11.html",
+      "bytes": 2983,
+      "sha256": "32ff51225fc3da8d77f3bcfeb056185232b4d726cfc24ea0ea4c81a91d286fcd"
+    },
+    {
+      "path": "03_面经/I11_原文.url",
+      "bytes": 75,
+      "sha256": "e10c0961e4860bde62f1dc525582b4888e5e5d8ef86cdf8bbc59ee41a8e81d86"
+    },
+    {
+      "path": "03_面经/I12.html",
+      "bytes": 2912,
+      "sha256": "8b8d8dc7972c73670532ed2a8b28089f6d0d52f1610facb503ebf2451450e2ac"
+    },
+    {
+      "path": "03_面经/I12_原文.url",
+      "bytes": 70,
+      "sha256": "9255037269ba4eaa46d06db4bc23a06a2b00efc940c5b497484ff37bf515c610"
+    },
+    {
+      "path": "03_面经/I13.html",
+      "bytes": 3299,
+      "sha256": "74ab17155fecdef10848a8e0b1f7448ac5639b357ec5f79495d58b0231d9b9f6"
+    },
+    {
+      "path": "03_面经/I13_原文.url",
+      "bytes": 70,
+      "sha256": "d9b5643f72ed888e8fb19641eb59316c40b5e8e209701aba18befa811ec58a55"
+    },
+    {
+      "path": "03_面经/I14.html",
+      "bytes": 3136,
+      "sha256": "4f11757ec53067ef0f03778fb34c245672ea8549f6dfa9e1790ea3ff7ffa0b6b"
+    },
+    {
+      "path": "03_面经/I14_原文.url",
+      "bytes": 94,
+      "sha256": "7c2746880d78d07f3627c6475423db4f337f25da2a05851b95508e2353709f20"
+    },
+    {
+      "path": "03_面经/I15.html",
+      "bytes": 2828,
+      "sha256": "a400470066016c34044e5a1e4a53236cfd37d51dc1ebee74640d98c1232fa221"
+    },
+    {
+      "path": "03_面经/I15_原文.url",
+      "bytes": 91,
+      "sha256": "94a3e4744cfe38ed3683197051760e093922b8ab6012cf52ebc664b4422de27a"
+    },
+    {
+      "path": "03_面经/I16.html",
+      "bytes": 2867,
+      "sha256": "ef24d89c5e6cd224d1ecce088a1be489c4fae9b50a11fd3ba8c095186a5dece8"
+    },
+    {
+      "path": "03_面经/I16_原文.url",
+      "bytes": 97,
+      "sha256": "abbd21fe9788d309a2651ad6bc1a5a0b6352589dbd23046042690ca7d1006737"
+    },
+    {
+      "path": "03_面经/I17.html",
+      "bytes": 2932,
+      "sha256": "3bbf499882e635f8c9e0df9d3c064fbeb721d146b22890494390db0e2ae24a3f"
+    },
+    {
+      "path": "03_面经/I17_原文.url",
+      "bytes": 75,
+      "sha256": "7d77e5032585141090e1eed2b8c62e34a6be56eb2d8c08db9af5cf99eaf158fc"
+    },
+    {
+      "path": "03_面经/I18.html",
+      "bytes": 2992,
+      "sha256": "fee91689d76018334507e8b927198b411d05041b86860ff32b03450638531f7f"
+    },
+    {
+      "path": "03_面经/I18_原文.url",
+      "bytes": 127,
+      "sha256": "0a547e5de8f212daf9e6a559d17274369dadc42aef4784cf7840314b3ed67b76"
+    },
+    {
+      "path": "03_面经/I19.html",
+      "bytes": 2872,
+      "sha256": "c07c274f186fb4104b65fec98831d98e061990748174e3c93821ef444d68c506"
+    },
+    {
+      "path": "03_面经/I19_原文.url",
+      "bytes": 117,
+      "sha256": "3f0ff3dd56af91ddc3eb292c13b471e42bc6dfdcc9a91b6285b2e03ee84e8e58"
+    },
+    {
+      "path": "03_面经/I20.html",
+      "bytes": 2826,
+      "sha256": "637d423e0ca30b5683e32376c95671cc85ee6f205251cfc9095cd2cc43d0461c"
+    },
+    {
+      "path": "03_面经/I20_原文.url",
+      "bytes": 98,
+      "sha256": "f84b6ea7d53385f155744b07eeab82c5bfc5161392380aed2ecc01f71028e0a1"
+    },
+    {
+      "path": "03_面经/I21.html",
+      "bytes": 3142,
+      "sha256": "dd1f21bcb414b516066b37bd7a4b543ab53da41578246ae840c53ee2f97d3ffc"
+    },
+    {
+      "path": "03_面经/I21_原文.url",
+      "bytes": 120,
+      "sha256": "82cba20bab16cb178ed079d23b929b08df0f247f417f159813bd943531d4f5e4"
+    },
+    {
+      "path": "03_面经/I22.html",
+      "bytes": 3361,
+      "sha256": "3e4d9db03604e299a933500ffff16e5d8b6c77ab3ea8d60f24aa46812498881d"
+    },
+    {
+      "path": "03_面经/I22_原文.url",
+      "bytes": 119,
+      "sha256": "3dc357bc75598271312f471978642331513da1995832b6793fe94f2f038d5762"
+    },
+    {
+      "path": "03_面经/I23.html",
+      "bytes": 2896,
+      "sha256": "01333d7ecd358115d56306a34dbc926fd8d6b8dac6041b8c2b61d174c428ff22"
+    },
+    {
+      "path": "03_面经/I23_原文.url",
+      "bytes": 116,
+      "sha256": "4476792d06ead0d99f2260308c704d072841bb7d05f8efca5d0f413e78964c58"
+    },
+    {
+      "path": "03_面经/I24.html",
+      "bytes": 3102,
+      "sha256": "5febc2c0c091e4fa4e936e4864e218785d6aacd3c238dc162de12361cc485c3c"
+    },
+    {
+      "path": "03_面经/I24_原文.url",
+      "bytes": 124,
+      "sha256": "02663cdae4687d51fb61f5150448bc13b4c4b214823ed4bd59053fedae728905"
+    },
+    {
+      "path": "03_面经/I25.html",
+      "bytes": 3207,
+      "sha256": "ddbb081350a39556996619efdb4f264fe61499e3f16915f748f5f0d4ca4eabdf"
+    },
+    {
+      "path": "03_面经/I25_原文.url",
+      "bytes": 93,
+      "sha256": "bf7e5c37fc10c6d08e2cc4eeaac485e47e37f5cec6b1fc3c3c29cb00ecf152ad"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V01.html",
+      "bytes": 3127,
+      "sha256": "5426be2631b720cf28196886d3710bd945ec6ba0b7c65600711909165063a7c7"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V01_原文.url",
+      "bytes": 72,
+      "sha256": "b1206fe0b41510ddada17a57890af90f82dba333812fa975033c19d7c3ae80d0"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V02.html",
+      "bytes": 3170,
+      "sha256": "fdf2005e9e8ad623bdb8060d6d34906d9c49c89583bc7efe20fc05488db3bdd4"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V02_原文.url",
+      "bytes": 72,
+      "sha256": "abf3291a1104adba80bda45320549633b49070e81cd90a3ea200b9966b7dbbd6"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V03.html",
+      "bytes": 3040,
+      "sha256": "6712fa3156843df0cc5b498f904d375128fb3d64501eca7a16db4c0539e8a555"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V03_原文.url",
+      "bytes": 81,
+      "sha256": "624304f671beb6051bf3632599749946ee5af24ef4014c4283ed84dbb5355072"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V04.html",
+      "bytes": 3117,
+      "sha256": "ab7eba146404affd92ce52f271eacbb2b0332299b4153c9262711e72484c4f80"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V04_原文.url",
+      "bytes": 83,
+      "sha256": "1970bb29a5ee5eea43d9ccc93680fcca87ada93a38057ee652f2d58b13d33ecc"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V05.html",
+      "bytes": 3095,
+      "sha256": "d143142226136a3512662ad48b26209c2d618ca05278a3be2a0b5be3fe887524"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V05_原文.url",
+      "bytes": 101,
+      "sha256": "8cf8677be942145346171e69809ad65a776085f32ac6445f5673dedde052e08c"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V06.html",
+      "bytes": 3063,
+      "sha256": "e8846c6bbcdf4789318d60c4d5465e1f92b1ec9775adf3b094362c852bc22198"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V06_原文.url",
+      "bytes": 68,
+      "sha256": "84549435f2fcdb7316682b8298f2fede2ee738d51ed3f0f02f3cbf3031bb0a96"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V07.html",
+      "bytes": 3405,
+      "sha256": "6cbd7f8ce4dd546d2c2e25a0356f49242f5f32f8eacaf7098c4ddfe74f7ec4d9"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V07_原文.url",
+      "bytes": 102,
+      "sha256": "e9dfe190c5eb72baa5b81141b366283557c11c81c2165ec255e34dd13bcf9e95"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V08.html",
+      "bytes": 3335,
+      "sha256": "cedf78992a43fdf6b3ab8c8e15a2fe38bbbbeff92273558de77a453048f71357"
+    },
+    {
+      "path": "04_B站知乎与从业者观点/V08_原文.url",
+      "bytes": 80,
+      "sha256": "337d53fa7cde761be9b6c4fdd5a8b8d3eee4b31a06bbd521af0390757f307a0f"
+    },
+    {
+      "path": "05_参考项目/P01.html",
+      "bytes": 3267,
+      "sha256": "85b97dfea47c1cd2707b252066a7dd3414968b1f382f91a625eb5d944a28e373"
+    },
+    {
+      "path": "05_参考项目/P01_原文.url",
+      "bytes": 58,
+      "sha256": "dc445ffb476d481457ba88331a4cd5f182a073498dc365bea2466d9bd4559cf7"
+    },
+    {
+      "path": "05_参考项目/P02.html",
+      "bytes": 3111,
+      "sha256": "0fb17654f1429b1219947aa6e6e8237ca964677a68d442a51ac7d5e27d7aac97"
+    },
+    {
+      "path": "05_参考项目/P02_原文.url",
+      "bytes": 62,
+      "sha256": "d39ca390b873328d37b3a20950d0af7c2dcaf05bba6ea7876c8bed9377d2d35a"
+    },
+    {
+      "path": "05_参考项目/P03.html",
+      "bytes": 3415,
+      "sha256": "4348a32636ca60f9a22a649ef755ae2cd46e5f5c37348c5f853ef4be9e0f461d"
+    },
+    {
+      "path": "05_参考项目/P03_原文.url",
+      "bytes": 62,
+      "sha256": "799ac7d1ce4bff7a92724342b8053ddfead3b0871f12b34769e58a78915341ce"
+    },
+    {
+      "path": "05_参考项目/P04.html",
+      "bytes": 3462,
+      "sha256": "dc4c9730c8259a9cccda0570c4f615ef22f88a7f2fa2e85d2880629355c89668"
+    },
+    {
+      "path": "05_参考项目/P04_原文.url",
+      "bytes": 65,
+      "sha256": "43ee966d43cb3c5d141d010e1cef4c1223b92bd18b520a2246098b0ca5e8d05e"
+    },
+    {
+      "path": "05_参考项目/P05.html",
+      "bytes": 3102,
+      "sha256": "6b66792610eb67d9a0f75ff0f680bc29195b28baa545208ee2280a64d274b018"
+    },
+    {
+      "path": "05_参考项目/P05_原文.url",
+      "bytes": 61,
+      "sha256": "bf7c63925e497e7777be1d1781db2fa440a7e40432c27949aa5b36d766245380"
+    },
+    {
+      "path": "05_参考项目/P06.html",
+      "bytes": 3207,
+      "sha256": "949f7bde367b038b12a72fbda6369b03bcb7444f03a6a680754551df81391554"
+    },
+    {
+      "path": "05_参考项目/P06_原文.url",
+      "bytes": 71,
+      "sha256": "7d35a795ff8e52e0110d95deffff73c228fa70ff1493fadc3d9f569f0c66348f"
+    },
+    {
+      "path": "05_参考项目/P07.html",
+      "bytes": 3207,
+      "sha256": "ed529885220227c66aa8719981f63c7eb32bd7dc60b657864d884f05bb80753b"
+    },
+    {
+      "path": "05_参考项目/P07_原文.url",
+      "bytes": 58,
+      "sha256": "4944de6c9ecca48b29ec7a19cf1271216c0cf5e7cf9ce754142921da6e4898d5"
+    },
+    {
+      "path": "05_参考项目/P08.html",
+      "bytes": 3324,
+      "sha256": "50f3082d3bf4316aa0294ccc5f824aa82572907fbfe2efd1080964e72e4ca1cb"
+    },
+    {
+      "path": "05_参考项目/P08_原文.url",
+      "bytes": 62,
+      "sha256": "fd7164fe6c622d49974fd8f07d9d5e55d9862c40716b060f2e855137a2f8ff92"
+    },
+    {
+      "path": "06_项目设计/Java预约与异步履约.html",
+      "bytes": 6188,
+      "sha256": "5e9d3f61ee0f574a6765f1a86a658a7f2d59348d82d5fdcb6302350af87bcf9b"
+    },
+    {
+      "path": "06_项目设计/Python故障诊断Agent.html",
+      "bytes": 6511,
+      "sha256": "2012c8c24eb58a2c27b3fa0d542a88db060f7067a9e45f21e93be11dad23cc0a"
+    },
+    {
+      "path": "07_数据与方法/方法与限制.html",
+      "bytes": 4932,
+      "sha256": "366f2a9102b383acbe1aaf2b162603f1754844f07d797c2f40aaee2fa9a3f790"
+    },
+    {
+      "path": "07_数据与方法/补充检索排除记录.json",
+      "bytes": 2457,
+      "sha256": "c0aa6ea55dff447e7375929c5353c94cb8fc5adcb260e2720dd0001810b03432"
+    },
+    {
+      "path": "07_数据与方法/资料索引.json",
+      "bytes": 79235,
+      "sha256": "c6cf849bb394dbcbb41e382d845a536182b482b9a30e1f393b8a54dacc4bd7c2"
+    },
+    {
+      "path": "07_数据与方法/面经统计.json",
+      "bytes": 3299,
+      "sha256": "0ad44145c4a01901e479574d6b408f382d4c816e581f2153a467b1e82db09578"
+    },
+    {
+      "path": "07_数据与方法/面经逐篇编码.json",
+      "bytes": 24135,
+      "sha256": "8693e99fce695c3ca45eba69ced51ba66f33ac22fc532cf6b6462b3e92e57dfd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 74356,
+      "sha256": "5d138b6a97cd3b5f66d5cb16c5a211618aaf8000ab2e81bd7b13d8245e7758bc"
+    },
+    {
+      "path": "报告网页版.html",
+      "bytes": 40587,
+      "sha256": "1e1562413a29bd1cba1edf489b3cd84caa1ce09be46db02b0ca9f6e6717aaeb7"
+    },
+    {
+      "path": "研究报告.pdf",
+      "bytes": 168163,
+      "sha256": "5c350e908dce95c298292cd05abf722f2c7ac6229ac2819e2db6079cc377158f"
+    }
+  ]
+}

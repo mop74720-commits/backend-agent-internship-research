@@ -1,0 +1,44 @@
+{
+  "unique_ids": 121,
+  "archives": [
+    {
+      "id": "PRO14",
+      "sha256": "804e94877cb35fec27ac60de10e2e20d60d78caef95abe76f006be2d3a083015",
+      "crc": "通过",
+      "paths_and_line_ranges": "通过",
+      "license_members_retained": [
+        "CFortranTranslator-903062e709c8a0818737b6202dbcf5f510377af8/LICENSE"
+      ]
+    },
+    {
+      "id": "PRO15",
+      "sha256": "ff1205bbb9b6731133e98a4495d4ef81b80e6c015411e24b79052b2dec2b19e1",
+      "crc": "通过",
+      "paths_and_line_ranges": "通过",
+      "license_members_retained": [
+        "ATP-597a9be4b840127c320b0a7abbfa280ccaab435f/LICENSE"
+      ]
+    },
+    {
+      "id": "PRO16",
+      "sha256": "d297b099e78bd770c431ba704c96e937dfa955616d9b5efe8759cfe536d7f593",
+      "crc": "通过",
+      "paths_and_line_ranges": "通过",
+      "license_members_retained": [
+        "Nuft-39e09d330abc68ca82e13c0baa9020c533d979aa/LICENSE",
+        "Nuft-39e09d330abc68ca82e13c0baa9020c533d979aa/jepsen/LICENSE"
+      ]
+    },
+    {
+      "id": "PRO17",
+      "sha256": "fd7a8c24a7270480d42e37434865601388dd0013080e6fb5b91691fade2b1c52",
+      "crc": "通过",
+      "paths_and_line_ranges": "通过",
+      "license_members_retained": [
+        "WebServer-7e18602f15c5c64e006091aa03e04b927c255983/LICENSE",
+        "WebServer-7e18602f15c5c64e006091aa03e04b927c255983/WebBench/LICENSE"
+      ]
+    }
+  ],
+  "scope": "本地来源结构、源码归档和行号校验；不是项目运行或录用真实性验证"
+}

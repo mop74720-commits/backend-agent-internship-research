@@ -1,0 +1,128 @@
+{
+  "scope": "目标执行补证版本地浏览器与PDF；不执行调研项目",
+  "checks": [
+    {
+      "name": "168条目录",
+      "passed": true
+    },
+    {
+      "name": "候选人资料数量",
+      "passed": true
+    },
+    {
+      "name": "面经复盘数量",
+      "passed": true
+    },
+    {
+      "name": "项目参考数量",
+      "passed": true
+    },
+    {
+      "name": "B站与知乎数量",
+      "passed": true
+    },
+    {
+      "name": "专业原文补充数量",
+      "passed": true
+    },
+    {
+      "name": "履历对照材料数量",
+      "passed": true
+    },
+    {
+      "name": "本人项目文档数量",
+      "passed": true
+    },
+    {
+      "name": "明确实习47",
+      "passed": true
+    },
+    {
+      "name": "严格近期9",
+      "passed": true
+    },
+    {
+      "name": "新面经搜索",
+      "passed": true
+    },
+    {
+      "name": "展开搜索结果",
+      "passed": true
+    },
+    {
+      "name": "收起资料卡",
+      "passed": true
+    },
+    {
+      "name": "CV24跳转重置筛选并展开",
+      "passed": true
+    },
+    {
+      "name": "27四段关联",
+      "passed": true
+    },
+    {
+      "name": "19项目285维保留",
+      "passed": true
+    },
+    {
+      "name": "14份JD三层要求",
+      "passed": true
+    },
+    {
+      "name": "2份核心脱敏副本",
+      "passed": true
+    },
+    {
+      "name": "3份研究履历另列",
+      "passed": true
+    },
+    {
+      "name": "本人文档不是源码说明可见",
+      "passed": true
+    },
+    {
+      "name": "覆盖表没有旧8人和简历0混称",
+      "passed": true
+    },
+    {
+      "name": "原平台3篇并区分图文和视频",
+      "passed": true
+    },
+    {
+      "name": "桌面整页无横向溢出",
+      "passed": true
+    },
+    {
+      "name": "统一报告和首页同量",
+      "passed": true
+    },
+    {
+      "name": "手机整页无横向溢出",
+      "passed": true
+    },
+    {
+      "name": "手机核心履历无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "待核清单46",
+      "passed": true
+    },
+    {
+      "name": "待核搜索",
+      "passed": true
+    },
+    {
+      "name": "手机待核不溢出",
+      "passed": true
+    },
+    {
+      "name": "没有脚本错误",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "pdf_exported": true
+}

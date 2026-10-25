@@ -1,0 +1,384 @@
+{
+  "research_date": "2026-10-23",
+  "scope": "重点复核既有CV07、OBS09及956bb0e7公开补充，再搜本人明确公司、Agent应用/平台工程岗位、招聘批次和最终SSP的直接自述；不改主表、不占编号。",
+  "method": [
+    "公开作者主页直接导航到原帖，主页摘要仅用于发现；逐条标记实际原帖读取范围。",
+    "岗位与录用措辞检索，与GitHub/作者站/职业问答路径交叉；区分岗位、意愿、加面、推定档位和最终录用。",
+    "不追匿名隐藏身份；不据届别、发帖/编辑/抓取或仓库日期补事件年份；不要求企业认证或单项目因果才能保留作者具体自述。"
+  ],
+  "conclusion": {
+    "new_complete_agent_ssp_chain": 0,
+    "meaningful_updates": [
+      "CV07本人2025年终总结正文明确小红书、快手后端实习offer发生于2025年；可补清这两项录用自述的年。",
+      "CV07找到本人字节AML大模型后端两轮和百度一轮的实际公开正文；均未披露最终结果，不据此补SSP。",
+      "CV07本人直接称做过Higress语义检索MCP插件，贡献可追踪到具体组件层；具体PR和作者GitHub账号关系仍未核。"
+    ],
+    "not_a_global_absence_claim": "本轮没有核到满足全部条件的新Agent工程SSP样本，只说明下列已访问来源的当前证据边界。"
+  },
+  "existing_candidate_updates": [
+    {
+      "existing_id": "CV07",
+      "author": "等闲king",
+      "public_author_id": "46925511",
+      "discovery_pages": [
+        "https://www.nowcoder.com/users/46925511?contentPage=1",
+        "https://www.nowcoder.com/users/46925511?contentPage=2"
+      ],
+      "profile_reading_scope": "公开第1、2页职业相关文章展示区及实际链接；第3页为空壳；不声称读遍全部历史发帖。",
+      "old_primary_access": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/894194616499466240",
+          "http_status": 200,
+          "page_state": "内容不存在；未取得正文"
+        },
+        {
+          "url": "https://ac.nowcoder.com/discuss/1650061",
+          "http_status": 200,
+          "page_state": "文章已删除；未取得正文"
+        }
+      ],
+      "sources": [
+        {
+          "source_key": "DENGXIAN_2025_REVIEW",
+          "title": "很高兴能在牛客帮助你-2025年终总结",
+          "url": "https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d",
+          "readable_url": "https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d?sourceSSR=subject",
+          "access": {
+            "state": "正文可读",
+            "scope": "原帖公开文字全文已读；表情图片未分析",
+            "source_line_range": "L51–66"
+          },
+          "source_date": "页面显示2025-12-09 21:15已编辑，单列为来源时间",
+          "event_year": 2025,
+          "event_year_basis": "原帖题名及正文直接写2025年终总结、对这一年的成就回顾，紧接着列小红书和快手后端实习offer；不是仅按发帖年或27届反推。",
+          "author_relation": "既有CV07相同公开作者主页直接链接，原帖署名等闲king。",
+          "confirmed_self_reports": [
+            {
+              "company": "小红书",
+              "role": "后端实习",
+              "recruitment": "实习",
+              "event_date": "2025年，起止月未知",
+              "grade": "未披露",
+              "result_status": "internship_offer_self_report",
+              "basis": "年终成就段列已获得该公司后端实习offer。"
+            },
+            {
+              "company": "快手",
+              "role": "后端实习",
+              "recruitment": "实习",
+              "event_date": "2025年，起止月未知",
+              "grade": "未披露",
+              "result_status": "internship_offer_self_report",
+              "basis": "同一年度成就段列该公司后端实习offer。"
+            }
+          ],
+          "limits": [
+            "能补清两项后端实习offer的发生年，不能把已删除旧文中所有Agent具体职责、部门答辩、任职月份同步设为2025。",
+            "原帖期待明年秋招的理想offer，未自述SSP或已获正式校招录用。",
+            "开源参与、OSPP结项均为本人自述，不能把框架全体功能归为个人实现。"
+          ],
+          "suggested_existing_update": "保留CV07旧主文访问不稳定说明，增加稳定可读年度总结为2025年两项后端实习offer证据；不要升级Agent SSP。"
+        },
+        {
+          "source_key": "DENGXIAN_HIGRESS_COMPONENT_CLAIM",
+          "title": "AI应用开发全景路线图（补充篇）",
+          "url": "https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85",
+          "readable_url": "https://www.nowcoder.com/feed/main/detail/2569ad4c57864e8ba231e296afc54b85?sourceSSR=users",
+          "access": {
+            "state": "正文可读",
+            "scope": "原帖公开文字全文已读；未运行所荐项目",
+            "source_line_range": "L51–83"
+          },
+          "source_date": "页面02-05 20:44已编辑，年未显示",
+          "material_type": "本人技术观点与组件贡献自述；不是面经或录用证明",
+          "direct_component_relation": {
+            "repository": "https://github.com/alibaba/higress",
+            "component": "语义检索MCP插件",
+            "basis": "正文推荐Higress时直接称该具体插件由自己编写。",
+            "relation_status": "本人直接点名贡献的文档自述",
+            "pr_verified": false,
+            "github_account_relation_verified": false
+          },
+          "limits": [
+            "具体PR、固定版本和个人改动范围仍未取得；不视为整套Higress的个人源码。",
+            "同文列Langfuse、Kubeflow、Ray、AgentCube为学习推荐，不构成本人贡献。",
+            "未取得本人独立Agent框架源码；文中写计划后续实现，不能当已交付。"
+          ]
+        }
+      ],
+      "candidate_interview_sources": [
+        {
+          "source_key": "DENGXIAN_BYTEDANCE_AML_25DF",
+          "title": "字节- AML大模型后端开发-一二面",
+          "url": "https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c",
+          "readable_url": "https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c?sourceSSR=users",
+          "author": "等闲king",
+          "author_relation": "CV07公开主页直接链接，原帖同署名；不通过其他账号或匿名身份拼接。",
+          "access": {
+            "state": "正文可读",
+            "scope": "原帖公开文字全文已读",
+            "source_line_range": "L51–81"
+          },
+          "company": "字节跳动",
+          "role": "AML大模型后端开发",
+          "track": "Agent工程/后端",
+          "recruitment": "未知",
+          "event_date": "未知；原帖明确为隔一段时间回忆，未写面试年月日",
+          "event_year_confirmed": false,
+          "source_date": "页面03-17 10:33已编辑，年份未显示",
+          "outcome": "结果未知；不据二面体验差判断失败",
+          "grade": "未披露",
+          "rounds": [
+            "一面",
+            "二面"
+          ],
+          "questions_paraphrased": [
+            "MCP网关实现、限流、模型观测指标、DSL序列化、多租户隔离方式。",
+            "长期和短期对话记忆及KV Cache；手写多租户限流器。",
+            "JVM、GC、Spring AOP，Agentic RAG与工具调用，多轮缓存命中连续性、分层架构中的长链token溢出。",
+            "二面手写LRU，并记录部分实习和开源追问已记不清。"
+          ],
+          "question_answer_boundary": "本人回忆的追问和面试感受；未提供完整答案，不当作逐字稿。部分问题明确遗忘，不能自行补足。",
+          "project_relation": "直接追问本人的实习Agent记忆与开源网关/框架；具体实习雇主与项目版本未在该篇逐项披露，不把所有段落绑定同一家公司。",
+          "strict_recent_internship": false,
+          "suggestion": "可作为CV07本人具体面经补链；公司岗位明确，但招聘批次、事件年和最终结果未知，不能计严格近期实习或SSP样本。"
+        },
+        {
+          "source_key": "DENGXIAN_BAIDU_FA3706",
+          "title": "百度一面面经",
+          "url": "https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b",
+          "readable_url": "https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b?sourceSSR=users",
+          "author": "等闲king",
+          "author_relation": "CV07公开主页直接链接，原帖相同署名。",
+          "access": {
+            "state": "正文可读",
+            "scope": "原帖公开文字全文已读",
+            "source_line_range": "L51–99"
+          },
+          "company": "百度",
+          "role": "未给正式职称；反问称智能客服业务",
+          "track": "后端/Agent工程交叉",
+          "recruitment": "未知",
+          "event_date": "面试事件年与具体日期未知",
+          "event_year_confirmed": false,
+          "source_date": "页面2025-11-24 23:17，来源时间不代替面试年",
+          "outcome": "未知",
+          "grade": "未披露",
+          "rounds": [
+            "一面，约60分钟"
+          ],
+          "questions_paraphrased": [
+            "本人慢SQL优化、读写分离、单列与联合索引的回表和索引下推。",
+            "ES分片/资源与查询优化，字段选型与精准匹配。",
+            "锁过期、误删、重入、秒杀，自旋策略，以及CompletableFuture线程池参数与CPU/I/O隔离。",
+            "Agent模型切换后的输出方式、完整响应时间指标、责任链/观察者与模板方法取舍。",
+            "HNSW、BM25、向量缺点与检索分数融合。"
+          ],
+          "question_answer_boundary": "题单夹有括注答案/纠错和应答提示，不能推定全部是当场正确回答；尤其long→keyword优化旁的倒排索引/跳表说明属于作者补充解释。",
+          "project_relation": "原帖明确从本人实习和开源简历出发追问，涉及商业Agent响应与框架模式；未给独立项目仓库链接，不据主题自行配仓库。",
+          "strict_recent_internship": false,
+          "suggestion": "可补CV07具体面经；不能只因来源发表于2025或同作者已有实习而将此面试年、批次、结果设为确定。"
+        }
+      ],
+      "manual_access_needed": [
+        {
+          "title": "快手日常实习面经（已oc）",
+          "url": "https://www.nowcoder.com/feed/main/detail/b6e58f067c184875a1c7a03e4039d30d",
+          "tried_public_variants": [
+            "?sourceSSR=users",
+            "?sourceSSR=post",
+            "?sourceSSR=subject"
+          ],
+          "state": "原帖标题空壳/工具不可读；普通公开GET亦仅标题，本轮停止重复访问",
+          "actual_read_scope": "仅公开作者主页第2页展示段；未把原帖全文标已读。",
+          "primary_profile_url": "https://www.nowcoder.com/users/46925511?contentPage=2",
+          "displayed_content_summary": "主页展示两轮实习追问，涉及慢查询、热key、Agent评测、生产消费、DDD、Spring循环依赖和锁；展示段末为当晚HR沟通offer及入职时间、待审批。",
+          "result_boundary": "标题OC和等待审批分开；未读原帖正文，不升级为已发正式offer或SSP。",
+          "source_date": "主页所列2025-12-05 16:10已编辑；事件年单篇未核"
+        },
+        {
+          "title": "阿里的agent开发依旧卡学历只是换了个说法",
+          "url": "https://www.nowcoder.com/feed/main/detail/ebd756740ac74841a23888e16e9df3e1",
+          "state": "users和post公开入口均为空壳",
+          "actual_read_scope": "只读到本人主页展示段，所述为内推评估未过；未读原帖完整评论/正文。",
+          "result_boundary": "不能用失败自述填最终录用；关于学历的判断属于作者解释，未验证实际筛选原因。"
+        }
+      ]
+    },
+    {
+      "existing_id": "OBS09",
+      "title": "26届字节阿里ssp对27届说",
+      "url": "https://www.nowcoder.com/feed/main/detail/3fc0f728c1bb4a968d3942c9d1563c6f",
+      "readable_url": "https://www.nowcoder.com/feed/main/detail/3fc0f728c1bb4a968d3942c9d1563c6f?sourceSSR=post",
+      "access": {
+        "state": "正文可读",
+        "scope": "本帖公开文字L55–61及当前展示评论已读；图片未分析"
+      },
+      "current_public_author": "匿名牛油",
+      "result": "仍是标题字节阿里、正文泛称8个头部公司SSP与Agent开发；未新增公司逐项岗位/批次/事件年。",
+      "gaps": [
+        "未明确每家公司Agent工程职称、具体批次、事件年份。",
+        "未建立本人履历、项目与具体面经链接。"
+      ],
+      "identity_boundary": "不追匿名非展示身份，不绑定其他账号历史帖子。",
+      "suggestion": "保留待核，不增明确Agent SSP或近期实习数量。"
+    },
+    {
+      "existing_source": "956bb0e7113949a5af496c6506397e59",
+      "author": "养乐多的多多",
+      "url": "https://www.nowcoder.com/feed/main/detail/956bb0e7113949a5af496c6506397e59?toCommentId=22698650",
+      "access": {
+        "state": "正文可读",
+        "scope": "职业正文L51–59及当前显示评论复读；简历图片未读取"
+      },
+      "result": "未披露中厂SSP（AI应用）、另一未披露大厂SP（传统后端）、未披露打车厂普通档（实习转正）仍分列。",
+      "project_scope": "作者只称Dify RAG与探索Agent demo；无本人源码或生产级任务闭环证据。",
+      "gaps": [
+        "公司名称仍缺。",
+        "秋招实际发生年仍未知。",
+        "未披露与SSP公司对应的具体Agent应用/平台工程职责与本人面经。"
+      ],
+      "suggestion": "本次无可提升为公司明确Agent SSP的直接新补充。"
+    }
+  ],
+  "new_partial_or_excluded_sources": [
+    {
+      "source_key": "AGENT_SSP_D9AC01",
+      "title": "选测开还是agent开发",
+      "url": "https://www.nowcoder.com/feed/main/detail/d9ac01c30b9b4f57aa9294ceda1004e2?sourceSSR=subject",
+      "public_author": "牛客665125065号",
+      "public_profile_url": "https://www.nowcoder.com/users/665125065",
+      "access": {
+        "state": "正文可读；主页空壳",
+        "scope": "公开职业正文L51–55全文已读，未读图片"
+      },
+      "company": "未披露，作者称约2000人互联网公司",
+      "role": "Agent开发工程师",
+      "recruitment": "秋招后提前实习约一个月",
+      "event_date": "秋招，实际年未知；不按页面10-06或抓取日期补年",
+      "result": "作者自述ld开出SSP；按作者具体自述保留，不要求企业认证才记线索",
+      "grade": "SSP自述",
+      "gaps": [
+        "公司名称缺；正式offer载体未披露。",
+        "事件年未知；本人项目、履历、面经直接链未建立。"
+      ],
+      "decision": "可保留未具名Agent工程SSP线索；不计入公司、批次、时间均明确的核心样本。"
+    },
+    {
+      "source_key": "GRADE_INFERRED_6704",
+      "title": "秋招要结束了，关于我的offer",
+      "url": "https://www.nowcoder.com/feed/main/detail/6704d6675f7a49f1864c3d69e9013227",
+      "public_author": "牛客315903028号",
+      "access": {
+        "state": "正文与关键本人评论可读",
+        "scope": "职业正文L51–59、楼主说明L65–71；其余非相关评论未全部审读"
+      },
+      "source_date": "2025-10-22 21:42，楼主说明2025-10-22 21:45；事件年不据此自动补为2025",
+      "claims_paraphrased": "列字节生服Agent开发、快手增长AI应用、淘天直播Agent应用及其他岗位，但楼主本人评论解释SP/SSP是根据加面及部分通过消息推算。",
+      "decision": "明确标作者推定档位、最终开奖未核；不能将快手或淘天计为确定SSP录用自述。",
+      "gaps": [
+        "最终档位与录用未明确。",
+        "Agent应用岗位与本人项目/面经链未建立。"
+      ]
+    },
+    {
+      "source_key": "PENDING_ADDITIONAL_INTERVIEW_C5DF",
+      "title": "截至现在，我的27届秋招基本结束。",
+      "url": "https://www.nowcoder.com/feed/main/detail/c5df27c1e97f45d8a05fb66f104087b5?sourceSSR=dynamic",
+      "author": "炒肉多",
+      "access": {
+        "state": "正文可读",
+        "scope": "职业正文L51–72已读，不是逐轮详细题单"
+      },
+      "decision": "本人写蚂蚁/B站四面加面或SSP，仍是待定；京东和滴滴是意向。不得由存在Agent岗位失败流程，反推通过流程也为同一Agent岗位。",
+      "role_boundary": "明确AI应用工程岗位列在失败流程中；通过流程未逐项给岗位。",
+      "date_boundary": "实际秋招年未由正文独立写出，不据27届或10月来源补年。"
+    },
+    {
+      "source_key": "ZTE_LLM_SSP_33E220",
+      "title": "沪漂双九女生：我的中兴SSP秋招选择与实用秘籍",
+      "url": "https://www.nowcoder.com/feed/main/detail/33e2209965c44c6e86a27ecb9e01f9b1?sourceSSR=post",
+      "author": "指数函数",
+      "access": {
+        "state": "正文可读",
+        "scope": "公开文字正文L53–93全文已读；Offer图片未读"
+      },
+      "company": "中兴",
+      "role": "大模型开发（本人措辞）",
+      "recruitment": "校招",
+      "event_date": "作者回顾去年秋招；实际年未知，不按25届和编辑月日补年",
+      "grade": "SSP",
+      "result": "本人具体自述选择中兴SSP，已入职；无需企业认证才保留此自述。",
+      "decision": "有公司、宽泛大模型岗位、校招和SSP直接自述；但应用/平台Agent工程职责、本人项目/源码/具体逐轮技术问题均缺，不计明确Agent工程SSP核心样本。",
+      "boundary": "不因大模型开发或部门AI智算投入，就自行改名为Agent应用/平台岗位。"
+    }
+  ],
+  "search_paths": [
+    {
+      "path": "具体人→公开主页→直接原帖",
+      "queries": [
+        "\"等闲king\"",
+        "\"等闲king\" Agent offer SSP",
+        "\"Spring AI Alibaba\" \"SSP\""
+      ],
+      "actual_followup": "读CV07公开主页前2页并逐篇点开年度总结、AML两轮、百度一面、Higress组件自述；这一路补出实际有用材料，未把目录当原帖全文。",
+      "result": "2025两家后端实习offer时间可补、两篇面经补链，SSP仍未披露。"
+    },
+    {
+      "path": "录用措辞与岗位/公司组合→牛客原帖和本人评论",
+      "queries": [
+        "\"Agent开发\" \"SSP\" offer",
+        "\"Agent应用\" \"SSP\" \"秋招\" \"offer\"",
+        "\"智能体与大模型应用\" \"ssp\" \"拿\"",
+        "site:nowcoder.com \"agent\" \"ssp\" \"已接\"",
+        "site:nowcoder.com \"agent\" \"ssp\" \"开奖\"",
+        "site:nowcoder.com \"AI应用\" \"ssp\" \"转正\""
+      ],
+      "actual_followup": "核读d9ac、6704、c5df和33e220原帖；保留未具名SSP、大模型宽泛岗位以及推定/加面边界。",
+      "result": "未核到公司+Agent应用/平台岗位+明确批次/事件年+最终SSP全部齐全的新增直接材料。"
+    },
+    {
+      "path": "独立来源反查：GitHub README/作者站/职业问答",
+      "queries": [
+        "site:github.com \"SSP\" \"Agent\" \"offer\" 校招",
+        "site:github.com \"SSP\" \"智能体\" 实习",
+        "site:zhihu.com \"Agent开发\" \"ssp\" \"我\"",
+        "\"Agent\" \"SSP\" \"我拿\" -site:bilibili.com -site:csdn.net"
+      ],
+      "read_limits": "搜索用于发现；以下排除只按页面已显示的身份/时间/材料类型，不声称逐仓源码审计。",
+      "false_matches": [
+        {
+          "url": "https://github.com/liyupi/yupi-skill",
+          "reason": "既有鱼皮历史腾讯全栈SSP与现今Agent Skill不能拼成Agent工程SSP。"
+        },
+        {
+          "url": "https://github.com/erdengk",
+          "reason": "既有23年大SSP与26年Agent经历分开，不能反向补当年Agent录用。"
+        },
+        {
+          "url": "https://www.codefather.cn/qa/1910137578681974786",
+          "reason": "暑期offer选择，SSP为后续目标而非已得结果。"
+        },
+        {
+          "url": "https://yupi.caiths.com/vip",
+          "reason": "商业页面展示学员证言，非已建立本人原帖/具体批次直接链，不据营销文本补成功者。"
+        },
+        {
+          "url": "https://linux.do/t/topic/808303?tl=en",
+          "reason": "搜索发现应届AI应用工作选择，但SSP来自评论者建议，不是原作者已获SSP；未作为候选录用证据。"
+        }
+      ],
+      "result": "没有符合本轮公司/Agent岗位/批次/最终SSP完整条件的新样本；不扩大到纯算法或历史后端凑数。"
+    }
+  ],
+  "privacy_and_execution": {
+    "contacts_saved": false,
+    "anonymous_identity_inferred": false,
+    "third_party_project_executed": false,
+    "login_or_payment": false,
+    "external_messages_sent": false,
+    "source_code_archives_added": 0,
+    "complete_resume_files_added": 0
+  },
+  "integration_note": "仅独立核读材料；父代理择实际证据更新既有CV07、面经或待核表。本文件没有修改主JSON，没有自行占CV/INT/PRO编号。"
+}

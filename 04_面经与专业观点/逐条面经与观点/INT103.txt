@@ -1,0 +1,224 @@
+INT103 | 实习面经分享 阿里云AI应用开发一面
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b
+公司：
+  阿里云
+方向与岗位：
+  阿里云；AI应用开发；实习
+事件时间／原文日期（依分类）：
+  一面年月日未知；astra卡片页面05-05无年份
+发表／来源日期：
+  05-05（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    一面年月日未知；astra卡片页面05-05无年份
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    05-05（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习、事件年未知
+结果分类：
+  unknown
+结果自述：
+  未披露
+逐项结果与档位：
+  - 公司：
+      阿里云
+    方向与岗位：
+      阿里云；AI应用开发；实习
+    档位：
+      未披露
+    状态：
+      unknown
+    事件时间／原文日期（依分类）：
+      一面年月日未知；astra卡片页面05-05无年份
+    证据：
+      https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b
+    依据：
+      未披露
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面；未披露
+    questions：
+      - Agent系统如何评价，实习遇到的问题如何解决？
+      - 幻觉如何处理？
+      - 重新做一次项目会改进什么？
+      - 资源调度场景如何设计分析调度Agent？
+      - 01背包若同时约束重量、体积或n种资源怎样扩展？
+    结果自述：
+      未披露
+涉及主题：
+  - 算法/编程
+  - 项目深挖/个人贡献
+  - Agent循环/工具
+  - 评测/指标
+原文提问（归纳）：
+  - Agent系统如何评价，实习遇到的问题如何解决？
+  - 幻觉如何处理？
+  - 重新做一次项目会改进什么？
+  - 资源调度场景如何设计分析调度Agent？
+  - 01背包若同时约束重量、体积或n种资源怎样扩展？
+内容归纳：
+  项目、评测与幻觉之外，要求在资源调度中设计Agent，并扩展背包问题的约束。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  必须准备评价体系与业务约束；算法知识可用于任务规划而非只刷题。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 正文短而具体，只保留实际披露的五组问题；不能展开为作者没说的完整Agent实现。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I20
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    实习面经分享 阿里云AI应用开发一面
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b
+  resolved_url：
+    https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b
+  canonical_post_key：
+    feed/main/detail/775b45a6884f4688bc1e24ad8023183b
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .feed-content-text
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    aa2da8b330895edc2648c40e2cf469aaf9bbcf97fc8d04c16bf074176296a52b
+  body_char_count：
+    178
+  source_card_path：
+    03_面经/I20.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    05-05（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  source_date_verified：
+    否
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  event_date：
+    一面年月日未知；astra卡片页面05-05无年份
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - Agent系统如何评价，实习遇到的问题如何解决？
+    - 幻觉如何处理？
+    - 重新做一次项目会改进什么？
+    - 资源调度场景如何设计分析调度Agent？
+    - 01背包若同时约束重量、体积或n种资源怎样扩展？
+  涉及主题：
+    - 算法/编程
+    - 项目深挖/个人贡献
+    - Agent循环/工具
+    - 评测/指标
+  结果分类：
+    unknown
+  result：
+    未披露
+  档位：
+    未披露
+  公司：
+    阿里云
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    场景题:你会怎么在资源调度的场景下实现一个分析调度的agent
+  阅读建议：
+    必须准备评价体系与业务约束；算法知识可用于任务规划而非只刷题。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 正文短而具体，只保留实际披露的五组问题；不能展开为作者没说的完整Agent实现。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP06
+    - CAP07
+    - CAP11
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    未核／无
+source_key：
+  ASTRA_I20_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I20
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

@@ -1,0 +1,1155 @@
+{
+  "date": "2026-10-23",
+  "scope": {
+    "date": "2026-10-23",
+    "added_ids": [
+      "CV31",
+      "PRO24",
+      "PRO25",
+      "OP15",
+      "OBS10"
+    ],
+    "summary": "新增一份近期Agent实习完整脱敏CV及两个本人直链项目；选读Linear公开原始逐字稿，另核中兴大模型SSP与Agent职责的边界。托马斯两篇已在OBS08收录，复核不重复增加候选人或面经数。",
+    "manual": [
+      {
+        "title": "托马斯杨儿本人博客",
+        "url": "https://blog.openingclouds.xyz/",
+        "status": "TLS证书已过期，未读取博客正文",
+        "to_verify": "本人具体逐轮面经及项目源码；已有牛客选读范围保留",
+        "priority": "补充：本人原站",
+        "priority_reason": "可能补全原始轮次；访问失败不抹去牛客已读文字"
+      },
+      {
+        "title": "Linear团队：构建生产级别Agent的5条规则",
+        "url": "https://www.bilibili.com/video/BV1P6tN6bEps/",
+        "status": "网页工具可读公开导读，普通GET412；未观看视频、未取B站字幕。已选读发布者公开原始逐字稿，来源另列",
+        "to_verify": "视频实际内容及与原始访谈对应；不能将原稿选读记为已观看B站视频",
+        "priority": "优先：生产工程视频原文",
+        "priority_reason": "可与公开原始逐字稿对照，重点核评测、工作流和技能加载"
+      }
+    ],
+    "remaining": [
+      "已补近期Agent实习者完整CV→本人开源实现；项目仍有评测/权限/恢复缺口，尚未定位同人的真实求职面经或SSP。",
+      "中兴样本只明确大模型开发SSP，未披露Agent职责；近期大厂Agent具体岗位、批次与最终档位关系仍需补强。",
+      "已选读一份生产Agent访谈的原始公开逐字稿，但B站视频/字幕仍未实际观看或读取；平台正文与原稿来源分开。"
+    ]
+  },
+  "records": [
+    {
+      "id": "CV31",
+      "source_key": "YIHANG_AGENT_INTERNSHIP",
+      "category": "候选人资料",
+      "title": "黄一航：中科曙光Agent实习完整履历与本人项目",
+      "url": "https://imyihang.com/",
+      "role": "Agent应用工程实习；另有AI产品实习",
+      "date": "中科曙光2025.12–2026.02；饭团外卖2024.11–2025.02",
+      "source_date": "2026-10-23读取公开CV及主页；非投递时间",
+      "profile_type": "完整公开PDF履历的脱敏专业模块副本",
+      "document_type": "完整专业履历脱敏副本",
+      "taxonomy": {
+        "track": "Agent工程",
+        "recruitment": "实习",
+        "experience_date_text": "中科曙光Agent开发实习2025.12–2026.02；AI产品实习另列",
+        "date_precision": "范围",
+        "year_confirmed": true,
+        "recent_status": "近期确认",
+        "source_date_text": "公开版本读取2026-10-23",
+        "date_basis": "本人CV直接写实习起止年月"
+      },
+      "reading": {
+        "scope": "全文",
+        "fulltext": true,
+        "scope_note": "公开PDF全部专业模块已读；主页按履历、项目及直接链接核读；未调用网页AI分身",
+        "video_watched": false
+      },
+      "outcome": "本人CV明确Agent开发实习经历；SSP/SP未披露",
+      "outcomes": [
+        {
+          "company": "中科曙光",
+          "role": "Agent开发实习生（RAG/多智能体方向）",
+          "grade": "未披露",
+          "status": "internship_experience_self_report",
+          "date": "2025.12–2026.02",
+          "evidence_url": "https://imyihang.com/api/resume",
+          "basis": "CV实习经历第一段：Dify HR Agent、企业RAG、SFT题目交叉验证及飞书质检",
+          "boundary": "产业企业应用工程经历；不改称互联网大厂SSP；指标为作者自述",
+          "independent_employer_verified": false
+        },
+        {
+          "company": "饭团外卖",
+          "role": "AI应用产品实习生",
+          "grade": "未披露",
+          "status": "internship_experience_self_report",
+          "date": "2024.11–2025.02",
+          "evidence_url": "https://imyihang.com/api/resume",
+          "basis": "CV第二段；产品评测和迭代职责",
+          "boundary": "产品经历单列，不当Agent研发录用或研发技术门槛",
+          "independent_employer_verified": false
+        }
+      ],
+      "stack": [
+        "Python",
+        "TypeScript",
+        "Electron",
+        "Dify",
+        "RAG",
+        "Tool Calling",
+        "多智能体",
+        "Flask",
+        "PostgreSQL"
+      ],
+      "projects": [
+        {
+          "name": "NoWorries",
+          "url": "https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f",
+          "relation": "CV直接列仓库URL；OpenWork二次开发边界明确"
+        },
+        {
+          "name": "Sprout",
+          "url": "https://github.com/hlbbbbbbb/sprout/tree/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+          "relation": "本人主页Sprout段直接链接；未在本次PDF中列出，不冒称投递项目"
+        },
+        {
+          "name": "OpenClaw PR3064",
+          "url": "https://github.com/openclaw/openclaw/pull/3064",
+          "relation": "主页直接链接，API核作者hlbbbbbbb及合并；仅核具体端点修复"
+        }
+      ],
+      "source_summary": "完整CV有明确Agent实习时间和职责，且直接链接NoWorries；主页另链Sprout与合并PR。可研究调度、记忆及权限的真实实现差距；内部实习源码、本人面经和SSP仍缺。",
+      "complete_redacted_cv_file_received": true,
+      "complete_cv_file_received": false,
+      "cv_file_licensed_for_redistribution": false,
+      "redacted_cv_local_file": "03_简历与候选人案例/核心后端履历_脱敏副本/黄一航_中科曙光Agent实习_公开完整简历_脱敏副本.pdf",
+      "ssp_claim_present": false,
+      "ssp_grade_company_explicit": false,
+      "has_confirmed_personal_interview_source": false,
+      "has_direct_named_project_or_contribution": true,
+      "personal_source_code_verified": true,
+      "chain": {
+        "outcome": [
+          {
+            "url": "https://imyihang.com/api/resume",
+            "direct_basis": "Agent实习的主体、职责及起止年月直接列于CV",
+            "gap": "仅本人履历自述；无SSP",
+            "relation": "直接点名"
+          }
+        ],
+        "profile": [
+          {
+            "url": "https://imyihang.com/api/resume",
+            "direct_basis": "教育、两段实习、项目与专业技能完整保留",
+            "gap": "公开现版，非求职当时投递版",
+            "relation": "直接点名"
+          }
+        ],
+        "project": [
+          {
+            "url": "https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f",
+            "direct_basis": "CV直接列NoWorries仓库；本包固定14文件选读",
+            "gap": "继承框架和独立贡献比例未审全；未运行",
+            "relation": "直接点名"
+          },
+          {
+            "url": "https://imyihang.com/",
+            "direct_basis": "主页Sprout段直接链接本人仓库",
+            "gap": "2026.07源码晚于2026.02实习结束，不倒推录用因果",
+            "relation": "直接点名"
+          },
+          {
+            "url": "https://github.com/openclaw/openclaw/pull/3064",
+            "direct_basis": "PR作者hlbbbbbbb、2026-01-28合并已由API核对",
+            "gap": "端点修复事实不证明整库均本人原创",
+            "relation": "直接点名"
+          }
+        ],
+        "interview": [
+          {
+            "url": null,
+            "direct_basis": "未定位本人公开求职面经",
+            "gap": "网页AI分身的FAQ不当真实面试",
+            "relation": "未建立"
+          }
+        ]
+      },
+      "weaknesses": [
+        "实习为产业Agent应用工程，互联网大厂目标仍需对照；未披露SSP。",
+        "NoWorries基于OpenWork/OpenClaw等；只核指定路径及一项PR，不全归原创。",
+        "问答准确率、用时、订单与商业指标均为本人自述，测试及运行效果未复现。",
+        "主页演示窗口自称动画；AI分身FAQ不代表实际面经。",
+        "Sprout为编排机制参考，当前未见持久化恢复或真实外部工具执行；NoWorries存在所读权限组件风险。"
+      ],
+      "recommendation": "精读CV职责与本人代码关系；按项目机制及静态风险选读，独立核评测与贡献。",
+      "source_record": {
+        "author": "黄一航",
+        "source_url": "https://imyihang.com/api/resume",
+        "home": "https://imyihang.com/",
+        "attachment": {
+          "url": "https://imyihang.com/api/resume",
+          "source_status": 200,
+          "source_sha256": "602e6e7216f085ccb4a897b94f9cd449ea1632dd87e44bd2a54235a944ea7459",
+          "original_saved": false,
+          "local_path": "03_简历与候选人案例/核心后端履历_脱敏副本/黄一航_中科曙光Agent实习_公开完整简历_脱敏副本.pdf",
+          "sha256": "f2fe9f32c5a208d0a1148d82a559d0b49436f117264876921a731e256c433139",
+          "bytes": 410226,
+          "pages": 1,
+          "professional_modules": [
+            "教育背景",
+            "实习经历",
+            "项目经历",
+            "专业技能"
+          ],
+          "professional_text_unchanged_from_education": true,
+          "privacy": {
+            "contact_regex_hits": 0,
+            "links": 0,
+            "images": 0,
+            "nonempty_metadata": {},
+            "xml_metadata": false
+          },
+          "qa_image": "C:/Users/GW/.codex/visualizations/2026/10/23/01a16839-9742-7672-812b-1576a3dd064f/近期Agent补链_黄一航简历_第1页.png",
+          "packaging_type": "整理者制作的公开完整专业履历脱敏副本，非未经修改原件"
+        },
+        "professional_modules": [
+          "教育背景",
+          "实习经历",
+          "项目经历",
+          "专业技能"
+        ],
+        "direct_source_relationship": "CV→NoWorries；主页→Sprout及PR3064",
+        "commercial_background": "主页推广本人产品；PowerMyWeb开放Free/Pro订阅、ContractLens商业应用，具体收入未核"
+      },
+      "chain_gaps": [
+        "仅本人履历自述；无SSP",
+        "公开现版，非求职当时投递版",
+        "继承框架和独立贡献比例未审全；未运行",
+        "2026.07源码晚于2026.02实习结束，不倒推录用因果",
+        "端点修复事实不证明整库均本人原创",
+        "网页AI分身的FAQ不当真实面试"
+      ]
+    },
+    {
+      "id": "PRO24",
+      "source_key": "YIHANG_SPROUT",
+      "category": "项目参考",
+      "title": "Sprout：任务树编排、预算与文本打分边界",
+      "url": "https://github.com/hlbbbbbbb/sprout/tree/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+      "author": "hlbbbbbbb",
+      "commit": "3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+      "taxonomy": {
+        "track": "Agent工程",
+        "recruitment": "不适用",
+        "experience_date_text": "源码版本2026.07，非招聘事件",
+        "date_precision": "未知",
+        "year_confirmed": false,
+        "recent_status": "不适用",
+        "source_date_text": "固定提交",
+        "date_basis": "未取得明确事件年；届别、发表时间、仓库时间不替代事件年"
+      },
+      "reading": {
+        "scope": "部分",
+        "fulltext": false,
+        "scope_note": "指定代码段、许可及测试断言核读；未逐行审定整仓",
+        "video_watched": false
+      },
+      "outcomes": [],
+      "source_findings": [
+        "两阶段Worker、树形调度和拖慢检测均有具体代码。",
+        "mock测试覆盖部分控制流，便于学习测试边界。",
+        "benchmark文本特征分不代表功能正确；未复现任何模型效果。",
+        "预算检查不构成硬费用上限；配置max_retries与LLM内硬编码重试也未贯通。",
+        "执行路径未见持久化检查点，Worker工具主要为报告结果/放弃；不是完整外部动作闭环。",
+        "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。"
+      ],
+      "strengths": [
+        "两阶段Worker、树形调度和拖慢检测均有具体代码。",
+        "mock测试覆盖部分控制流，便于学习测试边界。"
+      ],
+      "limitations": [
+        "benchmark文本特征分不代表功能正确；未复现任何模型效果。",
+        "预算检查不构成硬费用上限；配置max_retries与LLM内硬编码重试也未贯通。",
+        "执行路径未见持久化检查点，Worker工具主要为报告结果/放弃；不是完整外部动作闭环。",
+        "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。"
+      ],
+      "recommended_use": "编排机制与评测反例",
+      "archive_file": "近期Agent本人项目_补链/Sprout_固定源码文本_去联系字段_3ecd36e5a4.zip",
+      "archive_status": "固定源码文本派生包",
+      "license_notes": "MIT原文已读且原样保留",
+      "project_relationship": "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。",
+      "candidate_links": [
+        "CV31"
+      ],
+      "source_record": {
+        "repo": "hlbbbbbbb/sprout",
+        "sha": "3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+        "commit_date": "2026-07-06T15:52:35Z",
+        "source_url": "https://codeload.github.com/hlbbbbbbb/sprout/zip/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+        "source_http_status": 200,
+        "original_saved": false,
+        "original_archive_sha256": "b02d743f726a0cf7810f8db7789015a5126cd0a88ce4874c276a860bf8a1bae4",
+        "local_path": "05_项目源码归档/近期Agent本人项目_补链/Sprout_固定源码文本_去联系字段_3ecd36e5a4.zip",
+        "sha256": "fe8fb98e44a53a07abb0b20bcdefeff40dc2d1e6d2ff00cb064e23f0fd9d20e0",
+        "bytes": 43985,
+        "members": 20,
+        "license": "MIT原文已读且原样保留",
+        "license_sha256": "64d69e3830e4e7923a553c158fd40b63490d392e24c4bdc9e271b8b6cc9f4f66",
+        "modified_files": [],
+        "omitted_files": [],
+        "files": [
+          {
+            "path": ".github/workflows/ci.yml",
+            "upstream_sha256": "2397b1a04c878319e72e2312060808a50c05421a0bd43d62dbd007444656aa65",
+            "archived_sha256": "2397b1a04c878319e72e2312060808a50c05421a0bd43d62dbd007444656aa65",
+            "same_as_upstream": true,
+            "lines": 33
+          },
+          {
+            "path": ".gitignore",
+            "upstream_sha256": "0e1ecfd84ea9aaca1b7c9e29a60f4a0e0fa421b62c92d7a4e5c98798895a450b",
+            "archived_sha256": "0e1ecfd84ea9aaca1b7c9e29a60f4a0e0fa421b62c92d7a4e5c98798895a450b",
+            "same_as_upstream": true,
+            "lines": 82
+          },
+          {
+            "path": "LICENSE",
+            "upstream_sha256": "64d69e3830e4e7923a553c158fd40b63490d392e24c4bdc9e271b8b6cc9f4f66",
+            "archived_sha256": "64d69e3830e4e7923a553c158fd40b63490d392e24c4bdc9e271b8b6cc9f4f66",
+            "same_as_upstream": true,
+            "lines": 21
+          },
+          {
+            "path": "README.md",
+            "upstream_sha256": "21870b18fb2f311809f89fdc7a81fa1ebed881c2d498214a53f0ad99fe71a410",
+            "archived_sha256": "21870b18fb2f311809f89fdc7a81fa1ebed881c2d498214a53f0ad99fe71a410",
+            "same_as_upstream": true,
+            "lines": 297
+          },
+          {
+            "path": "docs/architecture.md",
+            "upstream_sha256": "9c6f067c46ef8ba501ef813267cc04283c82135e646ee507ecb152c67fb55b86",
+            "archived_sha256": "9c6f067c46ef8ba501ef813267cc04283c82135e646ee507ecb152c67fb55b86",
+            "same_as_upstream": true,
+            "lines": 176
+          },
+          {
+            "path": "docs/design-notes.md",
+            "upstream_sha256": "0daa9a7d546439514eb57f5124b53cebdb0090e576d328a8ab3059811f960248",
+            "archived_sha256": "0daa9a7d546439514eb57f5124b53cebdb0090e576d328a8ab3059811f960248",
+            "same_as_upstream": true,
+            "lines": 194
+          },
+          {
+            "path": "examples/benchmark.py",
+            "upstream_sha256": "b0c3526eaccea7841d3f76a5cbeca3a8c8110da8590b01dfd5edbaad1569e565",
+            "archived_sha256": "b0c3526eaccea7841d3f76a5cbeca3a8c8110da8590b01dfd5edbaad1569e565",
+            "same_as_upstream": true,
+            "lines": 326
+          },
+          {
+            "path": "examples/code_fix.py",
+            "upstream_sha256": "a8bc4522777b214e02e05b817f3f7ead244f3a90797d7abde598a45d385372ed",
+            "archived_sha256": "a8bc4522777b214e02e05b817f3f7ead244f3a90797d7abde598a45d385372ed",
+            "same_as_upstream": true,
+            "lines": 118
+          },
+          {
+            "path": "examples/rubric_demo.py",
+            "upstream_sha256": "977a03418a61644e0a52751ab442cd5c3747db41252948fd38175ed6d96d02db",
+            "archived_sha256": "977a03418a61644e0a52751ab442cd5c3747db41252948fd38175ed6d96d02db",
+            "same_as_upstream": true,
+            "lines": 213
+          },
+          {
+            "path": "pyproject.toml",
+            "upstream_sha256": "75bff6d5e3cc355eaa4b74be104f0f81a9f0fe4b66637125dbfa5ac52572e3ee",
+            "archived_sha256": "75bff6d5e3cc355eaa4b74be104f0f81a9f0fe4b66637125dbfa5ac52572e3ee",
+            "same_as_upstream": true,
+            "lines": 58
+          },
+          {
+            "path": "sprout/__init__.py",
+            "upstream_sha256": "cec539325661b6fe7f4b3bf44f9e15a891a3f552ce8b6475e4df9e4900b4e339",
+            "archived_sha256": "cec539325661b6fe7f4b3bf44f9e15a891a3f552ce8b6475e4df9e4900b4e339",
+            "same_as_upstream": true,
+            "lines": 18
+          },
+          {
+            "path": "sprout/config.py",
+            "upstream_sha256": "802557f35cf44f2e820fcdfdfb7e351f6ced38876f1abd987126f1a7cefce161",
+            "archived_sha256": "802557f35cf44f2e820fcdfdfb7e351f6ced38876f1abd987126f1a7cefce161",
+            "same_as_upstream": true,
+            "lines": 40
+          },
+          {
+            "path": "sprout/llm.py",
+            "upstream_sha256": "30c3f21481196c1cf61b7dcb7c7cc101930f34e6773dfe3eb8de4b29be7f8c95",
+            "archived_sha256": "30c3f21481196c1cf61b7dcb7c7cc101930f34e6773dfe3eb8de4b29be7f8c95",
+            "same_as_upstream": true,
+            "lines": 151
+          },
+          {
+            "path": "sprout/task_tree.py",
+            "upstream_sha256": "1ba28e81c16cfd63cfaac4c70e7b6af4945d055ce7b24b35e289774a6eafc21e",
+            "archived_sha256": "1ba28e81c16cfd63cfaac4c70e7b6af4945d055ce7b24b35e289774a6eafc21e",
+            "same_as_upstream": true,
+            "lines": 369
+          },
+          {
+            "path": "sprout/types.py",
+            "upstream_sha256": "81685fedbd5c5c9bf4170616d2491810ab5def8dbfa69c83a32f39653f28d847",
+            "archived_sha256": "81685fedbd5c5c9bf4170616d2491810ab5def8dbfa69c83a32f39653f28d847",
+            "same_as_upstream": true,
+            "lines": 114
+          },
+          {
+            "path": "sprout/worker.py",
+            "upstream_sha256": "f905cbb1c55e4075a80b64ecd91285dd2ea1801afa59784c83bfffa571956493",
+            "archived_sha256": "f905cbb1c55e4075a80b64ecd91285dd2ea1801afa59784c83bfffa571956493",
+            "same_as_upstream": true,
+            "lines": 351
+          },
+          {
+            "path": "tests/__init__.py",
+            "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "archived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "same_as_upstream": true,
+            "lines": 0
+          },
+          {
+            "path": "tests/test_task_tree.py",
+            "upstream_sha256": "592c93117f275af8b19b193a70440d845e44c05bd8d88e203636de055f333706",
+            "archived_sha256": "592c93117f275af8b19b193a70440d845e44c05bd8d88e203636de055f333706",
+            "same_as_upstream": true,
+            "lines": 374
+          },
+          {
+            "path": "tests/test_worker.py",
+            "upstream_sha256": "12779e3b9bd9b4faea77f2589a54ac9aa8ca1dc3f31df8979fab673e4c5a6905",
+            "archived_sha256": "12779e3b9bd9b4faea77f2589a54ac9aa8ca1dc3f31df8979fab673e4c5a6905",
+            "same_as_upstream": true,
+            "lines": 261
+          }
+        ],
+        "execution": "未运行、未构建、未安装依赖、未调用模型"
+      },
+      "comparison": {
+        "id": "PRO24",
+        "title": "Sprout：任务树编排、预算与文本打分边界",
+        "repo": "hlbbbbbbb/sprout",
+        "source_URL": "https://github.com/hlbbbbbbb/sprout/tree/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+        "commit": "3ecd36e5a4eac42ae90be854e415857fd0f3cf7c",
+        "source_nature": [
+          "本人主页直接链接",
+          "编排机制参考"
+        ],
+        "candidate_relationships": [
+          {
+            "candidate_id": "CV31",
+            "relationship_type": "直接点名",
+            "direct_evidence_URLs": [
+              "https://imyihang.com/"
+            ],
+            "finding": "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。",
+            "event_time_boundary": "实习2025.12–2026.02，固定源码2026.07",
+            "snapshot_boundary": "当前固定版本不是投递版本",
+            "offer_causality": "不证明项目促成录用"
+          }
+        ],
+        "backend_dimensions": {
+          "业务闭环": {
+            "status": "未核",
+            "finding": "任务树编排库，不是完整业务应用。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "一致性": {
+            "status": "未核",
+            "finding": "核读路径为内存节点状态，未见持久化重启恢复。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/task_tree.py",
+            "read_paths": [
+              "sprout/task_tree.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "并发": {
+            "status": "源码可见",
+            "finding": "asyncio并行子任务及LLM信号量可定位；资源预算仍需独立核对。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/task_tree.py",
+            "read_paths": [
+              "sprout/task_tree.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "缓存MQ": {
+            "status": "不适用",
+            "finding": "本次未核业务缓存/MQ能力，不把记忆或任务树当消息队列。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "测试": {
+            "status": "源码可见",
+            "finding": "有mock Worker/LLM的拆分、重拆与预算测试；不证明真实任务质量。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/tests/test_task_tree.py",
+            "read_paths": [
+              "tests/test_task_tree.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "可运行材料": {
+            "status": "未核",
+            "finding": "原仓有pyproject与示例；本轮未安装依赖或调用模型。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/pyproject.toml",
+            "read_paths": [
+              "pyproject.toml"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "个人贡献": {
+            "status": "文档宣称",
+            "finding": "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          }
+        },
+        "agent_dimensions": {
+          "真实任务": {
+            "status": "文档宣称",
+            "finding": "示例是代码文本生成任务；未验证真实外部业务执行。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/examples/benchmark.py",
+            "read_paths": [
+              "examples/benchmark.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "状态工具": {
+            "status": "源码可见",
+            "finding": "analyze拆分/execute报告或放弃/synthesize，节点状态、上下文及事件可定位；所读Worker未执行真实外部工具。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/worker.py",
+            "read_paths": [
+              "sprout/worker.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "恢复": {
+            "status": "源码可见",
+            "finding": "有拖慢子任务取消/重拆和失败回退；不等于进程重启恢复或副作用幂等。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/task_tree.py",
+            "read_paths": [
+              "sprout/task_tree.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "权限": {
+            "status": "未核",
+            "finding": "树形和token限制属于资源约束；未核文件、网络或业务动作授权隔离。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/config.py",
+            "read_paths": [
+              "sprout/config.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "评测基线": {
+            "status": "静态风险",
+            "finding": "benchmark L91–164用正则/关键字为输出文本打分，不执行生成代码；25→100分不等于任务正确率或成功率。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/examples/benchmark.py",
+            "read_paths": [
+              "examples/benchmark.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "成本延迟": {
+            "status": "静态风险",
+            "finding": "节点开始前查已用token，调用结束后累计；并发调用及合成阶段未见逐次预留/硬限，存在超支风险，未运行复现。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/task_tree.py",
+            "read_paths": [
+              "sprout/task_tree.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "超API封装证据": {
+            "status": "源码可见",
+            "finding": "多节点拆分、并行、拖慢检测及合成有代码；作为机制参考，不冒充成熟业务Agent。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/sprout/task_tree.py",
+            "read_paths": [
+              "sprout/task_tree.py"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "个人贡献": {
+            "status": "文档宣称",
+            "finding": "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。",
+            "source_URL": "https://github.com/hlbbbbbbb/sprout/blob/3ecd36e5a4eac42ae90be854e415857fd0f3cf7c/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          }
+        },
+        "backend_priority": {
+          "level": "选读",
+          "reason": "用于并发/状态及故障边界阅读；非完整后端业务样板。",
+          "read_modules": [
+            "sprout/task_tree.py",
+            "sprout/worker.py"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "研究机制与失败路径；未验证为成熟可直接复用的成品。",
+          "read_modules": [
+            "sprout/task_tree.py",
+            "sprout/worker.py",
+            "sprout/llm.py",
+            "examples/benchmark.py",
+            "tests/test_task_tree.py"
+          ]
+        },
+        "evidence_completeness": "近期Agent实习完整CV→本人主页/项目直接链接已建立；本人面经、SSP及运行验证仍缺。",
+        "target_applicability": "编排机制与评测反例",
+        "attachment": {
+          "status": "固定源码文本派生包",
+          "archive_file": "近期Agent本人项目_补链/Sprout_固定源码文本_去联系字段_3ecd36e5a4.zip",
+          "exists": true,
+          "reason": "未运行、未构建、未安装依赖、未调用模型",
+          "source_manifest": "08_证据索引与统计/近期Agent补链_Sprout源码归档.json",
+          "runtime_verified": false
+        },
+        "read_paths": [
+          "sprout/task_tree.py",
+          "sprout/worker.py",
+          "sprout/llm.py",
+          "examples/benchmark.py",
+          "tests/test_task_tree.py"
+        ],
+        "strengths": [
+          "两阶段Worker、树形调度和拖慢检测均有具体代码。",
+          "mock测试覆盖部分控制流，便于学习测试边界。"
+        ],
+        "limitations": [
+          "benchmark文本特征分不代表功能正确；未复现任何模型效果。",
+          "预算检查不构成硬费用上限；配置max_retries与LLM内硬编码重试也未贯通。",
+          "执行路径未见持久化检查点，Worker工具主要为报告结果/放弃；不是完整外部动作闭环。",
+          "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。"
+        ],
+        "commercial_background": "作者主页推广本人产品与订阅；本仓MIT，不据此保证部署/服务无成本。",
+        "run_status": "未运行、未构建、未调用模型或执行模型代码。",
+        "source_nature_boundary": "本人主页直接链接；当前源码晚于实习结束，不证明投递时使用或促成录用。",
+        "priority_interpretation": "本人归属和录用经历不自动证明项目成熟度；逐项读代码、文档和风险。"
+      }
+    },
+    {
+      "id": "PRO25",
+      "source_key": "YIHANG_NOWORRIES",
+      "category": "项目参考",
+      "title": "NoWorries：桌面记忆与跨平台隔离风险选读",
+      "url": "https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f",
+      "author": "hlbbbbbbb",
+      "commit": "c811e697bb48a979ee14bd932de80057b98b464f",
+      "taxonomy": {
+        "track": "Agent工程",
+        "recruitment": "不适用",
+        "experience_date_text": "源码版本2026.07，非招聘事件",
+        "date_precision": "未知",
+        "year_confirmed": false,
+        "recent_status": "不适用",
+        "source_date_text": "固定提交",
+        "date_basis": "未取得明确事件年；届别、发表时间、仓库时间不替代事件年"
+      },
+      "reading": {
+        "scope": "部分",
+        "fulltext": false,
+        "scope_note": "指定代码段、许可及测试断言核读；未逐行审定整仓",
+        "video_watched": false
+      },
+      "outcomes": [],
+      "source_findings": [
+        "本人CV直接链接实现；记忆存储、检索及执行组件可静态审查。",
+        "一个本人端点修复PR已核合并；继承框架与该具体增量分别呈现。",
+        "Windows/Linux环境重定向不是系统级隔离；macOS回退可能重复执行并降低隔离。",
+        "workspace-manager L65–73仅用字符串前缀判子目录，未核路径组件边界/符号链接；属于静态风险。",
+        "仅归档14文件选读，未核整体运行、任务评测、回滚和各平台完整授权接线。",
+        "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。"
+      ],
+      "strengths": [
+        "本人CV直接链接实现；记忆存储、检索及执行组件可静态审查。",
+        "一个本人端点修复PR已核合并；继承框架与该具体增量分别呈现。"
+      ],
+      "limitations": [
+        "Windows/Linux环境重定向不是系统级隔离；macOS回退可能重复执行并降低隔离。",
+        "workspace-manager L65–73仅用字符串前缀判子目录，未核路径组件边界/符号链接；属于静态风险。",
+        "仅归档14文件选读，未核整体运行、任务评测、回滚和各平台完整授权接线。",
+        "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。"
+      ],
+      "recommended_use": "记忆组件与权限/重复副作用反例",
+      "archive_file": "近期Agent本人项目_补链/NoWorries_固定文本选读_去联系字段_c811e697bb.zip",
+      "archive_status": "固定14文件文本选读派生包，非完整源码",
+      "license_notes": "根与noworries_app的MIT许可正文已读、原样保留",
+      "project_relationship": "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。",
+      "candidate_links": [
+        "CV31"
+      ],
+      "source_record": {
+        "repo": "hlbbbbbbb/No-worries",
+        "sha": "c811e697bb48a979ee14bd932de80057b98b464f",
+        "source_url": "https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f",
+        "archive_type": "固定文本选读派生归档，不是完整仓库或原ZIP",
+        "selection_scope": "14个README、许可、沙箱/记忆实现与权限测试文件；上游树14635个文件，未下载bundled Python和其余文件",
+        "source_http_status": 200,
+        "local_path": "05_项目源码归档/近期Agent本人项目_补链/NoWorries_固定文本选读_去联系字段_c811e697bb.zip",
+        "sha256": "0ee50cd0260edd6c02d25b659889b12bcaa726936a2dab3dbdbdeabf27e67fd5",
+        "bytes": 39659,
+        "members": 15,
+        "files": [
+          {
+            "path": "README.md",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+            "source_status": 200,
+            "upstream_sha256": "98124dd8e80b2aab4074fb676d93029b14ba3097b0259fb159654d28b561d2d7",
+            "archived_sha256": "98124dd8e80b2aab4074fb676d93029b14ba3097b0259fb159654d28b561d2d7",
+            "same_as_upstream": true,
+            "lines": 413
+          },
+          {
+            "path": "LICENSE",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/LICENSE",
+            "source_status": 200,
+            "upstream_sha256": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+            "archived_sha256": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+            "same_as_upstream": true,
+            "lines": 21
+          },
+          {
+            "path": "noworries_app/LICENSE",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/LICENSE",
+            "source_status": 200,
+            "upstream_sha256": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+            "archived_sha256": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+            "same_as_upstream": true,
+            "lines": 21
+          },
+          {
+            "path": "noworries_app/SECURITY.md",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/SECURITY.md",
+            "source_status": 200,
+            "upstream_sha256": "c95fc9f8644c65ac944dfca2a4acb40bcd176837676af78e3c1edd11c5eaec5f",
+            "archived_sha256": "c95fc9f8644c65ac944dfca2a4acb40bcd176837676af78e3c1edd11c5eaec5f",
+            "same_as_upstream": true,
+            "lines": 63
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/sandbox/index.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/index.ts",
+            "source_status": 200,
+            "upstream_sha256": "2e5b66d272c8723674512533bea6871217ab8521ce5940823f986541a7523e53",
+            "archived_sha256": "2e5b66d272c8723674512533bea6871217ab8521ce5940823f986541a7523e53",
+            "same_as_upstream": true,
+            "lines": 156
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+            "source_status": 200,
+            "upstream_sha256": "929cd64ca4b9391ce66b8e974a64e861344f4a441d65cbc75c787c1e7bfbc16a",
+            "archived_sha256": "929cd64ca4b9391ce66b8e974a64e861344f4a441d65cbc75c787c1e7bfbc16a",
+            "same_as_upstream": true,
+            "lines": 199
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+            "source_status": 200,
+            "upstream_sha256": "ffd5df4f0672fca1a904294f5be2ca2d02469d92cd026fd0d0a7872128c98de8",
+            "archived_sha256": "ffd5df4f0672fca1a904294f5be2ca2d02469d92cd026fd0d0a7872128c98de8",
+            "same_as_upstream": true,
+            "lines": 328
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+            "source_status": 200,
+            "upstream_sha256": "ee65a2c7880b22fde335884d60b7a382083c2444fb5186046f3467ca7746dfe8",
+            "archived_sha256": "ee65a2c7880b22fde335884d60b7a382083c2444fb5186046f3467ca7746dfe8",
+            "same_as_upstream": true,
+            "lines": 289
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/sandbox/command-validator.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/command-validator.ts",
+            "source_status": 200,
+            "upstream_sha256": "d6f7fcc9f7ab05385c0149abeeec0e5907b7385ebec9adc6b112c3ee14d843b9",
+            "archived_sha256": "d6f7fcc9f7ab05385c0149abeeec0e5907b7385ebec9adc6b112c3ee14d843b9",
+            "same_as_upstream": true,
+            "lines": 289
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/clawdbot/memory-manager.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory-manager.ts",
+            "source_status": 200,
+            "upstream_sha256": "5d8956608045caeed615aa661db921b24783f41c49e5e00d8b8f52f7d79cc4ef",
+            "archived_sha256": "5d8956608045caeed615aa661db921b24783f41c49e5e00d8b8f52f7d79cc4ef",
+            "same_as_upstream": true,
+            "lines": 296
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/manager-search.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/manager-search.ts",
+            "source_status": 200,
+            "upstream_sha256": "5b82fb41f2ba6810665a371bf582a23dd00ee3c98e472179ecf5e7da97fb211b",
+            "archived_sha256": "5b82fb41f2ba6810665a371bf582a23dd00ee3c98e472179ecf5e7da97fb211b",
+            "same_as_upstream": true,
+            "lines": 182
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+            "source_status": 200,
+            "upstream_sha256": "5f057cb3929db7c74ba515f705d9988f4f8c6a57bd33a7881a96cb6147f00b63",
+            "archived_sha256": "5f057cb3929db7c74ba515f705d9988f4f8c6a57bd33a7881a96cb6147f00b63",
+            "same_as_upstream": true,
+            "lines": 876
+          },
+          {
+            "path": "noworries_app/apps/desktop/src/main/clawdbot/memory/memory-consolidation.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/memory-consolidation.ts",
+            "source_status": 200,
+            "upstream_sha256": "f9bbef59ce48e558be6822df41f5d9f89685735a5ab80b5ed4efc434b7840a63",
+            "archived_sha256": "f9bbef59ce48e558be6822df41f5d9f89685735a5ab80b5ed4efc434b7840a63",
+            "same_as_upstream": true,
+            "lines": 566
+          },
+          {
+            "path": "noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts",
+            "source_url": "https://raw.githubusercontent.com/hlbbbbbbb/No-worries/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts",
+            "source_status": 200,
+            "upstream_sha256": "3a6734d3b0a3bfdbd057ed3ff58d73aa5f01944797245ee280731dc296974b1d",
+            "archived_sha256": "3a6734d3b0a3bfdbd057ed3ff58d73aa5f01944797245ee280731dc296974b1d",
+            "same_as_upstream": true,
+            "lines": 120
+          }
+        ],
+        "modified_files": [],
+        "license": "根与noworries_app的MIT许可正文已读、原样保留",
+        "licenses": {
+          "LICENSE": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a",
+          "noworries_app/LICENSE": "ade83128c599e90214c3b901eff9c73701c95bd37a30ee74e08a74ddd98c357a"
+        },
+        "execution": "未运行、未构建、未安装依赖、未调用模型"
+      },
+      "comparison": {
+        "id": "PRO25",
+        "title": "NoWorries：桌面记忆与跨平台隔离风险选读",
+        "repo": "hlbbbbbbb/No-worries",
+        "source_URL": "https://github.com/hlbbbbbbb/No-worries/tree/c811e697bb48a979ee14bd932de80057b98b464f",
+        "commit": "c811e697bb48a979ee14bd932de80057b98b464f",
+        "source_nature": [
+          "本人CV直接链接",
+          "继承框架上的桌面应用"
+        ],
+        "candidate_relationships": [
+          {
+            "candidate_id": "CV31",
+            "relationship_type": "直接点名",
+            "direct_evidence_URLs": [
+              "https://imyihang.com/api/resume"
+            ],
+            "finding": "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。",
+            "event_time_boundary": "实习2025.12–2026.02，固定源码2026.07",
+            "snapshot_boundary": "当前固定版本不是投递版本",
+            "offer_causality": "不证明项目促成录用"
+          }
+        ],
+        "backend_dimensions": {
+          "业务闭环": {
+            "status": "文档宣称",
+            "finding": "桌面文件/办公Agent为作者定位；本次只核指定组件，未完成端到端任务。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "一致性": {
+            "status": "未核",
+            "finding": "月度JSON读写可见；跨进程及崩溃一致性未验证。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+            "read_paths": [
+              "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "并发": {
+            "status": "未核",
+            "finding": "记忆与执行组件可读，整体并发、重入及取消传播未审全。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+            "read_paths": [
+              "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "缓存MQ": {
+            "status": "不适用",
+            "finding": "本次未核业务缓存/MQ能力，不把记忆或任务树当消息队列。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "测试": {
+            "status": "源码可见",
+            "finding": "权限测试核到ID前缀、函数和服务创建，未覆盖全部沙箱隔离与降级路径。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts",
+            "read_paths": [
+              "noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "可运行材料": {
+            "status": "未核",
+            "finding": "归档仅14指定文本；未下载bundled Python、全部源码或运行依赖，不能直接当完整可运行包。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "个人贡献": {
+            "status": "文档宣称",
+            "finding": "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          }
+        },
+        "agent_dimensions": {
+          "真实任务": {
+            "status": "文档宣称",
+            "finding": "本人CV与主页定位桌面办公助手，未运行真实文件/表格任务。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "状态工具": {
+            "status": "源码可见",
+            "finding": "情景记忆按月JSON保存；有关键词检索及记忆衰减/提升逻辑，整体接线未审全。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+            "read_paths": [
+              "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "恢复": {
+            "status": "静态风险",
+            "finding": "macOS执行器L164–175将零退出且无输出的结果转入环境变量隔离并再次执行，存在重复副作用和隔离降级风险；未运行复现。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+            "read_paths": [
+              "noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "权限": {
+            "status": "静态风险",
+            "finding": "Windows以cwd/HOME等环境变量和PowerShell Bypass执行；Linux也为环境变量模式。所读组件不构成系统级文件隔离，整体授权入口未审全。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+            "read_paths": [
+              "noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "评测基线": {
+            "status": "未核",
+            "finding": "未核桌面任务黄金集、成功率及长期记忆效果；所读权限测试不等于端到端任务评测。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts",
+            "read_paths": [
+              "noworries_app/apps/desktop/__tests__/integration/main/permission-api.integration.test.ts"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "成本延迟": {
+            "status": "未核",
+            "finding": "未核整体任务的token、费用和时延；不从UI动画或模块存在推定生产效果。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "超API封装证据": {
+            "status": "源码可见",
+            "finding": "记忆、执行器和权限组件有实现；安全与恢复仍有静态缺口。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/noworries_app/apps/desktop/src/main/sandbox/index.ts",
+            "read_paths": [
+              "noworries_app/apps/desktop/src/main/sandbox/index.ts"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          },
+          "个人贡献": {
+            "status": "文档宣称",
+            "finding": "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。",
+            "source_URL": "https://github.com/hlbbbbbbb/No-worries/blob/c811e697bb48a979ee14bd932de80057b98b464f/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "指定段落静态核读；未运行"
+          }
+        },
+        "backend_priority": {
+          "level": "选读",
+          "reason": "用于并发/状态及故障边界阅读；非完整后端业务样板。",
+          "read_modules": [
+            "noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+            "noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "研究机制与失败路径；未验证为成熟可直接复用的成品。",
+          "read_modules": [
+            "noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+            "noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+            "noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+            "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+            "noworries_app/apps/desktop/src/main/clawdbot/memory/memory-consolidation.ts"
+          ]
+        },
+        "evidence_completeness": "近期Agent实习完整CV→本人主页/项目直接链接已建立；本人面经、SSP及运行验证仍缺。",
+        "target_applicability": "记忆组件与权限/重复副作用反例",
+        "attachment": {
+          "status": "固定14文件文本选读派生包，非完整源码",
+          "archive_file": "近期Agent本人项目_补链/NoWorries_固定文本选读_去联系字段_c811e697bb.zip",
+          "exists": true,
+          "reason": "未运行、未构建、未安装依赖、未调用模型",
+          "source_manifest": "08_证据索引与统计/近期Agent补链_NoWorries选读归档.json",
+          "runtime_verified": false
+        },
+        "read_paths": [
+          "noworries_app/apps/desktop/src/main/sandbox/macos-sandbox.ts",
+          "noworries_app/apps/desktop/src/main/sandbox/windows-sandbox.ts",
+          "noworries_app/apps/desktop/src/main/sandbox/workspace-manager.ts",
+          "noworries_app/apps/desktop/src/main/clawdbot/memory/episode-memory.ts",
+          "noworries_app/apps/desktop/src/main/clawdbot/memory/memory-consolidation.ts"
+        ],
+        "strengths": [
+          "本人CV直接链接实现；记忆存储、检索及执行组件可静态审查。",
+          "一个本人端点修复PR已核合并；继承框架与该具体增量分别呈现。"
+        ],
+        "limitations": [
+          "Windows/Linux环境重定向不是系统级隔离；macOS回退可能重复执行并降低隔离。",
+          "workspace-manager L65–73仅用字符串前缀判子目录，未核路径组件边界/符号链接；属于静态风险。",
+          "仅归档14文件选读，未核整体运行、任务评测、回滚和各平台完整授权接线。",
+          "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。"
+        ],
+        "commercial_background": "作者主页推广本人产品与订阅；本仓MIT，不据此保证部署/服务无成本。",
+        "run_status": "未运行、未构建、未调用模型或执行模型代码。",
+        "source_nature_boundary": "本人CV直接列仓库；基于OpenWork/OpenClaw/Pi Agent，未逐diff核全库原创比例；PR3064只核端点修复。",
+        "priority_interpretation": "本人归属和录用经历不自动证明项目成熟度；逐项读代码、文档和风险。"
+      }
+    },
+    {
+      "id": "OP15",
+      "source_key": "LINEAR_PRODUCTION_AGENT_PRIMARY_TRANSCRIPT",
+      "category": "B站与知乎",
+      "title": "Linear生产Agent：B站导读与发布者公开转写稿选读",
+      "url": "https://www.bilibili.com/video/BV1P6tN6bEps/",
+      "platform": "B站视频公开导读；原始播客逐字稿为平台外来源",
+      "author": "B站Easonlee；原访谈Nan Yu/Jacob Shumway，主持Peter Yang",
+      "taxonomy": {
+        "track": "Agent工程",
+        "recruitment": "不适用",
+        "experience_date_text": "专业观点，非招聘事件",
+        "date_precision": "未知",
+        "year_confirmed": false,
+        "recent_status": "不适用",
+        "source_date_text": "B站2026-08-28；原访谈2026-08-09",
+        "date_basis": "未取得明确事件年；届别、发表时间、仓库时间不替代事件年"
+      },
+      "reading": {
+        "scope": "部分",
+        "fulltext": false,
+        "scope_note": "B站公开导读选读，视频未观看；原始公开逐字稿选读开场及L69/71/79/83/87，未读整篇",
+        "video_watched": false
+      },
+      "platform_native_fulltext_verified": false,
+      "verified_video_viewing": false,
+      "primary_external_transcript_selected": true,
+      "opinion": "按真实工作流定义完成与人工检查点；按需加载技能/上下文；用户反馈转为回归样本，LLM评分器需人工校准。",
+      "identity_evidence": "原始访谈页明示两位嘉宾参与构建Linear Agent；B站为转述/导读，不升格原团队署名。",
+      "commercial_bias": "原发布页有付费订阅及Oceans Talent合作；Linear为自身产品案例，效果不视为独立测评。B站作者商业关系未核。",
+      "limits": [
+        "未观看视频、未取得B站字幕；原始逐字稿不算B站字幕。",
+        "不将针对特定字段/意图的评测取舍泛化成所有Agent不需要评测。",
+        "逐字稿有转写拼写错误，属于公开文本选读而非音视频逐句校对。"
+      ],
+      "recommendation": "与项目状态、权限及评测维度对读；只支持具体工程观点，不充作招聘门槛。",
+      "source_record": {
+        "primary_url": "https://github.com/petergyang/behind-the-craft-transcripts/blob/fee802bad021ed071dc55b1a6e45c5ac1b5c114c/transcripts/2026/159-5-rules-for-building-ai-agents-that-work-in-production-nan-yu-jacob-shumway.md",
+        "primary_article": "https://creatoreconomy.so/p/5-rules-for-building-ai-agents-in-production-linear-nan-jacob",
+        "transcript_sha256": "797758b28016f6378e21aea99a0202799ed42505119448e858a262a09e5394a7",
+        "fixed_commit": "fee802bad021ed071dc55b1a6e45c5ac1b5c114c",
+        "reading_ranges": [
+          "开场/循环与工作流",
+          "L69/71/79/83/87评测/用户反馈/按需技能"
+        ],
+        "bilibili_access": "网页工具可读公开导读；普通GET412",
+        "publisher_relationship": "GitHub公开账号petergyang的blog字段直接指向creatoreconomy.so；固定版本README明确称本人Behind the Craft频道的转写档案，自动从已发布视频更新。账号自述与来源链接对应，不等于逐句人工校对。",
+        "publisher_readme_url": "https://github.com/petergyang/behind-the-craft-transcripts/blob/fee802bad021ed071dc55b1a6e45c5ac1b5c114c/README.md",
+        "media_downloaded": false,
+        "full_transcript_archived": false
+      }
+    },
+    {
+      "id": "OBS10",
+      "source_key": "ZTE_LLM_SSP_NOT_AGENT_CONFIRMED",
+      "category": "候选人对照",
+      "title": "指数函数：中兴大模型开发SSP自述，Agent职责未披露",
+      "url": "https://www.nowcoder.com/feed/main/detail/33e2209965c44c6e86a27ecb9e01f9b1",
+      "taxonomy": {
+        "track": "混合",
+        "recruitment": "校招",
+        "experience_date_text": "原文2025年回顾去年秋招；具体日期未核",
+        "date_precision": "未知",
+        "year_confirmed": false,
+        "recent_status": "时间边界待核",
+        "source_date_text": "2025-08-08已编辑",
+        "date_basis": "未取得明确事件年；届别、发表时间、仓库时间不替代事件年"
+      },
+      "reading": {
+        "scope": "全文",
+        "fulltext": true,
+        "scope_note": "原帖公开文字正文已读，未读offer截图、评论和图片；普通GET空壳但网页工具可读",
+        "video_watched": false
+      },
+      "outcomes": [
+        {
+          "company": "中兴",
+          "role": "大模型开发",
+          "grade": "SSP",
+          "status": "offer_self_report",
+          "date": "原文称去年秋招，具体事件年未直接核定",
+          "evidence_url": "https://www.nowcoder.com/feed/main/detail/33e2209965c44c6e86a27ecb9e01f9b1",
+          "basis": "本人明确表示选择中兴大模型开发SSP offer",
+          "boundary": "不等于Agent工程/后端实习SSP；具体部门职责、源码和简历缺",
+          "independent_employer_verified": false
+        }
+      ],
+      "summary": "公司、宽泛岗位与SSP自述明确；描述三轮流程与项目表达，但没有具体Agent职责或项目实现。作为大模型邻近对照，不扩大核心Agent SSP样本。",
+      "limits": [
+        "不按话题标签或25届补写事件年。",
+        "薪资选择与工作体验为个人自述，不推为统一招聘要求。",
+        "未证明赞助/推广关系；正向体验不自动判广告，也不作独立测评。"
+      ]
+    }
+  ]
+}

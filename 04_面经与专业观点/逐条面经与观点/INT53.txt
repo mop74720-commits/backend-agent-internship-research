@@ -1,0 +1,279 @@
+INT53 | 美团一面全栈开发日常实习面经
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise
+公司：
+  美团
+事件时间／原文日期（依分类）：
+  面试年月日未确认（页面10-12）
+方向与岗位：
+  全栈开发日常实习
+round：
+  一面，作者称约30分钟
+role_boundary：
+  明确全栈实习；作者说明题单经AI归纳，不能将几十条归纳当成逐字实际追问次数
+结果自述：
+  未公布最终结果；职业标签不能当录用证明
+涉及主题：
+  - Agent循环/工具
+  - 安全/权限
+  - 记忆/上下文
+  - RAG/检索
+  - 评测/指标
+  - 数据库/缓存
+  - 消息队列/一致性
+  - 系统设计/取舍
+原文提问（归纳）：
+  - 为何自研与选择ReAct，哪些精确任务应绕开RAG？
+  - 子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？
+  - 记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？
+内容归纳：
+  覆盖面广，可作主题导航；作者自承AI整理，权重低于细节可核对的逐轮回忆。
+建议用途：
+  中优先级：按主题查漏，避免把它当完整、精确的实习考试清单。
+局限：
+  - 作者说明由AI总结，原始录音、完整对话和实际问答边界未提供。
+  - 题单出现的多种数据库、工具和阈值都不是所有岗位的必选栈。
+source_project_description：
+  自述Agent及微服务/回测相关项目，无明确仓库。
+统计组：
+  明确实习面经
+原访问范围：
+  原文正文全文已读（网页工具）；作者自述AI整理
+outcome_status：
+  not_disclosed
+author_group：
+  nowcoder_在写日记的咸鱼很伤心
+证据边界：
+  B-：第一人称发布，但题单经AI整理、细节未经独立核验
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）；本卡为原创提炼
+source_project_links：
+  —
+ssp_status：
+  原文未明确SSP，不计SSP成功样本
+reading_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+商业与选择偏差：
+  已读正文未见直接售课；不代表作者身份与动机已获验证
+independence_note：
+  一篇原文；多轮不增加独立候选人数
+fulltext_verified：
+  是
+read_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+verification_notes：
+  已实际读取原文文字正文；搜索摘要和聚合索引仅用作发现。全文指该篇公开正文，不代表完整面试录音、答案、项目代码或企业验证。作者自述问题清单经AI整理，保持B-权重。
+类别：
+  面经复盘
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    面试年月日未确认（页面10-12）
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    10-12
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    原文正文全文已读（网页工具）；作者自述AI整理
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      美团
+    档位：
+      未披露
+    状态：
+      unknown
+    证据：
+      https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise
+    依据：
+      未公布最终结果；职业标签不能当录用证明
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  10-12
+面经形式：
+  面经与整理/协作笔记混合
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  unknown
+related_record_ids：
+  —
+external_research_reviews：
+  I22：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        I22
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_面经核对.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        I22
+      existing_id：
+        INT53
+      decision：
+        existing
+      标题：
+        美团一面全栈开发日常实习面经
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise
+      resolved_url：
+        https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=subject
+      canonical_post_key：
+        feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da
+      access_status：
+        HTTP 200，原始作者主文全文可读
+      已读部分：
+        全文
+      fulltext_verified：
+        是
+      body_selector：
+        .feed-content-text
+      retrieved_at：
+        2026-10-24
+      reading_note：
+        只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+      body_text_sha256：
+        14253ce6294902418621275941597f85fef67b30fc6a33c31dc6e1724eade8f9
+      body_char_count：
+        1452
+      source_card_path：
+        03_面经/I22.html
+      source_card_role：
+        提供检索线索和原URL，不能代替本次原文实读
+      发表／来源日期：
+        10-12（年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+      source_date_verified：
+        否
+      方向：
+        Agent工程
+      招聘类型：
+        实习
+      event_date：
+        面试约30分钟，年月日未知
+      event_year_confirmed：
+        否
+      event_year：
+        未核／无
+      时间依据：
+        正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+      questions：
+        - 为什么自研ReAct，路由到Skill的链路怎样组织？
+        - 三路召回、重排、噪声和数据坍缩如何评估？
+        - 子Agent工具权限、消息隔离、注入防护怎样设计？
+        - 工具失败重试降级、长任务异步、状态流转怎样闭环？
+        - 端到端测试、线上反馈与MRR等指标如何建立？
+        - 微服务幂等、Redis数据库一致性和binlog方案怎样实现？
+      涉及主题：
+        - 数据库/SQL
+        - 缓存/Redis
+        - 消息/异步
+        - 网络/协议
+        - 分布式/一致性
+        - 项目深挖/个人贡献
+        - RAG/检索
+        - 记忆/检索
+        - Agent循环/工具
+        - 评测/指标
+        - 安全/权限
+        - 框架/机制
+      结果分类：
+        unknown
+      result：
+        本文未公布录用；职业标签不能当本场offer
+      档位：
+        未披露
+      公司：
+        美团
+      ai_organized：
+        是
+      ai_marker_basis：
+        作者主文明确AI整理/总结；逐字和题数降权。
+      short_quote：
+        整体其实只面了30min…题目主要是，通过ai总结提到的一些东西
+      阅读建议：
+        适合两个项目的融合方向，保留评测、安全和可靠异步任务三条深度主线。
+      局限：
+        - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+        - 作者明确由AI总结，49条是整理条目而非已证实逐字问题数；牛客AI配图与此处AI总结另行区分。
+      same_author_relations：
+        —
+      商业背景：
+        正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+      merge_policy：
+        同一逻辑来源不新增计数；只补本次核验路径、短引文、问题和必要纠错，既有未知年不回填。
+      access_attempts：
+        - 原始来源：
+            https://api-cdn.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=subject
+          状态：
+            200
+          body_found：
+            否
+        - 原始来源：
+            https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=subject
+          状态：
+            200
+          body_found：
+            否
+        - 原始来源：
+            https://ac.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=subject
+          状态：
+            200
+          body_found：
+            是
+      capability_ids：
+        - CAP01
+        - CAP02
+        - CAP03
+        - CAP04
+        - CAP05
+        - CAP06
+        - CAP07
+        - CAP08
+        - CAP09
+        - CAP10
+        - CAP11
+      reading_boundary：
+        本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。作者明确AI整理，逐字和条目数量降权。
+      original_outcome_quote：
+        未核／无
+ai_organized：
+  是
+ai_marker_basis：
+  作者主文明确AI整理/总结；逐字和题数降权。
+same_author_relations：
+  —

@@ -1,0 +1,208 @@
+{
+  "scope": "专业观点交叉核对：平台外实录分类、能力对照和当前交付；不运行研究项目",
+  "checks": [
+    {
+      "name": "主目录数量与数据一致",
+      "passed": true
+    },
+    {
+      "name": "类别 候选人资料",
+      "passed": true
+    },
+    {
+      "name": "类别 官方技术资料",
+      "passed": true
+    },
+    {
+      "name": "类别 本人项目文档",
+      "passed": true
+    },
+    {
+      "name": "类别 观点范围对照",
+      "passed": true
+    },
+    {
+      "name": "类别 面经复盘",
+      "passed": true
+    },
+    {
+      "name": "类别 招聘JD",
+      "passed": true
+    },
+    {
+      "name": "类别 候选人对照",
+      "passed": true
+    },
+    {
+      "name": "类别 履历对照材料",
+      "passed": true
+    },
+    {
+      "name": "类别 B站与知乎",
+      "passed": true
+    },
+    {
+      "name": "类别 专业原文补充",
+      "passed": true
+    },
+    {
+      "name": "类别 项目参考",
+      "passed": true
+    },
+    {
+      "name": "类别 检索导航",
+      "passed": true
+    },
+    {
+      "name": "明确实习分母",
+      "passed": true
+    },
+    {
+      "name": "严格近期未被校招和模板充数",
+      "passed": true
+    },
+    {
+      "name": "新百度15问可搜索",
+      "passed": true
+    },
+    {
+      "name": "展开搜索结果",
+      "passed": true
+    },
+    {
+      "name": "收起资料卡",
+      "passed": true
+    },
+    {
+      "name": "新履历跳转可清除筛选并展开",
+      "passed": true
+    },
+    {
+      "name": "候选人四段关联齐全",
+      "passed": true
+    },
+    {
+      "name": "全部项目纳入375维",
+      "passed": true
+    },
+    {
+      "name": "14份JD要求分层保留",
+      "passed": true
+    },
+    {
+      "name": "5核心专业履历副本",
+      "passed": true
+    },
+    {
+      "name": "3研究对照另列",
+      "passed": true
+    },
+    {
+      "name": "原包和派生文本归档分列",
+      "passed": true
+    },
+    {
+      "name": "平台正文5视频0",
+      "passed": true
+    },
+    {
+      "name": "本轮修正明确雇主与批次",
+      "passed": true
+    },
+    {
+      "name": "重点补证显示两位不同作者与课程风险",
+      "passed": true
+    },
+    {
+      "name": "新简历及项目均可搜索",
+      "passed": true
+    },
+    {
+      "name": "面试事件年与发表年分列",
+      "passed": true
+    },
+    {
+      "name": "本轮关系及选读范围可见",
+      "passed": true
+    },
+    {
+      "name": "原始逐字稿未冒充视频观看",
+      "passed": true
+    },
+    {
+      "name": "原始实录及平台边界显示",
+      "passed": true
+    },
+    {
+      "name": "专业观点对应3项能力",
+      "passed": true
+    },
+    {
+      "name": "外部实录来源类别可搜索",
+      "passed": true
+    },
+    {
+      "name": "新面经阅读边界可见",
+      "passed": true
+    },
+    {
+      "name": "Agent阅读路线包含新面经",
+      "passed": true
+    },
+    {
+      "name": "新面经映射5项能力且无权限误映射",
+      "passed": true
+    },
+    {
+      "name": "当前比较下载使用动态文件名",
+      "passed": true
+    },
+    {
+      "name": "桌面无整页横向溢出",
+      "passed": true
+    },
+    {
+      "name": "首页和统一报告卡数一致",
+      "passed": true
+    },
+    {
+      "name": "手机无整页横向溢出",
+      "passed": true
+    },
+    {
+      "name": "新增履历专业模块可见",
+      "passed": true
+    },
+    {
+      "name": "新增履历手机无溢出",
+      "passed": true
+    },
+    {
+      "name": "待核清单与JSON一致",
+      "passed": true
+    },
+    {
+      "name": "已读面经不再显示正文未取得",
+      "passed": true
+    },
+    {
+      "name": "字幕访问已更新为200空列表",
+      "passed": true
+    },
+    {
+      "name": "待核搜索仍可用",
+      "passed": true
+    },
+    {
+      "name": "手机待核无溢出",
+      "passed": true
+    },
+    {
+      "name": "无脚本错误",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "pdf_exported": true
+}

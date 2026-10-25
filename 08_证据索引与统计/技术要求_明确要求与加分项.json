@@ -1,0 +1,3689 @@
+{
+  "date": "2026-10-24",
+  "scope": "技术要求证据分层，非个人项目设计",
+  "rules": [
+    "明确要求、原文优先/加分、工作职责分别呈现。",
+    "JD只支持相应岗位和来源时点，不支持统一大厂或SSP评分线。",
+    "面经是作者回忆，成功者经历是个案，专业观点是工程判断，不能互相替代。",
+    "未提及不表示不要求；公开样本为便利样本，不估计总体市场概率。"
+  ],
+  "engineering_jd_count": 24,
+  "job_requirement_rows": [
+    {
+      "id": "JD01",
+      "company": "字节跳动/抖音平台产品",
+      "role": "抖音-27届-后端开发实习生",
+      "track": "后端",
+      "explicit_requirements": [
+        "扎实编程",
+        "计算机原理",
+        "数据结构与算法",
+        "MySQL",
+        "Redis",
+        "消息队列"
+      ],
+      "explicit_preferences": [],
+      "duties_not_entry_gates": "系统架构与性能优化",
+      "education": "2027届本科及以上；相关专业优先",
+      "availability": "每周4天以上；4个月以上",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/437499",
+      "source_type": "企业在牛客发布的JD",
+      "source_date": "未展示发布日期；面向2027届",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": ""
+    },
+    {
+      "id": "JD02",
+      "company": "腾讯云智研发",
+      "role": "后台开发-2027届暑期实习生",
+      "track": "后端",
+      "explicit_requirements": [
+        "C/C++/Java/Go择一",
+        "TCP/UDP及网络编程",
+        "进程通信",
+        "数据结构与算法",
+        "操作系统",
+        "设计模式",
+        "数据库系统",
+        "网络安全"
+      ],
+      "explicit_preferences": [
+        "Python/Shell/Perl了解",
+        "MySQL/SQL了解",
+        "NoSQL/KV原理了解",
+        "分布式系统",
+        "负载均衡",
+        "容灾与高可用"
+      ],
+      "duties_not_entry_gates": "后台设计、开发、优化与运营",
+      "education": "本科以上；非计算机专业需补齐必修课",
+      "availability": "5天/周；最少3个月",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/437835",
+      "source_type": "企业在牛客发布的JD",
+      "source_date": "投递期2026-03-10至2026-07-31",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "雇主为腾讯云智研发；不能直接等同腾讯总部所有事业群的要求或薪酬。"
+    },
+    {
+      "id": "JD03",
+      "company": "阿里云",
+      "role": "暑期实习-Java研发工程师（供应链&IDC-天基）",
+      "track": "后端",
+      "explicit_requirements": [
+        "熟练编程",
+        "数据结构与算法",
+        "数理基础"
+      ],
+      "explicit_preferences": [],
+      "duties_not_entry_gates": "数据中心监控、能耗、智能运维",
+      "education": "硕士及以上在读；2025-09至2026-06毕业优先",
+      "availability": "未展示",
+      "source_URL": "https://mnowpick.nowcoder.com/m/detail/index?jobId=379097",
+      "source_type": "企业在牛客发布的JD",
+      "source_date": "投递期2025-03-01至2025-04-30",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "Java来自岗位标题；不得推断该JD明确要求Spring、Redis。"
+    },
+    {
+      "id": "JD04",
+      "company": "小米集团",
+      "role": "软件研发工程师（实习）",
+      "track": "后端",
+      "explicit_requirements": [
+        "Go/C/C++/Java择一",
+        "Linux/Unix",
+        "设计开发测试发布流程"
+      ],
+      "explicit_preferences": [
+        "Ruby/Python/Bash"
+      ],
+      "duties_not_entry_gates": "DevOps、SRE、AIOps与站点稳定性",
+      "education": "页面标2026届；学历栏不限",
+      "availability": "页面显示最少5个月；7天/周字段异常待核验",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/433220?urlSource=sitemap",
+      "source_type": "企业在牛客发布的JD",
+      "source_date": "投递期2026-02-24至2026-02-28",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "7天/周仅记录页面字段，不作为真实劳动安排结论。"
+    },
+    {
+      "id": "JD05",
+      "company": "百度MEG",
+      "role": "后端实习工程师（J93985）",
+      "track": "后端",
+      "explicit_requirements": [
+        "Go或Java及相应框架",
+        "RPC",
+        "分布式缓存",
+        "MySQL及调优",
+        "SOA",
+        "数据结构",
+        "架构设计",
+        "面向对象"
+      ],
+      "explicit_preferences": [
+        "AI技术与项目经验"
+      ],
+      "duties_not_entry_gates": "妙笔与智能体业务可靠性、性能与扩展性",
+      "education": "未展示",
+      "availability": "未展示",
+      "source_URL": "https://talent.baidu.com/jobs/detail/INTERN/ef58d698-b944-4c05-86fe-e76daffecc8b",
+      "source_type": "官方招聘",
+      "source_date": "2026-07-21（官网展示日期）",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": ""
+    },
+    {
+      "id": "JD06",
+      "company": "百度网盘/文库内容安全",
+      "role": "服务端研发工程师（Golang）",
+      "track": "后端",
+      "explicit_requirements": [
+        "至少一门后端语言",
+        "MySQL",
+        "Redis",
+        "MQ原理",
+        "数据结构",
+        "操作系统",
+        "网络"
+      ],
+      "explicit_preferences": [
+        "Golang"
+      ],
+      "duties_not_entry_gates": "分布式性能与线上稳定性维护",
+      "education": "本科（页面字段）",
+      "availability": "5天/周；3个月",
+      "source_URL": "https://www.shixiseng.com/intern/inn_5lxff4vehchx?pcm=pc_SearchList",
+      "source_type": "企业在实习僧发布的JD",
+      "source_date": "2026-09-14刷新",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": ""
+    },
+    {
+      "id": "JD07",
+      "company": "字节跳动/飞书项目",
+      "role": "后端开发实习生-飞书项目",
+      "track": "后端",
+      "explicit_requirements": [
+        "后端开发经验",
+        "Go/Java/Python择一",
+        "后端框架",
+        "协议",
+        "存储",
+        "缓存",
+        "系统设计",
+        "测试日志规范"
+      ],
+      "explicit_preferences": [
+        "Golang"
+      ],
+      "duties_not_entry_gates": "高并发、系统解耦、技术调研",
+      "education": "本科及以上在读；计算机/软件/AI相关优先",
+      "availability": "5天/周；3个月以上",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/463791",
+      "source_type": "企业在牛客发布的JD",
+      "source_date": "未展示；当前抓取样本",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "存储未指定MySQL，不在精确MySQL频次中计数。"
+    },
+    {
+      "id": "JD08",
+      "company": "字节跳动/基础设施计算",
+      "role": "AI Agent开发实习生-计算",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "数据结构与算法",
+        "C/C++/Python/Go/Java择一"
+      ],
+      "explicit_preferences": [
+        "Agent开发",
+        "Agent框架",
+        "Agent Skills"
+      ],
+      "duties_not_entry_gates": "多Agent、记忆知识、鉴权观测、开发框架",
+      "education": "2027届本科及以上；计算机通信等相关",
+      "availability": "4天/周；最少3个月",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/432128?urlSource=sitemap",
+      "source_type": "企业在牛客发布的JD",
+      "source_date": "未展示；面向2027届",
+      "current_access_recheck": {
+        "id": "JD08",
+        "url": "https://www.nowcoder.com/jobs/detail/432128?urlSource=sitemap",
+        "access": "企业招聘原页面正文实际读取；未显示可确认发布时间",
+        "reading_scope": "岗位职责与五项岗位要求",
+        "required_summary": "面向2027届，要求算法、数据结构及一门熟练语言。",
+        "preferred_summary": "Agent开发、框架、Skills经验写为优先。",
+        "duties_summary": "记忆、知识、鉴权、观测、多Agent属于团队工作范围。",
+        "boundary": "不能把工作范围中的全部模块说成申请者必须已掌握；不按届别补发布时间。"
+      },
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": ""
+    },
+    {
+      "id": "JD09",
+      "company": "字节跳动/飞书",
+      "role": "后端开发实习生-飞书（Agent/RAG）",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "后端开发经验",
+        "Go/Java/Python择一",
+        "系统设计",
+        "存储缓存协议",
+        "LLM应用架构",
+        "Agent/RAG/SFT基本认知",
+        "测试日志规范"
+      ],
+      "explicit_preferences": [
+        "Golang",
+        "LLM应用工程",
+        "AI研发工具",
+        "校园/竞赛/开源实践"
+      ],
+      "duties_not_entry_gates": "规划、工具、对话管理；RAG召回重排；Prompt版本、评测与监控",
+      "education": "本科及以上在读；相关专业优先",
+      "availability": "5天/周；3个月以上",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/432353",
+      "source_type": "企业在牛客发布的JD",
+      "source_date": "未展示；日常实习",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": ""
+    },
+    {
+      "id": "JD10",
+      "company": "百度ACG",
+      "role": "智能体应用开发实习生（J99649）",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "数据结构与算法",
+        "操作系统",
+        "网络",
+        "Python/Java/Go择一",
+        "RAG",
+        "Prompt工程",
+        "知识图谱概念",
+        "LangChain/LlamaIndex",
+        "Coze/Dify/AppBuilder/百炼任选"
+      ],
+      "explicit_preferences": [
+        "PyTorch/TensorFlow/Paddle/DeepSpeed",
+        "AST/代码调用链/依赖分析",
+        "CodeAgent/AI Coding实践"
+      ],
+      "duties_not_entry_gates": "代码结构知识、问题溯源、生成测试部署",
+      "education": "本科及以上在校；计算机/AI/自动化/数学优先",
+      "availability": "线下5个月以上；每周4天以上",
+      "source_URL": "https://talent.baidu.com/jobs/detail/INTERN/e3cec5b8-b7a3-4946-99fc-b292b749cd53",
+      "source_type": "官方招聘",
+      "source_date": "2026-07-21（官网展示日期）",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "岗位工作也提到训练策略探索，不能把深度学习优先项误写为所有Agent工程岗硬门槛。"
+    },
+    {
+      "id": "JD11",
+      "company": "百度安全与企业效率平台",
+      "role": "AI开放平台研发工程师实习生（J103363）",
+      "track": "混合",
+      "explicit_requirements": [
+        "数据结构与算法",
+        "操作系统",
+        "网络",
+        "数据库",
+        "Java/JVM/并发/集合",
+        "Spring/Spring Boot",
+        "RESTful",
+        "MySQL",
+        "Redis"
+      ],
+      "explicit_preferences": [
+        "消息队列",
+        "Agent/RAG/Function Calling/MCP实践",
+        "LLM API/流式/Token计费",
+        "API网关/OAuth2/JWT/限流熔断/可观测",
+        "微服务/高并发/开源贡献"
+      ],
+      "duties_not_entry_gates": "能力注册治理、模型路由、上下文、流式响应、鉴权配额",
+      "education": "未展示",
+      "availability": "未展示",
+      "source_URL": "https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9",
+      "source_type": "官方招聘",
+      "source_date": "2026-07-21（官网展示日期）",
+      "current_access_recheck": {
+        "id": "JD11",
+        "url": "https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9",
+        "access": "官网正文实际读取；招聘页显示2026-07-21日常实习",
+        "reading_scope": "工作职责与职责要求，包括单列加分项",
+        "required_summary": "Java与JVM、并发、集合，Spring/Boot、REST服务，MySQL与Redis列为要求。",
+        "preferred_summary": "MQ了解者优先；Agent/RAG/MCP实践、流式调用和Token计费、网关权限、高并发与开源经验列为加分。",
+        "boundary": "这些优先项不能变成每个Agent实习岗位的统一硬门槛。"
+      },
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": ""
+    },
+    {
+      "id": "JD12",
+      "company": "阿里国际",
+      "role": "阿里国际实习招聘（AI应用研发）",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "Java/Python/JS等一种深入实践",
+        "数据结构算法",
+        "网络操作系统",
+        "LLM应用范式",
+        "Context/Prompt工程",
+        "工具调用",
+        "Agent框架",
+        "AI Coding经验"
+      ],
+      "explicit_preferences": [
+        "RAG/多Agent/MCP/Skills落地",
+        "高质量开源/博客",
+        "vLLM/Ollama/延迟/KV cache理解",
+        "CV/NLP/SFT/RL经验"
+      ],
+      "duties_not_entry_gates": "业务归因、反思纠错、自动评测回测、链路归因、异步与降级",
+      "education": "相关专业优先；学历/届别未展示",
+      "availability": "未展示",
+      "source_URL": "https://www.nowcoder.com/feed/main/detail/22154e3d68ed481588263f61f5f616b4",
+      "source_type": "自称雇员发布的招聘帖",
+      "source_date": "页面03-24；年份未明示",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "牛客带阿里研发职业标签；招聘人身份未由雇主二次验证。"
+    },
+    {
+      "id": "JD13",
+      "company": "字节跳动/开发者服务",
+      "role": "Dev Agent后端开发实习（北京/27届）",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "Go/Java/Python/C++择一",
+        "工程兴趣与逻辑能力"
+      ],
+      "explicit_preferences": [],
+      "duties_not_entry_gates": "研发全链路；Prompt、知识工程、评测",
+      "education": "27届，2026-09至2027-08毕业",
+      "availability": "未展示",
+      "source_URL": "https://www.nowcoder.com/feed/main/detail/a6d09e3d6f1845ba990a59acc366aca2",
+      "source_type": "自称雇员发布的招聘帖",
+      "source_date": "页面02-10；年份未明示",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "同方向官方岗位能检索到，但网页正文未读到；未把官方摘要额外要求并入此条。"
+    },
+    {
+      "id": "JD14",
+      "company": "百度",
+      "role": "Agent研发工程师（实习生）",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "Python/Go等一种语言",
+        "数据结构与算法",
+        "LLM/RAG/Function Call/任务规划认知",
+        "系统设计与抽象"
+      ],
+      "explicit_preferences": [
+        "框架/中间件设计落地"
+      ],
+      "duties_not_entry_gates": "多Agent、任务调度、异常恢复；测试集与任务成功率",
+      "education": "相关专业在读本科/硕士",
+      "availability": "正文6个月以上；页头4个月；5天/周",
+      "source_URL": "https://www.shixiseng.com/intern/inn_py1hkw0wds9o?pcm=pc_SearchList",
+      "source_type": "企业在实习僧发布的JD",
+      "source_date": "2026-09-22刷新",
+      "current_access_recheck": {
+        "id": "JD14",
+        "url": "https://www.shixiseng.com/intern/inn_py1hkw0wds9o?pcm=pc_SearchList",
+        "access": "企业招聘原页面正文实际读取；2026-09-22刷新",
+        "reading_scope": "完整职位描述、任职资格与投递要求",
+        "required_summary": "语言、算法与调试、LLM应用认知、系统设计和抽象；正文要求稳定实习六个月以上。",
+        "preferred_summary": "框架或中间件的设计落地经验被标为加分。",
+        "duties_summary": "规划、工具、调度、上下文、异常恢复，以及成功率和稳定性的持续评测。",
+        "boundary": "页头四个月与正文六个月冲突，保留冲突；不以正文职责推定本人已做过所有模块。"
+      },
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "实习时长字段冲突：以正文6个月作为保守筛选，投递前问招聘方。"
+    },
+    {
+      "id": "JD20",
+      "company": "字节跳动",
+      "role": "字节跳动 后端工程师开发 实习",
+      "track": "后端",
+      "explicit_requirements": [
+        "Java/集合/IO/反射/泛型/JVM/类加载",
+        "线程池/锁/CAS/AQS/ThreadLocal/ConcurrentHashMap",
+        "Spring Boot/Cloud/MyBatis及微服务项目",
+        "MySQL/索引/事务/锁/执行计划/慢SQL/分库分表",
+        "Redis/缓存/分布式锁/限流",
+        "至少一种Kafka/RocketMQ/RabbitMQ，可靠性/幂等/重复消费",
+        "RESTful/接口设计/代码规范"
+      ],
+      "explicit_preferences": [
+        "高并发/高可用/分布式系统",
+        "跨境电商/支付/订单/库存/履约/营销经验"
+      ],
+      "duties_not_entry_gates": "该页“岗位职责”部分实际也列学历与Java基础资格；按原文性质记录，不据栏目标题改写为工作经历。",
+      "education": "本科及以上，计算机/软件等相关专业；2027届",
+      "availability": "北京；5天/周；至少3个月；页标有转正",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/447232",
+      "source_type": "牛客平台招聘页，发布者企业身份未独立核验",
+      "source_date": "未显示发布日期；明确投递期2026-05-10—2026-08-10",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "原页岗位名称泛化；未与字节官网职位ID交叉核验。"
+    },
+    {
+      "id": "JD21",
+      "company": "腾讯云智研发",
+      "role": "腾讯云智研发 后台开发 2026届暑期实习生",
+      "track": "后端",
+      "explicit_requirements": [
+        "编程能力",
+        "C/C++/Java/Go",
+        "TCP/UDP/IPC编程",
+        "算法/OS/数据结构/数据库/软件工程/设计模式/网络安全"
+      ],
+      "explicit_preferences": [
+        "分布式/负载均衡/容灾/高可用",
+        "腾讯云资格或同等认证"
+      ],
+      "duties_not_entry_gates": "服务后台架构设计、开发、优化与运营；网络接入、业务逻辑、存储和数据挖掘。",
+      "education": "本科及以上；计算机相关，非科班须自修专业必修课；标题2026届",
+      "availability": "武汉/重庆/厦门/西安/长沙；5天/周；至少3个月",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/381180",
+      "source_type": "牛客平台招聘页，发布者企业身份未独立核验",
+      "source_date": "未显示发布日期；明确投递期2025-03-03—2025-07-31",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "Python/Shell/Perl、SQL、NoSQL/KV列“有一定了解”，并非与编程能力相同熟练度；腾讯云智研发不代表腾讯各事业群。"
+    },
+    {
+      "id": "JD22",
+      "company": "百度",
+      "role": "百度 大模型应用开发 后端开发工程师 实习生",
+      "track": "混合",
+      "explicit_requirements": [
+        "Golang/Python（正文并列熟练掌握）",
+        "数据结构算法/计算机原理",
+        "数据库/缓存/消息中间件",
+        "Docker/Kubernetes及云原生高性能服务平台经验",
+        "单元测试/集成测试"
+      ],
+      "explicit_preferences": [],
+      "duties_not_entry_gates": "AI平台后端与系统架构、Agent/RAG/Workflow功能、性能调优、稳定性和版本维护。",
+      "education": "计算机/通信/软件相关本科及以上",
+      "availability": "北京；5天/周；至少6个月；有转正",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/447247",
+      "source_type": "牛客平台招聘页，发布者企业身份未独立核验",
+      "source_date": "未显示发布日期或投递期",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "不与百度官网J101073视作同一岗位；未要求模型训练。"
+    },
+    {
+      "id": "JD23",
+      "company": "淘天集团",
+      "role": "淘天集团 AI Agent应用开发工程师 2026暑期实习",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "Python/Java/Go/C++等主语言",
+        "算法/数据结构",
+        "Agent系统实践与LangChain/LlamaIndex/AutoGen原理",
+        "高可用/可扩展Agent工程架构",
+        "Prompt/RAG/Tool Calling/Context Engineering",
+        "OpenAPI/RPC/MCP工具集成",
+        "了解PyTorch/TensorFlow"
+      ],
+      "explicit_preferences": [
+        "Transformer实战",
+        "数据工程",
+        "模型微调/后训练",
+        "模型评测"
+      ],
+      "duties_not_entry_gates": "电商消费决策、商家运营多智能体、代码生成、运营及办公提效平台。",
+      "education": "本科及以上；计算机/软件/AI相关优先",
+      "availability": "杭州；5天/周；至少3个月；有转正",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/436118",
+      "source_type": "牛客平台招聘页，发布者企业身份未独立核验",
+      "source_date": "标题明确2026暑期实习；未显示发布日期和具体投递期",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "相关背景、Transformer、后训练列优先或加分；不能全部改成硬门槛。"
+    },
+    {
+      "id": "JD24",
+      "company": "阿里云",
+      "role": "阿里云 AI Agent研发 基础平台研发工程师 暑期实习",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "计算机基础/主语言",
+        "数据库原理",
+        "Kubernetes/Serverless或Docker/gVisor安全隔离",
+        "LLM原理；至少一种Agent框架或RAG/工具/规划组件",
+        "Agent训练/评测/部署生命周期经验"
+      ],
+      "explicit_preferences": [
+        "数据库/分布式/云/AI应用项目",
+        "模型数据预处理/LoRA/Prefix Tuning等适配实践"
+      ],
+      "duties_not_entry_gates": "多模态数据通道，获取解析结构化至上下文；意图规划工具调用；知识切片索引检索；文档模型后训练；分布式高可用。原文明确“一项或多项”。",
+      "education": "2027届硕士或博士，计算机/软件/信息技术相关",
+      "availability": "北京/杭州；时长未明确",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/441472",
+      "source_type": "牛客平台招聘页，发布者企业身份未独立核验",
+      "source_date": "未显示发布日期；明确投递期2026-03-24—2026-05-24",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "硕博门槛；含多个方向，不要求申请者或一个项目覆盖全部职责。"
+    },
+    {
+      "id": "JD25",
+      "company": "腾讯",
+      "role": "腾讯 微信 微信实习生招聘 Agent框架方向",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "C++/Python至少一种",
+        "主流Agent开发框架实际经验与核心组件",
+        "Multi-Agent",
+        "MCP/A2A/FunctionCall",
+        "系统设计/模块化/高性能工程"
+      ],
+      "explicit_preferences": [],
+      "duties_not_entry_gates": "分布式Agent框架、沙箱/云/消息/存储/账号基础设施，性能与一致性，算法落地与训练架构。",
+      "education": "平台页标学历不限；正文未列毕业届次",
+      "availability": "广州海珠；5天/周；至少3个月；有转正",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/454300",
+      "source_type": "牛客平台招聘页，发布者企业身份未独立核验",
+      "source_date": "未显示发布日期；明确投递期2026-07-20—2026-11-01",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "发布账号公司为腾讯科技上海而地点广州；框架名称harmes为原文拼写，不自动修正为别的框架。"
+    },
+    {
+      "id": "JD26",
+      "company": "腾讯云",
+      "role": "腾讯云 Agent Runtime 校招与日常实习",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "Go/Rust/C/C++至少一种",
+        "数据结构/算法/OS",
+        "Linux/网络/进程/文件系统",
+        "Kubernetes/容器/分布式基础认知",
+        "Agent实践兴趣",
+        "使用Coding Agent并独立验证代码方案",
+        "日志/Trace/实验定位，问题定义至实现验证"
+      ],
+      "explicit_preferences": [
+        "Kubernetes/Docker/containerd/Firecracker/Kata项目",
+        "Agent/Sandbox/Serverless",
+        "RL/Rollout/Harness/评测",
+        "开源/高质量本人项目",
+        "后端/中间件/Infra实习",
+        "ACM/ICPC/CTF获奖"
+      ],
+      "duties_not_entry_gates": "Agent生命周期、状态持久化、暂停恢复、弹性、工具网络；Sandbox快启/快照/隔离；跨应用、容器、MicroVM、网络存储调度定位生产问题。",
+      "education": "2027届校招与2028届及以后日常实习分别列；本科/研究生，相关专业优先",
+      "availability": "日常实习每周至少4天、连续至少3个月，尽快到岗优先；原文未明确工作地点",
+      "source_URL": "https://www.nowcoder.com/discuss/932616763089383424",
+      "source_type": "牛客招聘者原帖，企业任职身份为作者自述",
+      "source_date": "原页只显示09-24 12:46，无年份",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "不从2027/2028届或现年反推招聘发布时间；没有SSP承诺。"
+    },
+    {
+      "id": "JD27",
+      "company": "美图",
+      "role": "美图 暑期实习 AI Agent研发实习生",
+      "track": "Agent工程",
+      "explicit_requirements": [
+        "主流语言至少一种/算法/数据结构",
+        "Agent系统与LangGraph/ADK/AgentScope原理",
+        "了解Claude Code机制/可扩展架构",
+        "Prompt/RAG/Tool Calling/Harness/Skills",
+        "能解释架构权衡和技术决策"
+      ],
+      "explicit_preferences": [
+        "Agent生态实际PR",
+        "了解ML/DL框架与Transformer实战"
+      ],
+      "duties_not_entry_gates": "记忆管理、复杂状态机、知识库检索；前后端接口；自动评测；监控与全链路可观测。",
+      "education": "本科及以上在读，2027届及以后；计算机/软件/AI优先",
+      "availability": "厦门；5天/周；全职至少5个月；优秀者有留用机会",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/445785",
+      "source_type": "牛客平台招聘页，发布者企业身份未独立核验",
+      "source_date": "正文2026暑期；投递期2026-04-16—2026-07-31",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "美图而非美团；职责不全部等同已有经验要求，留用有条件。"
+    },
+    {
+      "id": "JD30",
+      "company": "快手",
+      "role": "快手 留用实习 C++开发工程师 深圳",
+      "track": "后端",
+      "explicit_requirements": [
+        "C/C++或Rust",
+        "数据结构/算法/计算机基础",
+        "面向对象/开发流程"
+      ],
+      "explicit_preferences": [
+        "实际项目/互联网实习",
+        "OI/ICPC"
+      ],
+      "duties_not_entry_gates": "后端平台研发、性能瓶颈、海量分布式处理/查询/数据一致性。",
+      "education": "正文本科及以上，相关专业优先；页表不限，毕业届次未知",
+      "availability": "深圳；页表0天/周、0个月视为无效标签，真实时长未知",
+      "source_URL": "https://www.nowcoder.com/jobs/detail/442097",
+      "source_type": "牛客平台招聘页，发布者企业身份未独立核验",
+      "source_date": "投递期2026-03-25—2026-07-02；未显示发布日期",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "标签误标Java，标题C++与正文C/C++或Rust一致；不采纳0天0月。"
+    },
+    {
+      "id": "JD33",
+      "company": "百度",
+      "role": "百度 大模型应用后端研发实习生 GO/Python方向 J101073",
+      "track": "混合",
+      "explicit_requirements": [
+        "数据结构/算法",
+        "C/C++或PHP/Go（原文）",
+        "Windows/Unix/Linux原理及系统支持开发",
+        "问题分析/学习/协作"
+      ],
+      "explicit_preferences": [
+        "编程竞赛/论文/专利",
+        "项目/软件开发流程",
+        "搜索/ML/多媒体/GIS/云/分布式知识技能"
+      ],
+      "duties_not_entry_gates": "核心产品功能架构，算法研究实现优化，前瞻跟踪与AI平台开发。",
+      "education": "正文未列学历/毕业届次",
+      "availability": "上海；日常实习，正文未列每周出勤和时长",
+      "source_URL": "https://talent.baidu.com/jobs/detail/INTERN/15f123ac-2755-4324-b5ba-25682d0f9b40",
+      "source_type": "企业官方招聘",
+      "source_date": "2026-07-21（官网展示）",
+      "current_access_recheck": null,
+      "interpretation_boundary": "要求词按原岗位深度阅读：了解/熟悉/掌握/择一不可互换；未列不等于不考。职责不自动等于入职前必须独立实现。",
+      "limitations": "标题GO/Python但正文为C/C++或PHP/GO，不改写成明确Python要求；也不与牛客J04混为同岗位。"
+    }
+  ],
+  "backend_conclusions": [
+    {
+      "item": "一门主要后端语言与计算机基础",
+      "explicit_requirement_jd_ids": [
+        "JD01",
+        "JD02",
+        "JD03",
+        "JD04",
+        "JD05",
+        "JD06",
+        "JD07"
+      ],
+      "finding": "岗位允许的语言及深度不同；语言择一不表示Java、Go、C++必须全会。网络、操作系统和算法按目标JD及面经定位。",
+      "interview_ids": [
+        "INT10",
+        "INT12",
+        "INT20",
+        "INT22",
+        "INT85",
+        "INT86"
+      ],
+      "project_ids": [
+        "PRO17",
+        "PRO18",
+        "PRO19"
+      ]
+    },
+    {
+      "item": "数据库、缓存与消息",
+      "explicit_requirement_jd_ids": [
+        "JD01",
+        "JD05",
+        "JD06"
+      ],
+      "finding": "MySQL、Redis与MQ在这些岗位被明确点名；JD02中数据库/脚本/KV的了解项不能加深成全部精通，JD03也没有列Spring或Redis。 新增本人项目可具体读Outbox/结果竞争与缓存并发；数据库事务、外部消息投递、本地合并的边界分别核。",
+      "interview_ids": [
+        "INT22",
+        "INT24",
+        "INT27"
+      ],
+      "project_ids": [
+        "PRO01",
+        "PRO02",
+        "PRO08",
+        "PRO20",
+        "PRO21"
+      ]
+    },
+    {
+      "item": "Java及服务开发专项",
+      "explicit_requirement_jd_ids": [
+        "JD11"
+      ],
+      "finding": "该平台实习岗明确要求JVM、并发、集合、Spring/Boot、REST、MySQL与Redis；消息队列在此岗写为优先，不能和JD01/06的要求混成统一门槛。",
+      "interview_ids": [
+        "INT20",
+        "INT22"
+      ],
+      "project_ids": [
+        "PRO08",
+        "PRO19"
+      ]
+    },
+    {
+      "item": "架构、容灾、开源等加分项",
+      "preference_jd_ids": [
+        "JD02",
+        "JD05",
+        "JD11"
+      ],
+      "finding": "分布式与高可用、AI实践、开源贡献分别是部分岗位的优先项；现有材料不证明必须参与大型框架才能拿实习或SSP。 INT85直接给出2025面试与失败日期，关注消息组件环境隔离、测试幂等与高可用；INT86的已offer二面追问个人角色、方案调研、容量与排障，事件年未直接写，均不支持统一SSP门槛。",
+      "candidate_ids": [
+        "CV01",
+        "CV02",
+        "CV05"
+      ],
+      "project_ids": [
+        "PRO09"
+      ],
+      "interview_ids": [
+        "INT85",
+        "INT86"
+      ]
+    },
+    {
+      "item": "新增招聘样本：资格、要求与岗位时效",
+      "explicit_requirement_jd_ids": [
+        "JD20",
+        "JD21",
+        "JD22",
+        "JD30",
+        "JD33"
+      ],
+      "finding": "新增平台招聘和官方岗位补充Java并发、消息可靠性、系统后端及跨语言要求。语言择一、了解与掌握分别按原文；许多暑期窗口已结束，页面可读不证明当前HC。平台发帖身份边界单列。"
+    }
+  ],
+  "agent_conclusions": [
+    {
+      "item": "工程基础及基本Agent认知",
+      "explicit_requirement_jd_ids": [
+        "JD08",
+        "JD09",
+        "JD10",
+        "JD12",
+        "JD13",
+        "JD14"
+      ],
+      "finding": "要求跨度从一门语言和算法，到后端服务、LLM应用架构、RAG与Prompt；不能以一个岗位的最低措辞代表全部团队。",
+      "interview_ids": [
+        "INT01",
+        "INT42",
+        "INT47"
+      ],
+      "project_ids": [
+        "PRO04",
+        "PRO11",
+        "PRO12"
+      ]
+    },
+    {
+      "item": "工具、上下文、恢复与评测",
+      "duties_jd_ids": [
+        "JD08",
+        "JD09",
+        "JD12",
+        "JD14"
+      ],
+      "finding": "这些是多条岗位描述的工作范围，面经也会追问具体实现；JD08却把已有Agent实践写为优先，不能把每项职责都变成前置硬要求。 OP13为带官方纠错的教学概念材料，不作真实面经或生产团队验证。 CV30补充本人实习职责证据；INT82/83给具体追问，但事件年、批次和结果未披露，不能将问题与CV30拼成同一场。 PRO23作为状态/执行权限的风险对照，非成熟成品推荐。 CV31补上同人完整CV与公开实现的直接关系；PRO24/25用于审查机制和失败路径，OP15为原始生产访谈选读，均不证明SSP门槛。 INT84为百度日常实习本人15问，具体涉及工具执行兜底、中断恢复和日志定位；原文事件年未直接写，结果未知，不与其他候选人实现拼接。 OP16为主办方公开的一线演讲选读；与DOC02和OP15对照模型评分器校准，按单题回退、工具失败和恢复轨迹审查实现，不把团队经验升为实习门槛。",
+      "interview_ids": [
+        "INT01",
+        "INT02",
+        "INT42",
+        "INT47",
+        "INT82",
+        "INT83",
+        "INT84"
+      ],
+      "project_ids": [
+        "PRO06",
+        "PRO11",
+        "PRO12",
+        "PRO23",
+        "PRO24",
+        "PRO25"
+      ],
+      "opinion_ids": [
+        "OP04",
+        "OP08",
+        "OP09",
+        "OP13",
+        "OP15",
+        "OP16"
+      ],
+      "candidate_ids": [
+        "CV30",
+        "CV07",
+        "CV31"
+      ]
+    },
+    {
+      "item": "Java后端与Agent平台交叉",
+      "explicit_requirement_jd_ids": [
+        "JD11"
+      ],
+      "preference_jd_ids": [
+        "JD11"
+      ],
+      "finding": "该岗后端基础是明确要求；Agent/RAG/MCP、模型调用和网关治理是加分。可据此分开审查服务实现与Agent实践，不把工具名堆叠当工程能力。",
+      "interview_ids": [
+        "INT12",
+        "INT47"
+      ],
+      "project_ids": [
+        "PRO04",
+        "PRO10"
+      ]
+    },
+    {
+      "item": "训练、论文与研究能力的适用边界",
+      "control_jd_ids": [
+        "JD15",
+        "JD16",
+        "JD17"
+      ],
+      "preference_jd_ids": [
+        "JD10",
+        "JD12"
+      ],
+      "finding": "策略算法/研究混合岗位有训练和深度学习要求；应用岗里训练、RL或代码分析可能只是优先项。研究履历只能支撑相应方向的比较。",
+      "candidate_ids": [
+        "CV13",
+        "CV16"
+      ],
+      "project_ids": []
+    },
+    {
+      "item": "新增Agent工程样本：应用、框架与Runtime分开",
+      "explicit_requirement_jd_ids": [
+        "JD22",
+        "JD23",
+        "JD24",
+        "JD25",
+        "JD26",
+        "JD27",
+        "JD33"
+      ],
+      "finding": "应用工程强调任务、检索、工具与评测；框架或Runtime可能要求C++、Go或Rust，以及隔离、生命周期和状态恢复。不同学历、届次和时长分别筛选，不把研究岗训练要求套给所有应用岗。"
+    }
+  ],
+  "interview_to_ability": [
+    {
+      "ability_id": "CAP01",
+      "ability": "语言、并发、操作系统与网络基础",
+      "question": "Agent或业务项目之外，仍会问Go运行时、Java并发、网络IO和算法；如何解释具体实现和竞争条件？",
+      "sources": [
+        {
+          "id": "INT06",
+          "url": "https://www.nowcoder.com/discuss/798306098527715328?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试/offer发生年未直接明示",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "MQ积压时紧急消息如何处理？",
+            "扫码登录为何还需手机确认？",
+            "实习细节、联合索引命中与对象锁实现。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT10",
+          "url": "https://www.nowcoder.com/feed/main/detail/37c64318e134459bbd9a5c7953e99aea?sourceSSR=post",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-03-10面试",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "Redis主从、哨兵、集群在项目中怎样选？",
+            "RAG切块、多路召回和幻觉如何优化？",
+            "大数字符串转换的现场编码。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT12",
+          "url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-09-26 offer；2025-10-04复盘",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "K8S与Casbin RBAC实习做了什么？",
+            "Go调度、网络IO、Raft、LSM分别是什么？",
+            "Agent与模型、LangChain与LangGraph、Function Call与MCP怎样区分？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT47",
+          "url": "https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=search",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-08-06面试",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "项目解决谁的研发问题，写操作边界与Harness职责如何划分？",
+            "模糊query如何识别，Skill何时加载，不同模型的行为如何保持可接受？",
+            "如何从SQLite原型扩到数千用户；自研编排与LangGraph图结构怎样解释？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT71",
+          "url": "https://www.nowcoder.com/discuss/876046266558398464?sourceSSR=users",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "单篇未写；暑期导航列3月27日TikTok一面，但未用显式链接把具体场次一一绑定",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "本人RAG项目的总体选择、检索与效果改进依据。",
+            "Java对象锁、集合及GC的设计和性能。",
+            "AI辅助开发经验、协作方式及约束流程。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT75",
+          "url": "https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "原文上周，绝对年月日未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "小红书：七步流水线为何拆三个LangGraph子图、Skills与Prompt的选型，再问索引与锁。",
+            "百度：服务对象和业务痛点、子图节点I/O、幻觉与路径错误时的恢复、路由决策和人工干预。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT81",
+          "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "事件年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Spring Cache二开怎样防穿透/击穿/雪崩",
+            "OJ怎样用Docker运行不可信用户代码",
+            "为什么OJ引入Kafka"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT83",
+          "url": "https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "面试事件年与具体日期未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "本人慢SQL优化、读写分离、单列与联合索引的回表和索引下推。",
+            "ES分片/资源与查询优化，字段选型与精准匹配。",
+            "锁过期、误删、重入、秒杀，自旋策略，以及CompletableFuture线程池参数与CPU/I/O隔离。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT85",
+          "url": "https://www.nowcoder.com/discuss/730542760465276928",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-14一面约50分钟，2025-03-15作者看到未通过",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "MQbus向RPC等组件推广时，环境隔离可能遇到什么问题。",
+            "如何排查OOM，以及如何判断消费者积压或处理缓慢的程度。",
+            "测试框架如何设计，非幂等的数据新增操作如何清理，测试覆盖标准如何确定。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT86",
+          "url": "https://www.nowcoder.com/discuss/736940763258400768",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "正文称这周二面；未直接写面试事件年或绝对日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "团队规模、本人角色、项目动机和实际解决的问题。",
+            "是否调研同类平台或技术方案，目前最大挑战是什么。",
+            "每项优化解决的问题、使用的组件及Java工具包。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT16",
+          "url": "https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13",
+          "material_type": "本人具体问题记录",
+          "event_time": "05-13、05-16面试；05-19 offer；年未由当前正文单独确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "项目中延伸分布式场景题。",
+            "GC选择、索引列选择、Redis数据结构与持久化。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT87",
+          "url": "https://api-cdn.nowcoder.com/discuss/741030289186525184?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "04-01一面；04-07 OC；04-09邮箱offer，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "布隆过滤器与分布式锁结合的流程是什么？",
+            "分库分表按什么字段分片？",
+            "Redis普通分布式锁与RedLock有什么区别？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT22",
+          "url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-21/03-25面试；03-28正式offer",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "采用RocketMQ顺序消息解决了什么需求，同时损失什么能力？",
+            "自研RPC为什么值得做，协议包含哪些信息、如何保证可解析？",
+            "如何把服务同步编排改成CompletableFuture，怎样设计充值和转账的事务边界？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT88",
+          "url": "https://www.nowcoder.com/discuss/723622216419586048?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试年月日未知；2025-02-24仅编辑日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "同步/异步网络I/O与阻塞/非阻塞怎样区分？",
+            "进程线程通信、管道、虚拟内存映射怎样实现？",
+            "HTTP/HTTPS和网络分层如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT89",
+          "url": "https://ac.nowcoder.com/discuss/1674038?channel=-1&source_id=discuss_tag_discuss_hot_nctrack&type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "二面年月日未知；页面09-09编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "缓存与数据库一边成功一边失败时，除重试还有什么一致性方案？",
+            "EXPLAIN主要看哪些指标，何时索引失效？",
+            "ThreadLocal、volatile、锁升级和线程池如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT90",
+          "url": "https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "秒杀后发送异步消息时RabbitMQ宕机怎样处理？",
+            "请求都打到Redis时怎样承载流量？",
+            "深分页、MyBatis缓存、令牌桶底层如何实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT91",
+          "url": "https://www.nowcoder.com/discuss/719242991700889600",
+          "material_type": "本人具体问题记录",
+          "event_time": "2024-11-05面试，11-06时间线标挂",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "JVM结构、HashMap旧版本扩容和AQS怎样说明？",
+            "项目中何时使用synchronized和ReentrantLock？",
+            "为什么要Redis缓存、网关和分布式Session？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT93",
+          "url": "https://www.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "为什么选择JDK17，了解其GC和ZooKeeper分布式协议吗？",
+            "ZSet跳表如何插入、删除和排序？",
+            "MySQL事务原子性、容量估计和主从同步怎样说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT94",
+          "url": "https://ac.nowcoder.com/discuss/1500141?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "04月多公司流程；事件年未知，2025-04-28为编辑日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "如何增加HTTP服务器连接数、如何跨进程传socket？",
+            "有限内存统计100GB文件不同记录数怎样设计？",
+            "数据库B+树、MVCC、日志和缓存一致性如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT95",
+          "url": "https://www.nowcoder.com/discuss/795684745727250432",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-01一面；通过直接链接可关联旧INT29后续2025秋招时间线，本条不单独从编辑年补年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "实习系统在上下游什么位置、负责哪些功能？",
+            "分布式系统如何保证一致性？",
+            "最大技术挑战是什么，如何解决？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT98",
+          "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "二面年月日未知；页面09-04编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "幂等ID由谁生成，重复请求怎样得到同一ID？",
+            "为什么使用分布式事务，串行RPC不能满足什么要求？",
+            "DTM挂掉或回退库存失败怎样恢复？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT99",
+          "url": "https://www.nowcoder.com/discuss/718514450587746304?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "02-08一面、02-10二面与OC，事件年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "线程池参数、ForkJoinPool及拒绝策略如何说明？",
+            "MySQL索引、慢查询优化、MVCC和日志怎样解释？",
+            "Redis和数据库一致性如何保障？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT101",
+          "url": "https://www.nowcoder.com/discuss/726371483039133696",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-02-25投递、2025-02-26一面",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "RocketMQ动态路由怎样打环境标识，MQ-bus覆盖部门还是平台，是否SDK化？",
+            "OOM怎样定位处理，消息分区术语是否准确？",
+            "订单水平分片不按商家路由查询时怎么办？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT102",
+          "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96",
+          "material_type": "本人具体问题记录",
+          "event_time": "08-13一面、08-16二面，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Coding Agent架构是什么，ReAct与Plan适用于什么场景？",
+            "上下文压缩保留什么，如何防止丢失用户关键约束？",
+            "路径震荡怎样定位，长期Memory如何提取存储检索？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT54",
+          "url": "https://www.nowcoder.com/feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-20一面、09-21二面，年未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "通用Agent应包含哪些功能，既往两段实习各负责什么？",
+            "如何决定能力封成Skill还是Tool，LangChain与LangGraph的取舍是什么？",
+            "HTTPS与浏览器到机房链路、SSE底层，以及前缀树和树右视图编码。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT104",
+          "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面约75分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？",
+            "无标题Markdown怎样切块，短query与长chunk如何比较并做对照？",
+            "关键词与向量召回如何互补，长query如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT105",
+          "url": "https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "秋招一面约45分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "项目最大挑战是什么、怎样解决？",
+            "RAG的chunk具体流程和细节是什么？",
+            "Embedding模型怎样选择，依据是什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT50",
+          "url": "https://www.nowcoder.com/discuss/904029765160497152",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "三家公司流程；各轮年月日未确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "字节把进程线程、Transformer与训练泛化问题连到具体项目。",
+            "腾讯云平台以多轮现场编码和变更约束为主，而不是Agent题。",
+            "蚂蚁追问微调/RAG选择、LoRA、显存和batch size依据。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT106",
+          "url": "https://www.nowcoder.com/discuss/736868736837173248?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025春招，02月至04月多公司流程",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "算子优化如何检测提升，怎样排除GPU精度算力差异？",
+            "TRT-LLM、vLLM和SGLang的加速手段与PagedAttention怎样比较？",
+            "连续批处理和Prefix Cache按什么维度切分，依据是什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "能从代码说明运行机制、资源与故障边界，而非只列组件。",
+      "project_ids": [
+        "PRO09",
+        "PRO10",
+        "PRO19"
+      ],
+      "common_pitfall": "把多种语言名当广度，或认为AI项目能替代基础。此项为研究归纳，不是拒绝原因统计。",
+      "all_four_source_types_present": false,
+      "remaining_gap": "未取得专业者对具体实习基础深度的完整平台正文。"
+    },
+    {
+      "ability_id": "CAP02",
+      "ability": "数据库、业务状态与一致性",
+      "question": "积分兑换状态如何保持一致、库存约束如何保证，消息或请求失败后业务终态是什么？",
+      "sources": [
+        {
+          "id": "INT09",
+          "url": "https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168",
+          "material_type": "本人具体问题记录",
+          "event_time": "6.11/6.16/6.18技术面、6.20 HR、6.24 OC；实际年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "点赞、收藏、排行为何使用相应Redis结构？",
+            "Kafka的顺序、幂等、可靠性与积压怎样处理？",
+            "积分兑换红包怎样确保两边状态和金额一致？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT11",
+          "url": "https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试日期及事件年未知；2025-12-07为原帖发表日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "数GB文件的处理方案有没有真正测过？",
+            "MQ宕机后订单超时取消怎样兜底？",
+            "为何CAS不能自动实现一人一单，库存正确性怎样保障？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT40",
+          "url": "https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post",
+          "material_type": "本人具体问题记录",
+          "event_time": "06-09面试，年未显示",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "哪些请求值得增加本地与Redis两级缓存，怎样确定失效和更新策略？",
+            "异步订单怎样在个人环境验证；重复投递、删集合时宕机如何收尾？",
+            "Java/Spring AI相对Python框架的选择依据，以及知识导入、BM25和对话循环如何衔接？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT74",
+          "url": "https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "未写绝对年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何拆子图，状态如何传递；外部操作完成但checkpoint前宕机如何避免重复提交。",
+            "错误badcase如何避免污染Skills，自主规划和固定编排如何分工。",
+            "上下文与循环token膨胀、工具结果压缩、权限与注入校验。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT83",
+          "url": "https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "面试事件年与具体日期未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "本人慢SQL优化、读写分离、单列与联合索引的回表和索引下推。",
+            "ES分片/资源与查询优化，字段选型与精准匹配。",
+            "锁过期、误删、重入、秒杀，自旋策略，以及CompletableFuture线程池参数与CPU/I/O隔离。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT86",
+          "url": "https://www.nowcoder.com/discuss/736940763258400768",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "正文称这周二面；未直接写面试事件年或绝对日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "团队规模、本人角色、项目动机和实际解决的问题。",
+            "是否调研同类平台或技术方案，目前最大挑战是什么。",
+            "每项优化解决的问题、使用的组件及Java工具包。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT16",
+          "url": "https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13",
+          "material_type": "本人具体问题记录",
+          "event_time": "05-13、05-16面试；05-19 offer；年未由当前正文单独确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "项目中延伸分布式场景题。",
+            "GC选择、索引列选择、Redis数据结构与持久化。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT87",
+          "url": "https://api-cdn.nowcoder.com/discuss/741030289186525184?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "04-01一面；04-07 OC；04-09邮箱offer，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "布隆过滤器与分布式锁结合的流程是什么？",
+            "分库分表按什么字段分片？",
+            "Redis普通分布式锁与RedLock有什么区别？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT22",
+          "url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-21/03-25面试；03-28正式offer",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "采用RocketMQ顺序消息解决了什么需求，同时损失什么能力？",
+            "自研RPC为什么值得做，协议包含哪些信息、如何保证可解析？",
+            "如何把服务同步编排改成CompletableFuture，怎样设计充值和转账的事务边界？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT89",
+          "url": "https://ac.nowcoder.com/discuss/1674038?channel=-1&source_id=discuss_tag_discuss_hot_nctrack&type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "二面年月日未知；页面09-09编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "缓存与数据库一边成功一边失败时，除重试还有什么一致性方案？",
+            "EXPLAIN主要看哪些指标，何时索引失效？",
+            "ThreadLocal、volatile、锁升级和线程池如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT90",
+          "url": "https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "秒杀后发送异步消息时RabbitMQ宕机怎样处理？",
+            "请求都打到Redis时怎样承载流量？",
+            "深分页、MyBatis缓存、令牌桶底层如何实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT91",
+          "url": "https://www.nowcoder.com/discuss/719242991700889600",
+          "material_type": "本人具体问题记录",
+          "event_time": "2024-11-05面试，11-06时间线标挂",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "JVM结构、HashMap旧版本扩容和AQS怎样说明？",
+            "项目中何时使用synchronized和ReentrantLock？",
+            "为什么要Redis缓存、网关和分布式Session？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT92",
+          "url": "https://www.nowcoder.com/discuss/737334743661875200",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试年月日未知；2025-04-03为发布日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "独立索引和联合索引下多个SQL的命中和效率怎样比较？",
+            "IoC容器和简单Web容器怎样设计？",
+            "多级缓存为何必要、过期时间如何设置、如何保持一致？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT93",
+          "url": "https://www.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "为什么选择JDK17，了解其GC和ZooKeeper分布式协议吗？",
+            "ZSet跳表如何插入、删除和排序？",
+            "MySQL事务原子性、容量估计和主从同步怎样说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT94",
+          "url": "https://ac.nowcoder.com/discuss/1500141?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "04月多公司流程；事件年未知，2025-04-28为编辑日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "如何增加HTTP服务器连接数、如何跨进程传socket？",
+            "有限内存统计100GB文件不同记录数怎样设计？",
+            "数据库B+树、MVCC、日志和缓存一致性如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT95",
+          "url": "https://www.nowcoder.com/discuss/795684745727250432",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-01一面；通过直接链接可关联旧INT29后续2025秋招时间线，本条不单独从编辑年补年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "实习系统在上下游什么位置、负责哪些功能？",
+            "分布式系统如何保证一致性？",
+            "最大技术挑战是什么，如何解决？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT96",
+          "url": "https://ac.nowcoder.com/discuss/1509544?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "05-21一面，事件年未知；标题25届指届别，2025-05-21为发布日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "点评项目实际用哪些Redis结构、分别解决什么业务问题？",
+            "Canal监听binlog如何工作，延迟及版本冲突怎样处理？",
+            "兑换码如何保证安全、唯一、不可重复兑换？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT98",
+          "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "二面年月日未知；页面09-04编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "幂等ID由谁生成，重复请求怎样得到同一ID？",
+            "为什么使用分布式事务，串行RPC不能满足什么要求？",
+            "DTM挂掉或回退库存失败怎样恢复？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT99",
+          "url": "https://www.nowcoder.com/discuss/718514450587746304?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "02-08一面、02-10二面与OC，事件年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "线程池参数、ForkJoinPool及拒绝策略如何说明？",
+            "MySQL索引、慢查询优化、MVCC和日志怎样解释？",
+            "Redis和数据库一致性如何保障？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT101",
+          "url": "https://www.nowcoder.com/discuss/726371483039133696",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-02-25投递、2025-02-26一面",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "RocketMQ动态路由怎样打环境标识，MQ-bus覆盖部门还是平台，是否SDK化？",
+            "OOM怎样定位处理，消息分区术语是否准确？",
+            "订单水平分片不按商家路由查询时怎么办？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "明确数据权威、事务边界、状态转移和重复操作的处理。",
+      "project_ids": [
+        "PRO01",
+        "PRO03",
+        "PRO08",
+        "PRO19",
+        "PRO20"
+      ],
+      "common_pitfall": "把一个Redis锁或MQ名称当作一致性证明；只测正常路径。",
+      "all_four_source_types_present": false,
+      "remaining_gap": "近期成功实习者的公开完整实现和独立复现实验仍不足。"
+    },
+    {
+      "ability_id": "CAP03",
+      "ability": "缓存、索引与热点处理",
+      "question": "为什么采用某种Redis结构或两级缓存，失效与更新怎样处理，收益如何测量？",
+      "sources": [
+        {
+          "id": "INT09",
+          "url": "https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168",
+          "material_type": "本人具体问题记录",
+          "event_time": "6.11/6.16/6.18技术面、6.20 HR、6.24 OC；实际年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "点赞、收藏、排行为何使用相应Redis结构？",
+            "Kafka的顺序、幂等、可靠性与积压怎样处理？",
+            "积分兑换红包怎样确保两边状态和金额一致？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT40",
+          "url": "https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post",
+          "material_type": "本人具体问题记录",
+          "event_time": "06-09面试，年未显示",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "哪些请求值得增加本地与Redis两级缓存，怎样确定失效和更新策略？",
+            "异步订单怎样在个人环境验证；重复投递、删集合时宕机如何收尾？",
+            "Java/Spring AI相对Python框架的选择依据，以及知识导入、BM25和对话循环如何衔接？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT55",
+          "url": "https://www.nowcoder.com/discuss/932295617999622144",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-23面试，年未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "AI生成的评测题怎样保证覆盖与质量，哪个指标真正对应任务目标？",
+            "Markdown/TXT/PDF如何差别切分；BM25与向量为什么混合，RRF为什么不直接加原分数？",
+            "Cross-Encoder重排的额外价值与领域失配怎样验证；两个项目除了技术栈还有何区别？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT81",
+          "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "事件年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Spring Cache二开怎样防穿透/击穿/雪崩",
+            "OJ怎样用Docker运行不可信用户代码",
+            "为什么OJ引入Kafka"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT83",
+          "url": "https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "面试事件年与具体日期未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "本人慢SQL优化、读写分离、单列与联合索引的回表和索引下推。",
+            "ES分片/资源与查询优化，字段选型与精准匹配。",
+            "锁过期、误删、重入、秒杀，自旋策略，以及CompletableFuture线程池参数与CPU/I/O隔离。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT16",
+          "url": "https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13",
+          "material_type": "本人具体问题记录",
+          "event_time": "05-13、05-16面试；05-19 offer；年未由当前正文单独确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "项目中延伸分布式场景题。",
+            "GC选择、索引列选择、Redis数据结构与持久化。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT87",
+          "url": "https://api-cdn.nowcoder.com/discuss/741030289186525184?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "04-01一面；04-07 OC；04-09邮箱offer，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "布隆过滤器与分布式锁结合的流程是什么？",
+            "分库分表按什么字段分片？",
+            "Redis普通分布式锁与RedLock有什么区别？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT89",
+          "url": "https://ac.nowcoder.com/discuss/1674038?channel=-1&source_id=discuss_tag_discuss_hot_nctrack&type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "二面年月日未知；页面09-09编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "缓存与数据库一边成功一边失败时，除重试还有什么一致性方案？",
+            "EXPLAIN主要看哪些指标，何时索引失效？",
+            "ThreadLocal、volatile、锁升级和线程池如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT90",
+          "url": "https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "秒杀后发送异步消息时RabbitMQ宕机怎样处理？",
+            "请求都打到Redis时怎样承载流量？",
+            "深分页、MyBatis缓存、令牌桶底层如何实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT91",
+          "url": "https://www.nowcoder.com/discuss/719242991700889600",
+          "material_type": "本人具体问题记录",
+          "event_time": "2024-11-05面试，11-06时间线标挂",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "JVM结构、HashMap旧版本扩容和AQS怎样说明？",
+            "项目中何时使用synchronized和ReentrantLock？",
+            "为什么要Redis缓存、网关和分布式Session？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT92",
+          "url": "https://www.nowcoder.com/discuss/737334743661875200",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试年月日未知；2025-04-03为发布日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "独立索引和联合索引下多个SQL的命中和效率怎样比较？",
+            "IoC容器和简单Web容器怎样设计？",
+            "多级缓存为何必要、过期时间如何设置、如何保持一致？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT93",
+          "url": "https://www.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "为什么选择JDK17，了解其GC和ZooKeeper分布式协议吗？",
+            "ZSet跳表如何插入、删除和排序？",
+            "MySQL事务原子性、容量估计和主从同步怎样说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT94",
+          "url": "https://ac.nowcoder.com/discuss/1500141?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "04月多公司流程；事件年未知，2025-04-28为编辑日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "如何增加HTTP服务器连接数、如何跨进程传socket？",
+            "有限内存统计100GB文件不同记录数怎样设计？",
+            "数据库B+树、MVCC、日志和缓存一致性如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT95",
+          "url": "https://www.nowcoder.com/discuss/795684745727250432",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-01一面；通过直接链接可关联旧INT29后续2025秋招时间线，本条不单独从编辑年补年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "实习系统在上下游什么位置、负责哪些功能？",
+            "分布式系统如何保证一致性？",
+            "最大技术挑战是什么，如何解决？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT96",
+          "url": "https://ac.nowcoder.com/discuss/1509544?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "05-21一面，事件年未知；标题25届指届别，2025-05-21为发布日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "点评项目实际用哪些Redis结构、分别解决什么业务问题？",
+            "Canal监听binlog如何工作，延迟及版本冲突怎样处理？",
+            "兑换码如何保证安全、唯一、不可重复兑换？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT98",
+          "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "二面年月日未知；页面09-04编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "幂等ID由谁生成，重复请求怎样得到同一ID？",
+            "为什么使用分布式事务，串行RPC不能满足什么要求？",
+            "DTM挂掉或回退库存失败怎样恢复？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT99",
+          "url": "https://www.nowcoder.com/discuss/718514450587746304?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "02-08一面、02-10二面与OC，事件年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "线程池参数、ForkJoinPool及拒绝策略如何说明？",
+            "MySQL索引、慢查询优化、MVCC和日志怎样解释？",
+            "Redis和数据库一致性如何保障？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT100",
+          "url": "https://api-cdn.nowcoder.com/discuss/933060569995759616?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-15技术一面、09-22HR二面、09-23 OC、09-24 offer，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "订单对账怎样做，订单ID何时生成？",
+            "为什么使用Lua，原子性和具体特点是什么？",
+            "下单十分钟未支付自动关闭怎样实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT101",
+          "url": "https://www.nowcoder.com/discuss/726371483039133696",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-02-25投递、2025-02-26一面",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "RocketMQ动态路由怎样打环境标识，MQ-bus覆盖部门还是平台，是否SDK化？",
+            "OOM怎样定位处理，消息分区术语是否准确？",
+            "订单水平分片不按商家路由查询时怎么办？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "按访问模式解释数据结构、索引、缓存收益和失效边界。",
+      "project_ids": [
+        "PRO02",
+        "PRO03",
+        "PRO19",
+        "PRO21"
+      ],
+      "common_pitfall": "先堆缓存再找理由，或只报告吞吐量而没有基线、负载和一致性代价。",
+      "all_four_source_types_present": false,
+      "remaining_gap": "没有足够可核的近期成功者性能原始记录。"
+    },
+    {
+      "ability_id": "CAP04",
+      "ability": "消息可靠性、重试与幂等",
+      "question": "MQ不可用如何兜底，中断后怎样重试，如何知道一次动作是否已经完成？",
+      "sources": [
+        {
+          "id": "INT09",
+          "url": "https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168",
+          "material_type": "本人具体问题记录",
+          "event_time": "6.11/6.16/6.18技术面、6.20 HR、6.24 OC；实际年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "点赞、收藏、排行为何使用相应Redis结构？",
+            "Kafka的顺序、幂等、可靠性与积压怎样处理？",
+            "积分兑换红包怎样确保两边状态和金额一致？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT11",
+          "url": "https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试日期及事件年未知；2025-12-07为原帖发表日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "数GB文件的处理方案有没有真正测过？",
+            "MQ宕机后订单超时取消怎样兜底？",
+            "为何CAS不能自动实现一人一单，库存正确性怎样保障？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT40",
+          "url": "https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post",
+          "material_type": "本人具体问题记录",
+          "event_time": "06-09面试，年未显示",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "哪些请求值得增加本地与Redis两级缓存，怎样确定失效和更新策略？",
+            "异步订单怎样在个人环境验证；重复投递、删集合时宕机如何收尾？",
+            "Java/Spring AI相对Python框架的选择依据，以及知识导入、BM25和对话循环如何衔接？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT41",
+          "url": "https://www.nowcoder.com/feed/main/detail/144c6ae334b24c0aa643ed43ccfebaac?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试年月日未确认（页面04-23）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "作品是否有正式使用者，尚未上线的原因是什么？",
+            "多Agent如何分工；数据来源与模型调优如何交代？",
+            "中断后怎么安全重试；跨境汇款任务超时怎样保护资金状态？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT74",
+          "url": "https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "未写绝对年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何拆子图，状态如何传递；外部操作完成但checkpoint前宕机如何避免重复提交。",
+            "错误badcase如何避免污染Skills，自主规划和固定编排如何分工。",
+            "上下文与循环token膨胀、工具结果压缩、权限与注入校验。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT81",
+          "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "事件年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Spring Cache二开怎样防穿透/击穿/雪崩",
+            "OJ怎样用Docker运行不可信用户代码",
+            "为什么OJ引入Kafka"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT85",
+          "url": "https://www.nowcoder.com/discuss/730542760465276928",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-14一面约50分钟，2025-03-15作者看到未通过",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "MQbus向RPC等组件推广时，环境隔离可能遇到什么问题。",
+            "如何排查OOM，以及如何判断消费者积压或处理缓慢的程度。",
+            "测试框架如何设计，非幂等的数据新增操作如何清理，测试覆盖标准如何确定。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT22",
+          "url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-21/03-25面试；03-28正式offer",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "采用RocketMQ顺序消息解决了什么需求，同时损失什么能力？",
+            "自研RPC为什么值得做，协议包含哪些信息、如何保证可解析？",
+            "如何把服务同步编排改成CompletableFuture，怎样设计充值和转账的事务边界？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT90",
+          "url": "https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "秒杀后发送异步消息时RabbitMQ宕机怎样处理？",
+            "请求都打到Redis时怎样承载流量？",
+            "深分页、MyBatis缓存、令牌桶底层如何实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT98",
+          "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "二面年月日未知；页面09-04编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "幂等ID由谁生成，重复请求怎样得到同一ID？",
+            "为什么使用分布式事务，串行RPC不能满足什么要求？",
+            "DTM挂掉或回退库存失败怎样恢复？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT100",
+          "url": "https://api-cdn.nowcoder.com/discuss/933060569995759616?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-15技术一面、09-22HR二面、09-23 OC、09-24 offer，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "订单对账怎样做，订单ID何时生成？",
+            "为什么使用Lua，原子性和具体特点是什么？",
+            "下单十分钟未支付自动关闭怎样实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT101",
+          "url": "https://www.nowcoder.com/discuss/726371483039133696",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-02-25投递、2025-02-26一面",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "RocketMQ动态路由怎样打环境标识，MQ-bus覆盖部门还是平台，是否SDK化？",
+            "OOM怎样定位处理，消息分区术语是否准确？",
+            "订单水平分片不按商家路由查询时怎么办？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "区分消息传递、业务执行和真实终态；说明恢复与重复副作用的边界。",
+      "project_ids": [
+        "PRO01",
+        "PRO08",
+        "PRO11",
+        "PRO19",
+        "PRO20"
+      ],
+      "common_pitfall": "把先检查再执行当原子幂等，把模型输出完成当业务完成。",
+      "all_four_source_types_present": true,
+      "remaining_gap": "OP09是工具工程观点，不是某家公司招聘或录用标准。"
+    },
+    {
+      "ability_id": "CAP05",
+      "ability": "RPC、服务拆分与选型依据",
+      "question": "为什么用MQ而非HTTP、为什么拆成多个服务、选择RPC解决什么问题？",
+      "sources": [
+        {
+          "id": "INT07",
+          "url": "https://www.nowcoder.com/feed/main/detail/3187ad5588394e108f96db0eb9e82bcf",
+          "material_type": "本人具体问题记录",
+          "event_time": "05-14、05-16面试，年份未由当前原记录正文单独确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为什么用MQ而非同步HTTP或数据库传文件？",
+            "本人承担什么任务、提出过什么改进？",
+            "已有项目还能怎样利用AI，尝试落地过什么工具？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT66",
+          "url": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "7—8月本人面经；年未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为什么将班车系统拆成四服务、为什么选择Dubbo？",
+            "订单自动取消、事务消息、幂等与登录Token如何实现？",
+            "京东继续追问班车到点更新状态；腾讯更偏锁、JVM、数据库恢复和一致性算法"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT67",
+          "url": "https://www.nowcoder.com/discuss/872120976190816256",
+          "material_type": "本人具体问题记录",
+          "event_time": "04-10一面，年未由正文确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "项目开发难点与后续改进，工作流和Agent如何选？",
+            "区分进程间与跨主机通信，解释RPC选择",
+            "使用AI实现本地YAML/INI配置监听热更新，并继续审查修改方案"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT83",
+          "url": "https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "面试事件年与具体日期未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "本人慢SQL优化、读写分离、单列与联合索引的回表和索引下推。",
+            "ES分片/资源与查询优化，字段选型与精准匹配。",
+            "锁过期、误删、重入、秒杀，自旋策略，以及CompletableFuture线程池参数与CPU/I/O隔离。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT85",
+          "url": "https://www.nowcoder.com/discuss/730542760465276928",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-14一面约50分钟，2025-03-15作者看到未通过",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "MQbus向RPC等组件推广时，环境隔离可能遇到什么问题。",
+            "如何排查OOM，以及如何判断消费者积压或处理缓慢的程度。",
+            "测试框架如何设计，非幂等的数据新增操作如何清理，测试覆盖标准如何确定。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT22",
+          "url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-21/03-25面试；03-28正式offer",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "采用RocketMQ顺序消息解决了什么需求，同时损失什么能力？",
+            "自研RPC为什么值得做，协议包含哪些信息、如何保证可解析？",
+            "如何把服务同步编排改成CompletableFuture，怎样设计充值和转账的事务边界？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT98",
+          "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "二面年月日未知；页面09-04编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "幂等ID由谁生成，重复请求怎样得到同一ID？",
+            "为什么使用分布式事务，串行RPC不能满足什么要求？",
+            "DTM挂掉或回退库存失败怎样恢复？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "从业务约束比较同步/异步调用和服务边界，说明收益与复杂度。",
+      "project_ids": [
+        "PRO09",
+        "PRO19"
+      ],
+      "common_pitfall": "为了技术栈广度拆服务，或把RPC必然更快当作无条件结论。",
+      "all_four_source_types_present": false,
+      "remaining_gap": "缺少近期成功实习者对应的可复现选型对比。"
+    },
+    {
+      "ability_id": "CAP06",
+      "ability": "项目真实性、个人贡献与工程验证",
+      "question": "本人负责什么、难点怎样解决、是否真正测过、项目是否有实际使用者？",
+      "sources": [
+        {
+          "id": "INT06",
+          "url": "https://www.nowcoder.com/discuss/798306098527715328?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试/offer发生年未直接明示",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "MQ积压时紧急消息如何处理？",
+            "扫码登录为何还需手机确认？",
+            "实习细节、联合索引命中与对象锁实现。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT11",
+          "url": "https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试日期及事件年未知；2025-12-07为原帖发表日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "数GB文件的处理方案有没有真正测过？",
+            "MQ宕机后订单超时取消怎样兜底？",
+            "为何CAS不能自动实现一人一单，库存正确性怎样保障？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT41",
+          "url": "https://www.nowcoder.com/feed/main/detail/144c6ae334b24c0aa643ed43ccfebaac?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试年月日未确认（页面04-23）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "作品是否有正式使用者，尚未上线的原因是什么？",
+            "多Agent如何分工；数据来源与模型调优如何交代？",
+            "中断后怎么安全重试；跨境汇款任务超时怎样保护资金状态？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT68",
+          "url": "https://www.nowcoder.com/discuss/884479038142586880",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-05-14专业面及主管面，05-15沟通杭州，05-25收到offer自述；原面经另记03-31注册，关联总表华为行记2026-04-01投递。",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "实习负责哪些模块、产出是什么，项目各阶段做了什么？",
+            "科研/项目困难如何分析和解决，在团队中是主导还是配合？",
+            "Agent概念、宏观架构与系统准备方式"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT72",
+          "url": "https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "一两周前；绝对年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "金蝶实习中接口协作、业务链路、个人最核心工作和效果证明。",
+            "上百工具时如何分层注册、检索、注入，以及找不到适配工具时的退路。",
+            "自研注册机制与MCP、LangChain Tools和多Agent框架的差别。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT73",
+          "url": "https://www.nowcoder.com/feed/main/detail/c0b53fdd38e041d2bc779753d04ee2ce?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "未写绝对年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "讯飞流程各节点输入输出、OCR失败处理及人工效率增益的验证。",
+            "金蝶建单中90%以上指标如何测、剩余失败类型和处理方式。",
+            "接口/能力/实现三层抽象、工具注册发现，以及一个任务的完整交付闭环。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT77",
+          "url": "https://ac.nowcoder.com/discuss/737813386313940992",
+          "material_type": "本人总体/主题复盘（非逐轮原题）",
+          "event_time": "2025年1月至4月职业时间线",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "从WebServer准备转向补数据库、缓存及分布式事务的学习不足。",
+            "腾讯遍历/元编程、字节业务场景及京东分布式事务等自评薄弱点。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT81",
+          "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "事件年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Spring Cache二开怎样防穿透/击穿/雪崩",
+            "OJ怎样用Docker运行不可信用户代码",
+            "为什么OJ引入Kafka"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT84",
+          "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60",
+          "material_type": "本人具体问题记录",
+          "event_time": "标题为9.7；正文称15点刚面完，面试约45分钟；未直接写事件年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "介绍本人经历及做过的工作。",
+            "混合检索采用什么实现。",
+            "RAG文档切片粒度如何选择，依据是什么。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT85",
+          "url": "https://www.nowcoder.com/discuss/730542760465276928",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-14一面约50分钟，2025-03-15作者看到未通过",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "MQbus向RPC等组件推广时，环境隔离可能遇到什么问题。",
+            "如何排查OOM，以及如何判断消费者积压或处理缓慢的程度。",
+            "测试框架如何设计，非幂等的数据新增操作如何清理，测试覆盖标准如何确定。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT86",
+          "url": "https://www.nowcoder.com/discuss/736940763258400768",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "正文称这周二面；未直接写面试事件年或绝对日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "团队规模、本人角色、项目动机和实际解决的问题。",
+            "是否调研同类平台或技术方案，目前最大挑战是什么。",
+            "每项优化解决的问题、使用的组件及Java工具包。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT16",
+          "url": "https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13",
+          "material_type": "本人具体问题记录",
+          "event_time": "05-13、05-16面试；05-19 offer；年未由当前正文单独确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "项目中延伸分布式场景题。",
+            "GC选择、索引列选择、Redis数据结构与持久化。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT22",
+          "url": "https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-03-21/03-25面试；03-28正式offer",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "采用RocketMQ顺序消息解决了什么需求，同时损失什么能力？",
+            "自研RPC为什么值得做，协议包含哪些信息、如何保证可解析？",
+            "如何把服务同步编排改成CompletableFuture，怎样设计充值和转账的事务边界？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT89",
+          "url": "https://ac.nowcoder.com/discuss/1674038?channel=-1&source_id=discuss_tag_discuss_hot_nctrack&type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "二面年月日未知；页面09-09编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "缓存与数据库一边成功一边失败时，除重试还有什么一致性方案？",
+            "EXPLAIN主要看哪些指标，何时索引失效？",
+            "ThreadLocal、volatile、锁升级和线程池如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT90",
+          "url": "https://www.nowcoder.com/feed/main/detail/8b87d083399c4c41b0ec4d26d42f76ee?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "作者回顾去年暑期、秋招与本次春招；各轮年份未逐项明确",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "秒杀后发送异步消息时RabbitMQ宕机怎样处理？",
+            "请求都打到Redis时怎样承载流量？",
+            "深分页、MyBatis缓存、令牌桶底层如何实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT91",
+          "url": "https://www.nowcoder.com/discuss/719242991700889600",
+          "material_type": "本人具体问题记录",
+          "event_time": "2024-11-05面试，11-06时间线标挂",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "JVM结构、HashMap旧版本扩容和AQS怎样说明？",
+            "项目中何时使用synchronized和ReentrantLock？",
+            "为什么要Redis缓存、网关和分布式Session？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT93",
+          "url": "https://www.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "为什么选择JDK17，了解其GC和ZooKeeper分布式协议吗？",
+            "ZSet跳表如何插入、删除和排序？",
+            "MySQL事务原子性、容量估计和主从同步怎样说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT94",
+          "url": "https://ac.nowcoder.com/discuss/1500141?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "04月多公司流程；事件年未知，2025-04-28为编辑日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "如何增加HTTP服务器连接数、如何跨进程传socket？",
+            "有限内存统计100GB文件不同记录数怎样设计？",
+            "数据库B+树、MVCC、日志和缓存一致性如何说明？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT95",
+          "url": "https://www.nowcoder.com/discuss/795684745727250432",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-01一面；通过直接链接可关联旧INT29后续2025秋招时间线，本条不单独从编辑年补年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "实习系统在上下游什么位置、负责哪些功能？",
+            "分布式系统如何保证一致性？",
+            "最大技术挑战是什么，如何解决？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT96",
+          "url": "https://ac.nowcoder.com/discuss/1509544?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "05-21一面，事件年未知；标题25届指届别，2025-05-21为发布日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "点评项目实际用哪些Redis结构、分别解决什么业务问题？",
+            "Canal监听binlog如何工作，延迟及版本冲突怎样处理？",
+            "兑换码如何保证安全、唯一、不可重复兑换？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT98",
+          "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "二面年月日未知；页面09-04编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "幂等ID由谁生成，重复请求怎样得到同一ID？",
+            "为什么使用分布式事务，串行RPC不能满足什么要求？",
+            "DTM挂掉或回退库存失败怎样恢复？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT99",
+          "url": "https://www.nowcoder.com/discuss/718514450587746304?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "02-08一面、02-10二面与OC，事件年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "线程池参数、ForkJoinPool及拒绝策略如何说明？",
+            "MySQL索引、慢查询优化、MVCC和日志怎样解释？",
+            "Redis和数据库一致性如何保障？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT100",
+          "url": "https://api-cdn.nowcoder.com/discuss/933060569995759616?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-15技术一面、09-22HR二面、09-23 OC、09-24 offer，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "订单对账怎样做，订单ID何时生成？",
+            "为什么使用Lua，原子性和具体特点是什么？",
+            "下单十分钟未支付自动关闭怎样实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT101",
+          "url": "https://www.nowcoder.com/discuss/726371483039133696",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025-02-25投递、2025-02-26一面",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "RocketMQ动态路由怎样打环境标识，MQ-bus覆盖部门还是平台，是否SDK化？",
+            "OOM怎样定位处理，消息分区术语是否准确？",
+            "订单水平分片不按商家路由查询时怎么办？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT102",
+          "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96",
+          "material_type": "本人具体问题记录",
+          "event_time": "08-13一面、08-16二面，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Coding Agent架构是什么，ReAct与Plan适用于什么场景？",
+            "上下文压缩保留什么，如何防止丢失用户关键约束？",
+            "路径震荡怎样定位，长期Memory如何提取存储检索？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT54",
+          "url": "https://www.nowcoder.com/feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-20一面、09-21二面，年未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "通用Agent应包含哪些功能，既往两段实习各负责什么？",
+            "如何决定能力封成Skill还是Tool，LangChain与LangGraph的取舍是什么？",
+            "HTTPS与浏览器到机房链路、SSE底层，以及前缀树和树右视图编码。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT103",
+          "url": "https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面年月日未知；astra卡片页面05-05无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Agent系统如何评价，实习遇到的问题如何解决？",
+            "幻觉如何处理？",
+            "重新做一次项目会改进什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT104",
+          "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面约75分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？",
+            "无标题Markdown怎样切块，短query与长chunk如何比较并做对照？",
+            "关键词与向量召回如何互补，长query如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT105",
+          "url": "https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "秋招一面约45分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "项目最大挑战是什么、怎样解决？",
+            "RAG的chunk具体流程和细节是什么？",
+            "Embedding模型怎样选择，依据是什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT50",
+          "url": "https://www.nowcoder.com/discuss/904029765160497152",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "三家公司流程；各轮年月日未确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "字节把进程线程、Transformer与训练泛化问题连到具体项目。",
+            "腾讯云平台以多轮现场编码和变更约束为主，而不是Agent题。",
+            "蚂蚁追问微调/RAG选择、LoRA、显存和batch size依据。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT106",
+          "url": "https://www.nowcoder.com/discuss/736868736837173248?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025春招，02月至04月多公司流程",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "算子优化如何检测提升，怎样排除GPU精度算力差异？",
+            "TRT-LLM、vLLM和SGLang的加速手段与PagedAttention怎样比较？",
+            "连续批处理和Prefix Cache按什么维度切分，依据是什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "把职责、变更、验证方法与局限讲清楚，区分框架、团队与本人工作。",
+      "project_ids": [
+        "PRO09",
+        "PRO11",
+        "PRO19",
+        "PRO24",
+        "PRO25"
+      ],
+      "common_pitfall": "把整个开源平台当个人作品，或复制他人的指标和实习经历。",
+      "all_four_source_types_present": true,
+      "remaining_gap": "OP05采用作者官网实际正文；未读知乎本体。"
+    },
+    {
+      "ability_id": "CAP07",
+      "ability": "Agent规划、工具调用与动态决策",
+      "question": "Tool、Skill、MCP如何组织，为什么需要Agent，工具调用如何受约束？",
+      "sources": [
+        {
+          "id": "INT02",
+          "url": "https://www.nowcoder.com/feed/main/detail/e0d5745e28b64db79ba1832f958b758c",
+          "material_type": "本人具体问题记录",
+          "event_time": "04-21面试，年未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何选择该Agent工作流程？借鉴了什么产品？",
+            "本地工具、MCP工具、Skill在架构中的关系是什么？",
+            "现场实现Skill注册、发现与调用。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT41",
+          "url": "https://www.nowcoder.com/feed/main/detail/144c6ae334b24c0aa643ed43ccfebaac?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试年月日未确认（页面04-23）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "作品是否有正式使用者，尚未上线的原因是什么？",
+            "多Agent如何分工；数据来源与模型调优如何交代？",
+            "中断后怎么安全重试；跨境汇款任务超时怎样保护资金状态？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT54",
+          "url": "https://www.nowcoder.com/feed/main/detail/fe77496948f74b4091ab4bb6e8156c8b?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-20一面、09-21二面，年未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "通用Agent应包含哪些功能，既往两段实习各负责什么？",
+            "如何决定能力封成Skill还是Tool，LangChain与LangGraph的取舍是什么？",
+            "HTTPS与浏览器到机房链路、SSE底层，以及前缀树和树右视图编码。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT70",
+          "url": "https://www.nowcoder.com/discuss/920461634072477696",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "二面；正文未给完整日期，索引2026-08-21不采用",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "C端Agent有哪些模块，各类Agent产品如何比较？",
+            "一次用户输入到工具执行的流程如何说明？",
+            "如何避免失败工具无限重复，只给LLM API如何搭建Agent？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT72",
+          "url": "https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "一两周前；绝对年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "金蝶实习中接口协作、业务链路、个人最核心工作和效果证明。",
+            "上百工具时如何分层注册、检索、注入，以及找不到适配工具时的退路。",
+            "自研注册机制与MCP、LangChain Tools和多Agent框架的差别。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT76",
+          "url": "https://www.nowcoder.com/feed/main/detail/1c425483516d4af1813d2dcdf98f4781?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "几天前，绝对年月日未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "ReAct与计划/固定workflow的选择；OCR缺失的兜底和建单评测证据。",
+            "工具分层、动态发现、ORM接口暴露为工具的偏移控制。",
+            "提示词与Skills的评估，以及AI Coding实际故障与实践。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT82",
+          "url": "https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c",
+          "material_type": "本人具体问题记录",
+          "event_time": "未知；原帖明确为隔一段时间回忆，未写面试年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "MCP网关实现、限流、模型观测指标、DSL序列化、多租户隔离方式。",
+            "长期和短期对话记忆及KV Cache；手写多租户限流器。",
+            "JVM、GC、Spring AOP，Agentic RAG与工具调用，多轮缓存命中连续性、分层架构中的长链token溢出。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT84",
+          "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60",
+          "material_type": "本人具体问题记录",
+          "event_time": "标题为9.7；正文称15点刚面完，面试约45分钟；未直接写事件年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "介绍本人经历及做过的工作。",
+            "混合检索采用什么实现。",
+            "RAG文档切片粒度如何选择，依据是什么。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT98",
+          "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "二面年月日未知；页面09-04编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "幂等ID由谁生成，重复请求怎样得到同一ID？",
+            "为什么使用分布式事务，串行RPC不能满足什么要求？",
+            "DTM挂掉或回退库存失败怎样恢复？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT100",
+          "url": "https://api-cdn.nowcoder.com/discuss/933060569995759616?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-15技术一面、09-22HR二面、09-23 OC、09-24 offer，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "订单对账怎样做，订单ID何时生成？",
+            "为什么使用Lua，原子性和具体特点是什么？",
+            "下单十分钟未支付自动关闭怎样实现？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT102",
+          "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96",
+          "material_type": "本人具体问题记录",
+          "event_time": "08-13一面、08-16二面，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Coding Agent架构是什么，ReAct与Plan适用于什么场景？",
+            "上下文压缩保留什么，如何防止丢失用户关键约束？",
+            "路径震荡怎样定位，长期Memory如何提取存储检索？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT103",
+          "url": "https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面年月日未知；astra卡片页面05-05无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Agent系统如何评价，实习遇到的问题如何解决？",
+            "幻觉如何处理？",
+            "重新做一次项目会改进什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT104",
+          "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面约75分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？",
+            "无标题Markdown怎样切块，短query与长chunk如何比较并做对照？",
+            "关键词与向量召回如何互补，长query如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "能解释决策循环、工具契约与编排取舍，展示超出一次API调用的实现。",
+      "project_ids": [
+        "PRO04",
+        "PRO11",
+        "PRO12",
+        "PRO24"
+      ],
+      "common_pitfall": "把框架接通等同成熟Agent，或为名词增加多Agent。",
+      "all_four_source_types_present": true,
+      "remaining_gap": "专业原文来自框架/模型厂商，有商业利益；不是实习统一硬门槛。"
+    },
+    {
+      "ability_id": "CAP08",
+      "ability": "RAG检索、数据处理与引用",
+      "question": "文档如何切分，混合检索/重排的增量是什么，Recall如何取得且避免过拟合？",
+      "sources": [
+        {
+          "id": "INT01",
+          "url": "https://www.nowcoder.com/feed/main/detail/931a8a935a5e4b4f8d0b71cd4e818604",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试日期未标明（页面06-04）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "检索为何选择ES，替换为向量检索损益是什么？",
+            "工具调用怎样限制？压缩策略参数为什么这样选？",
+            "Recall@5怎样测出，如何避免评测过拟合？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT40",
+          "url": "https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post",
+          "material_type": "本人具体问题记录",
+          "event_time": "06-09面试，年未显示",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "哪些请求值得增加本地与Redis两级缓存，怎样确定失效和更新策略？",
+            "异步订单怎样在个人环境验证；重复投递、删集合时宕机如何收尾？",
+            "Java/Spring AI相对Python框架的选择依据，以及知识导入、BM25和对话循环如何衔接？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT55",
+          "url": "https://www.nowcoder.com/discuss/932295617999622144",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-23面试，年未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "AI生成的评测题怎样保证覆盖与质量，哪个指标真正对应任务目标？",
+            "Markdown/TXT/PDF如何差别切分；BM25与向量为什么混合，RRF为什么不直接加原分数？",
+            "Cross-Encoder重排的额外价值与领域失配怎样验证；两个项目除了技术栈还有何区别？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT71",
+          "url": "https://www.nowcoder.com/discuss/876046266558398464?sourceSSR=users",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "单篇未写；暑期导航列3月27日TikTok一面，但未用显式链接把具体场次一一绑定",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "本人RAG项目的总体选择、检索与效果改进依据。",
+            "Java对象锁、集合及GC的设计和性能。",
+            "AI辅助开发经验、协作方式及约束流程。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT84",
+          "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60",
+          "material_type": "本人具体问题记录",
+          "event_time": "标题为9.7；正文称15点刚面完，面试约45分钟；未直接写事件年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "介绍本人经历及做过的工作。",
+            "混合检索采用什么实现。",
+            "RAG文档切片粒度如何选择，依据是什么。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT104",
+          "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面约75分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？",
+            "无标题Markdown怎样切块，短query与长chunk如何比较并做对照？",
+            "关键词与向量召回如何互补，长query如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT105",
+          "url": "https://www.nowcoder.com/feed/main/detail/9e1506be1bd54e8fb83c764cf724a20b?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "秋招一面约45分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "项目最大挑战是什么、怎样解决？",
+            "RAG的chunk具体流程和细节是什么？",
+            "Embedding模型怎样选择，依据是什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT50",
+          "url": "https://www.nowcoder.com/discuss/904029765160497152",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "三家公司流程；各轮年月日未确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "字节把进程线程、Transformer与训练泛化问题连到具体项目。",
+            "腾讯云平台以多轮现场编码和变更约束为主，而不是Agent题。",
+            "蚂蚁追问微调/RAG选择、LoRA、显存和batch size依据。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "把语料、检索、引用与任务效果联系起来，比较简单基线和复杂组件。",
+      "project_ids": [
+        "PRO04",
+        "PRO06",
+        "PRO07"
+      ],
+      "common_pitfall": "把检索命中率当任务成功率，或将随手生成的问题同时用于调参与评测。",
+      "all_four_source_types_present": true,
+      "remaining_gap": "缺少近期成功者本人RAG代码、履历与测量记录的直接关联。"
+    },
+    {
+      "ability_id": "CAP09",
+      "ability": "状态、上下文、记忆与异常恢复",
+      "question": "上下文过长如何处理，工具超时、进程重启或回滚后如何继续？",
+      "sources": [
+        {
+          "id": "INT03",
+          "url": "https://www.nowcoder.com/feed/main/detail/617d30ab75dc40db81b291b8b98dfb13",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试日期未标明（页面08-05）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "自进化数据怎样获得与判断质量？",
+            "为何使用沙箱，快照及回滚时机怎样选择？",
+            "为什么用Go重写Hello Agent，模块依赖如何组织？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT41",
+          "url": "https://www.nowcoder.com/feed/main/detail/144c6ae334b24c0aa643ed43ccfebaac?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试年月日未确认（页面04-23）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "作品是否有正式使用者，尚未上线的原因是什么？",
+            "多Agent如何分工；数据来源与模型调优如何交代？",
+            "中断后怎么安全重试；跨境汇款任务超时怎样保护资金状态？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT47",
+          "url": "https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=search",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-08-06面试",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "项目解决谁的研发问题，写操作边界与Harness职责如何划分？",
+            "模糊query如何识别，Skill何时加载，不同模型的行为如何保持可接受？",
+            "如何从SQLite原型扩到数千用户；自研编排与LangGraph图结构怎样解释？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT69",
+          "url": "https://www.nowcoder.com/discuss/921590204903723008",
+          "material_type": "本人具体问题记录",
+          "event_time": "08-18一面；27届秋招，具体年未确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "上下文接近窗口上限如何处理，如何设计压缩？",
+            "团队内部知识问答RAG从零如何搭建？",
+            "K线表如何建模，项目如何使用索引？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT74",
+          "url": "https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "未写绝对年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何拆子图，状态如何传递；外部操作完成但checkpoint前宕机如何避免重复提交。",
+            "错误badcase如何避免污染Skills，自主规划和固定编排如何分工。",
+            "上下文与循环token膨胀、工具结果压缩、权限与注入校验。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT75",
+          "url": "https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "原文上周，绝对年月日未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "小红书：七步流水线为何拆三个LangGraph子图、Skills与Prompt的选型，再问索引与锁。",
+            "百度：服务对象和业务痛点、子图节点I/O、幻觉与路径错误时的恢复、路由决策和人工干预。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT82",
+          "url": "https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c",
+          "material_type": "本人具体问题记录",
+          "event_time": "未知；原帖明确为隔一段时间回忆，未写面试年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "MCP网关实现、限流、模型观测指标、DSL序列化、多租户隔离方式。",
+            "长期和短期对话记忆及KV Cache；手写多租户限流器。",
+            "JVM、GC、Spring AOP，Agentic RAG与工具调用，多轮缓存命中连续性、分层架构中的长链token溢出。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT84",
+          "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60",
+          "material_type": "本人具体问题记录",
+          "event_time": "标题为9.7；正文称15点刚面完，面试约45分钟；未直接写事件年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "介绍本人经历及做过的工作。",
+            "混合检索采用什么实现。",
+            "RAG文档切片粒度如何选择，依据是什么。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT102",
+          "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96",
+          "material_type": "本人具体问题记录",
+          "event_time": "08-13一面、08-16二面，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Coding Agent架构是什么，ReAct与Plan适用于什么场景？",
+            "上下文压缩保留什么，如何防止丢失用户关键约束？",
+            "路径震荡怎样定位，长期Memory如何提取存储检索？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT104",
+          "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面约75分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？",
+            "无标题Markdown怎样切块，短query与长chunk如何比较并做对照？",
+            "关键词与向量召回如何互补，长query如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "区分对话记忆、任务状态与业务事实；说明恢复时的动作与权限检查。",
+      "project_ids": [
+        "PRO05",
+        "PRO11",
+        "PRO12",
+        "PRO23",
+        "PRO24",
+        "PRO25"
+      ],
+      "common_pitfall": "内存状态当持久化，恢复后盲目重放写动作，或只保留聊天记录。",
+      "all_four_source_types_present": true,
+      "remaining_gap": "已补本人实现和生产访谈选读；实现存在静态风险，未运行；原始逐字稿选读不计B站视频观看，不能将控制流测试当任务正确率。"
+    },
+    {
+      "ability_id": "CAP10",
+      "ability": "权限、多租户与工具边界",
+      "question": "多租户和工具权限放在哪里校验，沙箱及写操作确认解决什么问题？",
+      "sources": [
+        {
+          "id": "INT03",
+          "url": "https://www.nowcoder.com/feed/main/detail/617d30ab75dc40db81b291b8b98dfb13",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试日期未标明（页面08-05）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "自进化数据怎样获得与判断质量？",
+            "为何使用沙箱，快照及回滚时机怎样选择？",
+            "为什么用Go重写Hello Agent，模块依赖如何组织？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT41",
+          "url": "https://www.nowcoder.com/feed/main/detail/144c6ae334b24c0aa643ed43ccfebaac?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试年月日未确认（页面04-23）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "作品是否有正式使用者，尚未上线的原因是什么？",
+            "多Agent如何分工；数据来源与模型调优如何交代？",
+            "中断后怎么安全重试；跨境汇款任务超时怎样保护资金状态？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT47",
+          "url": "https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=search",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-08-06面试",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "项目解决谁的研发问题，写操作边界与Harness职责如何划分？",
+            "模糊query如何识别，Skill何时加载，不同模型的行为如何保持可接受？",
+            "如何从SQLite原型扩到数千用户；自研编排与LangGraph图结构怎样解释？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT74",
+          "url": "https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "未写绝对年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何拆子图，状态如何传递；外部操作完成但checkpoint前宕机如何避免重复提交。",
+            "错误badcase如何避免污染Skills，自主规划和固定编排如何分工。",
+            "上下文与循环token膨胀、工具结果压缩、权限与注入校验。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT82",
+          "url": "https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c",
+          "material_type": "本人具体问题记录",
+          "event_time": "未知；原帖明确为隔一段时间回忆，未写面试年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "MCP网关实现、限流、模型观测指标、DSL序列化、多租户隔离方式。",
+            "长期和短期对话记忆及KV Cache；手写多租户限流器。",
+            "JVM、GC、Spring AOP，Agentic RAG与工具调用，多轮缓存命中连续性、分层架构中的长链token溢出。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "把用户身份、对象权限、工具能力与执行环境分别说明。",
+      "project_ids": [
+        "PRO10",
+        "PRO11",
+        "PRO23",
+        "PRO25"
+      ],
+      "common_pitfall": "仅靠提示词限制权限，或把接入MCP当成已有完整授权。",
+      "all_four_source_types_present": true,
+      "remaining_gap": "已补本人实现和生产访谈选读；实现存在静态风险，未运行；原始逐字稿选读不计B站视频观看，不能将控制流测试当任务正确率。"
+    },
+    {
+      "ability_id": "CAP11",
+      "ability": "评测、观测、成本与失败归因",
+      "question": "指标如何定义、实验是否真实执行，坏例和额外成本在哪里，为什么要增加某个组件？",
+      "sources": [
+        {
+          "id": "INT01",
+          "url": "https://www.nowcoder.com/feed/main/detail/931a8a935a5e4b4f8d0b71cd4e818604",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试日期未标明（页面06-04）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "检索为何选择ES，替换为向量检索损益是什么？",
+            "工具调用怎样限制？压缩策略参数为什么这样选？",
+            "Recall@5怎样测出，如何避免评测过拟合？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT11",
+          "url": "https://www.nowcoder.com/feed/main/detail/9e1c51d930b247aab6e1973ba920d271",
+          "material_type": "本人具体问题记录",
+          "event_time": "面试日期及事件年未知；2025-12-07为原帖发表日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "数GB文件的处理方案有没有真正测过？",
+            "MQ宕机后订单超时取消怎样兜底？",
+            "为何CAS不能自动实现一人一单，库存正确性怎样保障？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT13",
+          "url": "https://www.nowcoder.com/discuss/935191455750946816",
+          "material_type": "本人具体问题记录",
+          "event_time": "二面/HR完成等待offer；事件年月日未确认",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "自建深度研究比通用模型产品好在哪里？",
+            "来源质量、覆盖与边际收益如何计算？",
+            "既然最后仍由大模型兜底，为何微调？现场演示。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT55",
+          "url": "https://www.nowcoder.com/discuss/932295617999622144",
+          "material_type": "本人具体问题记录",
+          "event_time": "09-23面试，年未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "AI生成的评测题怎样保证覆盖与质量，哪个指标真正对应任务目标？",
+            "Markdown/TXT/PDF如何差别切分；BM25与向量为什么混合，RRF为什么不直接加原分数？",
+            "Cross-Encoder重排的额外价值与领域失配怎样验证；两个项目除了技术栈还有何区别？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT72",
+          "url": "https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject",
+          "material_type": "同候选人多场汇总（不拆成独立候选人）",
+          "event_time": "一两周前；绝对年未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "金蝶实习中接口协作、业务链路、个人最核心工作和效果证明。",
+            "上百工具时如何分层注册、检索、注入，以及找不到适配工具时的退路。",
+            "自研注册机制与MCP、LangChain Tools和多Agent框架的差别。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT73",
+          "url": "https://www.nowcoder.com/feed/main/detail/c0b53fdd38e041d2bc779753d04ee2ce?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "未写绝对年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "讯飞流程各节点输入输出、OCR失败处理及人工效率增益的验证。",
+            "金蝶建单中90%以上指标如何测、剩余失败类型和处理方式。",
+            "接口/能力/实现三层抽象、工具注册发现，以及一个任务的完整交付闭环。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT76",
+          "url": "https://www.nowcoder.com/feed/main/detail/1c425483516d4af1813d2dcdf98f4781?sourceSSR=users",
+          "material_type": "本人具体问题记录",
+          "event_time": "几天前，绝对年月日未明",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "ReAct与计划/固定workflow的选择；OCR缺失的兜底和建单评测证据。",
+            "工具分层、动态发现、ORM接口暴露为工具的偏移控制。",
+            "提示词与Skills的评估，以及AI Coding实际故障与实践。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT82",
+          "url": "https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c",
+          "material_type": "本人具体问题记录",
+          "event_time": "未知；原帖明确为隔一段时间回忆，未写面试年月日",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "MCP网关实现、限流、模型观测指标、DSL序列化、多租户隔离方式。",
+            "长期和短期对话记忆及KV Cache；手写多租户限流器。",
+            "JVM、GC、Spring AOP，Agentic RAG与工具调用，多轮缓存命中连续性、分层架构中的长链token溢出。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT83",
+          "url": "https://www.nowcoder.com/feed/main/detail/fa3706d7d465417f83d550b7f471941b",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "面试事件年与具体日期未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "本人慢SQL优化、读写分离、单列与联合索引的回表和索引下推。",
+            "ES分片/资源与查询优化，字段选型与精准匹配。",
+            "锁过期、误删、重入、秒杀，自旋策略，以及CompletableFuture线程池参数与CPU/I/O隔离。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT84",
+          "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60",
+          "material_type": "本人具体问题记录",
+          "event_time": "标题为9.7；正文称15点刚面完，面试约45分钟；未直接写事件年",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "介绍本人经历及做过的工作。",
+            "混合检索采用什么实现。",
+            "RAG文档切片粒度如何选择，依据是什么。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT86",
+          "url": "https://www.nowcoder.com/discuss/736940763258400768",
+          "material_type": "面试问题与部分事后解答混合",
+          "event_time": "正文称这周二面；未直接写面试事件年或绝对日期",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "团队规模、本人角色、项目动机和实际解决的问题。",
+            "是否调研同类平台或技术方案，目前最大挑战是什么。",
+            "每项优化解决的问题、使用的组件及Java工具包。"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT97",
+          "url": "https://ac.nowcoder.com/discuss/1678382?type=0",
+          "material_type": "本人具体问题记录",
+          "event_time": "2026-07-16至09-07多公司已结束流程；仍在进行的公司不混入失败结果",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "竞拍为什么用Redis Lua而不直接写MySQL，Lua失败能回滚吗？",
+            "Redis Stream异步落库、消费者重启、重复消费与最终结算如何保证一致？",
+            "幂等键谁生成、何时写入，Lua成功而幂等键未写入时如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT98",
+          "url": "https://www.nowcoder.com/discuss/925099258619928576?urlSource=home-api",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "二面年月日未知；页面09-04编辑且无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "幂等ID由谁生成，重复请求怎样得到同一ID？",
+            "为什么使用分布式事务，串行RPC不能满足什么要求？",
+            "DTM挂掉或回退库存失败怎样恢复？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT102",
+          "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea?sourceSSR=%E5%85%B6%E4%BB%96",
+          "material_type": "本人具体问题记录",
+          "event_time": "08-13一面、08-16二面，年份未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Coding Agent架构是什么，ReAct与Plan适用于什么场景？",
+            "上下文压缩保留什么，如何防止丢失用户关键约束？",
+            "路径震荡怎样定位，长期Memory如何提取存储检索？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT103",
+          "url": "https://www.nowcoder.com/feed/main/detail/775b45a6884f4688bc1e24ad8023183b",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面年月日未知；astra卡片页面05-05无年份",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "Agent系统如何评价，实习遇到的问题如何解决？",
+            "幻觉如何处理？",
+            "重新做一次项目会改进什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT104",
+          "url": "https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject",
+          "material_type": "本人具体问题记录",
+          "event_time": "一面约75分钟，年月日未知",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？",
+            "无标题Markdown怎样切块，短query与长chunk如何比较并做对照？",
+            "关键词与向量召回如何互补，长query如何处理？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT53",
+          "url": "https://www.nowcoder.com/feed/main/detail/95e9fc44397d4118ba3946ef0d33b6da?sourceSSR=enterprise",
+          "material_type": "面经与整理/协作笔记混合",
+          "event_time": "面试年月日未确认（页面10-12）",
+          "strict_recent_internship": false,
+          "question_examples": [
+            "为何自研与选择ReAct，哪些精确任务应绕开RAG？",
+            "子Agent的消息/工具权限、schema、注入防护与失败降级如何落实？",
+            "记忆、自进化、检索指标怎样衔接端到端测试；长任务、幂等、缓存一致性如何设计？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        },
+        {
+          "id": "INT106",
+          "url": "https://www.nowcoder.com/discuss/736868736837173248?sourceSSR=dynamic",
+          "material_type": "本人具体问题记录",
+          "event_time": "2025春招，02月至04月多公司流程",
+          "strict_recent_internship": true,
+          "question_examples": [
+            "算子优化如何检测提升，怎样排除GPU精度算力差异？",
+            "TRT-LLM、vLLM和SGLang的加速手段与PagedAttention怎样比较？",
+            "连续批处理和Prefix Cache按什么维度切分，依据是什么？"
+          ],
+          "scope_boundary": "原文问题的本包归纳；不是面试录音或逐字稿；资料含事后答案时不得升为真实追问"
+        }
+      ],
+      "competency": "有基线、任务集、可追踪执行过程与明确评分依据，区分作者宣称和实际验证。",
+      "project_ids": [
+        "PRO04",
+        "PRO05",
+        "PRO06",
+        "PRO07",
+        "PRO11",
+        "PRO24"
+      ],
+      "common_pitfall": "把模型自评当独立结果，忽略失败成本，用一次演示代替效果证据。",
+      "all_four_source_types_present": true,
+      "remaining_gap": "已补本人实现和生产访谈选读；实现存在静态风险，未运行；原始逐字稿选读不计B站视频观看，不能将控制流测试当任务正确率。"
+    }
+  ],
+  "success_case_advantages": [
+    {
+      "candidate_id": "CV01",
+      "source_URL": "https://www.nowcoder.com/discuss/825498059369955328?toCommentId=22311081",
+      "event_time": "2025秋招；另有2023.12—2024.07实习经历",
+      "recruitment": "校招",
+      "observation": "Go业务经历把投递、重试去重、索引和性能串起来；代码与性能条件未公开，不能复制自报数字。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV02",
+      "source_URL": "https://github.com/viego1999/JavaWxy",
+      "event_time": "实习与秋招具体发生年份未确认",
+      "recruitment": "混合",
+      "observation": "本人项目、职责与同仓面经可对应；教学来源要说明，历史腾讯SSP不证明当前复刻相同项目的收益。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV05",
+      "source_URL": "https://github.com/erdengk",
+      "event_time": "2023-12：快手、小红书商业化录用自述",
+      "recruitment": "未知",
+      "observation": "2022年两项合并测试PR有可核增量；2023录用与2026 Agent方向更新分开，其他贡献未审。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV10",
+      "source_URL": "https://www.nowcoder.com/discuss/353154880351182848",
+      "event_time": "2018年求职；腾讯实习转正和阿里云校招分开",
+      "recruitment": "混合",
+      "observation": "2018求职文章直接链接三项本人系统项目；能研究领域问题深度，不能变成当前实习必做清单。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV17",
+      "source_URL": "https://juejin.cn/post/7461269186713321491",
+      "event_time": "2024日常/暑期实习与秋招；具体轮次月日未核",
+      "recruitment": "混合",
+      "observation": "有多段实习和SSP结果自述，项目优化追问可参考；未定位本人仓库，2024秋招日期边界仍待核。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV09",
+      "source_URL": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+      "event_time": "2025-09-26：自述收到腾讯实习offer",
+      "recruitment": "实习",
+      "observation": "近期后台实习offer与具体面经可对应；个人项目只有描述，不能自动补成纯Agent SSP案例。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV23",
+      "source_URL": "https://zhh2001.github.io/resume",
+      "event_time": "莉莉丝游戏 2026.03–2026.06；上海简文私募基金 2025.09–2026.03；网易游戏 2026.09–至今",
+      "recruitment": "实习",
+      "observation": "完整公开专业履历可对应实习主体、角色和时间，但项目实现与效果细节缺失；有完整履历不代表已能审查技术深度。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV24",
+      "source_URL": "https://huomalxq.github.io/resume/",
+      "event_time": "Philips 2026.03–2026.05；上海诺基亚贝尔 2023.09–2024.01",
+      "recruitment": "实习",
+      "observation": "Agent实习职责、问数链路和作者自列未完成项具体；源码、指标复现及与企业项目的精确对应仍未核，不称SSP。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV25",
+      "source_URL": "https://ac.nowcoder.com/discuss/1610772",
+      "event_time": "2026-02-25立贴；2026年3月至4月暑期流程；蚂蚁4月13日offer",
+      "recruitment": "实习",
+      "observation": "2026蚂蚁智能体应用实习offer有明确时间线；RAG技术问题来自本人TikTok面经，不把两家公司的结果与问题串成同一场。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV28",
+      "source_URL": "https://davidhlp.github.io/about/",
+      "event_time": "2026.01–2026.06",
+      "recruitment": "实习",
+      "observation": "完整履历直接链接本人OJ和缓存扩展，指定消息投递、条件写回、single-flight与测试可审；雇主博彦、客户阿里云分开，面经仅主题对应，不证明现版代码导致录用。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV03",
+      "source_URL": "https://www.nowcoder.com/discuss/832657601983688704",
+      "event_time": "2025年3—4月暑期招聘；5—8月美团实习；8月下旬意向，10月底美团SSP；9—11月其他秋招结果",
+      "recruitment": "混合",
+      "observation": "原文直接明确2025美团暑期后同公司SSP；外部校招另列，京东SSP/网易SP为作者推定，华为15a不换算。具体项目源码和岗位职称仍缺。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV30",
+      "source_URL": "https://andrewtheterp.com/",
+      "event_time": "ByteDance (TikTok Shop) 2026.05–2026.08；ByteDance (TikTok Shop) 2025.05–2025.08",
+      "recruitment": "实习",
+      "observation": "完整公开CV明确2026字节Creator Assistant后端实习，写到MCP工具、真实对话评测和trace；仍为本人职责自述，企业内部源码、本人面经与SSP未披露。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV29",
+      "source_URL": "https://shufengc.dev/",
+      "event_time": "Tencent · Cloud Computing Group 2025.07–2025.08；Stripe · Cash & Banking Infrastructure 2026.05–2026.08",
+      "recruitment": "实习",
+      "observation": "腾讯2025/Stripe2026实习主页直接链接两项源码；TinyKV继承课程框架，QuantHarbor入口和执行隔离有静态风险，不能用大厂经历替项目成熟度背书。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    },
+    {
+      "candidate_id": "CV31",
+      "source_URL": "https://imyihang.com/",
+      "event_time": "中科曙光Agent开发实习2025.12–2026.02；AI产品实习另列",
+      "recruitment": "实习",
+      "observation": "近期中科曙光Agent实习完整CV直接链接NoWorries；本人主页另链Sprout及合并PR。可研究编排、记忆与权限，但文本打分、预算和沙箱降级存在静态风险；非互联网大厂SSP，未运行。",
+      "evidence_level": "公开个人经历/录用自述；具体PR仅核贡献，不核录用原因",
+      "causal_claim": "不证明该项目或该技术单独造成offer/SSP"
+    }
+  ],
+  "ssp_conclusion": {
+    "status": "未建立统一SSP专属门槛",
+    "what_is_supported": "可核的个人实现、问题取舍、测试与业务验证能够形成面试深挖材料；具体收益只在个案中观察。",
+    "missing": "尚无相同招聘批次、岗位和背景下普通offer与SSP的可比较样本，不能把特定技术、论文、star或项目名称当SSP必要/充分条件。"
+  }
+}

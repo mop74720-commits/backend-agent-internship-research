@@ -1,0 +1,205 @@
+JD29 | 上海人工智能实验室 27届留用实习 大模型算法 Agent基础能力
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  上海人工智能实验室
+role_type：
+  Agent算法研究；上海；27届；页标4天/周至少3月；正文6月以上优先
+原始来源：
+  https://www.nowcoder.com/jobs/detail/446094
+publish_date：
+  未显示发布日期和投递期；不由27届补年份
+retrieved_date：
+  2026-10-24
+source_type：
+  牛客平台招聘页，发布者企业身份未独立核验
+own_summary：
+  Function Calling训练数据设计清洗，SFT/Agentic RL训练，系统原型与推理工具，评测任务及训练闭环。
+required_stack：
+  - LLM/多模态训练与微调/SFT/RLHF实践
+  - Agent规划/函数调用
+  - RL与Agentic RL
+  - Python/PyTorch
+preferred_stack：
+  - verl训练框架
+  - 线下且至少6个月
+  - 有影响力Agent开源/benchmark贡献
+  - ACM/ICPC/Kaggle
+  - 顶会论文主要作者
+  - 数据构建/自动标注/质量验证
+degree_constraint：
+  标题27届留用实习；页表学历不限，正文未列硬性学历
+availability_constraint：
+  上海；页表4天/周至少3个月；正文每周≥4天，6个月及以上优先
+recruiting_status：
+  页标已结束
+matrix_include：
+  否
+duties：
+  Function Calling训练数据设计清洗，SFT/Agentic RL训练，系统原型与推理工具，评测任务及训练闭环。
+阅读建议：
+  典型训练驱动Agent岗位，用来界定何时需要科研能力。
+局限：
+  上海人工智能实验室/创新中心研究机构样本，非互联网大厂；时长表格与正文层次分别保留。
+原访问范围：
+  正文全文
+统一分类：
+  方向：
+    算法对照
+  招聘类型：
+    实习
+  事件时间：
+    未显示发布日期和投递期；不由27届补年份
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    未显示发布日期和投递期；不由27届补年份
+  时间依据：
+    年份未明，不按届次或当前年推定
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    职责、要求、资格及页表状态实际核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - LLM/多模态训练与微调/SFT/RLHF实践
+  - Agent规划/函数调用
+  - RL与Agentic RL
+  - Python/PyTorch
+  - verl训练框架
+  - 线下且至少6个月
+  - 有影响力Agent开源/benchmark贡献
+  - ACM/ICPC/Kaggle
+  - 顶会论文主要作者
+  - 数据构建/自动标注/质量验证
+source_record：
+  source_id：
+    J11
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    上海人工智能实验室 27届留用实习 大模型算法 Agent基础能力
+  原始来源：
+    https://www.nowcoder.com/jobs/detail/446094
+  canonical_key：
+    nowcoder:job:446094
+  source_file：
+    01_岗位JD/J11.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      牛客平台招聘页（发布者身份未独立核验）；页面未列日期；标题27届
+    岗位状态：
+      已结束，仅作要求样本
+    方向与资格：
+      Agent算法研究；上海；27届；页标4天/周至少3月；正文6月以上优先
+    明确要求：
+      LLM训练/微调 / SFT/RLHF/Agentic RL / Python/PyTorch / 规划/函数调用实践
+    加分项：
+      verl / 开源/benchmark贡献 / 竞赛/顶会论文 / 数据构建与质量验证
+    工作摘要：
+      Function Calling数据构建、后训练、智能体原型与能力评测。
+    推荐理由：
+      典型训练驱动Agent岗位，用来界定何时需要科研能力。
+    局限：
+      研究机构样本，非互联网大厂；页表格与正文时长分别标注。
+  live_access：
+    状态：
+      200
+    标题：
+      【27届留用实习生】大模型算法（Agent基础能力方向）-大模型中心_上海人工智能实验室实习_牛客网
+    原始来源：
+      https://www.nowcoder.com/jobs/detail/446094
+    已读部分：
+      职责、要求、资格及页表状态实际核读
+    已读定位正文全文：
+      是
+    professional_text：
+      岗位职责
+1、负责智能体核心能力的研发与工程化：提升语言模型和多模态模型在多轮交互、Function Calling、结合Agent框架的决策与推理等场景的稳定性与泛化能力；
+2、参与 SFT 与 Agentic RL 的数据设计与构建：参与智能体任务的数据设计、生成与清洗流程，构建高质量用于SFT与RL的Function Calling训练数据；
+3、参与模型训练与调优：参与大模型的SFT、Agentic RL等训练流程，优化模型在多轮对话、工具调用、决策推理任务中的表现；
+4、Agent系统协同开发：构建基于大模型的Agent平台原型，支持模型推理以及工具调用等功能；
+5、评测体系设计与分析：设计Agent能力相关的评测任务和指标，追踪训练效果，驱动训练闭环优化；
+岗位要求
+1、熟悉大模型训练与微调流程：具有LLM或多模态模型训练经验，熟悉SFT、RLHF等方法；
+2、Agent相关实践：了解或参与过智能体系统构建，包括任务规划、函数调用等功能模块的设计与实现；
+3、强化学习基础：熟悉RL基础知识以及RL在大模型微调中的应用，特别是LLM reasoning, Agentic RL等场景下的训练，熟悉verl等训练框架优先；
+4、工程实现能力：熟练使用Python，熟悉PyTorch等主流深度学习框架，具备扎实的代码能力；
+5、线下实习优先，每周出勤天数≥4天，能实习6个月及以上优先。
+
+【加分项】
+参与开发过有影响力的开源智能体项目（如基于LangChain、LangGraph等的项目）；
+在主流agent类benchmark上有开源贡献，或在ACM/ICPC，Kaggle等竞赛中取得过优异成绩优先；
+在顶级会议/期刊（NeurlPS，ICML，ICLR，ACL，EMNLP等）以一作或主要贡献者身份发表论文优先；
+具备数据构建、自动标注、数据质量验证的实战经验；
+龙文路129号（国际传媒港L1大楼）
+    text_sha256：
+      11f53124fcdab94cba4765a7a08ddfbbb574d3f5fd7564ee083b79af5366e3a2
+  方向：
+    算法对照
+  required_stack：
+    - LLM/多模态训练与微调/SFT/RLHF实践
+    - Agent规划/函数调用
+    - RL与Agentic RL
+    - Python/PyTorch
+  preferred_stack：
+    - verl训练框架
+    - 线下且至少6个月
+    - 有影响力Agent开源/benchmark贡献
+    - ACM/ICPC/Kaggle
+    - 顶会论文主要作者
+    - 数据构建/自动标注/质量验证
+  duties：
+    Function Calling训练数据设计清洗，SFT/Agentic RL训练，系统原型与推理工具，评测任务及训练闭环。
+  degree_constraint：
+    标题27届留用实习；页表学历不限，正文未列硬性学历
+  availability_constraint：
+    上海；页表4天/周至少3个月；正文每周≥4天，6个月及以上优先
+  publish_date：
+    未显示发布日期和投递期；不由27届补年份
+  date_year_confirmed：
+    否
+  recruiting_status：
+    页标已结束
+  source_type：
+    牛客平台招聘页，发布者企业身份未独立核验
+  matrix_include：
+    否
+  阅读建议：
+    典型训练驱动Agent岗位，用来界定何时需要科研能力。
+  局限：
+    上海人工智能实验室/创新中心研究机构样本，非互联网大厂；时长表格与正文层次分别保留。
+  招聘类型：
+    实习
+  source_date_basis：
+    年份未明，不按届次或当前年推定
+source_key：
+  ASTRA_J11_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J11
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "scope": "只读审查当前16份ssp_claim_present候选人及OBS09、OBS10的本地主表录用依据；仅CV14、OBS09重新取得原文核对。此文件是来源范围复核日志，不新增成功者、面经或主表记录。",
+  "method": {
+    "local_source": "08_证据索引与统计/all_evidence_records.json中的title、url、ssp_claim_present、outcome、outcomes及已有依据；相关旧核读日志用于核对OBS09、OBS10的来源范围。",
+    "local_review_boundary": "其余14份候选人和OBS10没有在本次重新抓取原文；不能将本地依据审查写成全部原文复读或独立验证。候选人source_record字段为空时，不声称存在该字段的原文转录。",
+    "fresh_primary_reads": ["CV14", "OBS09"],
+    "not_performed": ["企业录用核验", "offer图片核验", "联系作者", "登录或绕过访问限制", "新增候选人身份关联", "修改主表"],
+    "privacy": "不保存原始正文、评论、SSR、联系方式或凭据；只保存专业归纳、来源链接及阅读范围。"
+  },
+  "local_candidate_reviews": [
+    {
+      "id": "CV01",
+      "url": "https://www.nowcoder.com/discuss/825498059369955328",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据指向本人主文结尾对字节、快手、小鹏最终SSP的总结及其面经结果更新。",
+      "boundary": "第四家SSP公司仍未解析；滴滴、百度档位未定，不从总体四家SSP补齐。",
+      "risk_found": false
+    },
+    {
+      "id": "CV02",
+      "url": "https://github.com/viego1999/JavaWxy",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为作者README第一人称腾讯SSP自述。",
+      "boundary": "拼多多、快手、阿里等不据此补SSP；腾讯结果不反填其他公司的面经。",
+      "risk_found": false
+    },
+    {
+      "id": "CV03",
+      "url": "https://www.nowcoder.com/discuss/832657601983688704",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据分别记录美团、安克直接SSP自述，京东为作者推定SSP。",
+      "boundary": "京东不能与直接SSP自述等同；网易为作者猜测SP，华为15a不换算SSP；未补为Agent SSP。",
+      "risk_found": false
+    },
+    {
+      "id": "CV05",
+      "url": "https://github.com/erdengk",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为作者简介对快手、小红书商业化大SSP的历史自述。",
+      "boundary": "2023录用与2026 Agent方向更新分开，不推导当年Agent SSP或项目录用因果。",
+      "risk_found": false
+    },
+    {
+      "id": "CV06",
+      "url": "https://javabetter.cn/mianjing/quzjlsspdx.html",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为技术站点发布的第一人称经验文，记最终字节SSP。",
+      "boundary": "属于技术站发布或转载，不统一说成作者原账号直发；腾讯IEG、百度未逐家定档。",
+      "risk_found": false
+    },
+    {
+      "id": "CV10",
+      "url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为本人原文开头腾讯实习转正SSP自述。",
+      "boundary": "阿里云A单列，不互换为SSP。",
+      "risk_found": false
+    },
+    {
+      "id": "CV11",
+      "url": "https://www.nowcoder.com/discuss/353154787879362560",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为第一人称offer大多SSP的总体自述。",
+      "boundary": "字节、网易游戏、阿里云、华为、腾讯未逐家对应SSP，不能全部按SSP计。",
+      "risk_found": false
+    },
+    {
+      "id": "CV12",
+      "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为作者本人仓库第一人称SP、SSP及其他offer总体自述。",
+      "boundary": "公司和档位未逐一对应；最终选择网易互娱不等于网易SSP。",
+      "risk_found": false
+    },
+    {
+      "id": "CV13",
+      "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为README第一人称若干大厂SSP自述。",
+      "boundary": "具体公司档位未披露；协作研究、同账号仓库不补为本人求职项目。",
+      "risk_found": false
+    },
+    {
+      "id": "CV14",
+      "url": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32",
+      "review_scope": "本地主表依据审查，并重新取得固定版本README及原校招总结的相关文字",
+      "basis": "固定README第32行明确第一人称校招取得SP、SSP；不是只靠用户名、推荐链接或正文sp与ssp混合表述推断。",
+      "boundary": "正文只将两家AI独角兽概括为SP或SSP，未逐公司定档；百度、字节等offer不自动标SSP。",
+      "risk_found": false
+    },
+    {
+      "id": "CV15",
+      "url": "https://github.com/CyC2018/CS-Notes/blob/6ea58eff7e40a8b449a567af5ba7dcd20f7cd058/other/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为本人头条后台SSP自述及其本人求职复盘。",
+      "boundary": "腾讯明确SP，阿里待定，不与头条SSP互换。",
+      "risk_found": false
+    },
+    {
+      "id": "CV16",
+      "url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为本人地平线SSP、拒绝后选择小马智行的自述。",
+      "boundary": "小马原文为算法普通档；该案例为自动驾驶算法邻近参考。",
+      "risk_found": false
+    },
+    {
+      "id": "CV17",
+      "url": "https://juejin.cn/post/7461269186713321491",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为本人字节、快手、淘天、京东SSP的第一人称自述。",
+      "boundary": "美团是SP，不是SSP；未找到本人具体项目仓库，不用课程仓库补齐。",
+      "risk_found": false
+    },
+    {
+      "id": "CV18",
+      "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为本人多家公司结果大多SP、SSP的总体自述。",
+      "boundary": "未逐公司定档，不将全部公司、最终选择或通过面试都记为SSP。",
+      "risk_found": false
+    },
+    {
+      "id": "CV19",
+      "url": "https://www.codefather.cn/course/yupi",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为本人站点腾讯实习转正SSP的自述。",
+      "boundary": "求职当时项目仍未核清；后来教学、商业和AI项目不回填为当年录用项目。",
+      "risk_found": false
+    },
+    {
+      "id": "CV20",
+      "url": "https://github.com/puge-up/programming-play/blob/4ff334fef939e05b6aa08caef412d96911c6dcfe/article/%E8%AF%BB%E8%80%85%E7%A7%8B%E6%8B%9B%E5%88%86%E4%BA%AB/CPP/%E5%8F%8C%E9%9D%9E%E6%9C%AC%E7%A7%91%E6%8B%BF%E8%85%BE%E8%AE%AFsp_%E5%A4%B4%E6%9D%A1ssp_%E7%BD%91%E6%98%93%E6%B8%B8%E6%88%8Fsp_offer%E7%9A%84%E7%A7%8B%E6%8B%9B%E4%B9%8B%E8%B7%AF.md#L30",
+      "review_scope": "本地主表依据审查，未在本次重取原文",
+      "basis": "现存依据为第三方仓库收录的署名第一人称来稿，记头条SSP。",
+      "boundary": "不是作者原账号直发；腾讯实习转正SP、网易游戏SP不能换成SSP。",
+      "risk_found": false
+    }
+  ],
+  "observation_reviews": [
+    {
+      "id": "OBS09",
+      "url": "https://www.nowcoder.com/feed/main/detail/3fc0f728c1bb4a968d3942c9d1563c6f?sourceSSR=subject",
+      "review_scope": "本地主表及已有核读日志审查，并重新取得本帖公开文字正文",
+      "basis": "本帖正文直接自称秋招8个头部公司offer均SSP，方向Agent开发；不是从评论者昵称抽取SSP。",
+      "boundary": "事件年份、具体公司与岗位逐项关系仍缺，仅保留候选人对照；不加入16位SSP候选人或近期明确Agent工程SSP统计，不绑定其他公开账号。",
+      "risk_found": false
+    },
+    {
+      "id": "OBS10",
+      "url": "https://www.nowcoder.com/feed/main/detail/33e2209965c44c6e86a27ecb9e01f9b1",
+      "review_scope": "本地主表及既有来源核读日志审查，未在本次重取原文",
+      "basis": "既有核读记录为本人选择中兴大模型开发SSP的直接自述。",
+      "boundary": "没有明确Agent工程职责或实习批次；保留大模型邻近对照，不扩大Agent工程SSP核心样本。",
+      "risk_found": false
+    }
+  ],
+  "fresh_primary_checks": [
+    {
+      "id": "CV14",
+      "repo": "mio4/Java-Gold",
+      "commit": "b3f0759b2f695c2ce17a8b878d745bfe128117a6",
+      "read_urls": [
+        "https://raw.githubusercontent.com/mio4/Java-Gold/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md",
+        "https://raw.githubusercontent.com/mio4/Java-Gold/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md"
+      ],
+      "access": "README正常公开GET HTTP200；原校招总结通过网页工具读取固定版本文字。",
+      "reading_scope": "重新核读README第32行的第一人称结果与第105行入口，并核对原校招总结的实习、提前批及SP/SSP表述；没有逐条审定技术答案，没有读取offer图片。",
+      "decision": "维持SSP总体自述；公司逐项未对应的局限不变。"
+    },
+    {
+      "id": "OBS09",
+      "read_url": "https://www.nowcoder.com/feed/main/detail/3fc0f728c1bb4a968d3942c9d1563c6f?sourceSSR=subject",
+      "http_status": 200,
+      "selector": ".feed-content-text",
+      "body_characters": 150,
+      "reading_scope": "该选择器定位的本帖文字正文全部核读；未读图片、评论或SSR，未保存正文。",
+      "access_boundary": "网页工具直接打开失败；正常公开GET可读。通用讨论帖选择器未定位到正文，改用feed正文选择器后取得；不把前次选择器未命中当文章不存在。",
+      "decision": "确认SSP词位于楼主正文，维持宽泛自述待核范围。"
+    }
+  ],
+  "nickname_contamination_exclusion": {
+    "url": "https://www.nowcoder.com/feed/main/detail/bfc30688de0f49a3af4b0e43a97fa97d?sourceSSR=post",
+    "title": "最近准备入职字节财经的ai应用开发",
+    "review_scope": "本次仅复核根代理已写入持续补证_Agent_SSP缺口复核.json的原文核读结论，未独立重新抓取。",
+    "primary_finding": "楼主只说准备入职字节财经AI应用开发，未自述SSP；SSP来自另一评论者的昵称。",
+    "decision": "排除本人SSP关系；不把楼主、评论者及其昵称合并，不新增SSP候选人。",
+    "current_main_table_check": "当前主表未见该链接成为SSP录用依据。"
+  },
+  "counts": {
+    "local_ssp_candidate_reviews": 16,
+    "local_observation_reviews": 2,
+    "fresh_primary_source_cases": 2,
+    "fresh_primary_source_case_ids": ["CV14", "OBS09"],
+    "new_ssp_candidates": 0,
+    "main_records_modified": false
+  },
+  "conclusion": "基于当前本地主表与两条原文复读，未发现已有16位候选人及OBS09/10将用户名、相关推荐、加面预期或SSP面试卡误计为最终SSP的现存问题。此结论不是对全部18条原文重新核验，也不是对公开录用自述作企业认证。"
+}

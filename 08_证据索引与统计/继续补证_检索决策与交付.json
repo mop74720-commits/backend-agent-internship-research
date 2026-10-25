@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-23",
+  "scope": "交付核验后的定向补搜；访问记录与纳入判断分开，未取得正文不增加已读资料数",
+  "new_qualifying_candidate_interview_project_records": 0,
+  "search_paths": [
+    "GitHub本人项目/面经关键词入口，追溯牛客原文和作者身份；课程答案与付费汇编另行排除",
+    "直接检索腾讯工程知乎原文及B站视频，使用网页工具、普通GET与匿名公开字幕元数据接口核查"
+  ],
+  "manual_additions": [
+    {
+      "title": "任何错误只犯一次：TencentDB Agent Memory的团队记忆实践",
+      "url": "https://zhuanlan.zhihu.com/p/2073084629918148573",
+      "status": "网页工具及普通公开GET均403；未取得正文，检索摘要不计已读",
+      "to_verify": "核读腾讯技术工程署名原文，重点检查记忆资产的权限范围、适用版本、验证与基准对照；摘要中的数字尚未独立审定",
+      "priority": "优先：Agent工程专业原文",
+      "priority_reason": "直接对应记忆治理与评测缺口，先核正文及实验边界；不以摘要替代原文"
+    },
+    {
+      "title": "10万+Skill背后：腾讯SkillHub如何帮用户找到真正好用的那20%",
+      "url": "https://zhuanlan.zhihu.com/p/2070161578142479372",
+      "status": "网页工具及普通公开GET均403；未取得正文，题名为原页面题名而非本包验证结论",
+      "to_verify": "核实际Skill可信性评测、静态分析与运行验证的区别；作者角色、商业背景和测评方法待读",
+      "priority": "优先：Agent工程专业原文",
+      "priority_reason": "直接对应工具/Skill评测与权限边界；不把文章题名中的比例当已复现结果"
+    },
+    {
+      "title": "Agent在多模态任务中的进展（腾讯优图视频线索）",
+      "url": "https://www.bilibili.com/video/BV18J23BwEmT/",
+      "status": "匿名公开view元数据接口HTTP412，未取得CID或字幕；未观看、未下载音视频",
+      "to_verify": "实际讲者、工程与研究范围、任务和评测依据；课程或产品推广背景。没有把视频简介算实际内容",
+      "priority": "补充：专业视频原始链接",
+      "priority_reason": "先确认是否以应用工程为主，再决定精读；多模态研究不自动代表Agent实习要求"
+    },
+    {
+      "title": "9.7百度agent开发日常实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60",
+      "status": "网页工具与普通GET仅标题/空壳，未取得完整正文；搜索摘要仅供发现",
+      "to_verify": "实际面试年份、轮次和结果，项目观测能力具体追问及本人项目链接；题名9.7不能确定事件年",
+      "priority": "优先：明确实习面经原帖",
+      "priority_reason": "符合实习方向，待核具体工程追问；未确认年份，不计严格近期面经"
+    }
+  ],
+  "manual_updates": [
+    {
+      "url_contains": "BV1EFGs6YEZi",
+      "status": "本轮匿名公开view元数据接口HTTP412，未取CID或字幕；仍未观看。前轮简介不代替视频内容",
+      "priority": "优先：实习面试视频",
+      "priority_reason": "题名面向腾讯Agent暑期实习，但需实际观看及核清本人面试还是讲解整理"
+    },
+    {
+      "url_contains": "d9ac01c30b9b4f57aa9294ceda1004e2",
+      "status": "网页工具已读公开正文，普通GET仍空壳；原文为未具名约2000人公司Agent校招提前实习及leader给SSP的自述，非已核大厂岗位",
+      "to_verify": "公司和事件年未披露、最终档位文件未展示，本人履历/源码/具体面经未建立；不当大厂Agent SSP完整样本",
+      "priority": "补充：关键招聘信息未披露",
+      "priority_reason": "正文已读，但不能用标签或评论补写公司、事件年和招聘结果"
+    }
+  ],
+  "read_but_not_promoted": [
+    {
+      "url": "https://www.nowcoder.com/discuss/940390952902914048?sourceSSR=post",
+      "title": "字节跳动AI Agent开发岗面经-07",
+      "reading_scope": "普通GET实际读到3328字符公开部分；包含2026-10-13/12三段面试标题和问题，末尾明示其余60%内容付费",
+      "finding": "公开问题可见Agent循环、结构化UI、流式通信与服务端基础的追问；但页面自称面经收集专栏，未核各段是否为作者本人经历",
+      "decision": "保留来源与公开阅读边界，不计完整本人面经，不按三场增加样本，未付费、未尝试获取受限部分"
+    },
+    {
+      "url": "https://github.com/Lvyizhuo/MyProject-SDAgent/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E7%89%9B%E5%AE%A205-%E5%BF%AB%E6%89%8BAI%20agent%E5%BC%80%E5%8F%91%E5%AE%9E%E4%B9%A0%E4%BA%8C%E9%9D%A2%201h.md",
+      "reading_scope": "选读文件开头的问题、参考答案和评测目标表；未审定整篇2056行",
+      "finding": "大量第一人称答案明确置于参考答案之下；目标指标没有对应本轮可复核实验数据",
+      "decision": "不把参考答案中的我的项目当作者录用履历，也不把目标值当已达成结果；不新增成功者或真实面经记录"
+    }
+  ],
+  "execution_limits": {
+    "parallel_agents": "三个并行任务均因workspace out of credits终止，未产出新研究成果；根代理继续本地核验与定向公开检索",
+    "third_party_project_execution": false,
+    "paid_access": false,
+    "video_or_audio_download": false,
+    "new_video_or_subtitle_read_count": 0
+  },
+  "next_remaining_work": [
+    "近期Agent实习同人的完整履历、可审查本人实现及具体本人面经关系仍需补强",
+    "大厂Agent SSP的具体岗位、招聘批次、事件年及最终档位仍缺直接清晰样本",
+    "以上受限原文与视频由用户可手动打开；后续仍须依据实际内容核读，不按题名补写"
+  ]
+}

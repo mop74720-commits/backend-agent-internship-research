@@ -1,0 +1,100 @@
+JD08 | AI Agent开发实习生-计算
+
+需求核对版 · 2026-10-24
+
+公司：
+  字节跳动/基础设施计算
+role_type：
+  Agent工程实习
+原始来源：
+  https://www.nowcoder.com/jobs/detail/432128?urlSource=sitemap
+publish_date：
+  未展示；面向2027届
+retrieved_date：
+  2026-10-23
+source_type：
+  企业在牛客发布的JD
+evidence_excerpt：
+  记忆、知识、鉴权、观测
+own_summary：
+  参与企业Agent框架与全生命周期能力；身份、鉴权、记忆、知识和观测是明确工作边界，Agent实践是加分。
+required_stack：
+  - 数据结构与算法
+  - C/C++/Python/Go/Java择一
+preferred_stack：
+  - Agent开发
+  - Agent框架
+  - Agent Skills
+degree_constraint：
+  2027届本科及以上；计算机通信等相关
+availability_constraint：
+  4天/周；最少3个月
+recruiting_status：
+  页面有投递入口；HC未核验
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 数据结构算法
+  - Agent实践
+  - 工具编排
+  - 记忆上下文
+  - 权限安全
+  - 观测评测
+duties：
+  多Agent、记忆知识、鉴权观测、开发框架
+局限：
+  
+类别：
+  招聘JD
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    未展示；面向2027届
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    招聘发布时间未展示，不按2027届或本次抓取年补写
+  来源日期：
+    未展示；面向2027届
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+latest_access_recheck：
+  资料ID：
+    JD08
+  原始来源：
+    https://www.nowcoder.com/jobs/detail/432128?urlSource=sitemap
+  access：
+    企业招聘原页面正文实际读取；未显示可确认发布时间
+  reading_scope：
+    岗位职责与五项岗位要求
+  required_summary：
+    面向2027届，要求算法、数据结构及一门熟练语言。
+  preferred_summary：
+    Agent开发、框架、Skills经验写为优先。
+  duties_summary：
+    记忆、知识、鉴权、观测、多Agent属于团队工作范围。
+  boundary：
+    不能把工作范围中的全部模块说成申请者必须已掌握；不按届别补发布时间。

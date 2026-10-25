@@ -1,0 +1,80 @@
+JD16 | Agent/RL方向大模型27届实习生
+
+需求核对版 · 2026-10-24
+
+公司：
+  字节跳动/商业信任与安全
+role_type：
+  Agent算法研究实习（对照）
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/d28cf1fc8c044de7b86bacd77fb01808
+publish_date：
+  页面03-04；年份未明示
+retrieved_date：
+  2026-10-23
+source_type：
+  自称雇员发布的招聘帖
+evidence_excerpt：
+  27届硕士或博士在读
+own_summary：
+  研究倾向明显：硕博要求，重代码算法和机器学习基础，预训练、微调、强化学习、竞赛与顶会成果加分。
+required_stack：
+  - C/C++或Python
+  - 数据结构与算法
+  - 机器学习/LLM原理
+preferred_stack：
+  - 预训练/微调/RL/Agent经验
+  - ACM/ICPC/TopCoder/Kaggle奖项
+  - 高影响项目/顶会论文
+degree_constraint：
+  27届硕士或博士；计算机电子信息相关
+availability_constraint：
+  未展示
+recruiting_status：
+  未核验
+原访问范围：
+  全文
+证据边界：
+  中高
+matrix_include：
+  否
+tags：
+  - 编程基础
+  - 数据结构算法
+  - 模型训练研究
+duties：
+  安全审核智能体训练、自进化、RL前沿验证
+局限：
+  
+类别：
+  招聘JD
+统一分类：
+  方向：
+    算法对照
+  招聘类型：
+    实习
+  事件时间：
+    页面03-04；年份未明示
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    页面只给月日，不从届别补年
+  来源日期：
+    页面03-04；年份未明示
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

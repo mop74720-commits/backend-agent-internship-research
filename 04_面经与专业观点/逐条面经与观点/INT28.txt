@@ -1,0 +1,125 @@
+INT28 | 26届后端实习-蚂蚁集团后端开发一面面经
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/bb4c92b4084f44e69388ac342c1ca809?sourceSSR=users
+canonical_url：
+  https://www.nowcoder.com/feed/main/detail/bb4c92b4084f44e69388ac342c1ca809
+公司：
+  蚂蚁集团
+team：
+  未披露
+方向与岗位：
+  后端暑期实习，2026届
+事件时间／原文日期（依分类）：
+  2025-03-17面试
+date_certainty：
+  发布日期年份明确，正文月日与其一致
+rounds：
+  - 一面，电话
+结果自述：
+  正文未公布结果；其他读者关于拒信的提问不作为结果证据
+涉及主题：
+  - 实验室/项目经历
+  - Java泛型/集合
+  - 设计模式
+  - 线程池
+  - Redis高可用
+  - TCP
+原文提问（归纳）：
+  - 研究生阶段在实验室实际做了什么、如何说明自己的贡献？
+  - 为什么目前项目方向没有选择AI？
+  - 高可用Redis集群怎样处理节点故障？
+内容归纳：
+  短篇实习原帖，支持实验室工作与项目选择动机也会被追问。没有具体系统结构，不宜当高强度项目深挖样本；作为基础覆盖和反问动机的补充。
+borrowable_points：
+  - 清楚表达读研期间真实交付和方向选择。
+weaknesses_and_limits：
+  - 项目细节只简写为聊项目，信息密度低于INT25。
+  - 原帖没有手撕只是这一场情况，不是整个公司的规则。
+统计组：
+  明确实习面经
+role_boundary：
+  26届暑期实习，不是算法研究或SSP对照
+candidate_group：
+  SUP_BACKEND_C08
+public_project_repositories：
+  —
+repository_relationship：
+  没有可识别的候选人项目仓库。
+ssp_status：
+  未声称SSP
+source_line_range：
+  原页面正文第46–68行
+原访问范围：
+  已打开原文并读取正文具体问题；动态页后续可不稳定
+fulltext_verified：
+  是
+证据边界：
+  B：候选人第一人称公开自述；未独立验证面试、身份或录用结果
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2025-03-17面试
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    原date_certainty确认2025页面年份与正文月日一致
+  来源日期：
+    2025-03-20发布
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    已打开原文并读取正文具体问题；动态页后续可不稳定
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      蚂蚁集团
+    档位：
+      未披露
+    状态：
+      unknown
+    证据：
+      https://www.nowcoder.com/feed/main/detail/bb4c92b4084f44e69388ac342c1ca809?sourceSSR=users
+    依据：
+      正文未公布结果；其他读者关于拒信的提问不作为结果证据
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-03-20发布
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+结果分类：
+  unknown
+related_record_ids：
+  —

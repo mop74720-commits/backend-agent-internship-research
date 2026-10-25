@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "scope": "只补齐PRO18固定源码选读附件；不修改主表、统计或候选人/录用定位。",
+  "projects": [
+    {
+      "project_id": "PRO18",
+      "repo": "tmnhs/Crony",
+      "sha": "00df3df90306811332d0aff66a259cf90ad6954f",
+      "source_url": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+      "archive_type": "固定文本源码选读派生归档；不是完整仓库或原ZIP",
+      "selection_scope": "仅9份明确指定的已读公开文本；排除所有环境/配置文件、SQL、私有文件及其他未选文件；不递归请求，不下载图片或依赖。",
+      "selected_source_files": 9,
+      "files": [
+        {
+          "path": "LICENSE",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/LICENSE",
+          "source_status": 200,
+          "upstream_sha256": "7336da8e45abc1a60f7c4648a499dca8c76938578df6abf2bf8be043434354bc",
+          "archived_sha256": "7336da8e45abc1a60f7c4648a499dca8c76938578df6abf2bf8be043434354bc",
+          "upstream_bytes": 1062,
+          "archived_bytes": 1062,
+          "same_as_upstream": true,
+          "lines": 21,
+          "redaction_changes": []
+        },
+        {
+          "path": "README.md",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/README.md",
+          "source_status": 200,
+          "upstream_sha256": "31747b7ef423a42c547418ca516bedb117cd43213a745a89043f65e1c1b1c935",
+          "archived_sha256": "31747b7ef423a42c547418ca516bedb117cd43213a745a89043f65e1c1b1c935",
+          "upstream_bytes": 4050,
+          "archived_bytes": 4050,
+          "same_as_upstream": true,
+          "lines": 139,
+          "redaction_changes": []
+        },
+        {
+          "path": "go.mod",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/go.mod",
+          "source_status": 200,
+          "upstream_sha256": "45a30df258147929ce299545b8a9d85c25fcd569c65f6d3ca391435732fd6b6c",
+          "archived_sha256": "45a30df258147929ce299545b8a9d85c25fcd569c65f6d3ca391435732fd6b6c",
+          "upstream_bytes": 1873,
+          "archived_bytes": 1873,
+          "same_as_upstream": true,
+          "lines": 42,
+          "redaction_changes": []
+        },
+        {
+          "path": "common/pkg/etcdclient/registry.go",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go",
+          "source_status": 200,
+          "upstream_sha256": "2fd75a4962127b4d2eac6c8da01a09d812acc6d8a93482ba488556067e683698",
+          "archived_sha256": "2fd75a4962127b4d2eac6c8da01a09d812acc6d8a93482ba488556067e683698",
+          "upstream_bytes": 1707,
+          "archived_bytes": 1707,
+          "same_as_upstream": true,
+          "lines": 86,
+          "redaction_changes": []
+        },
+        {
+          "path": "admin/internal/service/node.go",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go",
+          "source_status": 200,
+          "upstream_sha256": "eeadbddbe5138385c4ca1e72cf003c5db3cfdaf8de5f1f8281b1a7923b4816c9",
+          "archived_sha256": "eeadbddbe5138385c4ca1e72cf003c5db3cfdaf8de5f1f8281b1a7923b4816c9",
+          "upstream_bytes": 10278,
+          "archived_bytes": 10278,
+          "same_as_upstream": true,
+          "lines": 359,
+          "redaction_changes": []
+        },
+        {
+          "path": "admin/internal/service/job.go",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go",
+          "source_status": 200,
+          "upstream_sha256": "ef7282b7ae77d51936be54e963ff5ddeed1908739dc45683c5ba6e8c5a142240",
+          "archived_sha256": "ef7282b7ae77d51936be54e963ff5ddeed1908739dc45683c5ba6e8c5a142240",
+          "upstream_bytes": 5069,
+          "archived_bytes": 5069,
+          "same_as_upstream": true,
+          "lines": 175,
+          "redaction_changes": []
+        },
+        {
+          "path": "node/internal/service/node.go",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go",
+          "source_status": 200,
+          "upstream_sha256": "2726bc5fcc346277811e7b0eb2ff88db4d632f4f4af9caefb9b92926ab1e822e",
+          "archived_sha256": "2726bc5fcc346277811e7b0eb2ff88db4d632f4f4af9caefb9b92926ab1e822e",
+          "upstream_bytes": 6557,
+          "archived_bytes": 6557,
+          "same_as_upstream": true,
+          "lines": 256,
+          "redaction_changes": []
+        },
+        {
+          "path": "node/internal/handler/job.go",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go",
+          "source_status": 200,
+          "upstream_sha256": "1b00a6a5bfbfe490cb1930811b6d44205f865e72663040d7b69657b2833d6fff",
+          "archived_sha256": "1b00a6a5bfbfe490cb1930811b6d44205f865e72663040d7b69657b2833d6fff",
+          "upstream_bytes": 7535,
+          "archived_bytes": 7535,
+          "same_as_upstream": true,
+          "lines": 263,
+          "redaction_changes": []
+        },
+        {
+          "path": "node/internal/service/watcher.go",
+          "source_url": "https://raw.githubusercontent.com/tmnhs/Crony/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go",
+          "source_status": 200,
+          "upstream_sha256": "08f2fe8783ad37c049c48acbc85b32a25129e673f045e6bf6ac1070d693469da",
+          "archived_sha256": "08f2fe8783ad37c049c48acbc85b32a25129e673f045e6bf6ac1070d693469da",
+          "upstream_bytes": 4018,
+          "archived_bytes": 4018,
+          "same_as_upstream": true,
+          "lines": 137,
+          "redaction_changes": []
+        }
+      ],
+      "changes": [],
+      "license": {
+        "spdx_id": "MIT",
+        "path": "LICENSE",
+        "copyright": "Copyright (c) 2022 tmnhs",
+        "verified": "固定SHA根LICENSE已读并原字节保留；含完整许可和免责声明。"
+      },
+      "project_executed": false,
+      "tests_executed": false,
+      "buildable_full_repository": false,
+      "identity_boundary": "Go后端工程参考；个人重写与公司原版分开，非已核SSP成功者本人项目，不新增录用结论。",
+      "privacy_screen": {
+        "performed_in_memory": true,
+        "raw_source_written_to_disk": false,
+        "contact_credential_private_address_scan": true,
+        "redacted_source_files": 0,
+        "redaction_events": 0,
+        "limitation": "对这9份文本进行联系字段、常见凭据、私有地址及私钥标记筛查；不是全仓安全审计或漏洞扫描。"
+      },
+      "id": "PRO18",
+      "local_path": "05_项目源码归档/Crony_固定源码选读.zip",
+      "archive_file": "05_项目源码归档/Crony_固定源码选读.zip",
+      "sha256": "cb4deff1ffd0b6a07c42a4e2f55851227ba6a963ee15386e5e3a0cc730e468d6",
+      "bytes": 18355,
+      "members": 11,
+      "crc_test": "pass",
+      "archive_file_hashes_verified": true,
+      "attachment_status": "固定文本源码选读派生ZIP已归档",
+      "source_manifest": "08_证据索引与统计/Crony_选读归档补齐.json"
+    }
+  ],
+  "validation": {
+    "json_parse": "pass",
+    "allowlist_only": true,
+    "source_files": 9,
+    "members": 11,
+    "testzip": "pass",
+    "all_archived_hashes_match": true,
+    "license_verbatim_preserved": true,
+    "raw_source_written_to_disk": false,
+    "executed_third_party_code": false
+  }
+}

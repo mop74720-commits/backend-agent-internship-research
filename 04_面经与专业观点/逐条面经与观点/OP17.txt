@@ -1,0 +1,123 @@
+OP17 | 解密互联网大厂研发流程
+
+需求核对版 · 2026-10-24
+
+类别：
+  B站与知乎
+原始来源：
+  https://www.bilibili.com/opus/578080002218926853
+平台：
+  程序员Carl（B站账号：代码随想录）；B站原创专栏
+作者：
+  程序员Carl/代码随想录
+事件时间／原文日期（依分类）：
+  2021-10-05；正文明确日期；仅用于稳定的工程能力，不证明2026招聘形势
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    不适用
+  事件时间：
+    技术文档/教学观点，非招聘事件
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  来源日期：
+    2026-10-24
+  时间依据：
+    不把文档读取日期当招聘事件
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    B站图文相关正文选读：需求、设计、容量/容灾、评审、测试与发布；没有观看视频
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+具体观点与适用边界：
+  补完整交付流程、容量与失败恢复的观点；可用作项目阅读时检查证据的维度。
+作者身份依据：
+  文章末尾作者自述曾在BAT中的两家任职，非独立雇佣记录核验。 文章引导访问自有刷题网站；作者另有培训业务。
+商业与选择偏差：
+  自述曾在两家BAT任职；有自有刷题站及培训背景，非独立雇佣认证。
+局限：
+  - 不证明2026招聘门槛；“大厂都深夜上线”等概括不采纳；视频未观看。
+阅读建议：
+  推荐作后端项目交付清单参考。
+platform_native_fulltext_verified：
+  否
+verified_video_viewing：
+  否
+source_record：
+  source_id：
+    V01
+  type：
+    opinion
+  source_category：
+    04_B站知乎与从业者观点
+  标题：
+    解密互联网大厂研发流程
+  source_url：
+    https://www.bilibili.com/opus/578080002218926853
+  source_card：
+    04_B站知乎与从业者观点/V01.html
+  existing_id：
+    未核／无
+  decision：
+    new
+  new_primary_project：
+    否
+  source_folder_modified：
+    否
+  reading_scope：
+    B站图文相关正文选读：需求、设计、容量/容灾、评审、测试与发布；没有观看视频
+  状态：
+    B站正文200；2021历史稳定工程观点
+  import_target：
+    platform_opinion
+  read_evidence：
+    - read_url：
+        https://www.bilibili.com/opus/578080002218926853
+      http_status：
+        200
+      body_text_chars：
+        3972
+      已读部分：
+        工程流程相关段
+      short_original_basis：
+        “一个项目从开发到上线到后面的维护，从流程上就保证大家少出错，也方便后面人继续维护”。
+      checked_on：
+        2026-10-24
+      text_sha256：
+        4aa32699039d7b066121e820fc4c6fe2db30be840fb357199ddae7ba4f3ba53c
+  作者：
+    程序员Carl/代码随想录
+  commercial_context：
+    自述曾在两家BAT任职；有自有刷题站及培训背景，非独立雇佣认证。
+  unique_value：
+    补完整交付流程、容量与失败恢复的观点；可用作项目阅读时检查证据的维度。
+  facts_boundary：
+    不证明2026招聘门槛；“大厂都深夜上线”等概括不采纳；视频未观看。
+  platform_fulltext_count_increment：
+    0
+source_nature_boundary：
+  教学/官方能力或卖方介绍；不当本人SSP项目，不计新增源码附件或25项目实现审查分母。
+source_key：
+  ASTRA_V01_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    V01
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_候选人与观点项目.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

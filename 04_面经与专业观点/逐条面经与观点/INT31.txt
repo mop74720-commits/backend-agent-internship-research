@@ -1,0 +1,135 @@
+INT31 | 京东科技后端秋招一面与二面（同候选人合并）
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/discuss/805923665652039680
+canonical_url：
+  https://www.nowcoder.com/discuss/805923665652039680
+公司：
+  京东
+team：
+  京东科技；具体组未公开
+方向与岗位：
+  后端校招，结合结果时间线为2026届秋招
+事件时间／原文日期（依分类）：
+  2025-09-04/09-09两轮；10-09意向
+date_certainty：
+  2025年由页面与同作者结果帖确认；各轮日期由结果帖提供
+rounds：
+  - 一面，约30分钟
+  - 二面，约30分钟
+结果自述：
+  两篇正文均自述已意向；同作者结果帖称2025-10-09收到意向
+涉及主题：
+  - 实习深挖/稳定性
+  - Spring/AOP/生命周期
+  - 责任链
+  - JVM排障
+  - 索引/回表
+  - 循环依赖
+原文提问（归纳）：
+  - 实习系统的复杂度和稳定性改进体现在哪里，能否用几句话概括？
+  - LiteFlow在需求里承担什么职责，和责任链思路如何对应？
+  - 服务CPU与内存同时升高怎样排查，手写Spring如何处理循环依赖？
+内容归纳：
+  同一候选人的两轮合并，避免重复计样本；与INT29同人。亮点是系统理解、稳定性和表达，另有可识别的错误作答，不能把成功者回答当标准答案。
+borrowable_points：
+  - 先说明系统与贡献，再讨论框架原理。
+  - 准备长短两个版本的技术挑战解释。
+weaknesses_and_limits：
+  - 原帖把三级缓存编号与对象工厂、完整单例的对应关系说反。Spring官方源码显示singletonObjects保存单例、earlySingletonObjects保存早期对象、singletonFactories保存ObjectFactory；不采纳原作答。
+  - 同候选人已有美团实习，不能将意向归因于手写Spring项目。
+technical_crosscheck_urls：
+  - https://raw.githubusercontent.com/spring-projects/spring-framework/v6.2.0/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java
+统计组：
+  校招资料（单列）
+role_boundary：
+  校招，不是实习JD；未公布京东档位
+candidate_group：
+  SUP_BACKEND_C09
+related_record_ids：
+  - INT29
+related_urls：
+  - https://www.nowcoder.com/discuss/805942352731713536
+  - https://www.nowcoder.com/discuss/806131151709433856
+url_variants：
+  - https://www.nowcoder.com/share/jump/3565462671760068476469
+  - https://www.nowcoder.com/share/jump/3565462671760068482191
+public_project_repositories：
+  —
+repository_relationship：
+  简历涉及手写Spring和实习业务；未提供能确认作者关系的仓库。
+ssp_status：
+  京东意向自述，档位未公开；不可借同作者美团SSP补成京东SSP
+source_line_range：
+  一面正文第46–110行；二面正文第46–104行
+原访问范围：
+  已打开原文并读取正文具体问题；动态页后续可不稳定
+fulltext_verified：
+  是
+证据边界：
+  B：候选人第一人称公开自述；未独立验证面试、身份或录用结果
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    校招
+  事件时间：
+    2025-09-04/09-09两轮；10-09意向
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    同作者2025结果时间线确认
+  来源日期：
+    2025-10-09发表/编辑
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    已打开原文并读取正文具体问题；动态页后续可不稳定
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      京东
+    档位：
+      未披露
+    状态：
+      intention_self_report
+    证据：
+      https://www.nowcoder.com/discuss/805923665652039680
+    依据：
+      两篇正文均自述已意向；同作者结果帖称2025-10-09收到意向
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-10-09发表/编辑
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  intention_self_report

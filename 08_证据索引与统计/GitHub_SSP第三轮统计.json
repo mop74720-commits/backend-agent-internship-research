@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-23",
+  "scope": "第三轮扩搜；未穷尽",
+  "new_candidate_self_reports": 2,
+  "new_interview_records": 1,
+  "new_project_analysis": 1,
+  "new_source_archives": 0,
+  "strengthened_existing_ids": [
+    "CV05",
+    "PRO09"
+  ],
+  "manual_access_links": 11,
+  "recent_agent_complete_chain": "本轮未新增已核实案例；不能推断不存在",
+  "totals": {
+    "candidate_cases": 19,
+    "interview_material_records": 56,
+    "project_analysis": 18,
+    "source_archives": 16,
+    "logical_evidence_records": 134
+  },
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 19,
+    "面经复盘": 56,
+    "B站与知乎": 7,
+    "项目参考": 18,
+    "官方技术资料": 10,
+    "候选人对照": 4,
+    "检索导航": 1
+  },
+  "boundary": "SP/SSP混合结果不逐家公司指定档位；实习转正与秋招分开；未读链接不计录用成功；PR合并不证明SSP因果。"
+}

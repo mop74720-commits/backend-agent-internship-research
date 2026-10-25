@@ -1,0 +1,270 @@
+{
+  "date": "2026-10-24",
+  "authorization": "用户明确要求不用额外脱敏，保存作者公开原件；不恢复作者打码。",
+  "results": [
+    {
+      "candidate_id": "CV01",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "source_article_url": "https://www.nowcoder.com/discuss/825498059369955328?toCommentId=22311081",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+SSP自述_通知服务与IM_简历片段原图.png",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV01_原图预览.png"
+      ],
+      "page_count": 1,
+      "image_size": [
+        730,
+        152
+      ],
+      "sha256": "a7b4cbcde61556fb957fa780fe6c3a3d5cb4432818cdf17fcfe46c0fab0034f4",
+      "matches_previously_downloaded_original": true,
+      "completeness": "实习简历片段",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+          "status": 200,
+          "final_url": "https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22",
+          "content_type": "image/png",
+          "bytes": 114128
+        }
+      ]
+    },
+    {
+      "candidate_id": "CV06",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+      "source_article_url": "https://javabetter.cn/mianjing/quzjlsspdx.html",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+字节SSP自述_wasabi_简历片段原图.jpg",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV06_原图预览.png"
+      ],
+      "page_count": 1,
+      "image_size": [
+        950,
+        334
+      ],
+      "sha256": "5a895c1e48aa471a550873544d490223feeb01abf1786319c57e83991a19c733",
+      "matches_previously_downloaded_original": true,
+      "completeness": "实习与开源简历片段",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+          "status": 200,
+          "final_url": "https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg",
+          "content_type": "image/jpeg",
+          "bytes": 32338
+        }
+      ]
+    },
+    {
+      "candidate_id": "OBS11",
+      "status": "已取得公开原件",
+      "material_type": "文章公开原始图片",
+      "original_url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+      "source_article_url": "https://www.nowcoder.com/discuss/755767217509117952?sourceSSR=subject",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+录用未知_网盘与RPC_作者打码的一页简历原图.png",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/OBS11_原图预览.png"
+      ],
+      "page_count": 1,
+      "image_size": [
+        792,
+        1121
+      ],
+      "sha256": "6b2e7d048620570e5b04052fbf66a6152603f04be64a7e11d7500576411cea43",
+      "matches_previously_downloaded_original": true,
+      "completeness": "公开一页简历，内部实习模块由作者打码；录用未知",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+          "status": 200,
+          "final_url": "https://uploadfiles.nowcoder.com/images/20250524/94181036_1748059791014/74BF56629CD487C3F0C3E7419A6107E4",
+          "content_type": "image/png",
+          "bytes": 458359
+        }
+      ]
+    },
+    {
+      "candidate_id": "CV24",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+      "source_article_url": "https://huomalxq.github.io/resume/",
+      "local_file": "03_简历与候选人案例/公开简历原件/Agent工程+实习履历_林祥庆_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV24_原件第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "5b81955d82f3fe3d0d609ef29ac12dd9a734e75295927a2277a7e2def0438bf6",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 86052
+        }
+      ]
+    },
+    {
+      "candidate_id": "CV30",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://andrewtheterp.com/assets/download/resume.pdf",
+      "source_article_url": "https://andrewtheterp.com/",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+Agent+字节实习_AndrewWang_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV30_原件第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "d02ca839560e82487ded8b861dc4dbcbadb8986a9f6bf15d9d903e508709ab27",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://andrewtheterp.com/assets/download/resume.pdf",
+          "status": 200,
+          "final_url": "https://andrewtheterp.com/assets/download/resume.pdf",
+          "content_type": "application/pdf",
+          "bytes": 138686
+        }
+      ]
+    },
+    {
+      "candidate_id": "CV31",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://imyihang.com/api/resume",
+      "source_article_url": "https://imyihang.com/",
+      "local_file": "03_简历与候选人案例/公开简历原件/Agent+中科曙光实习_黄一航_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/CV31_原件第1页.png"
+      ],
+      "page_count": 1,
+      "image_size": null,
+      "sha256": "602e6e7216f085ccb4a897b94f9cd449ea1632dd87e44bd2a54235a944ea7459",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://imyihang.com/api/resume",
+          "status": 200,
+          "final_url": "https://imyihang.com/huang-yihang-resume.pdf",
+          "content_type": "application/pdf",
+          "bytes": 411302
+        }
+      ]
+    },
+    {
+      "candidate_id": "OBS05",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+      "source_article_url": "https://gty111.github.io/info/index.html",
+      "local_file": "03_简历与候选人案例/公开简历原件/大模型训练+研究对照_郭天宇_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/OBS05_原件第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/OBS05_原件第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "daa1b3aaac7287f0fda3af1c3faee1a68b7c1ed753e0ff683a42222bdc15fd42",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 40894
+        }
+      ]
+    },
+    {
+      "candidate_id": "OBS06",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+      "source_article_url": "https://zhongzhi660.github.io/personal_website/",
+      "local_file": "03_简历与候选人案例/公开简历原件/强化学习与多模态+研究对照_李忠智_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/OBS06_原件第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/OBS06_原件第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "fde3114ec04a7c6c6316ffe7530962bb6008525e704e7fd960af411de79bb472",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 164603
+        }
+      ]
+    },
+    {
+      "candidate_id": "OBS07",
+      "status": "已取得公开原件",
+      "material_type": "作者公开PDF原件",
+      "original_url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+      "source_article_url": "https://zhang-henry.github.io/",
+      "local_file": "03_简历与候选人案例/公开简历原件/AI_Infra+研究对照_HanrongZhang_公开原版简历.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/预览/OBS07_原件第1页.png",
+        "03_简历与候选人案例/公开简历原件/预览/OBS07_原件第2页.png"
+      ],
+      "page_count": 2,
+      "image_size": null,
+      "sha256": "290a7ea7542f57ee2172b863be940fddf65b309017ba0e59b5884328f53b0b48",
+      "matches_previously_downloaded_original": null,
+      "completeness": "完整公开PDF简历",
+      "additional_redaction": false,
+      "author_masking_boundary": "保留作者原有内容与遮盖，未尝试恢复作者打码。",
+      "acquired_on": "2026-10-24",
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+          "status": 200,
+          "final_url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+          "content_type": "application/octet-stream",
+          "bytes": 122114
+        }
+      ]
+    }
+  ]
+}

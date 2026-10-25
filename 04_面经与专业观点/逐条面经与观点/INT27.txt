@@ -1,0 +1,127 @@
+INT27 | 快手Java日常实习一面
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/dd1f2a0a303644dab4b53c5be40caf9b?sourceSSR=users
+canonical_url：
+  https://www.nowcoder.com/feed/main/detail/dd1f2a0a303644dab4b53c5be40caf9b
+公司：
+  快手
+team：
+  未披露
+方向与岗位：
+  Java后端日常实习
+事件时间／原文日期（依分类）：
+  面试日期未写；发布年不作面试年
+date_certainty：
+  发布日期明确
+rounds：
+  - 一面
+结果自述：
+  自述第一次面试且紧张，正文未给最终结果
+涉及主题：
+  - 消息队列选型/幂等
+  - 协议设计
+  - Redis/限流
+  - MySQL日志/隔离
+  - Spring自动配置
+  - 排障
+  - 算法/编程
+原文提问（归纳）：
+  - 为何选RabbitMQ，重复投递会在什么情况下发生，消费者如何去重？
+  - 项目自定义协议有哪些字段，怎样处理半包和粘包？
+  - 缺少日志与后台数据时，怎样逐步缩小线上故障范围？
+内容归纳：
+  组件选择被连着追到协议、重复消费和排障，适合审查常见RPC或消息项目。与INT26同作者，记录两次不同面试而非两个人。
+borrowable_points：
+  - 用业务约束说明MQ选择及失败语义。
+  - 能画出一条消息从编码到消费确认的路径。
+weaknesses_and_limits：
+  - 候选人没有公开完整协议定义或幂等实现。
+  - 结果未公布，不能因自评发挥不好就写成正式淘汰。
+统计组：
+  明确实习面经
+role_boundary：
+  实习后端，不等于快手研究岗
+candidate_group：
+  SUP_BACKEND_C07
+related_record_ids：
+  - INT26
+public_project_repositories：
+  —
+repository_relationship：
+  协议与消息项目未提供源码链接，不臆配教程仓库。
+ssp_status：
+  未声称SSP
+source_line_range：
+  原页面正文第46–67行
+原访问范围：
+  已打开原文并读取正文具体问题；动态页后续可不稳定
+fulltext_verified：
+  是
+证据边界：
+  B：候选人第一人称公开自述；未独立验证面试、身份或录用结果
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    面试日期未写；发布年不作面试年
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    2025-02-13发布
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    已打开原文并读取正文具体问题；动态页后续可不稳定
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      快手
+    档位：
+      未披露
+    状态：
+      unknown
+    证据：
+      https://www.nowcoder.com/feed/main/detail/dd1f2a0a303644dab4b53c5be40caf9b?sourceSSR=users
+    依据：
+      自述第一次面试且紧张，正文未给最终结果
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-02-13发布
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  是
+结果分类：
+  unknown

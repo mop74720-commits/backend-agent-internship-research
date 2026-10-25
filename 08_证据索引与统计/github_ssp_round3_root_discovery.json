@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-23",
+  "candidate": {
+    "id": "CV19",
+    "title": "鱼皮／liyupi：腾讯实习转正SSP自述，求职当时项目仍待核",
+    "url": "https://www.codefather.cn/course/yupi",
+    "author": "程序员鱼皮／liyupi",
+    "role": "历史全栈开发实习转正；不能推成近期Agent SSP",
+    "date": "本人回顾历史实习转正；所读GitHub固定文档日期为2026-04-09",
+    "outcome": "本人站点明确腾讯实习转正SSP；企业录用未独立核验",
+    "document_type": "本人经历页＋同账号GitHub身份说明；非完整CV或本人逐轮面经",
+    "evidence_excerpt": "在腾讯实习转正，并斩获SSP最高级别的offer。",
+    "stack": ["Java", "前端", "Python", "Go"],
+    "projects": ["本人回顾大学工作室带队建设几十个网站，未列可对应当年SSP求职的项目名及固定源码", "GitHub主页明示yu-rpc、code-nav等开源作品；当前课程和产品不能回填为当年求职项目"],
+    "source_findings": [
+      {"url": "https://www.codefather.cn/course/yupi", "location": "个人经历段", "finding": "自学多种语言、三家公司实习、腾讯实习转正SSP；随后才叙述腾讯BI/大数据工作和创业"},
+      {"url": "https://github.com/liyupi/yupi-skill/blob/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/README.md#L45", "finding": "本人账号固定README再次自述前腾讯全栈SSP"},
+      {"url": "https://github.com/liyupi/yupi-skill/blob/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/references/identity.md#L5", "finding": "2023离职创业的身份自述；仅作为研究材料读取，未安装或执行该skill"}
+    ],
+    "strengths": ["实习转正路径明确，可与直接秋招案例区分", "本人站点和同账号固定版本可交叉定位同一自述，但不算两位成功者"],
+    "recommended_use": "用来确认多语言实践、工作室项目和实习转正的履历组织方式；当前不足以反推某个课程项目能帮助拿SSP。",
+    "limitations": ["没有核到当年具体项目与SSP面试的直接关联，也没有本人逐轮面经", "网站运营者同时销售课程，关于AI简历筛选的绝对性说法只是商业背景下个人观点，不当公司统一要求", "不能把身份模仿skill或后来的AI项目算作当年求职Agent项目"],
+    "confidence": "B：本人录用自述可定位，项目与面经关联未闭环",
+    "category": "候选人资料",
+    "retrieved_at": "2026-10-23"
+  },
+  "existing_candidate_strengthening": {
+    "candidate_id": "CV05",
+    "project_id": "PRO09",
+    "finding": "从仅框架关联补到同账号真实已合并PR；SSP仍为本人自述，PR不能证明录用因果。",
+    "verified_contributions": [
+      {"url": "https://github.com/apache/shenyu/pull/3848", "author_login": "erdengk", "merged_at": "2022-08-29T07:31:32Z", "merge_commit": "22546ae0e6a4047ee08bf4a41f9114f47ba57e19", "scope": "OAuth2插件集成测试，5个变更文件", "code_url": "https://github.com/apache/shenyu/blob/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java#L38", "static_findings": "初始化插件并断言成功，异步请求授权接口，断言返回值非null。", "limits": "所读测试未断言授权码/token或拒绝路径，不能据此称完整验证OAuth2正确性。"},
+      {"url": "https://github.com/apache/shenyu/pull/3672", "author_login": "erdengk", "merged_at": "2022-07-06T15:54:15Z", "merge_commit": "5ba8e13c2c3cf330bb30924190ca6a97fb112283", "scope": "logging-rocketmq插件集成测试，4个变更文件", "code_url": "https://github.com/apache/shenyu/blob/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java#L54", "static_findings": "初始化插件与生产者，构造请求日志并调用consume；异常则断言失败。成功路径调用close；插件清理另置于@AfterAll。", "limits": "所读测试没有消费者接收消息的断言；调用未抛异常不能等同消息完整送达；断言失败会跳过紧随其后的close。"}
+    ],
+    "recommended_use": "读两个小PR及测试文件，学习如何把开源经历落到可核的变更范围；也检查断言是否验证业务结果，不能把整套网关算为个人作品。",
+    "verification_boundary": "GitHub API确认作者账号、合并状态、日期和提交；静态读2个测试文件，未运行测试或项目；未联系作者。"
+  },
+  "blocked_links": [
+    {"title": "erdengk：我的硕士前半生", "url": "https://erdengk.top/archives/wo-de-shuo-shi-qian-ban-sheng", "status": "TLS证书校验失败（SSLError），未读取正文", "priority": "中", "to_verify": "是否有2023求职复盘、个人项目名、本人面经；不要把2026 Agent经历混入2023SSP"},
+    {"title": "erdengk：GSoC从开始到中选", "url": "https://erdengk.top/archives/gsoc-cong-kai-shi-dao-zhong-xuan", "status": "TLS证书校验失败（SSLError），未读取正文", "priority": "中", "to_verify": "开源项目、具体职责和PR；可用已核的ShenYu PR作为交叉线索"}
+  ],
+  "search_limits": "根代理新增3次GitHub README仓库检索，9仓README筛读；另直接读固定文档、本人站点和ShenYu API。不是全站穷尽搜索。"
+}

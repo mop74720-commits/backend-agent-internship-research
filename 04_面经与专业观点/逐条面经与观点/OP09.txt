@@ -1,0 +1,95 @@
+OP09 | Writing effective tools for agents — with agents
+
+需求核对版 · 2026-10-24
+
+平台：
+  Anthropic官方工程原文（平台外替代资料）
+作者：
+  Ken Aizawa／Anthropic，文末列Research、MCP及工程团队贡献者
+原始来源：
+  https://www.anthropic.com/research/writing-tools-for-agents
+discovery_url：
+  https://www.anthropic.com/engineering/writing-tools-for-agents
+事件时间／原文日期（依分类）：
+  2025-09-11（原文time及article:published_time）
+modified_date：
+  2026-10-13（原文article:modified_time；不当最初发表日期）
+access_status：
+  工程旧路径跳转研究原文HTTP 200，实际读取全文及日期元数据
+作者身份依据：
+  Anthropic官方域名与文末署名；原文讨论内部工作区、工具与留出测试评测，属于一手工程报告，未独立复现实验。
+正文核读边界：
+  官网实际正文已读；不是B站视频或知乎回答
+verified_video_viewing：
+  否
+已读部分：
+  - How to write tools
+  - Generating evaluation tasks
+  - Running the evaluation
+  - Analyzing results
+  - Choosing the right tools for agents
+  - Namespacing your tools
+  - Returning meaningful context from your tools
+  - Optimizing tool responses for token efficiency
+  - Prompt-engineering your tool descriptions
+  - Authors & Acknowledgments
+具体观点与适用边界：
+  工具应围绕真实任务选取，避免把大量底层接口机械包装给Agent。评测任务需要可核结果及留出集，同时记录耗时、调用次数、token与错误；依据轨迹改进工具说明、返回字段和分页截断。
+evidence_type：
+  内部任务及留出测试的实践报告，含任务强弱示例和工具对照；不外推为所有模型与业务必然收益。
+阅读建议：
+  Agent方向精读工程方法。优先读真实任务与验收结果设计、工具边界、返回信息密度和错误反馈；用于审查已有项目是否超出简单API调用。
+局限：
+  厂商及其工具生态的实践，任务与模型有特定背景；未提供中国实习招聘或SSP关联证据。工具命名、响应格式和预期调用链需要用自己的任务验证。
+商业与选择偏差：
+  正文推广Claude、Claude Code、MCP及其API；有模型服务商业利益，本轮未付费或调用。
+关联模块：
+  - 工具注册/输入校验
+  - 工具描述与命名
+  - 工具响应裁剪/分页
+  - 错误分类与可操作反馈
+  - 任务集与验收器
+  - 留出集、轨迹和耗时/token统计
+可采纳的核查方法：
+  - 任务是否要求真实多步操作且有可核结果
+  - 结果验证是否允许多条正确解决路径
+  - 是否有留出任务防止只对演示样例调优
+  - 能否关联成功率、耗时、token和工具错误
+  - 返回值是否有相关字段选择、分页或截断提示
+不能由此推出的结论：
+  - 不能把工具调用后主动结束等同任务成功
+  - 不能把评测代理的自述反馈单独当可靠验收器
+  - 不能把文章当中国大厂招聘评分表
+  - 不能说已观看B站视频或读取知乎版
+retrieved_at：
+  2026-10-23
+类别：
+  专业原文补充
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    专业原文发表/更新日期，非招聘事件
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不把作者工程观点当招聘结果
+  来源日期：
+    2025-09-11（原文time及article:published_time）
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    作者官方原站实际正文；平台外原文，不是B站观看或知乎本体阅读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

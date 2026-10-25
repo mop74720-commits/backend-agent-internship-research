@@ -1,0 +1,188 @@
+JD28 | 天猫技术 AI Agent算法工程师 大模型方向
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  天猫技术
+role_type：
+  Agent算法研究；杭州；硕士以上；5天/周；至少3个月
+原始来源：
+  https://www.nowcoder.com/jobs/detail/435213
+publish_date：
+  投递期2026-03-03—2026-06-03；未显示发布日期
+retrieved_date：
+  2026-10-24
+source_type：
+  牛客平台招聘页，发布者企业身份未独立核验
+own_summary：
+  Agent全生命周期、模型后训练以增强规划多步推理工具；自动化多维评估与系统性能。
+required_stack：
+  - Python/PyTorch或TensorFlow
+  - Transformer/SFT/RL/Prompt
+  - Paper到Code到Solution能力
+preferred_stack：
+  - 博士/顶会论文
+  - Qwen/Llama/DeepSeek二次开发
+  - 完整智能体系统
+degree_constraint：
+  计算机/AI/数学相关硕士及以上
+availability_constraint：
+  杭州；5天/周；至少3个月
+recruiting_status：
+  页标已结束
+matrix_include：
+  否
+duties：
+  Agent全生命周期、模型后训练以增强规划多步推理工具；自动化多维评估与系统性能。
+阅读建议：
+  帮助区分算法研究与应用工程；要投此类岗，应补训练/数据实验而非只堆后端。
+局限：
+  研究算法岗，只作对照，不并入Agent应用工程硬门槛矩阵。
+原访问范围：
+  正文全文
+统一分类：
+  方向：
+    算法对照
+  招聘类型：
+    实习
+  事件时间：
+    投递期2026-03-03—2026-06-03；未显示发布日期
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    投递期2026-03-03—2026-06-03；未显示发布日期
+  时间依据：
+    原文日期/窗口
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    职责、要求、资格及页表状态实际核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - Python/PyTorch或TensorFlow
+  - Transformer/SFT/RL/Prompt
+  - Paper到Code到Solution能力
+  - 博士/顶会论文
+  - Qwen/Llama/DeepSeek二次开发
+  - 完整智能体系统
+source_record：
+  source_id：
+    J10
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    天猫技术 AI Agent算法工程师 大模型方向
+  原始来源：
+    https://www.nowcoder.com/jobs/detail/435213
+  canonical_key：
+    nowcoder:job:435213
+  source_file：
+    01_岗位JD/J10.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      牛客平台招聘页（发布者身份未独立核验）；投递窗口2026-03-03—2026-06-03
+    岗位状态：
+      已结束，仅作要求样本
+    方向与资格：
+      Agent算法研究；杭州；硕士以上；5天/周；至少3个月
+    明确要求：
+      Python/PyTorch或TensorFlow / Transformer / SFT/RL训练范式 / 论文到代码能力
+    加分项：
+      博士/顶会论文 / 模型二次开发 / 完整Agent系统
+    工作摘要：
+      训练与评测增强规划推理和工具调用，构建自动化多维评测。
+    推荐理由：
+      帮助区分算法研究与应用工程；要投此类岗，应补训练/数据实验而非只堆后端。
+    局限：
+      研究岗门槛不能套给所有Agent实习。
+  live_access：
+    状态：
+      200
+    标题：
+      AI Agent算法工程师（大模型方向）_天猫技术实习_牛客网
+    原始来源：
+      https://www.nowcoder.com/jobs/detail/435213
+    已读部分：
+      职责、要求、资格及页表状态实际核读
+    已读定位正文全文：
+      是
+    professional_text：
+      岗位关键词
+投递时间：2026年3月3日-2026年6月3日（即将截止）
+岗位职责
+职位描述
+1、主导基于大模型的AI Agent全生命周期研发，包括通用型及垂直领域AI Agent的架构设计、模型训练与评测；
+2、运用SFT、RL等Post-training训练方法，提升大模型在自主规划（Planning）、多步推理、RAG增强生成、工具调用、数据问答、文案生成等方面的能力；
+3、跟踪LLM与Agent领域的国际前沿技术动态，推动技术创新在业务场景中的落地应用，重点突破复杂推理、数据洞察、AI搜索、文案创作、图像连续编辑等方向的应用创新；
+4、持续优化Agent算法与系统架构，构建端到端的智能体评测体系，开发自动化评估工具与多维评价指标，提升Agent系统性能与效率，打造业内领先的AI Agent技术方案。
+岗位要求
+职位要求
+1、计算机/人工智能/数学等相关专业硕士及以上学历（博士及顶会论文发表者优先）；
+2、对大模型前沿技术充满热情，具备攻克复杂技术难题的能力，能够快速实现Paper→Code→Solution的技术转化；
+3、精通Python及PyTorch/TensorFlow等框架，具备Qwen、Llama、Deepseek等模型的二次开发经验者优先；
+4、深入理解Transformer架构、SFT/RL训练范式及Prompt工程，了解LangChain、AutoGen等Agent开发框架，有完整智能体系统搭建经验者优先。
+    text_sha256：
+      5f61a1ed72ddcb0ba76ef3af263dddba9932ea46dcf7cf6a0ceddfea9142bbfc
+  方向：
+    算法对照
+  required_stack：
+    - Python/PyTorch或TensorFlow
+    - Transformer/SFT/RL/Prompt
+    - Paper到Code到Solution能力
+  preferred_stack：
+    - 博士/顶会论文
+    - Qwen/Llama/DeepSeek二次开发
+    - 完整智能体系统
+  duties：
+    Agent全生命周期、模型后训练以增强规划多步推理工具；自动化多维评估与系统性能。
+  degree_constraint：
+    计算机/AI/数学相关硕士及以上
+  availability_constraint：
+    杭州；5天/周；至少3个月
+  publish_date：
+    投递期2026-03-03—2026-06-03；未显示发布日期
+  date_year_confirmed：
+    是
+  recruiting_status：
+    页标已结束
+  source_type：
+    牛客平台招聘页，发布者企业身份未独立核验
+  matrix_include：
+    否
+  阅读建议：
+    帮助区分算法研究与应用工程；要投此类岗，应补训练/数据实验而非只堆后端。
+  局限：
+    研究算法岗，只作对照，不并入Agent应用工程硬门槛矩阵。
+  招聘类型：
+    实习
+  source_date_basis：
+    原文日期/窗口
+source_key：
+  ASTRA_J10_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J10
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

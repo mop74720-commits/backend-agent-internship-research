@@ -1,0 +1,242 @@
+JD11 | AI开放平台研发工程师实习生（J103363）
+
+需求核对版 · 2026-10-24
+
+公司：
+  百度安全与企业效率平台
+role_type：
+  后端与Agent平台实习
+原始来源：
+  https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9
+publish_date：
+  2026-07-21（官网展示日期）
+retrieved_date：
+  2026-10-23
+source_type：
+  官方招聘
+evidence_excerpt：
+  熟练掌握 Java
+own_summary：
+  很契合Java后端加Agent双项目：基础要求扎实Java后端，平台职责含鉴权配额、模型路由、工具接入和链路监控。
+required_stack：
+  - 数据结构与算法
+  - 操作系统
+  - 网络
+  - 数据库
+  - Java/JVM/并发/集合
+  - Spring/Spring Boot
+  - RESTful
+  - MySQL
+  - Redis
+preferred_stack：
+  - 消息队列
+  - Agent/RAG/Function Calling/MCP实践
+  - LLM API/流式/Token计费
+  - API网关/OAuth2/JWT/限流熔断/可观测
+  - 微服务/高并发/开源贡献
+degree_constraint：
+  未展示
+availability_constraint：
+  未展示
+recruiting_status：
+  页面可读；实时HC未核验
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 数据结构算法
+  - 操作系统Linux
+  - 网络协议
+  - 数据库或存储
+  - 缓存
+  - 消息队列
+  - Java运行时
+  - Spring
+  - Agent实践
+  - RAG
+  - 工具编排
+  - 权限安全
+  - 记忆上下文
+  - 观测评测
+  - 架构性能可靠性
+duties：
+  能力注册治理、模型路由、上下文、流式响应、鉴权配额
+局限：
+  
+类别：
+  招聘JD
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    2026-07-21（官网展示日期）
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    招聘页面直接显示发布/刷新日期或投递期；不是实际面试日期，也不证明当前HC
+  来源日期：
+    2026-07-21（官网展示日期）
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+latest_access_recheck：
+  资料ID：
+    JD11
+  原始来源：
+    https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9
+  access：
+    官网正文实际读取；招聘页显示2026-07-21日常实习
+  reading_scope：
+    工作职责与职责要求，包括单列加分项
+  required_summary：
+    Java与JVM、并发、集合，Spring/Boot、REST服务，MySQL与Redis列为要求。
+  preferred_summary：
+    MQ了解者优先；Agent/RAG/MCP实践、流式调用和Token计费、网关权限、高并发与开源经验列为加分。
+  boundary：
+    这些优先项不能变成每个Agent实习岗位的统一硬门槛。
+external_research_reviews：
+  J01：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        J01
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_JD核对.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        J01
+      existing_id：
+        JD11
+      decision：
+        duplicate
+      标题：
+        百度 AI 开放平台研发工程师实习生 J103363
+      原始来源：
+        https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9
+      canonical_key：
+        talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9
+      source_file：
+        01_岗位JD/J01.html
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_fields：
+        来源与时间：
+          企业官方招聘；2026-07-21
+        岗位状态：
+          正文可读，未见截止日；不保证仍有HC
+        方向与资格：
+          AI应用后端；北京；日常实习；正文未列毕业届次和时长
+        明确要求：
+          计算机基础 / Java/JVM/并发/集合 / Spring Boot/REST / MySQL/Redis
+        加分项：
+          消息队列 / Agent/RAG/MCP/Function Calling / 网关/JWT/限流熔断/可观测性 / 高并发/微服务/开源
+        工作摘要：
+          AI能力服务化、网关鉴权配额、模型路由、流式响应与上下文管理。
+        推荐理由：
+          最贴合Java后端与Agent工程双目标，可直接作为两个项目接口和基础设施的验收参照。
+        局限：
+          单个团队要求；不是全百度统一门槛。
+      live_access：
+        状态：
+          200
+        标题：
+          百度校园招聘
+        原始来源：
+          https://talent.baidu.com/jobs/detail/INTERN/ef30e579-2d3d-4539-ad90-884521b815c9
+        已读部分：
+          职责、要求、资格及页表状态实际核读
+        已读定位正文全文：
+          是
+        professional_text：
+          AI 开放平台研发工程师实习生（J103363）
+安全与企业效率平台
+安全与企业效率平台
+北京市
+日常实习项目
+技术
+1人
+2026-07-21
+工作职责：
+-参与企业级 AI 开放平台后端研发，将大模型、Agent、API、CLI、Skill 等能力封装为稳定的企业级服务
+-负责 API 网关、鉴权配额、能力注册、调用链路、日志监控等核心模块的设计与开发
+-参与 Agent Tool、Skill、MCP 等开放能力接入框架建设，支撑开发者高效上架与治理 AI 能力
+-参与大模型调用中间层研发：模型路由、上下文管理、流式响应、Function Calling、限流缓存等
+-配合产品完成需求评审、方案设计、编码、联调、上线全流程
+职责要求：
+-扎实的计算机基础，熟悉数据结构、算法、操作系统、网络、数据库
+-熟练掌握 Java，理解 JVM、并发编程、集合框架等核心机制
+-熟悉 Spring / Spring Boot，能独立完成 RESTful 服务开发
+-熟悉 MySQL、Redis，了解消息队列者优先
+-代码风格清晰，学习能力强，具备良好的团队协作意识
+-加分项
+-有大模型应用、AI Agent、RAG、Function Calling、MCP 相关项目或实践经验
+-熟悉主流大模型 API 调用及流式响应、Token 计费等概念
+-熟悉 API 网关、OAuth2/JWT、限流熔断、可观测性等企业级中间件
+-有微服务、高并发、开源贡献经验者优先
+申请职位
+        text_sha256：
+          013ce5d9441c9811080be218d55fa813acf783db653cc7d9b3066ddcafeb198b
+      方向：
+        混合
+      required_stack：
+        - 数据结构/算法/操作系统/网络/数据库
+        - Java/JVM/并发/集合
+        - Spring/Spring Boot/RESTful
+        - MySQL/Redis
+      preferred_stack：
+        - 消息队列
+        - Agent/RAG/Function Calling/MCP实践
+        - LLM API/流式/Token计费
+        - API网关/OAuth2/JWT/限流熔断/可观测
+        - 微服务/高并发/开源贡献
+      duties：
+        企业级AI能力服务化；网关、鉴权配额、注册治理、调用链路；模型路由、上下文与流式响应。
+      degree_constraint：
+        正文未列学历/毕业届次
+      availability_constraint：
+        日常实习；正文未列每周出勤和时长
+      publish_date：
+        2026-07-21（官网展示）
+      date_year_confirmed：
+        是
+      recruiting_status：
+        官网仍有申请职位；未见截止日，实时HC未核
+      source_type：
+        企业官方招聘
+      matrix_include：
+        是
+      阅读建议：
+        最贴合Java后端与Agent工程双目标，可直接作为两个项目接口和基础设施的验收参照。
+      局限：
+        与旧JD11岗位J103363完全重复，不新增计数。
+      招聘类型：
+        实习
+      source_date_basis：
+        原文日期/窗口
+      enrichment_note：
+        本轮再次核读与旧JD11一致，没有独特事实；重复项保留来源映射，不新增逻辑证据。

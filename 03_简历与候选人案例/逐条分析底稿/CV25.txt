@@ -1,0 +1,306 @@
+CV25 | 2026暑期：蚂蚁AlipayPlus智能体应用offer、TikTok后端OC及本人面经
+
+需求核对版 · 2026-10-24
+
+source_key：
+  ANT_BYTE_590781977
+原始来源：
+  https://ac.nowcoder.com/discuss/1610772
+方向与岗位：
+  混合实习
+结果自述：
+  蚂蚁集团 已收到offer自述；字节跳动 OC，称offer报审批；字节跳动 已在实习3个多月自述
+资料形式：
+  本人职业经历与面经自述，非完整简历
+履历材料形式：
+  职业经历自述
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    2026-02-25立贴；2026年3月至4月暑期流程；蚂蚁4月13日offer
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    正文首段直接写2026.02.25，并将其后3/4月列为同一暑期投递过程；不取仓库或来源时间推年。
+  来源日期：
+    见原文/未核独立发表年
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文：暑期主文、秋招主文、TikTok一面；主页核作者关系。
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      蚂蚁集团
+    方向与岗位：
+      智能体与大模型应用工程
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    事件时间／原文日期（依分类）：
+      2026-04-13
+    证据：
+      https://ac.nowcoder.com/discuss/1610772
+    依据：
+      主文按3.19一面、3.27二面、4.3三面、4.10 HR面、4.13 Offer列流程。
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      字节跳动
+    方向与岗位：
+      后端开发实习生
+    档位：
+      未披露
+    状态：
+      intention_self_report
+    事件时间／原文日期（依分类）：
+      2026-04
+    证据：
+      https://ac.nowcoder.com/discuss/1610772
+    依据：
+      该暑期帖子仅明确OC，不将其算作当时正式offer。
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      字节跳动
+    方向与岗位：
+      具体入职岗位未在秋招帖子写明
+    档位：
+      未披露
+    状态：
+      mixed_or_overall_self_report
+    事件时间／原文日期（依分类）：
+      2026-08
+    证据：
+      https://www.nowcoder.com/discuss/917095780249309184
+    依据：
+      同作者秋招原文直接写2026-08及字节实习3月，能补实习事实；不能单据此证明其岗位必为上述TikTok岗位或SSP。
+    boundary：
+      同作者秋招原文直接写2026-08及字节实习3月，能补实习事实；不能单据此证明其岗位必为上述TikTok岗位或SSP。
+    企业独立验证：
+      否
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1610772
+      direct_basis：
+        蚂蚁集团 智能体与大模型应用工程；主文按3.19一面、3.27二面、4.3三面、4.10 HR面、4.13 Offer列流程。
+      直接关系：
+        直接点名
+      gap：
+        公开自述，不证明项目导致录用
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1610772
+      direct_basis：
+        字节跳动 后端开发实习生；该暑期帖子仅明确OC，不将其算作当时正式offer。
+      直接关系：
+        直接点名
+      gap：
+        公开自述，不证明项目导致录用
+    - 原始来源：
+        https://www.nowcoder.com/discuss/917095780249309184
+      direct_basis：
+        字节跳动 具体入职岗位未在秋招帖子写明；同作者秋招原文直接写2026-08及字节实习3月，能补实习事实；不能单据此证明其岗位必为上述TikTok岗位或SSP。
+      直接关系：
+        直接点名
+      gap：
+        同作者秋招原文直接写2026-08及字节实习3月，能补实习事实；不能单据此证明其岗位必为上述TikTok岗位或SSP。
+  profile：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1610772
+      direct_basis：
+        研二阶段，既往有6个多月非传统互联网企业Agent实习。
+      直接关系：
+        直接点名
+      gap：
+        职业经历/项目片段，非完整简历
+    - 原始来源：
+        https://www.nowcoder.com/discuss/876046266558398464?sourceSSR=users
+      direct_basis：
+        TikTok一面明确介绍了自己涉及RAG的项目。
+      直接关系：
+        直接点名
+      gap：
+        职业经历/项目片段，非完整简历
+  project：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/876046266558398464?sourceSSR=users
+      direct_basis：
+        一面围绕检索方案、效果优化和设计取舍提问。
+      直接关系：
+        直接点名
+      gap：
+        未获项目名称、本人公开源码、模块职责和指标原始证据；不可用通用RAG平台补成完整链。
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/876046266558398464?sourceSSR=users
+      direct_basis：
+        本人主页直接串联该面经
+      直接关系：
+        直接点名
+      gap：
+        提问为本人回忆；公司结果不可串用
+has_confirmed_personal_interview_source：
+  是
+interview_evidence_ids：
+  - INT71
+本人项目与经历描述：
+  直接关系：
+    本人面经直接点名RAG项目
+  facts：
+    一面围绕检索方案、效果优化和设计取舍提问。
+  source_url：
+    https://www.nowcoder.com/discuss/876046266558398464?sourceSSR=users
+  仓库：
+    未核／无
+  gap：
+    未获项目名称、本人公开源码、模块职责和指标原始证据；不可用通用RAG平台补成完整链。
+技术栈：
+  —
+来源归纳：
+  Agent/后端实习的近期成功自述可选读；它补的是公司、岗位、事件年与结果，项目实现证据仍弱。
+阅读建议：
+  Agent/后端实习的近期成功自述可选读；它补的是公司、岗位、事件年与结果，项目实现证据仍弱。
+局限与静态风险：
+  - 主文末段仍留早期最接近offer的摘要，和顶部更新不同步；结果以有日期的最新节点呈现，不抹去版本差异。
+  - 蚂蚁没有定位到同作者公开逐轮技术问题，不能拿TikTok问题冒充蚂蚁问题。
+  - 暂无SSP证据。
+source_record：
+  lead_key：
+    ANT_BYTE_590781977
+  作者：
+    老板加个卤鸡蛋
+  public_author_id：
+    590781977
+  profile_url：
+    https://ac.nowcoder.com/profile/590781977
+  primary_url：
+    https://ac.nowcoder.com/discuss/1610772
+  canonical_url：
+    https://www.nowcoder.com/discuss/856253707422273536
+  标题：
+    2026暑期：蚂蚁AlipayPlus智能体应用offer、TikTok后端OC及本人面经
+  方向：
+    混合
+  招聘类型：
+    实习
+  event_date：
+    2026-02-25立贴；2026年3月至4月暑期流程；蚂蚁4月13日offer
+  event_year_confirmed：
+    是
+  严格近期明确实习：
+    是
+  时间依据：
+    正文首段直接写2026.02.25，并将其后3/4月列为同一暑期投递过程；不取仓库或来源时间推年。
+  逐项结果与档位：
+    - 公司：
+        蚂蚁集团
+      department：
+        AlipayPlus
+      方向与岗位：
+        智能体与大模型应用工程
+      招聘类型：
+        暑期实习
+      状态：
+        已收到offer自述
+      档位：
+        未披露
+      事件时间／原文日期（依分类）：
+        2026-04-13
+      evidence：
+        主文按3.19一面、3.27二面、4.3三面、4.10 HR面、4.13 Offer列流程。
+    - 公司：
+        字节跳动
+      department：
+        TikTok
+      方向与岗位：
+        后端开发实习生
+      状态：
+        OC，称offer报审批
+      档位：
+        未披露
+      事件时间／原文日期（依分类）：
+        2026-04
+      evidence：
+        该暑期帖子仅明确OC，不将其算作当时正式offer。
+    - 公司：
+        字节跳动
+      方向与岗位：
+        具体入职岗位未在秋招帖子写明
+      状态：
+        已在实习3个多月自述
+      事件时间／原文日期（依分类）：
+        2026-08
+      证据：
+        https://www.nowcoder.com/discuss/917095780249309184
+      boundary：
+        同作者秋招原文直接写2026-08及字节实习3月，能补实习事实；不能单据此证明其岗位必为上述TikTok岗位或SSP。
+  profile：
+    type：
+      职业经历自述
+    facts：
+      - 研二阶段，既往有6个多月非传统互联网企业Agent实习。
+      - TikTok一面明确介绍了自己涉及RAG的项目。
+    complete_resume_file：
+      否
+  project_chain：
+    直接关系：
+      本人面经直接点名RAG项目
+    facts：
+      一面围绕检索方案、效果优化和设计取舍提问。
+    source_url：
+      https://www.nowcoder.com/discuss/876046266558398464?sourceSSR=users
+    仓库：
+      未核／无
+    gap：
+      未获项目名称、本人公开源码、模块职责和指标原始证据；不可用通用RAG平台补成完整链。
+  interview_keys：
+    - TIKTOK_876046266
+  局限：
+    - 主文末段仍留早期最接近offer的摘要，和顶部更新不同步；结果以有日期的最新节点呈现，不抹去版本差异。
+    - 蚂蚁没有定位到同作者公开逐轮技术问题，不能拿TikTok问题冒充蚂蚁问题。
+    - 暂无SSP证据。
+  阅读范围：
+    全文：暑期主文、秋招主文、TikTok一面；主页核作者关系。
+  阅读建议：
+    Agent/后端实习的近期成功自述可选读；它补的是公司、岗位、事件年与结果，项目实现证据仍弱。
+类别：
+  候选人资料
+事件时间／原文日期（依分类）：
+  2026-02-25立贴；2026年3月至4月暑期流程；蚂蚁4月13日offer
+发表／来源日期：
+  见原文/未核独立发表年
+未建立或未核的关系：
+  - 公开自述，不证明项目导致录用
+  - 同作者秋招原文直接写2026-08及字节实习3月，能补实习事实；不能单据此证明其岗位必为上述TikTok岗位或SSP。
+  - 职业经历/项目片段，非完整简历
+  - 未获项目名称、本人公开源码、模块职责和指标原始证据；不可用通用RAG平台补成完整链。
+  - 提问为本人回忆；公司结果不可串用
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_direct_named_project_or_contribution：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

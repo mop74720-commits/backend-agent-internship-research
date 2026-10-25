@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-23",
+  "scope": "本轮只核近期智能体／AI应用研发／Agent开发岗位的校招或实习转正SSP直接自述，最多两条不同检索路径；不扩充泛化题库或历史SSP。",
+  "qualification_rule": "本人明确公司、具体Agent工程岗位、实际招聘事件年、校招或实习转正批次及最终SSP自述，即可作为新结果样本。完整CV、本人源码、逐轮面经是否取得分别记录，不要求每位新样本同时具备全部材料，也不额外要求企业独立认证。",
+  "paths": [
+    {
+      "path_id": 1,
+      "name": "牛客岗位与转正定档路径",
+      "queries": [
+        "site.nowcoder.com \"智能体\" \"转正\" \"ssp\"",
+        "site.nowcoder.com \"AI应用研发\" \"SSP\" \"2025\"",
+        "site.nowcoder.com \"Agent开发\" \"转正\" \"定档\""
+      ],
+      "actual_results": "命中招聘话题、薪资预测、未最终开奖的流程叙述和学习资料。课程组织者的学员推荐语未采用；没有从搜索摘要补造本人岗位、年份或最终档位。",
+      "qualified_new_samples": 0,
+      "stop_reason": "未取得公司、Agent工程岗位、事件年和最终SSP关系同时明确的新本人原帖；结束这条有限路径，不继续循环泛关键词。"
+    },
+    {
+      "path_id": 2,
+      "name": "站外作者博客／GitHub及原始报道线索路径",
+      "queries": [
+        "\"SSP\" \"AI应用研发\" \"2026\" -site:nowcoder.com -site:codefather.cn -题库 -课程",
+        "\"智能体\" \"转正\" \"SSP\" -site:nowcoder.com -site:codefather.cn -课程 -题库",
+        "site:github.com \"SSP\" \"2025\" \"Agent开发\" -awesome"
+      ],
+      "actual_results": "未命中新的合格本人录用材料；选读一篇受访者招聘经历报道及一页论坛原帖，核清其不能满足目标的具体原因。检索返回的教程、薪资汇编和推荐语未计为成功者。",
+      "qualified_new_samples": 0,
+      "stop_reason": "两篇实际核读材料分别缺具体Agent工程SSP关系、或根本不是个人录用结果；本轮结束，不宣称全网没有。"
+    }
+  ],
+  "source_reads": [
+    {
+      "source_key": "KR_3864105596425474",
+      "title": "AI人才争夺战，百万年薪的应届生都去哪了？",
+      "url": "https://www.36kr.com/p/3864105596425474",
+      "publication": "页面显示2026-06-22；注明中新经纬谢婧雯原稿、36氪经授权发布。",
+      "access": {
+        "method": "公开网页工具直接打开",
+        "result": "成功返回公开文字正文",
+        "http_status": null,
+        "http_status_note": "网页工具未暴露实际HTTP状态码，不补写200。"
+      },
+      "reading_scope": "实际选读正文中余白的投递、录用、实习与面试观点，以及程水的转正叙述和文末来源声明；未核数据图、薪资真实性或文内外全部统计。",
+      "facts_paraphrased": [
+        "受访者余白（化名）回忆2025年8月开始投递，后接受2026届美团北斗计划算法方向录用，并披露过多家公司的大模型相关实习。",
+        "原稿提到面试把业务问题抽象为AI课题、检索与路径规划结合等观点。",
+        "另一位受访者程水介绍实习转正经验，但其具体Agent工程岗位及最终SSP未披露。"
+      ],
+      "excluded_as_new_agent_ssp_sample": true,
+      "exclusion_reasons": [
+        "这是记者采访报道，未定位受访者本人原帖或公开账号。",
+        "文中的SSP为整体招聘叙述，没有将余白个人最终SSP档位与具体Agent工程岗位明确对应。",
+        "北斗计划及算法录用不自动等同Agent工程SSP；兴趣和相关面试话题不替代正式岗位职责。",
+        "没有本人完整履历、具体公开项目或逐轮面经；这些缺项单独记录，不是排除其结果样本的唯一原因。"
+      ],
+      "possible_use": "可作算法邻近方向的招聘报道背景，不能纳入本轮Agent SSP成功者数量。",
+      "commercial_boundary": "媒体授权报道；本轮未以课程推荐语、薪资金额或商业收益宣传为证据。"
+    },
+    {
+      "source_key": "USTC_4055_PAGE2",
+      "title": "2025cs秋招记录 & 实习信息发布（第二页）",
+      "url": "https://ustcforum.com/d/4055-2025cs?page=2",
+      "access": {
+        "method": "公开网页工具直接打开",
+        "result": "虽然页面顶部有脚本加载提示，工具仍返回该页论坛正文段落；按实际可读范围核对",
+        "http_status": null,
+        "http_status_note": "网页工具未暴露实际HTTP状态码，不补写200。"
+      },
+      "reading_scope": "实际核读所返回第二页中招聘性质、上海AI LAB实习职责及转正机会、抖音代码大模型工程实习职责；未称已读全楼所有页面，没有收录联系方式或群信息。",
+      "facts_paraphrased": [
+        "该页主要由成员转发实习岗位，部分岗位涉及智能体、科研文本理解、代码生成与测试。",
+        "部分岗位写优秀实习生有转正机会，但没有对应个人已经转正及最终SSP的自述。"
+      ],
+      "excluded_as_new_agent_ssp_sample": true,
+      "exclusion_reasons": [
+        "招聘职责和潜在转正机会不等于成功者的实际录用。",
+        "没有个人的明确公司、Agent工程岗位、事件年与最终SSP关系。",
+        "帖子年份和招聘JD日期不能赋给不存在的个人招聘结果。"
+      ],
+      "possible_use": "仅可作为岗位发现入口；不新增成功候选人、面经或项目。"
+    }
+  ],
+  "result": {
+    "limited_search_finished": true,
+    "qualified_new_samples": 0,
+    "new_ids_reserved": false,
+    "main_tables_modified": false,
+    "claim_scope": "本轮两条有限检索路径未取得新的合格材料；不是全网不存在，也不是必须拿到某人的全量CV/源码/面经才允许计入。",
+    "new_manual_access_blocker": "本轮两篇实际核读来源均可读，未新增需用户手动打开的限流原始链接。"
+  },
+  "what_would_enable_next_progress": {
+    "required_to_resolve_this_gap": "一条尚未核过的本人原帖或公开更新，能把公司、具体Agent工程岗位、实际招聘年、校招或实习转正、最终SSP放在同一人的明确叙述中；可由其同作者关联文章补充部分字段。",
+    "useful_material_types": [
+      "成功者自己的牛客、博客或GitHub求职复盘原始URL，明确已收到／已确定SSP，而非正在争取、预计、待开奖或直通面试卡。",
+      "现有匿名Agent SSP线索作者的后续更新，补披露公司、具体工程岗位与实际招聘年；不需要联系方式或未脱敏录用文件。",
+      "用户能打开而工具受限的原始页面中，与岗位、批次、日期、档位有关的公开文字片段；附原URL，去除联系方式和其他无关个人信息。",
+      "同一作者直接链接的履历、项目或面经，能分别补深关联；这些不是确认一份SSP录用自述的强制前置条件。"
+    ],
+    "do_not_substitute": [
+      "课程广告中的学员报喜、组织者讲师简介或推荐语。",
+      "根据薪资反推SSP，根据大模型／算法岗位或人才计划反推Agent工程。",
+      "将实习日薪、OC、答辩评级、拟定档或面试直通卡当已确认正式SSP。"
+    ],
+    "dependency_judgment": "以上原始链接或公开专业文字能使当前缺口继续前进；不是宣称只有用户输入才有可能发现材料。按本轮限定的两路径已停止重复检索，后续有新具体线索再核。"
+  },
+  "privacy": "文件只保存查询、来源URL、专业归纳、实际阅读范围和排除边界；未保存完整正文、联系方式、SSR、CV或offer图片。"
+}

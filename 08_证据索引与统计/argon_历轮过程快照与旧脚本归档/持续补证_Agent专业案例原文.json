@@ -1,0 +1,102 @@
+{
+  "research_date": "2026-10-23",
+  "scope": "在概念纠错材料之后，另找生产团队／开源框架作者的Agent专业平台案例；不修改主表，不占OP编号。",
+  "qualification_rule": "须实际读到B站或知乎正文，能够定位真实任务、评测／成本／权限／故障的具体案例或技术取舍；优先第一人称生产团队或框架作者。题库、仅宣传、摘要与转载发现均不冒充一手生产案例。",
+  "result": {
+    "new_qualifying_platform_production_case_sources": 0,
+    "new_platform_fulltexts_read_but_excluded_from_this_target": 1,
+    "new_bilibili_agent_articles_read": 0,
+    "videos_watched": 0,
+    "conclusion": "两条不同路径本轮未找到新合格生产案例。实际读到的一篇RAG方法综述有取舍讨论，但作者与案例的一手关系不足，单列保留，不以新增篇数代替所需证据。"
+  },
+  "search_paths": [
+    {
+      "path": "生产团队／框架名称与B站图文专项检索",
+      "queries": [
+        "AI Agent 测评方案 哔哩哔哩",
+        "AgentUniverse 哔哩哔哩 专栏",
+        "腾讯技术工程 Agent Skill 测评 bilibili 专栏",
+        "AI超级智能体 哔哩哔哩 专栏 鱼皮",
+        "智能体 记忆 评测 专栏 哔哩哔哩"
+      ],
+      "mechanism": "标准web公开检索；只用于发现原链接，不把返回的简介或长摘录当实际视频或平台全文。",
+      "result": "结果主要是视频、课程宣传或站外转载；没有取得合格B站技术图文。",
+      "narrow_scope": "仅说明这些查询本轮未获合格材料，不说明平台没有这类内容。"
+    },
+    {
+      "path": "原文归属及开源作者导航的直接追踪",
+      "discovery_urls": [
+        "https://raw.githubusercontent.com/agentuniverse-ai/agentUniverse/master/README_zh.md",
+        "https://raw.githubusercontent.com/agentscope-ai/agentscope/main/README_zh.md",
+        "https://agentmemories.ai/zh-cn/docs"
+      ],
+      "normal_get_statuses": [200, 200, 200],
+      "scope": "只读取README或导航中的知乎/B站出处链接；不将这些外站正文计入本任务平台阅读，不执行项目。",
+      "result": "三个已读入口没有可继续核读的知乎/B站正文直链。沿其他转载的出处链取得一篇知乎RAG长综述及一条AutoGen原文线索。",
+      "narrow_scope": "没有递归遍历全部仓库历史或全部作者文章，不声称已搜尽。"
+    }
+  ],
+  "read_but_not_qualifying": [
+    {
+      "key": "ZHIHU_RAG_SURVEY_675509396",
+      "title": "一文读懂：大模型RAG（检索增强生成）含高级方法",
+      "url": "https://www.zhihu.com/tardis/zm/art/675509396",
+      "author": "AI产品经理大群",
+      "author_profile_text": "AI博主，坚持分享最新ai动态",
+      "source_date_text": "编辑于2026-05-02；首发日期未确认",
+      "reading": {
+        "scope": "公开正文全文",
+        "fulltext": true,
+        "primary_platform_scope": "全文",
+        "video_watched": false,
+        "web_tool_lines": "425行，L0—424；分两次实际读完正文",
+        "normal_get_status": 200,
+        "normal_get_final_url": "https://www.zhihu.com/tardis/zm/art/675509396",
+        "body_text_characters": 14248,
+        "body_text_sha256": "799a2b77aeb3780ff6ef6e303fdee3f1ebb1e159da617cf20277236d490a72b9",
+        "scope_note": "阅读所有可见文字；未核截图细字，未运行文中代码或重现实验。"
+      },
+      "useful_specific_tradeoffs": [
+        {"locator":"多文档Agent段L302—318","point":"文档级工具与上层路由可支持跨文档回答，但模型往返增加延迟，需考虑简化。"},
+        {"locator":"融合检索段L338—364","point":"查询扩展可能改善覆盖，也会增加调用并误解行业术语；应按查询组比较效果与成本。"}
+      ],
+      "why_excluded": "材料自述为方法综述，列多篇参考，作者仅能核AI内容博主身份。没有可审计的本人生产任务、运行轨迹、测试集或实际账单；不能当团队落地报告。",
+      "evidence_limits": "成本节省论述为假设token估算；文中微调效果等来自参考材料，未核原实验，不转写为本文作者实测。",
+      "commercial_background": "正文关联其他入门文章，作者名有社群定位；本次未确认付费合作或收费服务，不凭名称推断。",
+      "use": "仅作方法背景及后续原始出处导航；不新增专业生产案例计数，不填补近期实习成功者证据。"
+    }
+  ],
+  "manual_links": [
+    {
+      "url": "https://www.zhihu.com/tardis/bd/art/1885484020583867837",
+      "discovered_topic": "AutoGen 0.4文档评述与实战",
+      "actual_status": "正常web打开后跳转知乎安全验证，need_login=true；正文0行，停止。",
+      "check": "手动确认署名、原文是否包含本人真实任务或测试，再决定纳入；不根据站外转载的标题或批评升级证据。"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2050893501324441306",
+      "title": "AI Agent & Skill测评方案及落地实践",
+      "actual_status": "本轮只作为生产团队标题查询的发现线索；沿用此前公开路径不可读事实，不再次刷受限原页。",
+      "check": "腾讯TEG网关测试团队TPerf任务、评分器、基线与回归证据；须实际正文，索引摘录不足。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1GVJP6SE23/",
+      "title": "2026腾讯云Agent Infra专场",
+      "actual_status": "本轮仅检索索引/议程可见；未观看、未取字幕，没有重试旧视频受限路径。",
+      "check": "运行时、沙箱、记忆、观测议题中的实际案例；议程不能代替发言内容。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1EFGs6YEZi/",
+      "title": "腾讯AIAgent暑期实习一面",
+      "actual_status": "仅检索简介，未观看/取字幕，不新增面经或专业观点。",
+      "check": "区分原始候选人提问与讲解作者事后答案，核身份及实际时间。"
+    }
+  ],
+  "boundaries": [
+    "没有用另一篇泛题库或一篇综述替代生产团队的专业评价。",
+    "未把外站、源码README或搜索摘要计为知乎/B站正文。",
+    "没有登录、破解验证码、绕过平台访问控制、下载媒体或联系作者。",
+    "实际已读平台综述与合格专业案例分别计数；主表是否增设方法背景由根代理决定。",
+    "本分支本轮两路径收束，原目标专业案例缺口继续存在，不宣称全网没有。"
+  ]
+}

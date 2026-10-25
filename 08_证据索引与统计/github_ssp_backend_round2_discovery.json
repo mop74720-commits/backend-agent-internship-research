@@ -1,0 +1,474 @@
+{
+  "title": "GitHub SSP本人项目与面经扩搜：Java后端第二轮",
+  "retrieved_at": "2026-10-23",
+  "scope": "只写本发现JSON；未改主报告、未下载全仓、未运行第三方代码",
+  "summary": {
+    "new_java_backend_ssp_self_report_cases": 1,
+    "new_adjacent_algorithm_ssp_cases": 1,
+    "fully_linked_successful_personal_backend_project_archives_added": 0,
+    "new_candidates": [
+      "CV14 mio4",
+      "CV16 LittleChild"
+    ],
+    "important_limit": "有明确新例，但没有据此宣称搜尽GitHub；不使用SP、模板、fork或小游戏奖励替代SSP成功者。"
+  },
+  "search_log": [
+    {
+      "engine": "Sogou",
+      "query": "site:github.com SSP 秋招 Java 本人",
+      "status": 200,
+      "result": "有效结果；经dh15037672010/Java-Gold fork发现mio4原仓，还命中CyC2018文章fork"
+    },
+    {
+      "engine": "Yahoo",
+      "query": "site:github.com SSP 秋招 Java 本人",
+      "status": 200,
+      "result": "有效结果但噪声多，命中课程汇总/工具与Mapshiny资料"
+    },
+    {
+      "engine": "Baidu",
+      "query": "site:github.com SSP 秋招 Java 本人",
+      "status": 200,
+      "result": "重定向安全验证，未获得有效结果"
+    },
+    {
+      "engine": "Yahoo",
+      "query": "site:github.com \"ssp\" \"Go\" \"拿到\"",
+      "status": 500,
+      "result": "失败"
+    },
+    {
+      "engine": "Yahoo",
+      "query": "site:github.com \"ssp\" \"Java\" \"秋招总结\"",
+      "status": 200,
+      "result": "结果主要无关图片/账号，不视作有效成功者证据"
+    },
+    {
+      "engine": "Yahoo",
+      "query": "site:github.com \"SSP\" \"我\" \"简历\" \"Java\"",
+      "status": 500,
+      "result": "失败"
+    },
+    {
+      "engine": "Sogou",
+      "queries": [
+        "site:github.com SSP Go 后端 秋招",
+        "site:github.com SSP Java 校招 总结",
+        "site:github.com SSP offer 本人 项目 Java"
+      ],
+      "status": 200,
+      "result": "页面无正常结果列表，不能把HTTP200当搜索有效"
+    },
+    {
+      "engine": "GitHub REST repositories search",
+      "query": "SSP Java in:readme",
+      "status": 200,
+      "result": "返回大量SSP缩写歧义/技术文档，进行原文筛查；未作为成功者数量"
+    },
+    {
+      "engine": "GitHub REST repositories search",
+      "query": "SSP Golang in:readme",
+      "status": 200,
+      "total_count": 196,
+      "returned_first_page": 100,
+      "result": "多数为广告平台、安全协议/合规或编程项目缩写，不属于招聘SSP"
+    },
+    {
+      "engine": "GitHub REST repositories search",
+      "query": "\"SSP\" \"秋招\" in:readme",
+      "status": 200,
+      "total_count": 61,
+      "returned": 61,
+      "result": "发现LittleChild；多数已知作者、题库、营销或无关含义"
+    }
+  ],
+  "github_search_api_calls": 3,
+  "candidate_records": [
+    {
+      "proposed_case_id": "CV14",
+      "author": "mio4",
+      "repo": "mio4/Java-Gold",
+      "repo_url": "https://github.com/mio4/Java-Gold",
+      "status": "新独立成功者自述：SSP文字明确；具体公司未披露",
+      "scope": "Java后端准备路线；历史校招与实习复盘",
+      "eligible_as_java_backend_ssp_self_report": true,
+      "eligible_as_ssp_specific_original_project_archive": false,
+      "discovery_path": "搜狗site:github.com SSP 秋招 Java 本人命中dh15037672010/Java-Gold fork；其链接回mio4原仓；随后从原仓历史commit核验，不将fork仓主计为成功者。",
+      "ssp_evidence": {
+        "path": "README.md",
+        "commit": "b3f0759b2f695c2ce17a8b878d745bfe128117a6",
+        "commit_date": "2020-10-23T06:15:11Z",
+        "line_start": 32,
+        "line_end": 32,
+        "url": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32",
+        "quote": "将自己大三一年时间从0开始准备到校招拿到大厂sp、ssp的经历进行了总结",
+        "interpretation": "原作者第一人称声称拿到大厂SP及SSP；README L105也使用“从小白到拿ssp”标题。",
+        "company_boundary": "正文仅称两家AI独角兽sp | ssp，未逐家明确；百度、字节等offer不能自动标记SSP。",
+        "independent_employer_verification": false
+      },
+      "supporting_sources": [
+        {
+          "type": "原仓历史README项目自述与入口",
+          "url": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32-L38",
+          "finding": "同一作者介绍自己2019秋招准备、实习及进入职场经历；现行README删减了这段，不能仅用当前README关键词判断是否存在。"
+        },
+        {
+          "type": "原仓历史校招总结",
+          "url": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md",
+          "line_count": 260,
+          "reading_scope": "完整获取，核读方向选择、实习、SP/SSP表述、项目准备和面经入口段",
+          "finding": "明确选择Java后端准备；2019.1百度智能云后端实习；记录2019提前批及2020.5补充。"
+        },
+        {
+          "type": "本文人面经归属直接陈述",
+          "url": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md#L242-L246",
+          "quote": "我的个人面经总结：https://github.com/mio4/learn-java/blob/master/Note/interview.md",
+          "finding": "同一作者明确将求职总结与mio4/learn-java笔记联系起来；属于混合个人面试经历的复习汇编，不逐条假定原始考题。"
+        },
+        {
+          "type": "同账号固定面试笔记",
+          "repo": "mio4/learn-java",
+          "commit": "7492919fc37b59aac17ceaf9df9830f8cc3d9184",
+          "commit_date": "2021-11-22T09:07:19Z",
+          "path": "Note/interview.md",
+          "url": "https://github.com/mio4/learn-java/blob/7492919fc37b59aac17ceaf9df9830f8cc3d9184/Note/interview.md",
+          "line_count": 7068,
+          "reading_scope": "完整获取，核读目录及指定章节定位；没有逐条审定全部技术答案",
+          "finding": "包含Java、JVM、OS、网络、SQL、Spring、Redis、RabbitMQ及实习总结。篇幅、答案和覆盖率均不能替代企业验证。"
+        }
+      ],
+      "interview_relationship": {
+        "specific_company_link": {
+          "url": "https://www.nowcoder.com/discuss/151829",
+          "canonical_url": "https://www.nowcoder.com/discuss/353154814064402432",
+          "title_visible": "这一周的实习面试（头条+搜狐+美团+百度）",
+          "ownership_source": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md#L142",
+          "author_claim": "作者明确把它作为本人百度后端实习面经链接",
+          "access": "2026-10-23复核：151829正常URL重定向canonical后HTTP200，section.post-content-box唯一容器正文可读，内部.nc-post-content同样可读；?sourceSSR=post本次HTTP200但两个容器均缺失。此前两次未读到正文不能视为永久不可读。",
+          "verified_body_scope": "仅核读唯一section.post-content-box及其内部.nc-post-content，未采推荐区、评论或侧栏；内部正文约1570字符，包含四家公司本人实习面试与总结。",
+          "interview_summary": [
+            {
+              "company": "今日头条",
+              "role": "测开；作者称Java后台实习岗位已满，转面测开",
+              "rounds": "笔试＋两面",
+              "questions_reported": [
+                "Two-Sum并讨论重复元素",
+                "判断两份JSON是否相同",
+                "GROUP BY相关SQL",
+                "微博点赞MySQL表设计",
+                "IM通信测试方案",
+                "算法题及Java基础（正文未详列）"
+              ],
+              "outcome_boundary": "作者称因岗位兴趣结束沟通、面试官拟转其他后台岗位；不能计为头条后端或SSP录用"
+            },
+            {
+              "company": "搜狐",
+              "role": "后台实习",
+              "rounds": "两面",
+              "questions_reported": [
+                "链表反转",
+                "Top-K",
+                "老虎吃羊问题",
+                "Python基础",
+                "操作系统I/O",
+                "C程序编译过程",
+                "CPU构成",
+                "B+树查找"
+              ],
+              "outcome_boundary": "作者自述未通过；不把作者关于失败原因的猜测当企业结论"
+            },
+            {
+              "company": "美团",
+              "role": "后台实习",
+              "rounds": "两面",
+              "questions_reported": [
+                "二叉树层序及Z字形遍历",
+                "volatile",
+                "项目细节",
+                "@Autowired底层实现",
+                "atomic包",
+                "JVM内存",
+                "有序数组下标和值相等问题",
+                "Java多线程锁",
+                "C++编译过程",
+                "Linux启动首个进程",
+                "fork返回值",
+                "缺页中断与中断",
+                "用户态/内核态转换"
+              ],
+              "outcome_boundary": "帖内写等通知，未核结果；正文对算法复杂度和挂因的个人表述未作为正确答案或因果证据"
+            },
+            {
+              "company": "百度云计算",
+              "role": "实习；GitHub本人总结L142进一步称百度智能云后端实习",
+              "rounds": "三面",
+              "questions_reported": [],
+              "reported_topics": [
+                "手写代码",
+                "智力题",
+                "操作系统"
+              ],
+              "outcome_boundary": "本人自述通过，约三小时；此段没有具体题目，不能从其他公司的题目移植补全；不是百度SSP证据"
+            }
+          ],
+          "short_quote": "4. 百度云计算（三面，过）"
+        },
+        "same_account_notes": {
+          "url": "https://github.com/mio4/learn-java/blob/7492919fc37b59aac17ceaf9df9830f8cc3d9184/Note/interview.md",
+          "note_kind": "本人链接的综合复习与面试笔记",
+          "selected_topic_locations": [
+            {
+              "topic": "Java/JVM",
+              "start": 1,
+              "jvm_start": 1247
+            },
+            {
+              "topic": "操作系统",
+              "start": 2644
+            },
+            {
+              "topic": "计算机网络",
+              "start": 3072
+            },
+            {
+              "topic": "数据库/MySQL",
+              "start": 4198
+            },
+            {
+              "topic": "Redis",
+              "start": 5518
+            },
+            {
+              "topic": "RabbitMQ",
+              "start": 5810
+            },
+            {
+              "topic": "实习总结",
+              "start": 6633
+            }
+          ]
+        },
+        "counting_boundary": "牛客为同一作者的一篇四家公司实习复盘；如整合只追加来源关系与分公司题目摘要，不将题目数当场次。7068行笔记不能按知识点拆分场次，仍没有逐轮SSP公司专属面经。"
+      },
+      "project_relationship": {
+        "source": "https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md#L200-L210",
+        "quote": "我的操作是直接使用网课，比如慕课",
+        "finding": "作者称从课程选择项目并复现，作为补齐技术栈的方法；未在该段公开明确个人成品项目仓库名。",
+        "same_account_repository_metadata": "用户仓库API列出Java-Gold、learn-java、Leetcode、mio4、mio4.github.io和Solidity；它们的账号关系不自动证明某个就是简历上的求职业务项目。",
+        "archive_status": "未新增本人业务项目源码包；learn-java是学习与笔记仓库，不能包装成完整原创生产项目。"
+      },
+      "batch": {
+        "literal": "2019校招总结；2019.1后端实习；2020.5 update",
+        "likely_cohort": "2020届本科，依据大三/毕业时间及2020叙述推断，未见独立学历证明",
+        "boundary": "历史Java后端路线，不能当2026 Agent/SSP实习门槛"
+      },
+      "recommended_reason": "新增Java方向成功自述案例，可对照基础→实习→课程项目→面试笔记的准备链；特别适合说明成功者不必拥有名词繁多的个人项目，但其经历不能证明只复现课程即可获SSP。",
+      "limitations": [
+        "公司/档位未逐一对应",
+        "SSP与实习结果均为作者自述",
+        "没有明确本人求职项目源码闭环",
+        "综合笔记含整理材料，不等于全部问题均在本人面试出现",
+        "牛客正文访问不稳定（正常URL本次可读，sourceSSR变体本次缺正文）；此前“不可读”的访问判断已修正",
+        "历史市场、背景和面试差异不可控制"
+      ]
+    },
+    {
+      "proposed_case_id": "CV16",
+      "author": "LittleChild",
+      "repo": "LittleChild/Preparation-For-OFFER",
+      "repo_url": "https://github.com/LittleChild/Preparation-For-OFFER",
+      "status": "新独立SSP成功自述成立；自动驾驶/视觉算法邻近案例，不纳入Java/Go后端成功者分母",
+      "eligible_as_java_backend_ssp_self_report": false,
+      "eligible_as_adjacent_ssp_case": true,
+      "discovery_path": "GitHub repository search query \"SSP\" \"秋招\" in:readme返回；原仓HEAD/README全文获取后核读SSP上下文。",
+      "ssp_evidence": {
+        "commit": "6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21",
+        "commit_date": "2022-03-18T14:33:50Z",
+        "path": "README.md",
+        "line_start": 243,
+        "line_end": 251,
+        "url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251",
+        "company": "地平线",
+        "quote": "过了。拿到了SSP，，，",
+        "context": "地平线段列一/二/三面和HR面，随后称拿到SSP并拒绝、选择pony；小马智行段L226写算法白菜，不能把小马结果也记为SSP。",
+        "independent_employer_verification": false
+      },
+      "batch": {
+        "literal": "README有22领航员、2022-03-18固定commit；秋招接春招",
+        "inference": "约2021秋招/2022届求职，具体毕业年份未明示，保持推测口径",
+        "boundary": "历史材料"
+      },
+      "interview_relationship": {
+        "same_author_evidence": {
+          "url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L1-L5",
+          "finding": "首段说记录自己的秋招；全文逐公司、轮次、结果推进。"
+        },
+        "horizon_rounds": {
+          "url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251",
+          "questions_reported": [
+            "围绕简历项目及实习细节",
+            "背包类编码题",
+            "由不等概率生成器构造等概率生成器"
+          ],
+          "result": "同一段自述地平线SSP"
+        },
+        "pony_rounds": {
+          "url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L216-L226",
+          "questions_reported": [
+            "一维max pooling及二维延伸",
+            "多个项目及实习逐项深挖",
+            "公司选择、职业规划与HR沟通"
+          ],
+          "result": "小马智行自述算法普通档，接收；不标SSP"
+        },
+        "role_evidence": {
+          "url": "https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L180-L203",
+          "finding": "SLAM、3D视觉、自动驾驶感知与C++为主体；不同公司岗位可能不同，地平线段未单独写岗位名称。"
+        }
+      },
+      "project_relationship": {
+        "article_project_mentions": [
+          "SLAM/定位及科研项目",
+          "美团自动驾驶相关实习",
+          "GCNv2/Monodepth/OpenVSLAM等模型/系统问题"
+        ],
+        "direct_project_repository_links_in_article": "未见将某个GitHub项目明确标为本人求职项目的直接链条",
+        "same_account_observations": [
+          {
+            "repo": "LittleChild/MagWiFi",
+            "fork": false,
+            "language": "Java",
+            "description": "Android无线/地磁/图像采集工具"
+          },
+          {
+            "repo": "LittleChild/wifimage",
+            "fork": false,
+            "language": "Java",
+            "description": "室内定位图像与无线信号采集Android工具"
+          },
+          {
+            "repo": "LittleChild/GCNv2_SLAM",
+            "fork": true,
+            "language": "C++",
+            "description": "上游SLAM项目fork"
+          }
+        ],
+        "boundary": "同账号存在项目不等于本文被面试的项目；Java采集App不构成Java服务端履历。多数SLAM仓库为fork，未核贡献，不能当原创或整库打包。",
+        "archive_status": "未下载源码"
+      },
+      "recommended_reason": "可比较实习/科研项目如何被持续深挖、SSP与普通档如何在同文区分；属于邻近算法方向，不能用它填补后端或Agent工程成功者缺口。",
+      "limitations": [
+        "SSP与结果未经企业核验",
+        "地平线具体岗位名未在该段明示",
+        "没有完整简历或个人项目源码闭环",
+        "不能将作者对面试官的情绪、原因猜测或价值判断当事实",
+        "历史自动驾驶方向，不代表Java/Go或Agent应用工程门槛"
+      ]
+    }
+  ],
+  "excluded_or_control_leads": [
+    {
+      "repo": "CloudCreateThink/CodingOffer",
+      "status": "排除成功者证据",
+      "source": "https://github.com/CloudCreateThink/CodingOffer/blob/HEAD/README.md",
+      "finding": "SSP仅出现在校招术语定义段L281–287，没有本人取得SSP陈述。"
+    },
+    {
+      "repo": "WJZVCGFB/OFFER_MARKET",
+      "status": "排除成功者证据",
+      "source": "https://github.com/WJZVCGFB/OFFER_MARKET/blob/HEAD/README.md",
+      "finding": "SSP为静态刷题小游戏的虚拟offer奖励L34，不是真实求职结果。"
+    },
+    {
+      "repo": "xuanshui/Interview-Notes",
+      "status": "本人面经，但未确认SSP",
+      "source": "https://github.com/xuanshui/Interview-Notes/blob/HEAD/README.md",
+      "finding": "README称大部分为本人面试题，当前未见本人SSP陈述，不纳入成功者。"
+    },
+    {
+      "repo": "josonle/Interview-Summary",
+      "status": "待核结果，不纳入SSP成功者",
+      "source": "https://github.com/josonle/Interview-Summary/blob/HEAD/README.md",
+      "finding": "个人学习/求职日记可读，README未检出明确本人SSP自述；不能由面经详细程度推断。"
+    },
+    {
+      "repo": "ttBTBT/recruitment-exercises",
+      "status": "当前材料不支持搜索摘要",
+      "source": "https://github.com/ttBTBT/recruitment-exercises/blob/HEAD/README.md",
+      "finding": "当前为2026招新练习题实现，未见SSP；搜索中的社招描述可能已过时。"
+    },
+    {
+      "repo": "Mapshiny/CampusRecruit",
+      "status": "个人校招资料但未确认SSP",
+      "source": "https://github.com/Mapshiny/CampusRecruit/blob/HEAD/README.md",
+      "finding": "当前README是23届校招资料与面经汇总，未见本人SSP取得陈述。"
+    }
+  ],
+  "pending_or_inaccessible": [
+    {
+      "repo": "zning218/interview_Java",
+      "status": "README直接读取404，未据此断言整个仓库无相关记录；本轮未追其他分支/文件"
+    }
+  ],
+  "other_agent_handoff": {
+    "author": "CyC2018",
+    "status": "另一代理负责整合，不重复计入本文件新增候选",
+    "independently_checked_original_history": "https://github.com/CyC2018/CS-Notes/blob/d4d9abbdfbcd373efd96b7895d9bef3e36924d6f/2018%20%E8%BF%99%E4%B8%80%E5%B9%B4.md",
+    "confirmed": "L18头条后台SSP、L17腾讯SP；原帖137593重定向353154726600581120也可读。",
+    "note": "fork YF-Mao/CS-Notes不是新成功者。"
+  },
+  "verification_checks": [
+    {
+      "repo": "mio4/Java-Gold",
+      "path": "README.md",
+      "fixed_commit": "b3f0759b2f695c2ce17a8b878d745bfe128117a6",
+      "http_status": 200,
+      "line_count": 347,
+      "line_check": 32
+    },
+    {
+      "repo": "mio4/Java-Gold",
+      "path": "01-campus/2019-campus-interview.md",
+      "fixed_commit": "b3f0759b2f695c2ce17a8b878d745bfe128117a6",
+      "http_status": 200,
+      "line_count": 260,
+      "line_check": 142
+    },
+    {
+      "repo": "LittleChild/Preparation-For-OFFER",
+      "path": "README.md",
+      "fixed_commit": "6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21",
+      "http_status": 200,
+      "line_count": 262,
+      "line_check": 250
+    },
+    {
+      "source": "mio4牛客实习面经",
+      "url": "https://www.nowcoder.com/discuss/151829",
+      "final_url": "https://www.nowcoder.com/discuss/353154814064402432",
+      "http_status": 200,
+      "selector_counts": {
+        "section.post-content-box": 1,
+        ".nc-post-content": 1
+      },
+      "body_char_count": 1570,
+      "body_readable": true,
+      "verification_date": "2026-10-23",
+      "finding": "题目、公司分段及百度三面通过自述位于正文容器内部，不来自推荐内容；只保存摘要和必要短摘录"
+    },
+    {
+      "source": "同一面经sourceSSR变体",
+      "url": "https://www.nowcoder.com/discuss/353154814064402432?sourceSSR=post",
+      "http_status": 200,
+      "selector_counts": {
+        "section.post-content-box": 0,
+        ".nc-post-content": 0
+      },
+      "body_readable": false,
+      "verification_date": "2026-10-23",
+      "finding": "该请求无可用正文容器；不能据此否定正常URL本次读取结果"
+    }
+  ],
+  "completeness_boundary": "这是一轮有记录的定向扩搜，不能证明Github已无其他人。README搜索不覆盖已删除内容、Issues、个人博客、不同文件名、私有项目或未写SSP的成功履历；网络错误及搜索排序进一步限制覆盖。",
+  "privacy": "不保存联系方式、评论或完整第三方文章；仅必要短摘录、整理者分析与来源入口。"
+}

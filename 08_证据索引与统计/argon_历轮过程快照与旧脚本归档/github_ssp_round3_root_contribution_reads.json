@@ -1,0 +1,170 @@
+[
+  {
+    "url": "https://api.github.com/repos/apache/shenyu/commits?author=erdengk&per_page=4",
+    "status": 200,
+    "commits": [
+      {
+        "sha": "22546ae0e6a4047ee08bf4a41f9114f47ba57e19",
+        "url": "https://github.com/apache/shenyu/commit/22546ae0e6a4047ee08bf4a41f9114f47ba57e19",
+        "author_login": "erdengk",
+        "date": "2022-08-29T07:31:32Z",
+        "message": "[type:Integration Test] add integrated-test of Oauth2 plugin (#3848)"
+      },
+      {
+        "sha": "5ba8e13c2c3cf330bb30924190ca6a97fb112283",
+        "url": "https://github.com/apache/shenyu/commit/5ba8e13c2c3cf330bb30924190ca6a97fb112283",
+        "author_login": "erdengk",
+        "date": "2022-07-06T15:54:15Z",
+        "message": "[type:Integration Test] add integrated-test of logging-rocketmq-plugin (#3672)"
+      },
+      {
+        "sha": "d5f93dbc515b0e632e46b97c23c491e7f40ac410",
+        "url": "https://github.com/apache/shenyu/commit/d5f93dbc515b0e632e46b97c23c491e7f40ac410",
+        "author_login": "erdengk",
+        "date": "2022-06-25T17:59:08Z",
+        "message": "[type:Integration Test] Add metrics-plugin Integration Test (#3549)"
+      },
+      {
+        "sha": "0a073974f527050c8ab9ab3526a9bf017cdfbd53",
+        "url": "https://github.com/apache/shenyu/commit/0a073974f527050c8ab9ab3526a9bf017cdfbd53",
+        "author_login": "erdengk",
+        "date": "2022-06-25T06:17:57Z",
+        "message": "update prometheus-java-client.version (#3619)"
+      }
+    ]
+  },
+  {
+    "url": "https://www.codefather.cn/course/yupi",
+    "status": 200,
+    "read_excerpt": [
+      {
+        "line": 58,
+        "text": "会持续分享编程干货和好玩的知识~"
+      },
+      {
+        "line": 59,
+        "text": "个人经历"
+      },
+      {
+        "line": 60,
+        "text": "我 16 年进入东华大学，期间我自学了 Java、前端、Python、Go 等多种编程技术，作为工作室负责人带队建设了"
+      },
+      {
+        "line": 61,
+        "text": "几十个"
+      },
+      {
+        "line": 62,
+        "text": "网站，以"
+      },
+      {
+        "line": 63,
+        "text": "专业第一"
+      },
+      {
+        "line": 64,
+        "text": "的成绩拿过国家奖学金、挑战杯竞赛"
+      },
+      {
+        "line": 65,
+        "text": "国奖"
+      },
+      {
+        "line": 66,
+        "text": "&上海市"
+      },
+      {
+        "line": 67,
+        "text": "特等奖"
+      },
+      {
+        "line": 68,
+        "text": "、上海市优秀毕业生、东华大学年度人物。大三曾跟李悦老师出版过《区块链智能合约技术与应用》教材，也曾有过金融科技公司、"
+      },
+      {
+        "line": 69,
+        "text": "字节跳动"
+      },
+      {
+        "line": 70,
+        "text": "、"
+      },
+      {
+        "line": 71,
+        "text": "腾讯"
+      },
+      {
+        "line": 72,
+        "text": "等三家公司的实习经历。"
+      },
+      {
+        "line": 73,
+        "text": "秋招时我拿到多家大厂 offer，最终以"
+      },
+      {
+        "line": 74,
+        "text": "组内第一"
+      },
+      {
+        "line": 75,
+        "text": "的成绩在腾讯实习转正，并斩获"
+      },
+      {
+        "line": 76,
+        "text": "SSP 最高级别"
+      },
+      {
+        "line": 77,
+        "text": "的offer。"
+      },
+      {
+        "line": 78,
+        "text": "在职腾讯近 4 年，我独立负责 BI 项目研发、大数据研发等，曾获腾讯内部应用开发竞赛"
+      },
+      {
+        "line": 79,
+        "text": "冠军"
+      },
+      {
+        "line": 80,
+        "text": "、"
+      },
+      {
+        "line": 81,
+        "text": "5 星优秀员工、晋升绿色通道"
+      },
+      {
+        "line": 82,
+        "text": "，也在练习两年半的时候就担任了新人导师。"
+      },
+      {
+        "line": 83,
+        "text": "我于 20 年正式开启了编程知识自媒体，想分享自己的经验，留下一些有用的东西。至今累计创作近千篇、千万字，并且因为讲解内容通俗易懂，加上持续爆肝，全网积累了 150 万+ 的关注，也被很多读者称为其编程领路人。"
+      },
+      {
+        "line": 84,
+        "text": "如今，我创办了自己的科技公司"
+      },
+      {
+        "line": 85,
+        "text": "鱼鸢网络"
+      },
+      {
+        "line": 86,
+        "text": "，也是"
+      },
+      {
+        "line": 87,
+        "text": "编程导航学习网"
+      },
+      {
+        "line": 88,
+        "text": "的创始人，累积帮助十万多名程序员朋友提升技术和项目能力，帮上万名同学拿到过 Offer；同时我还在持续学习 AI 等前沿方向的新技术，打造了自己的"
+      },
+      {
+        "line": 89,
+        "text": "开源 AI 知识库"
+      }
+    ]
+  }
+]

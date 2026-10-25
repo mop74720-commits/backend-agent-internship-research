@@ -1,0 +1,277 @@
+INT56 | JavaWxy本人面试记录：携程、菜鸟、美团项目追问对照
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md
+公司：
+  携程／菜鸟／美团等（同一候选人）
+方向与岗位：
+  Java后端；历史实习与秋招混合
+事件时间／原文日期（依分类）：
+  各轮只保留文件月日；24暑期/24秋招为组名，具体事件年未明
+结果自述：
+  作者整体自述腾讯SSP；这些轮次不等于腾讯SSP面经，也未逐轮提供档位证明
+统计组：
+  混合批次或多公司汇总（单列）
+candidate_group：
+  CV02_JavaWxy
+role_boundary：
+  原文件同时含同学记录；本卡仅选无此标记的携程0315、菜鸟0421、美团0831，排除0317美团同学一轮
+ssp_status：
+  候选人整体SSP自述明确；腾讯具体面经未公开
+涉及主题：
+  - RPC
+  - Netty
+  - 注册发现
+  - 消息队列
+  - 本地消息表
+  - 幂等
+  - 退款竞态
+  - 事务
+  - 压测
+  - 本人贡献
+原文提问（归纳）：
+  - RPC注册发现与完整调用流程
+  - 远程调用是否每次访问注册中心
+  - 同步/异步返回
+  - 订单全流程、消息积压和Spring事务
+  - RPC节点宕机与故障恢复
+  - 压测实施与本人贡献
+  - 本地消息表+MQ与退款竞态
+  - 消息重复消费、限流和架构取舍
+  - RPC与本地调用区别、熔断/降级和链路追踪
+  - 压测与一致性哈希适用场景
+  - 多线程结果汇总、实习挑战与负反馈、抢单并发安全
+rounds：
+  - path：
+      面试记录.md
+    line_start：
+      7
+    line_end：
+      37
+    permalink：
+      https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L7-L37
+    公司：
+      携程
+    round：
+      0315一面
+    原文提问（归纳）：
+      - RPC注册发现与完整调用流程
+      - 远程调用是否每次访问注册中心
+      - 同步/异步返回
+      - 订单全流程、消息积压和Spring事务
+    建议用途：
+      先对照作者两个项目，再检查能否回答自己的调用链与故障处理。
+  - path：
+      面试记录.md
+    line_start：
+      632
+    line_end：
+      692
+    permalink：
+      https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L632-L692
+    公司：
+      菜鸟
+    round：
+      0421一面
+    原文提问（归纳）：
+      - RPC节点宕机与故障恢复
+      - 压测实施与本人贡献
+      - 本地消息表+MQ与退款竞态
+      - 消息重复消费、限流和架构取舍
+    建议用途：
+      优先用于提炼项目深挖问题；面经回忆和括号答案均不作为标准答案。
+  - path：
+      面试记录.md
+    line_start：
+      1138
+    line_end：
+      1170
+    permalink：
+      https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L1138-L1170
+    公司：
+      美团
+    round：
+      0831二面
+    原文提问（归纳）：
+      - RPC与本地调用区别、熔断/降级和链路追踪
+      - 压测与一致性哈希适用场景
+      - 多线程结果汇总、实习挑战与负反馈、抢单并发安全
+    建议用途：
+      补充实习贡献与反思问题；不将该轮等同腾讯SSP面试。
+内容归纳：
+  本轮Java材料最值得读的增补：能把同一人的业务项目、RPC项目、具体问题与踩坑笔记对应起来。
+建议用途：
+  先读菜鸟L632–692，再读携程L7–37和美团L1138–1170；结合PRO08，不将括号里的答案当标准答案。
+source_project_links：
+  - 仓库：
+      viego1999/wxy-rpc
+    原始来源：
+      https://github.com/viego1999/wxy-rpc
+    relationship：
+      作者同账号项目，README直接列为本人参考项目；Introduction说明本人开发/学习背景
+    relationship_evidence：
+      https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L139-L149
+    relationship_lines：
+      - 143
+      - 143
+    技术栈：
+      - Java
+      - Netty
+      - ZooKeeper
+      - Spring Boot
+      - 序列化
+      - 负载均衡
+    建议用途：
+      对应基础组件与网络调用链；深读协议、连接、超时与重试，不能仅复现接口。
+    局限：
+      - 未在此子任务下载、运行或审查完整代码
+      - 不确认每行原创或候选人时期版本
+      - 不等同该项目单独促成SSP
+  - 仓库：
+      viego1999/xuecheng-plus-project
+    原始来源：
+      https://github.com/viego1999/xuecheng-plus-project
+    relationship：
+      README L145链接课程项目，L149自述把点评秒杀业务融合进去；Introduction称承担内容与订单模块
+    relationship_evidence：
+      https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L143-L149
+    relationship_lines：
+      - 145
+      - 149
+    技术栈：
+      - Spring Cloud
+      - MyBatis
+      - Redis
+      - RabbitMQ
+      - MySQL
+      - 订单/内容管理
+    建议用途：
+      与RPC形成业务项目+基础组件项目组合；对照消息、事务、状态竞态和本人改动。
+    局限：
+      - 课程来源明确，不能包装为全新业务原创
+      - 没有企业侧核验交付或个人贡献
+      - 本包已有PRO08，此次不重复归档
+  - 仓库：
+      viego1999/xy-dianping
+    原始来源：
+      https://github.com/viego1999/xy-dianping
+    relationship：
+      README L147同账号项目；L149自述迁移其中秒杀模块
+    relationship_evidence：
+      https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L143-L149
+    relationship_lines：
+      - 147
+      - 149
+    技术栈：
+      - Java
+      - Redis
+      - 秒杀业务
+    建议用途：
+      学习模块迁移与取舍，不把教程名称数量当项目实力。
+    局限：
+      - 未单独核查代码、许可证或求职时期版本
+      - 未下载源码
+局限：
+  - SSP、offer、学历、实习与量化结果均为作者自述，未获企业独立验证
+  - 没有证明这些项目独立导致SSP，其他背景与表现无法控制
+  - 历史课程项目与历史市场条件不能直接作为2026实习门槛
+  - 未取得完整可再分发成功者简历
+  - 不下载/归档第三方源码，不抓取或保存私人联系方式
+  - 已读面试记录.md没有腾讯专门轮次；能证明SSP自述、同作者项目和其他公司的面经关联，不能声称拿到了腾讯SSP完整面经。
+原访问范围：
+  固定面试记录1186行原文已读；选择范围给出行号
+fulltext_verified：
+  否
+证据边界：
+  B：第一人称面试回忆；结果未经独立核验
+类别：
+  面经复盘
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    各轮只保留文件月日；24暑期/24秋招为组名，具体事件年未明
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    固定commit2024-03-08（非面试时间）
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    固定面试记录1186行原文已读；选择范围给出行号；选择本人章节，0317同学段排除；不把整库每条答案视为已审定。
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      腾讯
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/viego1999/JavaWxy
+    依据：
+      作者GitHub README自述，与作者自我介绍和公开仓库互相对应；没有企业证明；为同作者整体求职结果，不能反填到本记录每一轮或公司
+    applies_to_this_interview：
+      否
+    企业独立验证：
+      否
+  - 公司：
+      拼多多（暑期）
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/viego1999/JavaWxy
+    依据：
+      作者GitHub README自述，与作者自我介绍和公开仓库互相对应；没有企业证明；为同作者整体求职结果，不能反填到本记录每一轮或公司
+    applies_to_this_interview：
+      否
+    企业独立验证：
+      否
+  - 公司：
+      快手/阿里等（不据本简表逐家补档）
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/viego1999/JavaWxy
+    依据：
+      作者GitHub README自述，与作者自我介绍和公开仓库互相对应；没有企业证明；为同作者整体求职结果，不能反填到本记录每一轮或公司
+    applies_to_this_interview：
+      否
+    企业独立验证：
+      否
+发表／来源日期：
+  固定commit2024-03-08（非面试时间）
+面经形式：
+  同候选人多场汇总（不拆成独立候选人）
+候选人关联ID：
+  - CV02
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  mixed_or_overall_self_report
+related_record_ids：
+  —

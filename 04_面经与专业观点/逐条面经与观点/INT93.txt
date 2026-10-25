@@ -1,0 +1,241 @@
+INT93 | 字节生活服务后端开发日常实习一二三面经
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=dynamic
+公司：
+  字节跳动
+方向与岗位：
+  字节跳动；生活服务后端；日常实习
+事件时间／原文日期（依分类）：
+  多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给
+发表／来源日期：
+  2025-03-06（编辑）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    2025-03-06（编辑）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  时间依据：
+    同篇连续update明确2025-02-27至2025-03-05等待此流程OC，末项明确该日收到正式offer；确认招聘流程结果年，不虚构每轮面试日期。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+统计组：
+  明确事件年实习
+结果分类：
+  offer_self_report
+结果自述：
+  本人明确2025-03-05晚收到正式offer；档位未披露
+逐项结果与档位：
+  - 公司：
+      字节跳动
+    方向与岗位：
+      字节跳动；生活服务后端；日常实习
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    事件时间／原文日期（依分类）：
+      多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给
+    证据：
+      https://api-cdn.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=subject
+    依据：
+      本人明确2025-03-05晚收到正式offer；档位未披露
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      三轮技术面及HR；自述2025-03-05正式offer
+    questions：
+      - 为什么选择JDK17，了解其GC和ZooKeeper分布式协议吗？
+      - ZSet跳表如何插入、删除和排序？
+      - MySQL事务原子性、容量估计和主从同步怎样说明？
+      - 扫码登录完整链路怎样实现？
+      - 网站UV/DAU如何统计，选用结构有什么误差？
+      - 现场解树子结构、三数之和及变式、LCS、接雨水等。
+    结果自述：
+      本人明确2025-03-05晚收到正式offer；档位未披露
+涉及主题：
+  - 算法/编程
+  - JVM/语言运行时
+  - 数据库/SQL
+  - 缓存/Redis
+  - 网络/协议
+  - 分布式/一致性
+  - 项目深挖/个人贡献
+原文提问（归纳）：
+  - 为什么选择JDK17，了解其GC和ZooKeeper分布式协议吗？
+  - ZSet跳表如何插入、删除和排序？
+  - MySQL事务原子性、容量估计和主从同步怎样说明？
+  - 扫码登录完整链路怎样实现？
+  - 网站UV/DAU如何统计，选用结构有什么误差？
+  - 现场解树子结构、三数之和及变式、LCS、接雨水等。
+内容归纳：
+  从项目提到的JDK版本、ZooKeeper追原理，再问Redis、MySQL、扫码登录和算法。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  任何写入简历的版本和组件都应能解释；练习业务链路到存储结构的追问。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 只提炼问题；作者关于数据库容量、DAU统计等临场答案含不准确处，不当作技术依据。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I09
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    字节生活服务后端开发日常实习一二三面经
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=dynamic
+  resolved_url：
+    https://api-cdn.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=subject
+  canonical_post_key：
+    feed/main/detail/f38ea39b741e44be8730c1e7f7d88439
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .feed-content-text
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    182c76a9226c7401b659c9ff1a2efe38d5f492ed3eef1180025f980a22b7968d
+  body_char_count：
+    1315
+  source_card_path：
+    03_面经/I09.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    2025-03-06（编辑）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  source_date_verified：
+    否
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_date：
+    多轮技术面与HR后，2025-03-05收到正式offer；各技术面具体日期未给
+  event_year_confirmed：
+    是
+  event_year：
+    2025
+  时间依据：
+    同篇连续update明确2025-02-27至2025-03-05等待此流程OC，末项明确该日收到正式offer；确认招聘流程结果年，不虚构每轮面试日期。
+  questions：
+    - 为什么选择JDK17，了解其GC和ZooKeeper分布式协议吗？
+    - ZSet跳表如何插入、删除和排序？
+    - MySQL事务原子性、容量估计和主从同步怎样说明？
+    - 扫码登录完整链路怎样实现？
+    - 网站UV/DAU如何统计，选用结构有什么误差？
+    - 现场解树子结构、三数之和及变式、LCS、接雨水等。
+  涉及主题：
+    - 算法/编程
+    - JVM/语言运行时
+    - 数据库/SQL
+    - 缓存/Redis
+    - 网络/协议
+    - 分布式/一致性
+    - 项目深挖/个人贡献
+  结果分类：
+    offer_self_report
+  result：
+    本人明确2025-03-05晚收到正式offer；档位未披露
+  档位：
+    未披露
+  公司：
+    字节跳动
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    2025-3-5…审批已通过，晚上10点收到了正式offer
+  阅读建议：
+    任何写入简历的版本和组件都应能解释；练习业务链路到存储结构的追问。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 只提炼问题；作者关于数据库容量、DAU统计等临场答案含不准确处，不当作技术依据。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  access_attempts：
+    - 原始来源：
+        https://api-cdn.nowcoder.com/feed/main/detail/f38ea39b741e44be8730c1e7f7d88439?sourceSSR=subject
+      状态：
+        200
+      body_found：
+        是
+  capability_ids：
+    - CAP01
+    - CAP02
+    - CAP03
+    - CAP06
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    2025-3-5…审批已通过，晚上10点收到了正式offer
+source_key：
+  ASTRA_I09_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I09
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

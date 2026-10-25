@@ -1,0 +1,23 @@
+{
+  "all_json_parse": true,
+  "json_files": 76,
+  "local_links_checked": 375,
+  "missing_links": [],
+  "new_logs_contact_pattern_matches": [],
+  "pdf_pages": 18,
+  "pdf_ids_present": {
+    "CV20": true,
+    "CV21": true,
+    "INT64": true,
+    "INT65": true,
+    "INT66": true,
+    "INT67": true,
+    "INT68": true,
+    "INT69": true,
+    "INT70": true,
+    "PRO19": true
+  },
+  "pdf_no_blank_pages": true,
+  "source_zip_count_unchanged": true,
+  "third_party_projects_executed": false
+}

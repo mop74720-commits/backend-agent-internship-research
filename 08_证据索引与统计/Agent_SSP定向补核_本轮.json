@@ -1,0 +1,88 @@
+{
+  "checked_on": "2026-10-23",
+  "scope": "只读定向检索近期互联网企业AI应用、智能体或Agent岗位SSP本人复盘；不占资料ID，不修改主表，不下载简历。",
+  "search_paths": [
+    {
+      "path": "全网精确词：雇主、岗位方向与SSP交叉检索",
+      "queries": ["\"Agent\" \"SSP\" \"小红书\" \"面经\"", "\"智能体\" \"SSP\" \"蚂蚁\" \"秋招\""],
+      "finding": "主要返回聚合站、商业课程、薪资汇总与相关推荐污染；未取得新的明确Agent SSP成功正文。"
+    },
+    {
+      "path": "牛客、知乎限定站点与具体岗位名称，沿原站话题链接核读本人原帖",
+      "queries": ["site:nowcoder.com \"SSP\" \"智能体与大模型应用\" -招聘 -汇总 -薪资 -训练营", "site:zhihu.com \"SSP\" \"Agent\" \"快手\" -面试题 -课程 -训练营"],
+      "finding": "实际读到两篇本人求职复盘，均不足以确认Agent岗位最终SSP；没有把话题页或搜索摘要补成成功结果。"
+    }
+  ],
+  "direct_readings": [
+    {
+      "original_url": "https://www.nowcoder.com/feed/main/detail/c5df27c1e97f45d8a05fb66f104087b5?sourceSSR=subject",
+      "title": "截至现在，我的27届秋招基本结束。",
+      "author_public_name": "炒肉多",
+      "evidence_origin": "本代理直接核读原帖正文",
+      "reading_scope": "已读正文，不使用评论与相关推荐填补本人经历。",
+      "batch": "27届秋招；京东转正另列",
+      "event_year": null,
+      "event_year_boundary": "页面显示10-12，正文未直接给事件年份，不根据届别补年。",
+      "confirmed_outcome_in_text": ["京东转正意向", "滴滴意向"],
+      "ssp_status": "蚂蚁集团、哔哩哔哩均为四面加面后的SSP预期，未最终定档。",
+      "role_boundary": "失败流程披露Comate后端、Token Foundry AI应用、快手支付AI应用、字节交易广告AI应用；这些岗位不能移植为蚂蚁或B站获录用岗位。",
+      "decision": "不计入已获得Agent SSP的成功案例。"
+    },
+    {
+      "original_url": "https://www.nowcoder.com/feed/main/detail/65cdda4b1d024a4cada33d3dc6de878a?sourceSSR=subject",
+      "title": "舟杨波-9月秋招复盘",
+      "author_public_name": "舟杨波",
+      "evidence_origin": "本代理直接核读原帖正文",
+      "reading_scope": "已读正文，不使用评论与相关推荐填补本人经历。",
+      "batch": "27届秋招",
+      "event_year": null,
+      "event_year_boundary": "页面显示09-30，正文写今年8月起投递，未直接给事件年份。",
+      "confirmed_outcome_in_text": "度小满AI全栈工程师（数据方向）OC；没有SSP档位。",
+      "target_company_status": "蚂蚁智能体与大模型应用、快手AI全栈仅一面结束，不能计为offer。",
+      "role_boundary": "本人主要偏Data Infra；没有明确Agent岗位SSP成功。",
+      "decision": "不计入已获得Agent SSP的成功案例。"
+    }
+  ],
+  "excluded": [
+    {
+      "original_url": "https://www.nowcoder.com/discuss/551862399813300224?sourceSSR=subject",
+      "title": "范进中举 秋招版",
+      "evidence_origin": "本代理直接核读原帖正文",
+      "reason": "2023-11-08的小说改写段子，SSP属于虚构情节；搜索显示的蚂蚁智能体岗位来自相关推荐，不是该作者经历。",
+      "decision": "排除，不作为SSP求职证据。"
+    }
+  ],
+  "restricted_or_unread": [
+    {
+      "original_url": "https://www.nowcoder.com/discuss/939308531642126336?sourceSSR=subject",
+      "title": "27届计算机后端/Agent秋招阶段性再总结（复盘向）",
+      "actual_status": "本代理打开www变体只返回底栏4行；根代理随后通过ac同站替代链接取得正文，不再将此篇整体列为必须手动未读。",
+      "readable_alternative_url": "https://ac.nowcoder.com/discuss/939308531642126336",
+      "alternative_evidence_origin": "协作核读：根代理直接GET及选读，本代理未独立重取。",
+      "alternative_http_status": 200,
+      "alternative_body_selector": ".post-content-box",
+      "alternative_body_characters": 5937,
+      "alternative_body_sha256": "fabaef65dde92fa87b214c55830188cb201e7a9ca8de8f5078672ebcf9b6f4bc",
+      "reading_scope": "根代理实际选读前半流程及10.20更新；不是本代理独立全文核读，话题摘要不替代正文。",
+      "selected_facts_from_root": "蚂蚁二面挂，快手三面结束，度小满9.29书面意向；仍不计Agent SSP。",
+      "manual_check": null
+    }
+  ],
+  "same_author_followup": {
+    "original_post_url": "https://www.nowcoder.com/feed/main/detail/c5df27c1e97f45d8a05fb66f104087b5?sourceSSR=subject",
+    "public_profile_url": "https://www.nowcoder.com/users/942981681",
+    "identity_basis": "从原帖作者链接直接进入同一牛客主页，不按昵称或学校跨账号匹配。",
+    "profile_list_requests": 1,
+    "targeted_search_queries": ["\"炒肉多\" \"蚂蚁\" \"ssp\""],
+    "observed_profile_scope": "核读主页公开列表首部：除置顶学习路线外，最新可见条目是10-12原帖，其后为10-08旧帖；没有核读全部31篇历史发布或翻页。",
+    "observed_search_result": "定向检索返回10-12原帖，没有找到同作者10-12之后的最终SSP定档正文。",
+    "conclusion": "保持SSP预期判断；仅说明本轮范围内未见后续，不宣称作者没有其他更新。"
+  },
+  "summary": {
+    "new_confirmed_agent_ssp_cases": 0,
+    "main_tables_modified": false,
+    "personal_contact_information_saved": false,
+    "collaboration_only_claims_included": true,
+    "boundary": "两路径及限定作者后续核查结束；不代表全网没有更多材料。"
+  }
+}

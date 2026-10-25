@@ -1,0 +1,191 @@
+INT40 | 智能体与大模型应用工程实习 一面
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post
+公司：
+  蚂蚁集团
+事件时间／原文日期（依分类）：
+  06-09面试，年未显示
+方向与岗位：
+  智能体与大模型应用工程实习
+round：
+  一面
+role_boundary：
+  明确工程实习；同时深挖Java业务项目与Agent选型，不是纯模型训练岗
+结果自述：
+  作者末段以失败口吻复盘；没有正式结果材料
+涉及主题：
+  - 项目深挖/个人贡献
+  - 数据库/缓存
+  - 消息队列/一致性
+  - RAG/检索
+  - Agent循环/工具
+  - 系统设计/取舍
+原文提问（归纳）：
+  - 哪些请求值得增加本地与Redis两级缓存，怎样确定失效和更新策略？
+  - 异步订单怎样在个人环境验证；重复投递、删集合时宕机如何收尾？
+  - Java/Spring AI相对Python框架的选择依据，以及知识导入、BM25和对话循环如何衔接？
+内容归纳：
+  同场把传统订单正确性与Agent工程放在一起，能检验项目是否有实际负载依据和故障推演。
+建议用途：
+  优先：准备缓存必要性、消息副作用与框架选型的追问链。
+局限：
+  - 未公布完整答案与实验；提问不能证明作者已经解决问题。
+  - 原帖关于Redis持久化的对话是面试回忆，不作为技术事实。
+source_project_description：
+  作者提及异步订单与Spring AI智能体，未提供可对应的代码仓库。
+统计组：
+  明确实习面经
+原访问范围：
+  原文正文全文已读（网页工具）
+outcome_status：
+  failure_self_report
+author_group：
+  nowcoder_End__
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）；本卡为原创提炼
+证据边界：
+  B：原文已读，经历、作答与结果未经企业侧独立验证
+source_project_links：
+  —
+ssp_status：
+  原文未明确SSP，不计SSP成功样本
+reading_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+商业与选择偏差：
+  已读正文未见直接售课；不代表作者身份与动机已获验证
+independence_note：
+  一篇原文；多轮不增加独立候选人数
+fulltext_verified：
+  是
+read_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+verification_notes：
+  已实际读取原文文字正文；搜索摘要和聚合索引仅用作发现。全文指该篇公开正文，不代表完整面试录音、答案、项目代码或企业验证。
+类别：
+  面经复盘
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    06-09面试，年未显示
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    06-11
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    原文正文全文已读（网页工具）
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      蚂蚁集团
+    档位：
+      未披露
+    状态：
+      failure_self_report
+    证据：
+      https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post
+    依据：
+      作者末段以失败口吻复盘；没有正式结果材料
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  06-11
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  failure_self_report
+related_record_ids：
+  —
+latest_time_and_question_review：
+  record_id：
+    INT40
+  标题：
+    智能体与大模型应用工程实习 一面
+  原始来源：
+    https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=post
+  统一分类：
+    方向：
+      Agent工程
+    招聘类型：
+      实习
+    event_year：
+      未核／无
+    事件年份可证：
+      否
+  作者：
+    display_name：
+      End__
+    public_profile：
+      https://www.nowcoder.com/users/596670042
+  navigation_evidence：
+    method：
+      网页工具实际读作者主页；点击作者主页该篇的直接链接取得原站正文。
+    direct_post_link：
+      https://www.nowcoder.com/discuss/894720138258173952?sourceSSR=users
+    actual_read：
+      原帖正文 53—86 行，共 24 条问题与反问、感想；页面作者链接与主页一致。
+    same_author_navigation：
+      - 原始来源：
+          https://www.nowcoder.com/discuss/895391376861298688?sourceSSR=users
+        范围：
+          主页直接链接唯品会 6-12 一面；单篇访问空壳，未算新全文。
+      - 原始来源：
+          https://www.nowcoder.com/discuss/897182657816162304?sourceSSR=users
+        范围：
+          主页直接链接唯品会 6-18 二面；单篇访问空壳，未算新全文。
+    profile_scope：
+      9 篇公开导航；主页正文预览有 Agent 任务、准确率、失败恢复等问题，但都只显示月日，未找到明确年份的本人汇总。
+  time_evidence：
+    event_date：
+      6-09
+    publication：
+      06-11 22:58（原帖与主页均无年）
+    conclusion：
+      事件只有月日。主页届别、同期帖子、SDD/Skill 等技术词和网页当前年份均不能用于补年。
+  project_followup：
+    recorded_question_chains：
+      - 两级缓存 → 哪条链路需要 → 更新、过期与实际负载依据
+      - 异步订单 → 在个人机器如何测试 → 一次处理的场景 → 删除集合时服务故障
+      - Spring AI 选型 → 与 Python 的比较 → RAG 导入与 BM25 → 多轮循环与模型选择
+    project_ownership_limit：
+      同作者原帖能确认项目描述关联，但没有可对应代码仓库或完整简历。
+    answer_scope：
+      面试回忆与失败口吻。Redis 持久化的面试官轶事不作为技术事实；提问不是实现证明。
+  result：
+    状态：
+      failure_self_report
+    依据：
+      末段以失败口吻复盘；没有正式结果材料
+    ssp：
+      未披露
+  recommended_update：
+    可增加本人主页及可读 sourceSSR=users 作为阅读备用链接；日期仍仅月日。

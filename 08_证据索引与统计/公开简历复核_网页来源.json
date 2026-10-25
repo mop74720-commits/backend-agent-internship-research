@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "candidate_id": "CV23",
+      "kind": "web",
+      "url": "https://zhh2001.github.io/resume",
+      "final_url": "https://zhh2001.github.io/resume",
+      "status": 200,
+      "bytes": 29811,
+      "local_file": "03_简历与候选人案例/公开简历原件/网页来源/CV23_公开网页原始来源.html.txt",
+      "sha256": "f199baf089f6ebc8de22fc711eaec0d261abde092cab6ba66bb2a99e381cb8e3"
+    },
+    {
+      "candidate_id": "CV23",
+      "kind": "md",
+      "url": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md",
+      "final_url": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md",
+      "status": 200,
+      "bytes": 7268,
+      "local_file": "03_简历与候选人案例/公开简历原件/网页来源/CV23_公开网页原始来源.md",
+      "sha256": "f686c5f7d9f5cf124f45a29d8d18ad6fed910ed12b419db23ce4c3f687124842"
+    },
+    {
+      "candidate_id": "CV28",
+      "kind": "web",
+      "url": "https://davidhlp.github.io/about/",
+      "final_url": "https://davidhlp.github.io/about/",
+      "status": 200,
+      "bytes": 42325,
+      "local_file": "03_简历与候选人案例/公开简历原件/网页来源/CV28_公开网页原始来源.html.txt",
+      "sha256": "413768585f272887a4c873fbd192069fa2336aceb7876e32251d0c32ac0d0173"
+    },
+    {
+      "candidate_id": "CV28",
+      "kind": "md",
+      "url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md",
+      "final_url": "https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/information/zh-cn/introduction.md",
+      "status": 200,
+      "bytes": 13547,
+      "local_file": "03_简历与候选人案例/公开简历原件/网页来源/CV28_公开网页原始来源.md",
+      "sha256": "7f00c4ee233fd67db151e7ccdca545315731b667f79445255f7564be70d2b2a1"
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "research_date": "2026-10-23",
+  "recent_window": [
+    "2024-10-23",
+    "2026-10-23"
+  ],
+  "scope": "公开完整CV脱敏研究对照与核心近期后端/Agent实习履历片段；无企业录用独立核验",
+  "privacy_method": "未将未脱敏PDF或联系方式写入文件；所有副本与JSON均排除联系信息",
+  "complete_redacted_comparison_cvs": [
+    {
+      "key": "gty111",
+      "author": "郭天宇 / Tianyu Guo",
+      "track": "AI Infra与Code Agent训练系统对照",
+      "home": "https://gty111.github.io/info/index.html",
+      "live_pdf": "https://gty111.github.io/info/doc/resume.pdf",
+      "repo": "gty111/gty111.github.io",
+      "sha": "9a56393b93ff495dfef1587ff995fbc96a98c4c1",
+      "path": "source/info/doc/resume.pdf",
+      "commit_date": "2026-06-14T00:54:56Z",
+      "modules": [
+        "Education",
+        "Skills",
+        "Publications",
+        "Experience and Projects",
+        "Honors and Awards"
+      ],
+      "outcomes": [
+        {
+          "company": "腾讯混元",
+          "role": "Intern",
+          "time": "2026.03–至今",
+          "basis": "本人主页Experience；PDF的Scheduling for RL Training直接标注Tencent Hunyuan Intern"
+        },
+        {
+          "company": "小红书Hilab",
+          "role": "RedStar Intern",
+          "time": "2025.08–2025.12",
+          "basis": "本人主页Experience；PDF的REDServe直接标注RedNote Hilab Intern"
+        },
+        {
+          "company": "Moonshot AI",
+          "role": "Intern",
+          "time": "2025.12–2026.03",
+          "basis": "本人主页Experience；不将此经历误写为PDF已列出的项目"
+        }
+      ],
+      "analysis": "博士履历，突出LLM serving、KV cache、RL路由和PD分离。gLLM/EFIM有本人主页直链，简历将系统项目与实习职责相连；不等于普通Agent应用开发门槛。",
+      "projects": [
+        {
+          "name": "gLLM",
+          "url": "https://github.com/gty111/gLLM",
+          "relation": "本人主页直接链接；PDF直接点名本人参与的分布式LLM serving研究",
+          "caveat": "研究合作项目，不把整仓算独立开发"
+        },
+        {
+          "name": "EFIM",
+          "url": "https://github.com/gty111/EFIM",
+          "relation": "本人主页直接链接；PDF直接点名腾讯Code Buddy实习项目（2024，历史）",
+          "caveat": "不把2024实习计入近两年新获实习"
+        },
+        {
+          "name": "SGLang PR #12263",
+          "url": "https://github.com/sgl-project/sglang/pull/12263",
+          "relation": "PDF Skills直接点名该PR",
+          "caveat": "本分支尚未核PR作者与修改内容，不能称已审贡献"
+        }
+      ],
+      "limits": [
+        "无本人求职面经",
+        "未披露SSP档位",
+        "研究/Infra对照，不能冲抵后端或Agent应用工程完整简历缺口",
+        "论文和性能数据为作者自述，未复现实验"
+      ],
+      "fixed_pdf_url": "https://raw.githubusercontent.com/gty111/gty111.github.io/9a56393b93ff495dfef1587ff995fbc96a98c4c1/source/info/doc/resume.pdf",
+      "original_sha256": "daa1b3aaac7287f0fda3af1c3faee1a68b7c1ed753e0ff683a42222bdc15fd42",
+      "source_status": 200,
+      "original_saved": false,
+      "local_path": "03_简历与候选人案例/履历对照_脱敏副本/gty111_公开简历_脱敏副本.pdf",
+      "redacted_sha256": "cd3862385fab3d43dee93cb913d011b1e5cd814d7c960ffbc9c3fd53d7bccce1",
+      "pages": 2,
+      "professional_modules_complete": true,
+      "packaging_type": "公开完整履历的整理者脱敏PDF副本，不是原始未修改文件",
+      "redaction": {
+        "operations": [
+          "移除首页教育模块之前的个人信息/联系区（含姓名）",
+          "删除所有可点击链接注释以清除隐藏联系方式",
+          "清除原始PDF元数据及XML元数据",
+          "扫描全页邮箱/电话/微信/地址标记",
+          "保留完整教育、经历、项目、论文、技能与专业其他模块（原文件有的全部保留）"
+        ],
+        "redaction_regions": 1,
+        "removed_link_annotations": 20,
+        "visible_contact_email_or_phone_after": false,
+        "image_or_qr_count": 0,
+        "visual_review": "两页逐页渲染目视检查通过：未见联系方式/二维码，正文完整可读，无裁切",
+        "visible_url_kinds": "页面原有的专业项目/论文/机构等可见文本可能保留；链接注释已全部移除；原来源/项目URL由JSON列明",
+        "professional_body_text_identical_after_header_removal": true,
+        "page_link_annotations_after": 0,
+        "nonformat_metadata_fields_after": []
+      },
+      "outcome_grade": "未披露",
+      "enterprise_verified": false,
+      "core_application_engineering_sample": false,
+      "full_core_internship_resume_gap_closed": false
+    },
+    {
+      "key": "Zhongzhi660",
+      "author": "李忠智 / Zhongzhi Li",
+      "track": "Agent算法研究对照",
+      "home": "https://zhongzhi660.github.io/personal_website/",
+      "live_pdf": "https://zhongzhi660.github.io/personal_website/data/resume.pdf",
+      "repo": "Zhongzhi660/personal_website",
+      "sha": "6c910277e2f6bc740d431809d53f6808959c9eb9",
+      "path": "data/resume.pdf",
+      "commit_date": "2026-08-25T03:24:10Z",
+      "modules": [
+        "Education",
+        "Research projects & Interests",
+        "Intern Experience",
+        "Awards & Achievements",
+        "Skills"
+      ],
+      "outcomes": [
+        {
+          "company": "腾讯",
+          "role": "Agent Algorithm Intern",
+          "time": "2026.05–至今",
+          "basis": "本人站index.html的Experience明确列出；PDF版本较旧，没有这段"
+        },
+        {
+          "company": "X Square Robot",
+          "role": "Robotics Algorithm Intern",
+          "time": "2025.05–2025.07",
+          "basis": "本人站index.html；PDF没有这段"
+        }
+      ],
+      "analysis": "官网履历明确近期腾讯Agent算法实习；两页PDF保留教育、科研、过往实习、奖项与技术技能。PDF与官网经历不同步，必须分别引用，不能拼成同一投递版本。",
+      "projects": [
+        {
+          "name": "FAC-Synthesis",
+          "url": "https://github.com/Zhongzhi660/FAC-Synthesis",
+          "relation": "本人站论文code直接链接；PDF直接描述Feature Activation Coverage研究",
+          "caveat": "尚未按提交记录细分个人代码贡献；不能倒推2026腾讯实习由该项目带来"
+        },
+        {
+          "name": "长程Terminal任务/后训练研究",
+          "url": "https://zhongzhi660.github.io/personal_website/",
+          "relation": "本人主页当前研究方向与论文材料",
+          "caveat": "不是已核完整Agent应用工程求职项目"
+        }
+      ],
+      "limits": [
+        "当前官网与PDF有版本差异",
+        "没有本人面经",
+        "没有SSP自述",
+        "研究方向单列，不计核心应用工程完整简历",
+        "尚未核企业录用"
+      ],
+      "fixed_pdf_url": "https://raw.githubusercontent.com/Zhongzhi660/personal_website/6c910277e2f6bc740d431809d53f6808959c9eb9/data/resume.pdf",
+      "original_sha256": "fde3114ec04a7c6c6316ffe7530962bb6008525e704e7fd960af411de79bb472",
+      "source_status": 200,
+      "original_saved": false,
+      "local_path": "03_简历与候选人案例/履历对照_脱敏副本/Zhongzhi660_公开简历_脱敏副本.pdf",
+      "redacted_sha256": "e749d4cafe2c4eb1b9dadf57bd206bf4371739ed7619b65a3a9bb7661a05925d",
+      "pages": 2,
+      "professional_modules_complete": true,
+      "packaging_type": "公开完整履历的整理者脱敏PDF副本，不是原始未修改文件",
+      "redaction": {
+        "operations": [
+          "移除首页教育模块之前的个人信息/联系区（含姓名）",
+          "删除所有可点击链接注释以清除隐藏联系方式",
+          "清除原始PDF元数据及XML元数据",
+          "扫描全页邮箱/电话/微信/地址标记",
+          "保留完整教育、经历、项目、论文、技能与专业其他模块（原文件有的全部保留）"
+        ],
+        "redaction_regions": 1,
+        "removed_link_annotations": 5,
+        "visible_contact_email_or_phone_after": false,
+        "image_or_qr_count": 0,
+        "visual_review": "两页逐页渲染目视检查通过：未见联系方式/二维码，正文完整可读，无裁切",
+        "visible_url_kinds": "页面原有的专业项目/论文/机构等可见文本可能保留；链接注释已全部移除；原来源/项目URL由JSON列明",
+        "professional_body_text_identical_after_header_removal": true,
+        "page_link_annotations_after": 0,
+        "nonformat_metadata_fields_after": []
+      },
+      "outcome_grade": "未披露",
+      "enterprise_verified": false,
+      "core_application_engineering_sample": false,
+      "full_core_internship_resume_gap_closed": false
+    },
+    {
+      "key": "Zhang-Henry",
+      "author": "Hanrong Zhang",
+      "track": "Agent研究实习对照",
+      "home": "https://zhang-henry.github.io/",
+      "live_pdf": "https://zhang-henry.github.io/assets/pdf/CV_Hanrong_Zhang.pdf",
+      "repo": "Zhang-Henry/zhang-henry.github.io",
+      "sha": "2e8c9924537d823d07ea8470ddeff0ae99d14bf7",
+      "path": "assets/pdf/CV_Hanrong_Zhang.pdf",
+      "commit_date": "2026-10-20T20:59:07Z",
+      "modules": [
+        "EDUCATION",
+        "INTERNSHIP",
+        "RESEARCH EXPERIENCE",
+        "OPEN-SOURCE PROJECTS",
+        "INVITED TALKS",
+        "ACADEMIC SERVICE"
+      ],
+      "outcomes": [
+        {
+          "company": "阿里巴巴",
+          "role": "Research Intern",
+          "time": "2025.05–2025.08",
+          "basis": "本人主页与PDF INTERNSHIP均明确，工作为人机多轮Agent交互RL研究"
+        },
+        {
+          "company": "Google",
+          "role": "Student Researcher",
+          "time": "2026.05–至今",
+          "basis": "本人主页与PDF INTERNSHIP均明确，工作为GUI Agent数据合成及benchmark"
+        }
+      ],
+      "analysis": "两页博士履历直接展示Agent安全评测、自演化技能、图记忆和科研工作台贡献，适合观察研究问题、个人贡献、评测与边界怎样写在一起；不代表普通应用工程实习或SSP标准。",
+      "projects": [
+        {
+          "name": "Agent Security Bench",
+          "url": "https://github.com/agiresearch/ASB",
+          "relation": "本人主页和PDF研究经历直接点名，标注first author",
+          "caveat": "多人研究仓库；不能将整仓工作全部归作者独立完成"
+        },
+        {
+          "name": "CoEvoSkills",
+          "url": "https://github.com/Zhang-Henry/CoEvoSkills",
+          "relation": "本人主页和PDF直接点名，标注first author",
+          "caveat": "本分支未运行，结果是简历宣称而非复现"
+        },
+        {
+          "name": "Dr. Claw",
+          "url": "https://github.com/OpenLAIR/dr-claw",
+          "relation": "PDF OPEN-SOURCE PROJECTS直接标注second author/core contributor",
+          "caveat": "协作项目，未逐commit审个人实现范围；不能当2025阿里求职时项目"
+        }
+      ],
+      "limits": [
+        "博士研究方向，不冲抵核心后端/Agent应用工程简历缺口",
+        "无本人求职面经",
+        "未披露SSP档位",
+        "2026项目不能回填为2025阿里录用时项目",
+        "未运行项目/评测"
+      ],
+      "fixed_pdf_url": "https://raw.githubusercontent.com/Zhang-Henry/zhang-henry.github.io/2e8c9924537d823d07ea8470ddeff0ae99d14bf7/assets/pdf/CV_Hanrong_Zhang.pdf",
+      "original_sha256": "290a7ea7542f57ee2172b863be940fddf65b309017ba0e59b5884328f53b0b48",
+      "source_status": 200,
+      "original_saved": false,
+      "local_path": "03_简历与候选人案例/履历对照_脱敏副本/Zhang-Henry_公开简历_脱敏副本.pdf",
+      "redacted_sha256": "d712f0649064cdf8874a963a9590d4362e66fc5a95156caf772e8ca9c6999e74",
+      "pages": 2,
+      "professional_modules_complete": true,
+      "packaging_type": "公开完整履历的整理者脱敏PDF副本，不是原始未修改文件",
+      "redaction": {
+        "operations": [
+          "移除首页教育模块之前的个人信息/联系区（含姓名）",
+          "删除所有可点击链接注释以清除隐藏联系方式",
+          "清除原始PDF元数据及XML元数据",
+          "扫描全页邮箱/电话/微信/地址标记",
+          "保留完整教育、经历、项目、论文、技能与专业其他模块（原文件有的全部保留）"
+        ],
+        "redaction_regions": 1,
+        "removed_link_annotations": 29,
+        "visible_contact_email_or_phone_after": false,
+        "image_or_qr_count": 0,
+        "visual_review": "两页逐页渲染目视检查通过：未见联系方式/二维码，正文完整可读，无裁切",
+        "visible_url_kinds": "页面原有的专业项目/论文/机构等可见文本可能保留；链接注释已全部移除；原来源/项目URL由JSON列明",
+        "professional_body_text_identical_after_header_removal": true,
+        "page_link_annotations_after": 0,
+        "nonformat_metadata_fields_after": []
+      },
+      "outcome_grade": "未披露",
+      "enterprise_verified": false,
+      "core_application_engineering_sample": false,
+      "full_core_internship_resume_gap_closed": false
+    }
+  ],
+  "new_core_partial_profiles": [
+    {
+      "key": "Asthenia0412",
+      "author": "Stochastic / Asthenia0412",
+      "url": "https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md",
+      "repo": "Asthenia0412/Asthenia0412",
+      "sha": "61058d605bbf82efeb0ef451d77d1b049c71a20e",
+      "commit_date": "2026-09-26T06:13:24Z",
+      "reading": "完整profile README已读；非完整CV",
+      "profile_type": "本人GitHub公开履历片段",
+      "track": "后端与Agent应用工程",
+      "recruitment": "实习",
+      "recent_status": "近期确认（作者自述事件时间）",
+      "outcomes": [
+        {
+          "company": "TikTok LIVE",
+          "role": "Backend Engineer Intern",
+          "time": "2026.09–至今",
+          "evidence_lines": "L50–53",
+          "responsibilities": "直播后台、高并发、基础设施"
+        },
+        {
+          "company": "TikTok Monetization",
+          "role": "Backend Engineer Intern",
+          "time": "2026.01–2026.09",
+          "evidence_lines": "L58–61",
+          "responsibilities": "通信基础设施、消息系统、可靠性"
+        },
+        {
+          "company": "Anker Innovations",
+          "role": "Backend Engineer Intern",
+          "time": "2025.09–2025.12",
+          "evidence_lines": "L66–69",
+          "responsibilities": "后台服务与AI Agent工程"
+        },
+        {
+          "company": "Valiantsec",
+          "role": "Backend Engineer Intern",
+          "time": "2025.06–2025.08",
+          "evidence_lines": "L74–77",
+          "responsibilities": "企业后台系统"
+        }
+      ],
+      "grade": "未披露",
+      "enterprise_verified": false,
+      "skills": [
+        "Go",
+        "Java",
+        "分布式系统",
+        "高并发",
+        "云原生",
+        "AI Infra"
+      ],
+      "projects": [
+        {
+          "name": "AsTimeWheel",
+          "url": "https://github.com/Asthenia0412/AsTimeWheel/tree/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc",
+          "sha": "b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc",
+          "read_scope": "README完整读取、仓库非fork元数据",
+          "relation": "同账号非fork仓库，profile没有点名具体项目",
+          "status": "不可称已核用于求职或由其带来录用",
+          "content": "Java哈希时间轮调度中间件，README宣称单线程调度、延迟任务、重试资源管理；本分支未读实现、未运行"
+        }
+      ],
+      "missing": [
+        "完整CV（教育和项目模块）",
+        "本人面经",
+        "SSP档位",
+        "求职时项目与个人贡献范围"
+      ],
+      "access": [
+        {
+          "url": "https://asthenia0412.github.io/",
+          "status": 404,
+          "meaning": "本人profile直接链接的博客当前不可读"
+        }
+      ],
+      "is_new_core_partial_profile": true,
+      "is_full_resume": false
+    }
+  ],
+  "counts": {
+    "redacted_complete_comparison_pdf_files": 3,
+    "new_core_complete_resume_files": 2,
+    "new_core_partial_profiles": 1,
+    "new_verified_ssp": 0,
+    "new_core_complete_public_html_profiles": 1,
+    "new_core_complete_pdf_files": 1,
+    "new_core_authored_project_materials": 1
+  },
+  "search_method": "Web搜索中英求职/个人主页/履历PDF关键词，追作者GitHub主页和固定提交；不因同账号仓库认定求职项目",
+  "remaining_gap": "已新增近期Go后端完整公开HTML履历1份和Agent应用工程公开完整PDF脱敏副本1份；后者为Philips，未披露SSP，无企业源码和本人面经。中国互联网大厂近期Agent SSP完整链仍未闭合。",
+  "new_core_complete_profiles": [
+    {
+      "key": "zhh2001",
+      "author": "张恒华 / Henghua Zhang",
+      "track": "后端",
+      "recruitment": "实习",
+      "recent_status": "近期确认（作者明确起止时间，自述未企业核验）",
+      "url": "https://zhh2001.github.io/resume",
+      "source_url": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md",
+      "repo": "zhh2001/zhh2001.github.io",
+      "sha": "bdd665acc8d73c80aefc7260fdeeef598fabf48f",
+      "commit_date": "2026-10-22T09:31:51Z",
+      "source_status": 200,
+      "original_sha256": "f686c5f7d9f5cf124f45a29d8d18ad6fed910ed12b419db23ce4c3f687124842",
+      "original_saved": false,
+      "profile_type": "完整公开HTML履历的脱敏专业模块副本",
+      "is_full_public_profile": true,
+      "complete_as_published": true,
+      "all_original_professional_modules_preserved": [
+        "教育背景",
+        "科研成果",
+        "学术服务",
+        "实习经历",
+        "获奖情况",
+        "技能证书",
+        "项目经历"
+      ],
+      "local_html": "03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏副本.html",
+      "local_markdown": "03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏转录.md",
+      "redacted_html_sha256": "4a94d6692baabdee13188abc7b643f206210c853b38b4e743c3f61e5d0f2f5ba",
+      "redacted_markdown_sha256": "17ef5ed4ad97d8cbed36e9784d0c23e1f39bbb0552dc2a102fc406daea2a1e35",
+      "redaction": {
+        "removed_contact_lines": 3,
+        "removed_frontmatter": true,
+        "email_phone_pattern_after": false,
+        "external_images": 0,
+        "visual_review": "桌面1100px及手机390px浏览器渲染目视通过，7个专业模块齐全，无页面横向溢出，无脚本错误"
+      },
+      "outcomes": [
+        {
+          "company": "莉莉丝游戏",
+          "role": "Golang后端实习",
+          "time": "2026.03–2026.06",
+          "grade": "未披露",
+          "basis": "原稿实习经历与项目经历共同直接列出",
+          "project": "LiLAC本地化平台",
+          "evidence_url": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md"
+        },
+        {
+          "company": "上海简文私募基金",
+          "role": "Golang全栈实习",
+          "time": "2025.09–2026.03",
+          "grade": "未披露",
+          "basis": "原稿实习经历直接列出；项目列LC-Event、LC-SBL及分析工具",
+          "evidence_url": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md"
+        },
+        {
+          "company": "网易游戏",
+          "role": "游戏客户端实习",
+          "time": "2026.09–至今",
+          "grade": "未披露",
+          "basis": "原稿直接列出，非后端/Agent，不计对应成功样本",
+          "evidence_url": "https://raw.githubusercontent.com/zhh2001/zhh2001.github.io/bdd665acc8d73c80aefc7260fdeeef598fabf48f/docs/resume.md"
+        }
+      ],
+      "projects": [
+        {
+          "name": "LiLAC本地化平台",
+          "time": "2026.03–2026.06",
+          "role": "Golang后端工程师",
+          "owner": "莉莉丝游戏",
+          "relation": "履历直接点名实习公司与本人角色",
+          "source_code": null,
+          "read_scope": "项目名称/时间/角色，不含实现细节",
+          "contribution_verified": false
+        },
+        {
+          "name": "LC-Event交易平台",
+          "time": "2025.09–2026.03",
+          "role": "Golang全栈工程师",
+          "owner": "简文投资",
+          "relation": "履历直接点名公司和本人角色",
+          "source_code": null,
+          "read_scope": "项目名称/时间/角色，不含实现细节",
+          "contribution_verified": false
+        },
+        {
+          "name": "LC-SBL海外借券",
+          "time": "2025.09–2026.03",
+          "role": "Python后端工程师",
+          "owner": "简文投资",
+          "relation": "履历直接点名公司和本人角色",
+          "source_code": null,
+          "read_scope": "项目名称/时间/角色，不含实现细节",
+          "contribution_verified": false
+        }
+      ],
+      "enterprise_verified": false,
+      "ssp_confirmed": false,
+      "interview_material": null,
+      "reading": "固定源文件全部专业模块与公开HTML正文核读",
+      "recommendation": "可精读时间线与项目主体/角色的对应；无法从本材料分析项目实现深度。作为Go后端成功实习真实履历样本，比模板或仅offer自述更直接，但不能当作项目技术栈充分样本。",
+      "limitations": [
+        "原稿技术技能主要列证书，没有详细技术栈能力分级",
+        "项目仅名称、角色和时间，没有职责与结果",
+        "企业项目未公开源码",
+        "无本人面经",
+        "无SSP档位",
+        "不是求职投递当时版本证明"
+      ]
+    }
+  ],
+  "new_core_complete_pdf_profiles": [
+    {
+      "key": "huomalxq",
+      "author": "林祥庆 / Huoma LXQ",
+      "track": "Agent应用工程",
+      "home": "https://huomalxq.github.io/resume/",
+      "live_pdf": "https://huomalxq.github.io/assets/files/resume.pdf",
+      "repo": "huomalxq/huomalxq.github.io",
+      "sha": "6b8add7398dcbf1f79fd4c850b0c0b047344bc4d",
+      "path": "docs/assets/files/resume.pdf",
+      "commit_date": "2026-06-15T06:03:59Z",
+      "modules": [
+        "教育经历",
+        "项目/科研经历",
+        "实习经历",
+        "获奖情况"
+      ],
+      "outcomes": [
+        {
+          "company": "Philips",
+          "role": "Agent开发实习生（苏州）",
+          "time": "2026.03–2026.05",
+          "basis": "本人公开PDF和HTML均明确职位与时间；均无企业独立核验"
+        },
+        {
+          "company": "上海诺基亚贝尔",
+          "role": "后端开发/数据清洗实习生（杭州）",
+          "time": "2023.09–2024.01",
+          "basis": "本人PDF/HTML，历史经历不计近期"
+        }
+      ],
+      "analysis": "硕士公开完整单页CV，近期Philips Agent应用工程实习对应LangGraph问数链路，职责具体到表结构检索、SQL校验与重试、耗时测试；履历指标为自述。Philips为跨国企业，不将其写成中国互联网大厂SSP。",
+      "projects": [
+        {
+          "name": "自然语言问数/数据分析Agent后端",
+          "url": "https://huomalxq.github.io/study/data-analysis-agent/",
+          "relation": "简历直接写Philips问数Agent职责，主页Internship卡片和本人后端复盘呼应；复盘正文未写公司名",
+          "caveat": "无公开实现源码，本材料只能审职责与设计说明，不能称源码验证"
+        },
+        {
+          "name": "Teco-RAG竞赛",
+          "url": "https://huomalxq.github.io/study/teco-rag-project-summary/",
+          "relation": "CV获奖和本人站学习记录直接列出",
+          "caveat": "本分支未核竞赛官网，不将自述结果叫企业认证"
+        }
+      ],
+      "limits": [
+        "未披露SSP",
+        "没有本人求职面经",
+        "企业Agent项目没有公开源码",
+        "文中性能/召回指标未经本地复现",
+        "完整CV是实习之后公开版，不等于当时投递版",
+        "后训练科研项目不等于实习岗位全部要求"
+      ],
+      "fixed_pdf_url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/assets/files/resume.pdf",
+      "original_sha256": "5b81955d82f3fe3d0d609ef29ac12dd9a734e75295927a2277a7e2def0438bf6",
+      "source_status": 200,
+      "original_saved": false,
+      "local_path": "03_简历与候选人案例/核心Agent履历_脱敏副本/huomalxq_公开简历_脱敏副本.pdf",
+      "redacted_sha256": "5f16d57d06c6c4055469a445066fb756f48da6e3c62aacb9f5d9e175b8a39ab3",
+      "pages": 1,
+      "professional_modules_complete": true,
+      "packaging_type": "公开完整履历的整理者脱敏PDF副本，不是原始未修改文件",
+      "redaction": {
+        "operations": [
+          "移除首页教育模块之前的个人信息/联系区（含姓名）",
+          "删除所有可点击链接注释以清除隐藏联系方式",
+          "清除原始PDF元数据及XML元数据",
+          "扫描全页邮箱/电话/微信/地址标记",
+          "保留完整教育、经历、项目、论文、技能与专业其他模块（原文件有的全部保留）"
+        ],
+        "redaction_regions": 1,
+        "removed_link_annotations": 1,
+        "visible_contact_email_or_phone_after": false,
+        "image_or_qr_count": 0,
+        "visual_review": "单页完整渲染目视通过，教育/项目科研/实习/获奖全部完整可读，未见联系方式或二维码",
+        "visible_url_kinds": "页面原有的专业项目/论文/机构等可见文本可能保留；链接注释已全部移除；原来源/项目URL由JSON列明",
+        "professional_body_text_identical_after_header_removal": true,
+        "page_link_annotations_after": 0,
+        "nonformat_metadata_fields_after": []
+      },
+      "outcome_grade": "未披露",
+      "enterprise_verified": false,
+      "core_application_engineering_sample": true,
+      "full_core_internship_resume_gap_closed": false,
+      "is_full_public_profile": true,
+      "complete_as_published": true,
+      "resume_file_format": "PDF",
+      "source_role_scope": "非中国互联网大厂，Philips应用工程实习",
+      "recruitment": "实习",
+      "recent_status": "近期确认（作者自述）",
+      "specific_progress": "新增1份Agent应用工程成功实习完整公开CV；中国互联网大厂Agent SSP完整链仍未闭合"
+    }
+  ],
+  "new_core_authored_project_materials": [
+    {
+      "name": "数据分析Agent后端",
+      "author": "林祥庆 / huomalxq",
+      "source_url": "https://raw.githubusercontent.com/huomalxq/huomalxq.github.io/6b8add7398dcbf1f79fd4c850b0c0b047344bc4d/docs/study/data-analysis-agent.md",
+      "sha": "6b8add7398dcbf1f79fd4c850b0c0b047344bc4d",
+      "local_path": "06_项目分析与推荐/补充本人项目材料/huomalxq_数据分析Agent后端_本人复盘.md",
+      "source_sha256": "b04c4974b4592c9d2dffe8c83a1e5ad0d2075e7c41626e554de1f2c950378f55",
+      "source_kind": "本人技术复盘，非公开实现源码",
+      "reading": "113行全文已读",
+      "run_status": "未运行",
+      "relationship_to_internship": "简历直接标注Philips自然语言问数职责，主页Internship卡片和复盘领域相同；复盘未写公司名，不把未公开源码或全部系统归为已验证贡献",
+      "declared_stack": [
+        "FastAPI",
+        "LangGraph",
+        "vLLM",
+        "Ollama embedding",
+        "Milvus",
+        "Vertica",
+        "PostgreSQL"
+      ],
+      "declared_modules": [
+        "意图识别",
+        "实体/表结构/字典多路检索",
+        "SQL生成",
+        "小样本校验与至多3次重试",
+        "查询执行及超时",
+        "结果分析与图表配置",
+        "召回/耗时测试脚本"
+      ],
+      "state": "文档宣称，无法源码核对",
+      "strengths": [
+        "职责和业务链路具体，超出单次模型API调用",
+        "把失败类型分解为schema召回、SQL方言、执行代价和图表解析",
+        "先测召回和节点耗时，再对整体改进作解释"
+      ],
+      "limitations_from_author": [
+        "明文配置待迁移到环境变量或密钥管理",
+        "绝对路径待改相对路径",
+        "内存checkpoint拟换Redis以支持重启恢复",
+        "更严格SQL parser校验待做",
+        "标准评测集待建立",
+        "缓存优化待做"
+      ],
+      "static_review": "作者明确列出SQL parser更严格安全校验、状态持久化和标准评测集待完善；文档描述prompt SELECT约束、正则和LIMIT，未提供租户授权或数据库权限隔离实现证据。无法据此认定已实现严格SQL授权/租户隔离；该判断基于文档，不是源码审计。",
+      "recommended_modules": [
+        "L9–20本人职责",
+        "L49–79失败处理",
+        "L90–98指标定义",
+        "L106–113作者自列未完成项"
+      ],
+      "metrics_boundary": "CV写61.4%→81.6%召回、50s→30s响应；复盘列后续应跟踪指标，无数据集/硬件/误差区间，不当已复现实验",
+      "offer_grade": "未披露，不是SSP证据"
+    }
+  ],
+  "search_log": [
+    {
+      "path": "中文CV/本人简历检索",
+      "queries": [
+        "github 后端 实习 offer 简历 pdf 2025",
+        "2025 实习 我的简历 github 后端",
+        "后端 2026 我的简历",
+        "后端 2025 简历 实习经历 github.io"
+      ],
+      "result": "多数模板和求职未成功者；找到zhh2001作者完整HTML履历，继续核固定源文件"
+    },
+    {
+      "path": "英文个人主页/PDF检索",
+      "queries": [
+        "2025 ByteDance Intern resume.pdf GitHub",
+        "2025 Tencent Intern resume github.io",
+        "2025 Alibaba intern cv.pdf github",
+        "Backend Engineer Intern 2025 resume github.io"
+      ],
+      "result": "找到3份研究/Infra公开完整PDF，方向单列；Asthenia后端近期profile，完整CV未找到"
+    },
+    {
+      "path": "Agent应用与实习具体关键词",
+      "queries": [
+        "Agent 实习 个人简历 -模板 -招聘",
+        "Agent 实习经历 简历 site:github.io",
+        "Agent 应用开发实习 简历 github",
+        "AI Engineer Intern 2025 China resume.pdf"
+      ],
+      "result": "找到huomalxq完整公开PDF、HTML及本人Agent后端复盘；核读固定源文件并脱敏"
+    }
+  ],
+  "excluded_leads": [
+    {
+      "url": "https://github.com/joeseesun/qiaomu-campus-resume",
+      "reason": "简历生成工具和脱敏demo，不能视为本人成功实习者简历"
+    },
+    {
+      "url": "https://github.com/zhn0504/Resume-Template-Chinese",
+      "reason": "模板示例，不认定字节实习为作者真实经历"
+    },
+    {
+      "url": "https://v2ex.com/t/1132555",
+      "reason": "正在求实习的履历，未核已成功录用"
+    },
+    {
+      "url": "https://github.com/Roadside-ph/Ai-interview-agent",
+      "reason": "8周求职冲刺学习计划，获得实习仍是目标"
+    },
+    {
+      "url": "https://liyicheng12138.cn/",
+      "reason": "Agent应用正式工作履历，2023.12–2025.03混写实习转正式，近期实习时间无法单独确定，非大厂明确样本；本轮只读发现未归档"
+    },
+    {
+      "url": "https://kl4805.github.io/files/cv_chinese.pdf",
+      "reason": "当前为博士毕业后天才少年正式研发工作，实习截至2024.04，不能计近两年实习；不再增加研究对照量"
+    }
+  ]
+}

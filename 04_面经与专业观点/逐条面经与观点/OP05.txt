@@ -1,0 +1,87 @@
+OP05 | 程序员简历编写指南（超详细）
+
+需求核对版 · 2026-10-24
+
+平台：
+  知乎+作者官网
+作者：
+  JavaGuide
+原始来源：
+  https://zhuanlan.zhihu.com/p/661113978
+作者原站：
+  https://interview.javaguide.cn/interview-preparation/resume-guide.html
+事件时间／原文日期（依分类）：
+  知乎2023-10-13；官网为持续更新页，修改日期未确认
+作者身份依据：
+  知乎显示JavaGuide项目作者，作者同名官网有对应内容；不推断其招聘权限。
+具体观点与适用边界：
+  项目精选而非堆数量，简要交代背景与技术，重点说明本人职责、解决问题和可量化改进。
+局限：
+  该文同时存在把非本人模块'吃透后拿来用'的建议，本报告不采纳：必须区分学习复现与本人贡献，指标应有可复现实验。
+商业与选择偏差：
+  作者官网推知识星球及面试产品；教程利益相关。
+原访问范围：
+  知乎访问范围不变；本轮作者官网正文可读并核对项目经历、技能、STAR/FAB及建议部分
+阅读建议：
+  采纳结构和量化方法；不照抄指标，不冒充实习或作者贡献。
+retrieved_at：
+  2026-10-23
+正文核读边界：
+  作者官网正文已核；不计知乎本体全文核验
+verified_video_viewing：
+  否
+root_recheck：
+  2026-10-23重读官网正文；仅采纳真实职责与问题/效果表达，不采纳把非本人工作写成个人贡献的建议。
+类别：
+  B站与知乎
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    未知
+  事件时间：
+    知乎2023-10-13；作者官网实际更新日期未知
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    不适用
+  时间依据：
+    专业观点发表/更新的日期，不是候选人的招聘事件；搜索推定不记确认年
+  来源日期：
+    知乎2023-10-13；官网为持续更新页，修改日期未确认
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    知乎访问范围不变；本轮作者官网正文可读并核对项目经历、技能、STAR/FAB及建议部分；作者官网正文已核验；不是知乎本体全文核验
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+  primary_platform_scope：
+    摘要/访问范围未变
+  substitute_original_scope：
+    部分
+  substitute_original_url：
+    https://interview.javaguide.cn/interview-preparation/resume-guide.html
+逐项结果与档位：
+  —
+本轮访问复核：
+  资料ID：
+    OP05
+  original_url：
+    https://zhuanlan.zhihu.com/p/661113978
+  author_site_url：
+    https://interview.javaguide.cn/interview-preparation/resume-guide.html
+  access_status：
+    沿用前轮作者官网实际正文阅读，本轮未重试知乎
+  正文核读边界：
+    作者官网正文已核；不计知乎本体全文核验
+  verified_video_viewing：
+    否
+  adoption_boundary：
+    采纳真实职责、问题和可验证效果表达；不采纳把非本人模块写成个人贡献的建议。

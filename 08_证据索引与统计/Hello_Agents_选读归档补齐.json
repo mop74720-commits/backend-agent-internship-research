@@ -1,0 +1,114 @@
+{
+  "projects": [
+    {
+      "id": "PRO13",
+      "title": "Hello-Agents 固定6文件源码选读",
+      "repo": "datawhalechina/hello-agents",
+      "source_url": "https://github.com/datawhalechina/hello-agents/tree/36f583c233ea5cee4537ef93455702b55053af18",
+      "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+      "archive_file": "Hello_Agents_固定源码选读.zip",
+      "archive_relative_path": "05_项目源码归档/Hello_Agents_固定源码选读.zip",
+      "archive_sha256": "271f736d59c25bc9ec1053f7f22d054f2bf516c8da8d741f3ebc26272b944a4a",
+      "archive_bytes": 19391,
+      "source_file_count": 6,
+      "zip_entry_count": 8,
+      "source_original_bytes": 44633,
+      "source_archived_bytes": 44633,
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "raw_url": "https://raw.githubusercontent.com/datawhalechina/hello-agents/36f583c233ea5cee4537ef93455702b55053af18/LICENSE.txt",
+          "source_url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/LICENSE.txt",
+          "http_status": 200,
+          "original_bytes": 20849,
+          "original_sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+          "archived_bytes": 20849,
+          "archived_sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+          "modified": false,
+          "modifications": []
+        },
+        {
+          "path": "code/chapter12/README.md",
+          "raw_url": "https://raw.githubusercontent.com/datawhalechina/hello-agents/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/README.md",
+          "source_url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/README.md",
+          "http_status": 200,
+          "original_bytes": 6496,
+          "original_sha256": "e5bfc8acf5db2e9674300ab461afe5fa823f53d6ac38bb347d37ee3dd4d1f78c",
+          "archived_bytes": 6496,
+          "archived_sha256": "e5bfc8acf5db2e9674300ab461afe5fa823f53d6ac38bb347d37ee3dd4d1f78c",
+          "modified": false,
+          "modifications": []
+        },
+        {
+          "path": "code/chapter12/03_bfcl_custom_evaluation.py",
+          "raw_url": "https://raw.githubusercontent.com/datawhalechina/hello-agents/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+          "source_url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+          "http_status": 200,
+          "original_bytes": 1701,
+          "original_sha256": "0b0a6e944b63c77649ae991ba3a45345c8cf27f50633c3f385f705ef3e6cf347",
+          "archived_bytes": 1701,
+          "archived_sha256": "0b0a6e944b63c77649ae991ba3a45345c8cf27f50633c3f385f705ef3e6cf347",
+          "modified": false,
+          "modifications": []
+        },
+        {
+          "path": "code/chapter12/04_run_bfcl_evaluation.py",
+          "raw_url": "https://raw.githubusercontent.com/datawhalechina/hello-agents/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/04_run_bfcl_evaluation.py",
+          "source_url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/04_run_bfcl_evaluation.py",
+          "http_status": 200,
+          "original_bytes": 9240,
+          "original_sha256": "4f376379b7b8b3ec2d3c08a765938a84e37244e0587cbcf5ffd62ecc3be5cd66",
+          "archived_bytes": 9240,
+          "archived_sha256": "4f376379b7b8b3ec2d3c08a765938a84e37244e0587cbcf5ffd62ecc3be5cd66",
+          "modified": false,
+          "modifications": []
+        },
+        {
+          "path": "code/chapter12/08_data_generation_llm_judge.py",
+          "raw_url": "https://raw.githubusercontent.com/datawhalechina/hello-agents/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/08_data_generation_llm_judge.py",
+          "source_url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/08_data_generation_llm_judge.py",
+          "http_status": 200,
+          "original_bytes": 5081,
+          "original_sha256": "c207ee302f320deb25acd97ae84eaf419161f179beef58c905d2c19fd3b4cb37",
+          "archived_bytes": 5081,
+          "archived_sha256": "c207ee302f320deb25acd97ae84eaf419161f179beef58c905d2c19fd3b4cb37",
+          "modified": false,
+          "modifications": []
+        },
+        {
+          "path": "code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+          "raw_url": "https://raw.githubusercontent.com/datawhalechina/hello-agents/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+          "source_url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+          "http_status": 200,
+          "original_bytes": 1266,
+          "original_sha256": "345cec3fd3a56ca4a1947da96402e259621562bb8964f2c3d045096d14070a50",
+          "archived_bytes": 1266,
+          "archived_sha256": "345cec3fd3a56ca4a1947da96402e259621562bb8964f2c3d045096d14070a50",
+          "modified": false,
+          "modifications": []
+        }
+      ],
+      "modified_files": 0,
+      "modifications": [],
+      "archive_scope": "6个指定许可、评测样例和依赖文件；非完整仓库，不含图片/共创项目。",
+      "source_nature": "Datawhale通用教材与评测参考，不是已核成功候选人的本人求职项目。",
+      "license_scope": {
+        "top_level": "CC-BY-NC-SA-4.0；原LICENSE.txt随包保留",
+        "chapter14_metadata": "所选chapter14研究助手pyproject.toml自行声明MIT，仅作为该子项目元数据声明记录",
+        "boundary": "章节和子目录许可范围分开，不把顶层CC或子项目MIT概括为全部软件同一许可；未读取或复制未选子目录的许可与实现。"
+      },
+      "use_boundary": "仅供当前本地研究；未对外发布、不执行第三方代码、不调用模型或评测服务。",
+      "retrieved_on": "2026-10-23",
+      "project_executed": false,
+      "integrity_test": {
+        "zip_testzip_passed": true,
+        "entry_count_verified": true,
+        "all_archived_file_sha256_verified": true,
+        "manifest_json_parsed": true,
+        "original_hashes_recorded": true,
+        "source_bytes_unchanged_when_no_modifications": true
+      },
+      "privacy_screening": "仅内存筛查邮箱、电话及常见凭据模式；命中值先脱敏再落盘，只记录类型数量；不等于全仓或所有隐私形式审计。"
+    }
+  ]
+}

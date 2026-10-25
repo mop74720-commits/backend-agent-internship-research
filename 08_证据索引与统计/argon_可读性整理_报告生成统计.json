@@ -1,0 +1,20 @@
+{
+  "main_report": "01_调研报告/实习求职调研总报告.html",
+  "pdf": "01_调研报告/实习求职调研总报告.pdf",
+  "intended_sections": 8,
+  "evidence_records": 239,
+  "project_cards": 25,
+  "new_resume_visual_assets": {
+    "core_candidates": 34,
+    "core_candidates_with_visual_material": 7,
+    "new_public_image_documents": 3,
+    "new_resume_fragments": 2,
+    "new_masked_resume_controls": 1,
+    "reused_pdf_documents": 6,
+    "reused_html_profiles": 2,
+    "new_original_pdf_documents": 0,
+    "new_core_complete_profiles": 0,
+    "new_verified_ssp_candidates": 0
+  },
+  "source": "现有主数据、岗位语义编码、面经项目归纳与视觉附件清单"
+}

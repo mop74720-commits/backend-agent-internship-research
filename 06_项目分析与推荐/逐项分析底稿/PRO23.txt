@@ -1,0 +1,274 @@
+PRO23 | QuantHarbor：多Agent状态与执行隔离风险对照
+
+需求核对版 · 2026-10-24
+
+source_key：
+  shufengc/QuantHarbor
+类别：
+  项目参考
+原始来源：
+  https://github.com/shufengc/QuantHarbor/tree/f0d6380e9846f84f10be5f284fec40d42cfb34f9
+作者：
+  shufengc及课程/第三方依赖作者
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    项目版本，非招聘事件
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  来源日期：
+    固定SHA，日期未独立核定
+  时间依据：
+    未写事件年
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    指定核心源码与README静态选读，范围见逐文件清单
+  实际观看视频：
+    否
+固定源码提交：
+  f0d6380e9846f84f10be5f284fec40d42cfb34f9
+逐项结果与档位：
+  —
+静态阅读发现：
+  - 状态：
+      已见实现
+    claim：
+      BaseAgent保存/恢复conversation、round、tool dependencies和executor state；迭代上限与每轮checkpoint
+    file：
+      src/agents/base_agent.py
+    ranges：
+      - L95–224
+      - L302–344
+      - L447–510
+  - 状态：
+      已见实现
+    claim：
+      异步代码executor执行模型代码并捕获stdout/stderr；提供完整Python builtins与os/sys，代码在线程池exec
+    file：
+      src/utils/code_executor_async.py
+    ranges：
+      - L25–73
+      - L253–307
+  - 状态：
+      静态风险
+    claim：
+      所谓sandbox没有在核读文件中建立进程/文件系统/网络权限隔离；不能据此称安全执行沙箱
+    file：
+      src/utils/code_executor_async.py
+    ranges：
+      - L25–73
+      - L266–279
+  - 状态：
+      静态风险
+    claim：
+      RAG pipeline导入src.agents.analyst_agent/retriever_agent/writer_agent，固定树实际在src_rag/agents；Web backend导入src.memory，固定树没有该模块。属于可直接核对的入口路径不一致，未执行验证
+    file：
+      src_rag/core/report_pipeline.py + demo/backend/app.py
+    ranges：
+      - report_pipeline.py L6–8
+      - app.py L20–23
+    tree_evidence：
+      重点补证_quant_tree.json，recursive树truncated=false
+  - 状态：
+      已见实现
+    claim：
+      LLMRouter捕获primary异常后尝试fallback；没有据此证明断点任务幂等/重试不重复外部副作用
+    file：
+      src_rag/core/llm_client.py
+    ranges：
+      - L60–66
+  - 状态：
+      文档宣称/未核
+    claim：
+      README宣称138PDF/4577页/8309chunks、长报告、citation tracing等；未复现，无独立任务成功率/成本/延迟benchmark；固定树未见单元/集成测试文件，smoke_test_providers.py仅可算provider脚本
+source_record：
+  name：
+    QuantHarbor
+  仓库：
+    shufengc/QuantHarbor
+  sha：
+    f0d6380e9846f84f10be5f284fec40d42cfb34f9
+  原始来源：
+    https://github.com/shufengc/QuantHarbor/tree/f0d6380e9846f84f10be5f284fec40d42cfb34f9
+  类别：
+    多Agent金融研究与RAG应用；当前静态风险需先核
+  ownership：
+    主页直接列为本人项目；迁移文档明确移除lecture目录运行依赖、从course-style文档转product-style文档；课程/外部框架原始来源与具体独立贡献尚未完整核清
+  许可标识：
+    LICENSE原文GNU GPL v3已读取；未归档运行环境或API密钥
+  findings：
+    - 状态：
+        已见实现
+      claim：
+        BaseAgent保存/恢复conversation、round、tool dependencies和executor state；迭代上限与每轮checkpoint
+      file：
+        src/agents/base_agent.py
+      ranges：
+        - L95–224
+        - L302–344
+        - L447–510
+    - 状态：
+        已见实现
+      claim：
+        异步代码executor执行模型代码并捕获stdout/stderr；提供完整Python builtins与os/sys，代码在线程池exec
+      file：
+        src/utils/code_executor_async.py
+      ranges：
+        - L25–73
+        - L253–307
+    - 状态：
+        静态风险
+      claim：
+        所谓sandbox没有在核读文件中建立进程/文件系统/网络权限隔离；不能据此称安全执行沙箱
+      file：
+        src/utils/code_executor_async.py
+      ranges：
+        - L25–73
+        - L266–279
+    - 状态：
+        静态风险
+      claim：
+        RAG pipeline导入src.agents.analyst_agent/retriever_agent/writer_agent，固定树实际在src_rag/agents；Web backend导入src.memory，固定树没有该模块。属于可直接核对的入口路径不一致，未执行验证
+      file：
+        src_rag/core/report_pipeline.py + demo/backend/app.py
+      ranges：
+        - report_pipeline.py L6–8
+        - app.py L20–23
+      tree_evidence：
+        重点补证_quant_tree.json，recursive树truncated=false
+    - 状态：
+        已见实现
+      claim：
+        LLMRouter捕获primary异常后尝试fallback；没有据此证明断点任务幂等/重试不重复外部副作用
+      file：
+        src_rag/core/llm_client.py
+      ranges：
+        - L60–66
+    - 状态：
+        文档宣称/未核
+      claim：
+        README宣称138PDF/4577页/8309chunks、长报告、citation tracing等；未复现，无独立任务成功率/成本/延迟benchmark；固定树未见单元/集成测试文件，smoke_test_providers.py仅可算provider脚本
+  阅读范围：
+    待核/反例选读：状态持久化与真实权限隔离要分开；先排入口导入风险，再判断完整工程可复现性。不能当已验证成熟Agent项目推荐
+  附件：
+    name：
+      QuantHarbor
+    仓库：
+      shufengc/QuantHarbor
+    sha：
+      f0d6380e9846f84f10be5f284fec40d42cfb34f9
+    许可标识：
+      GNU GPL version 3原文已读并原样保留
+    类别：
+      Agent风险/反例选读，导入路径缺口与代码执行权限边界未解决，未称成熟可复现Agent
+    source_url：
+      https://codeload.github.com/shufengc/QuantHarbor/zip/f0d6380e9846f84f10be5f284fec40d42cfb34f9
+    source_http_status：
+      200
+    original_archive_sha256：
+      0b9dea52956bb096f95d4969a07a945a3fe5a4cdd917bb71f0a7b1988243f146
+    original_archive_bytes：
+      4352532
+    original_archive_members：
+      149
+    original_crc：
+      全部成员通过CRC
+    original_saved：
+      否
+    archive_type：
+      固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP
+    execution：
+      未运行、未构建、未安装依赖、未调用模型/API
+    license_sha256：
+      230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809
+    license_unchanged：
+      是
+    retained_text_members：
+      100
+    omitted_members：
+      - path：
+          assets/architecture.jpg
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          assets/quant-front-page.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          assets/quant-main-page.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          assets/quantharbor-logo-mini.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          assets/quantharbor-logo.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          demo/backend/template/report_template.docx
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          demo/frontend/public/quantharbor-logo-v2.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          demo/frontend/public/quantharbor-logo-v3.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          demo/frontend/public/quantharbor-logo.png
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      - path：
+          src/template/report_template.docx
+        理由：
+          媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+    modified_text_members：
+      —
+    credential_scan：
+      UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。
+    contact_scan：
+      除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。
+    functional_limit：
+      继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。
+    local_path：
+      05_项目源码归档/大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip
+    sha256：
+      a52c338de6ea9e35c180c1ab36cb825af5833694d969322c30439254bdf201f4
+    bytes：
+      281395
+    members：
+      101
+    crc：
+      全部成员通过CRC
+    post_archive_privacy_scan：
+      通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息
+值得学习之处：
+  - BaseAgent保存/恢复conversation、round、tool dependencies和executor state；迭代上限与每轮checkpoint
+  - 异步代码executor执行模型代码并捕获stdout/stderr；提供完整Python builtins与os/sys，代码在线程池exec
+  - LLMRouter捕获primary异常后尝试fallback；没有据此证明断点任务幂等/重试不重复外部副作用
+局限：
+  - 所谓sandbox没有在核读文件中建立进程/文件系统/网络权限隔离；不能据此称安全执行沙箱
+  - RAG pipeline导入src.agents.analyst_agent/retriever_agent/writer_agent，固定树实际在src_rag/agents；Web backend导入src.memory，固定树没有该模块。属于可直接核对的入口路径不一致，未执行验证
+  - README宣称138PDF/4577页/8309chunks、长报告、citation tracing等；未复现，无独立任务成功率/成本/延迟benchmark；固定树未见单元/集成测试文件，smoke_test_providers.py仅可算provider脚本
+  - 主页直接列为本人项目；迁移文档明确移除lecture目录运行依赖、从course-style文档转product-style文档；课程/外部框架原始来源与具体独立贡献尚未完整核清
+源码包文件：
+  大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip
+license_notes：
+  LICENSE原文GNU GPL v3已读取；未归档运行环境或API密钥
+建议用途：
+  待核/反例选读：状态持久化与真实权限隔离要分开；先排入口导入风险，再判断完整工程可复现性。不能当已验证成熟Agent项目推荐

@@ -1,0 +1,202 @@
+CV10 | CalvinNeo：腾讯SSP实习转正与三个本人C++项目
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/discuss/353154880351182848
+作者：
+  CalvinNeo
+事件时间／原文日期（依分类）：
+  2018年求职；腾讯实习转正和阿里云校招分开
+方向与岗位：
+  C++后台/系统工程；历史实习转正及校招
+结果自述：
+  腾讯SSP（实习转正）与阿里云A等offer，均为本人自述
+录用证据边界：
+  同一篇原文开头明确SSP，在GitHub段逐一介绍并直接链接三个本人项目；无企业独立核验。
+evidence_excerpt：
+  我是2019届的硕士，在去年拿到了腾讯SSP（实习转正）和阿里云A等Offer。
+资料形式：
+  本人求职复盘与阿里云面试主题；非完整简历
+专业背景：
+  原文自述C9硕士、本科跨专业、腾讯实习；不保存联系方式。
+技术栈：
+  - C++14/17
+  - 词法/语法分析
+  - UDP可靠传输
+  - Raft
+  - Linux
+  - gRPC
+  - 测试与调试
+本人项目与经历描述：
+  - CFortranTranslator：Fortran77/90到C++14翻译器
+  - ATP：参考libutp思想实现的可靠传输库
+  - Nuft：参考Raft论文实现的共识库
+project_urls：
+  - https://github.com/CalvinNeo/CFortranTranslator
+  - https://github.com/CalvinNeo/ATP
+  - https://github.com/CalvinNeo/Nuft
+来源归纳：
+  作者明确说面试官对翻译器感兴趣；ATP源于课程作业，Nuft源于Raft论文。阿里云段讨论Linux、项目深挖、C++与系统设计。
+整理者分析：
+  本轮最完整的本人SSP自述→本人项目→求职/面试主题关联之一。价值在于不同项目各有机制深度；不证明三个项目单独导致SSP。
+值得学习之处：
+  - 本人正文直接建立项目关系，优于同名账号猜测
+  - 三个项目均有固定源码及许可证
+  - 项目设计与实现、失败处理和测试可具体定位
+局限与静态风险：
+  - 历史2018年结果，不能代表2026实习门槛
+  - 腾讯SSP是实习转正，不是阿里云SSP，也不是三项目的效果证明
+  - 没有腾讯逐轮逐题记录或完整成功者CV
+  - 附的是当前可取得固定版本，非2018求职快照
+建议用途：
+  优先对照PRO14–16的源码优缺点与INT57；学习解释动机、个人工作、边界与实验，不复刻一串项目名称。
+原访问范围：
+  牛客正文实际已读；原链接163036重定向，动态页复查可能返回空壳
+证据边界：
+  B：第一人称自述与项目关系可核；录用与项目贡献未经企业独立验证
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    2018年求职；腾讯实习转正和阿里云校招分开
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    原文标题2018及2019年回顾去年共同确认；不只依据2019届
+  来源日期：
+    2019-03-15编辑，非已确认首发
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    牛客正文实际已读；原链接163036重定向，动态页复查可能返回空壳
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      腾讯（实习转正）
+    档位：
+      SSP
+    状态：
+      conversion_self_report
+    证据：
+      https://www.nowcoder.com/discuss/353154880351182848
+    依据：
+      同一篇原文开头明确SSP，在GitHub段逐一介绍并直接链接三个本人项目；无企业独立核验。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      阿里云
+    档位：
+      其他：A
+    状态：
+      offer_self_report
+    证据：
+      https://www.nowcoder.com/discuss/353154880351182848
+    依据：
+      同一篇原文开头明确SSP，在GitHub段逐一介绍并直接链接三个本人项目；无企业独立核验。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  2019-03-15编辑，非已确认首发
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/353154880351182848
+      direct_basis：
+        同一篇原文开头明确SSP，在GitHub段逐一介绍并直接链接三个本人项目；无企业独立核验。
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/353154880351182848
+      direct_basis：
+        本人求职复盘与阿里云面试主题；非完整简历
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://github.com/CalvinNeo/CFortranTranslator
+      direct_basis：
+        本人资料明确列出项目：CFortranTranslator：Fortran77/90到C++14翻译器；ATP：参考libutp思想实现的可靠传输库；Nuft：参考Raft论文实现的共识库
+      直接关系：
+        直接点名
+      gap：
+        公开代码存在不等于当时版本或已独立验证贡献
+      project_id：
+        PRO14
+    - 原始来源：
+        https://github.com/CalvinNeo/ATP
+      direct_basis：
+        本人资料明确列出项目：CFortranTranslator：Fortran77/90到C++14翻译器；ATP：参考libutp思想实现的可靠传输库；Nuft：参考Raft论文实现的共识库
+      直接关系：
+        直接点名
+      gap：
+        公开代码存在不等于当时版本或已独立验证贡献
+      project_id：
+        PRO15
+    - 原始来源：
+        https://github.com/CalvinNeo/Nuft
+      direct_basis：
+        本人资料明确列出项目：CFortranTranslator：Fortran77/90到C++14翻译器；ATP：参考libutp思想实现的可靠传输库；Nuft：参考Raft论文实现的共识库
+      直接关系：
+        直接点名
+      gap：
+        公开代码存在不等于当时版本或已独立验证贡献
+      project_id：
+        PRO16
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/353154880351182848
+      direct_basis：
+        CalvinNeo：2018求职复盘中的阿里云后台面试主题
+      直接关系：
+        直接点名
+      gap：
+        阿里云仅主题复盘，非逐轮；腾讯SSP为另一条实习转正结果
+      interview_id：
+        INT57
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 公开代码存在不等于当时版本或已独立验证贡献
+  - 阿里云仅主题复盘，非逐轮；腾讯SSP为另一条实习转正结果
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

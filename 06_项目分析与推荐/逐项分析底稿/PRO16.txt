@@ -1,0 +1,183 @@
+PRO16 | CalvinNeo Nuft：本人SSP关联的Raft实现与失败测试材料
+
+需求核对版 · 2026-10-24
+
+技术栈：
+  - C++17
+  - Raft
+  - gRPC
+  - Protocol Buffers
+  - 持久化
+  - 选主/日志/快照
+  - GoogleTest
+阅读建议：
+  推荐对照论文、状态转换与失败测试，适合分布式系统进阶；不能当已验证一致性的可直接上线组件。
+值得学习之处：
+  - 本人原文直接说明该项目依据Raft论文实现，求职关系明确
+  - 代码有选主、日志复制、快照与配置变更接口，以及持久化和测试
+  - 持久化代码保留了崩溃/延迟RPC序号问题的反思，适合学习失败分析
+局限与静态风险：
+  - README明确部分测试可能失败；本次不隐去此限制
+  - jepsen目录README仍是FIXME模板，不能把目录存在当Jepsen验证通过
+  - Persister直接向目标文件序列化，所读函数未见原子替换/fsync和完整错误处理；需验证掉电与半写场景，未运行复现
+  - 测试辅助脚本为旧Python2写法；当前工具链和所有不变量未验证
+已定位阅读路径：
+  - README.md
+  - src/node_persister.cpp
+  - src/node_rpc_a.cpp
+  - src/test/test.cpp
+  - src/test/test_until_fail.py
+  - jepsen/README.md
+静态阅读发现：
+  - path：
+      README.md
+    line_start：
+      11
+    line_end：
+      25
+    观察：
+      给测试命令与循环直至失败脚本，并明确某些测试可能失败。
+    kind：
+      作者已披露限制
+    原始来源：
+      https://github.com/CalvinNeo/Nuft/blob/39e09d330abc68ca82e13c0baa9020c533d979aa/README.md#L11-L25
+  - path：
+      src/node_persister.cpp
+    line_start：
+      24
+    line_end：
+      41
+    观察：
+      持久化term、vote与日志，并记录宕机后延迟RPC/序号问题。
+    kind：
+      固定源码静态观察
+    原始来源：
+      https://github.com/CalvinNeo/Nuft/blob/39e09d330abc68ca82e13c0baa9020c533d979aa/src/node_persister.cpp#L24-L41
+  - path：
+      src/node_persister.cpp
+    line_start：
+      60
+    line_end：
+      74
+    观察：
+      序列化到fstream后关闭；加载直接解析并取字段。函数局部未见原子替换和结果校验，属于未复现静态风险。
+    kind：
+      固定源码静态观察
+    原始来源：
+      https://github.com/CalvinNeo/Nuft/blob/39e09d330abc68ca82e13c0baa9020c533d979aa/src/node_persister.cpp#L60-L74
+  - path：
+      jepsen/README.md
+    line_start：
+      1
+    line_end：
+      14
+    观察：
+      仍为模板与FIXME；不是已实施的一致性测试。
+    kind：
+      验证边界
+    原始来源：
+      https://github.com/CalvinNeo/Nuft/blob/39e09d330abc68ca82e13c0baa9020c533d979aa/jepsen/README.md#L1-L14
+测试材料与评测边界：
+  - 源码包含GoogleTest和持续运行到失败的脚本。
+  - 本次未构建、未运行集群、未做故障注入或Jepsen；不宣称满足全部Raft安全性/活性。
+运行依赖说明：
+  - C++17、gRPC/Protobuf、gtest，原仓Nuke辅助代码已内嵌。
+  - Python2风格辅助脚本需适配；Jepsen目录本身不提供已完成的使用方案。
+interview_questions：
+  - term、投票和日志什么时候必须持久化？
+  - 半写文件、延迟RPC、旧leader恢复时怎样保持不变量？
+  - 单测、随机故障测试和线性一致性历史验证分别证明什么？
+仓库：
+  CalvinNeo/Nuft
+固定源码提交：
+  39e09d330abc68ca82e13c0baa9020c533d979aa
+源码提交时间：
+  2022-04-12T14:08:23Z
+许可标识：
+  GPL-3.0-or-later；jepsen子目录EPL-1.0-or-later
+license_scope：
+  原样保留根及子目录许可证；不把当前版本当作求职时原始快照
+源码包文件：
+  CalvinNeo__Nuft__39e09d330abc.zip
+源码包SHA-256：
+  d297b099e78bd770c431ba704c96e937dfa955616d9b5efe8759cfe536d7f593
+取得源码ZIP：
+  是
+原始来源：
+  https://github.com/CalvinNeo/Nuft
+候选人与项目关系：
+  - CV10
+cost：
+  源码阅读与本地构建不需要模型API；本轮仅静态阅读和归档，没有运行费用。
+运行验证范围：
+  固定源码和部分文档/测试静态阅读；未构建、运行、压测或修改系统配置。
+interview_linkage：
+  本人文章直接建立项目关系；固定版本晚于求职经历，不等于当时提交版本，也不证明该项目单独导致SSP。
+类别：
+  项目参考
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2022-04-12T14:08:23Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    分布式系统进阶读不变量、持久化和失败材料；先理解为何测试不能证明一致性。
+  指定模块：
+    - README.md
+    - src/node_persister.cpp
+    - src/node_rpc_a.cpp
+    - src/test/test.cpp
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    Raft学习实现不算Agent项目。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    CalvinNeo__Nuft__39e09d330abc.zip
+  固定源码提交：
+    39e09d330abc68ca82e13c0baa9020c533d979aa
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

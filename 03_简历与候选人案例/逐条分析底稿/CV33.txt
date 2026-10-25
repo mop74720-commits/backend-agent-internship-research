@@ -1,0 +1,283 @@
+CV33 | 非科班转码：211化学本→985材料硕→字节后端开发
+
+需求核对版 · 2026-10-24
+
+类别：
+  候选人资料
+原始来源：
+  https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+方向与岗位：
+  后端开发
+事件时间／原文日期（依分类）：
+  2026-01面试；2025-12开始投递
+发表／来源日期：
+  页面04-05编辑，展示年未核；正文另明确2025-12投递及2026-01面试
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    2026-01面试；2025-12开始投递
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    页面04-05编辑，展示年未核；正文另明确2025-12投递及2026-01面试
+  时间依据：
+    本人正文明确投递2025.12、面试2026.1；实习到岗和时长被问。
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    牛客本人正文选读：求职时间、TT失败、财经offer及RAG/压测问题；未核图片
+  实际观看视频：
+    否
+结果自述：
+  明确2026实习；字节财经未披露档位offer自述，TT失败分开
+逐项结果与档位：
+  - 公司：
+      字节跳动TT
+    状态：
+      failure_self_report
+    档位：
+      不适用
+    依据：
+      正文横向比较后挂
+    事件时间／原文日期（依分类）：
+      2026-01面试；2025-12开始投递
+    证据：
+      https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+    方向与岗位：
+      后端开发；具体岗位按本人原文
+    企业独立验证：
+      否
+  - 公司：
+      字节跳动财经
+    状态：
+      offer_self_report
+    档位：
+      未披露
+    依据：
+      财经末段一周后offer，并述已入职一个月
+    事件时间／原文日期（依分类）：
+      2026-01面试；2025-12开始投递
+    证据：
+      https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+    方向与岗位：
+      后端开发；具体岗位按本人原文
+    企业独立验证：
+      否
+履历材料形式：
+  面经中的局部履历；无完整CV
+资料形式：
+  面经中的局部履历；无完整CV
+技术栈：
+  - Java
+  - MySQL
+  - Redis
+  - RocketMQ
+  - Leaf
+  - Cassandra
+  - RAG
+  - ReAct
+本人项目与经历描述：
+  - 笔记业务/上传及RAG为本人自述，未公开本人源码；不能把技术名词对应到课程作者仓库。
+来源归纳：
+  笔记业务/上传及RAG为本人自述，未公开本人源码；不能把技术名词对应到课程作者仓库。
+整理者分析：
+  同一近期后端实习把传统一致性、网络和RAG工程放在一起追问；可补后端+AI能力交叉证据。
+值得学习之处：
+  - 最贴近“后端＋AI”组合的近期样本：传统一致性和Agent问题出现在同一后端面试中。
+局限与静态风险：
+  - 是后端实习，不提升为Agent专岗或SSP；作者正文括号内面后答案/归因不作为面试官原话或可靠答案，例如Canal→ES不能等同异地容灾。
+阅读建议：
+  最贴近“后端＋AI”组合的近期样本：传统一致性和Agent问题出现在同一后端面试中。
+商业与选择偏差：
+  依据本人公开叙述；存在主动分享与结果选择偏差
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+      direct_basis：
+        明确2026实习；字节财经未披露档位offer自述，TT失败分开
+      gap：
+        录用仅本人自述；未披露档位不标SSP
+      直接关系：
+        直接点名
+  profile：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+      direct_basis：
+        自述两页三个项目，完整简历未公开读取
+      gap：
+        本轮没有新增完整CV实物
+      直接关系：
+        直接点名
+  project：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+      direct_basis：
+        项目包含笔记业务、文件上传及RAG。面试追问Leaf、Cassandra、RocketMQ、混合检索、召回率、ReAct、Skill、上线与压测。
+      gap：
+        仅作者描述；未取得本人源码，不拼接框架
+      直接关系：
+        直接点名
+  interview：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+      direct_basis：
+        同篇经历中出现面试描述
+      gap：
+        是否逐轮具体问题仅按实际阅读，不与其他作者拼接
+      直接关系：
+        直接点名
+未建立或未核的关系：
+  - 录用仅本人自述；未披露档位不标SSP
+  - 本轮没有新增完整CV实物
+  - 仅作者描述；未取得本人源码，不拼接框架
+  - 是否逐轮具体问题仅按实际阅读，不与其他作者拼接
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  否
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+complete_cv_file_received：
+  否
+complete_redacted_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+personal_source_code_verified：
+  否
+source_record：
+  source_id：
+    R04
+  type：
+    candidate
+  source_category：
+    02_简历与录用经历
+  标题：
+    非科班转码：211化学本→985材料硕→字节后端开发
+  source_url：
+    https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+  source_card：
+    02_简历与录用经历/R04.html
+  existing_id：
+    未核／无
+  decision：
+    new
+  new_primary_project：
+    否
+  source_folder_modified：
+    否
+  reading_scope：
+    牛客本人正文选读：求职时间、TT失败、财经offer及RAG/压测问题；未核图片
+  状态：
+    明确2026实习；字节财经未披露档位offer自述，TT失败分开
+  import_target：
+    candidate_and_interview_evidence
+  read_evidence：
+    - read_url：
+        https://ac.nowcoder.com/discuss/1626909
+      http_status：
+        200
+      body_text_chars：
+        3009
+      已读部分：
+        求职时间与两条面试流程
+      short_original_basis：
+        “2025年12月开始海投海面，2026年1月面了二十多场”；TT横向对比后挂；财经段末“无hr面，大概一周后offer”。
+      checked_on：
+        2026-10-24
+      text_sha256：
+        04a7c287db64abd72ac0458542c8a8d0dc0a6f311e940b88e65bc3b07f7ca761
+  统一分类：
+    方向：
+      混合
+    招聘类型：
+      实习
+    event_year：
+      2026
+    时间依据：
+      本人正文明确投递2025.12、面试2026.1；实习到岗和时长被问。
+  逐项结果与档位：
+    - 公司：
+        字节跳动TT
+      状态：
+        failure_self_report
+      档位：
+        不适用
+      依据：
+        正文横向比较后挂
+      事件时间／原文日期（依分类）：
+        2026-01面试；2025-12开始投递
+      证据：
+        https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+      方向与岗位：
+        后端开发；具体岗位按本人原文
+      企业独立验证：
+        否
+    - 公司：
+        字节跳动财经
+      状态：
+        offer_self_report
+      档位：
+        未披露
+      依据：
+        财经末段一周后offer，并述已入职一个月
+      事件时间／原文日期（依分类）：
+        2026-01面试；2025-12开始投递
+      证据：
+        https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+      方向与岗位：
+        后端开发；具体岗位按本人原文
+      企业独立验证：
+        否
+  履历材料形式：
+    面经中的局部履历；无完整CV
+  技术栈：
+    - Java
+    - MySQL
+    - Redis
+    - RocketMQ
+    - Leaf
+    - Cassandra
+    - RAG
+    - ReAct
+  personal_project_summary：
+    笔记业务/上传及RAG为本人自述，未公开本人源码；不能把技术名词对应到课程作者仓库。
+  question_modules：
+    - Leaf分布式ID
+    - 元数据和文本分离
+    - RocketMQ事务/顺序消息
+    - RAG混合检索与召回率
+    - 历史消息与prompt结构
+    - 上线、压测、QPS
+  unique_value：
+    同一近期后端实习把传统一致性、网络和RAG工程放在一起追问；可补后端+AI能力交叉证据。
+  facts_boundary：
+    是后端实习，不提升为Agent专岗或SSP；作者正文括号内面后答案/归因不作为面试官原话或可靠答案，例如Canal→ES不能等同异地容灾。
+  eligible_for_success_candidate_count：
+    是
+source_key：
+  ASTRA_R04_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    R04
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_候选人与观点项目.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

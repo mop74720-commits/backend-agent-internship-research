@@ -1,0 +1,316 @@
+[
+  {
+    "repo": "amusi/AI-Job-Notes",
+    "url": "https://raw.githubusercontent.com/amusi/AI-Job-Notes/master/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 79,
+        "text": "**2024年6月~8月：秋招提前批（神仙打架）**\n\n每年打响秋招第一枪的基本是vivo或者大疆(DJI)科技，然后BAT等大厂居多是7月份开始。这时候的校招，绝大部分都是内推/提前批，而不是正式批，大家一定要珍惜这个时间点：6月~8月。虽然我调侃着说神仙打架，但还是要注意这时候性价比特别高。一方面是薪资普遍高，通常一些SP/SSP Offer都是这个节点发出来的，另一方面是投递的人数还不是很多，因为有些人没有意识到这个提前批的重要性，老想着多准备一点，到秋招正式批再大干一场。\n\n需要注意的是：参与秋招提前批的大佬特别多，同时岗位hc并不多（因为企业要考虑正式批的情况，会控制招聘人数），所以我把秋招提前批比作：神仙打架。另外，秋招提前批大多以内推为主，后面章节中我会说到如何获取招聘信息以及如何内推。"
+      },
+      {
+        "line": 240,
+        "text": "- **SP：35w~45w**\n\n- **SSP：45w+**\n\n说年薪有点笼统，我再说细一点，大家也可以提取熟悉一下。"
+      }
+    ]
+  },
+  {
+    "repo": "puge-up/programming-play",
+    "url": "https://raw.githubusercontent.com/puge-up/programming-play/main/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "extreme-assistant/AI-job-interview",
+    "url": "https://raw.githubusercontent.com/extreme-assistant/AI-job-interview/master/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 81,
+        "text": "白菜价：25w ~ 30w <br>\nSP：30w ~ 40w <br>\nSSP：40w+ <br>\n说年薪有点笼统，我再说细一点，大家也可以提取熟悉一下。<br>\n一般企业薪资构成是：<br>"
+      }
+    ]
+  },
+  {
+    "repo": "0voice/Campus_recruitment_interview_questions",
+    "url": "https://raw.githubusercontent.com/0voice/Campus_recruitment_interview_questions/main/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "erdengk/erdengk",
+    "url": "https://raw.githubusercontent.com/erdengk/erdengk/master/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "shenweichen/AlgoNotes",
+    "url": "https://raw.githubusercontent.com/shenweichen/AlgoNotes/main/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "Yang6149/notes",
+    "url": "https://raw.githubusercontent.com/Yang6149/notes/master/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "zimuzi2019/xducs-learning-tips",
+    "url": "https://raw.githubusercontent.com/zimuzi2019/xducs-learning-tips/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 1552,
+        "text": "**一些招聘术语**\n\n**Offer**：录用通知书。当然现在许多公司会在 Offer 前加入意向书环节，相当于告知你我们准备录用你了，然后再经过审批，定级，谈薪等等再发放包含薪资待遇的录用通知书。offer 也分很多种，根据薪资从低到高分为白菜，sp，ssp 等。白菜级普通薪资水平的 offer，sp 为 special offer，ssp 为 super special offer。不过有心的应届生也会进一步细分不同的 offer，例如烂白菜，大白菜，小 sp，大 sp，小 ssp，大 ssp，ssp+，意思也显而易见。\n\n**HR：Human Resource**。即人事，最广泛定义是指人力资源管理工作，包含六大模块：人力资源规划、招聘、培训、绩效、薪酬和劳动关系等。多用于公司的人事部门。也是公司的一个重要的职位。公司的人员招聘，培训，职员的考核，职员的薪酬，职员调动都和人事有关。即，招人的。"
+      }
+    ]
+  },
+  {
+    "repo": "Jeansding/2019-Autumn-recruitment-experience",
+    "url": "https://raw.githubusercontent.com/Jeansding/2019-Autumn-recruitment-experience/master/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 11,
+        "text": "&#8195;&#8195;**投递方面**，今年秋招算法岗聚堆，每个公司简历基本50%以上都是算法岗，有的甚至80%，竞争比较激烈，相对应的开发岗位比较缺。但并不代表着拿到算法岗就比拿到开发岗强，我也不知道很多做算法的对开发同学的蜜汁优越感从哪来的😒。\n\n&#8195;&#8195;**薪酬方面**，今年全线提高👍，去年的薪资在25-35w之间，今年在30-50w之间，算法岗部分公司会比开发高1-3k，比如网易阿里；另一部分公司持平，比如腾讯头条。大厂薪资平均比小厂要低，尤其是yy pdd yitu等薪资非常高，BAT中腾讯最高，阿里次之，百度最低，具体薪资可以参考offershow😉。一般薪水会分三档，普通/sp/ssp。但也有分的更细的，比如爱奇艺和pdd，pdd据我所知有6档，所以我也不知道我的offer算不算sp；也有少的，比如阿里；也有加个劝退档的，就是比\b绝大多数低。每档之间差价一般每月在2、3k左右，sp以上可能有股票和期权。ssp一般没有固定薪资，能力高的有多少给多少，尤其某些AI厂，超乎你的想象。**所有的公司都可以argue薪资**，所有的，BAT也可以，但一定要有竞品，一般都有提升空间。也有HR直接说不给谈的👿，不知道什么意思。\n\n&#8195;&#8195;**不要跪舔大厂**，无论是薪资还是成长上，小厂很多比大厂强，最重要的是技术。个人认为：大厂核心>小厂核心>大厂一般组>小厂一般组，另外只谈理想不给钱的行为都是耍流氓。"
+      }
+    ]
+  },
+  {
+    "repo": "youta7/2019-Autumn-recruitment-experience",
+    "url": "https://raw.githubusercontent.com/youta7/2019-Autumn-recruitment-experience/master/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 11,
+        "text": "&#8195;&#8195;**投递方面**，今年秋招算法岗聚堆，每个公司简历基本50%以上都是算法岗，有的甚至80%，竞争比较激烈，相对应的开发岗位比较缺。但并不代表着拿到算法岗就比拿到开发岗强，我也不知道很多做算法的对开发同学的蜜汁优越感从哪来的😒。\n\n&#8195;&#8195;**薪酬方面**，今年全线提高👍，去年的薪资在25-35w之间，今年在30-50w之间，算法岗部分公司会比开发高1-3k，比如网易阿里；另一部分公司持平，比如腾讯头条。大厂薪资平均比小厂要低，尤其是yy pdd yitu等薪资非常高，BAT中腾讯最高，阿里次之，百度最低，具体薪资可以参考offershow😉。一般薪水会分三档，普通/sp/ssp。但也有分的更细的，比如爱奇艺和pdd，pdd据我所知有6档，所以我也不知道我的offer算不算sp；也有少的，比如阿里；也有加个劝退档的，就是比\b绝大多数低。每档之间差价一般每月在2、3k左右，sp以上可能有股票和期权。ssp一般没有固定薪资，能力高的有多少给多少，尤其某些AI厂，超乎你的想象。**所有的公司都可以argue薪资**，所有的，BAT也可以，但一定要有竞品，一般都有提升空间。也有HR直接说不给谈的👿，不知道什么意思。\n\n&#8195;&#8195;**不要跪舔大厂**，无论是薪资还是成长上，小厂很多比大厂强，最重要的是技术。个人认为：大厂核心>小厂核心>大厂一般组>小厂一般组，另外只谈理想不给钱的行为都是耍流氓。"
+      }
+    ]
+  },
+  {
+    "repo": "trialley/TA2020",
+    "url": "https://raw.githubusercontent.com/trialley/TA2020/master/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "apachecn-archive/AI-Job-Notes",
+    "url": "https://raw.githubusercontent.com/apachecn-archive/AI-Job-Notes/master/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 56,
+        "text": "**2022年6月~8月：秋招提前批（神仙打架）**\n\n据我了解上届打响秋招第一枪的是大疆(DJI)科技，其在6月底就已经结束简历投递了，然后BAT等大厂都是7月份开始。这时候的校招，绝大部分都是内推/提前批，而不是正式批，大家一定要珍惜这个时间点：6月~8月。虽然我调侃着说神仙打架，但还是要注意这时候性价比特别高。一方面是薪资普遍高，通常一些SP/SSP Offer都是这个节点发出来的，另一方面是投递的人数还不是很多，因为有些人没有意识到这个提前批的重要性，老想着多准备一点，到秋招正式批再大干一场。\n\n需要注意的是：参与秋招提前批的大佬特别多，同时岗位hc并不多（因为企业要考虑正式批的情况，会控制招聘人数），所以我把秋招提前批比作：神仙打架。另外，秋招提前批大多以内推为主，后面章节中我会说到如何获取招聘信息以及如何内推。"
+      },
+      {
+        "line": 215,
+        "text": "- **SP：30w~40w**\n\n- **SSP：40w+**\n\n说年薪有点笼统，我再说细一点，大家也可以提取熟悉一下。"
+      }
+    ]
+  },
+  {
+    "repo": "yjt2018/AI-Job-Notes",
+    "url": "https://raw.githubusercontent.com/yjt2018/AI-Job-Notes/master/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 56,
+        "text": "**2020年6月~8月：秋招提前批（神仙打架）**\n\n据我了解上届打响秋招第一枪的是大疆(DJI)科技，其在6月底就已经结束简历投递了，然后BAT等大厂都是7月份开始。这时候的校招，绝大部分都是内推/提前批，而不是正式批，大家一定要珍惜这个时间点：6月~8月。虽然我调侃着说神仙打架，但还是要注意这时候性价比特别高。一方面是薪资普遍高，通常一些SP/SSP Offer都是这个节点发出来的，另一方面是投递的人数还不是很多，因为有些人没有意识到这个提前批的重要性，老想着多准备一点，到秋招正式批再大干一场。\n\n需要注意的是：参与秋招提前批的大佬特别多，同时岗位hc并不多（因为企业要考虑正式批的情况，会控制招聘人数），所以我把秋招提前批比作：神仙打架。另外，秋招提前批大多以内推为主，后面章节中我会说到如何获取招聘信息以及如何内推。"
+      },
+      {
+        "line": 217,
+        "text": "- **SP：30w~40w**\n\n- **SSP：40w+**\n\n说年薪有点笼统，我再说细一点，大家也可以提取熟悉一下。"
+      }
+    ]
+  },
+  {
+    "repo": "WJZVCGFB/OFFER_MARKET",
+    "url": "https://raw.githubusercontent.com/WJZVCGFB/OFFER_MARKET/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 34,
+        "text": "- 抽题复习：题目包含题意、示例、解释、提示和答题框。\n- 轻量评估：当前版本用关键词/思路匹配，不执行代码，也不消耗 tokens。\n- offer 奖励：答对后发 `Regular / SP / SSP offer 大礼包`，包含薪酬、签字费和快乐文案。\n- 中英文：右上角按钮可切换中文/英文基础界面。\n"
+      }
+    ]
+  },
+  {
+    "repo": "LeoLee0812/CodeWhisper",
+    "url": "https://raw.githubusercontent.com/LeoLee0812/CodeWhisper/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 157,
+        "text": "|------|----------|\n| 职场术语 | 提PR/提MR、提测、排期、逾期、联调、灰度、验收、复盘、风险评估、需求拆解... |\n| 大学 / 求职 | 秋招、春招、校招、社招、offer、CV、实习、技术栈、笔试、面试、刷题、年包、SP、SSP... |\n| 编程语言 | Python、Java、Go、JavaScript、TypeScript、Rust、C++、C#、PHP、Kotlin... |\n| 开发工具 | IDEA、VSCode、WebStorm、PyCharm、Goland、Vim、Postman、Git、GitHub... |"
+      }
+    ]
+  },
+  {
+    "repo": "KyelYang/c-plus-Interview",
+    "url": "https://raw.githubusercontent.com/KyelYang/c-plus-Interview/master/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "CCzzsd/xhs-content-creator",
+    "url": "https://raw.githubusercontent.com/CCzzsd/xhs-content-creator/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 100,
+        "text": "语气：直接犀利 + 过来人视角\n过渡语：「来说说」「废话不多说」「说白了就是」「叠甲」\n黑话：bg、base、年包、白菜、SP、SSP、炮灰、卡本、双非\n人设：过来人/内行，针对不同bg给差异化建议\n结构：开头直接切入 → 分点列述（加粗小标题） → 叠甲免责 → 说白了总结"
+      },
+      {
+        "line": 279,
+        "text": "  tone: '直接犀利，不绕弯子',\n  transitions: ['来说说', '废话不多说', '说白了就是', '叠甲'],\n  jargon: ['bg', 'base', '年包', '白菜', 'SP', 'SSP'],\n  structure: '开头切入 → 加粗小标题分点 → 叠甲免责 → 说白了总结',\n};"
+      }
+    ]
+  },
+  {
+    "repo": "CloudCreateThink/CodingOffer",
+    "url": "https://raw.githubusercontent.com/CloudCreateThink/CodingOffer/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 281,
+        "text": "一般都会在选校招offer时，强调几个offer之间的背书排名和差异（当然是在某个领域内，可能指的是公司，也可能是公司中的某个具体的团队）所谓背书，就是去一个工作地点团队最后的认可度怎么样，在跳槽的时候之前的工作团队的加成和作用有多大，是否可以提升自己的经历背景。\n\n**3、白菜，****SP****，****SSP****：**\n\n顾名思义，很普通，其实就是薪资中排名比较差的offer，也就是薪资基本上最差的offer，称之为白菜，这类offer最多，比例最大。一般来说白菜的标准基本上就是录取的最低标准。"
+      }
+    ]
+  },
+  {
+    "repo": "MAXUPUPUP/Ai_infra_journey",
+    "url": "https://raw.githubusercontent.com/MAXUPUPUP/Ai_infra_journey/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 15,
+        "text": "- 模型压缩、量化、蒸馏的工程化\n\n**对应招聘要求(校招 SP/SSP 级):**\n\n- 扎实的 C++ 和 Python 工程能力"
+      },
+      {
+        "line": 274,
+        "text": "\n- 9 月开始铺简历(实习还没结束就要开始)\n- 优先级:return offer > 头部大厂 SSP > 大模型公司 SP > 其他\n- 多投不要押宝,但准备时间要分配好\n- 谈 offer 的时候用 return offer 当锚"
+      }
+    ]
+  },
+  {
+    "repo": "MAXUPUPUP/-Bioinfo_journey",
+    "url": "https://raw.githubusercontent.com/MAXUPUPUP/-Bioinfo_journey/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 497,
+        "text": "**5. 英语 > 日语。** AI for Science 顶级公司(Preferred Networks 内部英语化、Isomorphic / Anthropic 全英语、理研国际化)对你日语 N3 完全够用。**把学日语的时间投到读 paper 和写 GitHub 上,回报高 100 倍**。\n\n**6. 不要被\"AI Infra 高薪\"诱惑跑偏。** 你看到那些\"字节 AML SSP 100 万\"的 offer 是给清北博士 + 顶级实习的人。**你的差异化不在那里,在\"津田研 + AI for Science 工程化\"**。坚持自己的路径。\n\n**7. 持续高强度,但允许 burnout。** 这条路 23 个月,周均 40 小时学习时间是底线。但**研究室不是 996,允许自己有节奏感**。和那种把自己耗到睡眠不足 6 小时的\"卷王\"不要比。**研究是马拉松,你的优势就是节奏感**。"
+      }
+    ]
+  },
+  {
+    "repo": "boyang-x/next-stop-graduation",
+    "url": "https://raw.githubusercontent.com/boyang-x/next-stop-graduation/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 7,
+        "text": "当前版本 **0.9.0**。本轮生涯图片与职业去向说明、验证见 [ROUND9_RELEASE_NOTES.md](ROUND9_RELEASE_NOTES.md)，当前规则见 [GAME_DESIGN.md](GAME_DESIGN.md)。第八轮及更早文档保留为历史记录。\n\n结局页可保存1080×1640生涯总结PNG，并保留文字总结。31家单位62个岗位区分具体职责、单位性质、工作节奏、福利与待遇；大厂30万起，核心研发岗位可获得S/SS/SSP，满足突出准备条件后可开100—120万游戏总包。考公先选择国考、省考或定向选调的8类去向，各有笔试线、竞争与匹配经历。薪酬、股权估值、录取线和条件是游戏设定。匿名统计、反馈入口与公网发布本轮未实施。\n\n上一轮修复事件前置条件、接续清理和自然月账目；假期选择回家后才有车票与家庭剧情，有推免资格择校必录。学习改为高位递减，岗位准备影响招聘档位、概率与薪资，同公司部分共享评价。彩票改为10—1000元六档，1000元档一千万概率1/500。逐场景审读300个事件、190道题和系统内容，补足二战事件与旧题归属；保留精力0可学习、五特质、魅力、综合排名、自由活动和简洁界面。"
+      }
+    ]
+  },
+  {
+    "repo": "LittleChild/Preparation-For-OFFER",
+    "url": "https://raw.githubusercontent.com/LittleChild/Preparation-For-OFFER/main/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "aiyuedi/intelligent-manufacturing-roadmap",
+    "url": "https://raw.githubusercontent.com/aiyuedi/intelligent-manufacturing-roadmap/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 228,
+        "text": "> **这条路线的前提**：你从大一就在智能制造工程专业，不是转专业进来的。你均分 80-85，英语一般（高考 110±），不是竞赛保送生，有正常的社交娱乐需求。这完全不丢人——大多数本科生本来就是这样。\n>\n> 网上那些「大一拿国奖、大二发 SCI、大三保研、大四 BAT SSP offer」的路线的评论区是沉默的大多数。本章不是让你选「最好的路」，而是帮你找到**确定性最高、容错空间最大**的路。本章基于桂电 2025 级培养方案的真实课程时序和学分负载写就，但分析方法适用于任何院校的智能制造工程专业。\n\n### 你是普通人，不是废物"
+      }
+    ]
+  },
+  {
+    "repo": "Tfcccc-bot/ai-infra-offer-radar",
+    "url": "https://raw.githubusercontent.com/Tfcccc-bot/ai-infra-offer-radar/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 67,
+        "text": "| 华为 | 天才少年 | 三档制：**89.6–100.8 万 / 140.5–156.5 万 / 182–201 万**（2019 年标准，当时同专业博士行情约 70 万） |\n| 小米 | 顶尖人才计划 / 未来星 | 宣传语「大量 HC，顶级薪酬，23-26 届可投」，坊间传闻 200 万级 |\n| 阿里巴巴 | 阿里星 | 未公开，业内认为显著高于普通 SP/SSP |\n| 蚂蚁集团 | 蚂蚁星 PlanA | 未公开，对齐阿里星档位 |\n| 腾讯 | 青云计划 / 犀牛鸟 | 未公开；2026 校招实习生有机会享受正式员工薪资 |"
+      }
+    ]
+  },
+  {
+    "repo": "itwanger/zsxq",
+    "url": "https://raw.githubusercontent.com/itwanger/zsxq/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 24,
+        "text": "## 一、星球取得的成绩\n\n来星球的球友，99.99% 都斩获了不错的成绩，有拼多多 100 万年包（社招）、有京东 60 万年包（校招）、美团 SSP、华为 15C，还有腾讯 SP、字节 SSP、百度SP 等等，也有 16k 的小厂、20k 的中厂、18k 的外包。\n\n先放第一波球友的喜报，给大家炫耀下（😄）。"
+      },
+      {
+        "line": 328,
+        "text": "这个微服务项目不仅适合拿来写到项目经历中，还可以直接润到实习经历中，甚至工作经历中。\n\n如果你是校招生，把 PmHub 写到简历上绝对可以让你脱颖而出，本来拿白菜，结果硬是拿到 SSP；本来进不了大厂修不了福报，结果硬是 offer 拿到手软；本来去不了国企银行的，结果硬是微微一笑迷晕面试官。\n\n如果你是正在准备社招的工作党，PmHub 写到简历绝对能让你的身价提高一大截，原本是扭扭捏捏的 CRUD Boy，结果成了微服务/分布式的技术专家。"
+      }
+    ]
+  },
+  {
+    "repo": "backtraxe/offer-is-all-you-need",
+    "url": "https://raw.githubusercontent.com/backtraxe/offer-is-all-you-need/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 82,
+        "text": "- 2026-10-18：hr 面词池余目清算——四十七批——合集五十四节+主表行情行：拼多多大模型算法提前批 HR 面（78 赞 +评论区薪资行情三金句——「先报 45k 电话里一着急被问底线答 35k 以下不考虑」的两端法实谈、「要 40k 被 hr 说太高了大模型算法岗」反直觉样本、「税后 30k vs 总包 80」月薪总包口径混用现场、楼主 6 天工作制薪资概念与三档 4.2-5.0 万报价、信息确认还无意向与人才计划流程冻结同周互证）；匿名网友十月三轮已 oc 投稿（46 赞 1 天前——mentor 面零词新题 RSI 展开、Harness engineering 约束系统理解、如何避免 RL 训练后模型过度调用工具（副作用治理）、评估 golden set 还是 LLM Judge、多工具串并行与失败兜底、工具职责边界防功能重叠致 Agent 难以选择、商家 Agent 迁移差异，+1 面 DPO/PPO/GRPO 适用与全参 LoRA QLoRA 区别与知识库落地环节，+2 面改期拖沓「面得很水」项目盘问八连，三轮编排名时间线锁真，双基频手撕 LC3/LC23）；Momenta AI infra 训练优化二面实操七连（71 赞——模型并行方式、多模态通信 encoder 冻结吗、为什么开 zero3、zero1 放不放得下、Zero3 与 zero1 通信量对比、实测卡间带宽吗、gradient accumulate 与梯度更新精度——「测过带宽吗」手上有没有活的检测句、与蚂蚁追问同谱；hr 沉默挂法第三例）；查重：RSI/过度调用工具/工具职责边界/商家 Agent/6 天工作制全零词真新；hr 面词池清账\n- 2026-10-18：XHS「大模型实习」换词——四十八批——合集五十五节+主表行情行：腾讯大模型算法投稿面经（255 赞摆子哥投稿集、置顶「皆为真实投递」——一面 14 问沉到张量实现层：缩放点积注意力、Q/K/V 分头后 transpose(1,2) 作用、多头拼接后 contiguous()、ReAct 与工作方式、多轮工具调用 RL loss 设计（每轮算还是 rollout 完算）、Agent 评估与普通 LLM 评估区别、Agentic RL 与单轮 RL、从 loss 角度看 GRPO 问题与 GSPO 改进、Qwen3.5-9B 具备 Agent 能力吗、OPD 是什么+用什么 loss+为什么 reverse KL 而非 forward KL（TurnOPD 专题首次拿到考场原题）、手撕 Multi-Head Attention；二面前段：SFT 阶段多工具 Agent 做什么、rollout 最终奖励如何获得、LLM Judge 要不要看工具返回 Observation（楼主答需要）、工具/参数出错如何评估最终回答、batch 组织优化）；实习行情三连（不到百人公司实习 900 一天 2436 赞、「大公司是面试造火箭进去拧螺丝，小公司可能让你进去造火箭」3235 赞金句、「要有配得感，不要共情资本家觉得是自己占便宜」1674 赞）；「后训练是不是已经无了」302 赞 28 届方向级寒句（两个多月 0 约面、「招数据和评测的越来越多」）；微信小微大模型算法实习直招 136 赞 hc 实锤（28/29 届、要求后训练经验+agent/合版/记忆最佳——与 WXG-WeLM 线合流）；查重：reverse KL/造火箭拧螺丝/配得感/后训练已死全仓零词真新，transpose（25 处）/contiguous（14 处）/OPD（59 处）与既有实现件互证不重录；「大模型实习」词池清账\n- 2026-10-18：XHS「大模型开奖」换词——四十九批——合集五十六节+主表行情行：27 届人才计划总包第一波（07-21 宇飞帖 106 赞——某大厂第一波 350-450 万总包没过 450、比 26 届低不到 100，「去年这个团队都有 1000 的往外发」顶尖通道同比通缩双账；「27 似乎不如 26"
+      },
+      {
+        "line": 83,
+        "text": "- 2026-10-18：XHS「大模型实习」换词——四十八批——合集五十五节+主表行情行：腾讯大模型算法投稿面经（255 赞摆子哥投稿集、置顶「皆为真实投递」——一面 14 问沉到张量实现层：缩放点积注意力、Q/K/V 分头后 transpose(1,2) 作用、多头拼接后 contiguous()、ReAct 与工作方式、多轮工具调用 RL loss 设计（每轮算还是 rollout 完算）、Agent 评估与普通 LLM 评估区别、Agentic RL 与单轮 RL、从 loss 角度看 GRPO 问题与 GSPO 改进、Qwen3.5-9B 具备 Agent 能力吗、OPD 是什么+用什么 loss+为什么 reverse KL 而非 forward KL（TurnOPD 专题首次拿到考场原题）、手撕 Multi-Head Attention；二面前段：SFT 阶段多工具 Agent 做什么、rollout 最终奖励如何获得、LLM Judge 要不要看工具返回 Observation（楼主答需要）、工具/参数出错如何评估最终回答、batch 组织优化）；实习行情三连（不到百人公司实习 900 一天 2436 赞、「大公司是面试造火箭进去拧螺丝，小公司可能让你进去造火箭」3235 赞金句、「要有配得感，不要共情资本家觉得是自己占便宜」1674 赞）；「后训练是不是已经无了」302 赞 28 届方向级寒句（两个多月 0 约面、「招数据和评测的越来越多」）；微信小微大模型算法实习直招 136 赞 hc 实锤（28/29 届、要求后训练经验+agent/合版/记忆最佳——与 WXG-WeLM 线合流）；查重：reverse KL/造火箭拧螺丝/配得感/后训练已死全仓零词真新，transpose（25 处）/contiguous（14 处）/OPD（59 处）与既有实现件互证不重录；「大模型实习」词池清账\n- 2026-10-18：XHS「大模型开奖」换词——四十九批——合集五十六节+主表行情行：27 届人才计划总包第一波（07-21 宇飞帖 106 赞——某大厂第一波 350-450 万总包没过 450、比 26 届低不到 100，「去年这个团队都有 1000 的往外发」顶尖通道同比通缩双账；「27 似乎不如 26」+8 月只是第一波、大头 9-10 月的开奖节奏注；「人才供给明显变多、各基模实习 bar 同比高得不是一点半点」×「但是岗位少了一点点」供需剪刀差——27 届方向级行情寒句，与五十五节后训练岗位存量说异厂互证；「神仙有开 900w 的」、topseed「这个应该算不上一档」分层口径）；26 届开奖基线四卡（小红书开奖锐评 779 赞——算法 44k×16+签字费/SSP 55k×16、后端 32-42k×16 多档、取消大小周、薪资倒挂「老员工干三四年没到 30k 应届 35k 还带签字费」、字节控本冻结 HC 与阿里校招砍包两家被「整破防」、REDstar 顶尖计划未公布；评论区社招硬料——日均打卡 10.5h、美团组规 11h 自觉卷 12-13h 因工时排后影响绩效、「毕业 4 年在字节才 40」、社招从 top 厂砸钱挖+校招线下面试包静安洲际酒店报销路费别家全自己倒贴；字节 2-1 校招算法开奖 152 赞——2-1 开 42k+20w 签字费「一般 15 封顶」、「现在校招能直接 2-1？」「今年很多哦」定级通胀信号、同组 3 个 2-1 没一个去；波哥行判读 67 赞——「没论文有实习能 SSP」、2A 论文+面试优秀冲人才计划、评论区「人才计划至少要 3A+」与「这俩差的不一定是一篇论文」；OPPO 大模型 SSP 98 赞——相对不高共 5 轮、「O 子五面开其他厂一面的一半」）；社招腾讯混元年终奖（193 赞 2026-02——「预期 20 个月，实发 10 个月」226 赞拆半实锤、「满一年了吗？满了」打折梗、元宝默认 DeepSeek 内部业务用混元迟迟不上线一用 DS 效果好、混元上不了第一梯队「"
+      },
+      {
+        "line": 91,
+        "text": "- 2026-10-18：XHS「Agent面试」续扫——五十七批——合集六十三节+主表 Agent 考点向行：Agent 开发三周实习速成路线 3852 赞（词池最大卡——零基础自学 30 天拿 400/day 实习的日薪序列下沿样本；30 天三仓表直录：Day 0-2 名词扫盲（Agent/RAG/Tool Calling/FC/Memory/Planner/Executor/LangGraph/MCP）、Day 3-10 datawhalechina/all-in-rag 看 RAG 主线+边学边 vibe coding 一个 RAG 项目、Day 11-20 adongwanai/AgentGuide 补 LangGraph/状态机/工具调用/记忆管理/兜底机制/护栏+多 Agent 项目、Day 21-30 bcefghj/ai-agent-interview-guide+项目表达五问（架构/为什么这么设计/模块实现/指标怎么测/失败怎么兜底）；三仓全为 GitHub 实名图 OCR（AgentGuide 作者即三十三批 toy 七问的阿东玩AI、interview-guide 与五十六批 bcefghj 同账号——面经-资源线同人闭环）；简历双项目结构 self-RAG/agentic RAG 复杂度+coding agent 或电商客服 agent；评论金句组——置顶「面试题直接 GitHub 搜 zero2agent 绿皮书」、MVP 渐进法「先做一个最小的 MVP 再分模块复杂化每一个模块，不要直接让 AI coding 一个完整复杂项目」、自开仓 JEen-wang/Adaptive-rag、「不会代码没事 AI 推荐 codex」）；从 GRPO 到 RL：Agent 面试连环追问 105 赞六图 OCR 全录（自媒体深度文按实数例判录——监控面板六层答法：任务结果/信号健康/策略漂移/优化稳定/行为/系统+联动规则四条（reward 涨 held-out 不升查 reward hacking、ratio 与 clip 尾部查 staleness、全失败组+verifier error 先修环境、entropy 降+长度收缩是策略坍缩）；GRPO step 四段拆解与口径注（训练日志 step 是全局 rollout-update 还是 minibatch 另计）；advantage 数学实数例 A_i=(r_i-mean)/(std+ε)、环境返回与工具输出 token mask、4/16 成功组均值 0.25 std≈0.433 成功轨迹优势 +1.73 失败 -0.58、正负样本不对称时单条成功承载更大更新权重、「标准差定义 ε 与按序列还是按 token 归一化，同叫 GRPO 两套代码不同梯度」；16 并行 rollout 墙钟≈最慢轨迹 2000s+600s 更新=2600s 一 step 成本估算实数；PPO/GRPO/DPO 最小闭环压缩句与 DPO 定位辨析；Online≠On-policy 与异步 worker 恶化机制（数据年龄分布变宽、一个 batch 混多个 behavior policy、「吞吐不等于有效学习吞吐」、worker 32→128 samples/s 翻倍但 clip 10%→60% 假设例、straggler 截断长度分桶与 Pareto 工作点选法）——与仓内 rlhf 专题族互证的连环追问设计全录）；字节一面凉经+KPI 面反问情报组 457 赞（字节 Agent 岗要会 Go 语言+精通服务端+编译原理——与五十节 java/K8s 系同厂不同 BU 技术栈差异注；手撕合并链表 ACM 模式想露一手用迭代法省空间、20 多分钟没写完被叫停说思路——展示型反噬实录；KPI 面反问五连情报：字节 Agent 用 Go 是自研框架吗、「字节和心脏只有一个能跳动」是真的吗→面试官答「好几家大厂干过互联网大厂强度都差不多」、腾讯也差不多（答之前就是腾讯子公司跳槽来的强度没区别）、"
+      }
+    ]
+  },
+  {
+    "repo": "BJLIYANLIANG/Security_Service_Interview",
+    "url": "https://raw.githubusercontent.com/BJLIYANLIANG/Security_Service_Interview/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 407,
+        "text": "4、xss如何防御\n5、xss有cookie一定可以无用户名密码登录吗？\n6、SSL Strip(SSp)攻击到底是什么？\n7、中间人攻击——ARP欺骗的原理、实战及防御\n8、会话劫持原理"
+      }
+    ]
+  },
+  {
+    "repo": "wshzd/AI",
+    "url": "https://raw.githubusercontent.com/wshzd/AI/main/README.md",
+    "status": 200,
+    "ssp_matches": []
+  },
+  {
+    "repo": "qiao12/C-_learning",
+    "url": "https://raw.githubusercontent.com/qiao12/C-_learning/main/README.md",
+    "status": 200,
+    "ssp_matches": [
+      {
+        "line": 343,
+        "text": "### 1.2.2、薪资术语科普\n\n意向书与烂白菜、白菜、大白菜、SP(Special Offer)、SSP(Special Special Offer)、SSP+(Special Special Offer +)\n\n**意向书:**意向书的意思是指，在秋招中顺利通过面试获得口头offer的一种录用意向，没有具体的薪资待遇说明，换句话说就是：你很不错，我们打算要你了。意向书一般在每年的7-10月份会逐渐发放，而带有薪资待遇的详细offer一般是10月中下旬开始陆续发放。"
+      },
+      {
+        "line": 365,
+        "text": "\n\n**SSP**：这是真大佬才能拿到的，能够拿到SSP的同学基本都是校招生中的人中龙凤，极其稀少。比如 2021 年校招中快手的快star、中兴的蓝剑计划、阿里的阿里星、小米的未来星、京东的猎聘计划等，能够通过上述考核人拿到的基本都是SSP。\n\n"
+      },
+      {
+        "line": 369,
+        "text": "\n\n**SSP+**：一般很少出现 SSP+，这种offer一般只发给那些神仙选手，就是很厉害很厉害很厉害的选手。\n\n<a id=\"firstsecondthird\"></a>"
+      }
+    ]
+  }
+]

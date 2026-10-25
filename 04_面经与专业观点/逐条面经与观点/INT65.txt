@@ -1,0 +1,103 @@
+INT65 | CocaineCong：B站Go两轮失败复盘与流量突增追问
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/CocaineCong/Golang-Interview/blob/5a48dfc6003468aa6c152da05e79beafdee1bcd7/b.%20B%E7%AB%99.md
+公司：
+  哔哩哔哩
+方向与岗位：
+  历史Go开发
+事件时间／原文日期（依分类）：
+  两轮Go面试；年月日未逐条确认
+结果自述：
+  作者自述二面后淘汰，不是offer或SSP案例
+涉及主题：
+  - Go map/channel
+  - GMP
+  - Linux
+  - MySQL
+  - 分布式锁
+  - TCP
+  - 流量突增
+  - 算法
+原文提问（归纳）：
+  - 只给出项目流量突然增长的问题，没有本人业务项目细节
+建议用途：
+  与成功叙述对照，避免把答出题目直接等同录用；按问题查漏，答案另核。
+局限：
+  - 文件里的hmap代码属于历史语境；Go官方说明1.24改用Swiss Table实现，不直接套作当前版本答案
+  - 技术回答混有简化表述，不逐条背诵
+原访问范围：
+  原始正文实际取得并核读；只保存专业归纳和必要短摘录
+fulltext_verified：
+  是
+证据边界：
+  B：公开面试自述可读，录用和技术答案未获独立认证
+类别：
+  面经复盘
+retrieved_at：
+  2026-10-23
+作者：
+  CocaineCong
+version_check_url：
+  https://go.dev/blog/swisstable
+统计组：
+  招聘类型未确认（单列）
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    未知
+  事件时间：
+    两轮Go面试；年月日未逐条确认
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    固定commit2022-10-07（非面试时间）
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    原始正文实际取得并核读；只保存专业归纳和必要短摘录
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      哔哩哔哩
+    档位：
+      未披露
+    状态：
+      failure_self_report
+    证据：
+      https://github.com/CocaineCong/Golang-Interview/blob/5a48dfc6003468aa6c152da05e79beafdee1bcd7/b.%20B%E7%AB%99.md
+    依据：
+      作者自述二面后淘汰，不是offer或SSP案例
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  固定commit2022-10-07（非面试时间）
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  failure_self_report
+related_record_ids：
+  —

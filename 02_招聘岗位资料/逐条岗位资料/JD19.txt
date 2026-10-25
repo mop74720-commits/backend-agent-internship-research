@@ -1,0 +1,74 @@
+JD19 | AI Agent应用开发工程师
+
+需求核对版 · 2026-10-24
+
+公司：
+  阿里巴巴集团
+role_type：
+  Agent应用岗位（招聘类型未核验）
+原始来源：
+  https://www.zhipin.com/job_detail/ce1f87d5f248149d03152di1EVRT.html
+publish_date：
+  未展示
+retrieved_date：
+  2026-10-23
+source_type：
+  BOSS直聘搜索索引
+evidence_excerpt：
+  AI Agent 应用开发工程师
+own_summary：
+  索引只显示行业运营Agent应用与智能运营平台方向；打开进入安全验证，无法确认学历、实习属性或详细技术栈。
+required_stack：
+  —
+preferred_stack：
+  —
+degree_constraint：
+  未核验
+availability_constraint：
+  未核验
+recruiting_status：
+  未核验
+原访问范围：
+  搜索摘要；BOSS安全验证
+证据边界：
+  低（仅作渠道线索）
+matrix_include：
+  否
+tags：
+  —
+duties：
+  行业运营Agent设计与工程实现
+局限：
+  不计为实习JD，不用来推断技能要求或岗位数量。
+类别：
+  招聘JD
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    未知
+  事件时间：
+    未展示
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    招聘发布时间未展示，不按2027届或本次抓取年补写
+  来源日期：
+    未展示
+阅读范围：
+  范围：
+    摘要
+  已读定位正文全文：
+    否
+  核读说明：
+    搜索摘要；BOSS安全验证
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

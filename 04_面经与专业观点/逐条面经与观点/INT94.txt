@@ -1,0 +1,234 @@
+INT94 | 暑期实习记录 附C++面经
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://ac.nowcoder.com/discuss/1500141?type=0
+公司：
+  腾讯/文远知行/字节跳动/美团
+方向与岗位：
+  腾讯/字节/文远知行/美团；C++后台；暑期实习
+事件时间／原文日期（依分类）：
+  04月多公司流程；事件年未知，2025-04-28为编辑日
+发表／来源日期：
+  编辑于  2025-04-28 18:00
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    04月多公司流程；事件年未知，2025-04-28为编辑日
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    编辑于  2025-04-28 18:00
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习、事件年未知
+结果分类：
+  multiple_outcomes_self_report
+结果自述：
+  本人腾讯04-28 offer、文远04-22通知面试通过；美团主动结束、其他流程分别记录，未披露SSP
+逐项结果与档位：
+  - 公司：
+      腾讯/文远知行/字节跳动/美团
+    方向与岗位：
+      腾讯/字节/文远知行/美团；C++后台；暑期实习
+    档位：
+      未披露
+    状态：
+      multiple_outcomes_self_report
+    事件时间／原文日期（依分类）：
+      04月多公司流程；事件年未知，2025-04-28为编辑日
+    证据：
+      https://ac.nowcoder.com/discuss/1500141?type=0
+    依据：
+      本人腾讯04-28 offer、文远04-22通知面试通过；美团主动结束、其他流程分别记录，未披露SSP
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      多公司多轮合并为一篇；自述腾讯offer、文远面试通过
+    questions：
+      - 如何增加HTTP服务器连接数、如何跨进程传socket？
+      - 有限内存统计100GB文件不同记录数怎样设计？
+      - 数据库B+树、MVCC、日志和缓存一致性如何说明？
+      - 从HTTP服务器升级HTTPS需要哪些改动？
+      - 手写多生产者多消费者队列、shared_ptr、非阻塞ringbuffer及线程池。
+      - 返回局部string的c_str代码有什么生命周期问题？
+    结果自述：
+      本人腾讯04-28 offer、文远04-22通知面试通过；美团主动结束、其他流程分别记录，未披露SSP
+涉及主题：
+  - 算法/编程
+  - 并发/线程
+  - 网络/协议
+  - 操作系统
+  - 项目深挖/个人贡献
+原文提问（归纳）：
+  - 如何增加HTTP服务器连接数、如何跨进程传socket？
+  - 有限内存统计100GB文件不同记录数怎样设计？
+  - 数据库B+树、MVCC、日志和缓存一致性如何说明？
+  - 从HTTP服务器升级HTTPS需要哪些改动？
+  - 手写多生产者多消费者队列、shared_ptr、非阻塞ringbuffer及线程池。
+  - 返回局部string的c_str代码有什么生命周期问题？
+内容归纳：
+  作者项目为数据库课程实验与WebServer，算法竞赛背景明显；面试深入系统、编码与项目细节。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  可借鉴基础项目做深，但不能忽略其ICPC竞赛背景而归因于项目名称。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 同人多公司合并一条；ICPC区金及多银背景明显，不能仅把结果归因于WebServer项目。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I10
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    暑期实习记录 附C++面经
+  原始来源：
+    https://ac.nowcoder.com/discuss/1500141?type=0
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1500141?type=0
+  canonical_post_key：
+    discuss/1500141
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    8ebcf8248e4fea56ac1089c55d65bd24f45cb05a12a6974c3181c92fa37d2482
+  body_char_count：
+    2457
+  source_card_path：
+    03_面经/I10.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    编辑于  2025-04-28 18:00
+  source_date_verified：
+    是
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_date：
+    04月多公司流程；事件年未知，2025-04-28为编辑日
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 如何增加HTTP服务器连接数、如何跨进程传socket？
+    - 有限内存统计100GB文件不同记录数怎样设计？
+    - 数据库B+树、MVCC、日志和缓存一致性如何说明？
+    - 从HTTP服务器升级HTTPS需要哪些改动？
+    - 手写多生产者多消费者队列、shared_ptr、非阻塞ringbuffer及线程池。
+    - 返回局部string的c_str代码有什么生命周期问题？
+  涉及主题：
+    - 算法/编程
+    - 并发/线程
+    - 网络/协议
+    - 操作系统
+    - 项目深挖/个人贡献
+  结果分类：
+    multiple_outcomes_self_report
+  result：
+    本人腾讯04-28 offer、文远04-22通知面试通过；美团主动结束、其他流程分别记录，未披露SSP
+  档位：
+    未披露
+  公司：
+    腾讯/文远知行/字节跳动/美团
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    方向是c++后台开发…项目：15445，webserver
+  阅读建议：
+    可借鉴基础项目做深，但不能忽略其ICPC竞赛背景而归因于项目名称。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 同人多公司合并一条；ICPC区金及多银背景明显，不能仅把结果归因于WebServer项目。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  date_correction：
+    2025编辑年与26毕业不能单独证明每轮面试发生在2025；不纳严格近期实习。
+  author_profile：
+    https://www.nowcoder.com/profile/314797882
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP02
+    - CAP03
+    - CAP06
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    未核／无
+source_key：
+  ASTRA_I10_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I10
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

@@ -1,0 +1,164 @@
+CV09 | 27双非本：腾讯IEG游戏安全后台实习面经
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true
+事件时间／原文日期（依分类）：
+  2025-09-26：自述收到腾讯实习offer
+方向与岗位：
+  Go后台实习，面试涉及Agent
+结果自述：
+  本人时间线记载Offer；没有SSP信息
+录用证据边界：
+  面经与时间线自述，无独立企业证明
+资料形式：
+  已offer面经中的局部履历（不是简历）
+专业背景：
+  27届本科；约两个月初创实习
+技术栈：
+  - Go
+  - 实习需求涉及Kubernetes与Casbin RBAC
+interview_topics_not_proven_skills：
+  - GMP/Channel
+  - epoll
+  - RocksDB/LSM
+  - Raft/Paxos
+  - ReAct
+  - LangChain/LangGraph
+  - Function Calling/MCP
+  - RPC
+  - 网络
+  - 算法
+本人项目与经历描述：
+  - 初创实习的K8S与RBAC需求；个人项目名称和实现未充分披露
+来源归纳：
+  一轮追问Go运行时和IO，另一轮覆盖分布式与Agent；第三轮回到实习贡献、项目和到岗时间。
+整理者分析：
+  说明Agent话题可以出现在传统后台面试中；两类项目应共享牢固后端基础，不能只为AI术语另建知识孤岛。
+值得学习之处：
+  - 实习到offer时间线清楚
+  - 后端与Agent交叉问题具体
+局限与静态风险：
+  - 只有局部履历
+  - 岗位并未声明纯Agent
+  - 问题出现不能证明候选人全部答对
+商业与选择偏差：
+  正文未见直接售课
+原访问范围：
+  正文全文
+证据边界：
+  面经中等；完整项目证据有限
+original_file_status：
+  无完整简历原件
+阅读建议：
+  优先用来验证广度与深度的组合；与纯Agent岗位分列
+root_recheck：
+  研究中曾读取正文；后续部分请求只返回动态页面空壳。资料卡保留初次内容与原链接，阅读时可能需要正常浏览器。
+类别：
+  候选人资料
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    2025-09-26：自述收到腾讯实习offer
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    原记录明确2025年和09-26 offer；不从27届倒推
+  来源日期：
+    2025-10-04
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      腾讯IEG游戏安全
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true
+    依据：
+      面经与时间线自述，无独立企业证明
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  2025-10-04
+履历材料形式：
+  面经中的局部履历
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true
+      direct_basis：
+        面经与时间线自述，无独立企业证明
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true
+      direct_basis：
+        已offer面经中的局部履历（不是简历）
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true
+      direct_basis：
+        初创实习的K8S与RBAC需求；个人项目名称和实现未充分披露
+      直接关系：
+        直接点名
+      gap：
+        仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true
+      direct_basis：
+        27双非本—腾讯IEG游戏安全后台实习面经
+      直接关系：
+        直接点名
+      gap：
+        本记录并非各家SSP完整面试录音；以已读范围为准
+      interview_id：
+        INT12
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  - 本记录并非各家SSP完整面试录音；以已读范围为准
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  否
+ssp_grade_company_explicit：
+  否
+ssp_claim_present：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

@@ -1,0 +1,112 @@
+{
+  "research_date": "2026-10-23",
+  "scope": "继续补Agent工程专项的平台实际正文；独立核读结果，不修改主表、不分配OP编号，不设计用户个人项目。",
+  "result": {
+    "new_platform_fulltexts_read": 1,
+    "platform": "知乎",
+    "new_bilibili_agent_articles_read": 0,
+    "videos_watched": 0,
+    "quality_boundary": "一篇署名技术内容作者的LangGraph入门概念资料，必须带纠错选读；不是本人面经、企业招聘标准或成熟项目证明。"
+  },
+  "sources": [
+    {
+      "proposed_key": "ZHIHU_WANGJIXING_LANGGRAPH_32373609214",
+      "title": "大模型-Agent LangGraph 面试八股文，简单背一背 (入门级)",
+      "url": "https://www.zhihu.com/tardis/bd/art/32373609214",
+      "platform": "知乎公开正文页",
+      "author": "王几行XING",
+      "author_tagline": "Go fast or go home.",
+      "source_date": "2025-03-25（正文末编辑日期）",
+      "source_version_boundary": "未发现文章绑定的LangGraph包版本或代码提交；官方纠错按2026-10-23可读文档核对，不声称已审作者发文时全部API。",
+      "track": "Agent工程",
+      "recruitment": "不适用（概念资料，非面经）",
+      "outcome": "无招聘结果或SSP证据",
+      "reading": {
+        "scope": "全文",
+        "fulltext": true,
+        "primary_platform_scope": "全文",
+        "video_watched": false,
+        "web_tool_lines": "198行，L0—197",
+        "normal_get_status": 200,
+        "normal_get_final_url": "https://www.zhihu.com/tardis/bd/art/32373609214",
+        "body_text_characters": 5843,
+        "body_text_sha256": "2fda05402e10adf2a1acb279f69f6ace02b37f48b80771c4ba54710f7aee2231",
+        "scope_note": "实际阅读全文并正常GET核到正文及署名；阅读的是30组教学问答，不将标题的面试字样算真实被问题目。"
+      },
+      "identity": {
+        "status": "署名技术内容创作者；非已核企业面试官",
+        "basis": "原知乎HTML署名王几行XING。公开LearnGraph教学站以同名及Bryce Wang署名，并链接本人知乎账号和GitHub。",
+        "author_site": "https://langgraph-lightning.vercel.app/",
+        "author_zhihu_link_from_site": "https://www.zhihu.com/people/brycewang1898",
+        "linked_repository": "https://github.com/brycewang-stanford/learngraph.online",
+        "linked_repository_current_status": "本轮GitHub仓库及commits公开API均404，未取得固定源码，不能称已核项目实现或其实际工程经历。",
+        "independent_employer_verification": false
+      },
+      "summary": "材料把图控制流、状态快照、人工中断与工具节点列为Agent实现要素，适合建立阅读框架；不能据此认定项目可靠或非toy。",
+      "adoptable_points": [
+        {"point":"需要显式处理分支、循环、状态及人工介入，而不是一次模型输出即结束。","locator":"核心概念1、3—6；快速开始3—4、17"},
+        {"point":"恢复、工具错误和持久化应有实现依据，框架名本身不是验证。","locator":"快速开始9、17—20；后半句为研究评注"}
+      ],
+      "corrections_required": [
+        {"topic":"持久化与长期记忆","source_locator":"核心概念5—6；快速开始9","correction":"内存保存不抗进程重启；线程快照与跨线程长期记忆不是同一机制。","official_refs":["LC_PERSISTENCE"]},
+        {"topic":"时间旅行与恢复粒度","source_locator":"核心概念4；快速开始2","correction":"恢复以已保存的super-step检查点为界；其后节点可能重跑LLM或API，不能推成任意代码位置继续或外部动作只做一次。","official_refs":["LC_CHECKPOINTERS"]},
+        {"topic":"线程分区与授权","source_locator":"快速开始14、18—19","correction":"thread_id是状态索引，不自动证明用户授权或并发安全；会话所有者校验、存储隔离与并发策略还需独立验证。","official_refs":["LC_RESOURCE_AUTH","LC_CHECKPOINTERS"],"inference_boundary":"原文未展示这些验证；不能由会话分区推出绝对无冲突。"}
+      ],
+      "quality_limitations": [
+        "快速开始段保留对输入教程作问答整理的生成式措辞，编辑审校程度存疑；不据此断言整篇均由AI生成。",
+        "没有真实业务验收、评测集、成本延迟测量或权限实现；不是成熟Agent案例。",
+        "题库答案不等于实际招聘追问，不增加面经样本数或成功候选人数。"
+      ],
+      "commercial_background": "正文未见课程购买卡或付费导流；作者另有教学站及社区推广利益，是否收费未核。框架官方纠错文档亦有产品推广背景。",
+      "recommendation": {
+        "level": "带纠错选读",
+        "modules": ["图路由与状态结构", "checkpoint与重启恢复边界", "工具错误分支", "人工中断与资源授权"],
+        "why": "可把框架术语变成实现核查问题；应同时读纠错来源。",
+        "not_to_claim": ["用了LangGraph即非toy", "具备线程ID即有租户隔离", "框架自动保证工具副作用不重复", "30组问答是30场真实面试", "作者为已核大厂招聘面试官"]
+      }
+    }
+  ],
+  "official_crosschecks": [
+    {
+      "key": "LC_PERSISTENCE",
+      "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+      "title": "Persistence — Docs by LangChain",
+      "reading_scope": "实际读到正文L25—28、54—61、84—96相关段；按主题选读，不声称整站已读。",
+      "finding": "官方区分线程checkpointer与跨线程store，并明确内存检查点在重启后丢失；长期快照还需处理存储增长。"
+    },
+    {
+      "key": "LC_CHECKPOINTERS",
+      "url": "https://docs.langchain.com/oss/python/langgraph/checkpointers",
+      "title": "Checkpointers — Docs by LangChain",
+      "reading_scope": "实际核读L64—111及L293—320的状态、恢复、重放和durability边界。",
+      "finding": "检查点位于super-step边界；重放会重新执行后续节点，包含LLM和API；保存时机存在一致性与性能取舍。"
+    },
+    {
+      "key": "LC_RESOURCE_AUTH",
+      "url": "https://docs.langchain.com/langsmith/resource-auth",
+      "title": "Make conversations private — Docs by LangChain",
+      "reading_scope": "实际核读L80—94、171—187、221—257的资源所有者过滤及跨用户拒绝示例。",
+      "finding": "Agent Server需要认证后的资源级授权来限制用户读取他人线程；线程标识本身不代替这一控制。",
+      "scope_boundary": "此文为Agent Server/LangSmith场景，不把示例装饰器直接称所有自托管服务的唯一做法。"
+    }
+  ],
+  "access_limits": [
+    {"url":"https://www.bilibili.com/read/cv39979382/","status":"web工具不可访问；未取正文","check":"视频说明链接，仅为发现；不当Agent观点已读"},
+    {"url":"https://www.bilibili.com/read/cv49188359/","status":"web工具不可访问；未取正文","check":"视频说明链接，仅为发现；不当招聘或课程效果证据"},
+    {"url":"https://zhuanlan.zhihu.com/p/2021963123024831888","title":"认知重建之后，步入Agentic Engineering的工程革命","status":"新原页正常web open403；未读，不重复访问"},
+    {"url":"https://zhuanlan.zhihu.com/p/2061765372626392106","title":"如何学习AI Agent，如何成为AI Agent工程师","status":"新原页正常web open403；未读，不重复访问"},
+    {"url":"https://www.zhihu.com/en/article/687856647","status":"正常web open跳安全验证且need_login=true；停止，未读"},
+    {"url":"https://www.zhihu.com/tardis/jm/art/2050893501324441306","title":"AI Agent & Skill测评方案及落地实践","status":"由已索引公开jm页发现的正常公开路径不可访问；未读"},
+    {"url":"https://www.zhihu.com/tardis/jm/art/2022259323544281560","title":"Agent/Skills/Teams架构演进过程及技术选型之道","status":"正常公开路径不可访问；未读"}
+  ],
+  "method": {
+    "discovery": "先检索B站read/opus及署名作者，再以LangGraph/Agent记忆等主题寻找知乎公开索引正文；没有反复刷既有403原页或视频412。",
+    "verification": "知乎原平台全文与本地普通GET交叉核读；署名关系核公开作者教学站；技术断言按官方文档逐条对照。",
+    "limits": "未登录、未绕验证码、未下载媒体、未运行第三方项目或调用模型；不保存联系方式；外站只用于身份或事实核对，未计平台正文。"
+  },
+  "remaining_gaps": [
+    "这是一篇入门题库式资料，并非近期生产Agent团队的项目评审或本人实习面经。",
+    "仍需更强的真实任务评测、成本、权限与故障恢复专业平台原文，不能用概念资料宣布全部完成。",
+    "B站Agent专项图文新路径未取得实际正文，访问原URL保留供手动核对。"
+  ]
+}

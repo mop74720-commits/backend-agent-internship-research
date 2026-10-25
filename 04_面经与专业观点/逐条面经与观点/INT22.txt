@@ -1,0 +1,253 @@
+INT22 | 四非本 滴滴-后端实习面经(已OC)
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551
+canonical_url：
+  https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee
+公司：
+  滴滴
+team：
+  具体业务组未披露
+方向与岗位：
+  Java后端实习
+事件时间／原文日期（依分类）：
+  2025-03-21/03-25面试；03-28正式offer
+date_certainty：
+  正文时间线明确年份与月日
+rounds：
+  - 一面
+  - 二面
+结果自述：
+  自述2025-03-26口头OC，03-28正式offer；未经企业独立验证
+涉及主题：
+  - 项目深挖/个人贡献
+  - Java并发/JVM
+  - 消息顺序/一致性
+  - RPC协议
+  - 事务
+  - 系统设计
+  - 算法/编程
+原文提问（归纳）：
+  - 采用RocketMQ顺序消息解决了什么需求，同时损失什么能力？
+  - 自研RPC为什么值得做，协议包含哪些信息、如何保证可解析？
+  - 如何把服务同步编排改成CompletableFuture，怎样设计充值和转账的事务边界？
+内容归纳：
+  成功实习样本同时保留业务约束和底层追问。尤其适合比较组件项目与业务项目如何分别证明协议、并发、事务和取舍能力。
+borrowable_points：
+  - 解释使用顺序消息的业务前提及代价。
+  - 从线程池、异步编排延伸到实际任务的正确性。
+weaknesses_and_limits：
+  - RPC仓库和原始运行指标未公开，不能验证实现质量。
+  - 作者对公司难度的比较属于个人体验，不用于公司排名。
+统计组：
+  明确实习面经
+role_boundary：
+  录用自述不能推导SSP档位
+candidate_group：
+  SUP_BACKEND_C03
+public_project_repositories：
+  —
+repository_relationship：
+  原文描述自研RPC，但未给出能确认作者关系的仓库。
+ssp_status：
+  未声称SSP
+source_line_range：
+  原页面正文第46–95行
+原访问范围：
+  已打开原文并读取正文具体问题；动态页后续可不稳定
+fulltext_verified：
+  是
+证据边界：
+  B：候选人第一人称公开自述；未独立验证面试、身份或录用结果
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2025-03-21/03-25面试；03-28正式offer
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    正文时间线明确年月日
+  来源日期：
+    2025-04-15编辑
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    已打开原文并读取正文具体问题；动态页后续可不稳定
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      滴滴
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?toCommentId=21427551
+    依据：
+      自述2025-03-26口头OC，03-28正式offer；未经企业独立验证
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-04-15编辑
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+结果分类：
+  offer_self_report
+related_record_ids：
+  —
+external_research_reviews：
+  I03：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        I03
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_面经核对.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        I03
+      existing_id：
+        INT22
+      decision：
+        existing
+      标题：
+        四非本 滴滴后端实习面经（已OC）
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee
+      resolved_url：
+        https://api-cdn.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?sourceSSR=subject
+      canonical_post_key：
+        feed/main/detail/c822bd1fffa64addb718e806090a20ee
+      access_status：
+        HTTP 200，原始作者主文全文可读
+      已读部分：
+        全文
+      fulltext_verified：
+        是
+      body_selector：
+        .feed-content-text
+      retrieved_at：
+        2026-10-24
+      reading_note：
+        只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+      body_text_sha256：
+        4a37984dd8e5dd4011df4833891df587e6551f6ca9d966e07ce6144e1fd8c29c
+      body_char_count：
+        1147
+      source_card_path：
+        03_面经/I03.html
+      source_card_role：
+        提供检索线索和原URL，不能代替本次原文实读
+      发表／来源日期：
+        2025-04-15（编辑）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+      source_date_verified：
+        否
+      方向：
+        后端
+      招聘类型：
+        实习
+      event_date：
+        2025-03-21一面、03-25二面、03-26口头OC、03-28正式offer
+      event_year_confirmed：
+        是
+      event_year：
+        2025
+      时间依据：
+        正文TimeLine逐项明确2025年，不依赖编辑时间。
+      questions：
+        - 顺序消息怎样实现，为什么使用，单线程消费有哪些代价？
+        - 如何用CompletableFuture替代CountDownLatch编排服务？
+        - 做RPC项目的动机、协议设计和注意事项是什么？
+        - 联合索引(A,B)在SELECT及COUNT路径如何执行？
+        - 事务回滚异常如何配置，充值/提现/转账系统怎样设计？
+        - 现场实现ArrayList及有序数组末次位置查找。
+      涉及主题：
+        - 算法/编程
+        - JVM/语言运行时
+        - 并发/线程
+        - 数据库/SQL
+        - 消息/异步
+        - 网络/协议
+        - 分布式/一致性
+        - 项目深挖/个人贡献
+      结果分类：
+        offer_self_report
+      result：
+        本人正文明确2025-03-28正式offer；不是只停留在标题OC
+      档位：
+        未披露
+      公司：
+        滴滴
+      ai_organized：
+        否
+      ai_marker_basis：
+        作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+      short_quote：
+        2025.3.26 口头OC
+2025.3.28 正式offer
+      阅读建议：
+        很适合用来检查自研组件是否讲得清边界、取舍与失败场景。
+      局限：
+        - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+      same_author_relations：
+        —
+      商业背景：
+        正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+      merge_policy：
+        同一逻辑来源不新增计数；只补本次核验路径、短引文、问题和必要纠错，既有未知年不回填。
+      access_attempts：
+        - 原始来源：
+            https://api-cdn.nowcoder.com/feed/main/detail/c822bd1fffa64addb718e806090a20ee?sourceSSR=subject
+          状态：
+            200
+          body_found：
+            是
+      capability_ids：
+        - CAP01
+        - CAP02
+        - CAP04
+        - CAP05
+        - CAP06
+      reading_boundary：
+        本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+      original_outcome_quote：
+        2025.3.26 口头OC
+2025.3.28 正式offer
+same_author_relations：
+  —

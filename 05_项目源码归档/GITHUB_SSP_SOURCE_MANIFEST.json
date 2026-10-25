@@ -1,0 +1,92 @@
+[
+  {
+    "id": "PRO14",
+    "repo": "CalvinNeo/CFortranTranslator",
+    "commit": "903062e709c8a0818737b6202dbcf5f510377af8",
+    "commit_date": "2024-12-09T15:57:17Z",
+    "license": "GPL-2.0-or-later",
+    "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+    "status": "downloaded",
+    "source_archive": true,
+    "source_url": "https://github.com/CalvinNeo/CFortranTranslator",
+    "download_url": "https://codeload.github.com/CalvinNeo/CFortranTranslator/zip/903062e709c8a0818737b6202dbcf5f510377af8",
+    "retrieved_date": "2026-10-23",
+    "archive_file": "CalvinNeo__CFortranTranslator__903062e709c8.zip",
+    "archive_bytes": 790199,
+    "archive_sha256": "804e94877cb35fec27ac60de10e2e20d60d78caef95abe76f006be2d3a083015",
+    "member_count": 170,
+    "license_files": [
+      "CFortranTranslator-903062e709c8a0818737b6202dbcf5f510377af8/LICENSE"
+    ],
+    "crc_checked": true,
+    "verification": "固定版本ZIP CRC与SHA-256、原许可证及推荐路径存在性；未构建、运行或压测"
+  },
+  {
+    "id": "PRO15",
+    "repo": "CalvinNeo/ATP",
+    "commit": "597a9be4b840127c320b0a7abbfa280ccaab435f",
+    "commit_date": "2020-10-16T04:56:53Z",
+    "license": "GPL-2.0-or-later",
+    "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+    "status": "downloaded",
+    "source_archive": true,
+    "source_url": "https://github.com/CalvinNeo/ATP",
+    "download_url": "https://codeload.github.com/CalvinNeo/ATP/zip/597a9be4b840127c320b0a7abbfa280ccaab435f",
+    "retrieved_date": "2026-10-23",
+    "archive_file": "CalvinNeo__ATP__597a9be4b840.zip",
+    "archive_bytes": 96937,
+    "archive_sha256": "ff1205bbb9b6731133e98a4495d4ef81b80e6c015411e24b79052b2dec2b19e1",
+    "member_count": 46,
+    "license_files": [
+      "ATP-597a9be4b840127c320b0a7abbfa280ccaab435f/LICENSE"
+    ],
+    "crc_checked": true,
+    "verification": "固定版本ZIP CRC与SHA-256、原许可证及推荐路径存在性；未构建、运行或压测"
+  },
+  {
+    "id": "PRO16",
+    "repo": "CalvinNeo/Nuft",
+    "commit": "39e09d330abc68ca82e13c0baa9020c533d979aa",
+    "commit_date": "2022-04-12T14:08:23Z",
+    "license": "GPL-3.0-or-later；jepsen子目录EPL-1.0-or-later",
+    "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+    "status": "downloaded",
+    "source_archive": true,
+    "source_url": "https://github.com/CalvinNeo/Nuft",
+    "download_url": "https://codeload.github.com/CalvinNeo/Nuft/zip/39e09d330abc68ca82e13c0baa9020c533d979aa",
+    "retrieved_date": "2026-10-23",
+    "archive_file": "CalvinNeo__Nuft__39e09d330abc.zip",
+    "archive_bytes": 96169,
+    "archive_sha256": "d297b099e78bd770c431ba704c96e937dfa955616d9b5efe8759cfe536d7f593",
+    "member_count": 50,
+    "license_files": [
+      "Nuft-39e09d330abc68ca82e13c0baa9020c533d979aa/LICENSE",
+      "Nuft-39e09d330abc68ca82e13c0baa9020c533d979aa/jepsen/LICENSE"
+    ],
+    "crc_checked": true,
+    "verification": "固定版本ZIP CRC与SHA-256、原许可证及推荐路径存在性；未构建、运行或压测"
+  },
+  {
+    "id": "PRO17",
+    "repo": "linyacool/WebServer",
+    "commit": "7e18602f15c5c64e006091aa03e04b927c255983",
+    "commit_date": "2022-03-21T03:40:21Z",
+    "license": "根MIT；内嵌WebBench为GPL-3.0",
+    "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+    "status": "downloaded",
+    "source_archive": true,
+    "source_url": "https://github.com/linyacool/WebServer",
+    "download_url": "https://codeload.github.com/linyacool/WebServer/zip/7e18602f15c5c64e006091aa03e04b927c255983",
+    "retrieved_date": "2026-10-23",
+    "archive_file": "linyacool__WebServer__7e18602f15c5.zip",
+    "archive_bytes": 1988617,
+    "archive_sha256": "fd7a8c24a7270480d42e37434865601388dd0013080e6fb5b91691fade2b1c52",
+    "member_count": 230,
+    "license_files": [
+      "WebServer-7e18602f15c5c64e006091aa03e04b927c255983/LICENSE",
+      "WebServer-7e18602f15c5c64e006091aa03e04b927c255983/WebBench/LICENSE"
+    ],
+    "crc_checked": true,
+    "verification": "固定版本ZIP CRC与SHA-256、原许可证及推荐路径存在性；未构建、运行或压测"
+  }
+]

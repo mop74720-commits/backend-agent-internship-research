@@ -1,0 +1,812 @@
+[
+  {
+    "query": "ssp 拿到 in:readme",
+    "status": 200,
+    "total_count": 81,
+    "items": [
+      {
+        "repo": "zslomo/2019-Autumn-recruitment-experience",
+        "branch": "master",
+        "description": "2019届秋招面经集合",
+        "fork": false
+      },
+      {
+        "repo": "puge-up/programming-play",
+        "branch": "main",
+        "description": "致力于实习/校招/社招进大厂打法，计算机基础知识学习，C++、Java、算法学习路线，专注于编程打法！",
+        "fork": false
+      },
+      {
+        "repo": "JeffreyZhao/ssp",
+        "branch": "master",
+        "description": "学生资助计划",
+        "fork": false
+      },
+      {
+        "repo": "amusi/AI-Job-Notes",
+        "branch": "master",
+        "description": "AI算法岗求职攻略（涵盖准备攻略、刷题指南、内推和AI公司清单等资料）",
+        "fork": false
+      },
+      {
+        "repo": "fengjixuchui/RedTeamer",
+        "branch": "master",
+        "description": "红方人员作战执行手册",
+        "fork": false
+      },
+      {
+        "repo": "chriskaliX/AD-Pentest-Notes",
+        "branch": "master",
+        "description": "用于记录内网渗透(域渗透)学习 :-)",
+        "fork": false
+      },
+      {
+        "repo": "d1nfinite/sec-interview",
+        "branch": "master",
+        "description": "信息安全面试题汇总",
+        "fork": false
+      },
+      {
+        "repo": "liyupi/yupi-skill",
+        "branch": "main",
+        "description": "🐟 程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw",
+        "fork": false
+      },
+      {
+        "repo": "erdengk/erdengk",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "0voice/Campus_recruitment_interview_questions",
+        "branch": "main",
+        "description": "2025 最新校招面试题合集， 面向 2026 届应届生，全网最全整理！收录 1000+道真实面试题以及面经，涵盖阿里、腾讯、字节、美团、百度、华为、小米、英伟达、微软、米哈游等百家大中小厂。每题配备视频解析 or 文字讲解，持续更新中，助力拿下 Dream Offer！",
+        "fork": false
+      },
+      {
+        "repo": "dong03/CV_Interview",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "yessimida/yes",
+        "branch": "main",
+        "description": "追求有深度的后端技术文章，知其然知其所以然",
+        "fork": false
+      },
+      {
+        "repo": "extreme-assistant/AI-job-interview",
+        "branch": "master",
+        "description": "AI算法岗面试经验汇总",
+        "fork": false
+      },
+      {
+        "repo": "shenweichen/AlgoNotes",
+        "branch": "main",
+        "description": "【浅梦学习笔记】文章汇总:包含 排序&CXR预估，召回匹配，用户画像&特征工程，推荐搜索综合  计算广告，大数据，图算法，NLP&CV，求职面试 等内容",
+        "fork": false
+      },
+      {
+        "repo": "harrisliangsu/ai-agent-engineer-handbook",
+        "branch": "main",
+        "description": "AI Agent / LLM 应用工程师面试与学习手册 | Prompt→Context→Agent→Harness + real JD teardown + 92 interview Q&As (CN)",
+        "fork": false
+      },
+      {
+        "repo": "BJLIYANLIANG/Security_Service_Interview",
+        "branch": "main",
+        "description": "安全面试经验汇总 (80+篇)",
+        "fork": false
+      },
+      {
+        "repo": "zimuzi2019/xducs-learning-tips",
+        "branch": "main",
+        "description": "关于西电计科本科学习的一些经验分享与资料汇总",
+        "fork": false
+      },
+      {
+        "repo": "adongwanai/AgentGuide",
+        "branch": "main",
+        "description": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成",
+        "fork": false
+      },
+      {
+        "repo": "Ridter/Intranet_Penetration_Tips",
+        "branch": "master",
+        "description": "2018年初整理的一些内网渗透TIPS，后面更新的慢，所以整理出来希望跟小伙伴们一起更新维护~",
+        "fork": false
+      },
+      {
+        "repo": "shejishi/GlideTransformation",
+        "branch": "master",
+        "description": "create transformation project",
+        "fork": false
+      },
+      {
+        "repo": "cotsaaaaa-hash/Disassemble_the_black_box_1",
+        "branch": "main",
+        "description": "通过可视化等方式拆解大模型",
+        "fork": false
+      },
+      {
+        "repo": "alexli-fortrail/rtb-health-plugin",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "open-vela/contest2026_181_womenshayebuhuidui",
+        "branch": "dev-ai-contest-2026",
+        "description": "openvela AI contest 2026 - team womenshayebuhuidui",
+        "fork": false
+      },
+      {
+        "repo": "Jeansding/2019-Autumn-recruitment-experience",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "youta7/2019-Autumn-recruitment-experience",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "3261559688-oss/crime-map-recife-",
+        "branch": "main",
+        "description": "Brazil crime map H5  ",
+        "fork": false
+      },
+      {
+        "repo": "Narcissu-s1/Acoustics-Toolbox-MCPextension-skills",
+        "branch": "main",
+        "description": "一个关于声学工具箱的matlabMCP拓展与声场仿真 skills",
+        "fork": false
+      },
+      {
+        "repo": "Pluviobyte/Rain_learning",
+        "branch": "main",
+        "description": "天问之路 — 学习笔记&学习周报。",
+        "fork": false
+      },
+      {
+        "repo": "laraalexander751-art/-2022-",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "dongjinchi/CLAIM",
+        "branch": "master",
+        "description": "CLAIM — a country-resolution climate-economy integrated assessment model. FaIR v2.0 carbon cycle + MESMER downscaling + a 185-country damage kernel inverted from empirical local-projection impulse responses, with capital accumulation as an explicit second channel. Outputs country-year climate losses and the social cost of carbon.",
+        "fork": false
+      },
+      {
+        "repo": "jeannejiang/safe-walk-sp",
+        "branch": "main",
+        "description": "Night-walk neighborhood risk alerts for Sao Paulo (PWA + Capacitor iOS)",
+        "fork": false
+      },
+      {
+        "repo": "trialley/TA2020",
+        "branch": "master",
+        "description": "I want job.",
+        "fork": false
+      },
+      {
+        "repo": "tuia-fed/tuia-inspire-doc",
+        "branch": "master",
+        "description": "推啊激励广告对接文档",
+        "fork": false
+      },
+      {
+        "repo": "RAY13465/ShuShuTweaks",
+        "branch": "master",
+        "description": "🐭 鼠鼠小助手 (ShuShu Tweaks) — SillyTavern 扩展：思维链收纳（续写不再把思维链吐回正文）+ 角色管理面板模块化（按钮→模块→分区，桌面/手机两套布局）+ 8 种角色卡样式 + 头像高清化 + 角色详情页版头 + 导入即更新（认卡里姓名/人设重合度，重复就问你是更新还是另存，更新后自动补回局部正则/收藏/世界书绑定）",
+        "fork": false
+      },
+      {
+        "repo": "izj007/wechat",
+        "branch": "main",
+        "description": "微信收藏的文章",
+        "fork": false
+      },
+      {
+        "repo": "zhyhfut/embedded-interviewer",
+        "branch": "main",
+        "description": "嵌入式与具身智能面试模拟 Agent，支持白菜/SP/SSP 三档难度，多 LLM 可切换",
+        "fork": false
+      },
+      {
+        "repo": "MAXUPUPUP/-Bioinfo_journey",
+        "branch": "main",
+        "description": "Let's do Bioinfo!!!",
+        "fork": false
+      },
+      {
+        "repo": "yjt2018/AI-Job-Notes",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "apachecn-archive/AI-Job-Notes",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "kyouccc/jobready-career-assistant",
+        "branch": "main",
+        "description": "职途 JobReady — 校招/实习全流程求职辅助技能包：简历优化、JD 拆解、面试模拟与评分复盘、Offer 七维对比与薪资谈判、职场新人指南。",
+        "fork": false
+      },
+      {
+        "repo": "xfpg21421/adx_expert",
+        "branch": "main",
+        "description": "for adx",
+        "fork": false
+      },
+      {
+        "repo": "MAXUPUPUP/Ai_infra_journey",
+        "branch": "main",
+        "description": "Let's do AI Infra!!!",
+        "fork": false
+      },
+      {
+        "repo": "XTeam-Wing/RedTeaming2020",
+        "branch": "main",
+        "description": "RedTeaming知识星球2020年安全知识汇总",
+        "fork": false
+      },
+      {
+        "repo": "itwanger/zsxq",
+        "branch": "main",
+        "description": "二哥编程星球介绍",
+        "fork": false
+      },
+      {
+        "repo": "1dika1/vsvs",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "1dika1/network",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "zowxen/react-mobx-starter",
+        "branch": "master",
+        "description": "进行 React + Mobx + React Route + Antd 开发的脚手架",
+        "fork": false
+      },
+      {
+        "repo": "KyelYang/c-plus-Interview",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "just0rg/Security-Interview",
+        "branch": "main",
+        "description": "安全方向知识点(包含web攻防、java攻防、企业安全、内网/域、提权、免杀)",
+        "fork": false
+      },
+      {
+        "repo": "LittleChild/Preparation-For-OFFER",
+        "branch": "main",
+        "description": "在此记录自己的秋招，同时准备秋招，复习基础知识，加油！",
+        "fork": false
+      },
+      {
+        "repo": "liangtian061109/esp_ble_xbox",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "CloudCreateThink/CodingOffer",
+        "branch": "main",
+        "description": "Get your offer in one go",
+        "fork": false
+      },
+      {
+        "repo": "Mxster-dll/smarter_jxufe",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "LucaZhang7784/stackchan-fusion",
+        "branch": "master",
+        "description": "StackChan desktop robot xiaozhi voice bridge to local AI agents (agy/pi/claude/codex) via MCP Toolkit | 桌面机器人×本地智能体双向语音 | デスクトップロボット×AIエージェント双方向音声",
+        "fork": false
+      },
+      {
+        "repo": "SexyBeast233/SecBooks",
+        "branch": "main",
+        "description": "安全类各家文库大乱斗",
+        "fork": false
+      },
+      {
+        "repo": "tosasitill/Melody.Az100_Impl",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "Liaolai/honest-ocean-analyst",
+        "branch": "main",
+        "description": "诚实的海洋与地球科学数据分析助手（AI4S Hackathon 开放创新课题）",
+        "fork": false
+      },
+      {
+        "repo": "sunyd1006/ssp",
+        "branch": "master",
+        "description": "sssssssssssssssssss p find job!!!",
+        "fork": false
+      },
+      {
+        "repo": "aiyuedi/intelligent-manufacturing-roadmap",
+        "branch": "main",
+        "description": "智能制造工程本科学习路线图 | Intelligent Manufacturing Engineering Undergraduate Roadmap",
+        "fork": false
+      },
+      {
+        "repo": "junglej/ebpf-usbnet-for-5G",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "gitdreambox/pybluehost",
+        "branch": "master",
+        "description": "python bluetooth host stack",
+        "fork": false
+      },
+      {
+        "repo": "Winter21c/archlinux-xiaomi-raphael",
+        "branch": "main",
+        "description": "Arch Linux ARM (aarch64) for Xiaomi Redmi K20 Pro / Mi 9T Pro (raphael, SM8150): U-Boot + KDE Plasma 6 + Plasma Mobile 完整镜像构建流水线（无需 root 构建）",
+        "fork": false
+      },
+      {
+        "repo": "backtraxe/offer-is-all-you-need",
+        "branch": "main",
+        "description": "面经、八股、系统设计，一个都不能少。Offer 是我的，也是你的。",
+        "fork": false
+      },
+      {
+        "repo": "alany-dev/coro",
+        "branch": "main",
+        "description": "C++20协程学习，tinyCoroLab 协程库lab",
+        "fork": false
+      },
+      {
+        "repo": "zha0/Bei-Gai-penetration-test-guide",
+        "branch": "main",
+        "description": "渗透测试适合初学者，未完结，更新中",
+        "fork": false
+      },
+      {
+        "repo": "HuuuugePony/sf6-tracker",
+        "branch": "master",
+        "description": "街头霸王6对战记录，更方便的查询统计展示，均使用官方接口。",
+        "fork": false
+      },
+      {
+        "repo": "sk0n3r/odom321n",
+        "branch": "main",
+        "description": "Auto-created repository for publishing",
+        "fork": false
+      },
+      {
+        "repo": "longchangjin2-arch/Unicode-chaxun",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "gemini0ani/yep4q2q",
+        "branch": "main",
+        "description": "o4sote5nAPEX 无法分配 SH 用户？一个存储过程轻松解决cco6l4soqhf8",
+        "fork": false
+      },
+      {
+        "repo": "Remanced/AgentGuide",
+        "branch": "main",
+        "description": "AgentGuide",
+        "fork": false
+      },
+      {
+        "repo": "frankjing3/AgentGuide",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "psgreger/q39uigrz0",
+        "branch": "main",
+        "description": "Auto-created repository for publishing",
+        "fork": false
+      },
+      {
+        "repo": "sk0n3r/pr0wwl",
+        "branch": "main",
+        "description": "Auto-created repository for publishing",
+        "fork": false
+      },
+      {
+        "repo": "sk0n3r/yh58z9az3i",
+        "branch": "main",
+        "description": "Auto-created repository for publishing",
+        "fork": false
+      },
+      {
+        "repo": "sk0n3r/f6zz5rsn",
+        "branch": "main",
+        "description": "Auto-created repository for publishing",
+        "fork": false
+      },
+      {
+        "repo": "sk0n3r/l1ao7e5",
+        "branch": "main",
+        "description": "Auto-created repository for publishing",
+        "fork": false
+      },
+      {
+        "repo": "edsfod/clash-review",
+        "branch": "main",
+        "description": "Review what Clash Verge's final MATCH,REJECT blocked and sort it into your own reject/direct/proxy rule sets (Windows, local web UI)",
+        "fork": false
+      },
+      {
+        "repo": "qiao12/C-_learning",
+        "branch": "main",
+        "description": "C++技术栈学习代码",
+        "fork": false
+      },
+      {
+        "repo": "whoami13apt/files2",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "zetaloop/leetcode-739",
+        "branch": "main",
+        "description": "LeetCode Problem 739 \"Daily Temperature\": Cheat Solution",
+        "fork": false
+      },
+      {
+        "repo": "GHWXY/Chinese-Top-Charts",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      }
+    ],
+    "message": null
+  },
+  {
+    "query": "ssp 斩获 in:readme",
+    "status": 200,
+    "total_count": 3,
+    "items": [
+      {
+        "repo": "puge-up/programming-play",
+        "branch": "main",
+        "description": "致力于实习/校招/社招进大厂打法，计算机基础知识学习，C++、Java、算法学习路线，专注于编程打法！",
+        "fork": false
+      },
+      {
+        "repo": "tanjiti/sec_profile",
+        "branch": "main",
+        "description": "爬取secwiki和xuanwu.github.io/sec.today,分析安全信息站点、安全趋势、提取安全工作者账号(twitter,weixin,github等)",
+        "fork": false
+      },
+      {
+        "repo": "itwanger/zsxq",
+        "branch": "main",
+        "description": "二哥编程星球介绍",
+        "fork": false
+      }
+    ],
+    "message": null
+  },
+  {
+    "query": "ssp 实习 项目 in:readme",
+    "status": 200,
+    "total_count": 47,
+    "items": [
+      {
+        "repo": "amusi/AI-Job-Notes",
+        "branch": "master",
+        "description": "AI算法岗求职攻略（涵盖准备攻略、刷题指南、内推和AI公司清单等资料）",
+        "fork": false
+      },
+      {
+        "repo": "puge-up/programming-play",
+        "branch": "main",
+        "description": "致力于实习/校招/社招进大厂打法，计算机基础知识学习，C++、Java、算法学习路线，专注于编程打法！",
+        "fork": false
+      },
+      {
+        "repo": "0voice/Campus_recruitment_interview_questions",
+        "branch": "main",
+        "description": "2025 最新校招面试题合集， 面向 2026 届应届生，全网最全整理！收录 1000+道真实面试题以及面经，涵盖阿里、腾讯、字节、美团、百度、华为、小米、英伟达、微软、米哈游等百家大中小厂。每题配备视频解析 or 文字讲解，持续更新中，助力拿下 Dream Offer！",
+        "fork": false
+      },
+      {
+        "repo": "adongwanai/AgentGuide",
+        "branch": "main",
+        "description": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成",
+        "fork": false
+      },
+      {
+        "repo": "viego1999/JavaWxy",
+        "branch": "master",
+        "description": "Java学习路线和资料分享",
+        "fork": false
+      },
+      {
+        "repo": "extreme-assistant/AI-job-interview",
+        "branch": "master",
+        "description": "AI算法岗面试经验汇总",
+        "fork": false
+      },
+      {
+        "repo": "YingaoWang-casia/shushu-ProjectProof",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "ChHsiching/GitHub-Chinese-Top-Charts",
+        "branch": "main",
+        "description": "🇨🇳 GitHub中文排行榜，帮助你发现高分优秀中文项目。",
+        "fork": false
+      },
+      {
+        "repo": "zimuzi2019/xducs-learning-tips",
+        "branch": "main",
+        "description": "关于西电计科本科学习的一些经验分享与资料汇总",
+        "fork": false
+      },
+      {
+        "repo": "BJLIYANLIANG/Security_Service_Interview",
+        "branch": "main",
+        "description": "安全面试经验汇总 (80+篇)",
+        "fork": false
+      },
+      {
+        "repo": "pinkie-ljz/GitHub-Chinese-Top-Charts",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "Yang6149/notes",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "KyelYang/c-plus-Interview",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "shenweichen/AlgoNotes",
+        "branch": "main",
+        "description": "【浅梦学习笔记】文章汇总:包含 排序&CXR预估，召回匹配，用户画像&特征工程，推荐搜索综合  计算广告，大数据，图算法，NLP&CV，求职面试 等内容",
+        "fork": false
+      },
+      {
+        "repo": "YingaoWang-casia/shushu-InterviewProof-RAG",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "aiyuedi/intelligent-manufacturing-roadmap",
+        "branch": "main",
+        "description": "智能制造工程本科学习路线图 | Intelligent Manufacturing Engineering Undergraduate Roadmap",
+        "fork": false
+      },
+      {
+        "repo": "LeoLee0812/CodeWhisper",
+        "branch": "main",
+        "description": "基于 Whisper 的语音转文字工具。一键转录至剪贴板，解决云端吞字与隐私忧虑。针对中文环境优化，打破网页端限制，实现与各家大模型（ChatGPT/Grok/Gemini 等）的无缝对话。Local Whisper-based voice input tool. One-click transcribe to clipboard, zero privacy leaks, no more cloud swallowing text. Optimized for Chinese, breaks web-side limits, enabling seamless voice chat with LLMs",
+        "fork": false
+      },
+      {
+        "repo": "Pluviobyte/Rain_learning",
+        "branch": "main",
+        "description": "天问之路 — 学习笔记&学习周报。",
+        "fork": false
+      },
+      {
+        "repo": "tanjiti/sec_profile",
+        "branch": "main",
+        "description": "爬取secwiki和xuanwu.github.io/sec.today,分析安全信息站点、安全趋势、提取安全工作者账号(twitter,weixin,github等)",
+        "fork": false
+      },
+      {
+        "repo": "Ghostasky/ALLStarRepo",
+        "branch": "main",
+        "description": "我所有star的repo",
+        "fork": false
+      },
+      {
+        "repo": "MAXUPUPUP/Ai_infra_journey",
+        "branch": "main",
+        "description": "Let's do AI Infra!!!",
+        "fork": false
+      },
+      {
+        "repo": "sspsec/ssp-tools",
+        "branch": "main",
+        "description": "我的个人赛博工具箱（Mac、ios、设备）",
+        "fork": false
+      },
+      {
+        "repo": "w3nq14/SecUnion",
+        "branch": "main",
+        "description": "网络安全博客大全",
+        "fork": false
+      },
+      {
+        "repo": "DropsOfZut/awesome-security-weixin-official-accounts",
+        "branch": "master",
+        "description": "网络安全类公众号推荐，欢迎大家推荐",
+        "fork": false
+      },
+      {
+        "repo": "backtraxe/offer-is-all-you-need",
+        "branch": "main",
+        "description": "面经、八股、系统设计，一个都不能少。Offer 是我的，也是你的。",
+        "fork": false
+      },
+      {
+        "repo": "SuleynanAuir/SuleynanAuir",
+        "branch": "main",
+        "description": "Config files for my GitHub profile.",
+        "fork": false
+      },
+      {
+        "repo": "trialley/TA2020",
+        "branch": "master",
+        "description": "I want job.",
+        "fork": false
+      },
+      {
+        "repo": "Mbilse/GitHub-Chinese-Top-Charts",
+        "branch": "main",
+        "description": "🇨🇳 GitHub中文排行榜",
+        "fork": false
+      },
+      {
+        "repo": "yjt2018/AI-Job-Notes",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "CloudCreateThink/CodingOffer",
+        "branch": "main",
+        "description": "Get your offer in one go",
+        "fork": false
+      },
+      {
+        "repo": "apachecn-archive/AI-Job-Notes",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "MAXUPUPUP/-Bioinfo_journey",
+        "branch": "main",
+        "description": "Let's do Bioinfo!!!",
+        "fork": false
+      },
+      {
+        "repo": "LittleChild/Preparation-For-OFFER",
+        "branch": "main",
+        "description": "在此记录自己的秋招，同时准备秋招，复习基础知识，加油！",
+        "fork": false
+      },
+      {
+        "repo": "kyouccc/jobready-career-assistant",
+        "branch": "main",
+        "description": "职途 JobReady — 校招/实习全流程求职辅助技能包：简历优化、JD 拆解、面试模拟与评分复盘、Offer 七维对比与薪资谈判、职场新人指南。",
+        "fork": false
+      },
+      {
+        "repo": "itwanger/zsxq",
+        "branch": "main",
+        "description": "二哥编程星球介绍",
+        "fork": false
+      },
+      {
+        "repo": "Tfcccc-bot/ai-infra-offer-radar",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "andy19801210/openwrt-padavan",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "CCzzsd/xhs-content-creator",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "GHWXY/Chinese-Top-Charts",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "Remanced/AgentGuide",
+        "branch": "main",
+        "description": "AgentGuide",
+        "fork": false
+      },
+      {
+        "repo": "frankjing3/AgentGuide",
+        "branch": "main",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "qtgavc/list",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "uhub/awesome-shell",
+        "branch": "master",
+        "description": "A curated list of awesome Shell frameworks, libraries and software.",
+        "fork": false
+      },
+      {
+        "repo": "krzemienski/awesome-from-stars",
+        "branch": "master",
+        "description": null,
+        "fork": false
+      },
+      {
+        "repo": "ningpengtao-coder/awesome-stars",
+        "branch": "main",
+        "description": "A curated list of my GitHub stars!",
+        "fork": false
+      },
+      {
+        "repo": "qiao12/C-_learning",
+        "branch": "main",
+        "description": "C++技术栈学习代码",
+        "fork": false
+      },
+      {
+        "repo": "ningpengtao-coder/starred-1w",
+        "branch": "main",
+        "description": "A curated list of my GitHub stars!",
+        "fork": false
+      }
+    ],
+    "message": null
+  }
+]

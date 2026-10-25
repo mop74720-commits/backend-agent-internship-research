@@ -1,0 +1,372 @@
+[
+  {
+    "query": "\"实习offer\" \"简历\" in:readme fork:false",
+    "url": "https://api.github.com/search/repositories?q=%22%E5%AE%9E%E4%B9%A0offer%22+%22%E7%AE%80%E5%8E%86%22+in%3Areadme+fork%3Afalse&per_page=30",
+    "status": 200,
+    "total_count": 104,
+    "items": [
+      {
+        "full_name": "muhualing/coding-interview-chinese",
+        "default_branch": "master",
+        "description": "Contains top companies interview experience from major websites in recent years",
+        "html_url": "https://github.com/muhualing/coding-interview-chinese"
+      },
+      {
+        "full_name": "puge-up/programming-play",
+        "default_branch": "main",
+        "description": "致力于实习/校招/社招进大厂打法，计算机基础知识学习，C++、Java、算法学习路线，专注于编程打法！",
+        "html_url": "https://github.com/puge-up/programming-play"
+      },
+      {
+        "full_name": "ShameCom/ShameCom",
+        "default_branch": "main",
+        "description": "收集校招污点公司或组织，帮助学弟学妹避雷。互联网不曾遗忘！",
+        "html_url": "https://github.com/ShameCom/ShameCom"
+      },
+      {
+        "full_name": "0voice/Campus_recruitment_interview_questions",
+        "default_branch": "main",
+        "description": "2025 最新校招面试题合集， 面向 2026 届应届生，全网最全整理！收录 1000+道真实面试题以及面经，涵盖阿里、腾讯、字节、美团、百度、华为、小米、英伟达、微软、米哈游等百家大中小厂。每题配备视频解析 or 文字讲解，持续更新中，助力拿下 Dream Offer！",
+        "html_url": "https://github.com/0voice/Campus_recruitment_interview_questions"
+      },
+      {
+        "full_name": "itwanger/toBeBetterJavaer",
+        "default_branch": "master",
+        "description": "一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准二哥的Java进阶之路😄",
+        "html_url": "https://github.com/itwanger/toBeBetterJavaer"
+      },
+      {
+        "full_name": "murufeng/Awesome-AI-algorithm",
+        "default_branch": "master",
+        "description": "人工智能算法方面的综合资料合集:包括求职面试、机器学习、深度学习、强化学习等方面的资料和代码",
+        "html_url": "https://github.com/murufeng/Awesome-AI-algorithm"
+      },
+      {
+        "full_name": "erdengk/erdengk",
+        "default_branch": "master",
+        "description": null,
+        "html_url": "https://github.com/erdengk/erdengk"
+      },
+      {
+        "full_name": "rd2coding/Road2Coding",
+        "default_branch": "main",
+        "description": "编程之路",
+        "html_url": "https://github.com/rd2coding/Road2Coding"
+      },
+      {
+        "full_name": "0voice/Career_planning_path",
+        "default_branch": "main",
+        "description": "2025年程序员找工作求职最新总结，学生阶段的困境解决，从简历到面试的全方位解析，从实习到全职的学习规划，就业必备技能与资源推荐。",
+        "html_url": "https://github.com/0voice/Career_planning_path"
+      },
+      {
+        "full_name": "Secxt/FINAL",
+        "default_branch": "main",
+        "description": "终章",
+        "html_url": "https://github.com/Secxt/FINAL"
+      },
+      {
+        "full_name": "7788dingzhengege/IM-NOT-GOD-SU",
+        "default_branch": "main",
+        "description": "GOD-DU teaches u to access to the BAT salary over 100million！！！我不是酥神教你写简历年薪百万",
+        "html_url": "https://github.com/7788dingzhengege/IM-NOT-GOD-SU"
+      },
+      {
+        "full_name": "Sophia-11/AI-Job-Info",
+        "default_branch": "master",
+        "description": "互联网大厂面试经验",
+        "html_url": "https://github.com/Sophia-11/AI-Job-Info"
+      },
+      {
+        "full_name": "xiatianqiuyu/coder2teacher",
+        "default_branch": "master",
+        "description": "分享程序员从0上岸深圳老师的经验，来自一名放弃BAT选择深圳老师的某985研究生",
+        "html_url": "https://github.com/xiatianqiuyu/coder2teacher"
+      },
+      {
+        "full_name": "Destined-at-Dawn/career-breakthrough",
+        "default_branch": "main",
+        "description": "A comprehensive job-seeking toolkit for college students — methodology, resume templates, interview prep, AI-powered tools. From mass-applying to landing offers. Real data: 20+ applications → 2 offers in 3 weeks, from a freshman at a non-985 university.",
+        "html_url": "https://github.com/Destined-at-Dawn/career-breakthrough"
+      },
+      {
+        "full_name": "nowcoder2021/nowcoder-java-awesome2021",
+        "default_branch": "main",
+        "description": "牛客网2021年Java精华面经汇总（月更）",
+        "html_url": "https://github.com/nowcoder2021/nowcoder-java-awesome2021"
+      },
+      {
+        "full_name": "NorthShad0w/FINAL",
+        "default_branch": "main",
+        "description": "留个档，为啥许少要删了它呢，互联网可不会忘记",
+        "html_url": "https://github.com/NorthShad0w/FINAL"
+      },
+      {
+        "full_name": "jyannis/JavaLearning",
+        "default_branch": "master",
+        "description": "Java面试总结",
+        "html_url": "https://github.com/jyannis/JavaLearning"
+      },
+      {
+        "full_name": "georgezhang68/Internship_Guidance",
+        "default_branch": "master",
+        "description": null,
+        "html_url": "https://github.com/georgezhang68/Internship_Guidance"
+      },
+      {
+        "full_name": "likelilyhood/SummerPlan",
+        "default_branch": "main",
+        "description": null,
+        "html_url": "https://github.com/likelilyhood/SummerPlan"
+      },
+      {
+        "full_name": "chanzmao829/internship-resume-assistant",
+        "default_branch": "main",
+        "description": "实习生职场认知与简历提炼助手V1",
+        "html_url": "https://github.com/chanzmao829/internship-resume-assistant"
+      },
+      {
+        "full_name": "liuyong-data/liuyong",
+        "default_branch": "main",
+        "description": null,
+        "html_url": "https://github.com/liuyong-data/liuyong"
+      },
+      {
+        "full_name": "sunson12/intern-finder",
+        "default_branch": "main",
+        "description": "AI Agent 实习冲刺项目",
+        "html_url": "https://github.com/sunson12/intern-finder"
+      },
+      {
+        "full_name": "lv163713/java-backend-roadmap",
+        "default_branch": "master",
+        "description": null,
+        "html_url": "https://github.com/lv163713/java-backend-roadmap"
+      },
+      {
+        "full_name": "benfu098-beep/learning-notes",
+        "default_branch": "main",
+        "description": "CS 学习笔记：算法题解 / 面试八股 / LLM 应用 / 项目复盘",
+        "html_url": "https://github.com/benfu098-beep/learning-notes"
+      },
+      {
+        "full_name": "lipeize127/ByteDance-RiskControl",
+        "default_branch": "master",
+        "description": null,
+        "html_url": "https://github.com/lipeize127/ByteDance-RiskControl"
+      },
+      {
+        "full_name": "ZLLL-1314/embedded-notes",
+        "default_branch": "main",
+        "description": null,
+        "html_url": "https://github.com/ZLLL-1314/embedded-notes"
+      },
+      {
+        "full_name": "majiajun1/Java-for-learning",
+        "default_branch": "main",
+        "description": "My learning record for Java",
+        "html_url": "https://github.com/majiajun1/Java-for-learning"
+      },
+      {
+        "full_name": "zimuzi2019/xducs-learning-tips",
+        "default_branch": "main",
+        "description": "关于西电计科本科学习的一些经验分享与资料汇总",
+        "html_url": "https://github.com/zimuzi2019/xducs-learning-tips"
+      },
+      {
+        "full_name": "wandersofb/Study",
+        "default_branch": "master",
+        "description": "Study",
+        "html_url": "https://github.com/wandersofb/Study"
+      }
+    ]
+  },
+  {
+    "query": "\"Agent\" \"实习\" \"拿到\" in:readme fork:false",
+    "url": "https://api.github.com/search/repositories?q=%22Agent%22+%22%E5%AE%9E%E4%B9%A0%22+%22%E6%8B%BF%E5%88%B0%22+in%3Areadme+fork%3Afalse&per_page=30",
+    "status": 200,
+    "total_count": 505,
+    "items": [
+      {
+        "full_name": "AccumulateMore/CV",
+        "default_branch": "main",
+        "description": "✅（已完结）超级全面的 深度学习 笔记【土堆 Pytorch】【李沐 动手学深度学习】【吴恩达 深度学习】【大飞 大模型Agent】",
+        "html_url": "https://github.com/AccumulateMore/CV"
+      },
+      {
+        "full_name": "LiuMengxuan04/shushu-internship-tool",
+        "default_branch": "main",
+        "description": "把岗位描述变项目，把项目变简历，把简历变面试。",
+        "html_url": "https://github.com/LiuMengxuan04/shushu-internship-tool"
+      },
+      {
+        "full_name": "vvmdx/Sec-Interview-4-2023",
+        "default_branch": "main",
+        "description": "一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~",
+        "html_url": "https://github.com/vvmdx/Sec-Interview-4-2023"
+      },
+      {
+        "full_name": "adongwanai/LLM-Resume-Template",
+        "default_branch": "main",
+        "description": "专业的 LaTeX 简历模板，专为大模型与 Agent 算法工程师设计 | Professional LaTeX resume template for LLM & Agent algorithm engineers",
+        "html_url": "https://github.com/adongwanai/LLM-Resume-Template"
+      },
+      {
+        "full_name": "wuyoueeee/CS-Job-Guide",
+        "default_branch": "master",
+        "description": "一份计算机专业宝藏求职攻略【校招时间表+求职攻略+简历制作+大厂面试经验+职业发展】",
+        "html_url": "https://github.com/wuyoueeee/CS-Job-Guide"
+      },
+      {
+        "full_name": "0voice/Career_planning_path",
+        "default_branch": "main",
+        "description": "2025年程序员找工作求职最新总结，学生阶段的困境解决，从简历到面试的全方位解析，从实习到全职的学习规划，就业必备技能与资源推荐。",
+        "html_url": "https://github.com/0voice/Career_planning_path"
+      },
+      {
+        "full_name": "DanielPan12/JobHuntBot",
+        "default_branch": "main",
+        "description": "Agent-led job application workflow with a local progress-tracking dashboard — works with any AI coding agent that can read files and follow instructions.AI Agent 驱动的求职投递工作流,配本地进度追踪看板——适配任何能读文件、听懂指令的编程 Agent。",
+        "html_url": "https://github.com/DanielPan12/JobHuntBot"
+      },
+      {
+        "full_name": "mao888/golang-guide",
+        "default_branch": "main",
+        "description": "「Golang学习+面试指南」一份涵盖大部分 Golang程序员所需要掌握的核心知识。准备 Golang面试，首选 GolangGuide！",
+        "html_url": "https://github.com/mao888/golang-guide"
+      },
+      {
+        "full_name": "yang19527/AwesomeInterview",
+        "default_branch": "main",
+        "description": "包含程序员面试大厂面试题和面试经验",
+        "html_url": "https://github.com/yang19527/AwesomeInterview"
+      },
+      {
+        "full_name": "bcefghj/JobOS",
+        "default_branch": "main",
+        "description": "AI求职操作系统 — 岗位采集→10维评分→定制简历(LaTeX PDF)→面试资料生成→投递指南，一条龙服务",
+        "html_url": "https://github.com/bcefghj/JobOS"
+      },
+      {
+        "full_name": "youngyangyang04/KamaClaude",
+        "default_branch": "main",
+        "description": null,
+        "html_url": "https://github.com/youngyangyang04/KamaClaude"
+      },
+      {
+        "full_name": "adongwanai/AgentGuide",
+        "default_branch": "main",
+        "description": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成",
+        "html_url": "https://github.com/adongwanai/AgentGuide"
+      },
+      {
+        "full_name": "jerry-ai-dev/MODULAR-RAG-MCP-SERVER",
+        "default_branch": "main",
+        "description": "A modular RAG (Retrieval-Augmented Generation) system with MCP Server architecture. Using Skill to make AI follow each step of the spec and complete the code 100% by AI.",
+        "html_url": "https://github.com/jerry-ai-dev/MODULAR-RAG-MCP-SERVER"
+      },
+      {
+        "full_name": "0voice/2026-Computer-Spring-Recruitment-Job-Compilation",
+        "default_branch": "main",
+        "description": "2026 CS Spring Recruitment Jobs Collection，每日更新，含投递链接+面经合集，助力春招上岸",
+        "html_url": "https://github.com/0voice/2026-Computer-Spring-Recruitment-Job-Compilation"
+      },
+      {
+        "full_name": "goddemondemongod/Sec-Interview",
+        "default_branch": "main",
+        "description": "网络安全面试总结",
+        "html_url": "https://github.com/goddemondemongod/Sec-Interview"
+      },
+      {
+        "full_name": "Xiaoc7r/JLUCS_Speedrun",
+        "default_branch": "main",
+        "description": "关于吉林大学计算机科学与技术专业的就业导向攻略",
+        "html_url": "https://github.com/Xiaoc7r/JLUCS_Speedrun"
+      },
+      {
+        "full_name": "erdengk/erdengk",
+        "default_branch": "master",
+        "description": null,
+        "html_url": "https://github.com/erdengk/erdengk"
+      },
+      {
+        "full_name": "adamzhang1987/kingdee-k3cloud-mcp",
+        "default_branch": "main",
+        "description": "金蝶MCP Server（Kingdee K3Cloud MCP）：让 Claude、Cursor 等 AI 助手通过自然语言查询和操作金蝶云星空 ERP。",
+        "html_url": "https://github.com/adamzhang1987/kingdee-k3cloud-mcp"
+      },
+      {
+        "full_name": "zhouwei713/luobo-ppt",
+        "default_branch": "main",
+        "description": "生成和美化可编辑原生 PPT 的 Agent Skill",
+        "html_url": "https://github.com/zhouwei713/luobo-ppt"
+      },
+      {
+        "full_name": "KunChen1110/InterviewRadar",
+        "default_branch": "main",
+        "description": " 基于小红书、牛客等平台真实面经,从你的简历自动生成项目锚定的个性化中文面试备考包",
+        "html_url": "https://github.com/KunChen1110/InterviewRadar"
+      },
+      {
+        "full_name": "PBK-B/wxapp-decompile-xybsyw",
+        "default_branch": "master",
+        "description": "微信小程序逆向之校友邦小程序请求加密算法解析",
+        "html_url": "https://github.com/PBK-B/wxapp-decompile-xybsyw"
+      },
+      {
+        "full_name": "BJLIYANLIANG/Security_Service_Interview",
+        "default_branch": "main",
+        "description": "安全面试经验汇总 (80+篇)",
+        "html_url": "https://github.com/BJLIYANLIANG/Security_Service_Interview"
+      },
+      {
+        "full_name": "int32bit/openstack-workflow",
+        "default_branch": "master",
+        "description": "Openstack Sequence Diagrams(Openstack操作序列图)",
+        "html_url": "https://github.com/int32bit/openstack-workflow"
+      },
+      {
+        "full_name": "Kulbear/All-IT-eBooks-Spider",
+        "default_branch": "master",
+        "description": "[Updated] A simple python crawler for my tutorial blog at http://www.jianshu.com/p/8fb5bc33c78e",
+        "html_url": "https://github.com/Kulbear/All-IT-eBooks-Spider"
+      },
+      {
+        "full_name": "Bin-hy/go-campus",
+        "default_branch": "main",
+        "description": "复习学习go语言，以找go后端 + agent开发岗位为目的的学习训练营。",
+        "html_url": "https://github.com/Bin-hy/go-campus"
+      },
+      {
+        "full_name": "rockbenben/ai-job-search-cn",
+        "default_branch": "main",
+        "description": "一条命令跑完国内求职：猎聘 BOSS 智联前程一起搜，学历、户口、外包这些硬性条件先筛掉陪跑岗，打招呼话术和中文简历都备好，你只管点发送。数据不出本机，Claude Code、Codex、Qoder、Antigravity、Qwen、MiMo 都照样跑。",
+        "html_url": "https://github.com/rockbenben/ai-job-search-cn"
+      },
+      {
+        "full_name": "yicLionel/Easy-Job-Tutor",
+        "default_branch": "main",
+        "description": "求职简历Skill：Codex Skill for JD analysis, resume optimization, and ATS-friendly PDF resume generation",
+        "html_url": "https://github.com/yicLionel/Easy-Job-Tutor"
+      },
+      {
+        "full_name": "Raymon-boy-pal/JobHuntBot",
+        "default_branch": "main",
+        "description": "JobHuntBot（源自 DanielPan12/JobHuntBot 的适配副本，MIT）。AI Agent 驱动的求职投递工作流 + 本地进度看板。",
+        "html_url": "https://github.com/Raymon-boy-pal/JobHuntBot"
+      },
+      {
+        "full_name": "vcmario8/captain",
+        "default_branch": "main",
+        "description": null,
+        "html_url": "https://github.com/vcmario8/captain"
+      },
+      {
+        "full_name": "1diot9/MyJavaSecStudy",
+        "default_branch": "main",
+        "description": "在Java安全学习过程中的笔记和代码",
+        "html_url": "https://github.com/1diot9/MyJavaSecStudy"
+      }
+    ]
+  }
+]

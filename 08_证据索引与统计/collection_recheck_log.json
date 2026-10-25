@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-23",
+  "scope": "本轮信息搜集、面经与项目材料补充；个人项目设计暂缓",
+  "records": [
+    {
+      "id": "CV07",
+      "url": "https://www.nowcoder.com/discuss/894194616499466240?sourceSSR=dynamic",
+      "status": "公开SSR入口一次成功读取正文，随后再次读取只返回导航空壳，仍保留访问不稳定标签",
+      "observed": "正文自述小红书/快手实习、内部答辩与框架社区身份，并讨论部署、观测及真实业务。该自述不等于正式offer或SSP证明。",
+      "action": "补充访问记录，不新增成功者样本，不提升为完整简历"
+    },
+    {
+      "id": "OP05",
+      "url": "https://interview.javaguide.cn/interview-preparation/resume-guide.html",
+      "status": "作者官网正文可读，已读取技能、项目、STAR/FAB与建议部分；知乎本体访问范围未改变",
+      "observed": "可借鉴职责、问题、效果的表达。原文存在借用非本人模块的建议，不纳入本调研采纳意见。",
+      "action": "官网核验级别从部分搜索收录升级为可读正文；保留商业利益与非招聘标准边界"
+    },
+    {
+      "id": "BILIBILI_CAPTION_ATTEMPT",
+      "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1DCDjBRExV",
+      "status": "公开只读接口HTTP 412；未获得视频或字幕",
+      "action": "不冒称观看视频，不提高原4条B站材料证据等级"
+    },
+    {
+      "id": "GITHUB_API_LIMIT",
+      "url": "https://api.github.com/",
+      "status": "本轮后段出现403 rate limit exceeded",
+      "action": "项目采集使用已确认commit的codeload/raw及原仓库页面；未获取到的信息保持未知"
+    },
+    {
+      "id": "EXPERT_LEAD_UNREAD",
+      "url": "https://www.nowcoder.com/discuss/924971145856569344?sourceSSR=post&weFlow=true",
+      "title": "面试官视角，手把手带大家改一份Agent项目简历",
+      "status": "搜索可见较长摘要，原文与api-cdn入口均仅返回空壳，旧ac入口超时；作者招聘身份未核验",
+      "action": "只作后续阅读线索，不计新增已读专家评价，也不当亲历面经"
+    }
+  ],
+  "navigation_sources": [
+    {
+      "id": "SRC01",
+      "title": "Agent Interview Hub：公开面经检索导航",
+      "url": "https://github.com/Zchary1106/agent-interview-hub",
+      "commit": "24f8d63f10872be8fe0d95b1bc46ed38a6226c88",
+      "commit_date": "2026-09-13T13:59:49Z",
+      "license": "MIT（仓库主页及LICENSE入口）",
+      "summary": "含公司分类、面经来源索引与问题整理，可帮助找到牛客原帖。它本身是二手聚合，题目数量及宣传的完整性不纳入本包样本统计。",
+      "use_rule": "只以它发现链接；纳入面经统计仍须读原帖、去重并区分实习与校招。聚合库的参考答案不当公司标准答案。",
+      "archive_status": "仅检索导航，不计工程项目推荐或源码包数量",
+      "retrieved_at": "2026-10-23",
+      "category": "检索导航"
+    }
+  ]
+}

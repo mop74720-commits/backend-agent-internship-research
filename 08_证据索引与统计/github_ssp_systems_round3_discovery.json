@@ -1,0 +1,327 @@
+{
+  "retrieved_date": "2026-10-23",
+  "round": 3,
+  "scope": "补查 C++ / Go 系统方向本人 SSP 求职材料，以及能供后端项目取舍分析的个人工程项目。",
+  "methodology": [
+    "本人 SSP 必须有作者自己的明确求职结果表述；仓库名、第三方链接、薪资档位科普和算法缩写均不计本人结果。",
+    "将作者第一人称自述、固定版本源码可见事实、静态工程推断及未核事项分开。",
+    "本轮不分配 CV、INT、PRO 编号，不修改主报告、manifest 或既有统计。",
+    "实际阅读固定 commit 的源码、许可证与项目经历介绍；未运行项目，未复现故障，未执行仓库中的 shell、HTTP、告警或其他外部调用。",
+    "受限页面保留原始 URL、实际访问状态与待核点；未把 HTTP 200 的搜索壳视作读到正文。",
+    "未下载、输出或纳入公开演示账号、口令、联系方式及未经筛选的配置值。"
+  ],
+  "counts": {
+    "new_verified_ssp_authors": 0,
+    "non_ssp_engineering_references": 1,
+    "rejected_or_unverified_candidates": 7,
+    "blocked_personal_articles": 1,
+    "github_repository_search_calls": 2,
+    "new_source_zip_archives": 0
+  },
+  "verified_ssp_cases": [],
+  "non_ssp_engineering_references": [
+    {
+      "author": "tmnhs",
+      "project_name": "Crony 分布式定时任务管理平台",
+      "repo": "https://github.com/tmnhs/Crony",
+      "commit": "00df3df90306811332d0aff66a259cf90ad6954f",
+      "commit_date": "2023-06-03T11:22:54Z",
+      "fixed_source_url": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+      "repository_metadata_observed": {
+        "default_branch": "master",
+        "fork": false,
+        "blob_file_count": 280
+      },
+      "classification": "非 SSP 的 Go 后端工程参考，不是 Agent 项目，不计本人 SSP 成功案例或正式录用凭证。",
+      "ssp_status": "未证实。关联资料 README 和项目经历介绍中未找到本人获得 SSP 的明确表述；不得由项目质量推导招聘档位。",
+      "author_relationship_evidence": [
+        {
+          "type": "作者第一人称自述",
+          "source_repo": "tmnhs/go-interview-resume",
+          "source_commit": "f4f3dbd824a8bdc70854997f501addc4a5011309",
+          "source_commit_date": "2024-03-16T06:02:09Z",
+          "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22",
+          "quote": "我个人做的分布式定时任务管理平台",
+          "interpretation": "资料作者直接将 Crony 关联到自己的项目，而非仅收藏第三方仓库。此证据仍是公开自述。"
+        },
+        {
+          "type": "作者第一人称自述及实现边界",
+          "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+          "quote": "这个项目其实是本人在XXXX公司实习时做的一个项目，感觉挺有意思，就自己写了一份代码（与原版还是有很大差别的，因为忘记了）上传到了github",
+          "interpretation": "个人开源代码是作者对实习项目的重新实现；公司原版、原实习职责与个人仓库能力不能直接等同。公司名称及录用结果均未由此证实。"
+        },
+        {
+          "type": "原实习职责自述",
+          "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28",
+          "quote": "负责完成执行节点模块和go-sdk的研发",
+          "interpretation": "不能将公司项目所有模块均归为作者个人负责，也不能将 go-sdk 自动算作当前公开仓库已有实现。"
+        }
+      ],
+      "license": {
+        "spdx_id": "MIT",
+        "status": "已阅读固定 commit 根 LICENSE，并与 GitHub 仓库元数据核对。",
+        "url": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/LICENSE#L1-L13",
+        "copyright": "Copyright (c) 2022 tmnhs",
+        "redistribution_condition": "复制或分发软件副本及实质部分时须保留版权和许可声明。",
+        "boundary": "该 MIT 核查仅针对 Crony 仓库；关联资料仓库 go-interview-resume 的 API 未返回许可证，不能将 Crony 的 MIT 授权延伸到该资料仓库的全文或简历模板。"
+      },
+      "source_findings": [
+        {
+          "id": "CRONY-R3-01",
+          "evidence_type": "文档与源码共同可见",
+          "finding": "围绕任务散落、执行状态不透明和失败排查成本构建集中管理平台，有可解释的业务动机；后端采用 Go、Gin、Gorm、MySQL、Etcd、Viper、Zap。",
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L16-L24",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L88-L92",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L39"
+          ],
+          "boundary": "未验证生产用户、吞吐量、故障恢复时延或业务收益。不要把 README 功能表当成性能验收记录。"
+        },
+        {
+          "id": "CRONY-R3-02",
+          "evidence_type": "实际源码",
+          "finding": "执行节点通过 Etcd Grant、KeepAlive 和带租约 Put 注册；管理端监听节点删除事件，执行任务重新分配。该项目存在实际服务注册和故障转移代码。",
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L28-L78",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L48-L69",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308"
+          ],
+          "boundary": "有实现不等于已证明网络分区、管理端多实例和进程崩溃下的执行语义。"
+        },
+        {
+          "id": "CRONY-R3-03",
+          "evidence_type": "实际源码与 TODO 对照",
+          "finding": "AutoAllocateNode 遍历活节点、读取任务数量并选择任务数最少者；加权轮询和平滑加权轮询列在 README 的 TODO 中。",
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go#L117-L143",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L135-L137",
+            "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L9-L28"
+          ],
+          "boundary": "实习经历中的 Coa RPC、加权轮询和 go-sdk 是公司项目描述；当前个人仓库不能据此宣称已实现这些能力。作者明确说明重写与原版不同，不能据差异指控经历虚假。"
+        },
+        {
+          "id": "CRONY-R3-04",
+          "evidence_type": "实际源码与静态风险判断",
+          "finding": "管理端先 Get 节点快照并处理结果，之后才启动不带 WithRev 的 Watch；setNodeList 内还包含启动等待和任务分配。执行端同样先 loadJobs，再启动 WatchJobs，后者也未携带快照 revision。",
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L37-L49",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L108-L154",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L142-L165",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L214-L216"
+          ],
+          "inference": "快照读取完成到 Watch 生效之间存在需验证的事件遗漏窗口，适合改造成从快照 revision+1 续接、处理 compaction 并进行周期校准。",
+          "verification_status": "静态发现，未通过并发故障注入复现。"
+        },
+        {
+          "id": "CRONY-R3-05",
+          "evidence_type": "实际源码与静态风险判断",
+          "finding": "assignJob 先将新节点任务写入 Etcd，再更新 MySQL；FailOver 完成新分配后才删除旧节点任务键。所读流程为多个分步操作。",
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L245-L267",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308"
+          ],
+          "inference": "需要验证中途失败后的 Etcd/MySQL 一致性、双节点短暂持有同一任务以及多管理端并发迁移；不能只用管理服务多实例和负载均衡证明高可用。",
+          "recommended_extension": "设计明确的任务归属状态机、CAS/协调机制、可恢复的对账流程、每次触发的执行标识和业务幂等；必要时使用 fencing token 隔离旧执行者。",
+          "verification_status": "未声称全仓不存在其他补偿；未做生产或运行时验证。"
+        },
+        {
+          "id": "CRONY-R3-06",
+          "evidence_type": "实际源码与待验证问题",
+          "finding": "keepAlive 收到 nil 后记录日志并返回；节点 Cron 的停止在 NodeServer.Stop 路径中。所读租约续期函数未显示断租后主动停止调度、重建租约或重新注册。",
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L60-L72",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L110-L123"
+          ],
+          "pending_check": "用断网与恢复实验验证旧节点失去租约后是否还执行已有任务、恢复后如何重新加入，以及如何避免与接管节点重复产生副作用。",
+          "verification_status": "未复现；作为后续项目正确性实验，不能称已验证故障。"
+        },
+        {
+          "id": "CRONY-R3-07",
+          "evidence_type": "实际源码",
+          "finding": "CreateJob 包含重试次数、重试间隔、成功/失败日志写入与失败通知的代码；RunWithRecovery 是另一条手动运行路径，不宜把两者的重试语义直接视为相同。",
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L77-L100",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L137-L209",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go#L119-L134"
+          ],
+          "recommended_extension": "统一手动与定时触发的执行状态机，明确超时、重试、重复触发和业务幂等语义；对外部调用区分可重试错误和永久失败。"
+        },
+        {
+          "id": "CRONY-R3-08",
+          "evidence_type": "测试文件阅读与固定源码树盘点",
+          "finding": "固定源码树发现 5 个 *_test.go；已读的命令测试依赖本地脚本，HTTP 相关测试依赖 localhost 服务，主要检查 error 并记录输出。所读测试没有证明故障转移、断租或快照/Watch 一致性。",
+          "test_paths": [
+            "common/pkg/httpclient/http_client_test.go",
+            "common/pkg/utils/md5_test.go",
+            "common/pkg/utils/uuid_test.go",
+            "node/internal/handler/handler_cmd_test.go",
+            "node/internal/handler/handler_http_test.go"
+          ],
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_cmd_test.go#L9-L34",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go#L9-L33",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/httpclient/http_client_test.go#L9-L17"
+          ],
+          "boundary": "文件数不能证明项目从未做过其他测试。未发现固定源码树中的常见 GitHub Actions / GitLab CI / Jenkins 配置入口，未运行现有测试。"
+        },
+        {
+          "id": "CRONY-R3-09",
+          "evidence_type": "依赖与文档对照",
+          "finding": "README 链接 robfig/cron，但 go.mod 与执行节点代码实际引用 jakecoffman/cron；该固定版本声明 Go 1.16，Etcd 依赖为 3.3.9+incompatible。",
+          "urls": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L92",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L16",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L3-L18"
+          ],
+          "boundary": "技术栈应按实际源码记录；未做漏洞扫描，不据版本号单独宣称漏洞或不可用。重新开发应单独验证依赖兼容性。"
+        }
+      ],
+      "strengths_to_borrow": [
+        "从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。",
+        "代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。",
+        "作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。"
+      ],
+      "limitations_and_avoid_copying": [
+        "不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。",
+        "不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。",
+        "不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。",
+        "不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。"
+      ],
+      "recommended_use": {
+        "recommendation": "可作为常用后端技术栈项目的设计对照和代码走读入口；推荐级别为工程参考，不能提供 SSP 录用背书。",
+        "possible_personal_project_focus": "围绕可靠任务执行做深一个方向，形成独立设计、实现差异、故障实验和可复现测量。避免仅替换前端或把依赖名称堆进简历。",
+        "acceptance_examples": [
+          "并发创建/更新任务时，验证 Get 快照与 Watch 连续衔接，包含 Etcd compaction 恢复。",
+          "注入执行节点断网、进程退出、管理端重启及迁移中途失败，检查任务归属、执行记录和最终恢复。",
+          "用固定任务集测量调度延迟、故障恢复时延、重复执行率与重试行为；记录环境、方法和原始结果，不预填性能数字。",
+          "以 execution_id 和业务幂等示例解释至少一次投递下的副作用处理，不无条件承诺 exactly-once。"
+        ]
+      },
+      "archive_status": {
+        "archived": false,
+        "local_zip": null,
+        "reason": "本轮定位为非 SSP 工程参考，仅收固定 commit 的可审阅源码入口与分析。整仓包含公开演示登录信息及尚未逐文件筛选的配置，不将其原样复制进交付包。",
+        "source_available": true,
+        "project_executed": false,
+        "resume_template_downloaded": false,
+        "resume_template_reason": "模板不是完整录用简历；关联资料仓库许可未证实，未下载或重新分发。"
+      }
+    }
+  ],
+  "rejected_or_unverified_candidates": [
+    {
+      "repo": "https://github.com/backtraxe/offer-is-all-you-need",
+      "read_scope": "默认分支 README，共 753 行；重读 SSP 匹配附近段落。",
+      "reason": "SSP 出现在第三方小红书结果和市场讨论中，未证明仓主本人获得该档位。不能把聚合作者视作所有链接的经历者。",
+      "status": "不计本人 SSP"
+    },
+    {
+      "repo": "https://github.com/DespairJasper/lexi-memory",
+      "read_scope": "默认分支 README，共 318 行。",
+      "reason": "唯一 SSP 为 SSP-MMC 学习记忆算法基线，与招聘档位无关。",
+      "status": "同名缩写排除"
+    },
+    {
+      "repo": "https://github.com/CloudCreateThink/CodingOffer",
+      "read_scope": "默认分支 README，共 433 行。",
+      "reason": "包含本人 Go 准备经历与实习描述；唯一 SSP 位于薪资档位科普标题，未给本人 SSP 结果。",
+      "status": "不计本人 SSP；可另作准备路径旁证"
+    },
+    {
+      "repo": "https://github.com/qiao12/C-_learning",
+      "read_scope": "README 共 12518 行，核对 SSP 匹配所在科普段落。",
+      "reason": "SSP 匹配为档位科普，未证明本人录用结果。",
+      "status": "不计本人 SSP"
+    },
+    {
+      "repo": "https://github.com/trialley/TA2020",
+      "read_scope": "master README，共 176 行。",
+      "reason": "本人表述尚待找到工作后整理；SSP 入口指向已收 linyacool 的原文，不能将第三方结果归到仓主。发现 PolarXiong 历史文章入口，访问受限情况另列。",
+      "status": "不计新增本人 SSP"
+    },
+    {
+      "repo": "https://github.com/sunyd1006/ssp",
+      "read_scope": "先经 contents API 确认实际文件名为 readme.md，再读首部、SSP 匹配上下文及 all_company_talking 文件。readme 共 7378 行，all_company_talking 共 322 行。",
+      "reason": "SSP 出现在仓库名、标题或昵称等位置，材料主要为知识笔记与招聘说明，未核到明确的本人录用结果。README.md 初始 404 是文件名大小写问题，不是仓库不存在。",
+      "status": "不据仓库名计本人 SSP"
+    },
+    {
+      "repo": "https://github.com/vaynedu/interview_note",
+      "read_scope": "main README，共 159 行。",
+      "reason": "资深 Go 面试知识材料，未找到 SSP 文本或校招 SSP 本人结果。",
+      "status": "不计本人 SSP"
+    }
+  ],
+  "blocked_links": [
+    {
+      "title": "我的2018年计算机实习和秋招经历（微软、阿里、腾讯、网易游戏、今日头条等）",
+      "original_url": "https://www.polarxiong.com/archives/我的2018年计算机实习和秋招经历.html",
+      "access_status": "requests 访问 25 秒超时，未取得正文；未重复刷新。",
+      "discovered_from": "trialley/TA2020 README L122 的第三方链接。",
+      "pending_checks": [
+        "作者是否明确自述获得 SSP，以及具体公司、岗位、时间。",
+        "原文面经正文是否可读、是否有具体项目追问。",
+        "与公开 GitHub 作者及本人项目的关联。"
+      ],
+      "counting_status": "不能计已核实 SSP 或已阅读面经；可由用户自行打开原始链接补核。"
+    }
+  ],
+  "search_log": [
+    {
+      "provider": "Yahoo",
+      "queries": ["2025 秋招 C++ SSP GitHub 项目 面经", "2024 Go 后端 SSP GitHub", "25届 字节 SSP 后端 github 面经"],
+      "method": "urllib，Mozilla/5.0 User-Agent",
+      "status": "HTTP 500，INKApi Error；未取得可用结果。"
+    },
+    {
+      "provider": "Yahoo",
+      "query": "C++ SSP 秋招 github",
+      "original_url": "https://search.yahoo.com/search?p=C%2B%2B+SSP+%E7%A7%8B%E6%8B%9B+github",
+      "method": "requests params 编码",
+      "status": "重定向到 /_bv/v.gif 验证地址后最终 HTTP 500 空响应；停止刷新。"
+    },
+    {
+      "provider": "Bing",
+      "original_url": "https://www.bing.com/search?q=%22SSP%22+%22C%2B%2B%22+%22GitHub%22+%222025%22",
+      "status": "HTTP 200；可见结果为补贴、科学夏校、工业阀件等 SSP 缩写噪声，无可用求职证据。"
+    },
+    {
+      "provider": "Google",
+      "original_url": "https://www.google.com/search?num=10&udm=14&q=C%2B%2B%20SSP%20%E7%A7%8B%E6%8B%9B%20github%20%E9%A1%B9%E7%9B%AE",
+      "status": "HTTP 200 跳转壳，未读到检索正文。"
+    },
+    {
+      "provider": "360",
+      "original_url": "https://www.so.com/s?q=C%2B%2B%20SSP%20%E7%A7%8B%E6%8B%9B%20github%20%E9%A1%B9%E7%9B%AE",
+      "status": "HTTP 302 重定向循环，停止请求。"
+    },
+    {
+      "provider": "牛客",
+      "original_url": "https://www.nowcoder.com/search?query=SSP%20C%2B%2B&type=post",
+      "final_url": "https://www.nowcoder.com/search/all?type=all&query=SSP%20C++&searchType=undefined",
+      "status": "HTTP 200；标题为 SSP C -搜索结果-牛客网，正文为空壳，无文章结果。"
+    },
+    {
+      "provider": "GitHub REST repository search",
+      "query": "SSP C++ 面经 in:readme",
+      "sort": "updated desc",
+      "per_page": 100,
+      "total_count": 32,
+      "status": "成功返回候选；没有据搜索匹配直接认定 SSP。"
+    },
+    {
+      "provider": "GitHub REST repository search",
+      "query": "SSP Go 面经 in:readme",
+      "sort": "updated desc",
+      "per_page": 100,
+      "total_count": 22,
+      "status": "成功返回候选；本轮两次 repository search 配额已用完，之后仅访问具体仓库、源码和元数据。"
+    }
+  ],
+  "output_scope": {
+    "created_file": "08_证据索引与统计/github_ssp_systems_round3_discovery.json",
+    "modified_existing_files": [],
+    "assigned_case_ids": [],
+    "integration_note": "若主报告采用 Crony，只能放入非 SSP 工程参考或项目取舍附录；保留未归档、未运行及公司原版/个人改写边界，不加入 SSP 成功者分母。"
+  }
+}

@@ -1,0 +1,127 @@
+INT24 | 26届快手暑期实习（已OC）
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/8c1a63e46e4e462892474e405d611028
+canonical_url：
+  https://www.nowcoder.com/feed/main/detail/8c1a63e46e4e462892474e405d611028
+公司：
+  快手
+team：
+  杭州电商
+方向与岗位：
+  后端暑期实习，2026届
+事件时间／原文日期（依分类）：
+  2025-03-24/03-31技术面；04-15 HR；4月下旬offer
+date_certainty：
+  页面2025年明确，正文给出各轮月日
+rounds：
+  - 一面
+  - 二面
+  - HR面
+结果自述：
+  自述4月下旬发offer；标题称OC，未核验企业材料
+涉及主题：
+  - 项目深挖/个人贡献
+  - Redis数据结构/GEO
+  - 空间查询
+  - 算法/编程
+  - 业务理解
+原文提问（归纳）：
+  - 实习中POI表保存了哪些字段，如何限定中心点附近的结果？
+  - 使用GEO查询时，其底层如何组织和查找坐标？
+  - Hash与跳表为何适合相应数据，为什么没有选择其他树结构？
+内容归纳：
+  成功实习案例把Redis追问连接到具体POI业务。已有多段实习，是重要混杂因素；不能把录用归功于单个Redis项目。
+borrowable_points：
+  - 能从表字段、查询条件一路讲到索引结构。
+  - 了解申请团队的业务与个人经历的连接。
+weaknesses_and_limits：
+  - 作者承认部分问题记不全。
+  - 关于其他公司空间召回方案的朋友转述不作为事实采纳。
+统计组：
+  明确实习面经
+role_boundary：
+  26届暑期实习，不是SSP评级证据
+candidate_group：
+  SUP_BACKEND_C05
+public_project_repositories：
+  —
+repository_relationship：
+  原文只描述实习字段与方案，无作者源码仓库。
+ssp_status：
+  未声称SSP
+source_line_range：
+  原页面正文第46–75行
+原访问范围：
+  已打开原文并读取正文具体问题；动态页后续可不稳定
+fulltext_verified：
+  是
+证据边界：
+  B：候选人第一人称公开自述；未独立验证面试、身份或录用结果
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2025-03-24/03-31技术面；04-15 HR；4月下旬offer
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    原date_certainty记录2025页面与正文轮次日期对应
+  来源日期：
+    2025-04-23发布
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    已打开原文并读取正文具体问题；动态页后续可不稳定
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      快手
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/8c1a63e46e4e462892474e405d611028
+    依据：
+      自述4月下旬发offer；标题称OC，未核验企业材料
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-04-23发布
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+结果分类：
+  offer_self_report
+related_record_ids：
+  —

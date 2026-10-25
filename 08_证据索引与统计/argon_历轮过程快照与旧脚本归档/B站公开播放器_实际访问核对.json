@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-23",
+  "scope": "普通匿名Edge与官方公开嵌入播放器的本地诊断；未登录，未绕过验证，未下载音视频文件。",
+  "local_probe": {
+    "script": "bilibili_public_player_probe.cjs",
+    "status": "本地浏览器进程持续运行但未返回首个页面检查结果；超过五分钟后确认进程归属并停止该任务自己的Node及Edge。",
+    "observation": "原脚本未按页面阶段输出，也未完成结果文件。观察到进程存活与高CPU，不据此推断网站HTTP状态或播放器内容。",
+    "video_watched": false,
+    "subtitle_read": false,
+    "completion": "aborted_local_browser_hang"
+  },
+  "planned_targets_without_verified_page_result": [
+    "https://www.bilibili.com/video/BV1P6tN6bEps/",
+    "https://player.bilibili.com/player.html?bvid=BV1P6tN6bEps&page=1&autoplay=0&danmaku=0",
+    "https://player.bilibili.com/player.html?bvid=BV1oFrkBmEyg&page=1&autoplay=0&danmaku=0"
+  ],
+  "separate_successful_public_api_checks": "B站字幕访问_双路径复核.json",
+  "interpretation": "本地进程卡住与平台HTTP412或字幕登录要求分别记录；不能把未执行完的目标当成已经访问失败或已读视频。"
+}

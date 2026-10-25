@@ -1,0 +1,432 @@
+CV01 | 后端秋招24场100%胜率的SSP，真的只是靠卷技术吗？
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/discuss/825498059369955328?toCommentId=22311081
+事件时间／原文日期（依分类）：
+  2025秋招；另有2023.12—2024.07实习经历
+方向与岗位：
+  Go后端/服务器开发；秋招案例
+结果自述：
+  字节、快手、小鹏SSP为本人最终总结自述；第四家SSP公司未核；滴滴/百度档位未定
+录用证据边界：
+  本人长文自述，附自己的实习简历片段；未独立核验录用或薪资
+资料形式：
+  成功自述+实际公开简历片段（非完整简历）
+专业背景：
+  海外计算机本硕；约半年字节技术实习
+技术栈：
+  - Go
+  - Redis
+  - RocketMQ
+  - Protobuf
+  - 索引优化
+  - epoll/网络模型
+  - pprof
+本人项目与经历描述：
+  - 实习：文档通知服务的投递、重试/去重、消息与存储优化
+  - 个人：IM服务器，用于探索网络模型、连接状态和性能瓶颈
+来源归纳：
+  片段可见分批投递、重试去重、索引、MQ、压缩和单测回归；作者另述IM项目使其接触网络模型与性能诊断。简历中的300→200ms为自报指标，未附测试条件。
+整理者分析：
+  最值得学的是一个业务问题牵出数个可追问的工程决策。把自己的每条经历准备成：怎样实现、为何选择、替代方案、故障边界。
+值得学习之处：
+  - 实际简历片段可读
+  - 业务与系统机制相连接
+  - 承认个人IM项目鲁棒性不足
+局限与静态风险：
+  - SSP与性能数据均为本人自述
+  - 没有公开完整代码与复现实验
+  - 不可把7家结果换算成一般求职成功率
+商业与选择偏差：
+  正文未见直接售课；存在自我选择与成功者偏差
+原访问范围：
+  正文全文+公开图片实际读图
+证据边界：
+  经历分析中等；offer真实性未独立验证
+original_fragment_url：
+  https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22
+original_file_status：
+  仅链接，不再分发原图
+阅读建议：
+  优先阅读；借鉴问题—决策—验证的组织方式，不照搬公司经历与数值
+类别：
+  候选人资料
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    校招
+  事件时间：
+    2025秋招；另有2023.12—2024.07实习经历
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    原记录明确2025秋招；实习期另由简历片段给出。秋招日期仍只精确到季节。
+  来源日期：
+    页面03-05编辑，年份未明；图片URL日期不作为求职年
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文全文+公开图片实际读图
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      字节跳动
+    方向与岗位：
+      后端；面经中有AI后端业务讨论，未明确Agent职称
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    招聘类型：
+      2025秋招
+    依据：
+      主文结尾举字节1/3/4面没答全后仍获SSP；本人四轮面经标题更新为已接Offer。
+    证据：
+      https://ac.nowcoder.com/discuss/825498059369955328
+    事件时间／原文日期（依分类）：
+      2025秋招
+    企业独立验证：
+      否
+  - 公司：
+      快手
+    方向与岗位：
+      Golang后端
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    招聘类型：
+      2025秋招正式批
+    依据：
+      主文同段直接举快手3/4面后最终SSP；独立面经四轮原文与已Offer标题一致。
+    证据：
+      https://ac.nowcoder.com/discuss/825498059369955328
+    事件时间／原文日期（依分类）：
+      2025秋招
+    企业独立验证：
+      否
+  - 公司：
+      小鹏
+    方向与岗位：
+      Golang后端，业务反问称机器人大数据上报
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    招聘类型：
+      2025秋招正式批
+    依据：
+      主文同段直接举小鹏1面后最终SSP；单篇早期标题仍待HR，阶段差异保留。
+    证据：
+      https://ac.nowcoder.com/discuss/825498059369955328
+    事件时间／原文日期（依分类）：
+      2025秋招
+    企业独立验证：
+      否
+  - 公司：
+      第四家
+    方向与岗位：
+      未知
+    档位：
+      SSP总述
+    状态：
+      overall_claim_company_not_resolved
+    招聘类型：
+      2025秋招
+    依据：
+      原文说4家开奖皆SSP，但本次没有逐项确认第四家公司，不从虾皮或B站等候选列表反推。
+    证据：
+      https://ac.nowcoder.com/discuss/825498059369955328
+    事件时间／原文日期（依分类）：
+      2025秋招
+    企业独立验证：
+      否
+  - 公司：
+      滴滴、百度
+    方向与岗位：
+      本人有面经，档位未定
+    档位：
+      未披露
+    状态：
+      offer_or_salary_pending_self_report
+    招聘类型：
+      2025秋招
+    依据：
+      主文说薪资还需与业务同步；不得由其他公司的SSP推广到这两家。
+    证据：
+      https://ac.nowcoder.com/discuss/825498059369955328
+    事件时间／原文日期（依分类）：
+      2025秋招
+    企业独立验证：
+      否
+发表／来源日期：
+  页面03-05编辑，年份未明；图片URL日期不作为求职年
+履历材料形式：
+  已读简历图片片段
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/825498059369955328
+      direct_basis：
+        字节跳动 SSP；主文结尾举字节1/3/4面没答全后仍获SSP；本人四轮面经标题更新为已接Offer。
+      直接关系：
+        直接点名
+      gap：
+        具体公司仅按本人最终总结；第四家公司未知
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/825498059369955328
+      direct_basis：
+        快手 SSP；主文同段直接举快手3/4面后最终SSP；独立面经四轮原文与已Offer标题一致。
+      直接关系：
+        直接点名
+      gap：
+        具体公司仅按本人最终总结；第四家公司未知
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/825498059369955328
+      direct_basis：
+        小鹏 SSP；主文同段直接举小鹏1面后最终SSP；单篇早期标题仍待HR，阶段差异保留。
+      直接关系：
+        直接点名
+      gap：
+        具体公司仅按本人最终总结；第四家公司未知
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/825498059369955328
+      direct_basis：
+        第四家 SSP总述；原文说4家开奖皆SSP，但本次没有逐项确认第四家公司，不从虾皮或B站等候选列表反推。
+      直接关系：
+        直接点名
+      gap：
+        具体公司仅按本人最终总结；第四家公司未知
+    - 原始来源：
+        https://ac.nowcoder.com/discuss/825498059369955328
+      direct_basis：
+        滴滴、百度 未披露；主文说薪资还需与业务同步；不得由其他公司的SSP推广到这两家。
+      直接关系：
+        直接点名
+      gap：
+        具体公司仅按本人最终总结；第四家公司未知
+  profile：
+    - 原始来源：
+        https://uploadfiles.nowcoder.com/images/20251202/541749765_1764684062012/D2B5CA33BD970F64A6301FA75AE2EB22
+      direct_basis：
+        成功自述+实际公开简历片段（非完整简历）
+      直接关系：
+        直接点名
+      gap：
+        片段已实际读图；不是完整CV，未打包/再分发原图
+  project：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/825498059369955328?toCommentId=22311081
+      direct_basis：
+        实习：文档通知服务的投递、重试/去重、消息与存储优化；个人：IM服务器，用于探索网络模型、连接状态和性能瓶颈
+      直接关系：
+        直接点名
+      gap：
+        仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/792809776626356224
+      direct_basis：
+        快手秋招正式批 Golang后端 一二三四面面经（已Offer）；主文直接链接且署名ID一致
+      直接关系：
+        直接点名
+      gap：
+        单篇阶段结果与后来SSP总结分开；源码仍缺
+    - 原始来源：
+        https://www.nowcoder.com/discuss/793068978837921792
+      direct_basis：
+        字节后端 秋招一二三四面面经（已接Offer）；主文直接链接且署名ID一致
+      直接关系：
+        直接点名
+      gap：
+        单篇阶段结果与后来SSP总结分开；源码仍缺
+    - 原始来源：
+        https://www.nowcoder.com/discuss/788000430256037888
+      direct_basis：
+        小鹏秋招正式批 Golang后端 一二面面经（待HR面）；主文直接链接且署名ID一致
+      直接关系：
+        直接点名
+      gap：
+        单篇阶段结果与后来SSP总结分开；源码仍缺
+未建立或未核的关系：
+  - 具体公司仅按本人最终总结；第四家公司未知
+  - 片段已实际读图；不是完整CV，未打包/再分发原图
+  - 仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  - 单篇阶段结果与后来SSP总结分开；源码仍缺
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否
+latest_source_review：
+  existing_id：
+    CV01
+  作者：
+    Lewy华
+  public_author_id：
+    541749765
+  profile_url：
+    https://ac.nowcoder.com/profile/541749765
+  primary_url：
+    https://ac.nowcoder.com/discuss/825498059369955328
+  original_url：
+    https://www.nowcoder.com/discuss/825498059369955328
+  access：
+    状态：
+      200
+    selector：
+      .nc-post-content
+    范围：
+      公开文字全文已读；简历图片本轮未重读
+  direct_chain_evidence：
+    主文2025章节及其面试经验部分直接列出快手、字节、小鹏等逐轮面经链接；本次三篇各自原站署名均为Lewy华、541749765。不是拿同账号无关仓库补链。
+  ssp_company_updates：
+    - 公司：
+        字节跳动
+      方向与岗位：
+        后端；面经中有AI后端业务讨论，未明确Agent职称
+      档位：
+        SSP
+      状态：
+        offer_self_report
+      招聘类型：
+        2025秋招
+      依据：
+        主文结尾举字节1/3/4面没答全后仍获SSP；本人四轮面经标题更新为已接Offer。
+    - 公司：
+        快手
+      方向与岗位：
+        Golang后端
+      档位：
+        SSP
+      状态：
+        offer_self_report
+      招聘类型：
+        2025秋招正式批
+      依据：
+        主文同段直接举快手3/4面后最终SSP；独立面经四轮原文与已Offer标题一致。
+    - 公司：
+        小鹏
+      方向与岗位：
+        Golang后端，业务反问称机器人大数据上报
+      档位：
+        SSP
+      状态：
+        offer_self_report
+      招聘类型：
+        2025秋招正式批
+      依据：
+        主文同段直接举小鹏1面后最终SSP；单篇早期标题仍待HR，阶段差异保留。
+    - 公司：
+        第四家
+      方向与岗位：
+        未知
+      档位：
+        SSP总述
+      状态：
+        overall_claim_company_not_resolved
+      招聘类型：
+        2025秋招
+      依据：
+        原文说4家开奖皆SSP，但本次没有逐项确认第四家公司，不从虾皮或B站等候选列表反推。
+    - 公司：
+        滴滴、百度
+      方向与岗位：
+        本人有面经，档位未定
+      档位：
+        未披露
+      状态：
+        offer_or_salary_pending_self_report
+      招聘类型：
+        2025秋招
+      依据：
+        主文说薪资还需与业务同步；不得由其他公司的SSP推广到这两家。
+  suggested_chain_update：
+    interview_relation：
+      直接点名＋原文作者ID一致
+    replace_gap：
+      已有3篇本人逐轮面经全文核读；此前未建立的本人面经关系可更新。
+    remaining_gaps：
+      - 具体个人项目仓库仍未取得。
+      - 第四家SSP公司未确定。
+      - 字节AI后端讨论不证明Agent工程职称；不填近期Agent SSP核心缺口。
+  action_suggestions：
+    - 不新增候选人；将CV01面经chain由未建立改为3篇原文直接关系。
+    - 结果按主文较晚SSP总结与各篇早期流程分层保留；不把待HR原帖直接改写成当时已SSP。
+    - 只按下面3份独立来源审定新增面经，不把每轮拆成新候选。
+interview_evidence_ids：
+  - INT78
+  - INT79
+  - INT80
+personal_source_code_verified：
+  否
+direct_named_relationship_scope：
+  主文与面经直接描述本人IM和通知服务；仅项目文字/履历关系，不代表已取得源码。
+external_research_reviews：
+  R01：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        R01
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_候选人与观点项目.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        R01
+      type：
+        candidate
+      source_category：
+        02_简历与录用经历
+      标题：
+        后端秋招24场100%胜率的SSP，真的只是靠卷技术吗？
+      source_url：
+        https://www.nowcoder.com/discuss/825498059369955328
+      source_card：
+        02_简历与录用经历/R01.html
+      existing_id：
+        CV01
+      decision：
+        duplicate
+      new_primary_project：
+        否
+      source_folder_modified：
+        否
+      reading_scope：
+        既有CV01全文与片段核读；本轮对照astra资料卡与旧记录，未重复读取原图
+      状态：
+        重复来源，不增加候选人数/简历数
+      import_target：
+        existing_cross_reference
+      unique_value：
+        无新增个人项目或逐公司定档事实。保留astra关于自报性能指标和IM鲁棒性的补充说明，但这些边界在CV01已有。
+      facts_boundary：
+        作者公开自述不等于独立录用认证；实习片段不是完整简历。
+      eligible_for_success_candidate_count：
+        否

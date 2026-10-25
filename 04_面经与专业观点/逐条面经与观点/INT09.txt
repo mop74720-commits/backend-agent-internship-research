@@ -1,0 +1,207 @@
+INT09 | 暑期实习第二个offer-淘天oc
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168
+事件时间／原文日期（依分类）：
+  6.11/6.16/6.18技术面、6.20 HR、6.24 OC；实际年未知
+方向与岗位：
+  Java后端暑期实习
+公司：
+  淘天
+结果自述：
+  自述06-24 OC
+涉及主题：
+  - 项目深挖/个人贡献
+  - 编程语言/并发
+  - 数据库/缓存
+  - 消息队列/一致性
+  - 系统设计/取舍
+  - 算法/编程
+原文提问（归纳）：
+  - 点赞、收藏、排行为何使用相应Redis结构？
+  - Kafka的顺序、幂等、可靠性与积压怎样处理？
+  - 积分兑换红包怎样确保两边状态和金额一致？
+内容归纳：
+  基础技术、业务约束和多轮实习深挖连在一起，适合构建后端项目验收问题单。作者已有两段实习，不能将结果全部归因于个人项目。
+原访问范围：
+  正文可读
+证据边界：
+  B：自述
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  面试与项目自测参考
+统计组：
+  明确实习面经
+role_boundary：
+  依role字段限定
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    6.11/6.16/6.18技术面、6.20 HR、6.24 OC；实际年未知
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    2025-06-24编辑
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文可读
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      淘天
+    档位：
+      未披露
+    状态：
+      intention_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168
+    依据：
+      自述06-24 OC
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-06-24编辑
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  是
+结果分类：
+  intention_self_report
+related_record_ids：
+  —
+fulltext_verified：
+  是
+latest_time_and_question_review：
+  record_id：
+    INT09
+  标题：
+    暑期实习第二个offer-淘天oc
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168
+  统一分类：
+    方向：
+      后端
+    招聘类型：
+      实习
+    event_year：
+      未核／无
+    事件年份可证：
+      否
+  作者：
+    display_name：
+      快乐冒险家
+    public_profile：
+      https://www.nowcoder.com/users/372694131?contentPage=1
+  navigation_evidence：
+    method：
+      原帖作者链接与公开 requests 主页导航核对；原帖网页正文 52—90 行实际重读，requests .feed-content-text 亦可读。
+    direct_post_link：
+      https://www.nowcoder.com/feed/main/detail/32f9c690698f4462b8f6b75ba721d168?sourceSSR=users
+    same_author_followups：
+      - 原始来源：
+          https://www.nowcoder.com/feed/main/detail/422244309f934fafb8126a010e1a4e34?sourceSSR=users
+        标题：
+          后端暑期第一个offer！
+        displayed_publication：
+          2025-07-17 12:05，已编辑
+        actual_read：
+          requests .feed-content-text 全文
+        范围：
+          自述京东意向书，曾实习五个多月；不证明淘天接受或入职。
+      - 原始来源：
+          https://www.nowcoder.com/feed/main/detail/86ae34f2e1b1480f82c96c99e67ff314?sourceSSR=users
+        标题：
+          感谢团子，一周速拿下offer
+        displayed_publication：
+          2025-09-11 18:08
+        actual_read：
+          requests .feed-content-text 全文
+        范围：
+          秋招面试月日与意向书；不是本场实习结果补证。
+      - 原始来源：
+          https://www.nowcoder.com/feed/main/detail/cc4e44a5cedd49b1a6e83da33017d930?sourceSSR=users
+        标题：
+          快手意向！
+        displayed_publication：
+          2025-09-24 17:57
+        actual_read：
+          requests .feed-content-text 全文
+        范围：
+          秋招第三个意向自述，无 SSP 档位。
+  time_evidence：
+    explicit_events：
+      - 6.11 一面
+      - 6.16 二面
+      - 6.18 三面
+      - 6.20 HR面
+      - 6.24 OC
+    publication：
+      2025-06-24 23:00，已编辑
+    conclusion：
+      原帖与本人其他公开帖均未给出本场面试事件年；不能用 2025 发布日期或秋招串联反推。
+    chronology_limit：
+      第一/第二个offer标题与页面显示顺序不同，编辑、补记与结果类型均可能影响标题；不据标题和发表先后拼成完整事件年表。
+  project_followup：
+    rounds：
+      - round：
+          一面
+        focus：
+          点赞、收藏、排行榜的 Redis 结构选择；Kafka 顺序、幂等、可靠性和积压
+      - round：
+          二面
+        focus：
+          三个实习需求的连续深挖；积分与红包兑换的状态和金额一致性
+      - round：
+          三面与HR
+        focus：
+          两段实习的技术比较、个人成长、组内业务的清晰表达
+    project_ownership_limit：
+      有个人项目与两段实习回忆，没有项目代码或完整履历附件。不能把多个业务需求当独立项目源码。
+    answer_scope：
+      面经回忆，不包含完整设计答案、压测或故障验证。
+  result：
+    状态：
+      intention_self_report
+    依据：
+      正文自述 6.24 OC
+    ssp：
+      未披露
+    limit：
+      标题的offer不升级为正式offer、接收或入职证明。
+  recommended_update：
+    可补四轮加 OC 的月日序列；事件年、结果状态与源码缺口保持不变。
+rounds：
+  - 6.11一面
+  - 6.16二面
+  - 6.18三面
+  - 6.20 HR面
+  - 6.24 OC

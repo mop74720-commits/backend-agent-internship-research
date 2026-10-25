@@ -1,0 +1,124 @@
+{
+  "scope": "本地页面交互、覆盖统计及PDF导出；未运行任何被调研项目",
+  "checks": [
+    {
+      "name": "146条完整目录",
+      "passed": true,
+      "details": "146"
+    },
+    {
+      "name": "候选人资料分类",
+      "passed": true
+    },
+    {
+      "name": "面经复盘分类",
+      "passed": true
+    },
+    {
+      "name": "项目参考分类",
+      "passed": true
+    },
+    {
+      "name": "B站与知乎分类",
+      "passed": true
+    },
+    {
+      "name": "专业原文补充分类",
+      "passed": true
+    },
+    {
+      "name": "明确实习40份",
+      "passed": true
+    },
+    {
+      "name": "严格近期实习8份",
+      "passed": true
+    },
+    {
+      "name": "关键词定位面经",
+      "passed": true
+    },
+    {
+      "name": "展开搜索结果",
+      "passed": true
+    },
+    {
+      "name": "收起资料卡",
+      "passed": true
+    },
+    {
+      "name": "hash清筛选并展开",
+      "passed": true
+    },
+    {
+      "name": "21候选人四段表",
+      "passed": true
+    },
+    {
+      "name": "19项目展开卡",
+      "passed": true
+    },
+    {
+      "name": "两方向各19行矩阵",
+      "passed": true
+    },
+    {
+      "name": "285维依据",
+      "passed": true
+    },
+    {
+      "name": "11项能力关联",
+      "passed": true
+    },
+    {
+      "name": "16个源码ZIP链接",
+      "passed": true
+    },
+    {
+      "name": "ShenYu历史PR可点",
+      "passed": true
+    },
+    {
+      "name": "Casdoor贡献边界显示",
+      "passed": true
+    },
+    {
+      "name": "桌面无整页横向溢出",
+      "passed": true
+    },
+    {
+      "name": "新入口目录与首页一致",
+      "passed": true
+    },
+    {
+      "name": "手机无整页横向溢出",
+      "passed": true
+    },
+    {
+      "name": "手机展开长路径不溢出",
+      "passed": true
+    },
+    {
+      "name": "待核32原始入口",
+      "passed": true
+    },
+    {
+      "name": "待核清单搜索",
+      "passed": true,
+      "details": {
+        "selected": 2
+      }
+    },
+    {
+      "name": "手机待核清单不溢出",
+      "passed": true
+    },
+    {
+      "name": "无页面脚本错误",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "pdf_exported": true
+}

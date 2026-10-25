@@ -1,0 +1,246 @@
+INT104 | 美团Agent开发一面 日常
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject
+公司：
+  美团
+方向与岗位：
+  美团；Agent开发；日常实习
+事件时间／原文日期（依分类）：
+  一面约75分钟，年月日未知
+发表／来源日期：
+  08-25（编辑，年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    一面约75分钟，年月日未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    08-25（编辑，年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习、事件年未知
+结果分类：
+  unknown
+结果自述：
+  未披露
+逐项结果与档位：
+  - 公司：
+      美团
+    方向与岗位：
+      美团；Agent开发；日常实习
+    档位：
+      未披露
+    状态：
+      unknown
+    事件时间／原文日期（依分类）：
+      一面约75分钟，年月日未知
+    证据：
+      https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject
+    依据：
+      未披露
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面约75分钟；未披露
+    questions：
+      - 为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？
+      - 无标题Markdown怎样切块，短query与长chunk如何比较并做对照？
+      - 关键词与向量召回如何互补，长query如何处理？
+      - 怎样判断幻觉，如何识别剩余1%到2%的错误？
+      - 为什么选Plan-and-Execute而非ReAct，Harness承担哪些上下文职责？
+      - Milvus与手写余弦检索有何差别，存储检索机制是否读过？
+      - 三万个协程和三万个线程在8核16线程机器上调度有何不同？
+      - 现场实现链表合并与最长有效括号。
+    结果自述：
+      未披露
+涉及主题：
+  - 算法/编程
+  - 并发/线程
+  - 操作系统
+  - 项目深挖/个人贡献
+  - RAG/检索
+  - 记忆/检索
+  - Agent循环/工具
+  - 评测/指标
+  - 模型运行/推理
+原文提问（归纳）：
+  - 为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？
+  - 无标题Markdown怎样切块，短query与长chunk如何比较并做对照？
+  - 关键词与向量召回如何互补，长query如何处理？
+  - 怎样判断幻觉，如何识别剩余1%到2%的错误？
+  - 为什么选Plan-and-Execute而非ReAct，Harness承担哪些上下文职责？
+  - Milvus与手写余弦检索有何差别，存储检索机制是否读过？
+  - 三万个协程和三万个线程在8核16线程机器上调度有何不同？
+  - 现场实现链表合并与最长有效括号。
+内容归纳：
+  智能运维项目遭追问RAG与文件检索取舍、混合召回、幻觉评估、上下文及向量库机制。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  最值得拿来审查Agent项目深度：每个组件为什么存在，替代方案是否做过对比。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 评论猜项目来源不能作为课程归属证据；本人项目没有明确公开源码入口。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I21
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    美团Agent开发一面 日常
+  原始来源：
+    https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject
+  resolved_url：
+    https://api-cdn.nowcoder.com/feed/main/detail/58159306df52463ab75d72daa80d66df?sourceSSR=subject
+  canonical_post_key：
+    feed/main/detail/58159306df52463ab75d72daa80d66df
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .feed-content-text
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    e1744847ca93b720dd2e92f750438bd5ebcb56701eb9d082896ca2b895e10377
+  body_char_count：
+    1212
+  source_card_path：
+    03_面经/I21.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    08-25（编辑，年份未显示）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+  source_date_verified：
+    否
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  event_date：
+    一面约75分钟，年月日未知
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 为什么用RAG而不让Agent直接grep原文/代码，忽略token时各有什么损益？
+    - 无标题Markdown怎样切块，短query与长chunk如何比较并做对照？
+    - 关键词与向量召回如何互补，长query如何处理？
+    - 怎样判断幻觉，如何识别剩余1%到2%的错误？
+    - 为什么选Plan-and-Execute而非ReAct，Harness承担哪些上下文职责？
+    - Milvus与手写余弦检索有何差别，存储检索机制是否读过？
+    - 三万个协程和三万个线程在8核16线程机器上调度有何不同？
+    - 现场实现链表合并与最长有效括号。
+  涉及主题：
+    - 算法/编程
+    - 并发/线程
+    - 操作系统
+    - 项目深挖/个人贡献
+    - RAG/检索
+    - 记忆/检索
+    - Agent循环/工具
+    - 评测/指标
+    - 模型运行/推理
+  结果分类：
+    unknown
+  result：
+    未披露
+  档位：
+    未披露
+  公司：
+    美团
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    反问 总时长75min…#美团日常实习#
+  阅读建议：
+    最值得拿来审查Agent项目深度：每个组件为什么存在，替代方案是否做过对比。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 评论猜项目来源不能作为课程归属证据；本人项目没有明确公开源码入口。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP06
+    - CAP07
+    - CAP08
+    - CAP09
+    - CAP11
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    未核／无
+source_key：
+  ASTRA_I21_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I21
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

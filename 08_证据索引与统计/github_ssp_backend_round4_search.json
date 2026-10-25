@@ -1,0 +1,658 @@
+[
+  {
+    "query": "\"腾讯SSP\" in:readme fork:false",
+    "url": "https://api.github.com/search/repositories?q=%22%E8%85%BE%E8%AE%AFSSP%22+in%3Areadme+fork%3Afalse&per_page=100",
+    "status": 200,
+    "total_count": 1,
+    "items": [
+      {
+        "full_name": "viego1999/JavaWxy",
+        "default_branch": "master",
+        "html_url": "https://github.com/viego1999/JavaWxy",
+        "description": "Java学习路线和资料分享"
+      }
+    ]
+  },
+  {
+    "query": "\"字节SSP\" in:readme fork:false",
+    "url": "https://api.github.com/search/repositories?q=%22%E5%AD%97%E8%8A%82SSP%22+in%3Areadme+fork%3Afalse&per_page=100",
+    "status": 200,
+    "total_count": 1,
+    "items": [
+      {
+        "full_name": "itwanger/zsxq",
+        "default_branch": "main",
+        "html_url": "https://github.com/itwanger/zsxq",
+        "description": "二哥编程星球介绍"
+      }
+    ]
+  },
+  {
+    "query": "\"SSP\" \"秋招总结\" in:readme fork:false",
+    "url": "https://api.github.com/search/repositories?q=%22SSP%22+%22%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93%22+in%3Areadme+fork%3Afalse&per_page=100",
+    "status": 200,
+    "total_count": 2,
+    "items": [
+      {
+        "full_name": "puge-up/programming-play",
+        "default_branch": "main",
+        "html_url": "https://github.com/puge-up/programming-play",
+        "description": "致力于实习/校招/社招进大厂打法，计算机基础知识学习，C++、Java、算法学习路线，专注于编程打法！"
+      },
+      {
+        "full_name": "trialley/TA2020",
+        "default_branch": "master",
+        "html_url": "https://github.com/trialley/TA2020",
+        "description": "I want job."
+      }
+    ]
+  },
+  {
+    "query": "\"SSP\" \"Go\" \"我\" in:readme fork:false",
+    "url": "https://api.github.com/search/repositories?q=%22SSP%22+%22Go%22+%22%E6%88%91%22+in%3Areadme+fork%3Afalse&per_page=100",
+    "status": 200,
+    "total_count": 120,
+    "items": [
+      {
+        "full_name": "amusi/AI-Job-Notes",
+        "default_branch": "master",
+        "html_url": "https://github.com/amusi/AI-Job-Notes",
+        "description": "AI算法岗求职攻略（涵盖准备攻略、刷题指南、内推和AI公司清单等资料）"
+      },
+      {
+        "full_name": "sspsec/Scan-Spring-GO",
+        "default_branch": "main",
+        "html_url": "https://github.com/sspsec/Scan-Spring-GO",
+        "description": "Spring 全家桶漏洞扫描工具 | 17 个漏洞模块 + MCP 服务端（AI 自动化渗透）| Go 实现"
+      },
+      {
+        "full_name": "chriskaliX/AD-Pentest-Notes",
+        "default_branch": "master",
+        "html_url": "https://github.com/chriskaliX/AD-Pentest-Notes",
+        "description": "用于记录内网渗透(域渗透)学习 :-)"
+      },
+      {
+        "full_name": "Poco-Ye/rk_wifi_bt_android",
+        "default_branch": "master",
+        "html_url": "https://github.com/Poco-Ye/rk_wifi_bt_android",
+        "description": null
+      },
+      {
+        "full_name": "puge-up/programming-play",
+        "default_branch": "main",
+        "html_url": "https://github.com/puge-up/programming-play",
+        "description": "致力于实习/校招/社招进大厂打法，计算机基础知识学习，C++、Java、算法学习路线，专注于编程打法！"
+      },
+      {
+        "full_name": "XTeam-Wing/RedTeaming2020",
+        "default_branch": "main",
+        "html_url": "https://github.com/XTeam-Wing/RedTeaming2020",
+        "description": "RedTeaming知识星球2020年安全知识汇总"
+      },
+      {
+        "full_name": "ChHsiching/GitHub-Chinese-Top-Charts",
+        "default_branch": "main",
+        "html_url": "https://github.com/ChHsiching/GitHub-Chinese-Top-Charts",
+        "description": "🇨🇳 GitHub中文排行榜，帮助你发现高分优秀中文项目。"
+      },
+      {
+        "full_name": "0voice/Campus_recruitment_interview_questions",
+        "default_branch": "main",
+        "html_url": "https://github.com/0voice/Campus_recruitment_interview_questions",
+        "description": "2025 最新校招面试题合集， 面向 2026 届应届生，全网最全整理！收录 1000+道真实面试题以及面经，涵盖阿里、腾讯、字节、美团、百度、华为、小米、英伟达、微软、米哈游等百家大中小厂。每题配备视频解析 or 文字讲解，持续更新中，助力拿下 Dream Offer！"
+      },
+      {
+        "full_name": "DropsOfZut/awesome-security-weixin-official-accounts",
+        "default_branch": "master",
+        "html_url": "https://github.com/DropsOfZut/awesome-security-weixin-official-accounts",
+        "description": "网络安全类公众号推荐，欢迎大家推荐"
+      },
+      {
+        "full_name": "open-spaced-repetition/awesome-fsrs",
+        "default_branch": "main",
+        "html_url": "https://github.com/open-spaced-repetition/awesome-fsrs",
+        "description": "A curated list of awesome FSRS implementations, papers and resources"
+      },
+      {
+        "full_name": "floatinghotpot/coding-to-monetization",
+        "default_branch": "master",
+        "html_url": "https://github.com/floatinghotpot/coding-to-monetization",
+        "description": ":book: From Coding to Monetization：Programmer's Financial Freedom Approach"
+      },
+      {
+        "full_name": "kelecn/OpenMV-autodrive",
+        "default_branch": "master",
+        "html_url": "https://github.com/kelecn/OpenMV-autodrive",
+        "description": "😉基于OpenMV的无人驾驶智能小车模拟系统"
+      },
+      {
+        "full_name": "alphaSeclab/windows-security",
+        "default_branch": "master",
+        "html_url": "https://github.com/alphaSeclab/windows-security",
+        "description": "Resources About Windows Security. 1100+ Open Source Tools. 3300+ Blog Post and Videos."
+      },
+      {
+        "full_name": "izj007/wechat",
+        "default_branch": "main",
+        "html_url": "https://github.com/izj007/wechat",
+        "description": "微信收藏的文章"
+      },
+      {
+        "full_name": "BJLIYANLIANG/Security_Service_Interview",
+        "default_branch": "main",
+        "html_url": "https://github.com/BJLIYANLIANG/Security_Service_Interview",
+        "description": "安全面试经验汇总 (80+篇)"
+      },
+      {
+        "full_name": "pinkie-ljz/GitHub-Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/pinkie-ljz/GitHub-Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "tanjiti/sec_profile",
+        "default_branch": "main",
+        "html_url": "https://github.com/tanjiti/sec_profile",
+        "description": "爬取secwiki和xuanwu.github.io/sec.today,分析安全信息站点、安全趋势、提取安全工作者账号(twitter,weixin,github等)"
+      },
+      {
+        "full_name": "Baimuking/AI-Jailbreak",
+        "default_branch": "main",
+        "html_url": "https://github.com/Baimuking/AI-Jailbreak",
+        "description": "全网最全的 AI 破甲合集：一个仓库破甲所有模型。收录 1733 个上游破甲项目，9 条可一键安装的破甲卡覆盖 GPT/Claude/Gemini/DeepSeek/GLM/Kimi/Grok/Qwen 与本地模型，内置 llms.txt 让 Claude Code/Codex/Cursor 自己装  有用的话可以点个收藏星星，会持续收录"
+      },
+      {
+        "full_name": "yifengyou/LinuxKernelTravel",
+        "default_branch": "master",
+        "html_url": "https://github.com/yifengyou/LinuxKernelTravel",
+        "description": "Linux 内核之旅公众号文章"
+      },
+      {
+        "full_name": "KyelYang/c-plus-Interview",
+        "default_branch": "master",
+        "html_url": "https://github.com/KyelYang/c-plus-Interview",
+        "description": null
+      },
+      {
+        "full_name": "sunyd1006/ssp",
+        "default_branch": "master",
+        "html_url": "https://github.com/sunyd1006/ssp",
+        "description": "sssssssssssssssssss p find job!!!"
+      },
+      {
+        "full_name": "sspsec/ssp-tools",
+        "default_branch": "main",
+        "html_url": "https://github.com/sspsec/ssp-tools",
+        "description": "我的个人赛博工具箱（Mac、ios、设备）"
+      },
+      {
+        "full_name": "LeoLee0812/CodeWhisper",
+        "default_branch": "main",
+        "html_url": "https://github.com/LeoLee0812/CodeWhisper",
+        "description": "基于 Whisper 的语音转文字工具。一键转录至剪贴板，解决云端吞字与隐私忧虑。针对中文环境优化，打破网页端限制，实现与各家大模型（ChatGPT/Grok/Gemini 等）的无缝对话。Local Whisper-based voice input tool. One-click transcribe to clipboard, zero privacy leaks, no more cloud swallowing text. Optimized for Chinese, breaks web-side limits, enabling seamless voice chat with LLMs"
+      },
+      {
+        "full_name": "for-just-we/IndirectCallAnalyzer",
+        "default_branch": "master",
+        "html_url": "https://github.com/for-just-we/IndirectCallAnalyzer",
+        "description": "reconstruction of project mlta"
+      },
+      {
+        "full_name": "markWJJ/GitHub-Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/markWJJ/GitHub-Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "zer0yu/RedTeam_CheetSheets",
+        "default_branch": "master",
+        "html_url": "https://github.com/zer0yu/RedTeam_CheetSheets",
+        "description": "RedTeam参考，修改自Ridter的https://github.com/Ridter/Intranet_Penetration_Tips"
+      },
+      {
+        "full_name": "Ghostasky/ALLStarRepo",
+        "default_branch": "main",
+        "html_url": "https://github.com/Ghostasky/ALLStarRepo",
+        "description": "我所有star的repo"
+      },
+      {
+        "full_name": "Mbilse/GitHub-Chinese-Top-Charts",
+        "default_branch": "main",
+        "html_url": "https://github.com/Mbilse/GitHub-Chinese-Top-Charts",
+        "description": "🇨🇳 GitHub中文排行榜"
+      },
+      {
+        "full_name": "qingyuanfeiniao/Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/qingyuanfeiniao/Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "w3nq14/SecUnion",
+        "default_branch": "main",
+        "html_url": "https://github.com/w3nq14/SecUnion",
+        "description": "网络安全博客大全"
+      },
+      {
+        "full_name": "HeyMrSalt/iPAS-Specialist-Notes",
+        "default_branch": "main",
+        "html_url": "https://github.com/HeyMrSalt/iPAS-Specialist-Notes",
+        "description": "iPAS 資安工程師 中級證照筆記 範圍著重【防護實務】並以【歷屆難題與解析】與【資安重要專有名詞】方式呈現。Ver.20250808"
+      },
+      {
+        "full_name": "sv3nbeast/Attack-Notes",
+        "default_branch": "main",
+        "html_url": "https://github.com/sv3nbeast/Attack-Notes",
+        "description": null
+      },
+      {
+        "full_name": "Poco-Ye-dev/rk_wifi_bt_android",
+        "default_branch": "master",
+        "html_url": "https://github.com/Poco-Ye-dev/rk_wifi_bt_android",
+        "description": null
+      },
+      {
+        "full_name": "uhub/awesome-shell",
+        "default_branch": "master",
+        "html_url": "https://github.com/uhub/awesome-shell",
+        "description": "A curated list of awesome Shell frameworks, libraries and software."
+      },
+      {
+        "full_name": "yenanjing/awesome-ai-for-science",
+        "default_branch": "main",
+        "html_url": "https://github.com/yenanjing/awesome-ai-for-science",
+        "description": "A curated list of awesome projects using AI to automate scientific research — AI Scientist, autonomous research agents, paper writing, hypothesis generation, and more."
+      },
+      {
+        "full_name": "John19187/v2ray-SSR-Clash-Verge-Shadowrocke",
+        "default_branch": "main",
+        "html_url": "https://github.com/John19187/v2ray-SSR-Clash-Verge-Shadowrocke",
+        "description": "2026年免费高速（25.6M/S）v2ray、ss、sing-box、Clash、Verge、SSR、Shadowrocke-小火箭机场节点订阅指南，翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙、科学上网、解锁YouTube、Netflix、TikTok、ChatGPT、bilibili港澳台。科学上网、梯子、VPN测评，适用Clash、V2ray、小火箭、sing-box等客户端"
+      },
+      {
+        "full_name": "1dika1/vsvs",
+        "default_branch": "master",
+        "html_url": "https://github.com/1dika1/vsvs",
+        "description": null
+      },
+      {
+        "full_name": "SexyBeast233/SecBooks",
+        "default_branch": "main",
+        "html_url": "https://github.com/SexyBeast233/SecBooks",
+        "description": "安全类各家文库大乱斗"
+      },
+      {
+        "full_name": "1dika1/network",
+        "default_branch": "master",
+        "html_url": "https://github.com/1dika1/network",
+        "description": null
+      },
+      {
+        "full_name": "Phinease/awesome-fsrs",
+        "default_branch": "main",
+        "html_url": "https://github.com/Phinease/awesome-fsrs",
+        "description": null
+      },
+      {
+        "full_name": "cb7d/ClangTest",
+        "default_branch": "master",
+        "html_url": "https://github.com/cb7d/ClangTest",
+        "description": "ClangTest"
+      },
+      {
+        "full_name": "Pluviobyte/Rain_learning",
+        "default_branch": "main",
+        "html_url": "https://github.com/Pluviobyte/Rain_learning",
+        "description": "天问之路 — 学习笔记&学习周报。"
+      },
+      {
+        "full_name": "shangjunimo/GitHub-Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/shangjunimo/GitHub-Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "pieralukasz/awesome-fsrs",
+        "default_branch": "main",
+        "html_url": "https://github.com/pieralukasz/awesome-fsrs",
+        "description": "A curated list of awesome FSRS implementations, papers and resources"
+      },
+      {
+        "full_name": "koala2099/GitHub-Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/koala2099/GitHub-Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "Poco-Ye/rk_wifi_bt_linux",
+        "default_branch": "master",
+        "html_url": "https://github.com/Poco-Ye/rk_wifi_bt_linux",
+        "description": "rk_wifi_bt_linux"
+      },
+      {
+        "full_name": "itwanger/zsxq",
+        "default_branch": "main",
+        "html_url": "https://github.com/itwanger/zsxq",
+        "description": "二哥编程星球介绍"
+      },
+      {
+        "full_name": "ChiamZhang/Ret2CSU_EXP",
+        "default_branch": "master",
+        "html_url": "https://github.com/ChiamZhang/Ret2CSU_EXP",
+        "description": null
+      },
+      {
+        "full_name": "qince1455373819/GitHub-Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/qince1455373819/GitHub-Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "CusetLemon/wow",
+        "default_branch": "master",
+        "html_url": "https://github.com/CusetLemon/wow",
+        "description": null
+      },
+      {
+        "full_name": "qtgavc/list",
+        "default_branch": "master",
+        "html_url": "https://github.com/qtgavc/list",
+        "description": null
+      },
+      {
+        "full_name": "GNEHUY/Awesome-AgenticRAG_DeepResearch",
+        "default_branch": "main",
+        "html_url": "https://github.com/GNEHUY/Awesome-AgenticRAG_DeepResearch",
+        "description": "🎯Awesome-AgenticRAG_DeepResearch: A curated list of resources on Agentic RAG & DeepResearch. 学习参考关于AgenticRAG、DeepResearch的发展相关论文"
+      },
+      {
+        "full_name": "alphaSeclab/sec-daily-2019",
+        "default_branch": "main",
+        "html_url": "https://github.com/alphaSeclab/sec-daily-2019",
+        "description": "2019年天融信阿尔法实验室在微信公众号发布的所有安全资讯汇总"
+      },
+      {
+        "full_name": "GHWXY/Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/GHWXY/Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "whiteares/Ares-BookMarks",
+        "default_branch": "master",
+        "html_url": "https://github.com/whiteares/Ares-BookMarks",
+        "description": "有用有趣网站合集"
+      },
+      {
+        "full_name": "psgreger/aqw9ry8b8",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/aqw9ry8b8",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "just0rg/Security-Interview",
+        "default_branch": "main",
+        "html_url": "https://github.com/just0rg/Security-Interview",
+        "description": "安全方向知识点(包含web攻防、java攻防、企业安全、内网/域、提权、免杀)"
+      },
+      {
+        "full_name": "qiaoshuixia521/GitHub-Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/qiaoshuixia521/GitHub-Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "goodthebest/anzhuang-peizhi-yiimp-kuangchi-ruanjian-wubantu-linakesi",
+        "default_branch": "next",
+        "html_url": "https://github.com/goodthebest/anzhuang-peizhi-yiimp-kuangchi-ruanjian-wubantu-linakesi",
+        "description": "想要搭建矿池吗？**我们提供软件、脚本和专业服务，可在 Ubuntu 20.04、22.04、24.04 和 25.01 版本的 VPS 或专用服务器上安装、配置 Yiimp 加密矿池，并附带免费咨询。Yiimp 可定制 Asicboost，支持 sha256/sha256D 算法，并提供面向 scrypt 算法（莱特币）的 MWEB 功能"
+      },
+      {
+        "full_name": "CloudCreateThink/CodingOffer",
+        "default_branch": "main",
+        "html_url": "https://github.com/CloudCreateThink/CodingOffer",
+        "description": "Get your offer in one go"
+      },
+      {
+        "full_name": "zha0/Bei-Gai-penetration-test-guide",
+        "default_branch": "main",
+        "html_url": "https://github.com/zha0/Bei-Gai-penetration-test-guide",
+        "description": "渗透测试适合初学者，未完结，更新中"
+      },
+      {
+        "full_name": "sk0n3r/odom321n",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/odom321n",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "psgreger/n2s5j1ry",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/n2s5j1ry",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "sk0n3r/xulvujsc6",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/xulvujsc6",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "psgreger/kk0q45m",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/kk0q45m",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "dreamer888/coin-exchange",
+        "default_branch": "master",
+        "html_url": "https://github.com/dreamer888/coin-exchange",
+        "description": null
+      },
+      {
+        "full_name": "sk0n3r/5v5ys7t",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/5v5ys7t",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "sk0n3r/fcy7we2s6y",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/fcy7we2s6y",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "sk0n3r/6oskwx442a",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/6oskwx442a",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "whoami13apt/files2",
+        "default_branch": "main",
+        "html_url": "https://github.com/whoami13apt/files2",
+        "description": null
+      },
+      {
+        "full_name": "sk0n3r/yh58z9az3i",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/yh58z9az3i",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "psgreger/b5xobphd0",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/b5xobphd0",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "psgreger/q39uigrz0",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/q39uigrz0",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "sk0n3r/f6zz5rsn",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/f6zz5rsn",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "psgreger/c63z0iwtz",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/c63z0iwtz",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "psgreger/f89k8qzm",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/f89k8qzm",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "psgreger/zpalggy",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/zpalggy",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "enhansome/enhansome-fsrs",
+        "default_branch": "main",
+        "html_url": "https://github.com/enhansome/enhansome-fsrs",
+        "description": null
+      },
+      {
+        "full_name": "Jiangmmh/MIT-6.1810-OS",
+        "default_branch": "main",
+        "html_url": "https://github.com/Jiangmmh/MIT-6.1810-OS",
+        "description": null
+      },
+      {
+        "full_name": "backtraxe/offer-is-all-you-need",
+        "default_branch": "main",
+        "html_url": "https://github.com/backtraxe/offer-is-all-you-need",
+        "description": "面经、八股、系统设计，一个都不能少。Offer 是我的，也是你的。"
+      },
+      {
+        "full_name": "laplus-x/laplus-x",
+        "default_branch": "main",
+        "html_url": "https://github.com/laplus-x/laplus-x",
+        "description": null
+      },
+      {
+        "full_name": "haozeli-ling/awssp",
+        "default_branch": "main",
+        "html_url": "https://github.com/haozeli-ling/awssp",
+        "description": null
+      },
+      {
+        "full_name": "psgreger/l3xsjlzd",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/l3xsjlzd",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "JerryBluesnow/SharedLibrary",
+        "default_branch": "master",
+        "html_url": "https://github.com/JerryBluesnow/SharedLibrary",
+        "description": "linux shared library tips"
+      },
+      {
+        "full_name": "kaibady/GitHub-Chinese-Top-Charts",
+        "default_branch": "master",
+        "html_url": "https://github.com/kaibady/GitHub-Chinese-Top-Charts",
+        "description": null
+      },
+      {
+        "full_name": "sk0n3r/pr0wwl",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/pr0wwl",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "NikoHub6/adout-",
+        "default_branch": "main",
+        "html_url": "https://github.com/NikoHub6/adout-",
+        "description": null
+      },
+      {
+        "full_name": "gemini0ani/yep4q2q",
+        "default_branch": "main",
+        "html_url": "https://github.com/gemini0ani/yep4q2q",
+        "description": "o4sote5nAPEX 无法分配 SH 用户？一个存储过程轻松解决cco6l4soqhf8"
+      },
+      {
+        "full_name": "psgreger/stptcta0",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/stptcta0",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "awesome-code-resources/awesome-cpp-zh",
+        "default_branch": "main",
+        "html_url": "https://github.com/awesome-code-resources/awesome-cpp-zh",
+        "description": "C++（或 C）框架、库、资源和闪亮事物的精选列表"
+      },
+      {
+        "full_name": "aiyuedi/intelligent-manufacturing-roadmap",
+        "default_branch": "main",
+        "html_url": "https://github.com/aiyuedi/intelligent-manufacturing-roadmap",
+        "description": "智能制造工程本科学习路线图 | Intelligent Manufacturing Engineering Undergraduate Roadmap"
+      },
+      {
+        "full_name": "psgreger/xro7fp",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/xro7fp",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "psgreger/wb9qj3k8n",
+        "default_branch": "main",
+        "html_url": "https://github.com/psgreger/wb9qj3k8n",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "whisperlym/60mxb9h",
+        "default_branch": "main",
+        "html_url": "https://github.com/whisperlym/60mxb9h",
+        "description": "sria3xqqAgent集群失控怎么办？企业级Agent架构从Demo走向生产b9fir7l2giq4"
+      },
+      {
+        "full_name": "Lfpast/Mental-Disorders-Knowledge-Graph",
+        "default_branch": "main",
+        "html_url": "https://github.com/Lfpast/Mental-Disorders-Knowledge-Graph",
+        "description": null
+      },
+      {
+        "full_name": "sk0n3r/pqgzd222v7",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/pqgzd222v7",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "sk0n3r/l1ao7e5",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/l1ao7e5",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "sk0n3r/8lso43s9",
+        "default_branch": "main",
+        "html_url": "https://github.com/sk0n3r/8lso43s9",
+        "description": "Auto-created repository for publishing"
+      },
+      {
+        "full_name": "Poco-Ye-dev/rk_wifi_bt_linux",
+        "default_branch": "master",
+        "html_url": "https://github.com/Poco-Ye-dev/rk_wifi_bt_linux",
+        "description": null
+      },
+      {
+        "full_name": "maheshndev/awesome-repos",
+        "default_branch": "main",
+        "html_url": "https://github.com/maheshndev/awesome-repos",
+        "description": "Awesome Repositories - Explore top-rated GitHub repositories curated for developers—tools, libraries, and projects to boost productivity and learning in one place. Discover the best in open-source tech!"
+      }
+    ]
+  }
+]

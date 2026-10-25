@@ -1,0 +1,67 @@
+[
+  {
+    "url": "https://github.com/DreamCats/school-bus",
+    "status": 200,
+    "metadata": [
+      "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+      "master",
+      "fc50ea8b19f99b4b15b2012048ea4651d896dd94"
+    ],
+    "paths": [
+      "/",
+      "doc",
+      "imgs",
+      "school-bus-cloud",
+      "school-bus",
+      ".DS_Store",
+      ".gitignore",
+      "README.md",
+      "school_bus.sql"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DreamCats/java-notes/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/bus/README.md",
+    "status": 200,
+    "lines": 12,
+    "text": "- 项目地址：[微服务班车在线预约系统](https://github.com/DreamCats/SchoolBus)\n- [环境搭建文档](环境搭建文档.md)\n- [Redis绑定Token分析文档](Redis绑定Token.md)\n- [用户服务所有接口分析文档](用户服务.md)\n- [班车服务所有接口分析文档](班车服务.md)\n- [订单服务所有接口分析文档](订单服务.md)\n- [支付服务所有接口分析文档](支付服务.md)\n- [添加订单、支付和退款的业务结合消息队列](RocketMQ最终一致性.md)\n- [Redis的key过期事件结合自动取消订单业务](Redis的key过期事件.md)\n- [SQL语句调优](业务逻辑SQL语句.md)\n- [Zookeeper的bug之一](上线遇到的bug.md)\n"
+  },
+  {
+    "url": "https://github.com/CocaineCong/Golang-Interview/commits/main/",
+    "status": 200,
+    "metadata": [
+      "5a48dfc6003468aa6c152da05e79beafdee1bcd7",
+      "2022-10-07T15:22:13.000+08:00",
+      "bb3ecb3f32a6ebcd21e24b4b19db08ba7410f8f9",
+      "2022-09-30T00:22:41.000+08:00",
+      "f1cb8ef19ad54e44ff526e494949e9f731ff1bad",
+      "2022-09-29T08:12:58.000+08:00",
+      "06cd187f29a0277187cf28cf07ed7f8674e7c5b8",
+      "2022-09-29T08:11:05.000+08:00",
+      "5f193486be9e890d4f6585df492adebb5049d29e",
+      "2022-09-27T08:30:44.000+08:00"
+    ],
+    "paths": [
+      "/CocaineCong",
+      "/web-flow"
+    ]
+  },
+  {
+    "url": "https://github.com/puge-up/programming-play/commits/main/",
+    "status": 200,
+    "metadata": [
+      "4ff334fef939e05b6aa08caef412d96911c6dcfe",
+      "2025-02-18T22:20:27.000+08:00",
+      "3a38e92d1a6d33cb8ce3ae50ea0d32edefc14bb0",
+      "2025-02-09T12:11:00.000+08:00",
+      "5b9346105e08333092ef7d0d18d7d784ee0cff13",
+      "2021-08-15T09:50:31.000+08:00",
+      "9fa566682910c5fd215ad2f7b5a1b9dbb2dc8a42",
+      "2021-07-19T07:28:32.000+08:00",
+      "6d33be3544f774f9b438389b5e57178d19dd9547",
+      "2021-07-18T20:26:28.000+08:00"
+    ],
+    "paths": [
+      "/puge-up"
+    ]
+  }
+]

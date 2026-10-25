@@ -1,0 +1,167 @@
+{
+  "retrieved_at": "2026-10-23",
+  "scope": "已批准计划中的专业观点正文补核；个人项目设计暂缓。保留原7条OP，平台外原文单列，不冒称观看B站或读到知乎正文。",
+  "method": {
+    "round_1": "复查现有B站/知乎原始链接，并沿OP03作者本人GitHub导航检查是否存在文字版。遇412/403停止该平台正文路径。",
+    "round_2": "按Agent工程、面试和评测主题检索另一位专业作者的公开正文；B站/知乎检索仍无可核全文，转读官方作者原站，明确记为平台外替代来源。",
+    "limits": "未登录、未绕过风控、未下载视频、未调用付费模型或安装服务。公开检索摘要仅用于发现。未保存联系方式。",
+    "source_visit_count": 9,
+    "source_visit_count_note": "3个B站页、2个知乎页、1个作者GitHub导航、2个新官方全文及1次官方全文日期元数据复查。另有6个Yahoo检索请求和1次专用搜索工具调用，不计为读到来源正文。"
+  },
+  "coverage": {
+    "existing_op_records": 7,
+    "existing_actual_bilibili_videos_verified": 0,
+    "existing_actual_zhihu_bodies_verified": 0,
+    "existing_author_site_texts_verified": 2,
+    "existing_author_site_texts_verified_ids": ["OP04", "OP05"],
+    "new_actual_bilibili_videos_verified": 0,
+    "new_actual_zhihu_bodies_verified": 0,
+    "new_native_official_texts_read": 2,
+    "new_native_official_texts_are_platform_substitutes": true,
+    "counting_rule": "OP04/05仅算原作者官网全文可读；不能算知乎正文已读。新2篇仅算平台外官方原文。OP01/02/03/06/07不能计入已读专业观点正文数量。"
+  },
+  "existing_record_updates": [
+    {
+      "id": "OP01",
+      "original_url": "https://www.bilibili.com/video/BV1DCDjBRExV/",
+      "access_status": "本轮原始视频页HTTP 412，正文路径停止",
+      "content_validation": "未观看或取得字幕；原标题/简介内容不得升级为已核视频观点",
+      "verified_video_viewing": false,
+      "manual_check": "用户可在正常浏览器打开后核对本人实际经历、项目时间与视频论述；无需提供联系方式。"
+    },
+    {
+      "id": "OP02",
+      "original_url": "https://www.bilibili.com/video/BV1r2jc6mEWq/",
+      "access_status": "本轮未重试，沿用前轮视频页412与索引简介范围；不重复访问同平台受限路径",
+      "content_validation": "仅标题/简介，专业资历未独立核验",
+      "verified_video_viewing": false,
+      "manual_check": "核作者从业或招聘身份依据及完整视频内容后再判断是否采纳。"
+    },
+    {
+      "id": "OP03",
+      "original_url": "https://www.bilibili.com/video/BV1EE411T7HF/",
+      "access_status": "本轮原视频页HTTP 412；作者本人GitHub README HTTP 200，但只是导航",
+      "author_navigation_url": "https://raw.githubusercontent.com/TALKDATA/JavaBigData/master/README.md",
+      "content_validation": "未观看或取得字幕；作者导航没有直接提供该项目封装视频的已读逐字稿",
+      "verified_video_viewing": false,
+      "discrepancy": "卡片原BV1EE411T7HF与作者当前README中“如何封装简历上的项目”所链接BV1XE411P7s8不一致。不能把两个视频默认为同一内容。",
+      "author_navigation_video_url": "https://www.bilibili.com/video/BV1XE411P7s8",
+      "identity_evidence_update": "作者本人GitHub README自述蚂蚁程序员、非科班转大数据；任职及帮助人数均未外部核实。",
+      "manual_check": "先核对两个视频标题、作者和发布日期，再核正文；保留历史表达辅料定位。"
+    },
+    {
+      "id": "OP04",
+      "original_url": "https://zhuanlan.zhihu.com/p/2081333572456206815",
+      "author_site_url": "https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html",
+      "access_status": "本轮知乎原页HTTP 403；作者官方全文沿用前轮已核，不重复增作者或计数",
+      "content_validation": "美团官网正文已读；知乎原文正文未取到",
+      "verified_video_viewing": false
+    },
+    {
+      "id": "OP05",
+      "original_url": "https://zhuanlan.zhihu.com/p/661113978",
+      "author_site_url": "https://interview.javaguide.cn/interview-preparation/resume-guide.html",
+      "access_status": "沿用前轮作者官网实际正文阅读，本轮未重试知乎",
+      "content_validation": "作者官网正文已核；不计知乎本体全文核验",
+      "verified_video_viewing": false,
+      "adoption_boundary": "采纳真实职责、问题和可验证效果表达；不采纳把非本人模块写成个人贡献的建议。"
+    },
+    {
+      "id": "OP06",
+      "original_url": "https://www.zhihu.com/question/1982512240482619481/answer/2000174392479606071",
+      "access_status": "本轮知乎回答HTTP 403，路径停止",
+      "content_validation": "只有既有摘要；未核全文，不计已读观点",
+      "verified_video_viewing": false,
+      "manual_check": "核正文是否区分真实业务需求、项目复现与课程营销；不根据推广语推断SSP收益。"
+    },
+    {
+      "id": "OP07",
+      "original_url": "https://www.bilibili.com/video/BV1akwGeSERK/",
+      "access_status": "本轮原始视频页HTTP 412，正文路径停止",
+      "content_validation": "未观看或取得字幕，仍仅简介范围；源码与视频教学质量应分别审查",
+      "verified_video_viewing": false,
+      "manual_check": "核协作、权限和AI模块实际讲解范围；课程宣传不当已获岗者因果证据。"
+    }
+  ],
+  "search_log": [
+    {
+      "round": 1,
+      "path": "专用搜索工具",
+      "queries": ["site.zhihu.com Agent 工程 面试 腾讯 项目", "site.bilibili.com Agent 项目 面试官 简历", "site.github.com/TALKDATA/JavaBigData 项目 简历 封装"],
+      "status": "工具返回isError=true且content为空，未提供可读来源；改用公开Yahoo查询"
+    },
+    {
+      "round": 2,
+      "path": "Yahoo检索与作者原站",
+      "queries": [
+        {"q": "site.zhihu.com Agent 工程 项目 面试 腾讯 技术", "status": 200, "result_use": "返回求职自述或题库营销，未取得专业身份明确的正文；不计观点"},
+        {"q": "site.bilibili.com Agent 项目 面试官 工程化", "status": 500, "result_use": "无可用结果，停止该查询"},
+        {"q": "TALKDATA 如何写出有亮点的简历 文字版", "status": 200, "result_use": "无可用正文结果"},
+        {"q": "site.zhihu.com 阿里云 Agent 评测", "status": 500, "result_use": "无可用结果，停止该查询"},
+        {"q": "site.bilibili.com Anthropic Agent 工程", "status": 500, "result_use": "无可用结果，停止该查询"},
+        {"q": "site.langchain.com context engineering Harrison", "status": 200, "result_use": "发现LangChain原作者正文，实际全文读取；另沿官方工程资料路径核读Anthropic工具评测原文"}
+      ]
+    }
+  ],
+  "proposed_native_opinion_sources": [
+    {
+      "proposed_key": "LANGCHAIN_CONTEXT_ENGINEERING",
+      "platform": "LangChain作者官方博客（平台外替代资料）",
+      "author": "Harrison Chase／LangChain",
+      "title": "The rise of context engineering",
+      "url": "https://www.langchain.com/blog/the-rise-of-context-engineering",
+      "date": "2025-06-23（原文署名区）",
+      "access_status": "HTTP 200，实际读取正文",
+      "identity_evidence": "LangChain官方域名署名Harrison Chase，正文以产品建设者口吻说明LangGraph与LangSmith；不把其观点当招聘部门标准。",
+      "content_validation": "官网实际正文已读；不是B站视频或知乎回答",
+      "verified_video_viewing": false,
+      "read_scope": ["What is context engineering?", "Why is context engineering important", "Examples of context engineering", "How LangGraph enables context engineering", "How LangSmith helps with context engineering"],
+      "opinion": "作者把Agent可靠性与动态上下文的构建联系起来：按任务提供必要信息、可用工具和合适格式，并区分信息缺失与模型自身错误。短期摘要、长期偏好、检索和工具输出都属于需要控制的上下文。",
+      "evidence_type": "框架作者的工程主张与产品实践说明；本文没有独立对照实验支撑其关于常见失败原因的比例判断。",
+      "recommendation": "Agent方向选读。检查现有项目能否追踪一次决策所用上下文、工具集合及结果；能否说明遗漏信息、错误格式和模型错误分别怎样定位。",
+      "limitations": "概念与产品说明为主，没有实习样本、简历或SSP录用证据；需要结合实际面经及项目评测验证。",
+      "commercial_bias": "作者直接推广LangGraph与LangSmith，存在框架及商业观测产品利益；采纳问题拆解，不据此规定必须使用这些产品。",
+      "project_reading_modules": ["上下文构建入口", "对话摘要及状态更新", "检索结果注入", "工具输出格式", "trace/日志与失败归因"],
+      "adoptable_checks": ["一次失败能否定位为信息缺失、工具不可用、格式问题或模型错误", "历史信息增长时是否有明确筛选与摘要策略", "日志能否还原模型看到的输入及可用工具"],
+      "claims_not_to_make": ["不能说已观看相关B站视频或读到知乎版本", "不能说大厂实习统一要求LangGraph或LangSmith", "不能把作者关于常见原因的判断当已验证普遍统计"],
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "proposed_key": "ANTHROPIC_TOOLS_EVALUATION",
+      "platform": "Anthropic官方工程原文（平台外替代资料）",
+      "author": "Ken Aizawa／Anthropic，文末列Research、MCP及工程团队贡献者",
+      "title": "Writing effective tools for agents — with agents",
+      "url": "https://www.anthropic.com/research/writing-tools-for-agents",
+      "discovery_url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "date": "2025-09-11（原文time及article:published_time）",
+      "modified_date": "2026-10-13（原文article:modified_time；不当最初发表日期）",
+      "access_status": "工程旧路径跳转研究原文HTTP 200，实际读取全文及日期元数据",
+      "identity_evidence": "Anthropic官方域名与文末署名；原文讨论内部工作区、工具与留出测试评测，属于一手工程报告，未独立复现实验。",
+      "content_validation": "官网实际正文已读；不是B站视频或知乎回答",
+      "verified_video_viewing": false,
+      "read_scope": ["How to write tools", "Generating evaluation tasks", "Running the evaluation", "Analyzing results", "Choosing the right tools for agents", "Namespacing your tools", "Returning meaningful context from your tools", "Optimizing tool responses for token efficiency", "Prompt-engineering your tool descriptions", "Authors & Acknowledgments"],
+      "opinion": "工具应围绕真实任务选取，避免把大量底层接口机械包装给Agent。评测任务需要可核结果及留出集，同时记录耗时、调用次数、token与错误；依据轨迹改进工具说明、返回字段和分页截断。",
+      "evidence_type": "内部任务及留出测试的实践报告，含任务强弱示例和工具对照；不外推为所有模型与业务必然收益。",
+      "recommendation": "Agent方向精读工程方法。优先读真实任务与验收结果设计、工具边界、返回信息密度和错误反馈；用于审查已有项目是否超出简单API调用。",
+      "limitations": "厂商及其工具生态的实践，任务与模型有特定背景；未提供中国实习招聘或SSP关联证据。工具命名、响应格式和预期调用链需要用自己的任务验证。",
+      "commercial_bias": "正文推广Claude、Claude Code、MCP及其API；有模型服务商业利益，本轮未付费或调用。",
+      "project_reading_modules": ["工具注册/输入校验", "工具描述与命名", "工具响应裁剪/分页", "错误分类与可操作反馈", "任务集与验收器", "留出集、轨迹和耗时/token统计"],
+      "adoptable_checks": ["任务是否要求真实多步操作且有可核结果", "结果验证是否允许多条正确解决路径", "是否有留出任务防止只对演示样例调优", "能否关联成功率、耗时、token和工具错误", "返回值是否有相关字段选择、分页或截断提示"],
+      "claims_not_to_make": ["不能把工具调用后主动结束等同任务成功", "不能把评测代理的自述反馈单独当可靠验收器", "不能把文章当中国大厂招聘评分表", "不能说已观看B站视频或读取知乎版"],
+      "retrieved_at": "2026-10-23"
+    }
+  ],
+  "remaining_gaps": [
+    {"gap": "B站实际视频或完整字幕", "state": "本轮新增0，既有已核0", "attempted_paths": "原页复查遇412；第二路径主题及作者检索无可核视频正文", "next_usable_action": "保留原始视频链接供用户正常浏览器手动观看；不把简介替换成完整评价。"},
+    {"gap": "知乎专业者完整回答", "state": "本轮新增0，既有本体已核0", "attempted_paths": "原回答/专栏遇403；第二路径检索只取得摘要或500", "next_usable_action": "保留原知乎链接供手动打开；平台外官方全文只能补工程观点，不能声称补齐平台阅读。"},
+    {"gap": "专业观点与SSP实习录用的直接关系", "state": "这两篇新原文均不提供", "attempted_paths": "按文章实际内容审查，不从知名作者身份推断录用效果", "next_usable_action": "继续用近期本人面经与本人项目作交叉证据，本轮不以观点文章增加成功者人数。"}
+  ],
+  "manual_access_links": [
+    {"url": "https://www.bilibili.com/video/BV1DCDjBRExV/", "status": "HTTP 412", "related_id": "OP01", "check": "视频实际内容和简历所涉项目时间"},
+    {"url": "https://www.bilibili.com/video/BV1EE411T7HF/", "status": "HTTP 412", "related_id": "OP03", "check": "与作者README当前链接视频是否同一内容"},
+    {"url": "https://www.bilibili.com/video/BV1XE411P7s8", "status": "作者README实际链接，未额外重试受限平台", "related_id": "OP03", "check": "视频标题及项目封装方法，未看不计观点"},
+    {"url": "https://www.bilibili.com/video/BV1akwGeSERK/", "status": "HTTP 412", "related_id": "OP07", "check": "协作图库技术模块及实际论述"},
+    {"url": "https://www.zhihu.com/question/1982512240482619481/answer/2000174392479606071", "status": "HTTP 403", "related_id": "OP06", "check": "Agent项目经验正文与课程推广边界"},
+    {"url": "https://zhuanlan.zhihu.com/p/2081333572456206815", "status": "HTTP 403，已有官网替代全文", "related_id": "OP04", "check": "如需要核对知乎版与官网版是否相同"}
+  ]
+}

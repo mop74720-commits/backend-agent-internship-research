@@ -1,0 +1,187 @@
+JD25 | 腾讯 微信 微信实习生招聘 Agent框架方向
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  腾讯
+role_type：
+  Agent框架工程；广州；页标学历不限；5天/周；至少3个月；有转正
+原始来源：
+  https://www.nowcoder.com/jobs/detail/454300
+publish_date：
+  未显示发布日期；明确投递期2026-07-20—2026-11-01
+retrieved_date：
+  2026-10-24
+source_type：
+  牛客平台招聘页，发布者企业身份未独立核验
+own_summary：
+  分布式Agent框架、沙箱/云/消息/存储/账号基础设施，性能与一致性，算法落地与训练架构。
+required_stack：
+  - C++/Python至少一种
+  - 主流Agent开发框架实际经验与核心组件
+  - Multi-Agent
+  - MCP/A2A/FunctionCall
+  - 系统设计/模块化/高性能工程
+preferred_stack：
+  —
+degree_constraint：
+  平台页标学历不限；正文未列毕业届次
+availability_constraint：
+  广州海珠；5天/周；至少3个月；有转正
+recruiting_status：
+  页标立即申请；窗口未截止，实时HC未核
+matrix_include：
+  是
+duties：
+  分布式Agent框架、沙箱/云/消息/存储/账号基础设施，性能与一致性，算法落地与训练架构。
+阅读建议：
+  用于识别Agent基础设施能力，补足仅有检索聊天项目的短板。
+局限：
+  发布账号公司为腾讯科技上海而地点广州；框架名称harmes为原文拼写，不自动修正为别的框架。
+原访问范围：
+  正文全文
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    未显示发布日期；明确投递期2026-07-20—2026-11-01
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    未显示发布日期；明确投递期2026-07-20—2026-11-01
+  时间依据：
+    原文日期/窗口
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    职责、要求、资格及页表状态实际核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - C++/Python至少一种
+  - 主流Agent开发框架实际经验与核心组件
+  - Multi-Agent
+  - MCP/A2A/FunctionCall
+  - 系统设计/模块化/高性能工程
+source_record：
+  source_id：
+    J07
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    腾讯 微信 微信实习生招聘 Agent框架方向
+  原始来源：
+    https://www.nowcoder.com/jobs/detail/454300
+  canonical_key：
+    nowcoder:job:454300
+  source_file：
+    01_岗位JD/J07.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      牛客平台招聘页（发布者身份未独立核验）；投递窗口2026-07-20—2026-11-01
+    岗位状态：
+      页面显示立即申请；窗口未截止，实际HC需复核
+    方向与资格：
+      Agent框架工程；广州；页标学历不限；5天/周；至少3个月；有转正
+    明确要求：
+      C++或Python / Agent框架实践 / Multi-Agent / MCP/A2A/FunctionCall / 工程设计
+    加分项：
+      未单列
+    工作摘要：
+      分布式Agent框架、沙箱、云环境、消息和数据存储，性能稳定性与算法落地。
+    推荐理由：
+      用于识别Agent基础设施能力，补足仅有检索聊天项目的短板。
+    局限：
+      牛客账号公司为腾讯科技上海、工作地广州；框架名称原页有拼写问题，未据此推断标准技术栈。
+  live_access：
+    状态：
+      200
+    标题：
+      微信实习生招聘_腾讯实习_牛客网
+    原始来源：
+      https://www.nowcoder.com/jobs/detail/454300
+    已读部分：
+      职责、要求、资格及页表状态实际核读
+    已读定位正文全文：
+      是
+    professional_text：
+      岗位关键词
+投递时间：2026年7月20日-2026年11月1日
+岗位职责
+岗位职责
+1.负责Agent开发框架的设计与实现，构建支持Multi-Agent的分布式架构，提供高效、可扩展的框架支撑小工具线上业务以及算法模型训练。
+2.负责小工具业务以及模型训练的沙箱环境、云环境、消息链路、数据存储、账号等基础建设的架构设计。
+3.负责框架的性能优化与稳定性维护，支持全链路质量建设，保障整体小工具线上业务以及训练架构高扩展、保障业务逻辑的高可用和高性能、保障线上数据的一致性。
+4.协作算法团队落地算法成果，将研究成果转化为工程实现，设计并支持算法团队进行大模型/Agent分布式训练的架构，推动Agent框架在业务场景中的高效部署与迭代。
+岗位要求
+熟悉主流Agent开发框架与技术：深入理解并具备实际开发经验，包括但不限于MiniAgent、Codex、harmes等，熟悉其核心组件、开发范式及工具集成能力；
+2.精通C++/Python至少一种语言，具备扎实的工程能力，熟悉系统设计模式、模块化开发与高性能编程；
+3.对多智能体系统（Multi-Agent）有深入理解，掌握MCP、A2A、FunctionCall等交互协议，能实现Agent间的协作与通信；
+4.具备良好的团队协作与问题解决能力，能独立承担模块开发，同时推动跨团队技术对齐。
+海珠区
+    text_sha256：
+      37ea55dab57e118996f77b3915eaf303568eff543205ecd84d0b955b77df2626
+  方向：
+    Agent工程
+  required_stack：
+    - C++/Python至少一种
+    - 主流Agent开发框架实际经验与核心组件
+    - Multi-Agent
+    - MCP/A2A/FunctionCall
+    - 系统设计/模块化/高性能工程
+  preferred_stack：
+    —
+  duties：
+    分布式Agent框架、沙箱/云/消息/存储/账号基础设施，性能与一致性，算法落地与训练架构。
+  degree_constraint：
+    平台页标学历不限；正文未列毕业届次
+  availability_constraint：
+    广州海珠；5天/周；至少3个月；有转正
+  publish_date：
+    未显示发布日期；明确投递期2026-07-20—2026-11-01
+  date_year_confirmed：
+    是
+  recruiting_status：
+    页标立即申请；窗口未截止，实时HC未核
+  source_type：
+    牛客平台招聘页，发布者企业身份未独立核验
+  matrix_include：
+    是
+  阅读建议：
+    用于识别Agent基础设施能力，补足仅有检索聊天项目的短板。
+  局限：
+    发布账号公司为腾讯科技上海而地点广州；框架名称harmes为原文拼写，不自动修正为别的框架。
+  招聘类型：
+    实习
+  source_date_basis：
+    原文日期/窗口
+source_key：
+  ASTRA_J07_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J07
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

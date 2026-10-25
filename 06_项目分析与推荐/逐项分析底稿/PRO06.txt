@@ -1,0 +1,123 @@
+PRO06 | Open Deep Research：研究编排与评测参考
+
+需求核对版 · 2026-10-24
+
+仓库：
+  langchain-ai/open_deep_research
+原始来源：
+  https://github.com/langchain-ai/open_deep_research
+方向与岗位：
+  Agent工程
+阅读建议：
+  优先研究评测和对照实验，适合论文/资料研究方向备选
+技术栈：
+  - Python
+  - LangGraph
+  - Search tools
+  - MCP
+  - LangSmith evaluation
+值得学习之处：
+  - 研究协调、任务拆分、压缩与报告生成路径较容易定位
+  - 自带多维评估器与评测运行脚本
+局限与静态风险：
+  - 仅生成漂亮报告难以验证任务成功
+  - LLM裁判存在偏差，不能只用同模型自评
+  - 默认评测依赖外部模型/搜索服务且会产生费用
+borrow：
+  可配置基线、实验记录、质量维度、研究过程压缩。
+extend：
+  增加来源可核验、引用蕴含检查、按主题拆分隐藏测试、成本与时延统计；用人工抽检校准裁判。
+已定位阅读路径：
+  - src/open_deep_research/deep_researcher.py
+  - tests/evaluators.py
+  - tests/run_evaluate.py
+  - tests/pairwise_evaluation.py
+interview_questions：
+  - 怎么区分找到了资料与答案真的被资料支持？
+  - 不同模型的评测预算如何对齐？
+  - 研究任务为何需要并行？
+商业与选择偏差：
+  官方示例关联LangSmith服务；可以借鉴方法而不必绑定平台。
+取得源码ZIP：
+  是
+固定源码提交：
+  1b7d2e80db9faa586165c60e09096dbbfd483a64
+源码提交时间：
+  2026-08-10T18:13:29Z
+许可标识：
+  MIT
+源码包文件：
+  langchain-ai__open_deep_research__1b7d2e80db9f.zip
+源码包SHA-256：
+  d66acd356f6a0c64e8157438255aa0dd2765ba3bc1d0a7391e6ba527ddcb725c
+inspection_boundary：
+  裁判偏差属于方法风险，本轮没有测出该项目具体偏差或漏洞。
+类别：
+  项目参考
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-08-10T18:13:29Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    研究异步任务与可测量服务时选读；不是常用Java业务技术栈样本。
+  指定模块：
+    - src/open_deep_research/deep_researcher.py
+    - tests/evaluators.py
+    - tests/run_evaluate.py
+    - tests/pairwise_evaluation.py
+Agent方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    优先看评测器与基线配置，再沿研究循环回看质量来源；适合补评测短板。
+  指定模块：
+    - src/open_deep_research/deep_researcher.py
+    - tests/evaluators.py
+    - tests/run_evaluate.py
+    - tests/pairwise_evaluation.py
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    langchain-ai__open_deep_research__1b7d2e80db9f.zip
+  固定源码提交：
+    1b7d2e80db9faa586165c60e09096dbbfd483a64
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

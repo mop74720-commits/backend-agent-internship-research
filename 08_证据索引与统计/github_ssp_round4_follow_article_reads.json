@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://javabetter.cn/mianjing/",
+    "status": 200,
+    "title": "Mianjing | 二哥的Java进阶之路",
+    "body_length": 256,
+    "selector": [
+      "vp-page"
+    ],
+    "links": [
+      {
+        "label": "硕士读者春招上岸阿里云",
+        "url": "/mianjing/shanganaliyun.html"
+      },
+      {
+        "label": "本科读者一年经验社招上岸阿里",
+        "url": "/mianjing/shezynmjfxhelmtttjddd.html"
+      },
+      {
+        "label": "非科班读者社招上岸阿里",
+        "url": "/mianjing/xuelybdzheloffer.html"
+      },
+      {
+        "label": "二本读者两年经验社招上岸10家大厂",
+        "url": "/mianjing/huanxgzl.html"
+      },
+      {
+        "label": "去字节了！SSP顶薪",
+        "url": "/mianjing/quzjlsspdx.html"
+      },
+      {
+        "label": "双非学弟收割大厂offer附大学经验总结",
+        "url": "/mianjing/zheisnylzldhzd.html"
+      },
+      {
+        "label": "社招，深漂6 年回西安",
+        "url": "/mianjing/chengxyspnhxagzl.html"
+      },
+      {
+        "label": "二本读者社招两年半10家公司28轮面试面经✌️",
+        "url": "/mianjing/huanxgzl.html"
+      },
+      {
+        "label": "双非一本秋招收获腾讯ieg、百度、字节等6家大厂offer",
+        "url": "/mianjing/quzjlsspdx.html"
+      },
+      {
+        "label": "双非学弟收割阿里、字节、B站校招 offer，附大学四年硬核经验总结✌️",
+        "url": "/mianjing/zheisnylzldhzd.html"
+      },
+      {
+        "label": "本科读者小公司一年工作经验社招拿下阿里美团头条京东滴滴等 offer✌️",
+        "url": "/mianjing/shezynmjfxhelmtttjddd.html"
+      },
+      {
+        "label": "深漂 6 年了，回西安的一波面经总结✌️",
+        "url": "/mianjing/chengxyspnhxagzl.html"
+      },
+      {
+        "label": "硕士读者春招斩获深圳腾讯PCG和杭州阿里云 offer✌️",
+        "url": "/mianjing/shanganaliyun.html"
+      },
+      {
+        "label": "非科班读者，用一年时间社招拿下阿里 Offer✌️",
+        "url": "/mianjing/xuelybdzheloffer.html"
+      }
+    ]
+  },
+  {
+    "url": "https://javaguide.cn/home.html",
+    "status": 200,
+    "title": "Java 面试指南（JavaGuide 后端通用面试题总结） | JavaGuide",
+    "body_length": 4265,
+    "selector": [
+      "vp-page"
+    ],
+    "links": []
+  },
+  {
+    "url": "https://www.nowcoder.com/discuss/884479038142586880",
+    "status": 200,
+    "title": "华为面经｜5.14 二面 | AI应用工程师-AI技术应用 | 研发类 云软件研发部 杭州研究所_牛客网",
+    "body_length": 1184,
+    "selector": [
+      "post-content-box",
+      "tw-relative"
+    ],
+    "short_excerpt": "华为面经｜5.14 二面 | AI应用工程师-AI技术应用 | 研发类 云软件研发部 杭州研究所\n整体流程比较正式，面试前会通过短信发送会议室链接，需要提前进入会议室准备。\n面试要求双机位，建议提前调好设备、网络和摄像头角度。\n整体流程上没有八股文，主要是经历"
+  },
+  {
+    "url": "https://www.nowcoder.com/discuss/891698510574153728",
+    "status": 200,
+    "title": "小米 AI Agent 一面(暑期)_牛客网",
+    "body_length": 3546,
+    "selector": [
+      "post-content-box",
+      "tw-relative"
+    ],
+    "short_excerpt": "小米 AI Agent 一面(暑期)\n1. 自我介绍\n2. 为什么要通过微调模型来做代码生成？为什么不用纯 prompt 或 spec coding？\n答案：纯 prompt 和 spec coding 确实可以提升模型在单次任务上的表现，但它们更多是推理时约"
+  },
+  {
+    "url": "https://www.nowcoder.com/discuss/921590204903723008",
+    "status": 200,
+    "title": "百度大模型研发一面面经｜Agent 方向 27届秋招_牛客网",
+    "body_length": 871,
+    "selector": [
+      "post-content-box",
+      "tw-relative"
+    ],
+    "short_excerpt": "百度大模型研发一面面经｜Agent 方向 27届秋招\n投的是百度大模型研发工程师，8.18，结果是MEG广告投放部门，整体面试大概 1h20min，面试官人挺好，主要围绕\nAgent 基础、Context、RAG、前后端基础 + 手撕\n来问。Agent 部分问"
+  },
+  {
+    "url": "https://www.nowcoder.com/discuss/920461634072477696",
+    "status": 200,
+    "title": "百度大模型研发工程师二面，我懵了！！！_牛客网",
+    "body_length": 2588,
+    "selector": [
+      "nc-post-content"
+    ],
+    "short_excerpt": "全程无自我介绍、无手撕、不问简历项目。面试官上来就是六道Agent设计题，从Claude Code聊到只靠API搭Agent，全是大局观问题。\n百度二面，太不按套路出牌了。没有自我介绍，没有算法题，也没有让我讲实习项目。面试官直接说：“我这边不看简历，咱们聊几"
+  },
+  {
+    "url": "https://www.nowcoder.com/discuss/878945851924627456",
+    "status": 200,
+    "title": "鹅厂面试官：\"你做了三个月 RAG，召回率多少？\"腾讯面经超全整理_牛客网",
+    "body_length": 0,
+    "selector": null,
+    "short_excerpt": ""
+  }
+]

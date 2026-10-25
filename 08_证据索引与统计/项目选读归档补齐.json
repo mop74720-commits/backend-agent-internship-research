@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "id": "PRO19",
+      "title": "SchoolBus 固定4文件源码选读",
+      "repo": "DreamCats/school-bus",
+      "source_url": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+      "commit": "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+      "archive_file": "SchoolBus_固定源码选读.zip",
+      "archive_relative_path": "05_项目源码归档/SchoolBus_固定源码选读.zip",
+      "archive_sha256": "e096546d2d8faa17f616d1da263c2764629578bcf79910ca486b95c1a0475a5c",
+      "archive_bytes": 12980,
+      "source_file_count": 4,
+      "zip_entry_count": 6,
+      "source_original_bytes": 30597,
+      "source_archived_bytes": 30597,
+      "files": [
+        {
+          "path": "README.md",
+          "raw_url": "https://raw.githubusercontent.com/DreamCats/school-bus/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+          "source_url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+          "http_status": 200,
+          "original_bytes": 9324,
+          "original_sha256": "65248376da847e7946013431c8b1fa35c555b32d01642ade06ce1092ca37495e",
+          "archived_bytes": 9324,
+          "archived_sha256": "65248376da847e7946013431c8b1fa35c555b32d01642ade06ce1092ca37495e",
+          "modified": false,
+          "modifications": []
+        },
+        {
+          "path": "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+          "raw_url": "https://raw.githubusercontent.com/DreamCats/school-bus/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+          "source_url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+          "http_status": 200,
+          "original_bytes": 16580,
+          "original_sha256": "5d662d4a6fa0f0e60f95352687ef256c8116954f9445a95934352a6fb2d5895f",
+          "archived_bytes": 16580,
+          "archived_sha256": "5d662d4a6fa0f0e60f95352687ef256c8116954f9445a95934352a6fb2d5895f",
+          "modified": false,
+          "modifications": []
+        },
+        {
+          "path": "school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+          "raw_url": "https://raw.githubusercontent.com/DreamCats/school-bus/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+          "source_url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+          "http_status": 200,
+          "original_bytes": 2628,
+          "original_sha256": "60909b169b0e59ff99dcf3cdc94f9008179f3d2b11aa964709cfaca9889265ad",
+          "archived_bytes": 2628,
+          "archived_sha256": "60909b169b0e59ff99dcf3cdc94f9008179f3d2b11aa964709cfaca9889265ad",
+          "modified": false,
+          "modifications": []
+        },
+        {
+          "path": "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/rd/RedisKeyExpirationListener.java",
+          "raw_url": "https://raw.githubusercontent.com/DreamCats/school-bus/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/rd/RedisKeyExpirationListener.java",
+          "source_url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/rd/RedisKeyExpirationListener.java",
+          "http_status": 200,
+          "original_bytes": 2065,
+          "original_sha256": "d81763f563d729a04417839c3480c07d8a1dcbc807717338b5cd76e1bec8b48d",
+          "archived_bytes": 2065,
+          "archived_sha256": "d81763f563d729a04417839c3480c07d8a1dcbc807717338b5cd76e1bec8b48d",
+          "modified": false,
+          "modifications": []
+        }
+      ],
+      "modified_files": 0,
+      "modifications": [],
+      "archive_scope": "指定README与3个Java文件选读，非完整或可构建仓库",
+      "license_boundary": "固定树未发现名为LICENSE/COPYING的文件；未确认整库及第三方组件的再分发许可，不声称整仓获得开源授权。",
+      "use_boundary": "仅供当前本地研究和实现对照；未对外发布，不运行代码。",
+      "retrieved_on": "2026-10-23",
+      "project_executed": false,
+      "integrity_test": {
+        "zip_testzip_passed": true,
+        "entry_count_verified": true,
+        "all_archived_file_sha256_verified": true,
+        "manifest_json_parsed": true,
+        "original_hashes_recorded": true,
+        "source_bytes_unchanged_when_no_modifications": true
+      },
+      "privacy_screening": "仅在内存筛查邮箱、电话和常见凭据形式；不保存或输出原始命中值；不等于全仓或所有形式的隐私审计。"
+    }
+  ]
+}

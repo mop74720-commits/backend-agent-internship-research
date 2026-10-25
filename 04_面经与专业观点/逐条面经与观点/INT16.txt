@@ -1,0 +1,212 @@
+INT16 | 小红书后端实习面经（已offer）
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13
+事件时间／原文日期（依分类）：
+  05-13、05-16面试；05-19 offer；年未由当前正文单独确认
+方向与岗位：
+  后端暑期实习
+公司：
+  小红书
+结果自述：
+  自述05-19 offer
+涉及主题：
+  - 项目深挖/个人贡献
+  - 编程语言/并发
+  - 数据库/缓存
+  - 系统设计/取舍
+  - 算法/编程
+原文提问（归纳）：
+  - 项目中延伸分布式场景题。
+  - GC选择、索引列选择、Redis数据结构与持久化。
+内容归纳：
+  一面偏项目，二面补基础和算法，提醒不能凭一轮'无八股'取消底层复习。
+原访问范围：
+  正文可读
+证据边界：
+  B：自述
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  面试与项目自测参考
+统计组：
+  明确实习面经
+role_boundary：
+  依role字段限定
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    05-13、05-16面试；05-19 offer；年未由当前正文单独确认
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    2025-05-20编辑
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文可读
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      小红书
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13
+    依据：
+      自述05-19 offer
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-05-20编辑
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  是
+结果分类：
+  offer_self_report
+related_record_ids：
+  —
+fulltext_verified：
+  是
+external_research_reviews：
+  I01：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        I01
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_面经核对.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        I01
+      existing_id：
+        INT16
+      decision：
+        existing
+      标题：
+        小红书后端实习面经（已offer）
+      原始来源：
+        https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13
+      resolved_url：
+        https://www.nowcoder.com/feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13
+      canonical_post_key：
+        feed/main/detail/25e8d4a18bbf4bcba4521c24fc9efd13
+      access_status：
+        HTTP 200，原始作者主文全文可读
+      已读部分：
+        全文
+      fulltext_verified：
+        是
+      body_selector：
+        .feed-content-text
+      retrieved_at：
+        2026-10-24
+      reading_note：
+        只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+      body_text_sha256：
+        91f2894be10e455cd1fef8f99a657b5911207679ab222f51531923ee27ae1412
+      body_char_count：
+        513
+      source_card_path：
+        03_面经/I01.html
+      source_card_role：
+        提供检索线索和原URL，不能代替本次原文实读
+      发表／来源日期：
+        2025-05-20（编辑）（源包卡片标注，本次未单独复核主文发表/编辑节点）
+      source_date_verified：
+        否
+      方向：
+        后端
+      招聘类型：
+        实习
+      event_date：
+        05-13、05-16面试；05-19 offer，年份未知
+      event_year_confirmed：
+        否
+      event_year：
+        未核／无
+      时间依据：
+        正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+      questions：
+        - 项目中的分布式场景怎样解决？
+        - JVM调优参数与G1/CMS差异是什么？
+        - InnoDB数据结构和索引选列如何说明？
+        - Redis有序列表底层与持久化如何实现？
+        - 现场实现中序表达式求值和最长无重复子串。
+      涉及主题：
+        - 算法/编程
+        - JVM/语言运行时
+        - 数据库/SQL
+        - 缓存/Redis
+        - 分布式/一致性
+        - 项目深挖/个人贡献
+      结果分类：
+        offer_self_report
+      result：
+        本人05-19收到offer，自述档位未披露
+      档位：
+        未披露
+      公司：
+        小红书
+      ai_organized：
+        否
+      ai_marker_basis：
+        作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+      short_quote：
+        timeline：5.7 投递…5.13一面…5.16二面+oc…5.19 offer
+      阅读建议：
+        适合校准项目讨论与基础、手撕同时准备的要求。
+      局限：
+        - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+      same_author_relations：
+        —
+      商业背景：
+        正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+      merge_policy：
+        同一逻辑来源不新增计数；只补本次核验路径、短引文、问题和必要纠错，既有未知年不回填。
+      capability_ids：
+        - CAP01
+        - CAP02
+        - CAP03
+        - CAP06
+      reading_boundary：
+        本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+      original_outcome_quote：
+        timeline：5.7 投递…5.13一面…5.16二面+oc…5.19 offer
+same_author_relations：
+  —

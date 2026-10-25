@@ -1,0 +1,224 @@
+INT88 | 字节后端实习面经
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/discuss/723622216419586048?sourceSSR=users
+公司：
+  字节跳动
+方向与岗位：
+  字节跳动；生活服务后端；实习
+事件时间／原文日期（依分类）：
+  面试年月日未知；2025-02-24仅编辑日期
+发表／来源日期：
+  编辑于  2025-02-24 20:06
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    面试年月日未知；2025-02-24仅编辑日期
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    编辑于  2025-02-24 20:06
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习、事件年未知
+结果分类：
+  unknown
+结果自述：
+  作者主文未披露最终结果；astra称评论补充未过，本次未核作者评论，不提升为已确认失败
+逐项结果与档位：
+  - 公司：
+      字节跳动
+    方向与岗位：
+      字节跳动；生活服务后端；实习
+    档位：
+      未披露
+    状态：
+      unknown
+    事件时间／原文日期（依分类）：
+      面试年月日未知；2025-02-24仅编辑日期
+    证据：
+      https://ac.nowcoder.com/discuss/1457967
+    依据：
+      作者主文未披露最终结果；astra称评论补充未过，本次未核作者评论，不提升为已确认失败
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面；作者评论补充未通过
+    questions：
+      - 同步/异步网络I/O与阻塞/非阻塞怎样区分？
+      - 进程线程通信、管道、虚拟内存映射怎样实现？
+      - HTTP/HTTPS和网络分层如何说明？
+      - shared_ptr引用计数有什么优缺点？
+      - 使用普通互斥锁实现读写锁RLock和WLock。
+    结果自述：
+      作者主文未披露最终结果；astra称评论补充未过，本次未核作者评论，不提升为已确认失败
+涉及主题：
+  - 算法/编程
+  - 并发/线程
+  - 网络/协议
+  - 操作系统
+原文提问（归纳）：
+  - 同步/异步网络I/O与阻塞/非阻塞怎样区分？
+  - 进程线程通信、管道、虚拟内存映射怎样实现？
+  - HTTP/HTTPS和网络分层如何说明？
+  - shared_ptr引用计数有什么优缺点？
+  - 使用普通互斥锁实现读写锁RLock和WLock。
+内容归纳：
+  C++路线面试集中于操作系统、I/O、网络、智能指针，编码为读写锁。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  说明语言方向不同会改变基础题结构，不宜套用全套Java清单。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I04
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    字节后端实习面经
+  原始来源：
+    https://www.nowcoder.com/discuss/723622216419586048?sourceSSR=users
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1457967
+  canonical_post_key：
+    discuss/1457967
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    c63f4f009fcd4b10c3923742bf9faa5bf2b897b5d4568acae5a83e4ee58d1722
+  body_char_count：
+    399
+  source_card_path：
+    03_面经/I04.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    编辑于  2025-02-24 20:06
+  source_date_verified：
+    是
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_date：
+    面试年月日未知；2025-02-24仅编辑日期
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 同步/异步网络I/O与阻塞/非阻塞怎样区分？
+    - 进程线程通信、管道、虚拟内存映射怎样实现？
+    - HTTP/HTTPS和网络分层如何说明？
+    - shared_ptr引用计数有什么优缺点？
+    - 使用普通互斥锁实现读写锁RLock和WLock。
+  涉及主题：
+    - 算法/编程
+    - 并发/线程
+    - 网络/协议
+    - 操作系统
+  结果分类：
+    unknown
+  result：
+    作者主文未披露最终结果；astra称评论补充未过，本次未核作者评论，不提升为已确认失败
+  档位：
+    未披露
+  公司：
+    字节跳动
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    职位：后端开发实习生-生活服务
+  阅读建议：
+    说明语言方向不同会改变基础题结构，不宜套用全套Java清单。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  date_correction：
+    不将2025编辑年或首次面试叙述改写为2025实际面试年。
+  author_profile：
+    https://www.nowcoder.com/profile/378876267
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    未核／无
+source_key：
+  ASTRA_I04_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I04
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

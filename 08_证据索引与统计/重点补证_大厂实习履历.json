@@ -1,0 +1,689 @@
+{
+  "date": "2026-10-23",
+  "scope": "近期互联网大厂普通后端/Agent应用工程实习者，公开履历与直接项目链；独立发现，不改主表/不占ID",
+  "recent_window": [
+    "2024-10-23",
+    "2026-10-23"
+  ],
+  "counts": {
+    "new_core_complete_redacted_resume": 1,
+    "new_core_profile_fragment": 1,
+    "new_verified_ssp": 0,
+    "new_original_source_archives": 0,
+    "new_derived_text_source_archives": 2
+  },
+  "new_core_complete_profiles": [
+    {
+      "key": "AndrewWang_wandrew0",
+      "author": "Andrew Wang",
+      "home": "https://andrewtheterp.com/",
+      "track": "后端与Agent应用工程",
+      "recruitment": "实习",
+      "profile_type": "本人站公开完整PDF专业模块脱敏副本",
+      "education": [
+        "University of Maryland，CS本科，2026.05",
+        "Carnegie Mellon University，CS硕士，2026.08–2028.01预计"
+      ],
+      "outcomes": [
+        {
+          "company": "ByteDance (TikTok Shop)",
+          "role": "Backend Software Engineer Intern — Creator Assistant",
+          "time": "2026.05–2026.08",
+          "basis": "公开PDF EXPERIENCE第一段",
+          "content": "Go后端集成内部ReAct Agent平台；配置skills/MCP tools/knowledge；实现live-data MCP、tool-schema token优化；RPC自动执行、工具技能trace、盲评的Agent评测harness；模型上下文与工具调用trace viewer；作者称面向全部Affiliate creators上线"
+        },
+        {
+          "company": "ByteDance (TikTok Shop)",
+          "role": "Backend Software Engineer Intern — Journey Builder",
+          "time": "2025.05–2025.08",
+          "basis": "公开PDF EXPERIENCE第三段",
+          "content": "React onboarding UI；Go/Kitex服务；GORM/MySQL指标接口；内部CI/CD与生产问题处理"
+        }
+      ],
+      "event_region": "履历为美国高校背景，PDF没有明确写出两段字节实习工作地；不推定中国校招档位",
+      "grade": "未披露",
+      "enterprise_verified": false,
+      "ssp_relation": "没有SSP/SP/意向书的直接证据",
+      "attachment": {
+        "url": "https://andrewtheterp.com/assets/download/resume.pdf",
+        "source_status": 200,
+        "retrieved_on": "2026-10-23",
+        "fixed_git_sha": null,
+        "fixed_git_sha_note": "作者站点实时PDF；未取得网站源仓固定提交，以此次原文件内容hash标识版本",
+        "source_sha256": "d02ca839560e82487ded8b861dc4dbcbadb8986a9f6bf15d9d903e508709ab27",
+        "original_saved": false,
+        "local_path": "03_简历与候选人案例/核心后端履历_脱敏副本/AndrewWang_字节后端与Agent实习_公开完整简历_脱敏副本.pdf",
+        "sha256": "b85d1bbdfdcb362a230c8c8d081d789b27ac47493ba78e45e417d2841c3de7c7",
+        "bytes": 135369,
+        "pages": 1,
+        "professional_modules": [
+          "EDUCATION",
+          "EXPERIENCE",
+          "PROJECTS",
+          "TECHNICAL SKILLS"
+        ],
+        "professional_modules_complete": true,
+        "professional_text_unchanged_after_education": true,
+        "packaging_type": "整理者制作的公开完整专业履历脱敏PDF副本；不是未经修改的作者原件",
+        "redaction": {
+          "header_contact_region_removed": true,
+          "all_link_annotations_removed": 5,
+          "contact_regex_hits": 0,
+          "image_or_qr_count": 0,
+          "metadata_nonempty_private_fields": 0,
+          "annotation_count": 0,
+          "visible_url_types": "正文保留Research Report/Technical Report/Live Demo文字，无联系URL；实际专业链接列在JSON",
+          "visual_review": "2026-10-23逐页目视通过：1页，联系头部已移除，教育/全部经历/项目/技能完整，排版可读"
+        },
+        "qa_images": [
+          "C:\\Users\\GW\\.codex\\visualizations\\2026\\10\\23\\01a16839-9742-7672-812b-1576a3dd064f\\重点补证_AndrewWang_脱敏简历_第1页.png"
+        ]
+      },
+      "projects": [
+        {
+          "name": "UMIACS Wiki Chatbot",
+          "period": "2024.08–2024.12",
+          "relation": "PDF PROJECTS直接点名六人团队与本人Developer身份，并直接链接Technical Report",
+          "document": "https://andrewtheterp.com/assets/download/Chatbot.pdf",
+          "source_repo": null,
+          "boundary": "本人贡献为LangChain/Qdrant RAG与LLaMA3 LoRA；项目开始在近期窗口之前、结束在窗口内；报告和PDF未给直接GitHub源码链接"
+        },
+        {
+          "name": "Doodles and Character Classifier",
+          "period": "2024.07–2024.08",
+          "relation": "PDF直接点名并链接Live Demo",
+          "demo": "https://imageclassifier.andrewtheterp.com",
+          "source_repo": null,
+          "boundary": "早于近期窗口；demo页面未给GitHub源码；同账号ImageClassifier仓README对应相似用途，但没有直接履历到源码链接，不补成已确认求职项目"
+        },
+        {
+          "name": "Creator Assistant Agent / Journey Builder",
+          "relation": "实习职责直接点名",
+          "source_repo": null,
+          "boundary": "企业内部系统；未发现对外源码，不能以同账号仓库代替"
+        }
+      ],
+      "interview": null,
+      "reading_reason": "当前最贴近Agent应用后端实习的完整专业CV之一：职责明确到MCP工具、真实对话评测、trace可观测、上线使用；适合看简历怎样写工程闭环",
+      "limits": [
+        "职责、使用规模和上线结果均为作者自述，未企业独立核验",
+        "不是SSP证明",
+        "未取得本人面经",
+        "未闭合完整履历→本人公开源码",
+        "没有将内部项目称为可复用开源项目"
+      ]
+    }
+  ],
+  "new_core_partial_profiles": [
+    {
+      "key": "shufengc",
+      "author": "Shufeng (Alex) Chen",
+      "home": "https://shufengc.dev/",
+      "source_status": 200,
+      "profile_type": "本人专业主页履历片段，缺完整教育模块且未发现CV/PDF直链",
+      "is_full_resume": false,
+      "track": "后端应用工程；主页同时列研究经历，不因此归为博士算法对照",
+      "recruitment": "实习",
+      "outcomes": [
+        {
+          "company": "Tencent · Cloud Computing Group",
+          "role": "Software Engineer Intern",
+          "time": "2025.07–2025.08",
+          "basis": "本人站Experience第二段",
+          "content": "Kubernetes分布式推理微服务；Spring Boot/Security、Redis/MySQL集群管理和调度API；云metadata同步与telemetry；规模及性能为作者自述"
+        },
+        {
+          "company": "Stripe · Cash & Banking Infrastructure",
+          "role": "Software Engineer Intern",
+          "time": "2026.05–2026.08",
+          "basis": "本人站Experience第一段",
+          "content": "Java/gRPC的SFTP配置与onboarding接口、validation/feature flags与SSH host-key服务"
+        }
+      ],
+      "grade": "未披露",
+      "enterprise_verified": false,
+      "interview": null,
+      "direct_project_relation": "同一主页Projects中的GitHub按钮逐项直接链接以下具体仓库；关系强于仅同账号，但不能据此证明求职时使用或项目促成录用",
+      "projects": [
+        {
+          "name": "Distributed Key-Value Store",
+          "repo": "shufengc/distributed-kv-store",
+          "sha": "d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+          "url": "https://github.com/shufengc/distributed-kv-store/tree/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+          "category": "TinyKV课程框架上的分布式系统实现",
+          "ownership": "README Acknowledgements明确基于PingCAP Talent Plan/TinyKV；网络模拟/测试框架/协议定义来自课程，作者自述实现Raft、raftstore、scheduler、事务；本轮仅核2核心文件存在实质实现，未逐diff审定全部独立贡献",
+          "license": "LICENSE原文Apache-2.0已读取，不能把继承框架所有源码算个人原创",
+          "findings": [
+            {
+              "status": "已见实现",
+              "claim": "raft.go包含候选/Leader切换、投票、AppendEntries和多数派提交索引逻辑",
+              "file": "raft/raft.go",
+              "ranges": [
+                "L253–333",
+                "L488–532",
+                "L722–952"
+              ]
+            },
+            {
+              "status": "已见实现",
+              "claim": "事务handler包含local latches、write conflict/lock检查、Prewrite的value/lock写入、Commit的write record与释放锁",
+              "file": "kv/server/server.go",
+              "ranges": [
+                "L87–209"
+              ]
+            },
+            {
+              "status": "未核",
+              "claim": "未运行课程测试；未证明所有partition场景linearizability或独立实现比例；当前固定版本不自动代表2025腾讯投递时项目"
+            }
+          ],
+          "reading": "后端进阶选读：先看课程任务边界，再看Raft quorum提交与MVCC prewrite/commit；不作为普通业务闭环/大厂SSP充分条件",
+          "attachment": {
+            "name": "Distributed-Key-Value-Store",
+            "repo": "shufengc/distributed-kv-store",
+            "sha": "d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+            "license": "Apache-2.0原文已读并原样保留；包含TinyKV继承框架，不能把全包认定为个人原创",
+            "category": "TinyKV课程框架上的进阶系统实现，未运行测试",
+            "source_url": "https://codeload.github.com/shufengc/distributed-kv-store/zip/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+            "source_http_status": 200,
+            "original_archive_sha256": "f52afbfd4b2692aebb25235be28f9baa502ff7d2c2f57d23ca3afd457d7e6529",
+            "original_archive_bytes": 1276660,
+            "original_archive_members": 351,
+            "original_crc": "全部成员通过CRC",
+            "original_saved": false,
+            "archive_type": "固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP",
+            "execution": "未运行、未构建、未安装依赖、未调用模型/API",
+            "license_sha256": "1d1b1e95c6f5345385b0127350cbda7bdb8c1c5d676fc93380bae5583fbffcdf",
+            "license_unchanged": true,
+            "retained_text_members": 254,
+            "omitted_members": [
+              {
+                "path": "doc/imgs/balance1.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "doc/imgs/balance2.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "doc/imgs/keyspace.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "doc/imgs/multiraft.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "doc/imgs/overview.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "doc/imgs/region.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              }
+            ],
+            "modified_text_members": [
+              {
+                "path": "proto/include/google/protobuf/compiler/plugin.proto",
+                "email_pattern_replacements": 1,
+                "phone_pattern_replacements": 0,
+                "scope": "涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值"
+              },
+              {
+                "path": "proto/include/google/protobuf/descriptor.proto",
+                "email_pattern_replacements": 2,
+                "phone_pattern_replacements": 0,
+                "scope": "涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值"
+              }
+            ],
+            "credential_scan": "UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。",
+            "contact_scan": "除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。",
+            "functional_limit": "继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。",
+            "local_path": "05_项目源码归档/大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip",
+            "sha256": "962e2e97e5e563b1a379890069aba448cfed03ef80019f5072a9de71204daa93",
+            "bytes": 636645,
+            "members": 255,
+            "crc": "全部成员通过CRC",
+            "post_archive_privacy_scan": "通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息"
+          }
+        },
+        {
+          "name": "QuantHarbor",
+          "repo": "shufengc/QuantHarbor",
+          "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+          "url": "https://github.com/shufengc/QuantHarbor/tree/f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+          "category": "多Agent金融研究与RAG应用；当前静态风险需先核",
+          "ownership": "主页直接列为本人项目；迁移文档明确移除lecture目录运行依赖、从course-style文档转product-style文档；课程/外部框架原始来源与具体独立贡献尚未完整核清",
+          "license": "LICENSE原文GNU GPL v3已读取；未归档运行环境或API密钥",
+          "findings": [
+            {
+              "status": "已见实现",
+              "claim": "BaseAgent保存/恢复conversation、round、tool dependencies和executor state；迭代上限与每轮checkpoint",
+              "file": "src/agents/base_agent.py",
+              "ranges": [
+                "L95–224",
+                "L302–344",
+                "L447–510"
+              ]
+            },
+            {
+              "status": "已见实现",
+              "claim": "异步代码executor执行模型代码并捕获stdout/stderr；提供完整Python builtins与os/sys，代码在线程池exec",
+              "file": "src/utils/code_executor_async.py",
+              "ranges": [
+                "L25–73",
+                "L253–307"
+              ]
+            },
+            {
+              "status": "静态风险",
+              "claim": "所谓sandbox没有在核读文件中建立进程/文件系统/网络权限隔离；不能据此称安全执行沙箱",
+              "file": "src/utils/code_executor_async.py",
+              "ranges": [
+                "L25–73",
+                "L266–279"
+              ]
+            },
+            {
+              "status": "静态风险",
+              "claim": "RAG pipeline导入src.agents.analyst_agent/retriever_agent/writer_agent，固定树实际在src_rag/agents；Web backend导入src.memory，固定树没有该模块。属于可直接核对的入口路径不一致，未执行验证",
+              "file": "src_rag/core/report_pipeline.py + demo/backend/app.py",
+              "ranges": [
+                "report_pipeline.py L6–8",
+                "app.py L20–23"
+              ],
+              "tree_evidence": "重点补证_quant_tree.json，recursive树truncated=false"
+            },
+            {
+              "status": "已见实现",
+              "claim": "LLMRouter捕获primary异常后尝试fallback；没有据此证明断点任务幂等/重试不重复外部副作用",
+              "file": "src_rag/core/llm_client.py",
+              "ranges": [
+                "L60–66"
+              ]
+            },
+            {
+              "status": "文档宣称/未核",
+              "claim": "README宣称138PDF/4577页/8309chunks、长报告、citation tracing等；未复现，无独立任务成功率/成本/延迟benchmark；固定树未见单元/集成测试文件，smoke_test_providers.py仅可算provider脚本"
+            }
+          ],
+          "reading": "待核/反例选读：状态持久化与真实权限隔离要分开；先排入口导入风险，再判断完整工程可复现性。不能当已验证成熟Agent项目推荐",
+          "attachment": {
+            "name": "QuantHarbor",
+            "repo": "shufengc/QuantHarbor",
+            "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+            "license": "GNU GPL version 3原文已读并原样保留",
+            "category": "Agent风险/反例选读，导入路径缺口与代码执行权限边界未解决，未称成熟可复现Agent",
+            "source_url": "https://codeload.github.com/shufengc/QuantHarbor/zip/f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+            "source_http_status": 200,
+            "original_archive_sha256": "0b9dea52956bb096f95d4969a07a945a3fe5a4cdd917bb71f0a7b1988243f146",
+            "original_archive_bytes": 4352532,
+            "original_archive_members": 149,
+            "original_crc": "全部成员通过CRC",
+            "original_saved": false,
+            "archive_type": "固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP",
+            "execution": "未运行、未构建、未安装依赖、未调用模型/API",
+            "license_sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+            "license_unchanged": true,
+            "retained_text_members": 100,
+            "omitted_members": [
+              {
+                "path": "assets/architecture.jpg",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "assets/quant-front-page.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "assets/quant-main-page.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "assets/quantharbor-logo-mini.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "assets/quantharbor-logo.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "demo/backend/template/report_template.docx",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "demo/frontend/public/quantharbor-logo-v2.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "demo/frontend/public/quantharbor-logo-v3.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "demo/frontend/public/quantharbor-logo.png",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              },
+              {
+                "path": "src/template/report_template.docx",
+                "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+              }
+            ],
+            "modified_text_members": [],
+            "credential_scan": "UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。",
+            "contact_scan": "除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。",
+            "functional_limit": "继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。",
+            "local_path": "05_项目源码归档/大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip",
+            "sha256": "a52c338de6ea9e35c180c1ab36cb825af5833694d969322c30439254bdf201f4",
+            "bytes": 281395,
+            "members": 101,
+            "crc": "全部成员通过CRC",
+            "post_archive_privacy_scan": "通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息"
+          }
+        },
+        {
+          "name": "Patton Food / OnlineOrder",
+          "url": "https://github.com/shufengc/OnlineOrder",
+          "boundary": "README明确each team member deployment for grading与coursework用途；团队课程业务项目，未核具体个人贡献，不扩为独立推荐"
+        },
+        {
+          "name": "PDF-AI",
+          "url": "https://github.com/shufengc/pdfai",
+          "boundary": "README Reference明确来源Laioffer Full Stack课程Next AI并扩展PDF对话；基础RAG课程扩展，不满足成熟非toy Agent依据，不扩推荐"
+        }
+      ],
+      "limits": [
+        "履历片段不计完整CV",
+        "无SSP档位/本人面经",
+        "未企业独立核验",
+        "4仓为主页直接点名，仍不能将当前项目倒推录用因果",
+        "没有把课程和团队框架全部认定个人原创"
+      ]
+    }
+  ],
+  "read_source_files": [
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "sha": "d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/shufengc/distributed-kv-store/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e/README.md",
+      "status": 200,
+      "line_count": 57,
+      "sha256": "4ef0aa98c555f04362bbac8ff28c2d8b68ba854c1098a8c36fc515616eecec87"
+    },
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "sha": "d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+      "path": "raft/raft.go",
+      "url": "https://raw.githubusercontent.com/shufengc/distributed-kv-store/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e/raft/raft.go",
+      "status": 200,
+      "line_count": 1047,
+      "sha256": "36d54038c502a3f117436bdbb3ced823cf5c07da678743dd888457c0b51e8d6e"
+    },
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "sha": "d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+      "path": "kv/server/server.go",
+      "url": "https://raw.githubusercontent.com/shufengc/distributed-kv-store/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e/kv/server/server.go",
+      "status": 200,
+      "line_count": 434,
+      "sha256": "7274bcc406f03d05f4de0d4096314465520f736d91ede3d419c674bdae03be16"
+    },
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "sha": "d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/shufengc/distributed-kv-store/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e/LICENSE",
+      "status": 200,
+      "line_count": 202,
+      "sha256": "1d1b1e95c6f5345385b0127350cbda7bdb8c1c5d676fc93380bae5583fbffcdf"
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/shufengc/QuantHarbor/f0d6380e9846f84f10be5f284fec40d42cfb34f9/README.md",
+      "status": 200,
+      "line_count": 293,
+      "sha256": "2779343e0f403fd6e6044ecbe349f11d3ce0cbe3d39a7f5d811e5b86c17572dd"
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "path": "src/agents/base_agent.py",
+      "url": "https://raw.githubusercontent.com/shufengc/QuantHarbor/f0d6380e9846f84f10be5f284fec40d42cfb34f9/src/agents/base_agent.py",
+      "status": 200,
+      "line_count": 630,
+      "sha256": "1e303d4f47c823063a75380c4892a9699f1f16e7ab459d09a0f53528eeed70e6"
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "path": "src/utils/code_executor_async.py",
+      "url": "https://raw.githubusercontent.com/shufengc/QuantHarbor/f0d6380e9846f84f10be5f284fec40d42cfb34f9/src/utils/code_executor_async.py",
+      "status": 200,
+      "line_count": 307,
+      "sha256": "2d8c33b370a790a170ea6330e4af61115520d3ee08237521a5d24bfb6e8568f0"
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "path": "src_rag/core/report_pipeline.py",
+      "url": "https://raw.githubusercontent.com/shufengc/QuantHarbor/f0d6380e9846f84f10be5f284fec40d42cfb34f9/src_rag/core/report_pipeline.py",
+      "status": 200,
+      "line_count": 37,
+      "sha256": "9f8c4022ba9e06b56fc17077a2884e6db20318bbaf9d83ba265c277241fe6a24"
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "path": "src_rag/core/llm_client.py",
+      "url": "https://raw.githubusercontent.com/shufengc/QuantHarbor/f0d6380e9846f84f10be5f284fec40d42cfb34f9/src_rag/core/llm_client.py",
+      "status": 200,
+      "line_count": 66,
+      "sha256": "3867ec880dcf438705692db2e2e7e523fbb0051c7186d3820f308cf0a563410a"
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "path": "demo/backend/app.py",
+      "url": "https://raw.githubusercontent.com/shufengc/QuantHarbor/f0d6380e9846f84f10be5f284fec40d42cfb34f9/demo/backend/app.py",
+      "status": 200,
+      "line_count": 870,
+      "sha256": "880ac4f49e89693cf998621a3bc5203df3abe28a0521c0e0e4a0e9f3051ac083"
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "path": "docs/migration_notes.md",
+      "url": "https://raw.githubusercontent.com/shufengc/QuantHarbor/f0d6380e9846f84f10be5f284fec40d42cfb34f9/docs/migration_notes.md",
+      "status": 200,
+      "line_count": 30,
+      "sha256": "4370b9bc6097adcb2acd6094b39c80edea9ae74b38dc05eda7f5cc489257306d"
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/shufengc/QuantHarbor/f0d6380e9846f84f10be5f284fec40d42cfb34f9/LICENSE",
+      "status": 200,
+      "line_count": 674,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    }
+  ],
+  "archives": [
+    {
+      "name": "Distributed-Key-Value-Store",
+      "repo": "shufengc/distributed-kv-store",
+      "sha": "d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+      "license": "Apache-2.0原文已读并原样保留；包含TinyKV继承框架，不能把全包认定为个人原创",
+      "category": "TinyKV课程框架上的进阶系统实现，未运行测试",
+      "source_url": "https://codeload.github.com/shufengc/distributed-kv-store/zip/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e",
+      "source_http_status": 200,
+      "original_archive_sha256": "f52afbfd4b2692aebb25235be28f9baa502ff7d2c2f57d23ca3afd457d7e6529",
+      "original_archive_bytes": 1276660,
+      "original_archive_members": 351,
+      "original_crc": "全部成员通过CRC",
+      "original_saved": false,
+      "archive_type": "固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP",
+      "execution": "未运行、未构建、未安装依赖、未调用模型/API",
+      "license_sha256": "1d1b1e95c6f5345385b0127350cbda7bdb8c1c5d676fc93380bae5583fbffcdf",
+      "license_unchanged": true,
+      "retained_text_members": 254,
+      "omitted_members": [
+        {
+          "path": "doc/imgs/balance1.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "doc/imgs/balance2.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "doc/imgs/keyspace.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "doc/imgs/multiraft.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "doc/imgs/overview.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "doc/imgs/region.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        }
+      ],
+      "modified_text_members": [
+        {
+          "path": "proto/include/google/protobuf/compiler/plugin.proto",
+          "email_pattern_replacements": 1,
+          "phone_pattern_replacements": 0,
+          "scope": "涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值"
+        },
+        {
+          "path": "proto/include/google/protobuf/descriptor.proto",
+          "email_pattern_replacements": 2,
+          "phone_pattern_replacements": 0,
+          "scope": "涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值"
+        }
+      ],
+      "credential_scan": "UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。",
+      "contact_scan": "除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。",
+      "functional_limit": "继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。",
+      "local_path": "05_项目源码归档/大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip",
+      "sha256": "962e2e97e5e563b1a379890069aba448cfed03ef80019f5072a9de71204daa93",
+      "bytes": 636645,
+      "members": 255,
+      "crc": "全部成员通过CRC",
+      "post_archive_privacy_scan": "通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息"
+    },
+    {
+      "name": "QuantHarbor",
+      "repo": "shufengc/QuantHarbor",
+      "sha": "f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "license": "GNU GPL version 3原文已读并原样保留",
+      "category": "Agent风险/反例选读，导入路径缺口与代码执行权限边界未解决，未称成熟可复现Agent",
+      "source_url": "https://codeload.github.com/shufengc/QuantHarbor/zip/f0d6380e9846f84f10be5f284fec40d42cfb34f9",
+      "source_http_status": 200,
+      "original_archive_sha256": "0b9dea52956bb096f95d4969a07a945a3fe5a4cdd917bb71f0a7b1988243f146",
+      "original_archive_bytes": 4352532,
+      "original_archive_members": 149,
+      "original_crc": "全部成员通过CRC",
+      "original_saved": false,
+      "archive_type": "固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP",
+      "execution": "未运行、未构建、未安装依赖、未调用模型/API",
+      "license_sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "license_unchanged": true,
+      "retained_text_members": 100,
+      "omitted_members": [
+        {
+          "path": "assets/architecture.jpg",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "assets/quant-front-page.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "assets/quant-main-page.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "assets/quantharbor-logo-mini.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "assets/quantharbor-logo.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "demo/backend/template/report_template.docx",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "demo/frontend/public/quantharbor-logo-v2.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "demo/frontend/public/quantharbor-logo-v3.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "demo/frontend/public/quantharbor-logo.png",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        },
+        {
+          "path": "src/template/report_template.docx",
+          "reason": "媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据"
+        }
+      ],
+      "modified_text_members": [],
+      "credential_scan": "UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。",
+      "contact_scan": "除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。",
+      "functional_limit": "继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。",
+      "local_path": "05_项目源码归档/大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip",
+      "sha256": "a52c338de6ea9e35c180c1ab36cb825af5833694d969322c30439254bdf201f4",
+      "bytes": 281395,
+      "members": 101,
+      "crc": "全部成员通过CRC",
+      "post_archive_privacy_scan": "通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息"
+    }
+  ],
+  "archive_status": "两个项目均已归档固定源码文本去联系字段派生副本；不是未经修改完整原ZIP；未运行",
+  "search_paths": [
+    {
+      "path": "中文近期后端/Agent履历与CV搜索→原作者个人站/GitHub",
+      "queries": [
+        "\"2025\" \"后端\" \"实习经历\" \"项目经历\" \"github.com\" -模板 -范文 -招聘",
+        "\"2026\" \"Agent\" \"实习\" \"CV\" \"GitHub\" -模板 -招聘 -research",
+        "\"腾讯\" \"2025\" \"后端\" \"resume.pdf\""
+      ],
+      "result": "找到shufengc主页直链项目；课程/团队边界均回原README核查，未找到完整教育CV"
+    },
+    {
+      "path": "英文大厂backend intern resume→本人官网PDF→PDF实际链接与技术报告",
+      "queries": [
+        "\"2025\" \"resume\" \"ByteDance\" \"Projects\" \"github.com\" -research -PhD -hiring",
+        "\"ByteDance\" \"Backend Software Engineer Intern\" \"resume.pdf\" -job -hiring"
+      ],
+      "result": "找到Andrew完整CV，直接核2025后端与2026Agent实习；PDF项目技术报告/LiveDemo未给特定GitHub源码，缺口保留"
+    }
+  ],
+  "excluded_or_unclosed": [
+    {
+      "source": "https://geoffreywtech.me/resume",
+      "reason": "腾讯实习2019，非本轮近期"
+    },
+    {
+      "source": "https://hills-code.github.io/CV.pdf",
+      "reason": "TikTok后台实习2022；近期腾讯为研究，未作核心近期应用工程新样本"
+    },
+    {
+      "source": "GitHub模板/无实习个人页/招聘工具",
+      "reason": "不计成功实习者CV"
+    }
+  ],
+  "unresolved_gap": "尚未闭合近期大厂Agent应用实习完整CV→本人可审成熟源码→本人具体面经→SSP录用。已有两个不同检索路径的实读进展，不能宣称全网没有。"
+}

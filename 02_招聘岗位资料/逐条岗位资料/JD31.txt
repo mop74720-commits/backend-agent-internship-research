@@ -1,0 +1,177 @@
+JD31 | 美团 后端开发实习生 数据方向
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  美团
+role_type：
+  数据平台后端；北京；本科以上；届次/时长未列
+原始来源：
+  https://www.zhaopin.com/jobdetail/CC383625320J40829838209.htm
+publish_date：
+  未知；正文引用2024-12业务情况不能作为发布日期
+retrieved_date：
+  2026-10-24
+source_type：
+  智联招聘页；企业认证标签仅据Astra摘要，本轮未核
+own_summary：
+  Astra卡片摘要：无人机数据平台后端、数据处理/查询性能、监控日志及异常排查；本轮未取得原文。
+required_stack：
+  - Python/Java/Go至少一种（仅Astra卡片）
+  - 数据库/SQL（仅Astra卡片）
+  - 大数据技术基础认知或兴趣（仅Astra卡片）
+preferred_stack：
+  —
+degree_constraint：
+  Astra卡片记本科以上；本轮未重核
+availability_constraint：
+  Astra卡片记北京，届次/时长未列；本轮未重核
+recruiting_status：
+  Astra卡片记职位已失效；本轮仅收到安全验证，无法复核状态
+matrix_include：
+  否
+duties：
+  Astra卡片摘要：无人机数据平台后端、数据处理/查询性能、监控日志及异常排查；本轮未取得原文。
+阅读建议：
+  补充数据平台分支，突出数据建模与运维，不建议为广度硬加全部大数据组件。
+局限：
+  PC/移动两路径均Security Verification；不把已有摘要当本轮原文，不计全文或技术要求矩阵。
+原访问范围：
+  仅外部调研摘要；本轮原页受限
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    未知；正文引用2024-12业务情况不能作为发布日期
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    未知；正文引用2024-12业务情况不能作为发布日期
+  时间依据：
+    年份未明，不按届次或当前年推定
+阅读范围：
+  范围：
+    摘要
+  已读定位正文全文：
+    否
+  核读说明：
+    未取得岗位正文；安全验证页
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - Python/Java/Go至少一种（仅Astra卡片）
+  - 数据库/SQL（仅Astra卡片）
+  - 大数据技术基础认知或兴趣（仅Astra卡片）
+source_record：
+  source_id：
+    J13
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    美团 后端开发实习生 数据方向
+  原始来源：
+    https://www.zhaopin.com/jobdetail/CC383625320J40829838209.htm
+  canonical_key：
+    www.zhaopin.com/jobdetail/CC383625320J40829838209.htm
+  source_file：
+    01_岗位JD/J13.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      智联企业认证招聘页；发布日期未显示；正文引用截至2024-12业务情况
+    岗位状态：
+      明确显示职位已失效；历史要求样本
+    方向与资格：
+      数据平台后端；北京；本科以上；届次/时长未列
+    明确要求：
+      Python/Java/Go至少一种 / 数据库/SQL / 大数据技术基础认知或兴趣
+    加分项：
+      未单列
+    工作摘要：
+      无人机数据平台后端、数据处理、查询性能、监控日志与异常排查。
+    推荐理由：
+      补充数据平台分支，突出数据建模与运维，不建议为广度硬加全部大数据组件。
+    局限：
+      不能确定发布年份；仅历史结构对照，不作2026在招证据。
+  live_access：
+    状态：
+      200
+    标题：
+      Security Verification
+    原始来源：
+      https://www.zhaopin.com/jobdetail/CC383625320J40829838209.htm
+    已读部分：
+      未取得岗位正文；安全验证页
+    已读定位正文全文：
+      否
+    professional_text：
+      
+    text_sha256：
+      未核／无
+    alternative_access：
+      原始来源：
+        https://m.zhaopin.com/jobs/CC383625320J40829838209
+      状态：
+        200
+      标题：
+        Security Verification
+      已读部分：
+        安全验证页，未取得岗位正文
+  方向：
+    后端
+  required_stack：
+    - Python/Java/Go至少一种（仅Astra卡片）
+    - 数据库/SQL（仅Astra卡片）
+    - 大数据技术基础认知或兴趣（仅Astra卡片）
+  preferred_stack：
+    —
+  duties：
+    Astra卡片摘要：无人机数据平台后端、数据处理/查询性能、监控日志及异常排查；本轮未取得原文。
+  degree_constraint：
+    Astra卡片记本科以上；本轮未重核
+  availability_constraint：
+    Astra卡片记北京，届次/时长未列；本轮未重核
+  publish_date：
+    未知；正文引用2024-12业务情况不能作为发布日期
+  date_year_confirmed：
+    否
+  recruiting_status：
+    Astra卡片记职位已失效；本轮仅收到安全验证，无法复核状态
+  source_type：
+    智联招聘页；企业认证标签仅据Astra摘要，本轮未核
+  matrix_include：
+    否
+  阅读建议：
+    补充数据平台分支，突出数据建模与运维，不建议为广度硬加全部大数据组件。
+  局限：
+    PC/移动两路径均Security Verification；不把已有摘要当本轮原文，不计全文或技术要求矩阵。
+  招聘类型：
+    实习
+  source_date_basis：
+    年份未明，不按届次或当前年推定
+source_key：
+  ASTRA_J13_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J13
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

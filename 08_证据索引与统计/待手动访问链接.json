@@ -1,0 +1,569 @@
+[
+  {
+    "title": "2025届搜广推算法方向求职历程（SSP、头部计划）",
+    "url": "https://zhuanlan.zhihu.com/p/23907591319",
+    "status": "此前普通URL GET403，公开article API也403；按父代理与用户指示不再重试",
+    "to_verify": [
+      "作者及是否第一人称录用结果",
+      "具体SSP公司与档位",
+      "个人GitHub和实际项目",
+      "岗位方向",
+      "面试年份与毕业届次"
+    ]
+  },
+  {
+    "title": "Agent工程化实战：从面试失败到SSP拿offer的四个硬核维度",
+    "url": "https://blog.csdn.net/weixin_30694389/article/details/166200952",
+    "status": "此前HTTP521无正文；不再重试",
+    "to_verify": [
+      "本人复盘还是教程/转载/营销",
+      "正式SSP结果",
+      "本人项目和GitHub",
+      "年月",
+      "指标的原始证据"
+    ]
+  },
+  {
+    "title": "从中山大学到中兴SSP：我的秋招打怪升级之路",
+    "url": "https://zhuanlan.zhihu.com/p/1931071514272326286",
+    "status": "本轮首次普通URL GET403，无标题DOM或正文；不重试",
+    "to_verify": [
+      "作者与结果自述",
+      "岗位和年份",
+      "本人项目",
+      "是否属于Agent/LLM工程",
+      "实习或秋招正式岗"
+    ]
+  },
+  {
+    "title": "沪漂双九女生：我的中兴SSP秋招选择与实用秘籍",
+    "url": "https://zhuanlan.zhihu.com/p/1936105845051103076",
+    "status": "本轮首次普通URL GET403，无标题DOM或正文；不重试",
+    "to_verify": [
+      "作者与结果自述",
+      "岗位是否大模型开发及具体职责",
+      "项目与GitHub",
+      "文章日期和面试时间",
+      "实习或秋招正式岗"
+    ]
+  },
+  {
+    "title": "24届sp、ssp大厂上岸心得.md",
+    "url": "https://github.com/Azurer0121/Obsidan/blob/main/%E6%B1%82%E8%81%8C/24%E5%B1%8Asp%E3%80%81ssp%E5%A4%A7%E5%8E%82%E4%B8%8A%E5%B2%B8%E5%BF%83%E5%BE%97.md",
+    "status": "原仓API、根README和tree均404；搜索索引仍保留文件入口，正文未读。",
+    "to_verify": [
+      "是否能打开原文件或作者原始文章入口",
+      "这是本人复盘还是摘录他人文章",
+      "哪家/哪年/何岗位的SSP、本人项目仓库与面经是否直接相连"
+    ]
+  },
+  {
+    "title": "Reimu本人C++网络库：许可证待核",
+    "url": "https://github.com/IcyCC/reimu",
+    "status": "仓metadata及readme可读，metadata license为null；根contents许可证核查HTTP429。",
+    "to_verify": [
+      "根目录/子目录是否有明确允许源码再分发的LICENSE或作者许可"
+    ]
+  },
+  {
+    "title": "erdengk：我的硕士前半生",
+    "url": "https://erdengk.top/archives/wo-de-shuo-shi-qian-ban-sheng",
+    "status": "TLS证书校验失败（SSLError），未读取正文",
+    "priority": "中",
+    "to_verify": "是否有2023求职复盘、个人项目名、本人面经；不要把2026 Agent经历混入2023SSP"
+  },
+  {
+    "title": "erdengk：GSoC从开始到中选",
+    "url": "https://erdengk.top/archives/gsoc-cong-kai-shi-dao-zhong-xuan",
+    "status": "TLS证书校验失败（SSLError），未读取正文",
+    "priority": "中",
+    "to_verify": "开源项目、具体职责和PR；可用已核的ShenYu PR作为交叉线索"
+  },
+  {
+    "title": "我的2018年计算机实习和秋招经历（微软、阿里、腾讯、网易游戏、今日头条等）",
+    "url": "https://www.polarxiong.com/archives/我的2018年计算机实习和秋招经历.html",
+    "status": "requests 访问 25 秒超时，未取得正文；未重复刷新。",
+    "to_verify": [
+      "作者是否明确自述获得 SSP，以及具体公司、岗位、时间。",
+      "原文面经正文是否可读、是否有具体项目追问。",
+      "与公开 GitHub 作者及本人项目的关联。"
+    ]
+  },
+  {
+    "title": "4 轮拿下字节Offer！LLM面试题合集",
+    "url": "https://www.nowcoder.com/discuss/746382064101908480",
+    "status": "HTTP200但本轮未取得正文，只有标题或页面外壳；不等同明确限流",
+    "to_verify": [
+      "本人身份、岗位、年月与实际面试问题",
+      "录用及SSP是否是本人正式结果",
+      "本人项目和GitHub；若为转载/教程请注明"
+    ]
+  },
+  {
+    "title": "字节AI Agent实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/8a553bb6ea8445d0b0abe11e87614cea",
+    "status": "2026-10-24已核读作者主文全文，对应INT102；不再标记正文未取得。",
+    "to_verify": [
+      "原文未披露的事件年、岗位/轮次与结果范围，具体见关联资料卡",
+      "本人完整履历和项目源码；不由面经或同账号仓库补造关系"
+    ],
+    "status_before_external_merge": "HTTP200但本轮未取得正文，只有标题或页面外壳；不等同明确限流",
+    "current_record_id": "INT102",
+    "updated_date": "2026-10-24"
+  },
+  {
+    "title": "腾讯Ai Agent应用开发一面凉经",
+    "url": "https://www.nowcoder.com/feed/main/detail/28edcddf0c204c08b6562a3e6e6b73ae",
+    "status": "HTTP200但本轮未取得正文，只有标题或页面外壳；不等同明确限流",
+    "to_verify": [
+      "本人身份、岗位、年月与实际面试问题",
+      "录用及SSP是否是本人正式结果",
+      "本人项目和GitHub；若为转载/教程请注明"
+    ]
+  },
+  {
+    "title": "百度文心一言面试",
+    "url": "https://www.nowcoder.com/feed/main/detail/681c33aafac84af0a70b6fd5e663a04c",
+    "status": "HTTP200但本轮未取得正文，只有标题或页面外壳；不等同明确限流",
+    "to_verify": [
+      "本人身份、岗位、年月与实际面试问题",
+      "录用及SSP是否是本人正式结果",
+      "本人项目和GitHub；若为转载/教程请注明"
+    ]
+  },
+  {
+    "title": "快手-data agent开发-1面-06.16",
+    "url": "https://www.nowcoder.com/discuss/904419777614049280",
+    "status": "HTTP200但本轮未取得正文，只有标题或页面外壳；不等同明确限流",
+    "to_verify": [
+      "本人身份、岗位、年月与实际面试问题",
+      "录用及SSP是否是本人正式结果",
+      "本人项目和GitHub；若为转载/教程请注明"
+    ]
+  },
+  {
+    "title": "Minimax AI应用开发一面分享",
+    "url": "https://www.nowcoder.com/feed/main/detail/25aec4b727ac4985a7b83fa1e05594e8",
+    "status": "HTTP200但本轮未取得正文，只有标题或页面外壳；不等同明确限流",
+    "to_verify": [
+      "本人身份、岗位、年月与实际面试问题",
+      "录用及SSP是否是本人正式结果",
+      "本人项目和GitHub；若为转载/教程请注明"
+    ]
+  },
+  {
+    "title": "华为某BG Agent岗位一、二面面经不丝滑offer",
+    "url": "https://www.nowcoder.com/feed/main/detail/63f974c8a2214503bdc0ad7505cdc15b",
+    "status": "HTTP200但本轮未取得正文，只有标题或页面外壳；不等同明确限流",
+    "to_verify": [
+      "本人身份、岗位、年月与实际面试问题",
+      "录用及SSP是否是本人正式结果",
+      "本人项目和GitHub；若为转载/教程请注明"
+    ]
+  },
+  {
+    "title": "鹅厂面试官：\"你做了三个月 RAG，召回率多少？\"腾讯面经超全整理",
+    "url": "https://www.nowcoder.com/discuss/878945851924627456",
+    "status": "HTTP200但本轮未取得正文，只有标题或页面外壳；不等同明确限流",
+    "to_verify": [
+      "本人身份、岗位、年月与实际面试问题",
+      "录用及SSP是否是本人正式结果",
+      "本人项目和GitHub；若为转载/教程请注明"
+    ]
+  },
+  {
+    "title": "小米AI Agent一面（暑期）：付费问答的公开部分",
+    "url": "https://www.nowcoder.com/discuss/891698510574153728",
+    "status": "公开部分可读，页尾提示剩余60%需购买或订阅；未付费、未读完整内容",
+    "to_verify": [
+      "这是否本人逐轮记录，还是事后教学问答",
+      "实际项目仓库、指标和录用结果；目前不当SSP成功证据"
+    ]
+  },
+  {
+    "title": "鬼卞2019字节SSP来稿的原始公众号页面",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzU4MjQ3NzEyNA%3D%3D&mid=2247484577&idx=1&sn=365c78c00a9c3a1de202dc99f4e021ed",
+    "status": "HTTP200显示环境异常验证页，未取得原始正文；GitHub收录版本已读",
+    "to_verify": [
+      "原文署名和结果是否与GitHub来稿一致",
+      "是否有本人GitHub、GSoC具体任务或数据库赛源码"
+    ]
+  },
+  {
+    "title": "B站视频字幕待核",
+    "url": "https://www.bilibili.com/video/BV1DCDjBRExV/",
+    "status": "HTTP412；未取得CID或字幕，观看0",
+    "to_verify": "实际视频/字幕内容与观点；不把公开简介当观看"
+  },
+  {
+    "title": "OP03 【终于把项目讲明白了】如何封装简历上的项目？",
+    "url": "https://www.bilibili.com/video/BV1EE411T7HF/",
+    "status": "HTTP 412",
+    "to_verify": [
+      "与作者README当前链接视频是否同一内容"
+    ]
+  },
+  {
+    "title": "OP03 【终于把项目讲明白了】如何封装简历上的项目？",
+    "url": "https://www.bilibili.com/video/BV1XE411P7s8",
+    "status": "作者README实际链接，未额外重试受限平台",
+    "to_verify": [
+      "视频标题及项目封装方法，未看不计观点"
+    ]
+  },
+  {
+    "title": "OP07 Java程序员项目：智能协同云图库",
+    "url": "https://www.bilibili.com/video/BV1akwGeSERK/",
+    "status": "HTTP 412",
+    "to_verify": [
+      "协作图库技术模块及实际论述"
+    ]
+  },
+  {
+    "title": "OP06 有没有大佬分享一下做agent时的一些经验？（小林coding回答）",
+    "url": "https://www.zhihu.com/question/1982512240482619481/answer/2000174392479606071",
+    "status": "本轮tardis变体HTTP200空壳、网页工具不可读取；仍只有此前摘要范围",
+    "to_verify": "不补写正文观点，不提升阅读范围"
+  },
+  {
+    "title": "OP04 《Agent 评测白皮书》系列01：Agent 评测全览",
+    "url": "https://zhuanlan.zhihu.com/p/2081333572456206815",
+    "status": "标准链接403；tardis变体HTTP200但无正文；OP04已有同名官方原站全文，不冒充知乎本体全文",
+    "to_verify": "更新既有访问事实，不新增重复逻辑资料"
+  },
+  {
+    "title": "OP02 27届问：简历写了AI项目，但是只是名词，没有实际业务",
+    "url": "https://www.bilibili.com/video/BV1r2jc6mEWq/",
+    "status": "本轮未重试，沿用前轮视频页412与索引简介范围；不重复访问同平台受限路径",
+    "to_verify": [
+      "原平台实际内容与作者身份；作者官网替代不计原平台阅读"
+    ]
+  },
+  {
+    "title": "程序员简历编写指南（超详细）",
+    "url": "https://zhuanlan.zhihu.com/p/661113978",
+    "status": "公开页面GET最终跳至知乎error?status=400，虽HTTP200但无文章正文；未提升既有阅读范围",
+    "to_verify": "正文与来源待核"
+  },
+  {
+    "title": "后端开发实习简历五次迭代（原帖待核）",
+    "url": "https://blog.csdn.net/m0_45362454/article/details/144808692",
+    "status": "本轮HTTP521，未得正文",
+    "to_verify": [
+      "是否本人成功实习简历、具体事件时间、原始履历与项目；不按搜索摘要还原"
+    ]
+  },
+  {
+    "title": "CV07 等闲king履历：当前原帖不稳定",
+    "url": "https://www.nowcoder.com/discuss/894194616499466240",
+    "status": "先前读过正文；本轮目标文章未得，主容器仅外围热榜，不计新的正文核验",
+    "to_verify": [
+      "原始正文、本人项目及社区贡献、正式录用与实习时间"
+    ]
+  },
+  {
+    "title": "CV09 腾讯后台实习本人面经：当前访问空壳",
+    "url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065",
+    "status": "先前已读；本轮HTTP200标题空壳，不取消先前阅读事实，也不补写本人源码",
+    "to_verify": [
+      "本人履历与项目仓库是否有公开后续补充"
+    ]
+  },
+  {
+    "title": "你的26届暑期实习进展如何？",
+    "url": "https://www.zhihu.com/question/1890702342850053964/answer/1892522266945897426",
+    "status": "403",
+    "to_verify": "知乎转载本体待手动；牛客原文已核，不计新增知乎正文。"
+  },
+  {
+    "title": "ailanxier暑期实习Timeline",
+    "url": "https://www.nowcoder.com/discuss/733707788249034752?sourceSSR=users",
+    "status": "200外围热榜/空壳，ac变体也未得正文",
+    "to_verify": "核4月1日正式offer具体节点；本次仅搜索缓存可见该节点，不提升为原文全文证据。"
+  },
+  {
+    "title": "托马斯杨儿本人博客",
+    "url": "https://blog.openingclouds.xyz/",
+    "status": "TLS证书已过期，未读取博客正文",
+    "to_verify": "本人具体逐轮面经及项目源码；已有牛客选读范围保留",
+    "priority": "补充：本人原站",
+    "priority_reason": "可能补全原始轮次；访问失败不抹去牛客已读文字"
+  },
+  {
+    "title": "厦信薪火第4课rickey",
+    "url": "https://ximoffer.cn/",
+    "status": "仅搜索可见公益讲师介绍，未核课程材料",
+    "to_verify": "2025-12-13课程中是否有本人实习与SSP原话、项目与简历；不把组织者简介当直接本人证据。"
+  },
+  {
+    "title": "Agent评测漫谈 —— 由浅入深讲解Agent评测",
+    "url": "https://zhuanlan.zhihu.com/p/2068995699606295771",
+    "status": "标准链接403；公开tardis变体HTTP200但无正文；网页工具亦不可读取该变体",
+    "to_verify": "未计知乎全文；保留原始链接供手动阅读，官方原站材料与原平台阅读分开"
+  },
+  {
+    "title": "如何成为一个AI Agent工程师？",
+    "url": "https://www.zhihu.com/question/2012551138705167575/answer/2070483858739262746",
+    "status": "web原页403；只有检索摘录，不计全文",
+    "to_verify": "先核署名与专业身份，再核正文中招聘权重及节省成本数字的原始出处"
+  },
+  {
+    "title": "后端项目？字节面试官这样说！",
+    "url": "https://www.bilibili.com/video/BV1YL411Y7tj/",
+    "status": "web原页412；只有标题、简介与分集导航，不计视频正文",
+    "to_verify": "核实际发言者身份、观点原话与项目推荐依据"
+  },
+  {
+    "title": "【Java后端项目推荐】设计有亮点的面试项目 | 别再做秒杀项目了",
+    "url": "https://www.bilibili.com/video/BV1VT4y1r71g/",
+    "status": "检索简介可见；公开view API412，没有取得字幕或观看视频",
+    "to_verify": "核完整视频中主流项目取舍、推荐与难点论证；宣传简介不能替代内容"
+  },
+  {
+    "title": "谈谈面试Java后端开发人员的感受",
+    "url": "https://zhuanlan.zhihu.com/p/67736843",
+    "status": "原页403；公开tardis页跳官方error?status=400；未取正文，转载只用于发现原链接",
+    "to_verify": "历史3—5年社招观点，适用性低于近期实习，不据转载当已读知乎"
+  },
+  {
+    "title": "如何面试Python后端工程师？",
+    "url": "https://www.zhihu.com/question/33398583/answer/122435737",
+    "status": "原页工具不可访问；公开tardis页跳官方error?status=400，未取正文",
+    "to_verify": "核原作者回答及历史适用范围，不能将转载拼接的其他回答混入同一作者"
+  },
+  {
+    "title": "给野马套上缰绳：Agent Harness工程实践——从范式理论到钉钉AI招聘的真实落地",
+    "url": "https://zhuanlan.zhihu.com/p/2058188813529244032",
+    "status": "标准web原页403；普通Edge页面同为403风控提示；未取得正文",
+    "to_verify": "优先手动核钉钉团队署名、真实落地约束与测试依据；本轮不以索引摘录代替正文"
+  },
+  {
+    "title": "双非一本，想走Agent开发，请问达到主流公司就业的最低技术栈是哪些？",
+    "url": "https://www.zhihu.com/question/2010617699286402983/answer/2042656617909449334",
+    "status": "标准web原页403；只有检索摘录，不计全文",
+    "to_verify": "先核署名与招聘／工程经历，项目star等级论断不能当实际录用门槛"
+  },
+  {
+    "title": "面试AI Agent新手高手（发现阶段主题）",
+    "url": "https://www.zhihu.com/question/2049047173677987500/answer/2062637529636124587",
+    "status": "标准web原页403，未读正文；索引可见课程引导，商业背景须手动核",
+    "to_verify": "核真实署名、采访或面试依据，避免以课程广告作为招聘标准"
+  },
+  {
+    "title": "待核原文：https://www.bilibili.com/read/cv36176800/",
+    "url": "https://www.bilibili.com/read/cv36176800/",
+    "status": "web工具无法访问；requests正常GET200但无可抽取正文",
+    "to_verify": "不依据视频简介中的资源引导推断专栏实际内容，未读不新增观点"
+  },
+  {
+    "title": "26届字节阿里ssp对27届说（正文已读，关系待核）",
+    "url": "https://www.nowcoder.com/feed/main/detail/3fc0f728c1bb4a968d3942c9d1563c6f?sourceSSR=subject",
+    "status": "HTTP200已读公开文字全文；公司逐项、事件年、项目/面经归属未核",
+    "to_verify": [
+      "公司、招聘批次和实际发生时间的逐项关系。",
+      "本人履历、项目职责、源码及Agent面经。",
+      "当前公开署名与缓存冲突，无可靠跨账号关联。"
+    ]
+  },
+  {
+    "title": "待核原文",
+    "url": "https://www.bilibili.com/read/cv39979382/",
+    "status": "web工具不可访问；未取正文",
+    "to_verify": "视频说明链接，仅为发现；不当Agent观点已读"
+  },
+  {
+    "title": "待核原文",
+    "url": "https://www.bilibili.com/read/cv49188359/",
+    "status": "web工具不可访问；未取正文",
+    "to_verify": "视频说明链接，仅为发现；不当招聘或课程效果证据"
+  },
+  {
+    "title": "认知重建之后，步入Agentic Engineering的工程革命",
+    "url": "https://zhuanlan.zhihu.com/p/2021963123024831888",
+    "status": "新原页正常web open403；未读，不重复访问",
+    "to_verify": "实际正文、作者关系与技术依据"
+  },
+  {
+    "title": "如何学习AI Agent，如何成为AI Agent工程师",
+    "url": "https://zhuanlan.zhihu.com/p/2061765372626392106",
+    "status": "新原页正常web open403；未读，不重复访问",
+    "to_verify": "实际正文、作者关系与技术依据"
+  },
+  {
+    "title": "待核原文",
+    "url": "https://www.zhihu.com/en/article/687856647",
+    "status": "正常web open跳安全验证且need_login=true；停止，未读",
+    "to_verify": "实际正文、作者关系与技术依据"
+  },
+  {
+    "title": "AI Agent & Skill测评方案及落地实践",
+    "url": "https://www.zhihu.com/tardis/jm/art/2050893501324441306",
+    "status": "由已索引公开jm页发现的正常公开路径不可访问；未读",
+    "to_verify": "实际正文、作者关系与技术依据"
+  },
+  {
+    "title": "Agent/Skills/Teams架构演进过程及技术选型之道",
+    "url": "https://www.zhihu.com/tardis/jm/art/2022259323544281560",
+    "status": "正常公开路径不可访问；未读",
+    "to_verify": "实际正文、作者关系与技术依据"
+  },
+  {
+    "title": "AutoGen 0.4文档评述与实战",
+    "url": "https://www.zhihu.com/tardis/bd/art/1885484020583867837",
+    "status": "正常web打开后跳转知乎安全验证，need_login=true；正文0行，停止。",
+    "to_verify": "手动确认署名、原文是否包含本人真实任务或测试，再决定纳入；不根据站外转载的标题或批评升级证据。"
+  },
+  {
+    "title": "AI Agent & Skill测评方案及落地实践",
+    "url": "https://zhuanlan.zhihu.com/p/2050893501324441306",
+    "status": "本轮只作为生产团队标题查询的发现线索；沿用此前公开路径不可读事实，不再次刷受限原页。",
+    "to_verify": "腾讯TEG网关测试团队TPerf任务、评分器、基线与回归证据；须实际正文，索引摘录不足。"
+  },
+  {
+    "title": "B站视频字幕待核",
+    "url": "https://www.bilibili.com/video/BV1GVJP6SE23/",
+    "status": "前轮view接口412；本轮pagelist与player公开接口HTTP200/code0，取得CID但字幕列表为空。未观看视频、未读取字幕。",
+    "to_verify": "手动观看或核读平台可见字幕、记录观点与依据；匿名接口空列表不证明视频无字幕"
+  },
+  {
+    "title": "腾讯AIAgent暑期实习一面",
+    "url": "https://www.bilibili.com/video/BV1EFGs6YEZi/",
+    "status": "本轮匿名公开view元数据接口HTTP412，未取CID或字幕；仍未观看。前轮简介不代替视频内容",
+    "to_verify": "区分原始候选人提问与讲解作者事后答案，核身份及实际时间。",
+    "priority": "优先：实习面试视频",
+    "priority_reason": "题名面向腾讯Agent暑期实习，但需实际观看及核清本人面试还是讲解整理"
+  },
+  {
+    "title": "秋招打算走后端和agent开发，简历求批（本人AI应用SSP文字已读，信息未披露）",
+    "url": "https://www.nowcoder.com/feed/main/detail/956bb0e7113949a5af496c6506397e59?toCommentId=22698650",
+    "status": "HTTP200公开文字已读；公司/事件年/具体岗位未披露，简历图未读",
+    "to_verify": [
+      "公司与具体工程岗位名。",
+      "招聘实际发生年。",
+      "本人项目/职责细节、源码或本人面经。"
+    ]
+  },
+  {
+    "title": "快手日常实习面经（已oc）",
+    "url": "https://www.nowcoder.com/feed/main/detail/b6e58f067c184875a1c7a03e4039d30d",
+    "status": "原帖标题空壳/工具不可读；普通公开GET亦仅标题，本轮停止重复访问",
+    "to_verify": "标题OC和等待审批分开；未读原帖正文，不升级为已发正式offer或SSP。"
+  },
+  {
+    "title": "阿里的agent开发依旧卡学历只是换了个说法",
+    "url": "https://www.nowcoder.com/feed/main/detail/ebd756740ac74841a23888e16e9df3e1",
+    "status": "users和post公开入口均为空壳",
+    "to_verify": "不能用失败自述填最终录用；关于学历的判断属于作者解释，未验证实际筛选原因。"
+  },
+  {
+    "title": "选测开还是agent开发（已读，录用/岗位关系待核）",
+    "url": "https://www.nowcoder.com/feed/main/detail/d9ac01c30b9b4f57aa9294ceda1004e2?sourceSSR=subject",
+    "status": "网页工具已读公开正文，普通GET仍空壳；原文为未具名约2000人公司Agent校招提前实习及leader给SSP的自述，非已核大厂岗位",
+    "to_verify": "公司和事件年未披露、最终档位文件未展示，本人履历/源码/具体面经未建立；不当大厂Agent SSP完整样本",
+    "priority": "补充：关键招聘信息未披露",
+    "priority_reason": "正文已读，但不能用标签或评论补写公司、事件年和招聘结果"
+  },
+  {
+    "title": "秋招要结束了，关于我的offer（已读，录用/岗位关系待核）",
+    "url": "https://www.nowcoder.com/feed/main/detail/6704d6675f7a49f1864c3d69e9013227",
+    "status": "公开文字按原记录范围已读；明确标作者推定档位、最终开奖未核；不能将快手或淘天计为确定SSP录用自述。",
+    "to_verify": [
+      "最终档位与录用未明确。",
+      "Agent应用岗位与本人项目/面经链未建立。"
+    ]
+  },
+  {
+    "title": "截至现在，我的27届秋招基本结束。（已读，录用/岗位关系待核）",
+    "url": "https://www.nowcoder.com/feed/main/detail/c5df27c1e97f45d8a05fb66f104087b5?sourceSSR=dynamic",
+    "status": "公开文字按原记录范围已读；本人写蚂蚁/B站四面加面或SSP，仍是待定；京东和滴滴是意向。不得由存在Agent岗位失败流程，反推通过流程也为同一Agent岗位。",
+    "to_verify": "实际秋招年未由正文独立写出，不据27届或10月来源补年。"
+  },
+  {
+    "title": "沪漂双九女生：我的中兴SSP秋招选择与实用秘籍（已读，录用/岗位关系待核）",
+    "url": "https://www.nowcoder.com/feed/main/detail/33e2209965c44c6e86a27ecb9e01f9b1?sourceSSR=post",
+    "status": "公开文字按原记录范围已读；有公司、宽泛大模型岗位、校招和SSP直接自述；但应用/平台Agent工程职责、本人项目/源码/具体逐轮技术问题均缺，不计明确Agent工程SSP核心样本。",
+    "to_verify": "岗位、批次与最终档位"
+  },
+  {
+    "title": "任何错误只犯一次：TencentDB Agent Memory的团队记忆实践",
+    "url": "https://zhuanlan.zhihu.com/p/2073084629918148573",
+    "status": "网页工具及普通公开GET均403；未取得正文，检索摘要不计已读",
+    "to_verify": "核读腾讯技术工程署名原文，重点检查记忆资产的权限范围、适用版本、验证与基准对照；摘要中的数字尚未独立审定",
+    "priority": "优先：Agent工程专业原文",
+    "priority_reason": "直接对应记忆治理与评测缺口，先核正文及实验边界；不以摘要替代原文"
+  },
+  {
+    "title": "10万+Skill背后：腾讯SkillHub如何帮用户找到真正好用的那20%",
+    "url": "https://zhuanlan.zhihu.com/p/2070161578142479372",
+    "status": "网页工具及普通公开GET均403；未取得正文，题名为原页面题名而非本包验证结论",
+    "to_verify": "核实际Skill可信性评测、静态分析与运行验证的区别；作者角色、商业背景和测评方法待读",
+    "priority": "优先：Agent工程专业原文",
+    "priority_reason": "直接对应工具/Skill评测与权限边界；不把文章题名中的比例当已复现结果"
+  },
+  {
+    "title": "Agent在多模态任务中的进展（腾讯优图视频线索）",
+    "url": "https://www.bilibili.com/video/BV18J23BwEmT/",
+    "status": "匿名公开view元数据接口HTTP412，未取得CID或字幕；未观看、未下载音视频",
+    "to_verify": "实际讲者、工程与研究范围、任务和评测依据；课程或产品推广背景。没有把视频简介算实际内容",
+    "priority": "补充：专业视频原始链接",
+    "priority_reason": "先确认是否以应用工程为主，再决定精读；多模态研究不自动代表Agent实习要求"
+  },
+  {
+    "title": "9.7百度agent开发日常实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/bb8c28105f364770b57ff5eb5649cc60?sourceSSR=users&weFlow=true",
+    "status": "已读全文15问及本人自评；公开带参数入口HTTP200，普通入口部分请求为空壳。已正式收录INT84。",
+    "to_verify": "最终面试结果、原文未直接写明的事件年、本人履历与源码；不再待取文字正文",
+    "priority": "优先：明确实习面经原帖",
+    "priority_reason": "符合实习方向，待核具体工程追问；未确认年份，不计严格近期面经"
+  },
+  {
+    "title": "Linear团队：构建生产级别Agent的5条规则",
+    "url": "https://www.bilibili.com/video/BV1P6tN6bEps/",
+    "status": "前轮view接口412；本轮pagelist与player公开接口HTTP200/code0，取得CID但字幕列表为空。未观看视频、未读取字幕。",
+    "to_verify": "手动观看或核读平台可见字幕、记录观点与依据；匿名接口空列表不证明视频无字幕",
+    "priority": "优先：生产工程视频原文",
+    "priority_reason": "可与公开原始逐字稿对照，重点核评测、工作流和技能加载"
+  },
+  {
+    "title": "Agent系统设计 03：如何评测（多意图）",
+    "url": "https://www.bilibili.com/video/BV1wKMQ6zEh5/",
+    "status": "匿名pagelist及player/v2均HTTP200/code0；字幕列表为空，need_login_subtitle=true。原视频页访问412；未观看或核读字幕。",
+    "to_verify": [
+      "用户可自行登录原平台观看或核对字幕；当前空列表不证明视频没有字幕。",
+      "具体观点、适用范围、作者职业与商业背景待实际内容核读。"
+    ]
+  },
+  {
+    "title": "动画学Redis缓存一致性问题，为何延时双删、删除重试、MySQL主从架构下情况模拟",
+    "url": "https://www.bilibili.com/video/BV1Qr421E7wp/",
+    "status": "匿名pagelist及player/v2均HTTP200/code0；字幕列表为空，need_login_subtitle=true。原视频页访问412；未观看或核读字幕。",
+    "to_verify": [
+      "用户可自行登录原平台观看或核对字幕；当前空列表不证明视频没有字幕。",
+      "具体观点、适用范围、作者职业与商业背景待实际内容核读。"
+    ]
+  },
+  {
+    "title": "美团 后端开发实习生 数据方向",
+    "url": "https://www.zhaopin.com/jobdetail/CC383625320J40829838209.htm",
+    "status": "PC/移动两路径均Security Verification；不把已有摘要当本轮原文，不计全文或技术要求矩阵。",
+    "to_verify": "原文正文、作者、实际事件年份和结果；外部卡片摘要不代替正文"
+  },
+  {
+    "title": "程序员简历应该怎么写 程序员鱼皮的回答",
+    "url": "https://www.zhihu.com/question/25002833/answer/2381116420",
+    "status": "受限阅读入口；鱼皮回答原页403，astra也只有索引片段；同作者V02可读部分不替代知乎全文。",
+    "to_verify": "原文正文、作者、实际事件年份和结果；外部卡片摘要不代替正文"
+  },
+  {
+    "title": "如何评价鱼皮程序员的OJ项目 九章算法的回答",
+    "url": "https://www.zhihu.com/question/629921585/answer/30006369306",
+    "status": "受限阅读入口；九章算法回答原页403，机构培训/潜在商业竞争背景；不能从摘要推课程SSP效果。",
+    "to_verify": "原文正文、作者、实际事件年份和结果；外部卡片摘要不代替正文"
+  },
+  {
+    "title": "Java面试 如何写好简历中的项目经历 作为一名面试官谈谈我的看法",
+    "url": "https://www.bilibili.com/video/BV1he4y1U7cz/",
+    "status": "受限阅读入口；B站播放页412；只有题目/简介，无字幕/观看证据，不能还原具体观点。",
+    "to_verify": "原文正文、作者、实际事件年份和结果；外部卡片摘要不代替正文"
+  }
+]

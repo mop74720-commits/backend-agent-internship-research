@@ -1,0 +1,846 @@
+{
+  "checked_on": "2026-10-24",
+  "scope": "既有候选人CV22/CV25/CV26/CV27/CV29/CV32/CV33/CV34的公开PNG/PDF简历复核",
+  "download_policy": "若定位本人公开原始简历则保存原字节，不额外脱敏；不还原作者原有打码。不把网页打印件、图片缩略图或经历自述标为原件。",
+  "method": "第一路径检查原文主体和图片附件；第二路径检查本人主页、本人其他求职文章或GitHub/原站。受限记录实际响应和原链接；搜索结果无关时不作证据。",
+  "counts": {
+    "candidates_reviewed": 8,
+    "new_original_cv_assets": 0,
+    "non_resume_image_occurrences_visually_checked": 30,
+    "unique_non_resume_image_hashes": 30
+  },
+  "cases": [
+    {
+      "candidate_id": "CV22",
+      "title": "Stochastic / Asthenia0412：2025—2026后端与Agent工程实习履历片段",
+      "source_article_url": "https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "本人GitHub profile直接列出多段实习，但未挂PNG/PDF简历；本人博客当前404。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://raw.githubusercontent.com/Asthenia0412/Asthenia0412/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整固定版本README；4张技能/统计图不是简历，无简历附件链接。"
+        },
+        {
+          "url": "https://asthenia0412.github.io/",
+          "http_status": 404,
+          "access_status": "not_found",
+          "reading_scope": "本人profile直链博客；GitHub Pages Site not found。"
+        },
+        {
+          "url": "https://api.github.com/repos/Asthenia0412/Asthenia0412/git/trees/main?recursive=1",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "非截断公开仓库树；无resume/简历/curriculum/.pdf路径。"
+        },
+        {
+          "url": "https://api.github.com/repos/Asthenia0412/Asthenia0412.github.io/git/trees/main?recursive=1",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人主页仓库非截断目录树；无resume/简历/curriculum/.pdf路径。"
+        },
+        {
+          "url": "https://api.github.com/repos/Asthenia0412/astro-blog/git/trees/main?recursive=1",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人博客仓库非截断目录树；无resume/简历/curriculum/.pdf路径。"
+        }
+      ],
+      "limitations": [
+        "只确认上述公开路径未定位，不能推断作者从未公开过简历。",
+        "仓库统计徽章与同账号项目均不作为简历原件。"
+      ]
+    },
+    {
+      "candidate_id": "CV25",
+      "title": "2026暑期：蚂蚁AlipayPlus智能体应用offer、TikTok后端OC及本人面经",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1610772",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "暑期主文正文图片均为表情；本人主页可关联秋招与TikTok面经，未定位简历附件。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/1610772",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整主文HTML，正文1354字符；5个图片标签为20220815站内表情，无PDF或GitHub附件。",
+          "body_image_count": 5
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/590781977",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "返回6201字节通用登录/验证壳，正文不可读。"
+        },
+        {
+          "url": "https://www.nowcoder.com/profile/590781977?type=all",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人主页正文4293字符；核主文、秋招、面经同作者；未见本人简历附件链接。"
+        },
+        {
+          "url": "https://www.nowcoder.com/discuss/917095780249309184?sourceSSR=users",
+          "http_status": 200,
+          "access_status": "partially_read_then_limited",
+          "reading_scope": "首次返回305504字节可读秋招正文，主体2940字符，无PDF/resume/GitHub链接；附件复核时返回6366字节页面壳。"
+        }
+      ],
+      "limitations": [
+        "秋招页后续附件检查受限，保留原文与主页人工复核链接。",
+        "不把平台导航的简历制作站链接当作者简历。"
+      ]
+    },
+    {
+      "candidate_id": "CV26",
+      "title": "金蝶/讯飞Agent实习经历、360实习offer与多家公司项目深挖",
+      "source_article_url": "https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "已读本人主页和另一篇求实习总结，取得的均为经历/面经文字；正文图片为表情，没有取得简历PNG/PDF。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/202664206f23428ebea5d513ea261c9d?sourceSSR=subject",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "首次6753字节页面壳，只有标题和很短摘要，未将它记作完整正文。"
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/216541357",
+          "http_status": 200,
+          "access_status": "readable_then_limited",
+          "reading_scope": "首次可读主页14714字符，核同作者多篇Agent实习面经；随后请求返回6201字节验证壳。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/986468e3aff94dcda1bd4cce68e02f88?sourceSSR=users",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人主页直链寒假前找实习总结；正文1118字符，逐个检查正文7张图均为站内表情，无简历/PDF/GitHub附件。",
+          "body_image_count": 7
+        }
+      ],
+      "limitations": [
+        "原帖和主页并非持续可读；本轮不能确认整个历史发帖列表是否有附件。",
+        "没有把评论、推荐区或平台下载图片算作者简历。"
+      ]
+    },
+    {
+      "candidate_id": "CV27",
+      "title": "2025暑期19场复盘：阿里云基架存储offer及WebServer经验反思",
+      "source_article_url": "https://ac.nowcoder.com/discuss/737813386313940992",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "暑期总结正文的7张图是表情，另1张图由作者明确标为AI配图；无简历附件。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/737813386313940992",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "全文HTML正文3577字符，核8个正文图片标签，其中7表情＋1作者标记AI配图，无简历附件。",
+          "body_image_count": 8
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/564739493",
+          "http_status": 200,
+          "access_status": "readable_then_limited",
+          "reading_scope": "首次可读本人主页8932字符，核同作者后续秋招文；随后请求返回51字节短响应。"
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/10786322992d4347829849c489dd0d61?sourceSSR=users",
+          "http_status": 200,
+          "access_status": "partially_read_then_limited",
+          "reading_scope": "后续记录春天就结束的秋招首次170480字节、页面文本5025字符；附件核查再次请求返回6494字节壳。"
+        }
+      ],
+      "limitations": [
+        "后续秋招页图片未完成逐图核读，保留人工入口。",
+        "不把AI配图当简历，亦不据此确认全文未曾公开附件。"
+      ]
+    },
+    {
+      "candidate_id": "CV29",
+      "title": "Shufeng (Alex) Chen：腾讯/Stripe实习履历与本人直链项目",
+      "source_article_url": "https://shufengc.dev/",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "官网可读的原始形式是网页履历，没有简历下载链接；公开GitHub仓库列表与Gist也未定位简历原件。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://shufengc.dev/",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整网页HTML，234777字节、页面正文10730字符；图片只有头像，全部锚点未见PDF/resume/cv简历下载。"
+        },
+        {
+          "url": "https://api.github.com/users/shufengc/repos?per_page=100",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "本人公开仓库列表8项，无简历/个人主页仓库；仅核目录，不把项目说明当简历。"
+        },
+        {
+          "url": "https://api.github.com/users/shufengc/gists?per_page=100",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "公开Gist列表为空。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22shufengc%22%20%22resume%22",
+          "http_status": 200,
+          "access_status": "search_unusable",
+          "reading_scope": "搜索返回重定向/需JS壳，没有可核对结果。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%22Shufeng%20Chen%22%20resume%20pdf",
+          "http_status": 200,
+          "access_status": "search_irrelevant",
+          "reading_scope": "结果与姓名及简历完全不相关，未用来归属任何文件。"
+        }
+      ],
+      "limitations": [
+        "原站没有PDF下载不能推断没有其他公开PDF；本轮只保留网页履历为网页原文。",
+        "未将网页打印或截图伪称原始PNG/PDF。"
+      ]
+    },
+    {
+      "candidate_id": "CV32",
+      "title": "无实习人士如何上岸秋招（总结+面经+路线）",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "原帖15张非表情图片均逐张目视检查，是投递进度、录用/意向通知、刷题及投递列表，均非简历。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/1228157",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整正文HTML约11045字符；提取并下载15张非表情图逐张目视，无简历/PDF附件。",
+          "body_non_emoji_images_checked": 15
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/491627360",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "返回6201字节通用页面壳，未取得本人主页正文。"
+        },
+        {
+          "url": "https://www.nowcoder.com/profile/491627360?type=all",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "返回51字节短响应，未取得本人主页正文。"
+        }
+      ],
+      "limitations": [
+        "第二路径主页受限，只能确认所核主文图片不是简历，不能确认其所有其他文章。"
+      ]
+    },
+    {
+      "candidate_id": "CV33",
+      "title": "非科班转码：211化学本→985材料硕→字节后端开发",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "原帖2张非表情图逐张目视检查，是字节录用通知及邮件流程，并非自述的两页简历。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/1626909",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整正文HTML2908字符；2张非表情图HTTP200并目视确认：录用通知、邮件流程；无简历/PDF附件。",
+          "body_non_emoji_images_checked": 2
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/1030059999",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "原帖显示匿名牛油及匿名占位账号；请求返回51字节短响应。"
+        }
+      ],
+      "limitations": [
+        "作者主动匿名，不做私人身份定位或把图片上传账号反查成真实身份。",
+        "原文自述简历两页不等于原帖附有简历；本轮未取得原件。"
+      ]
+    },
+    {
+      "candidate_id": "CV34",
+      "title": "择难路 未有疑 四非学院本春招拿下大厂后端",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "result": "本轮未定位到可确认属于本人的公开PNG/PDF简历",
+      "conclusion": "原帖13个非表情图片地址均逐张目视检查，含操作系统图、刷题/题库、招聘页面和意向书，均不是简历。",
+      "assets": [],
+      "attempts": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/1518502",
+          "http_status": 200,
+          "access_status": "readable",
+          "reading_scope": "完整正文HTML约15521字符；提取13个非表情图片地址，逐张下载/目视（含1对跨站重复图）；未见简历/PDF附件。",
+          "body_non_emoji_image_occurrences_checked": 13
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/466216434",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "原帖直链本人主页返回51字节短响应。"
+        },
+        {
+          "url": "https://www.nowcoder.com/profile/466216434?type=all",
+          "http_status": 200,
+          "access_status": "shell_or_access_limited",
+          "reading_scope": "主页另一规范入口仍返回51字节短响应。"
+        }
+      ],
+      "limitations": [
+        "本人主页第二路径受限，保留人工核查入口。",
+        "不把技术知识图、offer封面或平台导航图充作简历。"
+      ]
+    }
+  ],
+  "assets": [],
+  "image_checks": [
+    {
+      "i": 1,
+      "url": "https://uploadfiles.nowcoder.com/images/20231019/491627360_1697703878880/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 33517,
+      "sha256": "d79510275b72fb10b8386983de44f3c743371d7e7059846ef88584d3d9d851b6",
+      "dimensions": [
+        605,
+        271
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "刷题统计",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 2,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697626186083/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 15391,
+      "sha256": "eea8164ecdd4cd11c674bcbeb90bf518e6c3524d4ed946b5167866c63bc3475c",
+      "dimensions": [
+        1491,
+        221
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "招聘流程进度",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 3,
+      "url": "https://uploadfiles.nowcoder.com/images/20231017/491627360_1697534842728/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 458032,
+      "sha256": "44c694f999c837f82ee1b9d8a140dd4dafe8cb1de75d340890050312b20689e2",
+      "dimensions": [
+        793,
+        478
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "美团录用欢迎图",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 4,
+      "url": "https://uploadfiles.nowcoder.com/images/20231017/491627360_1697535560469/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 66998,
+      "sha256": "db9f5ec95be3a8832183bb494f71efef96e6bc0ec33ec66af9e92a460cdf32f0",
+      "dimensions": [
+        741,
+        582
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "快手录用意向",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 5,
+      "url": "https://uploadfiles.nowcoder.com/images/20231017/491627360_1697536400545/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 14110,
+      "sha256": "c119902745ae0adf3a5ccaabd8905d05fa5ce85b220187146b8881fc3d7cc858",
+      "dimensions": [
+        1026,
+        32
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "招聘通知邮件标题",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 6,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697592561705/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 58829,
+      "sha256": "dda9f3684e57c1280d10ae9536ef153866e0619f2c2b1116a27711ad35f9843f",
+      "dimensions": [
+        1565,
+        334
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "用友录用意向",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 7,
+      "url": "https://uploadfiles.nowcoder.com/images/20231020/491627360_1697785517993/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 395951,
+      "sha256": "717ae6901f3cce3370979516f660fea0f721c0a9e5c4d7aca954b28a940eea53",
+      "dimensions": [
+        1371,
+        666
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "科大讯飞录用意向",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 8,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697599778282/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 11175,
+      "sha256": "065d505ba5707a05f3cab8548108b9ee0dcfc2af43b05e3a1652faf128604fd0",
+      "dimensions": [
+        718,
+        28
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "招银录用通知标题",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 9,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697596684720/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 6737,
+      "sha256": "cc2728a16960cfb144f7dd183651a4626e3add4cf9f21146b675787da92642cd",
+      "dimensions": [
+        878,
+        157
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "博智软件录用意向",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 10,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697595606315/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 28167,
+      "sha256": "71b4a307ec379fbcdff1f305ce3cdb1563954842b5f0e9f39cc37d7061e749b0",
+      "dimensions": [
+        1307,
+        112
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "广发证券实习报到通知",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 11,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697595951777/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 7053,
+      "sha256": "8cf7b85e24e8f9f7b059453099b0d1bcf936c9b7e89cc6544b7608b917710be5",
+      "dimensions": [
+        494,
+        25
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "中信建投实习报到通知标题",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 12,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697631176296/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 22837,
+      "sha256": "5e7152fa73d380117d56bfae52d49a33ce43c5c759bead9519698f80dabc4d08",
+      "dimensions": [
+        1120,
+        259
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "招聘进度",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 13,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697644304175/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 57348,
+      "sha256": "c07d876aa255fb6c35cff8515d2404432bab19f51f805913acb775dfbf6ce44f",
+      "dimensions": [
+        454,
+        871
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "投递公司岗位表",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 14,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697644322466/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 69623,
+      "sha256": "40007ba52eb63d9dba34b52fa016844b39c4cbc282fdae4a7ade0433cc4910a4",
+      "dimensions": [
+        497,
+        892
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "投递公司岗位表",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 15,
+      "url": "https://uploadfiles.nowcoder.com/images/20231018/491627360_1697644374909/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 33364,
+      "sha256": "32593d4ecbc1690406cad7cf519db4b472ebfe34a05e0faee66b60fde046a265",
+      "dimensions": [
+        484,
+        513
+      ],
+      "format": "PNG",
+      "candidate_id": "CV32",
+      "source_article_url": "https://www.nowcoder.com/discuss/545916636923006976",
+      "visual_classification": "投递公司岗位表",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 1,
+      "url": "https://uploadfiles.nowcoder.com/images/20260404/433324152_1775284575538/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 548178,
+      "sha256": "a7da7d037655f173fd1df73264a7c31ad9b0ba346bf869ac1881a1d6dbe27034",
+      "dimensions": [
+        1258,
+        1441
+      ],
+      "format": "PNG",
+      "candidate_id": "CV33",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+      "visual_classification": "字节录用通知（作者已打码）",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 2,
+      "url": "https://uploadfiles.nowcoder.com/images/20260404/433324152_1775290205552/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 483480,
+      "sha256": "d2d74024e561ee7d4d1b471b25615cae9db889153ad1459e48ecc0a474b6a759",
+      "dimensions": [
+        562,
+        1499
+      ],
+      "format": "PNG",
+      "candidate_id": "CV33",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1626909?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+      "visual_classification": "字节面试邮件流程（作者已打码）",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 1,
+      "url": "https://uploadfiles.nowcoder.com/files/20250708/466216434_1751908786251/1751203686419-a58b2b5a-fb8e-4a47-b879-f24aeafb433f.png",
+      "status": 200,
+      "bytes": 436227,
+      "sha256": "a538967f095d63ae690b5ff1664cb1366f0a08373941ae3a916f89d2eaa0c93d",
+      "dimensions": [
+        1132,
+        916
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "TCP连接队列知识图",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 2,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751908807694/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 220185,
+      "sha256": "422325edfff0e28907395a4e61e7e154f00d854d4993ffcac610b782d9fee9de",
+      "dimensions": [
+        764,
+        824
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "内核源码截图",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 3,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751908843716/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 376714,
+      "sha256": "ec8622ca138c6d81061070ab808d66d8de714f8b922d5c53e023149c9f2ca860",
+      "dimensions": [
+        1420,
+        455
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "进程结构知识图",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 4,
+      "url": "https://uploadfiles.nowcoder.com/files/20250708/466216434_1751908848474/1751204792320-5bcaac30-9b05-4027-bbd9-6935c1983cca.png",
+      "status": 200,
+      "bytes": 137347,
+      "sha256": "dc6d08d9908440a26a71a289abf9b2ec4f7b8633639049bcb5d0e741df814059",
+      "dimensions": [
+        1316,
+        390
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "进程线程知识图",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 5,
+      "url": "https://uploadfiles.nowcoder.com/files/20250708/466216434_1751908858951/1751705324108-30737cb8-c8ae-4d0d-9154-39b0d5e09703.png",
+      "status": 200,
+      "bytes": 112350,
+      "sha256": "a19f780dddd9fafb1c4f67ca29bc750d698a6060b28431b534bc727d0c747d6a",
+      "dimensions": [
+        1037,
+        656
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "桔子堆录用意向封面",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 6,
+      "url": "https://cdn.nlark.com/yuque/0/2025/png/26315150/1751705324108-30737cb8-c8ae-4d0d-9154-39b0d5e09703.png",
+      "status": 200,
+      "bytes": 120292,
+      "sha256": "26aa20842d891d894522d004ccff5a8a7642227c023164f95b951d3eb23e9eef",
+      "dimensions": [
+        1037,
+        656
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "桔子堆录用意向封面（跨站重复）",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 7,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751908883346/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 540559,
+      "sha256": "ba87789599c82ebd22324e9d206cfd08758c12d848c24e9c806519e601186510",
+      "dimensions": [
+        1078,
+        723
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "进程线程知识图",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 8,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751908911416/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 161851,
+      "sha256": "0d722920fe9c666e6bf0e99e7e68efc13d5b06864c41adacea5315f343eb86f3",
+      "dimensions": [
+        1186,
+        830
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "刷题打卡截图",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 9,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751908938116/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 155070,
+      "sha256": "e74042ec5f51dd2c37c49301fe60d02d1f5e12f3a7b4237f66e82a4a7e2bb5a3",
+      "dimensions": [
+        1083,
+        354
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "题库入口",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 10,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751908969538/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 434761,
+      "sha256": "8516fe2103c9bdf4772da13b4794ddb1277255558a7915faba590eee5c0f2b74",
+      "dimensions": [
+        1488,
+        944
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "招聘官网岗位页面",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 11,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751909036678/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 165804,
+      "sha256": "b758a75019ccafb6d43ddf501521a79894c30fd262f191da466768f0b13636de",
+      "dimensions": [
+        1888,
+        664
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "剑指Offer题库",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 12,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751909017318/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 363979,
+      "sha256": "99b74536dc64bccb41e3091ed2098b0951794635287c551a45bb0a872a27f139",
+      "dimensions": [
+        1770,
+        1152
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "CodeTop题库",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    },
+    {
+      "i": 13,
+      "url": "https://uploadfiles.nowcoder.com/images/20250708/466216434_1751909091234/D2B5CA33BD970F64A6301FA75AE2EB22",
+      "status": 200,
+      "bytes": 866263,
+      "sha256": "7161f4c4e65ddc7920c5840269983b68eb22df7c2336ba114babd01f0bf78d7b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "format": "PNG",
+      "candidate_id": "CV34",
+      "source_article_url": "https://ac.nowcoder.com/discuss/1518502?channel=-1&source_id=0&type=0",
+      "visual_classification": "培训机构门头图片",
+      "is_resume": false,
+      "retained_in_resume_folder": false,
+      "reason": "逐图目视，内容为上述材料，不是专业简历；不纳入简历数量。"
+    }
+  ],
+  "limitations": [
+    "本轮未定位不等于全网没有；第二路径中部分牛客主页/文章受到页面壳或短响应限制。",
+    "HTTP200不必然是正文，已区分页面壳、可读正文与后续受限。"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "goal": {
+    "threadId": "01a16839-9742-7672-812b-1576a3dd064f",
+    "objective": "1. **补成功实习者的真实简历与本人项目**\\\n   优先近期后端、Agent实习；取得可公开获取的完整或脱敏简历，关联技术栈、本人职责和具体源码。目前完整简历文件为0。\n2. **补SSP的直接证据**\\\n   核清公司、岗位、时间和招聘批次，区分实习、转正、校招；重点补Agent方向的履历、项目及本人面经关联。\n3. **实际阅读B站、知乎内容**\\\n   观看视频、核读字幕或正文，提取具体观点、依据及商业背景。目前这项仍未实质完成。\n4. **补强面经的近期性和项目追问**\\\n   优先补明确年份、轮次、结果，以及能对应本人项目的深挖记录；核实现有年份未知材料，减少继续堆泛化题库。\n5. **形成更明确的技术要求结论**\\\n   综合四类证据，分别整理后端、Agent的明确要求、常见追问、加分项；说明哪些只是历史SSP个案优势。\n6. **补齐交付材料**\\\n   将新增简历、本人项目和面经归档，补推荐理由与优缺点；同步更新关联表、阅读顺序和统计。",
+    "status": "complete",
+    "tokensUsed": 6136451,
+    "timeUsedSeconds": 10469,
+    "createdAt": 1792769098,
+    "updatedAt": 1792813898
+  },
+  "remainingTokens": null,
+  "completionBudgetReport": "Goal achieved. Report final usage from this tool result's structured goal fields. If `goal.tokenBudget` is present, include token usage from `goal.tokensUsed` and `goal.tokenBudget`. If `goal.timeUsedSeconds` is greater than 0, summarize elapsed time in a concise, human-friendly form appropriate to the response language."
+}

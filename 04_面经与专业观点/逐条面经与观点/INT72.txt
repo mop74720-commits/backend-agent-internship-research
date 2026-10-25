@@ -1,0 +1,137 @@
+INT72 | 深信服Agent开发实习生一面二面
+
+需求核对版 · 2026-10-24
+
+source_key：
+  SANGFOR_14b2c379
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject
+方向与岗位：
+  Agent开发实习
+公司：
+  深信服
+事件时间／原文日期（依分类）：
+  一两周前；绝对年未知
+发表／来源日期：
+  发表时间未核
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    一两周前；绝对年未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    单篇事件年未明；同作者导航或发表元数据不自动绑定具体场次
+  来源日期：
+    未核
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文可见文字已读
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  同候选人多场汇总（不拆成独立候选人）
+候选人关联ID：
+  - CV26
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习面经
+结果分类：
+  failure_self_report
+结果自述：
+  两轮后感谢信自述；非offer
+逐项结果与档位：
+  - 公司：
+      深信服
+    档位：
+      未披露
+    状态：
+      failure_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject
+    依据：
+      两轮后感谢信自述；非offer
+    企业独立验证：
+      否
+涉及主题：
+  - 工具注册/发现
+  - 业务闭环
+  - 评测
+  - 个人贡献
+原文提问（归纳）：
+  - 金蝶实习中接口协作、业务链路、个人最核心工作和效果证明。
+  - 上百工具时如何分层注册、检索、注入，以及找不到适配工具时的退路。
+  - 自研注册机制与MCP、LangChain Tools和多Agent框架的差别。
+内容归纳：
+  列出被问内容和结果抱怨，没有完整作答；对拒绝原因的横向猜测不作定论。
+questions_vs_retrospective_answers：
+  列出被问内容和结果抱怨，没有完整作答；对拒绝原因的横向猜测不作定论。
+rounds：
+  - 一面
+  - 二面
+原访问范围：
+  全文可见文字已读
+source_record：
+  key：
+    SANGFOR_14b2c379
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/14b2c379ae434062a009aefea9fc5df9?sourceSSR=subject
+  标题：
+    深信服Agent开发实习生一面二面
+  author_id：
+    216541357
+  公司：
+    深信服
+  方向与岗位：
+    Agent开发实习
+  招聘类型：
+    实习
+  rounds：
+    - 一面
+    - 二面
+  event_date：
+    一两周前；绝对年未知
+  event_year_confirmed：
+    否
+  范围：
+    全文可见文字已读
+  questions_paraphrased：
+    - 金蝶实习中接口协作、业务链路、个人最核心工作和效果证明。
+    - 上百工具时如何分层注册、检索、注入，以及找不到适配工具时的退路。
+    - 自研注册机制与MCP、LangChain Tools和多Agent框架的差别。
+  questions_vs_answers：
+    列出被问内容和结果抱怨，没有完整作答；对拒绝原因的横向猜测不作定论。
+  project_modules：
+    - 工具注册/发现
+    - 业务闭环
+    - 评测
+    - 个人贡献
+  结果自述：
+    两轮后感谢信自述；非offer
+  access：
+    http_status：
+      200
+    selector：
+      .post-content-box
+    read：
+      是
+    instability：
+      无参及若干再次访问只给标题；本次已至少两次取得正文。

@@ -1,0 +1,81 @@
+{
+  "scope": "本地阅读、链接与PDF；不运行第三方项目",
+  "browser_errors": [],
+  "checks": [
+    {
+      "name": "主目录134条",
+      "passed": true,
+      "details": "134 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "候选人资料分类数量",
+      "passed": true,
+      "details": "19 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "面经复盘分类数量",
+      "passed": true,
+      "details": "56 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "项目参考分类数量",
+      "passed": true,
+      "details": "18 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "作者搜索",
+      "passed": true,
+      "details": "2 条匹配记录（逻辑记录，含同源交叉引用）"
+    },
+    {
+      "name": "展开匹配",
+      "passed": true
+    },
+    {
+      "name": "全部收起",
+      "passed": true
+    },
+    {
+      "name": "面经编号搜索",
+      "passed": true
+    },
+    {
+      "name": "编号跳转自动展开",
+      "passed": true
+    },
+    {
+      "name": "专题5卡完整展开",
+      "passed": true
+    },
+    {
+      "name": "11个待核原始链接",
+      "passed": true
+    },
+    {
+      "name": "本轮未虚增ZIP",
+      "passed": true
+    },
+    {
+      "name": "桌面无整页横向溢出",
+      "passed": true
+    },
+    {
+      "name": "手机无整页横向溢出",
+      "passed": true
+    },
+    {
+      "name": "独立清单11个原始入口",
+      "passed": true
+    },
+    {
+      "name": "手机链接清单无横向溢出",
+      "passed": true
+    },
+    {
+      "name": "无脚本错误",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "pdf_exported": true
+}

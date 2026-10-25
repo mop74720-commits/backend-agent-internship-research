@@ -1,0 +1,871 @@
+CV29 | Shufeng (Alex) Chen：腾讯/Stripe实习履历与本人直链项目
+
+需求核对版 · 2026-10-24
+
+source_key：
+  shufengc
+类别：
+  候选人资料
+原始来源：
+  https://shufengc.dev/
+方向与岗位：
+  后端应用工程；主页同时列研究经历，不因此归为博士算法对照
+履历材料形式：
+  本人专业主页履历片段，缺完整教育模块且未发现CV/PDF直链
+资料形式：
+  本人专业主页履历片段，缺完整教育模块且未发现CV/PDF直链
+事件时间／原文日期（依分类）：
+  Tencent · Cloud Computing Group 2025.07–2025.08；Stripe · Cash & Banking Infrastructure 2026.05–2026.08
+发表／来源日期：
+  2026-10-23公开版本读取，非事件时间
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    Tencent · Cloud Computing Group 2025.07–2025.08；Stripe · Cash & Banking Infrastructure 2026.05–2026.08
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    2026-10-23公开版本读取，非事件时间
+  时间依据：
+    本人职业经历明确年月；教育背景和所在地不用于推招聘批次或中国薪资档位
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本人主页专业经历及项目段全文；缺完整教育和CV，仍为履历片段
+  实际观看视频：
+    否
+结果自述：
+  两段大厂实习经历自述；SSP/SP档位未披露
+逐项结果与档位：
+  - 公司：
+      Tencent · Cloud Computing Group
+    方向与岗位：
+      Software Engineer Intern
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2025.07–2025.08
+    依据：
+      本人站Experience第二段；Kubernetes分布式推理微服务；Spring Boot/Security、Redis/MySQL集群管理和调度API；云metadata同步与telemetry；规模及性能为作者自述
+    证据：
+      https://shufengc.dev/
+    boundary：
+      本人自述；当前开源版本不自动代表求职作品
+    企业独立验证：
+      否
+  - 公司：
+      Stripe · Cash & Banking Infrastructure
+    方向与岗位：
+      Software Engineer Intern
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2026.05–2026.08
+    依据：
+      本人站Experience第一段；Java/gRPC的SFTP配置与onboarding接口、validation/feature flags与SSH host-key服务
+    证据：
+      https://shufengc.dev/
+    boundary：
+      本人自述；当前开源版本不自动代表求职作品
+    企业独立验证：
+      否
+技术栈：
+  - Java
+  - Spring Boot
+  - Spring Security
+  - Redis
+  - MySQL
+  - Kubernetes
+  - gRPC
+本人项目与经历描述：
+  - name：
+      Distributed Key-Value Store
+    仓库：
+      shufengc/distributed-kv-store
+    sha：
+      d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+    原始来源：
+      https://github.com/shufengc/distributed-kv-store/tree/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+    类别：
+      TinyKV课程框架上的分布式系统实现
+    ownership：
+      README Acknowledgements明确基于PingCAP Talent Plan/TinyKV；网络模拟/测试框架/协议定义来自课程，作者自述实现Raft、raftstore、scheduler、事务；本轮仅核2核心文件存在实质实现，未逐diff审定全部独立贡献
+    许可标识：
+      LICENSE原文Apache-2.0已读取，不能把继承框架所有源码算个人原创
+    findings：
+      - 状态：
+          已见实现
+        claim：
+          raft.go包含候选/Leader切换、投票、AppendEntries和多数派提交索引逻辑
+        file：
+          raft/raft.go
+        ranges：
+          - L253–333
+          - L488–532
+          - L722–952
+      - 状态：
+          已见实现
+        claim：
+          事务handler包含local latches、write conflict/lock检查、Prewrite的value/lock写入、Commit的write record与释放锁
+        file：
+          kv/server/server.go
+        ranges：
+          - L87–209
+      - 状态：
+          未核
+        claim：
+          未运行课程测试；未证明所有partition场景linearizability或独立实现比例；当前固定版本不自动代表2025腾讯投递时项目
+    阅读范围：
+      后端进阶选读：先看课程任务边界，再看Raft quorum提交与MVCC prewrite/commit；不作为普通业务闭环/大厂SSP充分条件
+    附件：
+      name：
+        Distributed-Key-Value-Store
+      仓库：
+        shufengc/distributed-kv-store
+      sha：
+        d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+      许可标识：
+        Apache-2.0原文已读并原样保留；包含TinyKV继承框架，不能把全包认定为个人原创
+      类别：
+        TinyKV课程框架上的进阶系统实现，未运行测试
+      source_url：
+        https://codeload.github.com/shufengc/distributed-kv-store/zip/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+      source_http_status：
+        200
+      original_archive_sha256：
+        f52afbfd4b2692aebb25235be28f9baa502ff7d2c2f57d23ca3afd457d7e6529
+      original_archive_bytes：
+        1276660
+      original_archive_members：
+        351
+      original_crc：
+        全部成员通过CRC
+      original_saved：
+        否
+      archive_type：
+        固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP
+      execution：
+        未运行、未构建、未安装依赖、未调用模型/API
+      license_sha256：
+        1d1b1e95c6f5345385b0127350cbda7bdb8c1c5d676fc93380bae5583fbffcdf
+      license_unchanged：
+        是
+      retained_text_members：
+        254
+      omitted_members：
+        - path：
+            doc/imgs/balance1.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            doc/imgs/balance2.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            doc/imgs/keyspace.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            doc/imgs/multiraft.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            doc/imgs/overview.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            doc/imgs/region.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      modified_text_members：
+        - path：
+            proto/include/google/protobuf/compiler/plugin.proto
+          email_pattern_replacements：
+            1
+          phone_pattern_replacements：
+            0
+          范围：
+            涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值
+        - path：
+            proto/include/google/protobuf/descriptor.proto
+          email_pattern_replacements：
+            2
+          phone_pattern_replacements：
+            0
+          范围：
+            涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值
+      credential_scan：
+        UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。
+      contact_scan：
+        除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。
+      functional_limit：
+        继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。
+      local_path：
+        05_项目源码归档/大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip
+      sha256：
+        962e2e97e5e563b1a379890069aba448cfed03ef80019f5072a9de71204daa93
+      bytes：
+        636645
+      members：
+        255
+      crc：
+        全部成员通过CRC
+      post_archive_privacy_scan：
+        通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息
+  - name：
+      QuantHarbor
+    仓库：
+      shufengc/QuantHarbor
+    sha：
+      f0d6380e9846f84f10be5f284fec40d42cfb34f9
+    原始来源：
+      https://github.com/shufengc/QuantHarbor/tree/f0d6380e9846f84f10be5f284fec40d42cfb34f9
+    类别：
+      多Agent金融研究与RAG应用；当前静态风险需先核
+    ownership：
+      主页直接列为本人项目；迁移文档明确移除lecture目录运行依赖、从course-style文档转product-style文档；课程/外部框架原始来源与具体独立贡献尚未完整核清
+    许可标识：
+      LICENSE原文GNU GPL v3已读取；未归档运行环境或API密钥
+    findings：
+      - 状态：
+          已见实现
+        claim：
+          BaseAgent保存/恢复conversation、round、tool dependencies和executor state；迭代上限与每轮checkpoint
+        file：
+          src/agents/base_agent.py
+        ranges：
+          - L95–224
+          - L302–344
+          - L447–510
+      - 状态：
+          已见实现
+        claim：
+          异步代码executor执行模型代码并捕获stdout/stderr；提供完整Python builtins与os/sys，代码在线程池exec
+        file：
+          src/utils/code_executor_async.py
+        ranges：
+          - L25–73
+          - L253–307
+      - 状态：
+          静态风险
+        claim：
+          所谓sandbox没有在核读文件中建立进程/文件系统/网络权限隔离；不能据此称安全执行沙箱
+        file：
+          src/utils/code_executor_async.py
+        ranges：
+          - L25–73
+          - L266–279
+      - 状态：
+          静态风险
+        claim：
+          RAG pipeline导入src.agents.analyst_agent/retriever_agent/writer_agent，固定树实际在src_rag/agents；Web backend导入src.memory，固定树没有该模块。属于可直接核对的入口路径不一致，未执行验证
+        file：
+          src_rag/core/report_pipeline.py + demo/backend/app.py
+        ranges：
+          - report_pipeline.py L6–8
+          - app.py L20–23
+        tree_evidence：
+          重点补证_quant_tree.json，recursive树truncated=false
+      - 状态：
+          已见实现
+        claim：
+          LLMRouter捕获primary异常后尝试fallback；没有据此证明断点任务幂等/重试不重复外部副作用
+        file：
+          src_rag/core/llm_client.py
+        ranges：
+          - L60–66
+      - 状态：
+          文档宣称/未核
+        claim：
+          README宣称138PDF/4577页/8309chunks、长报告、citation tracing等；未复现，无独立任务成功率/成本/延迟benchmark；固定树未见单元/集成测试文件，smoke_test_providers.py仅可算provider脚本
+    阅读范围：
+      待核/反例选读：状态持久化与真实权限隔离要分开；先排入口导入风险，再判断完整工程可复现性。不能当已验证成熟Agent项目推荐
+    附件：
+      name：
+        QuantHarbor
+      仓库：
+        shufengc/QuantHarbor
+      sha：
+        f0d6380e9846f84f10be5f284fec40d42cfb34f9
+      许可标识：
+        GNU GPL version 3原文已读并原样保留
+      类别：
+        Agent风险/反例选读，导入路径缺口与代码执行权限边界未解决，未称成熟可复现Agent
+      source_url：
+        https://codeload.github.com/shufengc/QuantHarbor/zip/f0d6380e9846f84f10be5f284fec40d42cfb34f9
+      source_http_status：
+        200
+      original_archive_sha256：
+        0b9dea52956bb096f95d4969a07a945a3fe5a4cdd917bb71f0a7b1988243f146
+      original_archive_bytes：
+        4352532
+      original_archive_members：
+        149
+      original_crc：
+        全部成员通过CRC
+      original_saved：
+        否
+      archive_type：
+        固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP
+      execution：
+        未运行、未构建、未安装依赖、未调用模型/API
+      license_sha256：
+        230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809
+      license_unchanged：
+        是
+      retained_text_members：
+        100
+      omitted_members：
+        - path：
+            assets/architecture.jpg
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            assets/quant-front-page.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            assets/quant-main-page.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            assets/quantharbor-logo-mini.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            assets/quantharbor-logo.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            demo/backend/template/report_template.docx
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            demo/frontend/public/quantharbor-logo-v2.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            demo/frontend/public/quantharbor-logo-v3.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            demo/frontend/public/quantharbor-logo.png
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        - path：
+            src/template/report_template.docx
+          理由：
+            媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+      modified_text_members：
+        —
+      credential_scan：
+        UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。
+      contact_scan：
+        除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。
+      functional_limit：
+        继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。
+      local_path：
+        05_项目源码归档/大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip
+      sha256：
+        a52c338de6ea9e35c180c1ab36cb825af5833694d969322c30439254bdf201f4
+      bytes：
+        281395
+      members：
+        101
+      crc：
+        全部成员通过CRC
+      post_archive_privacy_scan：
+        通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息
+  - name：
+      Patton Food / OnlineOrder
+    原始来源：
+      https://github.com/shufengc/OnlineOrder
+    boundary：
+      README明确each team member deployment for grading与coursework用途；团队课程业务项目，未核具体个人贡献，不扩为独立推荐
+  - name：
+      PDF-AI
+    原始来源：
+      https://github.com/shufengc/pdfai
+    boundary：
+      README Reference明确来源Laioffer Full Stack课程Next AI并扩展PDF对话；基础RAG课程扩展，不满足成熟非toy Agent依据，不扩推荐
+来源归纳：
+  同一主页Projects中的GitHub按钮逐项直接链接以下具体仓库；关系强于仅同账号，但不能据此证明求职时使用或项目促成录用
+complete_redacted_cv_file_received：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  是
+personal_source_code_verified：
+  是
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://shufengc.dev/
+      direct_basis：
+        Tencent · Cloud Computing Group Software Engineer Intern 2025.07–2025.08
+      gap：
+        任职/职责限本人自述；无SSP
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://shufengc.dev/
+      direct_basis：
+        Stripe · Cash & Banking Infrastructure Software Engineer Intern 2026.05–2026.08
+      gap：
+        任职/职责限本人自述；无SSP
+      直接关系：
+        直接点名
+  profile：
+    - 原始来源：
+        https://shufengc.dev/
+      direct_basis：
+        本人专业主页履历片段，缺完整教育模块且未发现CV/PDF直链
+      gap：
+        不是投递版本；缺完整教育模块
+      直接关系：
+        直接点名
+  project：
+    - 原始来源：
+        https://github.com/shufengc/distributed-kv-store/tree/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+      direct_basis：
+        Distributed Key-Value Store；README Acknowledgements明确基于PingCAP Talent Plan/TinyKV；网络模拟/测试框架/协议定义来自课程，作者自述实现Raft、raftstore、scheduler、事务；本轮仅核2核心文件存在实质实现，未逐diff审定全部独立贡献
+      gap：
+        课程/复用与当前版本边界逐项说明，未运行
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://github.com/shufengc/QuantHarbor/tree/f0d6380e9846f84f10be5f284fec40d42cfb34f9
+      direct_basis：
+        QuantHarbor；主页直接列为本人项目；迁移文档明确移除lecture目录运行依赖、从course-style文档转product-style文档；课程/外部框架原始来源与具体独立贡献尚未完整核清
+      gap：
+        课程/复用与当前版本边界逐项说明，未运行
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://github.com/shufengc/OnlineOrder
+      direct_basis：
+        Patton Food / OnlineOrder；README明确each team member deployment for grading与coursework用途；团队课程业务项目，未核具体个人贡献，不扩为独立推荐
+      gap：
+        README明确each team member deployment for grading与coursework用途；团队课程业务项目，未核具体个人贡献，不扩为独立推荐
+      直接关系：
+        直接点名
+    - 原始来源：
+        https://github.com/shufengc/pdfai
+      direct_basis：
+        PDF-AI；README Reference明确来源Laioffer Full Stack课程Next AI并扩展PDF对话；基础RAG课程扩展，不满足成熟非toy Agent依据，不扩推荐
+      gap：
+        README Reference明确来源Laioffer Full Stack课程Next AI并扩展PDF对话；基础RAG课程扩展，不满足成熟非toy Agent依据，不扩推荐
+      直接关系：
+        直接点名
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        未定位本人公开求职面经
+      gap：
+        保持缺口
+      直接关系：
+        未建立
+局限与静态风险：
+  - 履历片段不计完整CV
+  - 无SSP档位/本人面经
+  - 未企业独立核验
+  - 4仓为主页直接点名，仍不能将当前项目倒推录用因果
+  - 没有把课程和团队框架全部认定个人原创
+阅读建议：
+  精读实习职责及工程机制；公开源码、课程框架、内部项目分别核对，不推导录用因果。
+source_record：
+  key：
+    shufengc
+  作者：
+    Shufeng (Alex) Chen
+  home：
+    https://shufengc.dev/
+  source_status：
+    200
+  履历材料形式：
+    本人专业主页履历片段，缺完整教育模块且未发现CV/PDF直链
+  is_full_resume：
+    否
+  方向：
+    后端应用工程；主页同时列研究经历，不因此归为博士算法对照
+  招聘类型：
+    实习
+  逐项结果与档位：
+    - 公司：
+        Tencent · Cloud Computing Group
+      方向与岗位：
+        Software Engineer Intern
+      time：
+        2025.07–2025.08
+      依据：
+        本人站Experience第二段
+      content：
+        Kubernetes分布式推理微服务；Spring Boot/Security、Redis/MySQL集群管理和调度API；云metadata同步与telemetry；规模及性能为作者自述
+    - 公司：
+        Stripe · Cash & Banking Infrastructure
+      方向与岗位：
+        Software Engineer Intern
+      time：
+        2026.05–2026.08
+      依据：
+        本人站Experience第一段
+      content：
+        Java/gRPC的SFTP配置与onboarding接口、validation/feature flags与SSH host-key服务
+  档位：
+    未披露
+  enterprise_verified：
+    否
+  interview：
+    未核／无
+  direct_project_relation：
+    同一主页Projects中的GitHub按钮逐项直接链接以下具体仓库；关系强于仅同账号，但不能据此证明求职时使用或项目促成录用
+  本人项目与经历描述：
+    - name：
+        Distributed Key-Value Store
+      仓库：
+        shufengc/distributed-kv-store
+      sha：
+        d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+      原始来源：
+        https://github.com/shufengc/distributed-kv-store/tree/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+      类别：
+        TinyKV课程框架上的分布式系统实现
+      ownership：
+        README Acknowledgements明确基于PingCAP Talent Plan/TinyKV；网络模拟/测试框架/协议定义来自课程，作者自述实现Raft、raftstore、scheduler、事务；本轮仅核2核心文件存在实质实现，未逐diff审定全部独立贡献
+      许可标识：
+        LICENSE原文Apache-2.0已读取，不能把继承框架所有源码算个人原创
+      findings：
+        - 状态：
+            已见实现
+          claim：
+            raft.go包含候选/Leader切换、投票、AppendEntries和多数派提交索引逻辑
+          file：
+            raft/raft.go
+          ranges：
+            - L253–333
+            - L488–532
+            - L722–952
+        - 状态：
+            已见实现
+          claim：
+            事务handler包含local latches、write conflict/lock检查、Prewrite的value/lock写入、Commit的write record与释放锁
+          file：
+            kv/server/server.go
+          ranges：
+            - L87–209
+        - 状态：
+            未核
+          claim：
+            未运行课程测试；未证明所有partition场景linearizability或独立实现比例；当前固定版本不自动代表2025腾讯投递时项目
+      阅读范围：
+        后端进阶选读：先看课程任务边界，再看Raft quorum提交与MVCC prewrite/commit；不作为普通业务闭环/大厂SSP充分条件
+      附件：
+        name：
+          Distributed-Key-Value-Store
+        仓库：
+          shufengc/distributed-kv-store
+        sha：
+          d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+        许可标识：
+          Apache-2.0原文已读并原样保留；包含TinyKV继承框架，不能把全包认定为个人原创
+        类别：
+          TinyKV课程框架上的进阶系统实现，未运行测试
+        source_url：
+          https://codeload.github.com/shufengc/distributed-kv-store/zip/d7132bba33fb2aec2ccd802c357dc1cd1f74fb5e
+        source_http_status：
+          200
+        original_archive_sha256：
+          f52afbfd4b2692aebb25235be28f9baa502ff7d2c2f57d23ca3afd457d7e6529
+        original_archive_bytes：
+          1276660
+        original_archive_members：
+          351
+        original_crc：
+          全部成员通过CRC
+        original_saved：
+          否
+        archive_type：
+          固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP
+        execution：
+          未运行、未构建、未安装依赖、未调用模型/API
+        license_sha256：
+          1d1b1e95c6f5345385b0127350cbda7bdb8c1c5d676fc93380bae5583fbffcdf
+        license_unchanged：
+          是
+        retained_text_members：
+          254
+        omitted_members：
+          - path：
+              doc/imgs/balance1.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              doc/imgs/balance2.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              doc/imgs/keyspace.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              doc/imgs/multiraft.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              doc/imgs/overview.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              doc/imgs/region.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        modified_text_members：
+          - path：
+              proto/include/google/protobuf/compiler/plugin.proto
+            email_pattern_replacements：
+              1
+            phone_pattern_replacements：
+              0
+            范围：
+              涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值
+          - path：
+              proto/include/google/protobuf/descriptor.proto
+            email_pattern_replacements：
+              2
+            phone_pattern_replacements：
+              0
+            范围：
+              涵盖开发者署名和测试合成邮件等全部邮箱模式；不记录原始值
+        credential_scan：
+          UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。
+        contact_scan：
+          除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。
+        functional_limit：
+          继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。
+        local_path：
+          05_项目源码归档/大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip
+        sha256：
+          962e2e97e5e563b1a379890069aba448cfed03ef80019f5072a9de71204daa93
+        bytes：
+          636645
+        members：
+          255
+        crc：
+          全部成员通过CRC
+        post_archive_privacy_scan：
+          通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息
+    - name：
+        QuantHarbor
+      仓库：
+        shufengc/QuantHarbor
+      sha：
+        f0d6380e9846f84f10be5f284fec40d42cfb34f9
+      原始来源：
+        https://github.com/shufengc/QuantHarbor/tree/f0d6380e9846f84f10be5f284fec40d42cfb34f9
+      类别：
+        多Agent金融研究与RAG应用；当前静态风险需先核
+      ownership：
+        主页直接列为本人项目；迁移文档明确移除lecture目录运行依赖、从course-style文档转product-style文档；课程/外部框架原始来源与具体独立贡献尚未完整核清
+      许可标识：
+        LICENSE原文GNU GPL v3已读取；未归档运行环境或API密钥
+      findings：
+        - 状态：
+            已见实现
+          claim：
+            BaseAgent保存/恢复conversation、round、tool dependencies和executor state；迭代上限与每轮checkpoint
+          file：
+            src/agents/base_agent.py
+          ranges：
+            - L95–224
+            - L302–344
+            - L447–510
+        - 状态：
+            已见实现
+          claim：
+            异步代码executor执行模型代码并捕获stdout/stderr；提供完整Python builtins与os/sys，代码在线程池exec
+          file：
+            src/utils/code_executor_async.py
+          ranges：
+            - L25–73
+            - L253–307
+        - 状态：
+            静态风险
+          claim：
+            所谓sandbox没有在核读文件中建立进程/文件系统/网络权限隔离；不能据此称安全执行沙箱
+          file：
+            src/utils/code_executor_async.py
+          ranges：
+            - L25–73
+            - L266–279
+        - 状态：
+            静态风险
+          claim：
+            RAG pipeline导入src.agents.analyst_agent/retriever_agent/writer_agent，固定树实际在src_rag/agents；Web backend导入src.memory，固定树没有该模块。属于可直接核对的入口路径不一致，未执行验证
+          file：
+            src_rag/core/report_pipeline.py + demo/backend/app.py
+          ranges：
+            - report_pipeline.py L6–8
+            - app.py L20–23
+          tree_evidence：
+            重点补证_quant_tree.json，recursive树truncated=false
+        - 状态：
+            已见实现
+          claim：
+            LLMRouter捕获primary异常后尝试fallback；没有据此证明断点任务幂等/重试不重复外部副作用
+          file：
+            src_rag/core/llm_client.py
+          ranges：
+            - L60–66
+        - 状态：
+            文档宣称/未核
+          claim：
+            README宣称138PDF/4577页/8309chunks、长报告、citation tracing等；未复现，无独立任务成功率/成本/延迟benchmark；固定树未见单元/集成测试文件，smoke_test_providers.py仅可算provider脚本
+      阅读范围：
+        待核/反例选读：状态持久化与真实权限隔离要分开；先排入口导入风险，再判断完整工程可复现性。不能当已验证成熟Agent项目推荐
+      附件：
+        name：
+          QuantHarbor
+        仓库：
+          shufengc/QuantHarbor
+        sha：
+          f0d6380e9846f84f10be5f284fec40d42cfb34f9
+        许可标识：
+          GNU GPL version 3原文已读并原样保留
+        类别：
+          Agent风险/反例选读，导入路径缺口与代码执行权限边界未解决，未称成熟可复现Agent
+        source_url：
+          https://codeload.github.com/shufengc/QuantHarbor/zip/f0d6380e9846f84f10be5f284fec40d42cfb34f9
+        source_http_status：
+          200
+        original_archive_sha256：
+          0b9dea52956bb096f95d4969a07a945a3fe5a4cdd917bb71f0a7b1988243f146
+        original_archive_bytes：
+          4352532
+        original_archive_members：
+          149
+        original_crc：
+          全部成员通过CRC
+        original_saved：
+          否
+        archive_type：
+          固定提交的源码文本派生归档，去联系字段并省略媒体/二进制；不是未经修改的完整原ZIP
+        execution：
+          未运行、未构建、未安装依赖、未调用模型/API
+        license_sha256：
+          230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809
+        license_unchanged：
+          是
+        retained_text_members：
+          100
+        omitted_members：
+          - path：
+              assets/architecture.jpg
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              assets/quant-front-page.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              assets/quant-main-page.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              assets/quantharbor-logo-mini.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              assets/quantharbor-logo.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              demo/backend/template/report_template.docx
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              demo/frontend/public/quantharbor-logo-v2.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              demo/frontend/public/quantharbor-logo-v3.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              demo/frontend/public/quantharbor-logo.png
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+          - path：
+              src/template/report_template.docx
+            理由：
+              媒体/二进制/缓存数据不纳入源码文本包，未下载依赖/模型/外部数据
+        modified_text_members：
+          —
+        credential_scan：
+          UTF-8文本扫描常见API令牌/私钥正文签名；疑似命中文件整文件排除。扫描不等于完整安全审计。非示例环境/凭据文件不纳入。
+        contact_scan：
+          除GitHub SSH服务git@github.com外，全部邮箱样式转唯一example.invalid占位；手机号模式替换。原始未脱敏ZIP不落盘。
+        functional_limit：
+          继承课程/框架边界及静态风险见发现JSON；联系字段替换及媒体/二进制省略可能影响可构建性，未验证可运行。复现须自行核对固定上游原版。
+        local_path：
+          05_项目源码归档/大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip
+        sha256：
+          a52c338de6ea9e35c180c1ab36cb825af5833694d969322c30439254bdf201f4
+        bytes：
+          281395
+        members：
+          101
+        crc：
+          全部成员通过CRC
+        post_archive_privacy_scan：
+          通过：无原始邮箱/手机号模式、无所扫描凭据签名；元数据固定且无原始ZIP信息
+    - name：
+        Patton Food / OnlineOrder
+      原始来源：
+        https://github.com/shufengc/OnlineOrder
+      boundary：
+        README明确each team member deployment for grading与coursework用途；团队课程业务项目，未核具体个人贡献，不扩为独立推荐
+    - name：
+        PDF-AI
+      原始来源：
+        https://github.com/shufengc/pdfai
+      boundary：
+        README Reference明确来源Laioffer Full Stack课程Next AI并扩展PDF对话；基础RAG课程扩展，不满足成熟非toy Agent依据，不扩推荐
+  局限：
+    - 履历片段不计完整CV
+    - 无SSP档位/本人面经
+    - 未企业独立核验
+    - 4仓为主页直接点名，仍不能将当前项目倒推录用因果
+    - 没有把课程和团队框架全部认定个人原创
+  source_url：
+    https://shufengc.dev/
+未建立或未核的关系：
+  - 任职/职责限本人自述；无SSP
+  - 不是投递版本；缺完整教育模块
+  - 课程/复用与当前版本边界逐项说明，未运行
+  - README明确each team member deployment for grading与coursework用途；团队课程业务项目，未核具体个人贡献，不扩为独立推荐
+  - README Reference明确来源Laioffer Full Stack课程Next AI并扩展PDF对话；基础RAG课程扩展，不满足成熟非toy Agent依据，不扩推荐
+  - 保持缺口

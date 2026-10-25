@@ -1,0 +1,130 @@
+[
+  {
+    "q": "site:github.com Azurer0121 SSP",
+    "status": 500,
+    "results": []
+  },
+  {
+    "q": "github SSP 2025 后端 项目",
+    "status": 200,
+    "results": [
+      {
+        "title": "",
+        "href": "",
+        "snippet": "Github https://github.com › chenhaiwei86 › ssp-geek-claw-agent GitHub - chenhaiwei86/ssp-geek-claw-agent: 一个基于 Spring Boot ... 项目 同时用了 Lombok（生成 getter/setter/builder）和 MapStruct（生成 *ConvertorImpl）。 命令行 mvn 两个都会跑；IDEA 内置编译器默认只能让 Lombok 工作，所以建议直接委托给 Maven。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "Github https://github.com › a1156698162 › ssp_oj_backend GitHub - a1156698162/ssp_oj_backend: oj后端系统 SpringBoot 项目 初始模板 作者： 程序员鱼皮 仅分享于 编程导航知识星球 基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。 只需 1 分钟即可完成内容网站的 后 端 ！ 大家还可以在此基础上快速开发自己的项目。 [toc]"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "CSDN博客 https://blog.csdn.net › weitingfu › article 后端开发GitHub高星开源项目精选：十大主流技术栈微服务框架与云原生... Apr 11, 2026 · 阅读详情 本文精选了10个在 G it Hub 上高星且实用性强的 后 端 开发相关开源 项目 ，涵盖微服务框架、云原生开发、分布式系统、API网关、消息队列、数据库中间件及DevOps工具等多个技术方向。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "kaiyuanbang.cn https://kaiyuanbang.cn › zh-cn › topic 后端 开源项目 - 开源榜 - kaiyuanbang.cn 开发者交互式学习路线图与技术资源 roadmap.sh 提供面向开发者的交互式学习路线图、文章与资源，覆盖前端、 后 端 、DevOps、数据、云平台、人工智能及软件架构等多个方向，适合按主题规划学习路径。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "博客园 https://www.cnblogs.com › ljbguanli › p 【GitHub热门项目】（2025-11-12） - 详解 - ljbguanli - 博客园 Dec 9, 2025 · 项目 简介： 为忙碌工程师打造的技术面试准备手册，涵盖算法、简历、行为面试等全流程内容，精选核心考点。 核心特性： 特性 1：具备 Grind 75 进阶面试题集，替代传统盲刷 LeetCode 模式。 特性 2：提供算法 cheat sheets、简历优化指南、行为面试高频难题。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "gitcn.org https://gitcn.org › collections › back-end 2026 Github上后端开发开源项目推荐 | GitHub 中文社区 2026 Github 上 后端 开发开源 项目 集合。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "SegmentFault 思否 https://segmentfault.com › a › 1190000047465496 后端 - 2025-12-11 GitHub 热点项目精选 - 个人文章 - SegmentFault ... Dec 11, 2025 · 通过一系列精心设计的教程和实践 项目 ，让学习者能够从基础概念到实际应用逐步掌握 agent 的开发和应用，适合想要踏入人工智能 agent 领域的新人，为他们提供了一个系统的学习路径和实践平台。"
+      }
+    ]
+  },
+  {
+    "q": "github SSP 2024 面经 项目",
+    "status": 200,
+    "results": [
+      {
+        "title": "",
+        "href": "",
+        "snippet": "Github https://github.com › Azurer0121 › Obsidan 24届sp、ssp大厂上岸心得.md - GitHub 这是一篇 24 届 sp/ ssp 求职经验分享，内容围绕秋招收获、个人背景、技术栈、 面试 感受、准备时间线、学习资料和学习方式展开。 全文带有很强的个人复盘色彩，重点不是单个岗位 面经 ，而是如何通过实习、八股、面试复盘和训练营资源逐步把书读厚、再读薄。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "Github https://github.com › amusi › AI-Job-Notes GitHub - amusi/AI-Job-Notes: AI算法岗求职攻略（涵盖准备攻略、刷题... 概览 目录 1 校招时间表 2 准备攻略 3 AI面经和刷题指南 4 AI算法岗和开发岗求职群和内推 6 AI类公司清单（以CV岗为主） 7 往届AI算法岗薪资情况 AI算法岗求职攻略：涵盖校招时间表、准备攻略、刷题指南、内推、AI公司清单和答疑等资料。 AI算法岗方向涉及：深度学习、机器学习、计算机视觉、自然语言处理、图像处理、自动驾驶、元宇宙、AIGC、SLAM等。 See full list on github .com 1 校招时间表 2 准备攻略 3 AI 面经和刷题指南 4 AI算法岗和开发岗求职群（内推） 5 简历模板 6 AI 类公司清单（以CV岗为主） 7 往届AI算法岗薪资情况 8 答疑（含130个问答） See full list on github .com 1.1 暑期实习 2024年2月~5月：暑期实习。\n实习一般分成两种：\n•日常实习\n•暑期实习日常实习：日常实习是任何时候都可以找的，通常是根据具体部门的需求，由公司HR、部门主管或者部门员工发布招聘消息，相对较为零散也比较灵活。\n暑期实习：很多公司，特别是大公司（如BAT等大厂），都会组织专项的暑期实习生招聘活动。一方面是针对在校学生的情况（很多学生只有暑期才有假期，或者导师暑假才放人），另一方面就是为了秋季校招（大规模招聘）吸引人才。暑期实习具有很大的意义，对学生来说，最直接的好处就是转正机会。暑期实习，一般6月底左右实习入职（也可以根据自己的时间，提前入职），一般8月底或9月份会有专项暑期实习答辩，根据综合表现，答辩通过后就可以基本结束秋招了。\n注：这里建议在进入公司参加暑期实习的期间，也要参加秋招提前批和秋招正式批，并多投递一些公司，即使在实习，所谓的很忙，没时间准备秋招了，那也要多投。暑期实习的另一个好处是增加可贵的实习经验，简历会好看很多。 1.2 秋招提前批 2024年6月~8月：秋招提前批（神仙打架）\n每年打响秋招第一枪的基本是vivo或者大疆(DJI)科技，然后BAT等大厂居多是7月份开始。这时候的校招，绝大部分都是内推/提前批，而不是正式批，大家一定要珍惜这个时间点：6月~8月。虽然我调侃着说神仙打架，但还是要注意这时候性价比特别高。一方面是薪资普遍高，通常一些SP/SSP Offer都是这个节点发出来的，另一方面是投递的人数还不是很多，因为有些人没有意识到这个提前批的重要性，老想着多准备一点，到秋招正式批再大干一场。\n需要注意的是：参与秋招提前批的大佬特别多，同时岗位hc并不多（因为企业要考虑正式批的情况，会控制招聘人数），所以我把秋招提前批比作：神仙打架。另外，秋招提前批大多以内推为主，后面章节中我会说到如何获取招聘信息以及如何内推。\n注：提取批挂了，正式"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "知乎专栏 https://zhuanlan.zhihu.com › p › 23907591319 2025 届搜广推算法方向求职历程（SSP、头部计划） Feb 15, 2025 · 搜广推没有论文也ok，把实习刷出来，第一段实习比较难找，因为各方面（机器学习八股、 经典算法 、搜广推基础、 项目 学习、力扣）都要准备，但是只要第一段找到实习，后面刷第二段、第三段就很简单了。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "知乎专栏 https://zhuanlan.zhihu.com › p › 17138007124 GitHub项目推荐--适合练手的13个C++开源项目 - 知乎 不少同学学完C++和Linux后不知道做什么 项目 ，所以很多同学都去做webserver，其实大家可以改进下 webserver项目，比如实现一个文件服务器支持文件上传下载，后续可以再添加注册/登录/个人文件管理/文件分享等等功能，这样就可以写到简历里。 项目 地址："
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "牛客网 https://www.nowcoder.com › discuss › 667800837791461376 我是怎么拿到中兴字节华为等10个SSP offer的_牛客网 先介绍本人bg：某985本硕自动化相关专业，研究方向为机器视觉与模式识别。共发表2篇论文（一篇IEEE顶刊），2项发明专利，2项软著，参与国内知名竞赛（华为杯智能设计竞赛、中国高校计算机大赛、全国大学生数学建模竞赛、挑战杯等）获6项国家级证书和15项省市级证书，并获得10多项奖学金 ..."
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "CSDN博客 https://blog.csdn.net › 2401_84139610 › article 面试题（更新中），github面经_github前端面试题-CSDN博客 Apr 14, 2024 · 区别 3：link 是 XHTML 标签，无兼容问题；@import 是在 CSS2.1 提出的，低版本的浏览器不支持。 区别 4：link 支持使用Javascript 控制 DOM 去改变样式；而@import 不支持。 写 Vue 项目 时为什么要在列表组件中写 key，其作用是什么？ 验证为什么需要key案例 (独一无二的key属性)"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "稀土掘金 https://juejin.cn › post › 6955680987653079054 终于不用愁了，GitHub 上的这些面试题项目我给你找好了。介绍了 27 个... Apr 27, 2021 · 介绍了 27 个 GitHub 上关于 面试题的项目 ，主要做了个描述以及通过思维导图的方式将每个项目进一步的拆解，方便大家能第一时间了解该开源项目主要所包含哪方面的 面 试题知识点，从而提高查阅的效率。"
+      }
+    ]
+  },
+  {
+    "q": "github SSP 拿下 本人 开源",
+    "status": 200,
+    "results": [
+      {
+        "title": "",
+        "href": "",
+        "snippet": "Github https://github.com › kenuoseclab › zzpay GitHub - kenuoseclab/zzpay: ZZPay - 开源个人收款系统，支持支付宝... ZZPay个人收款支付系统 支持支付宝、微信收款码，资金直接到达本人账号，免签通道个人移动端自动回调，不需提现，不需备案，完全免费，个人收款0风险方案。 服务端和安卓监控端全部 开源 ，无后门更安全，二次开发方便"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "Github https://github.com › sspsec › Spear GitHub - sspsec/Spear: 基于GO walis框架的安全渗透工具箱框架 基于GO walis框架的安全渗透工具箱框架. Contribute to s sp sec/Spear development by creating an account on Git Hub ."
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "CSDN博客 https://blog.csdn.net › gitblog_00082 › article 探索Intuit的 SSP：一个强大的源代码安全扫描平台-CSDN博客 Jan 1, 2026 · 在软件开发过程中，源代码的安全性是至关重要的。 Intuit的 SSP （Source Code Security Scanner Platform）是一个 开源 项目，旨在帮助开发者检测并修复潜在的安全漏洞。 在这篇文章中，我们将深入探讨该项目的技术细节、应用场景和独特之处。 项目简介"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "稀土掘金 https://juejin.cn › post › 7671011908346462258 LoopX： 让 AI Agent 团队把 200 小时长程任务不跑偏 ｜ SSP Github D... Aug 7, 2026 · 你让 Agent 去修一个 开源 项目里的一串 issue。 传统方式是开一个新会话，修完一个再开下一个，上下文不断重置。 用 LoopX：每个 issue 是一个 bounded slice，P0 是当前要交付的 focused PR，P1 是仓库知识和 terminal resume，evidence 记录 merge/open 结果和可复用发现。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "知乎专栏 https://zhuanlan.zhihu.com › p › 2066841978499863846 OpenWork：把 AI Agent 工作台 从订阅制变成开源 + 本地的革命 | SSP ... Jul 31, 2026 · 但它在 开源 、本地化、团队共享、模型自由这四个维度上建立了不可复制的竞争优势。 它的真正价值不是\"免费版的 Cowork\"，而是提供了一个开放的基础设施——让 AI 代理工作流像代码一样可以被创建、分享、复用和审计。"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "牛客网 https://www.nowcoder.com › feed › main 分享帮我拿到字节ssp的开源项目（附对应文档）_牛客网 Git Hub 链接： https:// git hub .com/s-zx/edgeFlow.js 点star之后可以私聊我发你文档，里面会有我之前是如何将这个项目写在简历上的，以及面试的准备文档 PS：由于牛客网我很少看，可以xhs私信我：码农烧烤"
+      },
+      {
+        "title": "",
+        "href": "",
+        "snippet": "CSDN博客 https://blog.csdn.net › weixin_46946948 › article OpenWork：把 AI Agent 工作台 从订阅制变成开源 + 本地的革命 | SSP ... Aug 1, 2026 · OpenWork是一个MIT协议 开源 的AI Agent工作台，支持跨工具工作流共享、人在回路可视化审计、50+模型自由切换（含Ollama本地部署）、技能市场生态及企业级私有化部署。"
+      }
+    ]
+  }
+]

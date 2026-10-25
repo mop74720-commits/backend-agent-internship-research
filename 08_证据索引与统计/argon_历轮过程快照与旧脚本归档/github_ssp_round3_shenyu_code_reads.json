@@ -1,0 +1,430 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/apache/shenyu/e63d4b366d0d0eb2c7cea87e4b4cf0c711645bcd/shenyu-integrated-test/shenyu-integrated-test-https/src/test/java/org/apache/shenyu/integrated/test/https/Oauth2PluginTest.java",
+    "status": 200,
+    "total_lines": 51,
+    "read_scope": "整文件静态阅读；未运行",
+    "body_excerpt": [
+      {
+        "line": 19,
+        "text": ""
+      },
+      {
+        "line": 20,
+        "text": "import org.apache.shenyu.common.enums.PluginEnum;"
+      },
+      {
+        "line": 21,
+        "text": "import org.apache.shenyu.integratedtest.common.AbstractPluginDataInit;"
+      },
+      {
+        "line": 22,
+        "text": "import org.apache.shenyu.integratedtest.common.helper.HttpHelper;"
+      },
+      {
+        "line": 23,
+        "text": "import org.junit.jupiter.api.BeforeEach;"
+      },
+      {
+        "line": 24,
+        "text": "import org.junit.jupiter.api.Test;"
+      },
+      {
+        "line": 25,
+        "text": ""
+      },
+      {
+        "line": 26,
+        "text": "import java.io.IOException;"
+      },
+      {
+        "line": 27,
+        "text": "import java.util.HashMap;"
+      },
+      {
+        "line": 28,
+        "text": "import java.util.Map;"
+      },
+      {
+        "line": 29,
+        "text": "import java.util.concurrent.ExecutionException;"
+      },
+      {
+        "line": 30,
+        "text": "import java.util.concurrent.Future;"
+      },
+      {
+        "line": 31,
+        "text": ""
+      },
+      {
+        "line": 32,
+        "text": "import static org.hamcrest.MatcherAssert.assertThat;"
+      },
+      {
+        "line": 33,
+        "text": "import static org.hamcrest.Matchers.is;"
+      },
+      {
+        "line": 34,
+        "text": "import static org.junit.jupiter.api.Assertions.assertNotNull;"
+      },
+      {
+        "line": 35,
+        "text": ""
+      },
+      {
+        "line": 36,
+        "text": "public class Oauth2PluginTest extends AbstractPluginDataInit {"
+      },
+      {
+        "line": 37,
+        "text": "    "
+      },
+      {
+        "line": 38,
+        "text": "    @BeforeEach"
+      },
+      {
+        "line": 39,
+        "text": "    public void setup() throws IOException {"
+      },
+      {
+        "line": 40,
+        "text": "        String pluginResult = initPlugin(PluginEnum.OAUTH2.getName(), \"\");"
+      },
+      {
+        "line": 41,
+        "text": "        assertThat(pluginResult, is(\"success\"));"
+      },
+      {
+        "line": 42,
+        "text": "    }"
+      },
+      {
+        "line": 43,
+        "text": "    "
+      },
+      {
+        "line": 44,
+        "text": "    @Test"
+      },
+      {
+        "line": 45,
+        "text": "    public void testOauthPass() throws ExecutionException, InterruptedException {"
+      },
+      {
+        "line": 46,
+        "text": "        Map<String, Object> headers = new HashMap<>();"
+      },
+      {
+        "line": 47,
+        "text": "        Future<String> resp = this.getService().submit(() -> HttpHelper.INSTANCE.getHttpService(\"http://localhost:8189/oauth/authorize\", headers, String.class));"
+      },
+      {
+        "line": 48,
+        "text": "        assertNotNull(resp.get());"
+      },
+      {
+        "line": 49,
+        "text": "    }"
+      },
+      {
+        "line": 50,
+        "text": ""
+      },
+      {
+        "line": 51,
+        "text": "}"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/apache/shenyu/55f3147ea54e0963cfed14b1edcb7c8545520ad0/shenyu-integrated-test/shenyu-integrated-test-http/src/test/java/org/apache/shenyu/integrated/test/http/combination/RocketMqPluginTest.java",
+    "status": 200,
+    "total_lines": 88,
+    "read_scope": "整文件静态阅读；未运行",
+    "body_excerpt": [
+      {
+        "line": 19,
+        "text": ""
+      },
+      {
+        "line": 20,
+        "text": "import org.apache.shenyu.common.dto.PluginData;"
+      },
+      {
+        "line": 21,
+        "text": "import org.apache.shenyu.common.enums.PluginEnum;"
+      },
+      {
+        "line": 22,
+        "text": "import org.apache.shenyu.common.utils.GsonUtils;"
+      },
+      {
+        "line": 23,
+        "text": "import org.apache.shenyu.integratedtest.common.AbstractPluginDataInit;"
+      },
+      {
+        "line": 24,
+        "text": "import org.apache.shenyu.plugin.logging.common.entity.ShenyuRequestLog;"
+      },
+      {
+        "line": 25,
+        "text": "import org.apache.shenyu.plugin.logging.rocketmq.config.LogCollectConfig;"
+      },
+      {
+        "line": 26,
+        "text": "import org.apache.shenyu.plugin.logging.rocketmq.client.RocketMQLogCollectClient;"
+      },
+      {
+        "line": 27,
+        "text": "import org.apache.shenyu.plugin.logging.rocketmq.constant.LoggingConstant;"
+      },
+      {
+        "line": 28,
+        "text": "import org.apache.shenyu.plugin.logging.rocketmq.utils.RocketLogCollectConfigUtils;"
+      },
+      {
+        "line": 29,
+        "text": "import org.junit.jupiter.api.AfterAll;"
+      },
+      {
+        "line": 30,
+        "text": "import org.junit.jupiter.api.Assertions;"
+      },
+      {
+        "line": 31,
+        "text": "import org.junit.jupiter.api.BeforeEach;"
+      },
+      {
+        "line": 32,
+        "text": "import org.junit.jupiter.api.Test;"
+      },
+      {
+        "line": 33,
+        "text": ""
+      },
+      {
+        "line": 34,
+        "text": "import java.io.IOException;"
+      },
+      {
+        "line": 35,
+        "text": "import java.util.ArrayList;"
+      },
+      {
+        "line": 36,
+        "text": "import java.util.List;"
+      },
+      {
+        "line": 37,
+        "text": "import java.util.Properties;"
+      },
+      {
+        "line": 38,
+        "text": ""
+      },
+      {
+        "line": 39,
+        "text": "import static org.hamcrest.MatcherAssert.assertThat;"
+      },
+      {
+        "line": 40,
+        "text": "import static org.hamcrest.Matchers.is;"
+      },
+      {
+        "line": 41,
+        "text": ""
+      },
+      {
+        "line": 42,
+        "text": "public final class RocketMqPluginTest extends AbstractPluginDataInit {"
+      },
+      {
+        "line": 43,
+        "text": ""
+      },
+      {
+        "line": 44,
+        "text": "    private final RocketMQLogCollectClient rocketMQLogCollectClient = new RocketMQLogCollectClient();"
+      },
+      {
+        "line": 45,
+        "text": ""
+      },
+      {
+        "line": 46,
+        "text": "    private final PluginData pluginData = new PluginData();"
+      },
+      {
+        "line": 47,
+        "text": ""
+      },
+      {
+        "line": 48,
+        "text": "    private final Properties properties = new Properties();"
+      },
+      {
+        "line": 49,
+        "text": ""
+      },
+      {
+        "line": 50,
+        "text": "    private final List<ShenyuRequestLog> logs = new ArrayList<>();"
+      },
+      {
+        "line": 51,
+        "text": ""
+      },
+      {
+        "line": 52,
+        "text": "    private final ShenyuRequestLog shenyuRequestLog = new ShenyuRequestLog();"
+      },
+      {
+        "line": 53,
+        "text": ""
+      },
+      {
+        "line": 54,
+        "text": "    @BeforeEach"
+      },
+      {
+        "line": 55,
+        "text": "    public void setup() throws IOException {"
+      },
+      {
+        "line": 56,
+        "text": "        String pluginResult = initPlugin(PluginEnum.LOGGING_ROCKETMQ.getName(),"
+      },
+      {
+        "line": 57,
+        "text": "                \"{\\\"topic\\\":\\\"rocket-mq-test\\\", \\\"namesrvAddr\\\":\\\"shenyu-rocketmq:9876\\\", \\\"producerGroup\\\":\\\"shenyu-plugin-logging-rocketmq\\\"}\");"
+      },
+      {
+        "line": 58,
+        "text": "        assertThat(pluginResult, is(\"success\"));"
+      },
+      {
+        "line": 59,
+        "text": "    }"
+      },
+      {
+        "line": 60,
+        "text": ""
+      },
+      {
+        "line": 61,
+        "text": "    @Test"
+      },
+      {
+        "line": 62,
+        "text": "    public void testPass() {"
+      },
+      {
+        "line": 63,
+        "text": "        final LogCollectConfig.GlobalLogConfig globalLogConfig = GsonUtils.getInstance().fromJson(pluginData.getConfig(), LogCollectConfig.GlobalLogConfig.class);"
+      },
+      {
+        "line": 64,
+        "text": "        properties.setProperty(LoggingConstant.TOPIC, \"shenyu-access-logging\");"
+      },
+      {
+        "line": 65,
+        "text": "        properties.setProperty(LoggingConstant.NAMESERVER_ADDRESS, \"shenyu-rocketmq:9876\");"
+      },
+      {
+        "line": 66,
+        "text": "        properties.setProperty(LoggingConstant.PRODUCER_GROUP, \"shenyu-plugin-logging-rocketmq\");"
+      },
+      {
+        "line": 67,
+        "text": ""
+      },
+      {
+        "line": 68,
+        "text": "        shenyuRequestLog.setClientIp(\"0.0.0.0\");"
+      },
+      {
+        "line": 69,
+        "text": "        shenyuRequestLog.setPath(\"org/apache/shenyu/plugin/logging\");"
+      },
+      {
+        "line": 70,
+        "text": "        logs.add(shenyuRequestLog);"
+      },
+      {
+        "line": 71,
+        "text": ""
+      },
+      {
+        "line": 72,
+        "text": "        String msg = \"\";"
+      },
+      {
+        "line": 73,
+        "text": "        RocketLogCollectConfigUtils.setGlobalConfig(globalLogConfig);"
+      },
+      {
+        "line": 74,
+        "text": "        rocketMQLogCollectClient.initProducer(properties);"
+      },
+      {
+        "line": 75,
+        "text": "        try {"
+      },
+      {
+        "line": 76,
+        "text": "            rocketMQLogCollectClient.consume(logs);"
+      },
+      {
+        "line": 77,
+        "text": "        } catch (Exception e) {"
+      },
+      {
+        "line": 78,
+        "text": "            msg = \"false\";"
+      },
+      {
+        "line": 79,
+        "text": "        }"
+      },
+      {
+        "line": 80,
+        "text": "        Assertions.assertEquals(msg, \"\");"
+      },
+      {
+        "line": 81,
+        "text": "        rocketMQLogCollectClient.close();"
+      },
+      {
+        "line": 82,
+        "text": "    }"
+      },
+      {
+        "line": 83,
+        "text": ""
+      },
+      {
+        "line": 84,
+        "text": "    @AfterAll"
+      },
+      {
+        "line": 85,
+        "text": "    public static void clean() throws IOException {"
+      },
+      {
+        "line": 86,
+        "text": "        cleanPluginData(PluginEnum.LOGGING_ROCKETMQ.getName());"
+      },
+      {
+        "line": 87,
+        "text": "    }"
+      },
+      {
+        "line": 88,
+        "text": "}"
+      }
+    ]
+  }
+]

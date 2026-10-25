@@ -1,0 +1,288 @@
+{
+  "research_date": "2026-10-23",
+  "scope": "继续执行原始要求中的B站／知乎专业观点实际阅读；仅新增独立核读结果，不修改主表，不分配OP编号。",
+  "method": {
+    "discovery": "本轮标准web__run已恢复可用。先用平台内主题和作者检索发现新原页，再读取原页。对公开索引中的知乎tardis页面正常GET，不登录、不带个人cookie，不绕过验证码或访问控制。",
+    "reading": "知乎新增2篇原平台公开正文，web分别返回133行、137行，本地正常GET亦取得正文与署名；B站另读1篇175行历史课程目录并排除。只保留归纳、来源定位和摘要值，不再分发全文。",
+    "limits": "搜索摘要和索引摘录不算正文已读。B站视频或公开接口遇412后停止，不下载远程媒体，不把课程介绍当视频评价。"
+  },
+  "coverage": {
+    "new_zhihu_platform_fulltexts_read": 2,
+    "new_zhihu_fulltexts_with_independently_verified_professional_identity": 0,
+    "new_bilibili_videos_watched_or_subtitles_read": 0,
+    "new_bilibili_articles_read": 1,
+    "new_platform_professional_technical_fulltexts_read": 1,
+    "new_zhihu_named_open_source_author_project_commentaries": 1,
+    "technical_reading_depth": "新增技术向1篇是署名开源作者的历史项目推广与产品取舍说明，技术深度有限；并非深度架构评测。",
+    "interpretation": "消除了完全没有知乎本体正文阅读的事实缺口。新增一篇HR自述、一篇历史开源项目推广，不能据此宣布专业观点调研已充分完成。B站实际内容与近期Agent专业者平台正文仍缺。",
+    "new_qualifying_bilibili_professional_articles": 0
+  },
+  "sources": [
+    {
+      "proposed_key": "ZHIHU_HR_RESUME_2605287243",
+      "title": "Java程序员如何写简历？",
+      "platform": "知乎公开正文页",
+      "url": "https://www.zhihu.com/tardis/bd/ans/2605287243",
+      "answer_id": "2605287243",
+      "author": "平平无奇小天才",
+      "author_profile_text": "热衷人力资源的疯狂爱好者。",
+      "source_date_text": "2022-08-02（正文末编辑时间）",
+      "recruitment": "不适用（招聘观点，不是候选人录用记录）",
+      "track": "后端",
+      "recent_status": "历史观点",
+      "identity_evidence": "原页面AuthorInfo-name署名可见；正文自述做过大厂技术岗招聘。未给可核查雇主任职资料，不能称已独立核实的大厂HR。",
+      "professional_identity_verification": "作者自述，未独立核验",
+      "reading": {
+        "scope": "全文",
+        "fulltext": true,
+        "primary_platform_scope": "全文",
+        "video_watched": false,
+        "web_tool_lines": "133行，L0—132",
+        "read_scope_note": "实际读到正文、原页署名和编辑日期；主要招聘建议全部读过，未将内嵌图片里的细字当已读。",
+        "read_sections": [
+          "技术岗简历筛选的阶段与关注点",
+          "按JD组织技能和经历",
+          "经历、结果和职责的表达",
+          "篇幅与投递匹配",
+          "经历真实性边界"
+        ],
+        "body_text_characters": 3740,
+        "body_text_sha256": "4a24b1e233d73d5ba146f1f0510be39dd43d9808a400329d50861e9a58f60581",
+        "normal_get_status": 200,
+        "normal_get_final_url": "https://www.zhihu.com/tardis/bd/ans/2605287243"
+      },
+      "观点归纳": "作者主张按目标JD组织技能与经历，以个人角色、行动和可核成果突出重点，并保持简洁、诚实。可用于检查简历表达；不能替代技术深度或项目真实性验证。",
+      "依据与局限": "依据是作者的招聘经验自述。筛选耗时、通过率和不诚实后果等主张未给数据，不作普遍统计或制度依据。历史观点不直接代表近期实习门槛。",
+      "商业背景": "正文多处出现标记ECOMMERCE的牛客插件、课程与模板引导；是否有付费合作未说明。",
+      "采纳边界": "采纳岗位匹配、明确本人职责和可核效果。作者建议反思留待面试，不据此删掉有价值的测试、故障修复和验证数据。",
+      "recommended_level": "选读：低权重表达参考",
+      "project_reading_modules": [
+        "README的任务与个人职责",
+        "可复现测试或评测结果",
+        "项目效果与证据链接"
+      ],
+      "not_to_claim": [
+        "不是成功者完整简历",
+        "不是近期SSP实习标准",
+        "不是已核大厂技术面试官身份",
+        "不是Agent工程专业原文",
+        "不是B站视频观看记录"
+      ],
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "proposed_key": "ZHIHU_YUPI_CODE_NAV_363371891",
+      "title": "有了这个网站，找编程资源再也不求人了！",
+      "platform": "知乎公开正文页",
+      "url": "https://www.zhihu.com/tardis/bd/art/363371891",
+      "article_id": "363371891",
+      "author": "程序员鱼皮（本轮原HTML署名）",
+      "source_date_text": "2021-04-27（正文末编辑时间）",
+      "recruitment": "不适用（项目宣传与取舍说明）",
+      "track": "后端",
+      "recent_status": "历史观点",
+      "identity_evidence": "原页AuthorInfo-name署名程序员鱼皮；正文直接链接liyupi/code-nav。可与既有CV19的开源作者身份对照，但任职与用户指标未由企业或分析数据独立核验。",
+      "professional_identity_verification": "署名与本人开源项目关系可核；雇主任职未独立核验",
+      "source_nature": "本人项目推广；产品取舍说明；存在叙述身份不一致",
+      "narrative_discrepancy": "正文以第三人称称鱼皮为朋友，而本轮公开页署名为程序员鱼皮。不能包装成独立第三方评价；可能有转发或署名历史变化，但本轮未取得可解释这一差异的版本记录。",
+      "reading": {
+        "scope": "全文",
+        "fulltext": true,
+        "primary_platform_scope": "全文",
+        "video_watched": false,
+        "web_tool_lines": "137行，L0—136",
+        "read_scope_note": "实际读到主体文字与编辑日期；图片内截图细字不算已核技术实现，功能效果未运行验证。",
+        "body_text_characters": 2062,
+        "body_text_sha256": "2db51c6e38cdd3f60d4442ccdf2ba9197625f6a1b2e3fa7facbb2a27269220c6",
+        "read_sections": [
+          "产品目标与查找资源的功能",
+          "资源分散和信息质量的问题",
+          "相对传统导航的取舍说明",
+          "资源数量增加后的排序与反馈",
+          "开源项目与文档入口"
+        ]
+      },
+      "观点归纳": "原文以编程导航为例，强调解决真实查找需求，以分类、收藏、推荐和用户反馈改善链接堆砌，避免仅靠站长维护。适合思考业务闭环和信息质量，不证明底层性能。",
+      "依据与局限": "有功能图、用户量自述和源码入口，没有独立用户分析、性能压测或求职因果证据。全文偏推广，技术实现需另外审源码。",
+      "商业背景": "直接推广作者项目与生态，存在自有产品流量利益；原文是否有额外付费合作未说明。",
+      "采纳边界": "采纳需求—功能—反馈的关系；不把“企业级”宣传、用户量、开发时长视为项目质量认证，不回填成作者取得SSP前的项目。",
+      "recommended_level": "选读：历史业务闭环与产品取舍",
+      "project_link": "https://github.com/liyupi/code-nav",
+      "project_reading_modules": [
+        "资源分类与搜索",
+        "用户收藏及推荐",
+        "评分和评论反馈",
+        "维护与资源质量机制"
+      ],
+      "not_to_claim": [
+        "不是独立第三方测评",
+        "不是近期实习面经",
+        "不是SSP项目因果证据",
+        "不代表已经审查该仓库源码或运行系统",
+        "不是Agent工程项目评价"
+      ],
+      "retrieved_at": "2026-10-23"
+    }
+  ],
+  "access_observations": [
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2068995699606295771",
+      "title": "Agent评测漫谈 —— 由浅入深讲解Agent评测",
+      "author_from_index": "美团技术团队（已认证机构号）",
+      "status": "web原页403；只有检索摘录，不计全文",
+      "manual_check": "近期Agent评测专业原文，优先手动核正文与发表日期；官网版本如另读须分平台计数"
+    },
+    {
+      "url": "https://www.zhihu.com/question/2012551138705167575/answer/2070483858739262746",
+      "title": "如何成为一个AI Agent工程师？",
+      "status": "web原页403；只有检索摘录，不计全文",
+      "manual_check": "先核署名与专业身份，再核正文中招聘权重及节省成本数字的原始出处"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1YL411Y7tj/",
+      "title": "后端项目？字节面试官这样说！",
+      "status": "web原页412；只有标题、简介与分集导航，不计视频正文",
+      "manual_check": "核实际发言者身份、观点原话与项目推荐依据"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1VT4y1r71g/",
+      "title": "【Java后端项目推荐】设计有亮点的面试项目 | 别再做秒杀项目了",
+      "author_from_index": "TALKDATA",
+      "status": "检索简介可见；公开view API412，没有取得字幕或观看视频",
+      "manual_check": "核完整视频中主流项目取舍、推荐与难点论证；宣传简介不能替代内容"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/661113978",
+      "related_id": "OP05",
+      "attempted_public_url": "https://www.zhihu.com/tardis/bd/art/661113978",
+      "status": "公开页面GET最终跳至知乎error?status=400，虽HTTP200但无文章正文；未提升既有阅读范围"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/67736843",
+      "title": "谈谈面试Java后端开发人员的感受",
+      "author_from_reprint_attribution": "里奥ii",
+      "status": "原页403；公开tardis页跳官方error?status=400；未取正文，转载只用于发现原链接",
+      "manual_check": "历史3—5年社招观点，适用性低于近期实习，不据转载当已读知乎"
+    },
+    {
+      "url": "https://www.zhihu.com/question/33398583/answer/122435737",
+      "title": "如何面试Python后端工程师？",
+      "author_from_reprint_attribution": "董伟明",
+      "status": "原页工具不可访问；公开tardis页跳官方error?status=400，未取正文",
+      "manual_check": "核原作者回答及历史适用范围，不能将转载拼接的其他回答混入同一作者"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2058188813529244032",
+      "title": "给野马套上缰绳：Agent Harness工程实践——从范式理论到钉钉AI招聘的真实落地",
+      "status": "标准web原页403；普通Edge页面同为403风控提示；未取得正文",
+      "manual_check": "优先手动核钉钉团队署名、真实落地约束与测试依据；本轮不以索引摘录代替正文"
+    },
+    {
+      "url": "https://www.zhihu.com/question/2010617699286402983/answer/2042656617909449334",
+      "title": "双非一本，想走Agent开发，请问达到主流公司就业的最低技术栈是哪些？",
+      "status": "标准web原页403；只有检索摘录，不计全文",
+      "manual_check": "先核署名与招聘／工程经历，项目star等级论断不能当实际录用门槛"
+    },
+    {
+      "url": "https://www.zhihu.com/question/2049047173677987500/answer/2062637529636124587",
+      "title": "面试AI Agent新手高手（发现阶段主题）",
+      "status": "标准web原页403，未读正文；索引可见课程引导，商业背景须手动核",
+      "manual_check": "核真实署名、采访或面试依据，避免以课程广告作为招聘标准"
+    },
+    {
+      "url": "https://www.bilibili.com/read/cv36176800/",
+      "status": "web工具无法访问；requests正常GET200但无可抽取正文",
+      "manual_check": "不依据视频简介中的资源引导推断专栏实际内容，未读不新增观点"
+    }
+  ],
+  "search_paths": [
+    {
+      "path": "标准web主题／作者检索",
+      "result": "找到2篇可访问知乎原页；新Agent专业内容原页403，B站原页412；索引的长摘录保留为发现，未计全文"
+    },
+    {
+      "path": "普通requests原页与公开索引页、B站公开metadata endpoint",
+      "result": "核清新增知乎正文署名；OP05等错误页不计成功访问，B站公开接口412后停止"
+    },
+    {
+      "path": "Yahoo不同检索后端",
+      "queries": [
+        "site:zhihu.com JavaGuide 简历 项目",
+        "site:zhihu.com Agent 工程化 2024",
+        "site:bilibili.com/read 后端 项目 推荐"
+      ],
+      "statuses": [
+        500,
+        200,
+        500
+      ],
+      "result": "Agent结果主要为营销或未读原页，无新增合格平台全文"
+    },
+    {
+      "path": "追加不同作者与公开索引路径发现",
+      "queries": [
+        "site:zhihu.com/tardis/bd/ans 后端 项目 面试官",
+        "site:zhihu.com/tardis/bd/ans Java 简历 项目",
+        "site:zhihu.com 陈硕 项目 简历",
+        "site:zhihu.com 董伟明 面试 后端"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "result": "前两项无结果；后两项发现作者或原文线索，但未取得对应公开正文。另从已索引的鱼皮项目介绍公开页读到137行正文。"
+    },
+    {
+      "path": "正常Edge页面访问（无个人会话、不更改访问控制）",
+      "urls": [
+        "https://zhuanlan.zhihu.com/p/2058188813529244032",
+        "https://www.bilibili.com/video/BV1VT4y1r71g/"
+      ],
+      "statuses": [
+        403,
+        412
+      ],
+      "result": "浏览器仍显示平台风控拒绝，未进行验证、登录或其他绕行"
+    },
+    {
+      "path": "B站公开专栏／opus不同载体",
+      "queries": [
+        "B站 专栏 后端项目 简历 推荐",
+        "B站 专栏 Agent 工程化 评测",
+        "site:bilibili.com/read/ 项目 简历 -site:bilibili.com/video",
+        "site:bilibili.com/opus/ Agent -site:bilibili.com/video"
+      ],
+      "result": "实际读到1篇2019课程目录，因缺少专业项目评价而排除；另1专栏未读，未取得合格B站观点正文。"
+    }
+  ],
+  "remaining_gaps": [
+    "B站实际视频、字幕或署名专业者平台文章仍未取得，原始链接交手动访问。",
+    "近期Agent工程专业者的知乎完整正文仍未读到；搜索缓存摘录不能冲抵。",
+    "新增知乎HR正文的专业身份仅自述，不能提升为独立核验的招聘标准。",
+    "OP03原卡与作者导航BV号不一致的历史问题没有解决，本轮不变更其视频身份关系。"
+  ],
+  "excluded_sources": [
+    {
+      "title": "Java 2019 学习路线（视频）",
+      "author": "Java基基",
+      "url": "https://www.bilibili.com/read/cv3174527/",
+      "date": "2019-07-27",
+      "reading_scope": "全文（web工具175行，L0—174）；正文之外的视频未看",
+      "platform_body_read": true,
+      "viewing_video": false,
+      "summary": "原文以基础、框架、进阶分层组织Java课程，区分必选与可选。",
+      "exclusion_reason": "本质为历史课程导航，没有足够项目优缺点或招聘评价依据；不新增OP，不进入专业评价已完成计数。",
+      "local_recheck": "requests正常GET200但无可抽取正文；web工具原页可读，保留两种访问结果，不把本地空壳称独立全文复现。"
+    }
+  ],
+  "validation": {
+    "json_parsed": true,
+    "new_source_keys_unique": true,
+    "sources_count": 2,
+    "all_new_sources_have_url_author_reading_boundary": true,
+    "excluded_sources_count": 1,
+    "no_main_tables_modified": true
+  }
+}

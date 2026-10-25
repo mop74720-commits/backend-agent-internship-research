@@ -1,0 +1,84 @@
+JD01 | 抖音-27届-后端开发实习生
+
+需求核对版 · 2026-10-24
+
+公司：
+  字节跳动/抖音平台产品
+role_type：
+  后端实习
+原始来源：
+  https://www.nowcoder.com/jobs/detail/437499
+publish_date：
+  未展示发布日期；面向2027届
+retrieved_date：
+  2026-10-23
+source_type：
+  企业在牛客发布的JD
+evidence_excerpt：
+  MySQL、Redis、消息队列
+own_summary：
+  负责高并发系统设计与迭代；计算机与算法基础、代码质量，以及MySQL、Redis、MQ被明确列入要求。
+required_stack：
+  - 扎实编程
+  - 计算机原理
+  - 数据结构与算法
+  - MySQL
+  - Redis
+  - 消息队列
+preferred_stack：
+  —
+degree_constraint：
+  2027届本科及以上；相关专业优先
+availability_constraint：
+  每周4天以上；4个月以上
+recruiting_status：
+  页面显示已结束
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 数据结构算法
+  - 数据库或存储
+  - 缓存
+  - 消息队列
+  - 架构性能可靠性
+duties：
+  系统架构与性能优化
+局限：
+  
+类别：
+  招聘JD
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    未展示发布日期；面向2027届
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    招聘发布时间未展示，不按2027届或本次抓取年补写
+  来源日期：
+    未展示发布日期；面向2027届
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

@@ -1,0 +1,161 @@
+CV08 | 商汤大模型算法应用实习面经（已offer）
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79
+事件时间／原文日期（依分类）：
+  两轮大模型应用实习面试及offer；具体年月日未知
+方向与岗位：
+  大模型算法应用实习；混合工程与算法考察
+结果自述：
+  标题自述已offer，未提SSP
+录用证据边界：
+  第一人称两轮面经；没有公开录用文件
+资料形式：
+  已offer面经中的局部履历（不是简历）
+专业背景：
+  公开资料未给完整教育层次；有既往实习，细节未披露
+技术栈：
+  - 实际掌握程度未披露；不可由问题清单推定
+interview_topics_not_proven_skills：
+  - Python
+  - RAG/切片
+  - LoRA
+  - Attention
+  - RLHF/ZeRO
+  - 多Agent编排
+  - 路由与故障兜底
+  - 评估体系
+本人项目与经历描述：
+  - 简历既往实习作为多模态/多Agent讨论背景；未给完整实现
+来源归纳：
+  面试既追问模型基础，也讨论多Agent冲突、超时、模型路由、评估和回滚；岗位反问说明重心偏应用落地。
+整理者分析：
+  选择Agent岗要看团队实际任务。工程岗也可能考模型基础，但不能把这份混合岗位面经的训练知识全升级为所有Agent实习硬门槛。
+值得学习之处：
+  - 应用落地与算法问题边界可见
+  - 开放系统设计问题具体
+局限与静态风险：
+  - 没有完整简历
+  - 面试问题不等于候选人项目能力
+  - offer自述无独立核验
+商业与选择偏差：
+  正文未见直接售课
+原访问范围：
+  正文全文
+证据边界：
+  面经内容中等；履历还原有限
+original_file_status：
+  无完整简历原件
+阅读建议：
+  推荐作为Agent工程验收反推题库；勿当完整成功简历复制
+root_recheck：
+  研究中曾读取正文；后续部分请求只返回动态页面空壳。资料卡保留初次内容与原链接，阅读时可能需要正常浏览器。
+类别：
+  候选人资料
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    两轮大模型应用实习面试及offer；具体年月日未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    页面07-18是源日期月日，未直接给面试年
+  来源日期：
+    07-18，年未显示
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      商汤
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79
+    依据：
+      第一人称两轮面经；没有公开录用文件
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  07-18，年未显示
+履历材料形式：
+  面经中的局部履历
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79
+      direct_basis：
+        第一人称两轮面经；没有公开录用文件
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79
+      direct_basis：
+        已offer面经中的局部履历（不是简历）
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79
+      direct_basis：
+        简历既往实习作为多模态/多Agent讨论背景；未给完整实现
+      直接关系：
+        直接点名
+      gap：
+        仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79
+      direct_basis：
+        本人商汤两轮面经与offer自述
+      直接关系：
+        直接点名
+      gap：
+        当前63份面经主表没有单列此来源；本关联不额外虚增面经数
+      interview_id：
+        未核／无
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  - 当前63份面经主表没有单列此来源；本关联不额外虚增面经数
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  否
+ssp_grade_company_explicit：
+  否
+ssp_claim_present：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

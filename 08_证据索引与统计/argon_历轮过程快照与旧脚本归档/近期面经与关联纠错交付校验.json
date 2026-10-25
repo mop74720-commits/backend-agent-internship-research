@@ -1,0 +1,294 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "全部JSON可解析",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "日期补核只改指定专业字段",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "归档前记录保持 PRO13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "归档前记录保持 PRO18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "归档前记录保持 PRO19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新增2原帖且旧191条只发生指定范围日期和附件修正",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "上一轮189快照统计保留",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "当前统计和累计目标一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "分类表实物与主记录一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "79面经72全文7部分51明确实习",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "严格近期11含同作者正文补年且辅助13保持",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "INT68补年保留同作者三节点及日期口径差别",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新2视频只记录字幕登录要求不计观看",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新面经15问全文范围及来源",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "结果未知不从算法失误推拒绝或SSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "展示编辑时间不冒充事件直接年或初发",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "目标UUID白名单时间字段可追溯",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "没有将新作者拼到既有候选人",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "具体追问映射5项能力且未误作权限证据",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "技术要求分层及Agent阅读路线纳入新面经",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两视频接口200空字幕不计观看",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "手动清单不再误标新面经正文未读",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两视频手动状态已合并最新事实",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SSP复核排除不虚增成功者",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "既有25项目375维与附件统计保持",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV 03_简历与候选人案例/候选人证据链对照.csv",
+      "passed": true,
+      "detail": 31
+    },
+    {
+      "name": "CSV 04_面经与专业观点/面经统一分类.csv",
+      "passed": true,
+      "detail": 79
+    },
+    {
+      "name": "CSV 06_项目分析与推荐/项目统一比较.csv",
+      "passed": true,
+      "detail": 375
+    },
+    {
+      "name": "CSV 08_证据索引与统计/全部资料统一分类.csv",
+      "passed": true,
+      "detail": 193
+    },
+    {
+      "name": "CSV 08_证据索引与统计/能力要求四类证据对照.csv",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "全部报告本地链接和锚点可达",
+      "passed": true,
+      "detail": {
+        "count": 3337,
+        "broken": []
+      }
+    },
+    {
+      "name": "PDF包含本轮结论且无空白孤页",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF文字不越出页面",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "当前浏览器筛选搜索及手机显示通过",
+      "passed": true,
+      "detail": 58
+    },
+    {
+      "name": "实录原始发布与会务身份可追溯",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "平台外实录选读不冒充本体全文或视频",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "商业背景及招聘边界明确",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "三项比较均有指定来源和模块局限",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "模型判分校准观点不偷换成无偏保证",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "原文观点关联能力和阅读路线",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "销售推荐语未新增成功者且保留检索结束边界",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "页面与PDF均呈现新比较",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "INT85事件日期来自正文且失败结果直接",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "INT86已offer不冒充SSP且编辑年不代事件年",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "18候选人37标记修正且具体面经对应保留",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新原帖不是同人履历或源码的拼接",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两篇新追问映射明确能力并进入后端路线",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "六项验收含5份实物且不沿用初始零份口径",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF及页面包含新日期结果和验收入口",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "正文阅读不被视频零读取否定",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "仍保留完整目标及未满足项",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "local_links": 3337,
+  "pdf_pages": 26,
+  "current_totals": {
+    "logical_evidence_records": 193,
+    "candidate_cases": 31,
+    "interview_materials": 79,
+    "projects": 25,
+    "source_archives": 25,
+    "fixed_link_only": 0,
+    "jd_leads": 19,
+    "engineering_jd_fulltext": 14,
+    "platform_opinion_records": 13,
+    "additional_primary_texts": 3,
+    "manual_links": 70,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9
+  },
+  "pdf_sha256": "f189fbef291106bdaee807b2c15b321353116ad990fa31d1aaf23b8fe56890da",
+  "goal_status": "active",
+  "scope": "新增两篇原帖、37处候选人范围修正与六项验收；保留既有材料边界回归检查，不证明全目标完成",
+  "visual_review": {
+    "passed": true,
+    "pages": [
+      1,
+      14,
+      26
+    ],
+    "pdf_sha256": "f189fbef291106bdaee807b2c15b321353116ad990fa31d1aaf23b8fe56890da",
+    "review": "根代理目视最新PDF：25附件、9文本/选读、0仅链接统计可读，首中末页面无重叠或横向裁切。"
+  }
+}

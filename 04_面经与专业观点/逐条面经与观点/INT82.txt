@@ -1,0 +1,133 @@
+INT82 | 字节- AML大模型后端开发-一二面
+
+需求核对版 · 2026-10-24
+
+source_key：
+  DENGXIAN_BYTEDANCE_AML_25DF
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c
+公司：
+  字节跳动
+方向与岗位：
+  AML大模型后端开发
+事件时间／原文日期（依分类）：
+  未知；原帖明确为隔一段时间回忆，未写面试年月日
+发表／来源日期：
+  页面03-17 10:33已编辑，年份未显示
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    未知
+  事件时间：
+    未知；原帖明确为隔一段时间回忆，未写面试年月日
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    页面03-17 10:33已编辑，年份未显示
+  时间依据：
+    本人回忆未给事件年和招聘类型；已知其别处实习不自动确定本篇批次
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    原帖公开文字全文已读
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  - CV07
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  招聘批次未确认
+结果分类：
+  unknown
+结果自述：
+  结果未知；不据二面体验差判断失败
+逐项结果与档位：
+  —
+rounds：
+  - 一面
+  - 二面
+原文提问（归纳）：
+  - MCP网关实现、限流、模型观测指标、DSL序列化、多租户隔离方式。
+  - 长期和短期对话记忆及KV Cache；手写多租户限流器。
+  - JVM、GC、Spring AOP，Agentic RAG与工具调用，多轮缓存命中连续性、分层架构中的长链token溢出。
+  - 二面手写LRU，并记录部分实习和开源追问已记不清。
+涉及主题：
+  - MCP网关
+  - 多租户
+  - 记忆
+  - KV Cache
+  - Agentic RAG
+  - JVM
+内容归纳：
+  本人回忆的追问和面试感受；未提供完整答案，不当作逐字稿。部分问题明确遗忘，不能自行补足。
+source_record：
+  source_key：
+    DENGXIAN_BYTEDANCE_AML_25DF
+  标题：
+    字节- AML大模型后端开发-一二面
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c
+  readable_url：
+    https://www.nowcoder.com/feed/main/detail/25df6c4042a742dbbe420db58c3abf0c?sourceSSR=users
+  作者：
+    等闲king
+  author_relation：
+    CV07公开主页直接链接，原帖同署名；不通过其他账号或匿名身份拼接。
+  access：
+    state：
+      正文可读
+    范围：
+      原帖公开文字全文已读
+    source_line_range：
+      L51–81
+  公司：
+    字节跳动
+  方向与岗位：
+    AML大模型后端开发
+  方向：
+    Agent工程/后端
+  招聘类型：
+    未知
+  event_date：
+    未知；原帖明确为隔一段时间回忆，未写面试年月日
+  event_year_confirmed：
+    否
+  发表／来源日期：
+    页面03-17 10:33已编辑，年份未显示
+  结果自述：
+    结果未知；不据二面体验差判断失败
+  档位：
+    未披露
+  rounds：
+    - 一面
+    - 二面
+  questions_paraphrased：
+    - MCP网关实现、限流、模型观测指标、DSL序列化、多租户隔离方式。
+    - 长期和短期对话记忆及KV Cache；手写多租户限流器。
+    - JVM、GC、Spring AOP，Agentic RAG与工具调用，多轮缓存命中连续性、分层架构中的长链token溢出。
+    - 二面手写LRU，并记录部分实习和开源追问已记不清。
+  question_answer_boundary：
+    本人回忆的追问和面试感受；未提供完整答案，不当作逐字稿。部分问题明确遗忘，不能自行补足。
+  project_relation：
+    直接追问本人的实习Agent记忆与开源网关/框架；具体实习雇主与项目版本未在该篇逐项披露，不把所有段落绑定同一家公司。
+  严格近期明确实习：
+    否
+  suggestion：
+    可作为CV07本人具体面经补链；公司岗位明确，但招聘批次、事件年和最终结果未知，不能计严格近期实习或SSP样本。

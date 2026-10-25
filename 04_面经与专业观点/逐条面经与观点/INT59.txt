@@ -1,0 +1,226 @@
+INT59 | mio4：四家公司本人实习面经与综合面试笔记
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/discuss/353154814064402432
+关联原文：
+  https://github.com/mio4/learn-java/blob/7492919fc37b59aac17ceaf9df9830f8cc3d9184/Note/interview.md
+公司：
+  头条测开／搜狐后端／美团后端／百度云；不是SSP公司专属轮次
+方向与岗位：
+  Java后端准备路线；历史校招与实习复盘
+事件时间／原文日期（依分类）：
+  2019-01后端实习；2019求职总结
+结果自述：
+  作者总体SP/SSP自述明确，未逐题对应公司或档位
+candidate_group：
+  CV14_mio4
+统计组：
+  明确实习面经
+role_boundary：
+  牛客原文四家公司分别记录；综合笔记含知识汇编；头条是测开，百度段不列具体题目；不将所有结果算SSP
+涉及主题：
+  - Java
+  - JVM
+  - 操作系统
+  - 网络
+  - SQL
+  - Spring
+  - Redis
+  - RabbitMQ
+  - 实习复盘
+原文提问（归纳）：
+  - 微博点赞MySQL表设计
+  - 美团轮次项目细节与@Autowired底层实现
+rounds：
+  - 公司：
+      今日头条
+    方向与岗位：
+      测开；作者称Java后台实习岗位已满，转面测开
+    rounds：
+      笔试＋两面
+    questions_reported：
+      - Two-Sum并讨论重复元素
+      - 判断两份JSON是否相同
+      - GROUP BY相关SQL
+      - 微博点赞MySQL表设计
+      - IM通信测试方案
+      - 算法题及Java基础（正文未详列）
+    outcome_boundary：
+      作者称因岗位兴趣结束沟通、面试官拟转其他后台岗位；不能计为头条后端或SSP录用
+  - 公司：
+      搜狐
+    方向与岗位：
+      后台实习
+    rounds：
+      两面
+    questions_reported：
+      - 链表反转
+      - Top-K
+      - 老虎吃羊问题
+      - Python基础
+      - 操作系统I/O
+      - C程序编译过程
+      - CPU构成
+      - B+树查找
+    outcome_boundary：
+      作者自述未通过；不把作者关于失败原因的猜测当企业结论
+  - 公司：
+      美团
+    方向与岗位：
+      后台实习
+    rounds：
+      两面
+    questions_reported：
+      - 二叉树层序及Z字形遍历
+      - volatile
+      - 项目细节
+      - @Autowired底层实现
+      - atomic包
+      - JVM内存
+      - 有序数组下标和值相等问题
+      - Java多线程锁
+      - C++编译过程
+      - Linux启动首个进程
+      - fork返回值
+      - 缺页中断与中断
+      - 用户态/内核态转换
+    outcome_boundary：
+      帖内写等通知，未核结果；正文对算法复杂度和挂因的个人表述未作为正确答案或因果证据
+  - 公司：
+      百度云计算
+    方向与岗位：
+      实习；GitHub本人总结L142进一步称百度智能云后端实习
+    rounds：
+      三面
+    questions_reported：
+      —
+    reported_topics：
+      - 手写代码
+      - 智力题
+      - 操作系统
+    outcome_boundary：
+      本人自述通过，约三小时；此段没有具体题目，不能从其他公司的题目移植补全；不是百度SSP证据
+静态阅读发现：
+  原始来源：
+    https://github.com/mio4/learn-java/blob/7492919fc37b59aac17ceaf9df9830f8cc3d9184/Note/interview.md
+  note_kind：
+    本人链接的综合复习与面试笔记
+  selected_topic_locations：
+    - topic：
+        Java/JVM
+      start：
+        1
+      jvm_start：
+        1247
+    - topic：
+        操作系统
+      start：
+        2644
+    - topic：
+        计算机网络
+      start：
+        3072
+    - topic：
+        数据库/MySQL
+      start：
+        4198
+    - topic：
+        Redis
+      start：
+        5518
+    - topic：
+        RabbitMQ
+      start：
+        5810
+    - topic：
+        实习总结
+      start：
+        6633
+原访问范围：
+  牛客本人实习面经正文实际已读；7068行综合文件完整取得，核读目录与指定章节，未逐条审定全部技术答案。此组合记录不标全部材料逐行已读。
+fulltext_verified：
+  否
+建议用途：
+  先读牛客分公司问题与不同结果，再看笔记L6633起实习总结；百度只保留作者写出的主题，不移植别家具体题目。
+局限：
+  - 牛客为同一作者的一篇四家公司实习复盘；如整合只追加来源关系与分公司题目摘要，不将题目数当场次。7068行笔记不能按知识点拆分场次，仍没有逐轮SSP公司专属面经。
+  - 2026-10-23复核：151829正常URL重定向canonical后HTTP200，section.post-content-box唯一容器正文可读，内部.nc-post-content同样可读；?sourceSSR=post本次HTTP200但两个容器均缺失。此前两次未读到正文不能视为永久不可读。
+类别：
+  面经复盘
+retrieved_at：
+  2026-10-23
+证据边界：
+  B：本人公开记录；未经企业独立核验，阅读范围单列
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2019-01后端实习；2019求职总结
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    本人原文明确2019时间；2020.5仅update
+  来源日期：
+    2020.5 update
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    牛客本人实习面经正文实际已读；7068行综合文件完整取得，核读目录与指定章节，未逐条审定全部技术答案。此组合记录不标全部材料逐行已读。
+  legacy_fulltext_verified：
+    否
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      两家AI独角兽（未点名）
+    档位：
+      未逐公司对应：SP/SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32
+    依据：
+      正文仅称两家AI独角兽sp | ssp，未逐家明确；百度、字节等offer不能自动标记SSP。；为同作者整体求职结果，不能反填到本记录每一轮或公司
+    applies_to_this_interview：
+      否
+    企业独立验证：
+      否
+  - 公司：
+      百度/字节等
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32
+    依据：
+      正文仅称两家AI独角兽sp | ssp，未逐家明确；百度、字节等offer不能自动标记SSP。；为同作者整体求职结果，不能反填到本记录每一轮或公司
+    applies_to_this_interview：
+      否
+    企业独立验证：
+      否
+发表／来源日期：
+  2020.5 update
+面经形式：
+  面经与整理/协作笔记混合
+候选人关联ID：
+  - CV14
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  mixed_or_overall_self_report
+related_record_ids：
+  —

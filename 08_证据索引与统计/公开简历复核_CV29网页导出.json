@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "candidate_id": "CV29",
+      "status": "已导出作者公开网页",
+      "original_url": "https://shufengc.dev/",
+      "http_status": 200,
+      "material_type": "公开网页浏览器导出；不是作者原始PDF",
+      "local_file": "03_简历与候选人案例/公开简历原件/后端+腾讯与Stripe实习_AlexChen_网页履历_浏览器导出.pdf",
+      "preview_files": [
+        "03_简历与候选人案例/公开简历原件/CV29_公开网页履历_浏览器导出.png"
+      ],
+      "additional_redaction": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+DOC10 | RocketMQ Consumption Retry
+==================================================
+原始链接：
+https://rocketmq.apache.org/docs/featureBehavior/10consumerretrypolicy/
+
+日期：
+RocketMQ 5.0文档
+
+摘要与评价：
+消费失败或超时可触发重投，超过配置次数进入死信；业务状态需自行适配重复和恢复。
+
+资料类别：
+官方技术资料
+
+检索日期：
+2026-10-23

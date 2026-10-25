@@ -1,0 +1,133 @@
+INT75 | 小红书Agent开发实习生一面凉经，附百度Agent凉经
+
+需求核对版 · 2026-10-24
+
+source_key：
+  XHS_BAIDU_e319aadc
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject
+方向与岗位：
+  Agent实习
+公司：
+  小红书、百度（分公司结果）
+事件时间／原文日期（依分类）：
+  原文上周，绝对年月日未明
+发表／来源日期：
+  发表时间未核
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    原文上周，绝对年月日未明
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    单篇事件年未明；同作者导航或发表元数据不自动绑定具体场次
+  来源日期：
+    未核
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文可见文字已读
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  同候选人多场汇总（不拆成独立候选人）
+候选人关联ID：
+  - CV26
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习面经
+结果分类：
+  failure_self_report
+结果自述：
+  两家均失败自述
+逐项结果与档位：
+  - 公司：
+      小红书、百度（分公司结果）
+    档位：
+      未披露
+    状态：
+      failure_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject
+    依据：
+      两家均失败自述
+    企业独立验证：
+      否
+涉及主题：
+  - 业务定义
+  - 分图设计
+  - 恢复与人工控制
+  - 后端基础
+原文提问（归纳）：
+  - 小红书：七步流水线为何拆三个LangGraph子图、Skills与Prompt的选型，再问索引与锁。
+  - 百度：服务对象和业务痛点、子图节点I/O、幻觉与路径错误时的恢复、路由决策和人工干预。
+内容归纳：
+  作者称两家失败，关于基础知识生疏和时间不足为自我复盘，不当企业拒绝原因。
+questions_vs_retrospective_answers：
+  作者称两家失败，关于基础知识生疏和时间不足为自我复盘，不当企业拒绝原因。
+rounds：
+  - 小红书一面
+  - 百度一面
+原访问范围：
+  全文可见文字已读
+source_record：
+  key：
+    XHS_BAIDU_e319aadc
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/e319aadc79a9479397a6661a7f5ca088?sourceSSR=subject
+  标题：
+    小红书Agent开发实习生一面凉经，附百度Agent凉经
+  author_id：
+    216541357
+  公司：
+    小红书、百度（分公司结果）
+  方向与岗位：
+    Agent实习
+  招聘类型：
+    实习
+  rounds：
+    - 小红书一面
+    - 百度一面
+  event_date：
+    原文上周，绝对年月日未明
+  event_year_confirmed：
+    否
+  范围：
+    全文可见文字已读
+  questions_paraphrased：
+    - 小红书：七步流水线为何拆三个LangGraph子图、Skills与Prompt的选型，再问索引与锁。
+    - 百度：服务对象和业务痛点、子图节点I/O、幻觉与路径错误时的恢复、路由决策和人工干预。
+  questions_vs_answers：
+    作者称两家失败，关于基础知识生疏和时间不足为自我复盘，不当企业拒绝原因。
+  project_modules：
+    - 业务定义
+    - 分图设计
+    - 恢复与人工控制
+    - 后端基础
+  结果自述：
+    两家均失败自述
+  access：
+    http_status：
+      200
+    selector：
+      .post-content-box
+    read：
+      是

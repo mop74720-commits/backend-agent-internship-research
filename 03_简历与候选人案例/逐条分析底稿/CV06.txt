@@ -1,0 +1,173 @@
+CV06 | 双非一本获腾讯IEG、百度、字节等offer：wasabi的实习与开源简历片段
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://javabetter.cn/mianjing/quzjlsspdx.html
+事件时间／原文日期（依分类）：
+  2021年实习片段；SSP校招具体年份未独立确认
+方向与岗位：
+  Go后端校招
+结果自述：
+  作者/转载方自述多个后端offer，最终字节SSP
+录用证据边界：
+  第一人称经验文由技术站点发布，附打码简历片段；结果未独立核验
+资料形式：
+  成功自述+实际公开简历片段（已重度打码）
+专业背景：
+  普通一本本科；腾讯实习与开源活动
+技术栈：
+  - Go
+  - Casdoor统一认证鉴权
+  - 开源协作
+本人项目与经历描述：
+  - 腾讯Go方向实习（细节已打码）
+  - Casdoor开源参与（细节已打码）
+project_urls：
+  - https://github.com/casdoor/casdoor
+来源归纳：
+  实际片段可确认2021年腾讯实习、Casdoor与开源活动条目，具体职责已被作者模糊处理，不能补写。
+整理者分析：
+  适合作为实习+开源的排布参考。当前Casdoor新增Agent功能与2021经历无因果联系；应以自己的合并PR和维护记录替代空泛开源参与。
+值得学习之处：
+  - 真实简历片段可查看
+  - 具体开源项目可定位
+局限与静态风险：
+  - 内容重度打码
+  - 案例年代较早
+  - 不能从录用结果推断开源贡献的独立作用
+商业与选择偏差：
+  承载站点推广付费社区/课程；本案例为读者经验转载
+原访问范围：
+  正文全文+公开图片实际读图
+证据边界：
+  片段存在性较高；贡献和offer为自述
+original_fragment_url：
+  https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg
+original_file_status：
+  仅原链接，不再分发原图
+阅读建议：
+  历史辅助案例；不据此制定当前学历或薪资门槛
+supplement_update：
+  本轮已补齐Casdoor当前固定源码（PRO10）；当前新增能力不等于2021年被打码的个人贡献。
+类别：
+  候选人资料
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    校招
+  事件时间：
+    2021年实习片段；SSP校招具体年份未独立确认
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    简历专业片段明确2021实习；校招22届仅是届别，不写成2022录用
+  来源日期：
+    官网版权年不作为发布日期
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文全文+公开图片实际读图
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      字节跳动
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://javabetter.cn/mianjing/quzjlsspdx.html
+    依据：
+      第一人称经验文由技术站点发布，附打码简历片段；结果未独立核验
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      腾讯IEG/百度等（未逐家定档）
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://javabetter.cn/mianjing/quzjlsspdx.html
+    依据：
+      第一人称经验文由技术站点发布，附打码简历片段；结果未独立核验
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  官网版权年不作为发布日期
+履历材料形式：
+  已读简历图片片段
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://javabetter.cn/mianjing/quzjlsspdx.html
+      direct_basis：
+        第一人称经验文由技术站点发布，附打码简历片段；结果未独立核验
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://cdn.paicoding.com/tobebetterjavaer/images/nice-article/weixin-quzjlsspdx-f7247d17-4dce-4c9b-a036-69aae6ca1207.jpg
+      direct_basis：
+        成功自述+实际公开简历片段（已重度打码）
+      直接关系：
+        直接点名
+      gap：
+        片段已实际读图；不是完整CV，未打包/再分发原图
+  project：
+    - 原始来源：
+        https://github.com/casdoor/casdoor
+      direct_basis：
+        本人资料明确列出项目：腾讯Go方向实习（细节已打码）；Casdoor开源参与（细节已打码）
+      直接关系：
+        直接点名
+      gap：
+        贡献细节重度打码，未核具体本人PR；当前Casdoor代码不等于本人2021贡献，不把框架整体算本人实现。
+      project_id：
+        PRO10
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        文章及打码履历片段有求职经验，未在当前63份主表中单列逐轮记录。
+      直接关系：
+        未建立
+      gap：
+        文章及打码履历片段有求职经验，未在当前63份主表中单列逐轮记录。
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 片段已实际读图；不是完整CV，未打包/再分发原图
+  - 贡献细节重度打码，未核具体本人PR；当前Casdoor代码不等于本人2021贡献，不把框架整体算本人实现。
+  - 文章及打码履历片段有求职经验，未在当前63份主表中单列逐轮记录。
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

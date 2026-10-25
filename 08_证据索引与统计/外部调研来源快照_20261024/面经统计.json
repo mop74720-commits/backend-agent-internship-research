@@ -1,0 +1,160 @@
+{
+  "unit": "帖子；同作者不同流程并非独立候选人",
+  "not_observed": "已读正文未记录，不代表不考",
+  "main": {
+    "backend": {
+      "n": 15,
+      "observed": {
+        "algorithm": 13,
+        "jvm": 7,
+        "concurrency": 7,
+        "mysql": 12,
+        "redis": 12,
+        "mq": 4,
+        "network": 7,
+        "os": 3,
+        "distributed": 10,
+        "project": 12,
+        "rag": 0,
+        "retrieval": 0,
+        "agent_orchestration": 1,
+        "eval": 0,
+        "serving": 0,
+        "security": 0,
+        "observability": 0,
+        "framework": 2,
+        "model_training": 0
+      }
+    },
+    "backend_agent": {
+      "n": 2,
+      "observed": {
+        "algorithm": 2,
+        "jvm": 0,
+        "concurrency": 1,
+        "mysql": 1,
+        "redis": 2,
+        "mq": 1,
+        "network": 2,
+        "os": 1,
+        "distributed": 2,
+        "project": 2,
+        "rag": 0,
+        "retrieval": 0,
+        "agent_orchestration": 2,
+        "eval": 2,
+        "serving": 0,
+        "security": 2,
+        "observability": 2,
+        "framework": 1,
+        "model_training": 0
+      }
+    },
+    "agent": {
+      "n": 7,
+      "observed": {
+        "algorithm": 6,
+        "jvm": 0,
+        "concurrency": 2,
+        "mysql": 1,
+        "redis": 1,
+        "mq": 1,
+        "network": 3,
+        "os": 3,
+        "distributed": 1,
+        "project": 7,
+        "rag": 4,
+        "retrieval": 4,
+        "agent_orchestration": 5,
+        "eval": 3,
+        "serving": 2,
+        "security": 1,
+        "observability": 0,
+        "framework": 2,
+        "model_training": 1
+      }
+    }
+  },
+  "excluding_ai_summaries": {
+    "backend": {
+      "n": 15,
+      "observed": {
+        "algorithm": 13,
+        "jvm": 7,
+        "concurrency": 7,
+        "mysql": 12,
+        "redis": 12,
+        "mq": 4,
+        "network": 7,
+        "os": 3,
+        "distributed": 10,
+        "project": 12,
+        "rag": 0,
+        "retrieval": 0,
+        "agent_orchestration": 1,
+        "eval": 0,
+        "serving": 0,
+        "security": 0,
+        "observability": 0,
+        "framework": 2,
+        "model_training": 0
+      }
+    },
+    "backend_agent": {
+      "n": 1,
+      "observed": {
+        "algorithm": 1,
+        "jvm": 0,
+        "concurrency": 1,
+        "mysql": 1,
+        "redis": 1,
+        "mq": 1,
+        "network": 1,
+        "os": 1,
+        "distributed": 1,
+        "project": 1,
+        "rag": 0,
+        "retrieval": 0,
+        "agent_orchestration": 1,
+        "eval": 1,
+        "serving": 0,
+        "security": 1,
+        "observability": 1,
+        "framework": 0,
+        "model_training": 0
+      }
+    },
+    "agent": {
+      "n": 6,
+      "observed": {
+        "algorithm": 6,
+        "jvm": 0,
+        "concurrency": 2,
+        "mysql": 0,
+        "redis": 0,
+        "mq": 0,
+        "network": 2,
+        "os": 3,
+        "distributed": 0,
+        "project": 6,
+        "rag": 3,
+        "retrieval": 3,
+        "agent_orchestration": 4,
+        "eval": 2,
+        "serving": 2,
+        "security": 0,
+        "observability": 0,
+        "framework": 1,
+        "model_training": 1
+      }
+    }
+  },
+  "same_author": [
+    "I07",
+    "I17"
+  ],
+  "main_internship_posts": 17,
+  "supplement_ids": [
+    "I25"
+  ]
+}

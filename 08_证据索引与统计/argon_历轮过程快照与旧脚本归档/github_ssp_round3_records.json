@@ -1,0 +1,435 @@
+{
+  "new_candidates": [
+    {
+      "id": "CV18",
+      "title": "IcyCC：2019后端SP/SSP自述、历史履历与本人项目组合",
+      "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+      "author": "IcyCC",
+      "date": "文章L3写2019年11月；历史简历教育期2016—2020、本科，后端与基础架构求职。",
+      "role": "Python/C++为突出亮点，同时熟悉Golang并列Go/Gin商业服务器项目；不是纯Java方向，也不是Agent工程成功者。",
+      "outcome": "本人自述多家结果中大多为SP和SSP，未逐公司定档",
+      "document_type": "本人秋招复盘＋2019历史TeX履历专业模块；未打包完整CV",
+      "evidence_excerpt": "其中大多为sp和ssp",
+      "outcome_evidence": "未写哪家公司为SP、哪家为SSP；不能把所有公司、最终选择或面试通过均记SSP。",
+      "stack": [
+        "Python",
+        "C++",
+        "Golang/Gin",
+        "Reactor",
+        "Asyncio",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "Python/C++互操作"
+      ],
+      "historical_profile": {
+        "url": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex",
+        "commit": "fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe",
+        "commit_date": "2019-08-24T08:17:07Z",
+        "read_scope": "历史TeX全文HTTP200，只保存技能/项目必要摘要与行号；没有下载或再分发完整简历、没有采联系方式。PDF仅提供原始入口，未进行PDF视觉核验。",
+        "boundary": "当前AboutMe最新commit 24ac523102cd73fa6d2f492310155c6c298dc006（2022-03-10）简历已是工作经历版本，不可直接视为2019求职快照；改用2019-08-24历史版本核项目。"
+      },
+      "source_findings": [
+        {
+          "repo": "IcyCC/effective_note",
+          "commit": "d55074032217c48e3d872d4524ba6cea94613b86",
+          "commit_date": "2022-01-24T02:10:11Z",
+          "path": "秋招/秋招总结.md",
+          "line_count": 226,
+          "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+          "short_quote": "其中大多为sp和ssp",
+          "context": "L7第一人称列本人秋招结果；L11—14列美团广告后台、京东/贝壳/小红书基础架构、ihandy、虎牙音视频传输、网易游戏平台研发、腾讯微信后台（只作结果关联，不逐家定SSP）。",
+          "independent_employer_verification": false,
+          "grading_boundary": "未写哪家公司为SP、哪家为SSP；不能把所有公司、最终选择或面试通过均记SSP。"
+        },
+        {
+          "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L39",
+          "line_start": 39,
+          "line_end": 42,
+          "short_quote": "这里附一下我的简历, 可以做个参考"
+        }
+      ],
+      "project_relationship": [
+        {
+          "project": "Reimu",
+          "repo_url": "https://github.com/IcyCC/reimu",
+          "association": "2019历史本人简历L50直接链接同仓，L53说明学习动机和实现；不是仅凭同账号猜测。",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L50",
+          "line_start": 50,
+          "line_end": 53,
+          "short_quote": "基于 Reactor 模式的多线程 Morden C++ 网络库",
+          "technical_focus": [
+            "C++",
+            "Socket",
+            "多线程同步/SafeQueue",
+            "I/O复用",
+            "Reactor"
+          ],
+          "source_reading": "readme.md全文可取得（107行），含客户端/服务端使用示例；未运行构建或性能复现，未逐文件审计。",
+          "available_commit": "ff604b54749d6756c4afd4a900807ce986bea2b9",
+          "readme_url": "https://github.com/IcyCC/reimu/blob/ff604b54749d6756c4afd4a900807ce986bea2b9/readme.md",
+          "commit_date": "2020-04-05T14:59:00Z",
+          "temporal_boundary": "当前可用固定版本晚于2019秋招；不当作2019提交版本或当年面试代码。",
+          "license_boundary": "repo metadata的license为null，根contents许可证核查HTTP429；只能说未确认授权，不能断言完全没有许可证。未归档源码。"
+        },
+        {
+          "project": "AsyncEasyapi",
+          "repo_url": "https://github.com/IcyCC/async_easyapi",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L56",
+          "line_start": 56,
+          "line_end": 59,
+          "association": "历史本人简历直接给仓库链接，并说明减少重复CRUD的动机。",
+          "short_quote": "为了提升重复业务的开发效率",
+          "technical_focus": [
+            "Python",
+            "Asyncio",
+            "Flask",
+            "SQLAlchemy",
+            "元类/元编程",
+            "错误/权限处理规范"
+          ],
+          "source_boundary": "此次未核源码与许可证，不将简历功能陈述视为已独立验证，不归档。"
+        },
+        {
+          "project": "WhParser量化DSL/回测框架",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L62",
+          "line_start": 62,
+          "line_end": 65,
+          "association": "历史简历明确列为本人商业项目，文章L126也提本人量化交易框架；没有明确公开成品仓库入口。",
+          "short_quote": "使用 pybind11 和 cython 进行Python/C++ 混合开发",
+          "technical_focus": [
+            "DSL解析",
+            "Ply",
+            "Cython/pybind11",
+            "Python/C++混合",
+            "CTP接口"
+          ],
+          "boundary": "同账号存在其他仓库不等于这个商业项目；未定位公开代码，不包装完整源码包。"
+        },
+        {
+          "project": "督导教评系统",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L70",
+          "line_start": 70,
+          "line_end": 73,
+          "association": "历史简历自述团队项目负责人，列团队规模、系统升级与业务用途。",
+          "technical_focus": [
+            "Python",
+            "Vue",
+            "Redis",
+            "Kafka",
+            "MySQL",
+            "MongoDB",
+            "Gevent",
+            "模块解耦",
+            "动态问卷"
+          ],
+          "boundary": "合作项目不能宣称全部代码由本人独立完成；上线/使用情况为自述，未公开代码或运行核验。"
+        },
+        {
+          "project": "测土配肥商业系统",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L76",
+          "line_start": 76,
+          "line_end": 79,
+          "association": "历史简历列团队项目负责人及Golang服务器后端分工，是明确Go业务经历，而非把C++仓主硬归为Go。",
+          "technical_focus": [
+            "Golang",
+            "Gin",
+            "Electron",
+            "Vue",
+            "libffi",
+            "服务器后端",
+            "配肥计算与设备流程集成"
+          ],
+          "boundary": "商业使用范围为作者自述，没有用户/企业侧验证，未找到公开源码。不能把它单独视为SSP原因。"
+        }
+      ],
+      "strengths": [
+        "成功自述文章→“我的简历”直接链接→2019历史简历→本人命名仓库，归属链清楚。",
+        "业务交付、网络机制、语言互操作和开发效率工具各有侧重，适合分析项目组合。",
+        "实际公开简历有安全可抽取的技能/项目内容，优于仅有标题或结果自述。"
+      ],
+      "recommended_use": "借鉴主语言能力、原理型项目、业务交付的履历组织，用具体需求与分工解释技术栈；先读原文不足和项目边界。",
+      "limitations": [
+        "SSP为本人历史自述，公司档位未知；未获企业独立核验。",
+        "虽有Go业务项目，最突出的个人源码仍是C++/Python，不能替代近期Java/Go或Agent成功者样本。",
+        "没有完整逐公司逐轮面经，不能按知识点虚增面试场数。",
+        "公开项目源码与2019求职快照的代码版本不完全相同；商业项目未公开源码。",
+        "未构建源码、未复现实验，性能/商业影响数据不作为已验证事实。",
+        "尚无可授权再分发的相关项目源码归档；仅提供必要短摘录与原始链接。"
+      ],
+      "confidence": "B：本人历史自述与履历项目关联可定位；未独立核验录用或代码效果",
+      "category": "候选人资料",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "CV19",
+      "title": "鱼皮／liyupi：腾讯实习转正SSP自述，求职当时项目仍待核",
+      "url": "https://www.codefather.cn/course/yupi",
+      "author": "程序员鱼皮／liyupi",
+      "role": "历史全栈开发实习转正；不能推成近期Agent SSP",
+      "date": "本人回顾历史实习转正；所读GitHub固定文档日期为2026-04-09",
+      "outcome": "本人站点明确腾讯实习转正SSP；企业录用未独立核验",
+      "document_type": "本人经历页＋同账号GitHub身份说明；非完整CV或本人逐轮面经",
+      "evidence_excerpt": "在腾讯实习转正，并斩获SSP最高级别的offer。",
+      "stack": [
+        "Java",
+        "前端",
+        "Python",
+        "Go"
+      ],
+      "projects": [
+        "本人回顾大学工作室带队建设几十个网站，未列可对应当年SSP求职的项目名及固定源码",
+        "GitHub主页明示yu-rpc、code-nav等开源作品；当前课程和产品不能回填为当年求职项目"
+      ],
+      "source_findings": [
+        {
+          "url": "https://www.codefather.cn/course/yupi",
+          "location": "个人经历段",
+          "finding": "自学多种语言、三家公司实习、腾讯实习转正SSP；随后才叙述腾讯BI/大数据工作和创业"
+        },
+        {
+          "url": "https://github.com/liyupi/yupi-skill/blob/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/README.md#L45",
+          "finding": "本人账号固定README再次自述前腾讯全栈SSP"
+        },
+        {
+          "url": "https://github.com/liyupi/yupi-skill/blob/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/references/identity.md#L5",
+          "finding": "2023离职创业的身份自述；仅作为研究材料读取，未安装或执行该skill"
+        }
+      ],
+      "strengths": [
+        "实习转正路径明确，可与直接秋招案例区分",
+        "本人站点和同账号固定版本可交叉定位同一自述，但不算两位成功者"
+      ],
+      "recommended_use": "用来确认多语言实践、工作室项目和实习转正的履历组织方式；当前不足以反推某个课程项目能帮助拿SSP。",
+      "limitations": [
+        "没有核到当年具体项目与SSP面试的直接关联，也没有本人逐轮面经",
+        "网站运营者同时销售课程，关于AI简历筛选的绝对性说法只是商业背景下个人观点，不当公司统一要求",
+        "不能把身份模仿skill或后来的AI项目算作当年求职Agent项目"
+      ],
+      "confidence": "B：本人录用自述可定位，项目与面经关联未闭环",
+      "category": "候选人资料",
+      "retrieved_at": "2026-10-23"
+    }
+  ],
+  "new_interviews": [
+    {
+      "id": "INT63",
+      "title": "IcyCC：HTTPS、协程与Reactor的本人总体求职复盘",
+      "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L94",
+      "company": "跨公司总体总结；未按公司/轮次列完整题目",
+      "role": "Python/C++为突出亮点，同时熟悉Golang并列Go/Gin商业服务器项目；不是纯Java方向，也不是Agent工程成功者。",
+      "date": "2019秋招回顾；所读固定文章提交2022-01-24",
+      "outcome": "本人自述多家结果中大多为SP和SSP，未逐公司定档",
+      "candidate_group": "CV18_IcyCC",
+      "sample_group": "历史本人总体复盘；非逐轮题库",
+      "topics": [
+        "HTTPS/SSL",
+        "加密",
+        "网络",
+        "协程",
+        "Reactor",
+        "项目深挖",
+        "Python/C++互操作"
+      ],
+      "project_questions": [
+        "HTTPS所处层次、加密方法、威胁与防御如何结合实现说明？",
+        "协程解决什么问题，与Reactor并发模型如何联系？",
+        "量化框架、网络库和商业项目的个人分工有什么可核材料？"
+      ],
+      "rounds": [
+        {
+          "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L94",
+          "line_start": 94,
+          "line_end": 139,
+          "kind": "本人跨公司总体面试复盘，非逐公司逐轮题目全文",
+          "ownership": "正文第一人称描述自己8月底贝壳面试等经历，并展示本人自我介绍。",
+          "questions_or_topics": [
+            {
+              "line": 133,
+              "topic": "HTTPS/SSL原理：协议层、加密方法及选择、防御威胁；作者称课设实现经验帮助解释。"
+            },
+            {
+              "line": 136,
+              "topic": "协程解决的问题、Reactor并发模型、语言/库实现方案；作者把本人网络库与话题直接关联。"
+            },
+            {
+              "line": 126,
+              "topic": "通过个人量化框架的Python/C++混合开发、Unix网络库和商业Web经验说明亮点。"
+            }
+          ],
+          "claim_boundary": "“所有面试官基本都会问”“一套回答基本SP预定”等属作者历史主观概括，不作为频率统计、SSP规则或因果结论；没有具体算法题原文/公司逐轮日期，不虚构成若干场次。"
+        }
+      ],
+      "access_level": "固定226行文章已读，核本人结果、项目自我介绍与技术复盘；不把总体知识主题虚构为逐轮面经",
+      "fulltext_verified": true,
+      "recommended_use": "与2019简历逐项对照，看项目经历如何支撑原理追问；作者关于SP的口号属于历史个人意见。",
+      "limitations": [
+        "无完整逐公司逐轮题目，不增加独立场次数",
+        "未写哪家公司为SP、哪家为SSP；不能把所有公司、最终选择或面试通过均记SSP。"
+      ],
+      "confidence": "B：本人公开复盘；录用未经企业核验",
+      "category": "面经复盘",
+      "retrieved_at": "2026-10-23"
+    }
+  ],
+  "new_projects": [
+    {
+      "id": "PRO18",
+      "title": "Crony：Go分布式定时任务工程参考，未证作者SSP",
+      "url": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+      "author": "tmnhs",
+      "commit": "00df3df90306811332d0aff66a259cf90ad6954f",
+      "commit_date": "2023-06-03T11:22:54Z",
+      "category": "项目参考",
+      "retrieved_at": "2026-10-23",
+      "role": "Go后端工程项目；不是Agent或已核SSP成功者项目",
+      "stack": [
+        "Go",
+        "Gin",
+        "Gorm",
+        "MySQL",
+        "Etcd",
+        "Viper",
+        "Zap",
+        "jakecoffman/cron"
+      ],
+      "project_relationship": [
+        {
+          "type": "作者第一人称自述",
+          "source_repo": "tmnhs/go-interview-resume",
+          "source_commit": "f4f3dbd824a8bdc70854997f501addc4a5011309",
+          "source_commit_date": "2024-03-16T06:02:09Z",
+          "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22",
+          "quote": "我个人做的分布式定时任务管理平台",
+          "interpretation": "资料作者直接将 Crony 关联到自己的项目，而非仅收藏第三方仓库。此证据仍是公开自述。"
+        },
+        {
+          "type": "作者第一人称自述及实现边界",
+          "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+          "quote": "这个项目其实是本人在XXXX公司实习时做的一个项目，感觉挺有意思，就自己写了一份代码（与原版还是有很大差别的，因为忘记了）上传到了github",
+          "interpretation": "个人开源代码是作者对实习项目的重新实现；公司原版、原实习职责与个人仓库能力不能直接等同。公司名称及录用结果均未由此证实。"
+        },
+        {
+          "type": "原实习职责自述",
+          "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28",
+          "quote": "负责完成执行节点模块和go-sdk的研发",
+          "interpretation": "不能将公司项目所有模块均归为作者个人负责，也不能将 go-sdk 自动算作当前公开仓库已有实现。"
+        }
+      ],
+      "outcome": "未证实。关联资料 README 和项目经历介绍中未找到本人获得 SSP 的明确表述；不得由项目质量推导招聘档位。",
+      "source_findings": [
+        {
+          "finding": "围绕任务散落、执行状态不透明和失败排查成本构建集中管理平台，有可解释的业务动机；后端采用 Go、Gin、Gorm、MySQL、Etcd、Viper、Zap。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L16-L24",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L88-L92",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L39"
+          ],
+          "boundary": "未验证生产用户、吞吐量、故障恢复时延或业务收益。不要把 README 功能表当成性能验收记录。"
+        },
+        {
+          "finding": "执行节点通过 Etcd Grant、KeepAlive 和带租约 Put 注册；管理端监听节点删除事件，执行任务重新分配。该项目存在实际服务注册和故障转移代码。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L28-L78",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L48-L69",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308"
+          ],
+          "boundary": "有实现不等于已证明网络分区、管理端多实例和进程崩溃下的执行语义。"
+        },
+        {
+          "finding": "AutoAllocateNode 遍历活节点、读取任务数量并选择任务数最少者；加权轮询和平滑加权轮询列在 README 的 TODO 中。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go#L117-L143",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L135-L137",
+            "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L9-L28"
+          ],
+          "boundary": "实习经历中的 Coa RPC、加权轮询和 go-sdk 是公司项目描述；当前个人仓库不能据此宣称已实现这些能力。作者明确说明重写与原版不同，不能据差异指控经历虚假。"
+        },
+        {
+          "finding": "管理端先 Get 节点快照并处理结果，之后才启动不带 WithRev 的 Watch；setNodeList 内还包含启动等待和任务分配。执行端同样先 loadJobs，再启动 WatchJobs，后者也未携带快照 revision。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L37-L49",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L108-L154",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L142-L165",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L214-L216"
+          ],
+          "inference": "快照读取完成到 Watch 生效之间存在需验证的事件遗漏窗口，适合改造成从快照 revision+1 续接、处理 compaction 并进行周期校准。",
+          "verification_status": "静态发现，未通过并发故障注入复现。"
+        },
+        {
+          "finding": "assignJob 先将新节点任务写入 Etcd，再更新 MySQL；FailOver 完成新分配后才删除旧节点任务键。所读流程为多个分步操作。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L245-L267",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308"
+          ],
+          "inference": "需要验证中途失败后的 Etcd/MySQL 一致性、双节点短暂持有同一任务以及多管理端并发迁移；不能只用管理服务多实例和负载均衡证明高可用。",
+          "verification_status": "未声称全仓不存在其他补偿；未做生产或运行时验证。"
+        },
+        {
+          "finding": "keepAlive 收到 nil 后记录日志并返回；节点 Cron 的停止在 NodeServer.Stop 路径中。所读租约续期函数未显示断租后主动停止调度、重建租约或重新注册。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L60-L72",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L110-L123"
+          ],
+          "verification_status": "未复现；作为后续项目正确性实验，不能称已验证故障。"
+        },
+        {
+          "finding": "CreateJob 包含重试次数、重试间隔、成功/失败日志写入与失败通知的代码；RunWithRecovery 是另一条手动运行路径，不宜把两者的重试语义直接视为相同。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L77-L100",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L137-L209",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go#L119-L134"
+          ]
+        },
+        {
+          "finding": "固定源码树发现 5 个 *_test.go；已读的命令测试依赖本地脚本，HTTP 相关测试依赖 localhost 服务，主要检查 error 并记录输出。所读测试没有证明故障转移、断租或快照/Watch 一致性。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_cmd_test.go#L9-L34",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go#L9-L33",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/httpclient/http_client_test.go#L9-L17"
+          ],
+          "boundary": "文件数不能证明项目从未做过其他测试。未发现固定源码树中的常见 GitHub Actions / GitLab CI / Jenkins 配置入口，未运行现有测试。"
+        },
+        {
+          "finding": "README 链接 robfig/cron，但 go.mod 与执行节点代码实际引用 jakecoffman/cron；该固定版本声明 Go 1.16，Etcd 依赖为 3.3.9+incompatible。",
+          "sources": [
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L92",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L16",
+            "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L3-L18"
+          ],
+          "boundary": "技术栈应按实际源码记录；未做漏洞扫描，不据版本号单独宣称漏洞或不可用。重新开发应单独验证依赖兼容性。"
+        }
+      ],
+      "strengths": [
+        "从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。",
+        "代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。",
+        "作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。"
+      ],
+      "limitations": [
+        "不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。",
+        "不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。",
+        "不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。",
+        "不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。"
+      ],
+      "recommended_use": "沿任务创建、注册、分配、执行、重试和迁移做代码走读；对照文档与实现在何处一致、何处仍是TODO。此项只用于信息调研和工程比较，个人项目设计暂缓。",
+      "license_notes": {
+        "spdx_id": "MIT",
+        "status": "已阅读固定 commit 根 LICENSE，并与 GitHub 仓库元数据核对。",
+        "url": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/LICENSE#L1-L13",
+        "copyright": "Copyright (c) 2022 tmnhs",
+        "redistribution_condition": "复制或分发软件副本及实质部分时须保留版权和许可声明。",
+        "boundary": "该 MIT 核查仅针对 Crony 仓库；关联资料仓库 go-interview-resume 的 API 未返回许可证，不能将 Crony 的 MIT 授权延伸到该资料仓库的全文或简历模板。"
+      },
+      "archive_status": {
+        "status": "未新增ZIP，仅提供固定源码入口",
+        "reason": "整仓含未逐文件筛选的配置，未原样复制进交付包；MIT条款已读但不延伸到关联履历资料仓库",
+        "project_executed": false
+      },
+      "confidence": "B：本人归属自述、许可证及关键源码已读；招聘结果与运行效果未核实"
+    }
+  ],
+  "strengthened_existing_ids": [
+    "CV05",
+    "PRO09"
+  ]
+}

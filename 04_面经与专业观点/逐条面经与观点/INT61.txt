@@ -1,0 +1,141 @@
+INT61 | LittleChild：地平线SSP与小马普通档的同作者面经对照
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+公司：
+  地平线／小马智行等
+方向与岗位：
+  SLAM/自动驾驶算法邻近参考
+事件时间／原文日期（依分类）：
+  秋招接春招；事件年未明，22领航员不自动作2022年
+结果自述：
+  地平线SSP、小马普通档，均自述
+candidate_group：
+  CV16_LittleChild
+统计组：
+  招聘类型未确认（单列）
+role_boundary：
+  不纳入后端或Agent工程成功者；同账号fork不等于求职原创项目
+涉及主题：
+  - 项目与实习深挖
+  - C++
+  - SLAM
+  - max pooling
+  - 背包
+  - 概率
+  - 算法
+原文提问（归纳）：
+  - 围绕简历项目及实习细节
+  - 背包类编码题
+  - 由不等概率生成器构造等概率生成器
+  - 一维max pooling及二维延伸
+  - 多个项目及实习逐项深挖
+  - 公司选择、职业规划与HR沟通
+rounds：
+  - 原始来源：
+      https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+    questions_reported：
+      - 围绕简历项目及实习细节
+      - 背包类编码题
+      - 由不等概率生成器构造等概率生成器
+    result：
+      同一段自述地平线SSP
+  - 原始来源：
+      https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L216-L226
+    questions_reported：
+      - 一维max pooling及二维延伸
+      - 多个项目及实习逐项深挖
+      - 公司选择、职业规划与HR沟通
+    result：
+      小马智行自述算法普通档，接收；不标SSP
+原访问范围：
+  固定README262行完整取得并核读结果上下文
+fulltext_verified：
+  否
+建议用途：
+  可比较实习/科研项目如何被持续深挖、SSP与普通档如何在同文区分；属于邻近算法方向，不能用它填补后端或Agent工程成功者缺口。
+局限：
+  - SSP与结果未经企业核验
+  - 地平线具体岗位名未在该段明示
+  - 没有完整简历或个人项目源码闭环
+  - 不能将作者对面试官的情绪、原因猜测或价值判断当事实
+  - 历史自动驾驶方向，不代表Java/Go或Agent应用工程门槛
+类别：
+  面经复盘
+retrieved_at：
+  2026-10-23
+证据边界：
+  B：本人公开记录；未经企业独立核验，阅读范围单列
+统一分类：
+  方向：
+    算法对照
+  招聘类型：
+    未知
+  事件时间：
+    秋招接春招；事件年未明，22领航员不自动作2022年
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    固定commit2022-03-18（非面试时间）
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    固定README262行完整取得并核读结果上下文；完整取得262行，核读结果上下文不等于审定全部技术知识。
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      地平线
+    档位：
+      SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+    依据：
+      自述地平线SSP，拒绝后选小马智行；小马原文为算法普通档
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+  - 公司：
+      小马智行/pony
+    档位：
+      普通档（原文白菜）
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/LittleChild/Preparation-For-OFFER/blob/6bfb0a7dd6e11d04cdc9f7b832d79fc92427fb21/README.md#L243-L251
+    依据：
+      自述地平线SSP，拒绝后选小马智行；小马原文为算法普通档
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  固定commit2022-03-18（非面试时间）
+面经形式：
+  同候选人多场汇总（不拆成独立候选人）
+候选人关联ID：
+  - CV16
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+结果分类：
+  mixed_or_overall_self_report
+related_record_ids：
+  —

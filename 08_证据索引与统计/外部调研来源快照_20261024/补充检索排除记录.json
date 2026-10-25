@@ -1,0 +1,47 @@
+{
+  "retrieved_on": "2026-10-24",
+  "records": [],
+  "conclusion": "追加6轮定向检索与候选打开后，未补到足以新增R09的大厂Agent专岗录用者实际完整公开简历，也未补到近期后端已上岸完整脱敏简历。保留原8条分级卡，不凑数。",
+  "queries": [
+    "site.nowcoder.com Agent offer 简历 附",
+    "site.nowcoder.com 上岸 简历 RAG",
+    "agent 附上简历",
+    "后端 offer 附上简历",
+    "简历 Agent开发 拿到 腾讯",
+    "简历 Agent开发 拿到 快手",
+    "site.nowcoder.com 简历 后端 已上岸"
+  ],
+  "negative_results": [
+    {
+      "title": "一个月拿下字节的offer，我的简历是这样写的",
+      "url": "https://www.nowcoder.com/feed/main/detail/ac0381fc9c87453fb0b57cfd38a307e4",
+      "reason": "正文明确其实是求锐评帖，标题不能作为获offer证据。"
+    },
+    {
+      "title": "28届go-agent求各位大佬简历支招",
+      "url": "https://api-cdn.nowcoder.com/discuss/932602859198115840?sourceSSR=dynamic",
+      "reason": "作者说拿腾讯Agent实习offer的是同学，展示的是作者自己的求职简历，不能归为同一人。"
+    },
+    {
+      "title": "27届 字节跳动 ByteIntern 后端开发实习（已Offer）",
+      "url": "https://www.nowcoder.com/feed/main/detail/18f80b53349f4fb48d3c759b5b796bc5",
+      "reason": "本人offer时间线明确，但没有简历或项目内容；公开主页仅两则offer帖，无法补充实际简历。"
+    },
+    {
+      "title": "面试官 连Agent项目都没有还敢投字节",
+      "url": "https://www.sohu.com/a/1038369685_122073250",
+      "reason": "第三方项目推广稿，学生/客户案例无法追溯至本人原简历，未作为成功证据。"
+    },
+    {
+      "title": "物理系转AI Agent拿下大厂Offer",
+      "url": "https://opc.csdn.net/6a3a484810ee7a33f28121b3.html",
+      "reason": "课程/辅导者转述案例，未核验作者本人对应录用简历，不补入高置信样本。"
+    },
+    {
+      "title": "双非本Java成功拿下字节offer 求职学习经验分享",
+      "url": "https://www.nowcoder.com/discuss/544583036730454016",
+      "reason": "项目不公开、须私聊获取，不能据公开材料构造其简历。"
+    }
+  ],
+  "interpretation": "没有找到不代表不存在；只说明此次公开可访问检索未闭合“同一人、同一版本简历、明确Agent专岗、获offer”证据链。"
+}

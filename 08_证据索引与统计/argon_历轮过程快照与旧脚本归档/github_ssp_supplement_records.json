@@ -1,0 +1,996 @@
+{
+  "date": "2026-10-23",
+  "cases_new": [
+    {
+      "id": "CV10",
+      "title": "CalvinNeo：腾讯SSP实习转正与三个本人C++项目",
+      "url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "author": "CalvinNeo",
+      "date": "2019届硕士；题名2018与正文去年相互对应，合理记为2018年求职结果；页面2019-03-15编辑，非已确认首发时间",
+      "role": "C++后台/系统工程；历史实习转正及校招",
+      "outcome": "腾讯SSP（实习转正）与阿里云A等offer，均为本人自述",
+      "outcome_evidence": "同一篇原文开头明确SSP，在GitHub段逐一介绍并直接链接三个本人项目；无企业独立核验。",
+      "evidence_excerpt": "我是2019届的硕士，在去年拿到了腾讯SSP（实习转正）和阿里云A等Offer。",
+      "document_type": "本人求职复盘与阿里云面试主题；非完整简历",
+      "anonymous_background": "原文自述C9硕士、本科跨专业、腾讯实习；不保存联系方式。",
+      "stack": [
+        "C++14/17",
+        "词法/语法分析",
+        "UDP可靠传输",
+        "Raft",
+        "Linux",
+        "gRPC",
+        "测试与调试"
+      ],
+      "projects": [
+        "CFortranTranslator：Fortran77/90到C++14翻译器",
+        "ATP：参考libutp思想实现的可靠传输库",
+        "Nuft：参考Raft论文实现的共识库"
+      ],
+      "project_urls": [
+        "https://github.com/CalvinNeo/CFortranTranslator",
+        "https://github.com/CalvinNeo/ATP",
+        "https://github.com/CalvinNeo/Nuft"
+      ],
+      "source_summary": "作者明确说面试官对翻译器感兴趣；ATP源于课程作业，Nuft源于Raft论文。阿里云段讨论Linux、项目深挖、C++与系统设计。",
+      "original_analysis": "本轮最完整的本人SSP自述→本人项目→求职/面试主题关联之一。价值在于不同项目各有机制深度；不证明三个项目单独导致SSP。",
+      "strengths": [
+        "本人正文直接建立项目关系，优于同名账号猜测",
+        "三个项目均有固定源码及许可证",
+        "项目设计与实现、失败处理和测试可具体定位"
+      ],
+      "weaknesses": [
+        "历史2018年结果，不能代表2026实习门槛",
+        "腾讯SSP是实习转正，不是阿里云SSP，也不是三项目的效果证明",
+        "没有腾讯逐轮逐题记录或完整成功者CV",
+        "附的是当前可取得固定版本，非2018求职快照"
+      ],
+      "recommended_use": "优先对照PRO14–16的源码优缺点与INT57；学习解释动机、个人工作、边界与实验，不复刻一串项目名称。",
+      "access_level": "牛客正文实际已读；原链接163036重定向，动态页复查可能返回空壳",
+      "confidence": "B：第一人称自述与项目关系可核；录用与项目贡献未经企业独立验证",
+      "category": "候选人资料",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "CV11",
+      "title": "linyacool／林亚：历史SSP学习复盘与本人WebServer",
+      "url": "https://www.nowcoder.com/discuss/353154787879362560",
+      "author": "linyacool",
+      "date": "牛客页面显示 2020-03-04 22:59 已编辑；原始发布日期和具体 offer 年份未独立确认。GitHub 根 LICENSE 版权年 2018 只说明代码许可年份。",
+      "role": "C++后台/基础架构；历史秋招与实习项目",
+      "outcome": "标题自述offer大多是SSP；列字节、网易游戏、阿里云、华为、腾讯，未逐家公司定档",
+      "outcome_evidence": "文章作者第一人称自述，非企业独立验证；未划定哪家公司给 SSP。",
+      "evidence_excerpt": "标题“offer大多是ssp”；正文“秋招拿到：字节跳动后台开发、网易游戏游戏研发、阿里云基础平台开发、华为、腾讯后台开发”。",
+      "document_type": "本人学习与求职复盘；非逐轮面经、非完整简历",
+      "stack": [
+        "C++11",
+        "Linux",
+        "Reactor",
+        "epoll ET",
+        "线程池",
+        "HTTP",
+        "异步日志",
+        "定时器"
+      ],
+      "projects": [
+        "本人静态WebServer，学习并借鉴muduo"
+      ],
+      "project_urls": [
+        "https://github.com/linyacool/WebServer"
+      ],
+      "source_summary": "写了一个静态Web服务器，主要是找实习的时候用的，参考了muduo网络库。",
+      "original_analysis": "原文直接链接本人项目；设计、测试条件、困难及改进材料齐全，适合比较项目表达和基础深度。",
+      "strengths": [
+        "本人成功经历到本人项目的来源链明确，且有源码、设计、测试、改进和开发困难材料。",
+        "能把 C++/RAII、线程、网络、协议、性能测试和调试连成可追问的工程过程。",
+        "主动承认 muduo 借鉴与 Buffer 性能不足，适合学习如何诚实区分复用、取舍和个人改进。"
+      ],
+      "weaknesses": [
+        "无法给字节、腾讯等逐一指定 SSP 级别。",
+        "历史秋招结果不证明当前实习招聘门槛；项目用于找实习，文章所列 offer 则为秋招，需保留时间/岗位区别。",
+        "没有完整公开简历，文章书单和刷题量不能等同于因果性 SSP 要求。",
+        "未运行构建或性能复现，源码存在不等同于现代环境直接可运行。",
+        "README面试问题.md为死链，不算已读面经"
+      ],
+      "recommended_use": "优先读PRO17的并发模型、测试及改进、遇到的困难；重点看作者如何披露复用和不足。",
+      "access_level": "本人牛客正文与固定源码、文档已读；README所指面试问题文档不存在",
+      "confidence": "B：本人SSP自述与项目关系强；逐轮面经、具体公司SSP档位未确认",
+      "category": "候选人资料",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "CV12",
+      "title": "muluoleiguo：2021秋招SSP自述与Muluo系统库项目材料",
+      "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/README.md#L1",
+      "author": "muluoleiguo",
+      "date": "2021年秋招（原文明确）",
+      "role": "Linux C++服务器/游戏研发；历史校招",
+      "outcome": "百度、阿里、字节、网易等offer中有SP及SSP，未指明哪家；最终选网易互娱不等于网易SSP",
+      "outcome_evidence": "作者本人仓库第一人称自述；未标哪家公司给 SSP，不能把全部公司或最终网易 offer 认定为 SSP。",
+      "evidence_excerpt": "2021年秋招……大厂收获了百度、阿里巴巴、字节跳动、网易等offer，有白菜也有sp和ssp……我最后选择了网易互娱广州游戏研发",
+      "document_type": "本人结果自述＋项目材料与面经汇总，非完整简历",
+      "stack": [
+        "C++11",
+        "Linux网络IO",
+        "日志",
+        "JSON",
+        "线程池",
+        "RPC",
+        "协程"
+      ],
+      "projects": [
+        "Muluo：同仓展示的日志/JSON/网络/RPC/协程材料，未找到独立完整可构建源码"
+      ],
+      "project_urls": [
+        "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/README.md#L1"
+      ],
+      "source_summary": "可读项目模块说明、连接生命周期片段和日志性能讨论；同仓网易面经含外部链接，不能全算仓主亲历。",
+      "original_analysis": "学习其模块分解与深挖路径，选少量自己能证明的能力；不照搬模块数量、吞吐数字或自称原创。",
+      "strengths": [
+        "把网络 IO、线程池、调度、定时器、日志与协议解析贯穿起来，适合观察系统基础如何在项目中体现。",
+        "除 API 清单外，还展示连接生命周期等类设计片段与性能讨论，可作为追问提纲。"
+      ],
+      "weaknesses": [
+        "仓库资料混有他人源码分析和题库；不能把所有模块都认定为独立原创成果。",
+        "项目完整源码、可重复构建入口和测试脚本未定位，无法确认模块实际集成程度。",
+        "性能数字属于作者记录，缺充分可复现实验上下文，不能作为当前性能承诺。",
+        "不能确定哪家 offer 为 SSP。",
+        "不能把已选择网易互娱等同于网易 SSP 证明。",
+        "没有完整公开简历；不能反推 GPA、实习、学校等未明确背景。",
+        "没有源码复现，也没有证明项目导致 SSP 的因果关系。"
+      ],
+      "recommended_use": "作为项目拆分与追问导航；不将文档清单当已实现全量能力。本仓只给链接与短摘录，不整库归档。",
+      "source_findings": [
+        {
+          "path": "面试/项目/网络库/代码详解/connection.md",
+          "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E7%BD%91%E7%BB%9C%E5%BA%93/%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3/connection.md#L1",
+          "line_start": 1,
+          "line_end": 34,
+          "summary": "Connection 类片段：连接状态回调、输入输出缓冲区及连接生命周期。"
+        },
+        {
+          "path": "面试/项目/日志库/你做过性能测试吗(Webbench).md",
+          "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E6%97%A5%E5%BF%97%E5%BA%93/%E4%BD%A0%E5%81%9A%E8%BF%87%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%90%97%28Webbench%29.md#L64",
+          "line_start": 64,
+          "line_end": 84,
+          "summary": "MuLog 单线程/多线程写日志的作者记录表格，未运行复现。"
+        },
+        {
+          "path": "面试/项目/日志库/你做过性能测试吗(Webbench).md",
+          "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%A1%B9%E7%9B%AE/%E6%97%A5%E5%BF%97%E5%BA%93/%E4%BD%A0%E5%81%9A%E8%BF%87%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%90%97%28Webbench%29.md#L93",
+          "line_start": 93,
+          "line_end": 109,
+          "summary": "作者记录 echo Server 加日志后的 QPS 影响；需独立核测试脚本、硬件和统计口径。"
+        }
+      ],
+      "interview_sources": [
+        {
+          "path": "面试/面试记录/网易/网易互娱/2021年面经/项目.md",
+          "url": "https://github.com/muluoleiguo/interview/blob/a462daeb32728eb27f5c154d0e715f4d9399915a/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95/%E7%BD%91%E6%98%93/%E7%BD%91%E6%98%93%E4%BA%92%E5%A8%B1/2021%E5%B9%B4%E9%9D%A2%E7%BB%8F/%E9%A1%B9%E7%9B%AE.md#L1",
+          "line_start": 1,
+          "line_end": 17,
+          "summary": "含项目测试、难点、高并发、分布式锁、Linux 监控等提问。",
+          "first_person_status": "未证实作者亲历：文本有“我说了两个难点”，同时含 nowcoder jump 链接、未标原始作者；整仓自称汇总资料。只能按该仓收集的面经条目计。",
+          "can_count_as_author_personal_interview": false
+        }
+      ],
+      "license_notes": "未见根总许可证，子目录许可证不授权整个资料仓库；未归档。",
+      "access_level": "固定commit README、项目材料与所选题目已读",
+      "confidence": "B：本人SSP自述；项目实现完整度与面经作者关系未闭环",
+      "category": "候选人资料",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "CV13",
+      "title": "dong03：历史CV/多模态SSP自述、协作面经与同账号研究项目",
+      "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/README.md#L4",
+      "author": "dong03",
+      "date": "面经明确2022年；仓库固定commit为2023年；SSP具体发放年未写明",
+      "role": "CV/多模态算法邻近参考；非Agent工程岗",
+      "outcome": "作者明确第一人称自述若干大厂SSP；未指明哪家公司属于SSP",
+      "outcome_evidence": "README第一人称明确SSP，未提供具体公司定档或企业证明。",
+      "evidence_excerpt": "招聘告一段落，目标方向是CV/多模态算法工程师，也拿到了若干大厂的SSP，简单记录下面试过程中的知识点供参考和存档。",
+      "document_type": "本人SSP自述、知识总结与多人协作面经；非完整简历",
+      "stack": [
+        "PyTorch",
+        "CV/多模态",
+        "模型训练",
+        "跨数据集评测",
+        "算法与数学"
+      ],
+      "projects": [
+        "同账号MVSS-Net图像篡改检测研究项目；面经没有点名该项目"
+      ],
+      "project_urls": [
+        "https://github.com/dong03/MVSS-Net"
+      ],
+      "source_summary": "README第8行称只是记录我自己遇到的问题；TIPS第24–36行有按公司归纳的知识点。TIPS第38–39行明确更多面经由实验室同学参与整理，因此exp目录不是可确认的单作者面试全集。",
+      "original_analysis": "同一公开GitHub账号、API标记非fork；面经未明确点名MVSS-Net，因此只确认账号关联，不确认简历或面试使用关系。",
+      "strengths": [
+        "借鉴数据划分、跨域测试、指标与阈值、推理/评测入口等证据组织方式。",
+        "讨论优劣时区分同分布指标和跨域泛化，避免只有单个漂亮分数。"
+      ],
+      "weaknesses": [
+        "SSP整体自述未列公司、正式offer证明或档位口径。",
+        "协作面经存在多人来源；不得将多公司、多轮计为多个独立成功者。",
+        "2022–2023历史样本与2024–2026岗位背景不同。",
+        "未获取完整成功者CV；未读仓库全部知识点、未读项目图片、未运行任何第三方代码或模型。",
+        "同账号关系不等于本人贡献、简历使用或获SSP的因果关系"
+      ],
+      "recommended_use": "补充算法项目的数学、实现、数据划分与跨域指标追问；不纳入近期Agent要求。",
+      "source_findings": [
+        {
+          "repository": "dong03/MVSS-Net",
+          "relation_strength": "同一公开GitHub账号、API标记非fork；面经未明确点名MVSS-Net，因此只确认账号关联，不确认简历或面试使用关系。",
+          "commit": "cc2aed77a823723015f95e4a6a3e344f3ddb7ccc",
+          "commit_date": "2023-03-13T01:58:43Z",
+          "repository_created_at": "2021-07-23T10:37:07Z",
+          "source": "https://github.com/dong03/MVSS-Net/blob/cc2aed77a823723015f95e4a6a3e344f3ddb7ccc/README.md#L3",
+          "verified_access": "固定版本README全文133行已读；只静态阅读说明，未下载代码、数据或模型。",
+          "visible_evidence": [
+            "README第3行说明为ICCV2021图像篡改检测论文代码与模型；未另行把论文题录作为本轮完整学术核验。",
+            "第31–52行提供训练/测试数据划分，并说明CASIAv1与CASIAv2重复样本的替换，体现泄漏意识。",
+            "第62–80行有跨数据集AUC及image-level F1结果，允许观察域外性能退化；均为项目作者报告，未复现实验。",
+            "第84–100行给推理、评测命令及demo入口；本轮未执行、未核验命令能否在当前环境运行。"
+          ],
+          "recommended_lessons": [
+            "借鉴数据划分、跨域测试、指标与阈值、推理/评测入口等证据组织方式。",
+            "讨论优劣时区分同分布指标和跨域泛化，避免只有单个漂亮分数。"
+          ],
+          "not_recommended_as": "不是Agent项目；依赖环境列Ubuntu16.04、Python3.6、CUDA10.1，不能原样当现代Agent工程栈。没有证据证明该项目带来SSP。"
+        }
+      ],
+      "access_level": "固定README、TIPS、5份短面经及MVSS-Net README已读，未读全部源码",
+      "confidence": "B：SSP自述、历史面经文本和同账号项目说明可追溯；录用、具体项目贡献与面经作者对应关系未独立验证",
+      "category": "候选人资料",
+      "retrieved_at": "2026-10-23"
+    }
+  ],
+  "interviews_new": [
+    {
+      "id": "INT56",
+      "title": "JavaWxy本人面试记录：携程、菜鸟、美团项目追问对照",
+      "url": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md",
+      "company": "携程／菜鸟／美团等（同一候选人）",
+      "role": "Java后端；历史实习与秋招混合",
+      "date": "文件分组24暑期、24提前批、24秋招；历史材料；固定commit日期为2024-03-08，因此不能把分组误解为尚未发生的2024年暑期/秋季面试；很可能指2024届，具体轮次只保留原文月日，不补写未经确认年份。",
+      "outcome": "作者整体自述腾讯SSP；这些轮次不等于腾讯SSP面经，也未逐轮提供档位证明",
+      "sample_group": "历史同作者多轮汇总（不作独立成功者）",
+      "candidate_group": "CV02_JavaWxy",
+      "role_boundary": "原文件同时含同学记录；本卡仅选无此标记的携程0315、菜鸟0421、美团0831，排除0317美团同学一轮",
+      "ssp_status": "候选人整体SSP自述明确；腾讯具体面经未公开",
+      "topics": [
+        "RPC",
+        "Netty",
+        "注册发现",
+        "消息队列",
+        "本地消息表",
+        "幂等",
+        "退款竞态",
+        "事务",
+        "压测",
+        "本人贡献"
+      ],
+      "project_questions": [
+        "RPC注册发现与完整调用流程",
+        "远程调用是否每次访问注册中心",
+        "同步/异步返回",
+        "订单全流程、消息积压和Spring事务",
+        "RPC节点宕机与故障恢复",
+        "压测实施与本人贡献",
+        "本地消息表+MQ与退款竞态",
+        "消息重复消费、限流和架构取舍",
+        "RPC与本地调用区别、熔断/降级和链路追踪",
+        "压测与一致性哈希适用场景",
+        "多线程结果汇总、实习挑战与负反馈、抢单并发安全"
+      ],
+      "rounds": [
+        {
+          "path": "面试记录.md",
+          "line_start": 7,
+          "line_end": 37,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L7-L37",
+          "company": "携程",
+          "round": "0315一面",
+          "project_questions": [
+            "RPC注册发现与完整调用流程",
+            "远程调用是否每次访问注册中心",
+            "同步/异步返回",
+            "订单全流程、消息积压和Spring事务"
+          ],
+          "recommended_use": "先对照作者两个项目，再检查能否回答自己的调用链与故障处理。"
+        },
+        {
+          "path": "面试记录.md",
+          "line_start": 632,
+          "line_end": 692,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L632-L692",
+          "company": "菜鸟",
+          "round": "0421一面",
+          "project_questions": [
+            "RPC节点宕机与故障恢复",
+            "压测实施与本人贡献",
+            "本地消息表+MQ与退款竞态",
+            "消息重复消费、限流和架构取舍"
+          ],
+          "recommended_use": "优先用于提炼项目深挖问题；面经回忆和括号答案均不作为标准答案。"
+        },
+        {
+          "path": "面试记录.md",
+          "line_start": 1138,
+          "line_end": 1170,
+          "permalink": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95.md#L1138-L1170",
+          "company": "美团",
+          "round": "0831二面",
+          "project_questions": [
+            "RPC与本地调用区别、熔断/降级和链路追踪",
+            "压测与一致性哈希适用场景",
+            "多线程结果汇总、实习挑战与负反馈、抢单并发安全"
+          ],
+          "recommended_use": "补充实习贡献与反思问题；不将该轮等同腾讯SSP面试。"
+        }
+      ],
+      "summary": "本轮Java材料最值得读的增补：能把同一人的业务项目、RPC项目、具体问题与踩坑笔记对应起来。",
+      "recommended_use": "先读菜鸟L632–692，再读携程L7–37和美团L1138–1170；结合PRO08，不将括号里的答案当标准答案。",
+      "source_project_links": [
+        {
+          "repo": "viego1999/wxy-rpc",
+          "url": "https://github.com/viego1999/wxy-rpc",
+          "relationship": "作者同账号项目，README直接列为本人参考项目；Introduction说明本人开发/学习背景",
+          "relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L139-L149",
+          "relationship_lines": [
+            143,
+            143
+          ],
+          "stack": [
+            "Java",
+            "Netty",
+            "ZooKeeper",
+            "Spring Boot",
+            "序列化",
+            "负载均衡"
+          ],
+          "recommended_use": "对应基础组件与网络调用链；深读协议、连接、超时与重试，不能仅复现接口。",
+          "limits": [
+            "未在此子任务下载、运行或审查完整代码",
+            "不确认每行原创或候选人时期版本",
+            "不等同该项目单独促成SSP"
+          ]
+        },
+        {
+          "repo": "viego1999/xuecheng-plus-project",
+          "url": "https://github.com/viego1999/xuecheng-plus-project",
+          "relationship": "README L145链接课程项目，L149自述把点评秒杀业务融合进去；Introduction称承担内容与订单模块",
+          "relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L143-L149",
+          "relationship_lines": [
+            145,
+            149
+          ],
+          "stack": [
+            "Spring Cloud",
+            "MyBatis",
+            "Redis",
+            "RabbitMQ",
+            "MySQL",
+            "订单/内容管理"
+          ],
+          "recommended_use": "与RPC形成业务项目+基础组件项目组合；对照消息、事务、状态竞态和本人改动。",
+          "limits": [
+            "课程来源明确，不能包装为全新业务原创",
+            "没有企业侧核验交付或个人贡献",
+            "本包已有PRO08，此次不重复归档"
+          ]
+        },
+        {
+          "repo": "viego1999/xy-dianping",
+          "url": "https://github.com/viego1999/xy-dianping",
+          "relationship": "README L147同账号项目；L149自述迁移其中秒杀模块",
+          "relationship_evidence": "https://github.com/viego1999/JavaWxy/blob/69c82b68d5d7b023adadc2421c2d0a1406641397/README.md#L143-L149",
+          "relationship_lines": [
+            147,
+            149
+          ],
+          "stack": [
+            "Java",
+            "Redis",
+            "秒杀业务"
+          ],
+          "recommended_use": "学习模块迁移与取舍，不把教程名称数量当项目实力。",
+          "limits": [
+            "未单独核查代码、许可证或求职时期版本",
+            "未下载源码"
+          ]
+        }
+      ],
+      "limitations": [
+        "SSP、offer、学历、实习与量化结果均为作者自述，未获企业独立验证",
+        "没有证明这些项目独立导致SSP，其他背景与表现无法控制",
+        "历史课程项目与历史市场条件不能直接作为2026实习门槛",
+        "未取得完整可再分发成功者简历",
+        "不下载/归档第三方源码，不抓取或保存私人联系方式",
+        "已读面试记录.md没有腾讯专门轮次；能证明SSP自述、同作者项目和其他公司的面经关联，不能声称拿到了腾讯SSP完整面经。"
+      ],
+      "access_level": "固定面试记录1186行原文已读；选择范围给出行号",
+      "fulltext_verified": true,
+      "confidence": "B：第一人称面试回忆；结果未经独立核验",
+      "category": "面经复盘",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "INT57",
+      "title": "CalvinNeo：2018求职复盘中的阿里云后台面试主题",
+      "url": "https://www.nowcoder.com/discuss/353154880351182848",
+      "company": "阿里云（腾讯SSP为同作者另外的实习转正结果）",
+      "role": "C++后台；历史校招",
+      "date": "2018年求职、2019届；页面2019-03-15编辑，非已确认首发时间",
+      "outcome": "作者自述阿里云A和腾讯SSP（转正）；不混淆公司和路径",
+      "sample_group": "历史求职复盘与面试主题（非逐轮记录）",
+      "candidate_group": "CV10_CalvinNeo",
+      "role_boundary": "非2026实习面经；原文阿里云补充段为主题总结，无完整题目逐字稿",
+      "ssp_status": "腾讯实习转正SSP自述明确；阿里云不是SSP声明",
+      "topics": [
+        "C++",
+        "Linux",
+        "内存管理",
+        "文件系统",
+        "系统设计",
+        "Redis",
+        "MySQL",
+        "RocksDB",
+        "算法",
+        "项目深挖"
+      ],
+      "project_questions": [
+        "为何选择并实现编译器、可靠传输或Raft，个人做了什么？（据项目段归纳）",
+        "阿里云项目追得深，需要解释Linux实现与常见系统设计（原文主题，非整理者虚构逐字问句）"
+      ],
+      "summary": "原文将项目动机、工程深度、实习表现与求职经验连起来，适合研究项目怎样支撑讨论。",
+      "recommended_use": "与CV10、PRO14–16一起读；区分原文面试主题和项目卡中整理者提出的源码深挖题。",
+      "source_project_links": [
+        "https://github.com/CalvinNeo/CFortranTranslator",
+        "https://github.com/CalvinNeo/ATP",
+        "https://github.com/CalvinNeo/Nuft"
+      ],
+      "limitations": [
+        "历史2018年结果，不能代表2026实习门槛",
+        "腾讯SSP是实习转正，不是阿里云SSP，也不是三项目的效果证明",
+        "没有腾讯逐轮逐题记录或完整成功者CV",
+        "附的是当前可取得固定版本，非2018求职快照"
+      ],
+      "access_level": "原文正文及末尾阿里云补充段实际已读；页面可能复查空壳",
+      "fulltext_verified": true,
+      "confidence": "B：本人公开复盘；不是完整逐轮SSP面经",
+      "category": "面经复盘",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "INT58",
+      "title": "dong03 CV_Interview：历史CV/多模态题目与协作面经范围",
+      "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/TIPS.md#L24-L39",
+      "company": "腾讯／蚂蚁／字节等（含实验室协作来源）",
+      "role": "CV/多模态算法邻近参考",
+      "date": "腾讯与蚂蚁正文为2022年；其他若未给年份则保留未知",
+      "outcome": "仓主整体自述若干SSP；不能将各公司轮次或同学面经归为其SSP结果",
+      "sample_group": "历史算法协作面经（作者关系未逐条确认）",
+      "candidate_group": "CV13_dong03_协作",
+      "role_boundary": "非近期Agent工程实习，不参与近期工程面经分母",
+      "ssp_status": "整体自述明确，具体公司/轮次不明确",
+      "topics": [
+        "PyTorch",
+        "损失函数",
+        "FLOPs",
+        "BatchNorm",
+        "梯度",
+        "论文与实习项目",
+        "业务场景",
+        "算法"
+      ],
+      "project_questions": [
+        "论文与实习项目、focal loss参数、FLOPs、BatchNorm工程实现、受限空间排序。",
+        "实习、论文、全连接层零初始化、softmax梯度、weight decay、PyTorch function/module和底层理解。",
+        "数组组合约束、DeepLabV3+、视频tag/embedding冷启动业务。",
+        "实习收获、业务场景理解、项目后续规划。",
+        "矩阵转置与取球概率题；本轮仅记录题目存在，不将答案当技术核验。"
+      ],
+      "rounds": [
+        {
+          "company": "腾讯CSIG安全",
+          "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/tencent.md#L3",
+          "read_range": "22行全文；日期2022.3.17及2022.3.24",
+          "questions": "论文与实习项目、focal loss参数、FLOPs、BatchNorm工程实现、受限空间排序。",
+          "outcome_boundary": "未提供本条SSP结果；协作来源，个人作者与总体SSP陈述未逐条对应。"
+        },
+        {
+          "company": "蚂蚁IoT",
+          "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/ant_cxr.md#L3",
+          "read_range": "12行全文；日期2022.3",
+          "questions": "实习、论文、全连接层零初始化、softmax梯度、weight decay、PyTorch function/module和底层理解。",
+          "outcome_boundary": "只有一面回忆，没有此条SSP结果或个人仓库对应。"
+        },
+        {
+          "company": "字节TikTok推荐视频理解",
+          "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/bytedance_tiktok_tkb.md#L1",
+          "read_range": "15行全文；未明确日期",
+          "questions": "数组组合约束、DeepLabV3+、视频tag/embedding冷启动业务。",
+          "outcome_boundary": "项目仅写项目二字，无内容、无录用结果，不能补写项目细节。"
+        },
+        {
+          "company": "Microsoft",
+          "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/microsoft.md#L1",
+          "read_range": "4行全文；AA面8.5但未写年份",
+          "questions": "实习收获、业务场景理解、项目后续规划。",
+          "outcome_boundary": "未给录用结果，不能归为微软SSP。"
+        },
+        {
+          "company": "小红书",
+          "url": "https://github.com/dong03/CV_Interview/blob/6ff6dde31ef16c9c691bce7b1caab0391f1b6c38/exp/xhs_tkb.md#L1",
+          "read_range": "3行全文；未写日期",
+          "questions": "矩阵转置与取球概率题；本轮仅记录题目存在，不将答案当技术核验。",
+          "outcome_boundary": "无项目详情及录用结果。"
+        }
+      ],
+      "summary": "README第8行称只是记录我自己遇到的问题；TIPS第24–36行有按公司归纳的知识点。TIPS第38–39行明确更多面经由实验室同学参与整理，因此exp目录不是可确认的单作者面试全集。",
+      "recommended_use": "适合查漏：同一算法项目会被追到数学、损失函数、底层实现与业务价值；不能把目录中所有问题当作2026 Agent实习必考清单。",
+      "limitations": [
+        "SSP整体自述未列公司、正式offer证明或档位口径。",
+        "协作面经存在多人来源；不得将多公司、多轮计为多个独立成功者。",
+        "2022–2023历史样本与2024–2026岗位背景不同。",
+        "未获取完整成功者CV；未读仓库全部知识点、未读项目图片、未运行任何第三方代码或模型。",
+        "同账号MVSS-Net未在这些面经中被点名，不能补写项目对应或获SSP因果"
+      ],
+      "access_level": "固定README、TIPS、所选5篇短面经已读；未读全库全部知识点",
+      "fulltext_verified": true,
+      "confidence": "B-：公开文本可核；多人来源，不能全算仓主亲历",
+      "category": "面经复盘",
+      "retrieved_at": "2026-10-23"
+    }
+  ],
+  "projects_new": [
+    {
+      "id": "PRO14",
+      "title": "CalvinNeo CFortranTranslator：本人SSP关联的语言工具项目",
+      "stack": [
+        "C++14/17",
+        "Fortran77/90",
+        "词法/语法分析",
+        "Bison",
+        "AST",
+        "代码生成",
+        "GoogleTest"
+      ],
+      "recommendation": "推荐研究领域约束如何推动工程深度；适合编译器/语言工具兴趣，不应为凑技术栈照搬整个翻译器。",
+      "strengths": [
+        "SSP自述原文直接介绍此项目，并称多数面试官感兴趣；关联明确",
+        "项目具备词法、语法、符号信息、代码生成及Fortran库适配，超出单函数演示",
+        "可把语义兼容和可读输出作为清晰取舍讨论"
+      ],
+      "weaknesses": [
+        "历史工具链与构建说明较旧，现代环境兼容性未验证",
+        "README明确不支持Unicode输入、只报告阻碍解析的致命错误",
+        "regen_do_range生成循环条件固定为<=，负步长DO的语义值得专项复核；本次未运行反例",
+        "现存测试断言多关注解析节点；不能据此宣称翻译后的全部程序语义等价"
+      ],
+      "inspect_paths": [
+        "docs/Develop.md",
+        "src/grammar/for90.y",
+        "src/target/gen_do.cpp",
+        "demos/test/parser_test.cpp",
+        "README.md"
+      ],
+      "source_findings": [
+        {
+          "path": "docs/Develop.md",
+          "line_start": 10,
+          "line_end": 29,
+          "finding": "开发文档解释simple_lexer与Bison解析器，包含Fortran跨行token的特殊情况。",
+          "kind": "设计文档",
+          "url": "https://github.com/CalvinNeo/CFortranTranslator/blob/903062e709c8a0818737b6202dbcf5f510377af8/docs/Develop.md#L10-L29"
+        },
+        {
+          "path": "src/target/gen_do.cpp",
+          "line_start": 29,
+          "line_end": 43,
+          "finding": "范围DO生成C++ for，条件固定<=且步长作为增量；递减范围的语义需独立测试。",
+          "kind": "固定源码静态观察",
+          "url": "https://github.com/CalvinNeo/CFortranTranslator/blob/903062e709c8a0818737b6202dbcf5f510377af8/src/target/gen_do.cpp#L29-L43"
+        },
+        {
+          "path": "demos/test/parser_test.cpp",
+          "line_start": 18,
+          "line_end": 47,
+          "finding": "GoogleTest对DO节点、COMMON块等有断言；解析结构通过不自动证明端到端语义等价。",
+          "kind": "测试材料",
+          "url": "https://github.com/CalvinNeo/CFortranTranslator/blob/903062e709c8a0818737b6202dbcf5f510377af8/demos/test/parser_test.cpp#L18-L47"
+        },
+        {
+          "path": "README.md",
+          "line_start": 111,
+          "line_end": 140,
+          "finding": "明确Unicode不支持与错误诊断范围；提供demo和GoogleTest依赖。",
+          "kind": "公开边界",
+          "url": "https://github.com/CalvinNeo/CFortranTranslator/blob/903062e709c8a0818737b6202dbcf5f510377af8/README.md#L111-L140"
+        }
+      ],
+      "tests_and_evaluation": [
+        "已抽读GoogleTest与demo，不曾执行。",
+        "宜区分解析正确、生成代码可编译和与原程序结果一致三个层次；不宣称本次已完成。"
+      ],
+      "runtime_dependencies": [
+        "C++14/17编译器、Boost、Bison/Flex相关工具，具体构建见原README。",
+        "测试部分需要GoogleTest；Windows和Ubuntu说明均较旧。"
+      ],
+      "interview_questions": [
+        "为何需要可读的逐语句翻译，而不是换语言重写？",
+        "Fortran负步长、COMMON块、数组下界怎样保持语义？",
+        "怎样证明输出结果正确，如何归因解析错误和代码生成错误？"
+      ],
+      "repo": "CalvinNeo/CFortranTranslator",
+      "commit": "903062e709c8a0818737b6202dbcf5f510377af8",
+      "commit_date": "2024-12-09T15:57:17Z",
+      "license": "GPL-2.0-or-later",
+      "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+      "archive_file": "CalvinNeo__CFortranTranslator__903062e709c8.zip",
+      "archive_sha256": "804e94877cb35fec27ac60de10e2e20d60d78caef95abe76f006be2d3a083015",
+      "source_archive": true,
+      "url": "https://github.com/CalvinNeo/CFortranTranslator",
+      "candidate_links": [
+        "CV10"
+      ],
+      "cost": "源码阅读与本地构建不需要模型API；本轮仅静态阅读和归档，没有运行费用。",
+      "run_status": "固定源码和部分文档/测试静态阅读；未构建、运行、压测或修改系统配置。",
+      "interview_linkage": "本人文章直接建立项目关系；固定版本晚于求职经历，不等于当时提交版本，也不证明该项目单独导致SSP。",
+      "category": "项目参考",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "PRO15",
+      "title": "CalvinNeo ATP：本人SSP关联的UDP可靠传输库",
+      "stack": [
+        "C++17",
+        "UDP",
+        "可靠传输",
+        "协议状态",
+        "计时器",
+        "非阻塞IO",
+        "poll/AIO",
+        "故障模拟"
+      ],
+      "recommendation": "推荐拆读协议状态、计时器与故障测试，学习网络基础如何变成可追问实现；不把自制协议当生产TCP替代。",
+      "strengths": [
+        "本人求职原文说明项目来源：读libutp后写的大作业，并进一步修改",
+        "API明确交代UDP接收事件与外部计时器职责，可讨论框架边界",
+        "测试脚本包含延迟、丢包、重复、乱序及损坏网络条件的入口"
+      ],
+      "weaknesses": [
+        "README明确框架模式非线程安全；调用方需维护计时器与事件",
+        "test/run_test.py仍用Python2语法，含sudo tc操作；本次不执行，也不能直接当现代环境可运行",
+        "check_log只打印文件大小，未比较文件内容；测试跑完不等于可靠交付得到证明",
+        "README指向atp_callback.cpp中的simulate_packet_loss_sendto，但该固定文件未见该函数名，文档与当前实现需核对"
+      ],
+      "inspect_paths": [
+        "README.md",
+        "src/atp.h",
+        "src/atp_impl.cpp",
+        "src/atp_callback.cpp",
+        "test/run_test.py"
+      ],
+      "source_findings": [
+        {
+          "path": "README.md",
+          "line_start": 32,
+          "line_end": 39,
+          "finding": "要求外部向框架转交UDP包并触发计时事件，明确非线程安全。",
+          "kind": "接口约束",
+          "url": "https://github.com/CalvinNeo/ATP/blob/597a9be4b840127c320b0a7abbfa280ccaab435f/README.md#L32-L39"
+        },
+        {
+          "path": "src/atp_callback.cpp",
+          "line_start": 24,
+          "line_end": 43,
+          "finding": "实际发送回调调用sendto并按发送长度处理错误；不是完整网络可靠性保证。",
+          "kind": "固定源码静态观察",
+          "url": "https://github.com/CalvinNeo/ATP/blob/597a9be4b840127c320b0a7abbfa280ccaab435f/src/atp_callback.cpp#L24-L43"
+        },
+        {
+          "path": "test/run_test.py",
+          "line_start": 81,
+          "line_end": 95,
+          "finding": "check_log只打印输入/输出字节数后返回，无内容比对。",
+          "kind": "测试局限",
+          "url": "https://github.com/CalvinNeo/ATP/blob/597a9be4b840127c320b0a7abbfa280ccaab435f/test/run_test.py#L81-L95"
+        },
+        {
+          "path": "test/run_test.py",
+          "line_start": 191,
+          "line_end": 196,
+          "finding": "存在1000ms延迟与50%丢包测试入口；仅核到脚本，未运行。",
+          "kind": "故障测试入口",
+          "url": "https://github.com/CalvinNeo/ATP/blob/597a9be4b840127c320b0a7abbfa280ccaab435f/test/run_test.py#L191-L196"
+        }
+      ],
+      "tests_and_evaluation": [
+        "静态读取丢包、延迟、重复和乱序测试组织方式。",
+        "未构建、未sudo tc、未改网络配置、未跑数据传输；没有吞吐或正确率实测。"
+      ],
+      "runtime_dependencies": [
+        "C++17、Make、POSIX/Linux网络环境。",
+        "原测试脚本依赖旧Python2语法、网络工具与部分特权操作；应先读脚本再准备隔离测试环境。"
+      ],
+      "interview_questions": [
+        "数据按序、不丢失、不重复分别由哪些机制保证？",
+        "计时器或收包事件没有按时执行会怎样？",
+        "为什么文件大小相同仍不能证明内容一致，校验与错误注入怎样设计？"
+      ],
+      "repo": "CalvinNeo/ATP",
+      "commit": "597a9be4b840127c320b0a7abbfa280ccaab435f",
+      "commit_date": "2020-10-16T04:56:53Z",
+      "license": "GPL-2.0-or-later",
+      "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+      "archive_file": "CalvinNeo__ATP__597a9be4b840.zip",
+      "archive_sha256": "ff1205bbb9b6731133e98a4495d4ef81b80e6c015411e24b79052b2dec2b19e1",
+      "source_archive": true,
+      "url": "https://github.com/CalvinNeo/ATP",
+      "candidate_links": [
+        "CV10"
+      ],
+      "cost": "源码阅读与本地构建不需要模型API；本轮仅静态阅读和归档，没有运行费用。",
+      "run_status": "固定源码和部分文档/测试静态阅读；未构建、运行、压测或修改系统配置。",
+      "interview_linkage": "本人文章直接建立项目关系；固定版本晚于求职经历，不等于当时提交版本，也不证明该项目单独导致SSP。",
+      "category": "项目参考",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "PRO16",
+      "title": "CalvinNeo Nuft：本人SSP关联的Raft实现与失败测试材料",
+      "stack": [
+        "C++17",
+        "Raft",
+        "gRPC",
+        "Protocol Buffers",
+        "持久化",
+        "选主/日志/快照",
+        "GoogleTest"
+      ],
+      "recommendation": "推荐对照论文、状态转换与失败测试，适合分布式系统进阶；不能当已验证一致性的可直接上线组件。",
+      "strengths": [
+        "本人原文直接说明该项目依据Raft论文实现，求职关系明确",
+        "代码有选主、日志复制、快照与配置变更接口，以及持久化和测试",
+        "持久化代码保留了崩溃/延迟RPC序号问题的反思，适合学习失败分析"
+      ],
+      "weaknesses": [
+        "README明确部分测试可能失败；本次不隐去此限制",
+        "jepsen目录README仍是FIXME模板，不能把目录存在当Jepsen验证通过",
+        "Persister直接向目标文件序列化，所读函数未见原子替换/fsync和完整错误处理；需验证掉电与半写场景，未运行复现",
+        "测试辅助脚本为旧Python2写法；当前工具链和所有不变量未验证"
+      ],
+      "inspect_paths": [
+        "README.md",
+        "src/node_persister.cpp",
+        "src/node_rpc_a.cpp",
+        "src/test/test.cpp",
+        "src/test/test_until_fail.py",
+        "jepsen/README.md"
+      ],
+      "source_findings": [
+        {
+          "path": "README.md",
+          "line_start": 11,
+          "line_end": 25,
+          "finding": "给测试命令与循环直至失败脚本，并明确某些测试可能失败。",
+          "kind": "作者已披露限制",
+          "url": "https://github.com/CalvinNeo/Nuft/blob/39e09d330abc68ca82e13c0baa9020c533d979aa/README.md#L11-L25"
+        },
+        {
+          "path": "src/node_persister.cpp",
+          "line_start": 24,
+          "line_end": 41,
+          "finding": "持久化term、vote与日志，并记录宕机后延迟RPC/序号问题。",
+          "kind": "固定源码静态观察",
+          "url": "https://github.com/CalvinNeo/Nuft/blob/39e09d330abc68ca82e13c0baa9020c533d979aa/src/node_persister.cpp#L24-L41"
+        },
+        {
+          "path": "src/node_persister.cpp",
+          "line_start": 60,
+          "line_end": 74,
+          "finding": "序列化到fstream后关闭；加载直接解析并取字段。函数局部未见原子替换和结果校验，属于未复现静态风险。",
+          "kind": "固定源码静态观察",
+          "url": "https://github.com/CalvinNeo/Nuft/blob/39e09d330abc68ca82e13c0baa9020c533d979aa/src/node_persister.cpp#L60-L74"
+        },
+        {
+          "path": "jepsen/README.md",
+          "line_start": 1,
+          "line_end": 14,
+          "finding": "仍为模板与FIXME；不是已实施的一致性测试。",
+          "kind": "验证边界",
+          "url": "https://github.com/CalvinNeo/Nuft/blob/39e09d330abc68ca82e13c0baa9020c533d979aa/jepsen/README.md#L1-L14"
+        }
+      ],
+      "tests_and_evaluation": [
+        "源码包含GoogleTest和持续运行到失败的脚本。",
+        "本次未构建、未运行集群、未做故障注入或Jepsen；不宣称满足全部Raft安全性/活性。"
+      ],
+      "runtime_dependencies": [
+        "C++17、gRPC/Protobuf、gtest，原仓Nuke辅助代码已内嵌。",
+        "Python2风格辅助脚本需适配；Jepsen目录本身不提供已完成的使用方案。"
+      ],
+      "interview_questions": [
+        "term、投票和日志什么时候必须持久化？",
+        "半写文件、延迟RPC、旧leader恢复时怎样保持不变量？",
+        "单测、随机故障测试和线性一致性历史验证分别证明什么？"
+      ],
+      "repo": "CalvinNeo/Nuft",
+      "commit": "39e09d330abc68ca82e13c0baa9020c533d979aa",
+      "commit_date": "2022-04-12T14:08:23Z",
+      "license": "GPL-3.0-or-later；jepsen子目录EPL-1.0-or-later",
+      "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+      "archive_file": "CalvinNeo__Nuft__39e09d330abc.zip",
+      "archive_sha256": "d297b099e78bd770c431ba704c96e937dfa955616d9b5efe8759cfe536d7f593",
+      "source_archive": true,
+      "url": "https://github.com/CalvinNeo/Nuft",
+      "candidate_links": [
+        "CV10"
+      ],
+      "cost": "源码阅读与本地构建不需要模型API；本轮仅静态阅读和归档，没有运行费用。",
+      "run_status": "固定源码和部分文档/测试静态阅读；未构建、运行、压测或修改系统配置。",
+      "interview_linkage": "本人文章直接建立项目关系；固定版本晚于求职经历，不等于当时提交版本，也不证明该项目单独导致SSP。",
+      "category": "项目参考",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "PRO17",
+      "title": "linyacool WebServer：本人SSP关联的网络工程与开发复盘",
+      "stack": [
+        "C++11",
+        "Linux",
+        "Reactor",
+        "epoll ET",
+        "线程池",
+        "HTTP",
+        "异步日志",
+        "定时器"
+      ],
+      "recommendation": "作为 C++ 系统基础与实验方法对照材料；学习其透明基线、设计取舍和改进记录，另行补业务能力、可重复压测与异常条件。",
+      "strengths": [
+        "本人成功经历到本人项目的来源链明确，且有源码、设计、测试、改进和开发困难材料。",
+        "能把 C++/RAII、线程、网络、协议、性能测试和调试连成可追问的工程过程。",
+        "主动承认 muduo 借鉴与 Buffer 性能不足，适合学习如何诚实区分复用、取舍和个人改进。"
+      ],
+      "weaknesses": [
+        "主要是静态 HTTP 基础库练习，不能替代含数据库、缓存、一致性、业务约束的现代业务后端项目。",
+        "工程与基线较旧：README 是 Ubuntu 14.04 / g++4.8；需要重新验证现代工具链兼容性。",
+        "性能实验用本机、关闭日志、内存 Hello World，缺生产负载、尾延迟、资源成本与故障条件；作者 QPS 不可直接复用。",
+        "README 的“面试问题.md”链接在固定 tree 中不存在，不能把该未读死链作为面经证据。"
+      ],
+      "inspect_paths": [
+        "README.md",
+        "并发模型.md",
+        "WebServer/HttpData.cpp",
+        "测试及改进.md",
+        "遇到的困难.md",
+        "项目目的.md"
+      ],
+      "source_findings": [
+        {
+          "path": "项目目的.md",
+          "line_start": 3,
+          "line_end": 21,
+          "finding": "解释项目动机、覆盖基础知识，并明确学习与借鉴 muduo。",
+          "kind": "源码/项目文档",
+          "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md#L3-L21"
+        },
+        {
+          "path": "并发模型.md",
+          "line_start": 3,
+          "line_end": 32,
+          "finding": "One loop per thread、主从 Reactor、eventfd、队列唤醒与小根堆超时管理。",
+          "kind": "源码/项目文档",
+          "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md#L3-L32"
+        },
+        {
+          "path": "WebServer/HttpData.cpp",
+          "line_start": 155,
+          "line_end": 270,
+          "finding": "实际 HTTP 读处理和请求分析源码；源码存在核验，未运行。",
+          "kind": "源码/项目文档",
+          "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/WebServer/HttpData.cpp#L155-L270"
+        },
+        {
+          "path": "测试及改进.md",
+          "line_start": 3,
+          "line_end": 31,
+          "finding": "披露测试环境、短/长连接、关闭日志与内存 Hello World 条件，以及 string Buffer 的不足。",
+          "kind": "源码/项目文档",
+          "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E6%B5%8B%E8%AF%95%E5%8F%8A%E6%94%B9%E8%BF%9B.md#L3-L31"
+        },
+        {
+          "path": "遇到的困难.md",
+          "line_start": 3,
+          "line_end": 18,
+          "finding": "本人记录线程职责理解、减少竞态与 GDB 分析异步日志等开发困难。",
+          "kind": "源码/项目文档",
+          "url": "https://github.com/linyacool/WebServer/blob/7e18602f15c5c64e006091aa03e04b927c255983/%E9%81%87%E5%88%B0%E7%9A%84%E5%9B%B0%E9%9A%BE.md#L3-L18"
+        }
+      ],
+      "tests_and_evaluation": [
+        "原文给本地1000客户端、60s、4线程，关闭日志、内存Hello World等条件。",
+        "本次未读性能截图、未编译/压测；不将作者QPS当复现结果。",
+        "README面试问题.md链接404，不计为已读面经。"
+      ],
+      "runtime_dependencies": [
+        "Linux、C++11、CMake/Make；原README写Ubuntu14.04/g++4.8。",
+        "内嵌WebBench保留其独立许可证；现代编译器/内核兼容性待实测。"
+      ],
+      "interview_questions": [
+        "ET模式怎样把accept/read读到合适边界？",
+        "跨线程事件怎样唤醒，连接销毁与超时如何避免竞态？",
+        "关闭日志与内存响应对QPS意味着什么，怎样测尾延迟和异常连接？"
+      ],
+      "repo": "linyacool/WebServer",
+      "commit": "7e18602f15c5c64e006091aa03e04b927c255983",
+      "commit_date": "2022-03-21T03:40:21Z",
+      "license": "根MIT；内嵌WebBench为GPL-3.0",
+      "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+      "archive_file": "linyacool__WebServer__7e18602f15c5.zip",
+      "archive_sha256": "fd7a8c24a7270480d42e37434865601388dd0013080e6fb5b91691fade2b1c52",
+      "source_archive": true,
+      "url": "https://github.com/linyacool/WebServer",
+      "candidate_links": [
+        "CV11"
+      ],
+      "cost": "源码阅读与本地构建不需要模型API；本轮仅静态阅读和归档，没有运行费用。",
+      "run_status": "固定源码和部分文档/测试静态阅读；未构建、运行、压测或修改系统配置。",
+      "interview_linkage": "本人文章直接建立项目关系；固定版本晚于求职经历，不等于当时提交版本，也不证明该项目单独导致SSP。",
+      "category": "项目参考",
+      "retrieved_at": "2026-10-23"
+    }
+  ],
+  "observations_new": [
+    {
+      "id": "OBS03",
+      "title": "大模型SSP自述但项目仍为hello world：避免按录用标签盲荐",
+      "url": "https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/README.md#L1",
+      "author": "cotsaaaaa-hash",
+      "date": {
+        "explicit_year": "README开头明确写在2026年的今天；该commit时间2026-01-26",
+        "repository_created_at": "2026-01-26T14:27:38Z",
+        "commit_date": "2026-01-26T15:41:28Z",
+        "recruitment_type": "自述应届生；未给届别、实习/秋招批次和offer日期",
+        "direction": "大模型算法；谈及模型结构、SFT、强化学习",
+        "agent_role_confirmed": false,
+        "companies": [],
+        "unknowns": "具体公司、岗位名称、档位定义、薪酬、offer数量及录用材料均未给出。不能把2026文字直接换成2026届或2026年发放offer。"
+      },
+      "role": "LLM算法弱线索；非已确认Agent岗位",
+      "outcome": "作者明确第一人称自述若干SSP；无企业独立核验",
+      "evidence_excerpt": "作为应届生，我对此感同身受。在经历了100多场算法岗面试后，我也拿到了若干ssp的offer。",
+      "source_summary": "SSP自述与项目介绍在同一仓库同一README；作者文字顺序是面试之后反思并写项目，不能当作此前凭该项目获得SSP。",
+      "source_findings": [
+        {
+          "path": "1-qwen_inference/inference.py",
+          "url": "https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/1-qwen_inference/inference.py#L1",
+          "line_start": 1,
+          "line_end": 6,
+          "finding": "固定版本仅import torch、空行和print hello world，没有Qwen推理或模型结构实现。"
+        },
+        {
+          "path": "models/download.py",
+          "url": "https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/models/download.py#L4",
+          "line_start": 4,
+          "line_end": 36,
+          "finding": "Hugging Face snapshot_download封装，示例模型为facebook/opt-125m；不是README承诺的Qwen完整拆解。"
+        }
+      ],
+      "recommendation": "不推荐作为用户所需的非toy Agent或成熟后端项目；仅保留为项目承诺必须用代码核验的反例。",
+      "limitations": [
+        "SSP结果只有匿名公开账号的第一人称陈述，无法独立认证。",
+        "没有原始CV、具体公司面经或可对应SSP的项目材料。",
+        "静态读取未执行代码、未下载模型；未读图片或视频。",
+        "仓库无检测到的许可证，未复制或再分发项目源码。"
+      ],
+      "access_level": "固定README和两个源码文件已读；未运行/下载模型，不归档无明确许可仓库",
+      "confidence": "B-：原文SSP自述与代码存在性可核对；身份、经历和录用结果未独立验证；不构成成熟项目案例",
+      "category": "候选人对照",
+      "retrieved_at": "2026-10-23"
+    }
+  ]
+}

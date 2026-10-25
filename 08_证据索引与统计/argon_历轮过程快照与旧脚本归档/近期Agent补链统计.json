@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-23",
+  "status": "active",
+  "new_record_ids": [
+    "CV31",
+    "PRO24",
+    "PRO25",
+    "OP15",
+    "OBS10"
+  ],
+  "current_totals": {
+    "logical_evidence_records": 189,
+    "candidate_cases": 31,
+    "interview_materials": 76,
+    "projects": 25,
+    "source_archives": 22,
+    "fixed_link_only": 3,
+    "jd_leads": 19,
+    "engineering_jd_fulltext": 14,
+    "platform_opinion_records": 13,
+    "additional_primary_texts": 2,
+    "manual_links": 68,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 6
+  },
+  "complete_core_redacted_resumes": 5,
+  "new_interviews": 0,
+  "new_candidate_profiles": 1,
+  "new_projects": 2,
+  "selected_external_transcripts": 1,
+  "summary": "新增一份近期Agent实习完整脱敏CV及两个本人直链项目；选读Linear公开原始逐字稿，另核中兴大模型SSP与Agent职责的边界。托马斯两篇已在OBS08收录，复核不重复增加候选人或面经数。",
+  "remaining_gaps": [
+    "已补近期Agent实习者完整CV→本人开源实现；项目仍有评测/权限/恢复缺口，尚未定位同人的真实求职面经或SSP。",
+    "中兴样本只明确大模型开发SSP，未披露Agent职责；近期大厂Agent具体岗位、批次与最终档位关系仍需补强。",
+    "已选读一份生产Agent访谈的原始公开逐字稿，但B站视频/字幕仍未实际观看或读取；平台正文与原稿来源分开。"
+  ]
+}

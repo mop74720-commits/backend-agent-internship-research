@@ -1,0 +1,273 @@
+{
+  "retrieved_at": "2026-10-23",
+  "title": "第二轮近期Agent/LLM方向GitHub SSP发现与边界核验",
+  "scope": "优先2024–2026；检索Agent、LLM应用、AI工程及算法工程别名，并追牛客、博客与GitHub的项目关联。排除前轮已收dong03、hello world弱例及同名广告缩写。",
+  "summary": {
+    "new_confirmed_first_person_ssp_offer_records": 0,
+    "new_agent_project_with_self_reported_ssp_interview_channel": 1,
+    "project_named_ssp_but_only_aspirational_result": 1,
+    "status": "发现可归档的GUI-Agent竞赛项目与SSP面试直通卡线索；面试直通卡不是SSP offer。部分成功复盘原文受限或未能关联GitHub，保持待核，不解释成不存在。",
+    "independently_verified_awards_or_offers": 0,
+    "not_a_negative_market_conclusion": "本轮未新增达到全部条件的录用案例，只是本轮可读公开材料的结果；不说明Agent方向无人获得SSP。"
+  },
+  "method": {
+    "access": "Python requests直接GET公开搜索结果、GitHub repository API和raw固定commit、牛客公开SSR正文；未登录、未绕过验证码、未运行项目。",
+    "search_only_for_discovery": true,
+    "github_repository_search_api_calls": 3,
+    "github_search_boundary": "未刷已有429的GitHub网页search；本轮获父代理分配3次repository search额度并用完。created过滤针对近期新仓库，不覆盖所有旧仓库中新写的求职记录。",
+    "read_scope": "保留短摘录与原创归纳、来源链接及行号；未打包第三方全文或项目。未采集联系方式。",
+    "query_log": [
+      {"engine": "Yahoo", "query": "github 大模型 ssp 面经", "http_status": 200, "result": "发现Imironman123、wdndev、Pyramiding等资料索引；索引本身不计成功者"},
+      {"engine": "搜狗", "query": "github 大模型 ssp 面经", "http_status": 200, "result": "重定向antispider验证码，未读取搜索结果"},
+      {"engine": "Yahoo", "query": "github agent ssp offer 本人", "http_status": 200, "result": "发现alvinxx1123本人开源帖及Agent冲SSP路线/工程实战标题"},
+      {"engine": "搜狗", "query": "agent ssp 上岸 项目 github", "http_status": 200, "result": "验证码，未读取搜索结果"},
+      {"engine": "Yahoo", "query": "大模型应用开发 ssp github", "http_status": 500, "result": "未取得可读结果"},
+      {"engine": "搜狗", "query": "2025 算法 ssp 面经 开源", "http_status": 200, "result": "验证码；此后停止搜狗查询"},
+      {"engine": "Yahoo", "query": "大模型 SSP 拿到 GitHub", "http_status": 500, "result": "未取得可读结果"},
+      {"engine": "Yahoo", "query": "Agent SSP offer 复盘 开源", "http_status": 200, "result": "多为求职Agent产品、辅导营销或已有alvin线索"},
+      {"engine": "Yahoo", "query": "2025 算法 SSP 项目 GitHub", "http_status": 500, "result": "未取得可读结果"},
+      {"engine": "Yahoo", "query": "2024 SSP LLM 面经", "http_status": 200, "result": "发现Pyramiding的INT041知乎索引及牛客10个SSP标题"},
+      {"engine": "GitHub repository API", "query": "ssp 大模型 in:readme created:>=2024-01-01 fork:false", "http_status": 200, "total_count": 67, "result": "发现UAVLLMs/GUI-Agent；混入大量缩写同名、教程、聚合和自动发布仓库"},
+      {"engine": "GitHub repository API", "query": "ssp 拿到 in:readme created:>=2024-01-01 fork:false", "http_status": 200, "total_count": 46, "result": "新增harrisliangsu手册等；阅读后所见SSP主要为档位介绍或学习目标"},
+      {"engine": "GitHub repository API", "query": "ssp Agent in:readme created:>=2024-01-01 fork:false", "http_status": 200, "result": "用于发现，不将查询命中或仓库创建年当成获SSP事实"},
+      {"engine": "Yahoo", "query": "github NLP ssp 秋招 2025", "http_status": 500, "result": "未取得可读结果"},
+      {"engine": "Yahoo", "query": "github Agent 拿到 SSP", "http_status": 200, "result": "同名工程仓库和Secure Service Proxy等缩写，未形成新录用证据"},
+      {"engine": "Yahoo", "query": "UAVLLMs GUI Agent 中兴 捧月", "http_status": 200, "result": "无搜索结果；不据此否定仓库自述"},
+      {"engine": "Yahoo", "query": "2025届 搜广推 求职历程 SSP github", "http_status": 500, "result": "未取得可读结果"},
+      {"engine": "Yahoo", "query": "github.io 大模型 ssp 校招", "http_status": 200, "result": "发现近期招聘汇总、博客和教程，未直接命中新本人SSP结果"},
+      {"engine": "Yahoo", "query": "LLM ssp 拿到 面经", "http_status": 200, "result": "发现2025研发SSP总结，已转交父代理按后端方向读取；其余多为普通offer/历史算法案例"},
+      {"engine": "Yahoo", "query": "agent 算法 ssp 个人 博客", "http_status": 200, "result": "以SSP学习路线及营销文为主；再次命中INT041知乎原帖"},
+      {"engine": "Yahoo", "query": "大模型 ssp 2025 github 面试总结", "http_status": 200, "result": "以题库、个人整理和普通offer面经为主"},
+      {"engine": "Yahoo", "query": "中兴 捧月2026 GUI Agent 第二名 SSP", "http_status": 200, "result": "未取得独立结果"},
+      {"engine": "Yahoo", "query": "第十六届 中兴 捧月 SSP 面试直通卡", "http_status": 200, "result": "未取得独立结果"},
+      {"engine": "Yahoo", "query": "2026 GUI Agent 全国第二名 UAVLLMs", "http_status": 200, "result": "重新索引到同一GitHub仓库；不是第二个独立来源，未找到官方获奖名单"}
+    ]
+  },
+  "new_candidates": [
+    {
+      "suggested_id": "OBS04",
+      "public_account": "UAVLLMs",
+      "repository": "UAVLLMs/GUI-Agent",
+      "classification": "Agent竞赛项目与SSP面试通道自述；非已获SSP offer",
+      "evidence_type": "仓库作者/团队对本项目的公开自述；个人身份、团队分工和获奖结果未独立验证",
+      "ssp_status": "SSP面试直通卡；不是录用通知，不计SSP成功候选人",
+      "ssp_excerpt": "本项目在第十六届「中兴捧月」全球精英挑战赛总决赛中荣获全国第二名，并获得中兴校招SSP面试直通卡与5万元奖金。",
+      "excerpt_note": "仅移除Markdown加粗及空格，未将面试卡改写为offer。",
+      "fixed_source": {
+        "commit": "97c3781035a770e5a3cb0ca4031ebd3e6b06bde0",
+        "commit_date": "2026-08-14T03:03:00Z",
+        "path": "README.md",
+        "line_start": 22,
+        "line_end": 22,
+        "url": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md#L22",
+        "raw_url": "https://raw.githubusercontent.com/UAVLLMs/GUI-Agent/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md",
+        "http_status": 200
+      },
+      "year_and_role": {
+        "explicit_year": "README第58行明确捧月2026算法大赛决赛；docs/算法设计说明.md第1行也写2026。",
+        "source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md#L58",
+        "repo_created_at_from_search_api": "2026-06-21T06:04:48Z",
+        "direction": "多模态GUI Agent、安卓设备操作、Agent应用与控制工程；竞赛算法方向",
+        "recruitment_type": "自述奖励为中兴校招面试通道；不是实习JD或实习录用",
+        "unknowns": "比赛举行的具体月日、具体岗位/部门、团队成员分工、面试是否参加/通过、最终offer及档位均未在已读材料得到确认。"
+      },
+      "project_and_author_relation": {
+        "strength": "SSP面试卡与具体Agent项目同仓同段明确关联；属于项目/团队自述，不能进一步推成个人独立完成或项目带来正式SSP录用。",
+        "contribution_boundary": "README第418行明确agent_base.py、设备控制、测试runner等是赛题官方框架；自述核心贡献为agent.py、utils/finals_decoder.py及utils/finals_prompt.py。不能把官方框架全算作者原创。",
+        "contribution_source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md#L418",
+        "description": "PC通过ADB操控真实安卓App，以截图和中文指令循环决策，内部维护动作历史与带键记忆；包含动作解析、循环/停滞处理、调用重试。",
+        "same_author_interview_material": "已读仓库材料是项目/算法设计复盘，未提供可对应的中兴求职逐轮面经。该范围内未确认正式录用，不等于作者没有后续面试或offer。"
+      },
+      "static_project_reading": {
+        "scope": "固定commit的README关键段、算法设计说明、agent.py关键函数、decoder/prompt与runner关键区段；未运行、未读GIF/图片、未使用ADB或模型API。",
+        "visible_strengths": [
+          {
+            "finding": "历史与记忆注入实际存在；将模型REMEMBER标记按键覆盖，并有条目与文本长度限制。",
+            "sources": [
+              "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L225",
+              "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L542"
+            ]
+          },
+          {
+            "finding": "模型调用有重试与线性退避，空响应转WAIT；重复打开App和动作循环有具体处理代码。",
+            "sources": [
+              "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L317",
+              "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L367",
+              "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L388"
+            ]
+          },
+          {
+            "finding": "文档交代初赛硬编码不适应决赛新任务及无历史输入，说明为什么改为自行维护状态；可借鉴迁移失败和工程取舍的表达。",
+            "source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/docs/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E8%AF%B4%E6%98%8E.md#L17"
+          }
+        ],
+        "critical_limits": [
+          {
+            "finding": "README所称agent_completed并不是独立任务成功指标；runner收到模型/Agent输出COMPLETE便设置此退出原因。不能据此宣称成功率100%。",
+            "source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/test_runner.py#L273",
+            "line_start": 273,
+            "line_end": 277
+          },
+          {
+            "finding": "decoder无法解析时兜底COMPLETE；agent对部分无完成意图的情况转WAIT，但_ensure_valid仍有非法动作/缺参数返回COMPLETE的分支。终止、解析失败与业务成功仍需分开评测。",
+            "sources": [
+              "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/utils/finals_decoder.py#L153",
+              "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L338",
+              "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/agent.py#L471"
+            ],
+            "verification_boundary": "静态代码风险，不是本轮运行复现的故障。"
+          },
+          {
+            "finding": "README第395–400行数据飞轮、奖励模型与蒸馏位于拓展思考，不能当作已实现的RL训练系统或生产闭环。",
+            "source": "https://github.com/UAVLLMs/GUI-Agent/blob/97c3781035a770e5a3cb0ca4031ebd3e6b06bde0/README.md#L395"
+          }
+        ],
+        "recommendation": "可作为GUI Agent项目阅读与反思对照：学习状态、工具动作、异常处理和贡献边界；重点反查终止信号与真实任务完成的区别。当前证据不够认定生产成熟度，也不能以SSP面试卡背书其所有技术结论。"
+      },
+      "independent_verification": {
+        "award": "未取得官方获奖名单；两轮精确搜索无独立结果，另一次只重索引同仓，不能计第二来源。",
+        "offer": "未获取录用材料；面试直通卡本身不构成offer。",
+        "code": "源文件和关键实现可静态读取；未做运行与效果验证。"
+      },
+      "license_check": {
+        "readme_claim": "README第14行徽标写MIT。",
+        "tree_observation": "GitHub固定commit树包含LICENSE文件。",
+        "license_body_verified": false,
+        "boundary": "本轮未实际读取LICENSE正文，不能宣称已核完整许可条款；未下载、复制或打包源码。若后续复用代码，应先读固定版本许可证并保留所需声明。"
+      },
+      "confidence": "B-：项目与面试通道的原站自述清楚、代码可读；竞赛名次、个人贡献及招聘结果未经独立验证"
+    }
+  ],
+  "project_link_without_ssp_result": [
+    {
+      "public_account": "alvinxx1123",
+      "repository": "alvinxx1123/sspOffer-interview-assistant",
+      "repository_url": "https://github.com/alvinxx1123/sspOffer-interview-assistant",
+      "same_author_source": "https://www.nowcoder.com/feed/main/detail/8deb55b74854447e9e660f78d70729fe",
+      "title": "努力成为ssp面经届的救星来了",
+      "actual_access": "原站公开SSR GET HTTP 200，实际读取本帖正文，提取范围截至全部评论前；没有将相关推荐归给作者。另读GitHub当前README的介绍与相关字段。",
+      "project_relation_excerpt": "依靠cursor老师做的agent项目……也免费开源分享给大家",
+      "explicit_repository_link": "牛客原帖直接给出alvinxx1123/sspOffer-interview-assistant链接，项目发布者与仓库关系可见；不需要靠账号相似猜测。",
+      "ssp_excerpt": "希望可以帮到大家和自己都找到满意的实习和工作，祝大家都成为ssp！！！",
+      "ssp_status": "愿望与工具名称，不是作者已获SSP陈述。",
+      "year_boundary": "牛客页面仅02-16 01:26，未直接显示年份；搜索结果仓库标注2026-02-16只能当发现线索，不据此把牛客原帖日期补为2026。",
+      "direction": "Java/LLM应用的面经RAG与模拟面试工具；未给已获录用的Agent岗位名称。",
+      "interview_boundary": "发布帖描述用于面试准备/复盘，没有提供作者本人逐轮面经或录用结果。",
+      "disposition": "仅记录直接项目关联和明确的目标口径；不计成功者、不作为本轮固定版本项目推荐。"
+    }
+  ],
+  "unresolved_first_person_leads": [
+    {
+      "title": "2025届搜广推算法方向求职历程（SSP、头部计划）",
+      "source_url": "https://zhuanlan.zhihu.com/p/23907591319",
+      "discovery_url": "https://github.com/Pyramiding/llm-interview-warehouse/blob/main/docs/interviews/README.md#int041",
+      "actual_read": "实际读到第三方仓库INT041条目：它自己标记search_excerpt；Yahoo也可见原文索引。知乎正文GET 403，公开article API也403，没有读到本人完整原帖。",
+      "ssp_excerpt_from_primary": null,
+      "why_unresolved": "标题有SSP，但不能用聚合标题或片段替代作者的具体录用陈述。原作者GitHub账号、项目链接及是否包含Agent岗位均未确认。",
+      "year_boundary": "第三方索引称2025-02-15发布/编辑、回顾2024实习秋招，2025为届次；本轮未独立确认原页日期，不能当已核验。",
+      "direction": "索引搜广推/推荐/广告算法，不等同Agent应用开发；广告算法岗位也不等于SSP广告平台缩写。",
+      "next_evidence_needed": "可读原帖、明确作者身份/自述结果、本人项目链接；未取得前不计新增成功者。"
+    },
+    {
+      "title": "我是怎么拿到中兴字节华为等10个SSP offer的",
+      "source_url": "https://www.nowcoder.com/discuss/667800837791461376",
+      "actual_access": "公开SSR GET HTTP 200但只有标题与站点底栏，未取得正文；Yahoo仅能见背景摘要。",
+      "ssp_excerpt_from_primary_body": null,
+      "why_unresolved": "题目声称10个SSP，但正文、作者项目与GitHub关系本轮未确认，不把它归为已读成功案例。",
+      "direction_boundary": "搜索摘要为自动化、机器视觉与模式识别背景；不能直接判为近期Agent岗。",
+      "year_boundary": "原帖日期未核验。"
+    },
+    {
+      "title": "Agent工程化实战：从面试失败到SSP拿offer的四个硬核维度",
+      "source_url": "https://blog.csdn.net/weixin_30694389/article/details/166200952",
+      "actual_access": "GET HTTP 521，无正文；只见Yahoo标题/摘要。",
+      "ssp_excerpt_from_primary_body": null,
+      "why_unresolved": "无法区分本人复盘、教学案例、转载或营销；不依据标题判作者获SSP。",
+      "year_boundary": "搜索结果标2026-09-20，未核正文日期。",
+      "project_relation": "未确认本人GitHub项目。"
+    }
+  ],
+  "new_read_exclusions": [
+    {
+      "repository": "harrisliangsu/ai-agent-engineer-handbook",
+      "url": "https://github.com/harrisliangsu/ai-agent-engineer-handbook/blob/main/README.md#L127",
+      "read_result": "README229行；SSP出现在薪资资料从应届SSP到架构师的描述中，非作者录用结果。"
+    },
+    {
+      "repository": "LeoLee0812/CodeWhisper",
+      "url": "https://github.com/LeoLee0812/CodeWhisper/blob/main/README.md#L157",
+      "read_result": "README260行；SSP是语音转写的求职领域词典条目，非offer陈述。"
+    },
+    {
+      "repository": "wyx150137/ShioriLoom",
+      "url": "https://github.com/wyx150137/ShioriLoom/blob/main/README.md#L107",
+      "read_result": "README111行；SSP/伺か是桌宠灵感来源，非招聘档位。"
+    },
+    {
+      "repository": "StuTuse/Subtitle-Studio",
+      "url": "https://github.com/StuTuse/Subtitle-Studio/blob/main/README.md#L19",
+      "read_result": "README400行；.ssp为字幕工程文件格式，非招聘档位。"
+    },
+    {
+      "repository": "alexanderhucheerful/gpulessolver",
+      "url": "https://github.com/alexanderhucheerful/gpulessolver/blob/main/README.md#L5",
+      "read_result": "README161行；SSP-RK3为时间积分方法，非招聘档位。"
+    },
+    {
+      "repository": "123lichen114/Table",
+      "url": "https://github.com/123lichen114/Table/blob/main/README.md#L61",
+      "read_result": "README93行；SSP为视觉编码器自监督预训练，非招聘档位。"
+    },
+    {
+      "repository": "alany-dev/coro",
+      "url": "https://github.com/alany-dev/coro/blob/main/README.md#L23",
+      "read_result": "README527行；__ssp出现在ucontext结构体成员中，拿到出现在协程句柄上下文，不是获SSP。"
+    },
+    {
+      "repository": "Mxster-dll/smarter_jxufe",
+      "url": "https://github.com/Mxster-dll/smarter_jxufe/blob/main/README.md#L108",
+      "read_result": "README308行；SSP为校园第二课堂平台，不是获SSP。"
+    },
+    {
+      "repository": "bcefghj/ai-agent-interview-guide",
+      "url": "https://github.com/bcefghj/ai-agent-interview-guide",
+      "read_result": "实际读取README178行；已读README没有SSP结果陈述。仅说明本轮范围，未断言其他文件或作者站点没有相关经历。"
+    },
+    {
+      "repository": "JEen-wang/Adaptive-rag",
+      "url": "https://github.com/JEen-wang/Adaptive-rag",
+      "read_result": "实际读取README384行；已读README没有SSP结果陈述。未将被面经聚合器推荐当成项目作者获SSP。"
+    },
+    {
+      "repository": "Imironman123/llm-interview-notes",
+      "url": "https://github.com/Imironman123/llm-interview-notes",
+      "read_result": "已读README说明文档来自公开仓库与资料，经过重写整理；不是作者本人SSP面经证明。"
+    },
+    {
+      "repository": "wdndev/llm_interview_note",
+      "url": "https://github.com/wdndev/llm_interview_note/blob/main/README.md",
+      "read_result": "README明确本人参考网络资源整理，并链接tiny-llm-zh、tiny-rag、tiny-mcp等实践项目；已读范围没有SSP结果。项目存在与作者获SSP是两个独立证据条件。"
+    },
+    {
+      "source_url": "https://www.nowcoder.com/feed/main/detail/0503d45073494879bbe91f5fccd6efbe",
+      "title": "大模型应用面经合集（已拿offer!）",
+      "read_result": "本轮GET 200但正文空壳；搜索只称普通offer，没有明确SSP，不能升级为SSP。"
+    },
+    {
+      "source_url": "https://www.nowcoder.com/discuss/927156901626810368",
+      "title": "Agent冲大厂SSP，到底要准备到什么程度？",
+      "read_result": "本轮GET 200但只取得标题/底栏；搜索摘要为程序员花海学习路线，不据此认定作者已获SSP。"
+    }
+  ],
+  "handoff_to_parent": {
+    "backend_lead": "https://juejin.cn/post/7461269186713321491",
+    "title": "我的秋招ssp总结（一）",
+    "boundary": "Yahoo索引称2025-01-19、多个大厂研发SSP；父代理已接手并实际读取掘金/牛客原文，本子任务不重复纳入Agent案例。"
+  },
+  "verification": {
+    "project_execution": "未运行任何第三方项目、测试脚本、ADB、模型或付费服务。",
+    "media": "未查看GUI-Agent图片/GIF，不依据演示图声称任务成功。",
+    "primary_links": "GUI-Agent获卡、年份、贡献边界与关键代码均指向同一40位commit；搜索重索引不计独立来源。",
+    "remaining_gap": "没有新增经独立验证的近年Agent/LLM SSP offer；若原帖仅有标题、403、521或搜索片段，均明确保留为未核线索。"
+  }
+}

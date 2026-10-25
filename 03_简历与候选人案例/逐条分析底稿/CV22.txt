@@ -1,0 +1,380 @@
+CV22 | Stochastic / Asthenia0412：2025—2026后端与Agent工程实习履历片段
+
+需求核对版 · 2026-10-24
+
+source_key：
+  Asthenia0412
+原始来源：
+  https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md
+方向与岗位：
+  后端与Agent工程交叉
+履历材料形式：
+  本人GitHub公开履历片段
+资料形式：
+  本人公开GitHub职业履历片段，非完整简历
+结果自述：
+  本人列出2025—2026多段后端实习；未披露SSP
+技术栈：
+  - Go
+  - Java
+  - 分布式系统
+  - 高并发
+  - 云原生
+  - AI Infra
+本人项目与经历描述：
+  - name：
+      AsTimeWheel
+    原始来源：
+      https://github.com/Asthenia0412/AsTimeWheel/tree/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc
+    sha：
+      b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc
+    已读部分：
+      README完整读取、仓库非fork元数据
+    直接关系：
+      同账号非fork仓库，profile没有点名具体项目
+    状态：
+      不可称已核用于求职或由其带来录用
+    content：
+      Java哈希时间轮调度中间件，README宣称单线程调度、延迟任务、重试资源管理；本分支未读实现、未运行
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    TikTok LIVE 2026.09–至今；TikTok Monetization 2026.01–2026.09；Anker Innovations 2025.09–2025.12；Valiantsec 2025.06–2025.08
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    职业经历段直接列事件起止年；至今只指来源版本，不核抓取日任职
+  来源日期：
+    2026-09-26T06:13:24Z
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    完整profile README已读；非完整CV
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      TikTok LIVE
+    方向与岗位：
+      Backend Engineer Intern
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2026.09–至今
+    证据：
+      https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md
+    依据：
+      作者职业经历自述
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      TikTok Monetization
+    方向与岗位：
+      Backend Engineer Intern
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2026.01–2026.09
+    证据：
+      https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md
+    依据：
+      作者职业经历自述
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      Anker Innovations
+    方向与岗位：
+      Backend Engineer Intern
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2025.09–2025.12
+    证据：
+      https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md
+    依据：
+      作者职业经历自述
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+  - 公司：
+      Valiantsec
+    方向与岗位：
+      Backend Engineer Intern
+    档位：
+      未披露
+    状态：
+      internship_experience_self_report
+    事件时间／原文日期（依分类）：
+      2025.06–2025.08
+    证据：
+      https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md
+    依据：
+      作者职业经历自述
+    boundary：
+      公开自述，不证明项目导致录用
+    企业独立验证：
+      否
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md
+      direct_basis：
+        本人profile直接列公司、实习岗位、年月
+      直接关系：
+        直接点名
+      gap：
+        未企业独立核验；未分档
+  profile：
+    - 原始来源：
+        https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md
+      direct_basis：
+        本人GitHub公开履历片段
+      直接关系：
+        直接点名
+      gap：
+        缺教育及完整项目模块
+  project：
+    - 原始来源：
+        https://github.com/Asthenia0412/AsTimeWheel/tree/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc
+      direct_basis：
+        Java哈希时间轮调度中间件，README宣称单线程调度、延迟任务、重试资源管理；本分支未读实现、未运行
+      直接关系：
+        同账号
+      gap：
+        同账号关系，未证求职使用；已静态读核心与mock测试，存在初始化/时钟/取消语义风险，未运行
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        未定位本人公开面经
+      直接关系：
+        未建立
+      gap：
+        未定位本人公开面经
+来源归纳：
+  近期明确后端实习事实更直接；个人项目与求职关系未建立。
+阅读建议：
+  选读岗位时间线；不以同账号仓库填成个人求职项目
+局限与静态风险：
+  - 完整CV（教育和项目模块）
+  - 本人面经
+  - SSP档位
+  - 求职时项目与个人贡献范围
+source_record：
+  key：
+    Asthenia0412
+  作者：
+    Stochastic / Asthenia0412
+  原始来源：
+    https://github.com/Asthenia0412/Asthenia0412/blob/61058d605bbf82efeb0ef451d77d1b049c71a20e/README.md
+  仓库：
+    Asthenia0412/Asthenia0412
+  sha：
+    61058d605bbf82efeb0ef451d77d1b049c71a20e
+  源码提交时间：
+    2026-09-26T06:13:24Z
+  阅读范围：
+    完整profile README已读；非完整CV
+  履历材料形式：
+    本人GitHub公开履历片段
+  方向：
+    后端与Agent应用工程
+  招聘类型：
+    实习
+  近期归类：
+    近期确认（作者自述事件时间）
+  逐项结果与档位：
+    - 公司：
+        TikTok LIVE
+      方向与岗位：
+        Backend Engineer Intern
+      time：
+        2026.09–至今
+      evidence_lines：
+        L50–53
+      responsibilities：
+        直播后台、高并发、基础设施
+    - 公司：
+        TikTok Monetization
+      方向与岗位：
+        Backend Engineer Intern
+      time：
+        2026.01–2026.09
+      evidence_lines：
+        L58–61
+      responsibilities：
+        通信基础设施、消息系统、可靠性
+    - 公司：
+        Anker Innovations
+      方向与岗位：
+        Backend Engineer Intern
+      time：
+        2025.09–2025.12
+      evidence_lines：
+        L66–69
+      responsibilities：
+        后台服务与AI Agent工程
+    - 公司：
+        Valiantsec
+      方向与岗位：
+        Backend Engineer Intern
+      time：
+        2025.06–2025.08
+      evidence_lines：
+        L74–77
+      responsibilities：
+        企业后台系统
+  档位：
+    未披露
+  enterprise_verified：
+    否
+  skills：
+    - Go
+    - Java
+    - 分布式系统
+    - 高并发
+    - 云原生
+    - AI Infra
+  本人项目与经历描述：
+    - name：
+        AsTimeWheel
+      原始来源：
+        https://github.com/Asthenia0412/AsTimeWheel/tree/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc
+      sha：
+        b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc
+      已读部分：
+        README完整读取、仓库非fork元数据
+      直接关系：
+        同账号非fork仓库，profile没有点名具体项目
+      状态：
+        不可称已核用于求职或由其带来录用
+      content：
+        Java哈希时间轮调度中间件，README宣称单线程调度、延迟任务、重试资源管理；本分支未读实现、未运行
+  missing：
+    - 完整CV（教育和项目模块）
+    - 本人面经
+    - SSP档位
+    - 求职时项目与个人贡献范围
+  access：
+    - 原始来源：
+        https://asthenia0412.github.io/
+      状态：
+        404
+      meaning：
+        本人profile直接链接的博客当前不可读
+  is_new_core_partial_profile：
+    是
+  is_full_resume：
+    否
+类别：
+  候选人资料
+事件时间／原文日期（依分类）：
+  TikTok LIVE 2026.09–至今；TikTok Monetization 2026.01–2026.09；Anker Innovations 2025.09–2025.12；Valiantsec 2025.06–2025.08
+发表／来源日期：
+  2026-09-26T06:13:24Z
+未建立或未核的关系：
+  - 未企业独立核验；未分档
+  - 缺教育及完整项目模块
+  - 同账号关系，未证求职使用；已静态读核心与mock测试，存在初始化/时钟/取消语义风险，未运行
+  - 未定位本人公开面经
+ssp_claim_present：
+  否
+ssp_grade_company_explicit：
+  否
+has_direct_named_project_or_contribution：
+  否
+has_confirmed_personal_interview_source：
+  否
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否
+static_implementation_review：
+  related_id：
+    CV22
+  仓库：
+    Asthenia0412/AsTimeWheel
+  固定源码提交：
+    b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc
+  依据链接：
+    https://github.com/Asthenia0412/AsTimeWheel/tree/b8fb7ddf6dcc90f53c7090ffe1ae245b23f542cc
+  relationship：
+    仅同账号仓库；职业履历未直接点名本项目，不能据此证明投递使用或录用原因。
+  reading_scope：
+    固定tree的12个文件路径；时间轮350行、桶132行、调度器50—181行、调度器测试155行。未审所有配置与依赖。
+  值得学习之处：
+    - 可定位延迟任务队列、取消队列、双向链表桶、轮次及槽位计算，而非仅有README。
+    - 调度器包装层有Mockito测试，覆盖登记、取消及重复任务重新调度等路径；不代表时间轮核心正确。
+  risks：
+    - 观察：
+        实例初始化顺序风险：worker字段在构造器赋timeUnit等字段前执行new Worker，而Worker构造器读取timeUnit.toNanos；按Java初始化顺序推断可触发空引用。
+      状态：
+        静态推断，未运行
+      path：
+        AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/core/HashedWheelTimer.java
+      line_ranges：
+        - - 41
+          - 51
+        - - 95
+          - 105
+        - - 207
+          - 210
+      reading_question：
+        测试为什么只mock底层定时器？真实构造路径是否覆盖？
+    - 观察：
+        任务deadline按相对startTime计算，waitForNextTick返回System.nanoTime绝对值，桶直接比较两者；时间基准需要统一，不能把纳秒单位宣称等同实际精度。
+      状态：
+        静态推断，未运行
+      path：
+        AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/core/HashedWheelTimer.java
+      line_ranges：
+        - - 133
+          - 135
+        - - 225
+          - 241
+        - - 254
+          - 267
+      other_path：
+        AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/core/HashedWheelBucket.java#L69-L79
+      reading_question：
+        同一时钟基准、tick量化和长任务阻塞如何影响触发误差？
+    - 观察：
+        scheduleAtFixedRate在任务执行后按period再次登记，且未更新taskMap中对应的新Timeout；固定速率语义和取消后待排任务行为都需专门验证。
+      状态：
+        静态风险，未运行
+      path：
+        AsTimeWheelCore/src/main/java/io/github/asthenia0412/astimewheelcore/DefaultTimeWheelScheduler.java
+      line_ranges：
+        - - 110
+          - 134
+        - - 144
+          - 153
+      reading_question：
+        固定速率与固定延迟有何区别？取消能否阻止已登记的下一次执行？
+  build_and_license：
+    固定tree无pom.xml、Gradle构建文件和LICENSE；不据README的starter坐标声称可独立构建或已发布，不归档完整源码。
+  阅读建议：
+    适合选读作为文档、核心实现与mock测试不一致的反例；不推荐照搬为成熟实习项目。

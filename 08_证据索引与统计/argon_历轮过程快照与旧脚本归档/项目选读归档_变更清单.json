@@ -1,0 +1,3383 @@
+{
+  "date": "2026-10-23",
+  "changes": [
+    {
+      "id": "PRO13",
+      "before": {
+        "id": "PRO13",
+        "title": "Hello-Agents：评测方法与教材代码参考，整库不归档",
+        "repo": "datawhalechina/hello-agents",
+        "url": "https://github.com/datawhalechina/hello-agents",
+        "role": "Agent教材／评测样例",
+        "recommendation": "推荐补课与核对 BFCL／GAIA／LLM Judge 方法；不把教材示例或共创项目数量当成熟个人作品。",
+        "stack": [
+          "Python",
+          "hello-agents评测extra",
+          "BFCL",
+          "GAIA",
+          "LLM Judge",
+          "数据生成／Win Rate",
+          "部分章节FastAPI／研究助手"
+        ],
+        "strengths": [
+          "中文教程把记忆、检索、上下文、协议与评测分章，并给出可定位代码，比只有概念名词更适合建立学习索引。",
+          "chapter12 将数据集加载、执行、结果导出以及官方 BFCL 命令拆开，可用于理解不同评估步骤和依赖。",
+          "README／子章节明确有示例性质，能拿来学习如何区分预期输出、作者材料和自己实测。"
+        ],
+        "weaknesses": [
+          "这是课程与共创仓库，不是一个统一部署／统一测试的成品系统；不能把不同作者项目的功能合并声称成一个已经验证的平台。",
+          "03_bfcl_custom_evaluation.py 默认只跑 5 个样本；README 的 5/5、100% 标为预期输出，不是本次实测，也不足以代表 BFCL 全集。",
+          "chapter12 README 安装 hello-agents[evaluation]==0.2.3，而 chapter14 研究助手 pyproject 固定 hello-agents==0.2.9；不同章节需隔离环境，不能假定同一依赖版本通吃。",
+          "04_run_bfcl_evaluation 会调用外部 bfcl evaluate，并需要数据／工具安装；固定源码没有自动把官方数据许可、模型访问与复现环境全部附带。",
+          "顶层许可为 CC BY-NC-SA 4.0，部分子目录另有 MIT 等声明；体量和混合许可需按目录看，不按 GitHub API 的 NOASSERTION 猜测无许可。"
+        ],
+        "borrow": "优先查第十二章的评测概念、代码入口和依赖，再按自己欠缺的章节阅读；把原作者输出与自己的结果分开。",
+        "extend": "评价教程时核对模型／数据版本、实际样本量、官方评分与自定义评分区别；不要把 template_output 或预期输出当外部认证成绩。",
+        "inspect_paths": [
+          "LICENSE.txt",
+          "code/chapter12/README.md",
+          "code/chapter12/03_bfcl_custom_evaluation.py",
+          "code/chapter12/04_run_bfcl_evaluation.py",
+          "code/chapter12/08_data_generation_llm_judge.py",
+          "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+        ],
+        "source_findings": [
+          {
+            "path": "code/chapter12/03_bfcl_custom_evaluation.py",
+            "line_start": 17,
+            "line_end": 35,
+            "finding": "加载 simple_python 类别并以 max_samples=5 演示自定义评估。",
+            "kind": "已读代码",
+            "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py#L17-L35"
+          },
+          {
+            "path": "code/chapter12/README.md",
+            "line_start": 53,
+            "line_end": 65,
+            "finding": "快速开始的 100%／5/5 被作者标为预期输出，不能拿来证明实际性能。",
+            "kind": "证据口径",
+            "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/README.md#L53-L65"
+          },
+          {
+            "path": "code/chapter12/04_run_bfcl_evaluation.py",
+            "line_start": 165,
+            "line_end": 209,
+            "finding": "用 subprocess 调用 bfcl evaluate --partial-eval，并处理命令缺失／非零退出；需额外安装 BFCL 环境。",
+            "kind": "已读代码",
+            "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/04_run_bfcl_evaluation.py#L165-L209"
+          },
+          {
+            "path": "code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+            "line_start": 9,
+            "line_end": 20,
+            "finding": "子项目声明 MIT、Python >=3.10、hello-agents==0.2.9 及 FastAPI／Tavily／OpenAI 等依赖，说明章节间环境和许可应分开核对。",
+            "kind": "依赖／许可范围",
+            "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml#L9-L20"
+          }
+        ],
+        "tests_and_evaluation": [
+          "已读 chapter12 README、自定义 BFCL 样例、调用官方评估脚本和 LLM Judge 示例；是评测入口材料，不是本次运行记录。",
+          "共创目录含各自 tests，但本次未统一审查或执行其全部代码，不把它们计为整库统一质量证据。",
+          "未下载完整 BFCL／GAIA 数据、未访问需要授权的数据集、未调用模型或裁判。"
+        ],
+        "runtime_dependencies": [
+          "chapter12 README 推荐 hello-agents[evaluation]==0.2.3；BFCL 数据与 bfcl-eval 需另行取得并核对版本。",
+          "部分 GAIA 数据访问需 Hugging Face 授权；真实模型和 Judge 另需供应商访问。",
+          "chapter14 研究助手是不同子项目，Python >=3.10，使用 hello-agents 0.2.9、FastAPI 与搜索供应商依赖。"
+        ],
+        "cost": "本次只读公开原文／指定源码。真实生成、Agent执行和 LLM Judge 会消耗模型预算；Tavily 等搜索可能另收费，未发起任何付费调用。",
+        "recommended_for": [
+          "需要系统补 Agent 原理和评价方法的 Python 学习者",
+          "已有项目但缺评测知识的人"
+        ],
+        "not_recommended_for": [
+          "希望直接把教材输出、共创别人的项目或 5 题示例写成自己成果的人",
+          "希望一个环境直接启动整本教程所有项目的人"
+        ],
+        "candidate_links": [],
+        "interview_evidence_ids": [
+          "INT01",
+          "INT05",
+          "INT13",
+          "INT17"
+        ],
+        "interview_linkage": "主题映射为评测集、指标依据、功能必要性；未找到本次候选人因 Hello-Agents 获得目标岗位／SSP 的直接证据。",
+        "interview_questions": [
+          "5 题 simple_python 正确能否代表真实多轮任务成功？为什么？",
+          "自定义匹配评分、官方 BFCL 评分和业务结果 oracle 有什么区别？",
+          "Judge 的偏差、重复试验和数据泄漏如何影响结果解释？"
+        ],
+        "commercial_bias": "Datawhale 社区课程／共创内容；章节引用外部框架和服务，单独检查来源与条款。",
+        "license": "CC-BY-NC-SA-4.0（顶层）；部分子目录另有声明",
+        "license_scope": "已读取固定 commit 的 LICENSE.txt 和 README 许可段；不将顶层 CC 许可概括为全部子项目软件同许可。",
+        "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+        "commit_date": "2026-10-13T22:28:54Z",
+        "default_branch": "main",
+        "source_archive": false,
+        "archive_file": null,
+        "archive_sha256": null,
+        "archive_omission_reason": "递归 Git tree 未截断，2,607 个文件合计约 195 MB；为避免把大量教材图片／共创项目和不同许可材料混装，本轮只提供固定 commit 的官方源码链接及已读路径。并非因为没有许可证。",
+        "run_status": "未整库下载；指定原文与源码通过固定 commit 的 raw.githubusercontent.com 阅读。未运行代码或评测。",
+        "retrieved_date": "2026-10-23",
+        "category": "项目参考",
+        "source_urls": [
+          "https://github.com/datawhalechina/hello-agents",
+          "https://github.com/datawhalechina/hello-agents/tree/36f583c233ea5cee4537ef93455702b55053af18",
+          "https://api.github.com/repos/datawhalechina/hello-agents"
+        ],
+        "inspection_boundary": "未整库下载；指定原文与源码通过固定 commit 的 raw.githubusercontent.com 阅读。未运行代码或评测。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。",
+        "taxonomy": {
+          "track": "Agent工程",
+          "recruitment": "不适用",
+          "experience_date_text": "非招聘事件；源码或原文版本日期另列",
+          "date_precision": "不适用",
+          "year_confirmed": false,
+          "recent_status": "不适用",
+          "date_basis": "不以技术文档/仓库日期替代个人求职时间",
+          "source_date_text": "2026-10-13T22:28:54Z"
+        },
+        "reading": {
+          "scope": "部分",
+          "fulltext": false,
+          "scope_note": "按原卡具体核读范围；不视为项目已运行或全部源码逐行核读",
+          "video_watched": false
+        },
+        "outcomes": [],
+        "comparison": {
+          "id": "PRO13",
+          "title": "Hello-Agents：评测方法与教材代码参考，整库不归档",
+          "repo": "datawhalechina/hello-agents",
+          "source_URL": "https://github.com/datawhalechina/hello-agents",
+          "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+          "source_nature": [
+            "教材",
+            "非SSP工程参考"
+          ],
+          "candidate_relationships": [
+            {
+              "candidate_id": null,
+              "relationship_type": "主题",
+              "direct_evidence_URLs": [],
+              "finding": "仅用于面经/JD能力主题对照，未核成功候选人本人求职项目或具体贡献；不凭同账号或star建立关系。",
+              "event_time_boundary": "不适用；无已核招聘事件",
+              "snapshot_boundary": "仅按固定commit阅读当前工程",
+              "offer_causality": "未建立录用关系"
+            }
+          ],
+          "backend_dimensions": {
+            "业务闭环": {
+              "status": "不适用",
+              "finding": "整库为教材与共创集合，不是统一业务服务。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "一致性": {
+              "status": "不适用",
+              "finding": "未作为后端一致性实现样本。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "并发": {
+              "status": "不适用",
+              "finding": "未统一审查各章节并发，不合并为平台能力。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "缓存MQ": {
+              "status": "不适用",
+              "finding": "未作为缓存/MQ样本。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "测试": {
+              "status": "源码可见",
+              "finding": "chapter12有自定义与官方BFCL入口；不等于整库统一质量测试。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+              "read_paths": [
+                "code/chapter12/03_bfcl_custom_evaluation.py"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "可运行材料": {
+              "status": "文档宣称",
+              "finding": "章节有独立依赖，0.2.3与0.2.9不可混为同一环境；仅提供固定链接。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+              "read_paths": [
+                "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "个人贡献": {
+              "status": "不适用",
+              "finding": "共创多作者材料不能合并为单人的求职项目。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            }
+          },
+          "agent_dimensions": {
+            "真实任务": {
+              "status": "文档宣称",
+              "finding": "分章与共创有研究助手等任务例子；未证明统一成品或成功者履历。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+              "read_paths": [
+                "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "状态工具": {
+              "status": "文档宣称",
+              "finding": "教材讲解状态、记忆、工具和协议；本次已核核心在chapter12评测，不泛化整库。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md",
+              "read_paths": [
+                "README.md"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "恢复": {
+              "status": "未核",
+              "finding": "未对全部示例恢复/重试机制核读或运行。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "权限": {
+              "status": "未核",
+              "finding": "未把教材权限章节当完整生产业务授权实现。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "评测基线": {
+              "status": "源码可见",
+              "finding": "BFCL样例默认max_samples=5，100%为预期输出；官方调用还需独立环境。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+              "read_paths": [
+                "code/chapter12/03_bfcl_custom_evaluation.py"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "成本延迟": {
+              "status": "未核",
+              "finding": "模型/数据/裁判可能收费，未运行成本对照或时延实验。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/08_data_generation_llm_judge.py",
+              "read_paths": [
+                "code/chapter12/08_data_generation_llm_judge.py"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "超API封装证据": {
+              "status": "文档宣称",
+              "finding": "教材覆盖多模块，但不是一个经过统一验收的Agent产品。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md",
+              "read_paths": [
+                "README.md"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "个人贡献": {
+              "status": "不适用",
+              "finding": "多作者教材不是已核候选人本人增量。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            }
+          },
+          "backend_priority": {
+            "level": "非本方向",
+            "reason": "后端实习主线无需整本教材；用作Agent知识补课即可。",
+            "read_modules": [
+              "LICENSE.txt",
+              "code/chapter12/README.md",
+              "code/chapter12/03_bfcl_custom_evaluation.py",
+              "code/chapter12/04_run_bfcl_evaluation.py"
+            ]
+          },
+          "agent_priority": {
+            "level": "选读",
+            "reason": "先补第十二章评价方法，分清示例、预期输出和实际基准；按缺口读章节。",
+            "read_modules": [
+              "LICENSE.txt",
+              "code/chapter12/README.md",
+              "code/chapter12/03_bfcl_custom_evaluation.py",
+              "code/chapter12/04_run_bfcl_evaluation.py"
+            ]
+          },
+          "evidence_completeness": "指定固定源码/许可已读，无整仓ZIP；章节依赖和许可混合，不提供统一运行认证。",
+          "target_applicability": "Agent评测知识相关；应列教材而非成熟项目或SSP成功作品。",
+          "attachment": {
+            "status": "固定源码链接材料",
+            "archive_file": null,
+            "exists": false,
+            "reason": "递归 Git tree 未截断，2,607 个文件合计约 195 MB；为避免把大量教材图片／共创项目和不同许可材料混装，本轮只提供固定 commit 的官方源码链接及已读路径。并非因为没有许可证。",
+            "source_manifest": "05_项目源码归档/SUPPLEMENT_MANIFEST.json",
+            "runtime_verified": false
+          },
+          "read_paths": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py",
+            "code/chapter12/08_data_generation_llm_judge.py",
+            "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+          ],
+          "strengths": [
+            "中文教程把记忆、检索、上下文、协议与评测分章，并给出可定位代码，比只有概念名词更适合建立学习索引。",
+            "chapter12 将数据集加载、执行、结果导出以及官方 BFCL 命令拆开，可用于理解不同评估步骤和依赖。",
+            "README／子章节明确有示例性质，能拿来学习如何区分预期输出、作者材料和自己实测。"
+          ],
+          "limitations": [
+            "这是课程与共创仓库，不是一个统一部署／统一测试的成品系统；不能把不同作者项目的功能合并声称成一个已经验证的平台。",
+            "03_bfcl_custom_evaluation.py 默认只跑 5 个样本；README 的 5/5、100% 标为预期输出，不是本次实测，也不足以代表 BFCL 全集。",
+            "chapter12 README 安装 hello-agents[evaluation]==0.2.3，而 chapter14 研究助手 pyproject 固定 hello-agents==0.2.9；不同章节需隔离环境，不能假定同一依赖版本通吃。",
+            "04_run_bfcl_evaluation 会调用外部 bfcl evaluate，并需要数据／工具安装；固定源码没有自动把官方数据许可、模型访问与复现环境全部附带。",
+            "顶层许可为 CC BY-NC-SA 4.0，部分子目录另有 MIT 等声明；体量和混合许可需按目录看，不按 GitHub API 的 NOASSERTION 猜测无许可。"
+          ],
+          "commercial_background": "Datawhale 社区课程／共创内容；章节引用外部框架和服务，单独检查来源与条款。",
+          "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+          "source_nature_boundary": "工程/教学/教材参考；未取得目标成功候选人凭此固定项目求职的直接证据，不计SSP成功项目。",
+          "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+        },
+        "backend_priority": {
+          "level": "非本方向",
+          "reason": "后端实习主线无需整本教材；用作Agent知识补课即可。",
+          "read_modules": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "先补第十二章评价方法，分清示例、预期输出和实际基准；按缺口读章节。",
+          "read_modules": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py"
+          ]
+        },
+        "attachment_status": {
+          "status": "固定源码链接材料",
+          "archive_file": null,
+          "exists": false,
+          "reason": "递归 Git tree 未截断，2,607 个文件合计约 195 MB；为避免把大量教材图片／共创项目和不同许可材料混装，本轮只提供固定 commit 的官方源码链接及已读路径。并非因为没有许可证。",
+          "source_manifest": "05_项目源码归档/SUPPLEMENT_MANIFEST.json",
+          "runtime_verified": false
+        }
+      },
+      "after": {
+        "id": "PRO13",
+        "title": "Hello-Agents：评测方法与教材代码参考，整库不归档",
+        "repo": "datawhalechina/hello-agents",
+        "url": "https://github.com/datawhalechina/hello-agents",
+        "role": "Agent教材／评测样例",
+        "recommendation": "推荐补课与核对 BFCL／GAIA／LLM Judge 方法；不把教材示例或共创项目数量当成熟个人作品。",
+        "stack": [
+          "Python",
+          "hello-agents评测extra",
+          "BFCL",
+          "GAIA",
+          "LLM Judge",
+          "数据生成／Win Rate",
+          "部分章节FastAPI／研究助手"
+        ],
+        "strengths": [
+          "中文教程把记忆、检索、上下文、协议与评测分章，并给出可定位代码，比只有概念名词更适合建立学习索引。",
+          "chapter12 将数据集加载、执行、结果导出以及官方 BFCL 命令拆开，可用于理解不同评估步骤和依赖。",
+          "README／子章节明确有示例性质，能拿来学习如何区分预期输出、作者材料和自己实测。"
+        ],
+        "weaknesses": [
+          "这是课程与共创仓库，不是一个统一部署／统一测试的成品系统；不能把不同作者项目的功能合并声称成一个已经验证的平台。",
+          "03_bfcl_custom_evaluation.py 默认只跑 5 个样本；README 的 5/5、100% 标为预期输出，不是本次实测，也不足以代表 BFCL 全集。",
+          "chapter12 README 安装 hello-agents[evaluation]==0.2.3，而 chapter14 研究助手 pyproject 固定 hello-agents==0.2.9；不同章节需隔离环境，不能假定同一依赖版本通吃。",
+          "04_run_bfcl_evaluation 会调用外部 bfcl evaluate，并需要数据／工具安装；固定源码没有自动把官方数据许可、模型访问与复现环境全部附带。",
+          "顶层许可为 CC BY-NC-SA 4.0，部分子目录另有 MIT 等声明；体量和混合许可需按目录看，不按 GitHub API 的 NOASSERTION 猜测无许可。"
+        ],
+        "borrow": "优先查第十二章的评测概念、代码入口和依赖，再按自己欠缺的章节阅读；把原作者输出与自己的结果分开。",
+        "extend": "评价教程时核对模型／数据版本、实际样本量、官方评分与自定义评分区别；不要把 template_output 或预期输出当外部认证成绩。",
+        "inspect_paths": [
+          "LICENSE.txt",
+          "code/chapter12/README.md",
+          "code/chapter12/03_bfcl_custom_evaluation.py",
+          "code/chapter12/04_run_bfcl_evaluation.py",
+          "code/chapter12/08_data_generation_llm_judge.py",
+          "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+        ],
+        "source_findings": [
+          {
+            "path": "code/chapter12/03_bfcl_custom_evaluation.py",
+            "line_start": 17,
+            "line_end": 35,
+            "finding": "加载 simple_python 类别并以 max_samples=5 演示自定义评估。",
+            "kind": "已读代码",
+            "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py#L17-L35"
+          },
+          {
+            "path": "code/chapter12/README.md",
+            "line_start": 53,
+            "line_end": 65,
+            "finding": "快速开始的 100%／5/5 被作者标为预期输出，不能拿来证明实际性能。",
+            "kind": "证据口径",
+            "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/README.md#L53-L65"
+          },
+          {
+            "path": "code/chapter12/04_run_bfcl_evaluation.py",
+            "line_start": 165,
+            "line_end": 209,
+            "finding": "用 subprocess 调用 bfcl evaluate --partial-eval，并处理命令缺失／非零退出；需额外安装 BFCL 环境。",
+            "kind": "已读代码",
+            "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/04_run_bfcl_evaluation.py#L165-L209"
+          },
+          {
+            "path": "code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+            "line_start": 9,
+            "line_end": 20,
+            "finding": "子项目声明 MIT、Python >=3.10、hello-agents==0.2.9 及 FastAPI／Tavily／OpenAI 等依赖，说明章节间环境和许可应分开核对。",
+            "kind": "依赖／许可范围",
+            "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml#L9-L20"
+          }
+        ],
+        "tests_and_evaluation": [
+          "已读 chapter12 README、自定义 BFCL 样例、调用官方评估脚本和 LLM Judge 示例；是评测入口材料，不是本次运行记录。",
+          "共创目录含各自 tests，但本次未统一审查或执行其全部代码，不把它们计为整库统一质量证据。",
+          "未下载完整 BFCL／GAIA 数据、未访问需要授权的数据集、未调用模型或裁判。"
+        ],
+        "runtime_dependencies": [
+          "chapter12 README 推荐 hello-agents[evaluation]==0.2.3；BFCL 数据与 bfcl-eval 需另行取得并核对版本。",
+          "部分 GAIA 数据访问需 Hugging Face 授权；真实模型和 Judge 另需供应商访问。",
+          "chapter14 研究助手是不同子项目，Python >=3.10，使用 hello-agents 0.2.9、FastAPI 与搜索供应商依赖。"
+        ],
+        "cost": "本次只读公开原文／指定源码。真实生成、Agent执行和 LLM Judge 会消耗模型预算；Tavily 等搜索可能另收费，未发起任何付费调用。",
+        "recommended_for": [
+          "需要系统补 Agent 原理和评价方法的 Python 学习者",
+          "已有项目但缺评测知识的人"
+        ],
+        "not_recommended_for": [
+          "希望直接把教材输出、共创别人的项目或 5 题示例写成自己成果的人",
+          "希望一个环境直接启动整本教程所有项目的人"
+        ],
+        "candidate_links": [],
+        "interview_evidence_ids": [
+          "INT01",
+          "INT05",
+          "INT13",
+          "INT17"
+        ],
+        "interview_linkage": "主题映射为评测集、指标依据、功能必要性；未找到本次候选人因 Hello-Agents 获得目标岗位／SSP 的直接证据。",
+        "interview_questions": [
+          "5 题 simple_python 正确能否代表真实多轮任务成功？为什么？",
+          "自定义匹配评分、官方 BFCL 评分和业务结果 oracle 有什么区别？",
+          "Judge 的偏差、重复试验和数据泄漏如何影响结果解释？"
+        ],
+        "commercial_bias": "Datawhale 社区课程／共创内容；章节引用外部框架和服务，单独检查来源与条款。",
+        "license": "CC-BY-NC-SA-4.0（顶层）；部分子目录另有声明",
+        "license_scope": "已读取固定 commit 的 LICENSE.txt 和 README 许可段；不将顶层 CC 许可概括为全部子项目软件同许可。",
+        "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+        "commit_date": "2026-10-13T22:28:54Z",
+        "default_branch": "main",
+        "source_archive": true,
+        "archive_file": null,
+        "archive_sha256": null,
+        "archive_omission_reason": "递归 Git tree 未截断，2,607 个文件合计约 195 MB；为避免把大量教材图片／共创项目和不同许可材料混装，本轮只提供固定 commit 的官方源码链接及已读路径。并非因为没有许可证。",
+        "run_status": "未整库下载；指定原文与源码通过固定 commit 的 raw.githubusercontent.com 阅读。未运行代码或评测。",
+        "retrieved_date": "2026-10-23",
+        "category": "项目参考",
+        "source_urls": [
+          "https://github.com/datawhalechina/hello-agents",
+          "https://github.com/datawhalechina/hello-agents/tree/36f583c233ea5cee4537ef93455702b55053af18",
+          "https://api.github.com/repos/datawhalechina/hello-agents"
+        ],
+        "inspection_boundary": "未整库下载；指定原文与源码通过固定 commit 的 raw.githubusercontent.com 阅读。未运行代码或评测。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。",
+        "taxonomy": {
+          "track": "Agent工程",
+          "recruitment": "不适用",
+          "experience_date_text": "非招聘事件；源码或原文版本日期另列",
+          "date_precision": "不适用",
+          "year_confirmed": false,
+          "recent_status": "不适用",
+          "date_basis": "不以技术文档/仓库日期替代个人求职时间",
+          "source_date_text": "2026-10-13T22:28:54Z"
+        },
+        "reading": {
+          "scope": "部分",
+          "fulltext": false,
+          "scope_note": "按原卡具体核读范围；不视为项目已运行或全部源码逐行核读",
+          "video_watched": false
+        },
+        "outcomes": [],
+        "comparison": {
+          "id": "PRO13",
+          "title": "Hello-Agents：评测方法与教材代码参考，整库不归档",
+          "repo": "datawhalechina/hello-agents",
+          "source_URL": "https://github.com/datawhalechina/hello-agents",
+          "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+          "source_nature": [
+            "教材",
+            "非SSP工程参考"
+          ],
+          "candidate_relationships": [
+            {
+              "candidate_id": null,
+              "relationship_type": "主题",
+              "direct_evidence_URLs": [],
+              "finding": "仅用于面经/JD能力主题对照，未核成功候选人本人求职项目或具体贡献；不凭同账号或star建立关系。",
+              "event_time_boundary": "不适用；无已核招聘事件",
+              "snapshot_boundary": "仅按固定commit阅读当前工程",
+              "offer_causality": "未建立录用关系"
+            }
+          ],
+          "backend_dimensions": {
+            "业务闭环": {
+              "status": "不适用",
+              "finding": "整库为教材与共创集合，不是统一业务服务。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "一致性": {
+              "status": "不适用",
+              "finding": "未作为后端一致性实现样本。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "并发": {
+              "status": "不适用",
+              "finding": "未统一审查各章节并发，不合并为平台能力。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "缓存MQ": {
+              "status": "不适用",
+              "finding": "未作为缓存/MQ样本。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "测试": {
+              "status": "源码可见",
+              "finding": "chapter12有自定义与官方BFCL入口；不等于整库统一质量测试。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+              "read_paths": [
+                "code/chapter12/03_bfcl_custom_evaluation.py"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "可运行材料": {
+              "status": "文档宣称",
+              "finding": "固定6文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+              "read_paths": [
+                "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "个人贡献": {
+              "status": "不适用",
+              "finding": "共创多作者材料不能合并为单人的求职项目。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            }
+          },
+          "agent_dimensions": {
+            "真实任务": {
+              "status": "文档宣称",
+              "finding": "分章与共创有研究助手等任务例子；未证明统一成品或成功者履历。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+              "read_paths": [
+                "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "状态工具": {
+              "status": "文档宣称",
+              "finding": "教材讲解状态、记忆、工具和协议；本次已核核心在chapter12评测，不泛化整库。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md",
+              "read_paths": [
+                "README.md"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "恢复": {
+              "status": "未核",
+              "finding": "未对全部示例恢复/重试机制核读或运行。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "权限": {
+              "status": "未核",
+              "finding": "未把教材权限章节当完整生产业务授权实现。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "评测基线": {
+              "status": "源码可见",
+              "finding": "BFCL样例默认max_samples=5，100%为预期输出；官方调用还需独立环境。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+              "read_paths": [
+                "code/chapter12/03_bfcl_custom_evaluation.py"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "成本延迟": {
+              "status": "未核",
+              "finding": "模型/数据/裁判可能收费，未运行成本对照或时延实验。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/08_data_generation_llm_judge.py",
+              "read_paths": [
+                "code/chapter12/08_data_generation_llm_judge.py"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "超API封装证据": {
+              "status": "文档宣称",
+              "finding": "教材覆盖多模块，但不是一个经过统一验收的Agent产品。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md",
+              "read_paths": [
+                "README.md"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "个人贡献": {
+              "status": "不适用",
+              "finding": "多作者教材不是已核候选人本人增量。",
+              "source_URL": "https://github.com/datawhalechina/hello-agents",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            }
+          },
+          "backend_priority": {
+            "level": "非本方向",
+            "reason": "后端实习主线无需整本教材；用作Agent知识补课即可。",
+            "read_modules": [
+              "LICENSE.txt",
+              "code/chapter12/README.md",
+              "code/chapter12/03_bfcl_custom_evaluation.py",
+              "code/chapter12/04_run_bfcl_evaluation.py"
+            ]
+          },
+          "agent_priority": {
+            "level": "选读",
+            "reason": "先补第十二章评价方法，分清示例、预期输出和实际基准；按缺口读章节。",
+            "read_modules": [
+              "LICENSE.txt",
+              "code/chapter12/README.md",
+              "code/chapter12/03_bfcl_custom_evaluation.py",
+              "code/chapter12/04_run_bfcl_evaluation.py"
+            ]
+          },
+          "evidence_completeness": "指定固定源码/许可已读，无整仓ZIP；章节依赖和许可混合，不提供统一运行认证。",
+          "target_applicability": "Agent评测知识相关；应列教材而非成熟项目或SSP成功作品。",
+          "attachment": {
+            "status": "固定源码选读派生ZIP已归档",
+            "archive_file": "Hello_Agents_固定源码选读.zip",
+            "exists": true,
+            "reason": "固定6文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+            "archive_sha256": "271f736d59c25bc9ec1053f7f22d054f2bf516c8da8d741f3ebc26272b944a4a",
+            "source_manifest": "08_证据索引与统计/Hello_Agents_选读归档补齐.json",
+            "source_file_count": 6,
+            "selection_only": true,
+            "runtime_verified": false
+          },
+          "read_paths": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py",
+            "code/chapter12/08_data_generation_llm_judge.py",
+            "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+          ],
+          "strengths": [
+            "中文教程把记忆、检索、上下文、协议与评测分章，并给出可定位代码，比只有概念名词更适合建立学习索引。",
+            "chapter12 将数据集加载、执行、结果导出以及官方 BFCL 命令拆开，可用于理解不同评估步骤和依赖。",
+            "README／子章节明确有示例性质，能拿来学习如何区分预期输出、作者材料和自己实测。"
+          ],
+          "limitations": [
+            "这是课程与共创仓库，不是一个统一部署／统一测试的成品系统；不能把不同作者项目的功能合并声称成一个已经验证的平台。",
+            "03_bfcl_custom_evaluation.py 默认只跑 5 个样本；README 的 5/5、100% 标为预期输出，不是本次实测，也不足以代表 BFCL 全集。",
+            "chapter12 README 安装 hello-agents[evaluation]==0.2.3，而 chapter14 研究助手 pyproject 固定 hello-agents==0.2.9；不同章节需隔离环境，不能假定同一依赖版本通吃。",
+            "04_run_bfcl_evaluation 会调用外部 bfcl evaluate，并需要数据／工具安装；固定源码没有自动把官方数据许可、模型访问与复现环境全部附带。",
+            "顶层许可为 CC BY-NC-SA 4.0，部分子目录另有 MIT 等声明；体量和混合许可需按目录看，不按 GitHub API 的 NOASSERTION 猜测无许可。"
+          ],
+          "commercial_background": "Datawhale 社区课程／共创内容；章节引用外部框架和服务，单独检查来源与条款。",
+          "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+          "source_nature_boundary": "工程/教学/教材参考；未取得目标成功候选人凭此固定项目求职的直接证据，不计SSP成功项目。",
+          "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+        },
+        "backend_priority": {
+          "level": "非本方向",
+          "reason": "后端实习主线无需整本教材；用作Agent知识补课即可。",
+          "read_modules": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "先补第十二章评价方法，分清示例、预期输出和实际基准；按缺口读章节。",
+          "read_modules": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py"
+          ]
+        },
+        "attachment_status": {
+          "status": "固定源码选读派生ZIP已归档",
+          "archive_file": "Hello_Agents_固定源码选读.zip",
+          "exists": true,
+          "reason": "固定6文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+          "archive_sha256": "271f736d59c25bc9ec1053f7f22d054f2bf516c8da8d741f3ebc26272b944a4a",
+          "source_manifest": "08_证据索引与统计/Hello_Agents_选读归档补齐.json",
+          "source_file_count": 6,
+          "selection_only": true,
+          "runtime_verified": false
+        },
+        "archive_status": "固定6文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+        "source_selection_manifest": "08_证据索引与统计/Hello_Agents_选读归档补齐.json"
+      },
+      "comparison_before": {
+        "id": "PRO13",
+        "title": "Hello-Agents：评测方法与教材代码参考，整库不归档",
+        "repo": "datawhalechina/hello-agents",
+        "source_URL": "https://github.com/datawhalechina/hello-agents",
+        "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+        "source_nature": [
+          "教材",
+          "非SSP工程参考"
+        ],
+        "candidate_relationships": [
+          {
+            "candidate_id": null,
+            "relationship_type": "主题",
+            "direct_evidence_URLs": [],
+            "finding": "仅用于面经/JD能力主题对照，未核成功候选人本人求职项目或具体贡献；不凭同账号或star建立关系。",
+            "event_time_boundary": "不适用；无已核招聘事件",
+            "snapshot_boundary": "仅按固定commit阅读当前工程",
+            "offer_causality": "未建立录用关系"
+          }
+        ],
+        "backend_dimensions": {
+          "业务闭环": {
+            "status": "不适用",
+            "finding": "整库为教材与共创集合，不是统一业务服务。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "一致性": {
+            "status": "不适用",
+            "finding": "未作为后端一致性实现样本。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "并发": {
+            "status": "不适用",
+            "finding": "未统一审查各章节并发，不合并为平台能力。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "缓存MQ": {
+            "status": "不适用",
+            "finding": "未作为缓存/MQ样本。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "测试": {
+            "status": "源码可见",
+            "finding": "chapter12有自定义与官方BFCL入口；不等于整库统一质量测试。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+            "read_paths": [
+              "code/chapter12/03_bfcl_custom_evaluation.py"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "可运行材料": {
+            "status": "文档宣称",
+            "finding": "章节有独立依赖，0.2.3与0.2.9不可混为同一环境；仅提供固定链接。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+            "read_paths": [
+              "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "个人贡献": {
+            "status": "不适用",
+            "finding": "共创多作者材料不能合并为单人的求职项目。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          }
+        },
+        "agent_dimensions": {
+          "真实任务": {
+            "status": "文档宣称",
+            "finding": "分章与共创有研究助手等任务例子；未证明统一成品或成功者履历。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+            "read_paths": [
+              "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "状态工具": {
+            "status": "文档宣称",
+            "finding": "教材讲解状态、记忆、工具和协议；本次已核核心在chapter12评测，不泛化整库。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "恢复": {
+            "status": "未核",
+            "finding": "未对全部示例恢复/重试机制核读或运行。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "权限": {
+            "status": "未核",
+            "finding": "未把教材权限章节当完整生产业务授权实现。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "评测基线": {
+            "status": "源码可见",
+            "finding": "BFCL样例默认max_samples=5，100%为预期输出；官方调用还需独立环境。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+            "read_paths": [
+              "code/chapter12/03_bfcl_custom_evaluation.py"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "成本延迟": {
+            "status": "未核",
+            "finding": "模型/数据/裁判可能收费，未运行成本对照或时延实验。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/08_data_generation_llm_judge.py",
+            "read_paths": [
+              "code/chapter12/08_data_generation_llm_judge.py"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "超API封装证据": {
+            "status": "文档宣称",
+            "finding": "教材覆盖多模块，但不是一个经过统一验收的Agent产品。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "个人贡献": {
+            "status": "不适用",
+            "finding": "多作者教材不是已核候选人本人增量。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          }
+        },
+        "backend_priority": {
+          "level": "非本方向",
+          "reason": "后端实习主线无需整本教材；用作Agent知识补课即可。",
+          "read_modules": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "先补第十二章评价方法，分清示例、预期输出和实际基准；按缺口读章节。",
+          "read_modules": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py"
+          ]
+        },
+        "evidence_completeness": "指定固定源码/许可已读，无整仓ZIP；章节依赖和许可混合，不提供统一运行认证。",
+        "target_applicability": "Agent评测知识相关；应列教材而非成熟项目或SSP成功作品。",
+        "attachment": {
+          "status": "固定源码链接材料",
+          "archive_file": null,
+          "exists": false,
+          "reason": "递归 Git tree 未截断，2,607 个文件合计约 195 MB；为避免把大量教材图片／共创项目和不同许可材料混装，本轮只提供固定 commit 的官方源码链接及已读路径。并非因为没有许可证。",
+          "source_manifest": "05_项目源码归档/SUPPLEMENT_MANIFEST.json",
+          "runtime_verified": false
+        },
+        "read_paths": [
+          "LICENSE.txt",
+          "code/chapter12/README.md",
+          "code/chapter12/03_bfcl_custom_evaluation.py",
+          "code/chapter12/04_run_bfcl_evaluation.py",
+          "code/chapter12/08_data_generation_llm_judge.py",
+          "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+        ],
+        "strengths": [
+          "中文教程把记忆、检索、上下文、协议与评测分章，并给出可定位代码，比只有概念名词更适合建立学习索引。",
+          "chapter12 将数据集加载、执行、结果导出以及官方 BFCL 命令拆开，可用于理解不同评估步骤和依赖。",
+          "README／子章节明确有示例性质，能拿来学习如何区分预期输出、作者材料和自己实测。"
+        ],
+        "limitations": [
+          "这是课程与共创仓库，不是一个统一部署／统一测试的成品系统；不能把不同作者项目的功能合并声称成一个已经验证的平台。",
+          "03_bfcl_custom_evaluation.py 默认只跑 5 个样本；README 的 5/5、100% 标为预期输出，不是本次实测，也不足以代表 BFCL 全集。",
+          "chapter12 README 安装 hello-agents[evaluation]==0.2.3，而 chapter14 研究助手 pyproject 固定 hello-agents==0.2.9；不同章节需隔离环境，不能假定同一依赖版本通吃。",
+          "04_run_bfcl_evaluation 会调用外部 bfcl evaluate，并需要数据／工具安装；固定源码没有自动把官方数据许可、模型访问与复现环境全部附带。",
+          "顶层许可为 CC BY-NC-SA 4.0，部分子目录另有 MIT 等声明；体量和混合许可需按目录看，不按 GitHub API 的 NOASSERTION 猜测无许可。"
+        ],
+        "commercial_background": "Datawhale 社区课程／共创内容；章节引用外部框架和服务，单独检查来源与条款。",
+        "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+        "source_nature_boundary": "工程/教学/教材参考；未取得目标成功候选人凭此固定项目求职的直接证据，不计SSP成功项目。",
+        "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+      },
+      "comparison_after": {
+        "id": "PRO13",
+        "title": "Hello-Agents：评测方法与教材代码参考，整库不归档",
+        "repo": "datawhalechina/hello-agents",
+        "source_URL": "https://github.com/datawhalechina/hello-agents",
+        "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+        "source_nature": [
+          "教材",
+          "非SSP工程参考"
+        ],
+        "candidate_relationships": [
+          {
+            "candidate_id": null,
+            "relationship_type": "主题",
+            "direct_evidence_URLs": [],
+            "finding": "仅用于面经/JD能力主题对照，未核成功候选人本人求职项目或具体贡献；不凭同账号或star建立关系。",
+            "event_time_boundary": "不适用；无已核招聘事件",
+            "snapshot_boundary": "仅按固定commit阅读当前工程",
+            "offer_causality": "未建立录用关系"
+          }
+        ],
+        "backend_dimensions": {
+          "业务闭环": {
+            "status": "不适用",
+            "finding": "整库为教材与共创集合，不是统一业务服务。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "一致性": {
+            "status": "不适用",
+            "finding": "未作为后端一致性实现样本。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "并发": {
+            "status": "不适用",
+            "finding": "未统一审查各章节并发，不合并为平台能力。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "缓存MQ": {
+            "status": "不适用",
+            "finding": "未作为缓存/MQ样本。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "测试": {
+            "status": "源码可见",
+            "finding": "chapter12有自定义与官方BFCL入口；不等于整库统一质量测试。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+            "read_paths": [
+              "code/chapter12/03_bfcl_custom_evaluation.py"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "可运行材料": {
+            "status": "文档宣称",
+            "finding": "固定6文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+            "read_paths": [
+              "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "个人贡献": {
+            "status": "不适用",
+            "finding": "共创多作者材料不能合并为单人的求职项目。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          }
+        },
+        "agent_dimensions": {
+          "真实任务": {
+            "status": "文档宣称",
+            "finding": "分章与共创有研究助手等任务例子；未证明统一成品或成功者履历。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+            "read_paths": [
+              "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "状态工具": {
+            "status": "文档宣称",
+            "finding": "教材讲解状态、记忆、工具和协议；本次已核核心在chapter12评测，不泛化整库。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "恢复": {
+            "status": "未核",
+            "finding": "未对全部示例恢复/重试机制核读或运行。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "权限": {
+            "status": "未核",
+            "finding": "未把教材权限章节当完整生产业务授权实现。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "评测基线": {
+            "status": "源码可见",
+            "finding": "BFCL样例默认max_samples=5，100%为预期输出；官方调用还需独立环境。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py",
+            "read_paths": [
+              "code/chapter12/03_bfcl_custom_evaluation.py"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "成本延迟": {
+            "status": "未核",
+            "finding": "模型/数据/裁判可能收费，未运行成本对照或时延实验。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/08_data_generation_llm_judge.py",
+            "read_paths": [
+              "code/chapter12/08_data_generation_llm_judge.py"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "超API封装证据": {
+            "status": "文档宣称",
+            "finding": "教材覆盖多模块，但不是一个经过统一验收的Agent产品。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "个人贡献": {
+            "status": "不适用",
+            "finding": "多作者教材不是已核候选人本人增量。",
+            "source_URL": "https://github.com/datawhalechina/hello-agents",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          }
+        },
+        "backend_priority": {
+          "level": "非本方向",
+          "reason": "后端实习主线无需整本教材；用作Agent知识补课即可。",
+          "read_modules": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "先补第十二章评价方法，分清示例、预期输出和实际基准；按缺口读章节。",
+          "read_modules": [
+            "LICENSE.txt",
+            "code/chapter12/README.md",
+            "code/chapter12/03_bfcl_custom_evaluation.py",
+            "code/chapter12/04_run_bfcl_evaluation.py"
+          ]
+        },
+        "evidence_completeness": "指定固定源码/许可已读，无整仓ZIP；章节依赖和许可混合，不提供统一运行认证。",
+        "target_applicability": "Agent评测知识相关；应列教材而非成熟项目或SSP成功作品。",
+        "attachment": {
+          "status": "固定源码选读派生ZIP已归档",
+          "archive_file": "Hello_Agents_固定源码选读.zip",
+          "exists": true,
+          "reason": "固定6文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+          "archive_sha256": "271f736d59c25bc9ec1053f7f22d054f2bf516c8da8d741f3ebc26272b944a4a",
+          "source_manifest": "08_证据索引与统计/Hello_Agents_选读归档补齐.json",
+          "source_file_count": 6,
+          "selection_only": true,
+          "runtime_verified": false
+        },
+        "read_paths": [
+          "LICENSE.txt",
+          "code/chapter12/README.md",
+          "code/chapter12/03_bfcl_custom_evaluation.py",
+          "code/chapter12/04_run_bfcl_evaluation.py",
+          "code/chapter12/08_data_generation_llm_judge.py",
+          "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+        ],
+        "strengths": [
+          "中文教程把记忆、检索、上下文、协议与评测分章，并给出可定位代码，比只有概念名词更适合建立学习索引。",
+          "chapter12 将数据集加载、执行、结果导出以及官方 BFCL 命令拆开，可用于理解不同评估步骤和依赖。",
+          "README／子章节明确有示例性质，能拿来学习如何区分预期输出、作者材料和自己实测。"
+        ],
+        "limitations": [
+          "这是课程与共创仓库，不是一个统一部署／统一测试的成品系统；不能把不同作者项目的功能合并声称成一个已经验证的平台。",
+          "03_bfcl_custom_evaluation.py 默认只跑 5 个样本；README 的 5/5、100% 标为预期输出，不是本次实测，也不足以代表 BFCL 全集。",
+          "chapter12 README 安装 hello-agents[evaluation]==0.2.3，而 chapter14 研究助手 pyproject 固定 hello-agents==0.2.9；不同章节需隔离环境，不能假定同一依赖版本通吃。",
+          "04_run_bfcl_evaluation 会调用外部 bfcl evaluate，并需要数据／工具安装；固定源码没有自动把官方数据许可、模型访问与复现环境全部附带。",
+          "顶层许可为 CC BY-NC-SA 4.0，部分子目录另有 MIT 等声明；体量和混合许可需按目录看，不按 GitHub API 的 NOASSERTION 猜测无许可。"
+        ],
+        "commercial_background": "Datawhale 社区课程／共创内容；章节引用外部框架和服务，单独检查来源与条款。",
+        "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+        "source_nature_boundary": "工程/教学/教材参考；未取得目标成功候选人凭此固定项目求职的直接证据，不计SSP成功项目。",
+        "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+      },
+      "source_manifest": "Hello_Agents_选读归档补齐.json",
+      "source_files": 6,
+      "zip_sha256": "271f736d59c25bc9ec1053f7f22d054f2bf516c8da8d741f3ebc26272b944a4a"
+    },
+    {
+      "id": "PRO18",
+      "before": {
+        "id": "PRO18",
+        "title": "Crony：Go分布式定时任务工程参考，未证作者SSP",
+        "url": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+        "author": "tmnhs",
+        "commit": "00df3df90306811332d0aff66a259cf90ad6954f",
+        "commit_date": "2023-06-03T11:22:54Z",
+        "category": "项目参考",
+        "retrieved_at": "2026-10-23",
+        "role": "Go后端工程项目；不是Agent或已核SSP成功者项目",
+        "stack": [
+          "Go",
+          "Gin",
+          "Gorm",
+          "MySQL",
+          "Etcd",
+          "Viper",
+          "Zap",
+          "jakecoffman/cron"
+        ],
+        "project_relationship": [
+          {
+            "type": "作者第一人称自述",
+            "source_repo": "tmnhs/go-interview-resume",
+            "source_commit": "f4f3dbd824a8bdc70854997f501addc4a5011309",
+            "source_commit_date": "2024-03-16T06:02:09Z",
+            "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22",
+            "quote": "我个人做的分布式定时任务管理平台",
+            "interpretation": "资料作者直接将 Crony 关联到自己的项目，而非仅收藏第三方仓库。此证据仍是公开自述。"
+          },
+          {
+            "type": "作者第一人称自述及实现边界",
+            "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+            "quote": "这个项目其实是本人在XXXX公司实习时做的一个项目，感觉挺有意思，就自己写了一份代码（与原版还是有很大差别的，因为忘记了）上传到了github",
+            "interpretation": "个人开源代码是作者对实习项目的重新实现；公司原版、原实习职责与个人仓库能力不能直接等同。公司名称及录用结果均未由此证实。"
+          },
+          {
+            "type": "原实习职责自述",
+            "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28",
+            "quote": "负责完成执行节点模块和go-sdk的研发",
+            "interpretation": "不能将公司项目所有模块均归为作者个人负责，也不能将 go-sdk 自动算作当前公开仓库已有实现。"
+          }
+        ],
+        "outcome": "未证实。关联资料 README 和项目经历介绍中未找到本人获得 SSP 的明确表述；不得由项目质量推导招聘档位。",
+        "source_findings": [
+          {
+            "finding": "围绕任务散落、执行状态不透明和失败排查成本构建集中管理平台，有可解释的业务动机；后端采用 Go、Gin、Gorm、MySQL、Etcd、Viper、Zap。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L16-L24",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L88-L92",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L39"
+            ],
+            "boundary": "未验证生产用户、吞吐量、故障恢复时延或业务收益。不要把 README 功能表当成性能验收记录。"
+          },
+          {
+            "finding": "执行节点通过 Etcd Grant、KeepAlive 和带租约 Put 注册；管理端监听节点删除事件，执行任务重新分配。该项目存在实际服务注册和故障转移代码。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L28-L78",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L48-L69",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308"
+            ],
+            "boundary": "有实现不等于已证明网络分区、管理端多实例和进程崩溃下的执行语义。"
+          },
+          {
+            "finding": "AutoAllocateNode 遍历活节点、读取任务数量并选择任务数最少者；加权轮询和平滑加权轮询列在 README 的 TODO 中。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go#L117-L143",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L135-L137",
+              "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L9-L28"
+            ],
+            "boundary": "实习经历中的 Coa RPC、加权轮询和 go-sdk 是公司项目描述；当前个人仓库不能据此宣称已实现这些能力。作者明确说明重写与原版不同，不能据差异指控经历虚假。"
+          },
+          {
+            "finding": "管理端先 Get 节点快照并处理结果，之后才启动不带 WithRev 的 Watch；setNodeList 内还包含启动等待和任务分配。执行端同样先 loadJobs，再启动 WatchJobs，后者也未携带快照 revision。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L37-L49",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L108-L154",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L142-L165",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L214-L216"
+            ],
+            "inference": "快照读取完成到 Watch 生效之间存在需验证的事件遗漏窗口，适合改造成从快照 revision+1 续接、处理 compaction 并进行周期校准。",
+            "verification_status": "静态发现，未通过并发故障注入复现。"
+          },
+          {
+            "finding": "assignJob 先将新节点任务写入 Etcd，再更新 MySQL；FailOver 完成新分配后才删除旧节点任务键。所读流程为多个分步操作。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L245-L267",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308"
+            ],
+            "inference": "需要验证中途失败后的 Etcd/MySQL 一致性、双节点短暂持有同一任务以及多管理端并发迁移；不能只用管理服务多实例和负载均衡证明高可用。",
+            "verification_status": "未声称全仓不存在其他补偿；未做生产或运行时验证。"
+          },
+          {
+            "finding": "keepAlive 收到 nil 后记录日志并返回；节点 Cron 的停止在 NodeServer.Stop 路径中。所读租约续期函数未显示断租后主动停止调度、重建租约或重新注册。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L60-L72",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L110-L123"
+            ],
+            "verification_status": "未复现；作为后续项目正确性实验，不能称已验证故障。"
+          },
+          {
+            "finding": "CreateJob 包含重试次数、重试间隔、成功/失败日志写入与失败通知的代码；RunWithRecovery 是另一条手动运行路径，不宜把两者的重试语义直接视为相同。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L77-L100",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L137-L209",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go#L119-L134"
+            ]
+          },
+          {
+            "finding": "固定源码树发现 5 个 *_test.go；已读的命令测试依赖本地脚本，HTTP 相关测试依赖 localhost 服务，主要检查 error 并记录输出。所读测试没有证明故障转移、断租或快照/Watch 一致性。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_cmd_test.go#L9-L34",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go#L9-L33",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/httpclient/http_client_test.go#L9-L17"
+            ],
+            "boundary": "文件数不能证明项目从未做过其他测试。未发现固定源码树中的常见 GitHub Actions / GitLab CI / Jenkins 配置入口，未运行现有测试。"
+          },
+          {
+            "finding": "README 链接 robfig/cron，但 go.mod 与执行节点代码实际引用 jakecoffman/cron；该固定版本声明 Go 1.16，Etcd 依赖为 3.3.9+incompatible。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L92",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L16",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L3-L18"
+            ],
+            "boundary": "技术栈应按实际源码记录；未做漏洞扫描，不据版本号单独宣称漏洞或不可用。重新开发应单独验证依赖兼容性。"
+          }
+        ],
+        "strengths": [
+          "从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。",
+          "代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。",
+          "作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。"
+        ],
+        "limitations": [
+          "不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。",
+          "不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。",
+          "不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。",
+          "不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。"
+        ],
+        "recommended_use": "沿任务创建、注册、分配、执行、重试和迁移做代码走读；对照文档与实现在何处一致、何处仍是TODO。此项只用于信息调研和工程比较，个人项目设计暂缓。",
+        "license_notes": {
+          "spdx_id": "MIT",
+          "status": "已阅读固定 commit 根 LICENSE，并与 GitHub 仓库元数据核对。",
+          "url": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/LICENSE#L1-L13",
+          "copyright": "Copyright (c) 2022 tmnhs",
+          "redistribution_condition": "复制或分发软件副本及实质部分时须保留版权和许可声明。",
+          "boundary": "该 MIT 核查仅针对 Crony 仓库；关联资料仓库 go-interview-resume 的 API 未返回许可证，不能将 Crony 的 MIT 授权延伸到该资料仓库的全文或简历模板。"
+        },
+        "archive_status": {
+          "status": "未新增ZIP，仅提供固定源码入口",
+          "reason": "整仓含未逐文件筛选的配置，未原样复制进交付包；MIT条款已读但不延伸到关联履历资料仓库",
+          "project_executed": false
+        },
+        "confidence": "B：本人归属自述、许可证及关键源码已读；招聘结果与运行效果未核实",
+        "taxonomy": {
+          "track": "后端",
+          "recruitment": "不适用",
+          "experience_date_text": "非招聘事件；源码或原文版本日期另列",
+          "date_precision": "不适用",
+          "year_confirmed": false,
+          "recent_status": "不适用",
+          "date_basis": "不以技术文档/仓库日期替代个人求职时间",
+          "source_date_text": "2023-06-03T11:22:54Z"
+        },
+        "reading": {
+          "scope": "部分",
+          "fulltext": false,
+          "scope_note": "按原卡具体核读范围；不视为项目已运行或全部源码逐行核读",
+          "video_watched": false
+        },
+        "outcomes": [],
+        "comparison": {
+          "id": "PRO18",
+          "title": "Crony：Go分布式定时任务工程参考，未证作者SSP",
+          "repo": "tmnhs/Crony",
+          "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+          "commit": "00df3df90306811332d0aff66a259cf90ad6954f",
+          "source_nature": [
+            "本人求职项目",
+            "非SSP工程参考"
+          ],
+          "candidate_relationships": [
+            {
+              "candidate_id": null,
+              "author": "tmnhs",
+              "relationship_type": "直接点名",
+              "direct_evidence_URLs": [
+                "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22",
+                "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+                "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28"
+              ],
+              "finding": "作者说个人仓由未具名公司实习项目重新实现，且与公司原版有差别；未加入已获目标岗位候选人计数。",
+              "event_time_boundary": "实习年份未知；资料固定版本2024-03-16不是实习时间",
+              "snapshot_boundary": "个人仓固定2023-06-03，不等于公司生产代码",
+              "offer_causality": "公司与SSP档位均未确认"
+            }
+          ],
+          "backend_dimensions": {
+            "业务闭环": {
+              "status": "源码可见",
+              "finding": "任务创建、注册、分配、执行、日志、重试和迁移有对应源码路径。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go",
+              "read_paths": [
+                "admin/internal/service/job.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "一致性": {
+              "status": "静态风险",
+              "finding": "assignJob先Etcd后MySQL，FailOver新分配后删旧键，多步失败窗口需验证。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go",
+              "read_paths": [
+                "admin/internal/service/node.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "并发": {
+              "status": "静态风险",
+              "finding": "先Get再不带revision的Watch有待验证窗口；续租断开后本路径未见停止/重注册。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go",
+              "read_paths": [
+                "common/pkg/etcdclient/registry.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "缓存MQ": {
+              "status": "源码可见",
+              "finding": "Etcd租约/Watch是协调机制；不能用它替代业务执行幂等。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go",
+              "read_paths": [
+                "node/internal/service/watcher.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "测试": {
+              "status": "未核",
+              "finding": "已读依赖本机脚本/localhost的测试；没有本次断租、双执行与快照续接验证。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go",
+              "read_paths": [
+                "node/internal/handler/handler_http_test.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "可运行材料": {
+              "status": "文档宣称",
+              "finding": "仅固定源码入口；Go1.16/Etcd3.3.9组合与README cron依赖差异需核，未运行。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod",
+              "read_paths": [
+                "go.mod"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "个人贡献": {
+              "status": "文档宣称",
+              "finding": "作者明确个人仓是实习项目重写；只自述原公司负责执行节点/go-sdk，不是全平台。",
+              "source_URL": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+              "read_paths": [
+                "项目经历介绍.md（关联资料仓）"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            }
+          },
+          "agent_dimensions": {
+            "真实任务": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "状态工具": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "恢复": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "权限": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "评测基线": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "成本延迟": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "超API封装证据": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "个人贡献": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            }
+          },
+          "backend_priority": {
+            "level": "精读",
+            "reason": "Go方向精读注册、任务分配与失败迁移，特别对照公司描述与个人重写的边界。",
+            "read_modules": [
+              "README.md",
+              "go.mod",
+              "common/pkg/etcdclient/registry.go",
+              "admin/internal/service/node.go"
+            ]
+          },
+          "agent_priority": {
+            "level": "选读",
+            "reason": "仅作为Agent长任务调度/重试的后端参照；本身不是Agent或SSP成功者项目。",
+            "read_modules": [
+              "README.md",
+              "go.mod",
+              "common/pkg/etcdclient/registry.go",
+              "admin/internal/service/node.go"
+            ]
+          },
+          "evidence_completeness": "本人归属、关键源码与MIT已核；公司名称/录用档位未知，未归档整仓配置。",
+          "target_applicability": "Go后端实习相关，但年份/公司未核，不能计近期大厂成功实习。",
+          "attachment": {
+            "status": "固定源码链接材料",
+            "archive_file": null,
+            "exists": false,
+            "reason": {
+              "status": "未新增ZIP，仅提供固定源码入口",
+              "reason": "整仓含未逐文件筛选的配置，未原样复制进交付包；MIT条款已读但不延伸到关联履历资料仓库",
+              "project_executed": false
+            },
+            "source_manifest": "08_证据索引与统计/project_recommendations.json",
+            "runtime_verified": false
+          },
+          "read_paths": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go",
+            "admin/internal/service/job.go",
+            "node/internal/service/node.go",
+            "node/internal/handler/job.go",
+            "node/internal/service/watcher.go",
+            "node/internal/handler/handler_cmd_test.go",
+            "node/internal/handler/handler_http_test.go",
+            "common/pkg/httpclient/http_client_test.go"
+          ],
+          "strengths": [
+            "从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。",
+            "代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。",
+            "作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。"
+          ],
+          "limitations": [
+            "不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。",
+            "不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。",
+            "不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。",
+            "不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。"
+          ],
+          "commercial_background": "未核商业关系；不据此推定独立录用效果。",
+          "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+          "source_nature_boundary": "实习项目的个人重新实现，非公司原版；作者未具名实习公司，未证SSP，不计已获目标岗位候选人。",
+          "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+        },
+        "backend_priority": {
+          "level": "精读",
+          "reason": "Go方向精读注册、任务分配与失败迁移，特别对照公司描述与个人重写的边界。",
+          "read_modules": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "仅作为Agent长任务调度/重试的后端参照；本身不是Agent或SSP成功者项目。",
+          "read_modules": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go"
+          ]
+        },
+        "attachment_status": {
+          "status": "固定源码链接材料",
+          "archive_file": null,
+          "exists": false,
+          "reason": {
+            "status": "未新增ZIP，仅提供固定源码入口",
+            "reason": "整仓含未逐文件筛选的配置，未原样复制进交付包；MIT条款已读但不延伸到关联履历资料仓库",
+            "project_executed": false
+          },
+          "source_manifest": "08_证据索引与统计/project_recommendations.json",
+          "runtime_verified": false
+        }
+      },
+      "after": {
+        "id": "PRO18",
+        "title": "Crony：Go分布式定时任务工程参考，未证作者SSP",
+        "url": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+        "author": "tmnhs",
+        "commit": "00df3df90306811332d0aff66a259cf90ad6954f",
+        "commit_date": "2023-06-03T11:22:54Z",
+        "category": "项目参考",
+        "retrieved_at": "2026-10-23",
+        "role": "Go后端工程项目；不是Agent或已核SSP成功者项目",
+        "stack": [
+          "Go",
+          "Gin",
+          "Gorm",
+          "MySQL",
+          "Etcd",
+          "Viper",
+          "Zap",
+          "jakecoffman/cron"
+        ],
+        "project_relationship": [
+          {
+            "type": "作者第一人称自述",
+            "source_repo": "tmnhs/go-interview-resume",
+            "source_commit": "f4f3dbd824a8bdc70854997f501addc4a5011309",
+            "source_commit_date": "2024-03-16T06:02:09Z",
+            "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22",
+            "quote": "我个人做的分布式定时任务管理平台",
+            "interpretation": "资料作者直接将 Crony 关联到自己的项目，而非仅收藏第三方仓库。此证据仍是公开自述。"
+          },
+          {
+            "type": "作者第一人称自述及实现边界",
+            "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+            "quote": "这个项目其实是本人在XXXX公司实习时做的一个项目，感觉挺有意思，就自己写了一份代码（与原版还是有很大差别的，因为忘记了）上传到了github",
+            "interpretation": "个人开源代码是作者对实习项目的重新实现；公司原版、原实习职责与个人仓库能力不能直接等同。公司名称及录用结果均未由此证实。"
+          },
+          {
+            "type": "原实习职责自述",
+            "url": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28",
+            "quote": "负责完成执行节点模块和go-sdk的研发",
+            "interpretation": "不能将公司项目所有模块均归为作者个人负责，也不能将 go-sdk 自动算作当前公开仓库已有实现。"
+          }
+        ],
+        "outcome": "未证实。关联资料 README 和项目经历介绍中未找到本人获得 SSP 的明确表述；不得由项目质量推导招聘档位。",
+        "source_findings": [
+          {
+            "finding": "围绕任务散落、执行状态不透明和失败排查成本构建集中管理平台，有可解释的业务动机；后端采用 Go、Gin、Gorm、MySQL、Etcd、Viper、Zap。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L16-L24",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L88-L92",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L39"
+            ],
+            "boundary": "未验证生产用户、吞吐量、故障恢复时延或业务收益。不要把 README 功能表当成性能验收记录。"
+          },
+          {
+            "finding": "执行节点通过 Etcd Grant、KeepAlive 和带租约 Put 注册；管理端监听节点删除事件，执行任务重新分配。该项目存在实际服务注册和故障转移代码。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L28-L78",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L48-L69",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308"
+            ],
+            "boundary": "有实现不等于已证明网络分区、管理端多实例和进程崩溃下的执行语义。"
+          },
+          {
+            "finding": "AutoAllocateNode 遍历活节点、读取任务数量并选择任务数最少者；加权轮询和平滑加权轮询列在 README 的 TODO 中。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go#L117-L143",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L135-L137",
+              "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L9-L28"
+            ],
+            "boundary": "实习经历中的 Coa RPC、加权轮询和 go-sdk 是公司项目描述；当前个人仓库不能据此宣称已实现这些能力。作者明确说明重写与原版不同，不能据差异指控经历虚假。"
+          },
+          {
+            "finding": "管理端先 Get 节点快照并处理结果，之后才启动不带 WithRev 的 Watch；setNodeList 内还包含启动等待和任务分配。执行端同样先 loadJobs，再启动 WatchJobs，后者也未携带快照 revision。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L37-L49",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L108-L154",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L142-L165",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L214-L216"
+            ],
+            "inference": "快照读取完成到 Watch 生效之间存在需验证的事件遗漏窗口，适合改造成从快照 revision+1 续接、处理 compaction 并进行周期校准。",
+            "verification_status": "静态发现，未通过并发故障注入复现。"
+          },
+          {
+            "finding": "assignJob 先将新节点任务写入 Etcd，再更新 MySQL；FailOver 完成新分配后才删除旧节点任务键。所读流程为多个分步操作。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L245-L267",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go#L270-L308"
+            ],
+            "inference": "需要验证中途失败后的 Etcd/MySQL 一致性、双节点短暂持有同一任务以及多管理端并发迁移；不能只用管理服务多实例和负载均衡证明高可用。",
+            "verification_status": "未声称全仓不存在其他补偿；未做生产或运行时验证。"
+          },
+          {
+            "finding": "keepAlive 收到 nil 后记录日志并返回；节点 Cron 的停止在 NodeServer.Stop 路径中。所读租约续期函数未显示断租后主动停止调度、重建租约或重新注册。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go#L60-L72",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L110-L123"
+            ],
+            "verification_status": "未复现；作为后续项目正确性实验，不能称已验证故障。"
+          },
+          {
+            "finding": "CreateJob 包含重试次数、重试间隔、成功/失败日志写入与失败通知的代码；RunWithRecovery 是另一条手动运行路径，不宜把两者的重试语义直接视为相同。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L77-L100",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/job.go#L137-L209",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go#L119-L134"
+            ]
+          },
+          {
+            "finding": "固定源码树发现 5 个 *_test.go；已读的命令测试依赖本地脚本，HTTP 相关测试依赖 localhost 服务，主要检查 error 并记录输出。所读测试没有证明故障转移、断租或快照/Watch 一致性。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_cmd_test.go#L9-L34",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go#L9-L33",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/httpclient/http_client_test.go#L9-L17"
+            ],
+            "boundary": "文件数不能证明项目从未做过其他测试。未发现固定源码树中的常见 GitHub Actions / GitLab CI / Jenkins 配置入口，未运行现有测试。"
+          },
+          {
+            "finding": "README 链接 robfig/cron，但 go.mod 与执行节点代码实际引用 jakecoffman/cron；该固定版本声明 Go 1.16，Etcd 依赖为 3.3.9+incompatible。",
+            "sources": [
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/README.md#L92",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod#L3-L16",
+              "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/node.go#L3-L18"
+            ],
+            "boundary": "技术栈应按实际源码记录；未做漏洞扫描，不据版本号单独宣称漏洞或不可用。重新开发应单独验证依赖兼容性。"
+          }
+        ],
+        "strengths": [
+          "从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。",
+          "代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。",
+          "作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。"
+        ],
+        "limitations": [
+          "不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。",
+          "不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。",
+          "不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。",
+          "不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。"
+        ],
+        "recommended_use": "沿任务创建、注册、分配、执行、重试和迁移做代码走读；对照文档与实现在何处一致、何处仍是TODO。此项只用于信息调研和工程比较，个人项目设计暂缓。",
+        "license_notes": {
+          "spdx_id": "MIT",
+          "status": "已阅读固定 commit 根 LICENSE，并与 GitHub 仓库元数据核对。",
+          "url": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/LICENSE#L1-L13",
+          "copyright": "Copyright (c) 2022 tmnhs",
+          "redistribution_condition": "复制或分发软件副本及实质部分时须保留版权和许可声明。",
+          "boundary": "该 MIT 核查仅针对 Crony 仓库；关联资料仓库 go-interview-resume 的 API 未返回许可证，不能将 Crony 的 MIT 授权延伸到该资料仓库的全文或简历模板。"
+        },
+        "archive_status": "固定9文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+        "confidence": "B：本人归属自述、许可证及关键源码已读；招聘结果与运行效果未核实",
+        "taxonomy": {
+          "track": "后端",
+          "recruitment": "不适用",
+          "experience_date_text": "非招聘事件；源码或原文版本日期另列",
+          "date_precision": "不适用",
+          "year_confirmed": false,
+          "recent_status": "不适用",
+          "date_basis": "不以技术文档/仓库日期替代个人求职时间",
+          "source_date_text": "2023-06-03T11:22:54Z"
+        },
+        "reading": {
+          "scope": "部分",
+          "fulltext": false,
+          "scope_note": "按原卡具体核读范围；不视为项目已运行或全部源码逐行核读",
+          "video_watched": false
+        },
+        "outcomes": [],
+        "comparison": {
+          "id": "PRO18",
+          "title": "Crony：Go分布式定时任务工程参考，未证作者SSP",
+          "repo": "tmnhs/Crony",
+          "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+          "commit": "00df3df90306811332d0aff66a259cf90ad6954f",
+          "source_nature": [
+            "本人求职项目",
+            "非SSP工程参考"
+          ],
+          "candidate_relationships": [
+            {
+              "candidate_id": null,
+              "author": "tmnhs",
+              "relationship_type": "直接点名",
+              "direct_evidence_URLs": [
+                "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22",
+                "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+                "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28"
+              ],
+              "finding": "作者说个人仓由未具名公司实习项目重新实现，且与公司原版有差别；未加入已获目标岗位候选人计数。",
+              "event_time_boundary": "实习年份未知；资料固定版本2024-03-16不是实习时间",
+              "snapshot_boundary": "个人仓固定2023-06-03，不等于公司生产代码",
+              "offer_causality": "公司与SSP档位均未确认"
+            }
+          ],
+          "backend_dimensions": {
+            "业务闭环": {
+              "status": "源码可见",
+              "finding": "任务创建、注册、分配、执行、日志、重试和迁移有对应源码路径。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go",
+              "read_paths": [
+                "admin/internal/service/job.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "一致性": {
+              "status": "静态风险",
+              "finding": "assignJob先Etcd后MySQL，FailOver新分配后删旧键，多步失败窗口需验证。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go",
+              "read_paths": [
+                "admin/internal/service/node.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "并发": {
+              "status": "静态风险",
+              "finding": "先Get再不带revision的Watch有待验证窗口；续租断开后本路径未见停止/重注册。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go",
+              "read_paths": [
+                "common/pkg/etcdclient/registry.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "缓存MQ": {
+              "status": "源码可见",
+              "finding": "Etcd租约/Watch是协调机制；不能用它替代业务执行幂等。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go",
+              "read_paths": [
+                "node/internal/service/watcher.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "测试": {
+              "status": "未核",
+              "finding": "已读依赖本机脚本/localhost的测试；没有本次断租、双执行与快照续接验证。",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go",
+              "read_paths": [
+                "node/internal/handler/handler_http_test.go"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "可运行材料": {
+              "status": "文档宣称",
+              "finding": "固定9文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+              "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod",
+              "read_paths": [
+                "go.mod"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "个人贡献": {
+              "status": "文档宣称",
+              "finding": "作者明确个人仓是实习项目重写；只自述原公司负责执行节点/go-sdk，不是全平台。",
+              "source_URL": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+              "read_paths": [
+                "项目经历介绍.md（关联资料仓）"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            }
+          },
+          "agent_dimensions": {
+            "真实任务": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "状态工具": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "恢复": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "权限": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "评测基线": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "成本延迟": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "超API封装证据": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "个人贡献": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            }
+          },
+          "backend_priority": {
+            "level": "精读",
+            "reason": "Go方向精读注册、任务分配与失败迁移，特别对照公司描述与个人重写的边界。",
+            "read_modules": [
+              "README.md",
+              "go.mod",
+              "common/pkg/etcdclient/registry.go",
+              "admin/internal/service/node.go"
+            ]
+          },
+          "agent_priority": {
+            "level": "选读",
+            "reason": "仅作为Agent长任务调度/重试的后端参照；本身不是Agent或SSP成功者项目。",
+            "read_modules": [
+              "README.md",
+              "go.mod",
+              "common/pkg/etcdclient/registry.go",
+              "admin/internal/service/node.go"
+            ]
+          },
+          "evidence_completeness": "本人归属、关键源码与MIT已核；公司名称/录用档位未知，未归档整仓配置。",
+          "target_applicability": "Go后端实习相关，但年份/公司未核，不能计近期大厂成功实习。",
+          "attachment": {
+            "status": "固定源码选读派生ZIP已归档",
+            "archive_file": "Crony_固定源码选读.zip",
+            "exists": true,
+            "reason": "固定9文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+            "archive_sha256": "cb4deff1ffd0b6a07c42a4e2f55851227ba6a963ee15386e5e3a0cc730e468d6",
+            "source_manifest": "08_证据索引与统计/Crony_选读归档补齐.json",
+            "source_file_count": 9,
+            "selection_only": true,
+            "runtime_verified": false
+          },
+          "read_paths": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go",
+            "admin/internal/service/job.go",
+            "node/internal/service/node.go",
+            "node/internal/handler/job.go",
+            "node/internal/service/watcher.go",
+            "node/internal/handler/handler_cmd_test.go",
+            "node/internal/handler/handler_http_test.go",
+            "common/pkg/httpclient/http_client_test.go"
+          ],
+          "strengths": [
+            "从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。",
+            "代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。",
+            "作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。"
+          ],
+          "limitations": [
+            "不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。",
+            "不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。",
+            "不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。",
+            "不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。"
+          ],
+          "commercial_background": "未核商业关系；不据此推定独立录用效果。",
+          "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+          "source_nature_boundary": "实习项目的个人重新实现，非公司原版；作者未具名实习公司，未证SSP，不计已获目标岗位候选人。",
+          "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+        },
+        "backend_priority": {
+          "level": "精读",
+          "reason": "Go方向精读注册、任务分配与失败迁移，特别对照公司描述与个人重写的边界。",
+          "read_modules": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "仅作为Agent长任务调度/重试的后端参照；本身不是Agent或SSP成功者项目。",
+          "read_modules": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go"
+          ]
+        },
+        "attachment_status": {
+          "status": "固定源码选读派生ZIP已归档",
+          "archive_file": "Crony_固定源码选读.zip",
+          "exists": true,
+          "reason": "固定9文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+          "archive_sha256": "cb4deff1ffd0b6a07c42a4e2f55851227ba6a963ee15386e5e3a0cc730e468d6",
+          "source_manifest": "08_证据索引与统计/Crony_选读归档补齐.json",
+          "source_file_count": 9,
+          "selection_only": true,
+          "runtime_verified": false
+        },
+        "source_archive": true,
+        "source_selection_manifest": "08_证据索引与统计/Crony_选读归档补齐.json"
+      },
+      "comparison_before": {
+        "id": "PRO18",
+        "title": "Crony：Go分布式定时任务工程参考，未证作者SSP",
+        "repo": "tmnhs/Crony",
+        "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+        "commit": "00df3df90306811332d0aff66a259cf90ad6954f",
+        "source_nature": [
+          "本人求职项目",
+          "非SSP工程参考"
+        ],
+        "candidate_relationships": [
+          {
+            "candidate_id": null,
+            "author": "tmnhs",
+            "relationship_type": "直接点名",
+            "direct_evidence_URLs": [
+              "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22",
+              "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+              "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28"
+            ],
+            "finding": "作者说个人仓由未具名公司实习项目重新实现，且与公司原版有差别；未加入已获目标岗位候选人计数。",
+            "event_time_boundary": "实习年份未知；资料固定版本2024-03-16不是实习时间",
+            "snapshot_boundary": "个人仓固定2023-06-03，不等于公司生产代码",
+            "offer_causality": "公司与SSP档位均未确认"
+          }
+        ],
+        "backend_dimensions": {
+          "业务闭环": {
+            "status": "源码可见",
+            "finding": "任务创建、注册、分配、执行、日志、重试和迁移有对应源码路径。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go",
+            "read_paths": [
+              "admin/internal/service/job.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "一致性": {
+            "status": "静态风险",
+            "finding": "assignJob先Etcd后MySQL，FailOver新分配后删旧键，多步失败窗口需验证。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go",
+            "read_paths": [
+              "admin/internal/service/node.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "并发": {
+            "status": "静态风险",
+            "finding": "先Get再不带revision的Watch有待验证窗口；续租断开后本路径未见停止/重注册。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go",
+            "read_paths": [
+              "common/pkg/etcdclient/registry.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "缓存MQ": {
+            "status": "源码可见",
+            "finding": "Etcd租约/Watch是协调机制；不能用它替代业务执行幂等。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go",
+            "read_paths": [
+              "node/internal/service/watcher.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "测试": {
+            "status": "未核",
+            "finding": "已读依赖本机脚本/localhost的测试；没有本次断租、双执行与快照续接验证。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go",
+            "read_paths": [
+              "node/internal/handler/handler_http_test.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "可运行材料": {
+            "status": "文档宣称",
+            "finding": "仅固定源码入口；Go1.16/Etcd3.3.9组合与README cron依赖差异需核，未运行。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod",
+            "read_paths": [
+              "go.mod"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "个人贡献": {
+            "status": "文档宣称",
+            "finding": "作者明确个人仓是实习项目重写；只自述原公司负责执行节点/go-sdk，不是全平台。",
+            "source_URL": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+            "read_paths": [
+              "项目经历介绍.md（关联资料仓）"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          }
+        },
+        "agent_dimensions": {
+          "真实任务": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "状态工具": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "恢复": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "权限": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "评测基线": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "成本延迟": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "超API封装证据": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "个人贡献": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          }
+        },
+        "backend_priority": {
+          "level": "精读",
+          "reason": "Go方向精读注册、任务分配与失败迁移，特别对照公司描述与个人重写的边界。",
+          "read_modules": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "仅作为Agent长任务调度/重试的后端参照；本身不是Agent或SSP成功者项目。",
+          "read_modules": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go"
+          ]
+        },
+        "evidence_completeness": "本人归属、关键源码与MIT已核；公司名称/录用档位未知，未归档整仓配置。",
+        "target_applicability": "Go后端实习相关，但年份/公司未核，不能计近期大厂成功实习。",
+        "attachment": {
+          "status": "固定源码链接材料",
+          "archive_file": null,
+          "exists": false,
+          "reason": {
+            "status": "未新增ZIP，仅提供固定源码入口",
+            "reason": "整仓含未逐文件筛选的配置，未原样复制进交付包；MIT条款已读但不延伸到关联履历资料仓库",
+            "project_executed": false
+          },
+          "source_manifest": "08_证据索引与统计/project_recommendations.json",
+          "runtime_verified": false
+        },
+        "read_paths": [
+          "README.md",
+          "go.mod",
+          "common/pkg/etcdclient/registry.go",
+          "admin/internal/service/node.go",
+          "admin/internal/service/job.go",
+          "node/internal/service/node.go",
+          "node/internal/handler/job.go",
+          "node/internal/service/watcher.go",
+          "node/internal/handler/handler_cmd_test.go",
+          "node/internal/handler/handler_http_test.go",
+          "common/pkg/httpclient/http_client_test.go"
+        ],
+        "strengths": [
+          "从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。",
+          "代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。",
+          "作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。"
+        ],
+        "limitations": [
+          "不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。",
+          "不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。",
+          "不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。",
+          "不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。"
+        ],
+        "commercial_background": "未核商业关系；不据此推定独立录用效果。",
+        "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+        "source_nature_boundary": "实习项目的个人重新实现，非公司原版；作者未具名实习公司，未证SSP，不计已获目标岗位候选人。",
+        "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+      },
+      "comparison_after": {
+        "id": "PRO18",
+        "title": "Crony：Go分布式定时任务工程参考，未证作者SSP",
+        "repo": "tmnhs/Crony",
+        "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+        "commit": "00df3df90306811332d0aff66a259cf90ad6954f",
+        "source_nature": [
+          "本人求职项目",
+          "非SSP工程参考"
+        ],
+        "candidate_relationships": [
+          {
+            "candidate_id": null,
+            "author": "tmnhs",
+            "relationship_type": "直接点名",
+            "direct_evidence_URLs": [
+              "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md#L22",
+              "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+              "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L28"
+            ],
+            "finding": "作者说个人仓由未具名公司实习项目重新实现，且与公司原版有差别；未加入已获目标岗位候选人计数。",
+            "event_time_boundary": "实习年份未知；资料固定版本2024-03-16不是实习时间",
+            "snapshot_boundary": "个人仓固定2023-06-03，不等于公司生产代码",
+            "offer_causality": "公司与SSP档位均未确认"
+          }
+        ],
+        "backend_dimensions": {
+          "业务闭环": {
+            "status": "源码可见",
+            "finding": "任务创建、注册、分配、执行、日志、重试和迁移有对应源码路径。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/job.go",
+            "read_paths": [
+              "admin/internal/service/job.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "一致性": {
+            "status": "静态风险",
+            "finding": "assignJob先Etcd后MySQL，FailOver新分配后删旧键，多步失败窗口需验证。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/admin/internal/service/node.go",
+            "read_paths": [
+              "admin/internal/service/node.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "并发": {
+            "status": "静态风险",
+            "finding": "先Get再不带revision的Watch有待验证窗口；续租断开后本路径未见停止/重注册。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/common/pkg/etcdclient/registry.go",
+            "read_paths": [
+              "common/pkg/etcdclient/registry.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "缓存MQ": {
+            "status": "源码可见",
+            "finding": "Etcd租约/Watch是协调机制；不能用它替代业务执行幂等。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/service/watcher.go",
+            "read_paths": [
+              "node/internal/service/watcher.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "测试": {
+            "status": "未核",
+            "finding": "已读依赖本机脚本/localhost的测试；没有本次断租、双执行与快照续接验证。",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/node/internal/handler/handler_http_test.go",
+            "read_paths": [
+              "node/internal/handler/handler_http_test.go"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "可运行材料": {
+            "status": "文档宣称",
+            "finding": "固定9文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+            "source_URL": "https://github.com/tmnhs/Crony/blob/00df3df90306811332d0aff66a259cf90ad6954f/go.mod",
+            "read_paths": [
+              "go.mod"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "个人贡献": {
+            "status": "文档宣称",
+            "finding": "作者明确个人仓是实习项目重写；只自述原公司负责执行节点/go-sdk，不是全平台。",
+            "source_URL": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md#L3",
+            "read_paths": [
+              "项目经历介绍.md（关联资料仓）"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          }
+        },
+        "agent_dimensions": {
+          "真实任务": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "状态工具": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "恢复": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "权限": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "评测基线": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "成本延迟": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "超API封装证据": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "个人贡献": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/tmnhs/Crony/tree/00df3df90306811332d0aff66a259cf90ad6954f",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          }
+        },
+        "backend_priority": {
+          "level": "精读",
+          "reason": "Go方向精读注册、任务分配与失败迁移，特别对照公司描述与个人重写的边界。",
+          "read_modules": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go"
+          ]
+        },
+        "agent_priority": {
+          "level": "选读",
+          "reason": "仅作为Agent长任务调度/重试的后端参照；本身不是Agent或SSP成功者项目。",
+          "read_modules": [
+            "README.md",
+            "go.mod",
+            "common/pkg/etcdclient/registry.go",
+            "admin/internal/service/node.go"
+          ]
+        },
+        "evidence_completeness": "本人归属、关键源码与MIT已核；公司名称/录用档位未知，未归档整仓配置。",
+        "target_applicability": "Go后端实习相关，但年份/公司未核，不能计近期大厂成功实习。",
+        "attachment": {
+          "status": "固定源码选读派生ZIP已归档",
+          "archive_file": "Crony_固定源码选读.zip",
+          "exists": true,
+          "reason": "固定9文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+          "archive_sha256": "cb4deff1ffd0b6a07c42a4e2f55851227ba6a963ee15386e5e3a0cc730e468d6",
+          "source_manifest": "08_证据索引与统计/Crony_选读归档补齐.json",
+          "source_file_count": 9,
+          "selection_only": true,
+          "runtime_verified": false
+        },
+        "read_paths": [
+          "README.md",
+          "go.mod",
+          "common/pkg/etcdclient/registry.go",
+          "admin/internal/service/node.go",
+          "admin/internal/service/job.go",
+          "node/internal/service/node.go",
+          "node/internal/handler/job.go",
+          "node/internal/service/watcher.go",
+          "node/internal/handler/handler_cmd_test.go",
+          "node/internal/handler/handler_http_test.go",
+          "common/pkg/httpclient/http_client_test.go"
+        ],
+        "strengths": [
+          "从真实的运维和执行状态管理痛点出发，范围可讲清，有服务注册、调度分配、执行反馈与故障迁移的完整后端链路。",
+          "代码规模可阅读，适合沿一次任务创建、触发、重试、迁移追踪 MySQL、Etcd 和执行节点的职责。",
+          "作者同时提供实习项目介绍与个人改写，适合学习如何讲明业务背景、个人职责和技术取舍，同时保持版本边界。"
+        ],
+        "limitations": [
+          "不是 SSP 成功案例、正式完整简历或 Agent 工程；不能用于补齐这些证据缺口。",
+          "不可将公司经历示例里的 Coa、go-sdk、加权轮询照抄到个人仓库的已完成能力中。",
+          "不要用可启动、页面可操作或多节点三个表象替代正确性、故障恢复和执行副作用的验证。",
+          "不要把作者对 gocron/cronsun 的个人选型评价转述为已核实的客观结论。"
+        ],
+        "commercial_background": "未核商业关系；不据此推定独立录用效果。",
+        "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+        "source_nature_boundary": "实习项目的个人重新实现，非公司原版；作者未具名实习公司，未证SSP，不计已获目标岗位候选人。",
+        "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+      },
+      "source_manifest": "Crony_选读归档补齐.json",
+      "source_files": 9,
+      "zip_sha256": "cb4deff1ffd0b6a07c42a4e2f55851227ba6a963ee15386e5e3a0cc730e468d6"
+    },
+    {
+      "id": "PRO19",
+      "before": {
+        "id": "PRO19",
+        "title": "SchoolBus：本人面经直接关联的预约项目，附v1代码局限",
+        "url": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+        "author": "DreamCats；团队与第三方框架边界见README",
+        "commit": "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+        "category": "项目参考",
+        "retrieved_at": "2026-10-23",
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "MyBatis",
+          "Dubbo",
+          "MySQL",
+          "Redis",
+          "RocketMQ",
+          "JWT/SSO",
+          "Sentinel"
+        ],
+        "project_relationship": "CV21/INT66本人字节和京东面经直接提微服务班车，根目录直接署项目来源；不是只凭同账号配项目",
+        "outcome": "作者京东offer、字节意向书；SSP未证，不以项目质量推导档位",
+        "source_findings": [
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md#L214",
+            "finding": "README给出求职简历写法与四服务范围；同文说明在Guns4.2基础开发，前端另链他人仓库"
+          },
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L203",
+            "finding": "v1实际存在下单、过期键设置和异常补偿消息发送，能和面经问题对照"
+          }
+        ],
+        "strengths": [
+          "业务主线和文档较具体，同一项目在不同公司面经中反复被深挖",
+          "源码含多版本，可比较描述、实现与贡献边界；不把框架及团队全部算个人原创"
+        ],
+        "static_risks": [
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L273",
+            "finding": "v1补偿消息发送失败后只打印异常；所读路径未见持久化待补偿记录或恢复流程。进程崩溃和失败重发需另验证。"
+          },
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java#L52",
+            "finding": "去重判断、业务执行、写入Redis标记为三个步骤，不能只凭缓存判断就证明并发消费幂等。"
+          },
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L52",
+            "finding": "单例服务中tag是可变成员，下单中反复赋值；并发请求存在覆盖补偿标签的静态风险，未做并发复现。"
+          },
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/rd/RedisKeyExpirationListener.java#L39",
+            "finding": "v1监听过期键并发起关闭订单；只读这个入口不能证明断线恢复、通知遗漏补偿或与支付竞态已处理。"
+          }
+        ],
+        "recommended_use": "把本人被问过的业务点对应到实现，再检查失败处理和一致性声明；适合信息调研中的项目取舍分析，个人项目设计继续暂缓。",
+        "limitations": [
+          "以上仅固定提交school-bus/下v1路径的静态观察；同仓另有school-bus-cloud版本，不把局部风险泛化为全版本结论",
+          "只读README、相关文档和三个Java文件关键段；未构建、压测或运行第三方代码",
+          "高性能、高可用是作者描述，未验证指标；不是SSP案例背书"
+        ],
+        "license_notes": "固定源码树未发现名为LICENSE/COPYING的文件，尚未确认整库再分发授权；Guns等第三方组件须分别遵循许可，不据公开可读推定整仓授权。",
+        "archive_status": "未新增源码ZIP；保留固定源码入口与原创分析",
+        "confidence": "B：归属与具体代码可核；运行效果、许可和SSP未闭环",
+        "taxonomy": {
+          "track": "后端",
+          "recruitment": "不适用",
+          "experience_date_text": "非招聘事件；源码或原文版本日期另列",
+          "date_precision": "不适用",
+          "year_confirmed": false,
+          "recent_status": "不适用",
+          "date_basis": "不以技术文档/仓库日期替代个人求职时间",
+          "source_date_text": "未核"
+        },
+        "reading": {
+          "scope": "部分",
+          "fulltext": false,
+          "scope_note": "按原卡具体核读范围；不视为项目已运行或全部源码逐行核读",
+          "video_watched": false
+        },
+        "outcomes": [],
+        "comparison": {
+          "id": "PRO19",
+          "title": "SchoolBus：本人面经直接关联的预约项目，附v1代码局限",
+          "repo": "DreamCats/school-bus",
+          "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+          "commit": "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+          "source_nature": [
+            "本人求职项目",
+            "团队平台"
+          ],
+          "candidate_relationships": [
+            {
+              "candidate_id": "CV21",
+              "relationship_type": "直接点名",
+              "direct_evidence_URLs": [
+                "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+                "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md#L27",
+                "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+                "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E4%BA%AC%E4%B8%9C.md#L2"
+              ],
+              "finding": "本人字节和京东面经直接提班车项目，根README标明作者与项目；京东offer、字节意向书分开。",
+              "event_time_boundary": "面经只标7—8月；年份未确认。资料仓固定提交2024-12-02，不当面试年份",
+              "snapshot_boundary": "固定源码提交为日期未标；不自动等同求职当时版本",
+              "offer_causality": "录用仍为自述；未证明项目独立导致录用或SSP"
+            }
+          ],
+          "backend_dimensions": {
+            "业务闭环": {
+              "status": "源码可见",
+              "finding": "用户、班车、订单、支付四服务文档及v1下单代码与本人面经直接对应。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+              "read_paths": [
+                "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "一致性": {
+              "status": "静态风险",
+              "finding": "所读v1补偿消息失败只打印，过期通知关闭与支付竞态/恢复未证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+              "read_paths": [
+                "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "并发": {
+              "status": "静态风险",
+              "finding": "单例OrderService的可变tag用于补偿分支，有并发覆盖静态风险，未复现。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+              "read_paths": [
+                "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "缓存MQ": {
+              "status": "静态风险",
+              "finding": "取消消费按查标记→业务→写标记三步，不能凭缓存检查证明并发幂等。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+              "read_paths": [
+                "school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "测试": {
+              "status": "未核",
+              "finding": "只读README/文档和三个Java文件关键段；未核完整测试策略或执行。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+              "read_paths": [
+                "README.md"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "可运行材料": {
+              "status": "未核",
+              "finding": "仅固定源码链接；未确认整仓再分发许可，未构建；另有cloud版本不混算。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+              "read_paths": [
+                "README.md"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "个人贡献": {
+              "status": "文档宣称",
+              "finding": "本人面经直接问班车；README披露Guns4.2基础和他人前端，个人全量范围未证。",
+              "source_URL": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+              "read_paths": [],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            }
+          },
+          "agent_dimensions": {
+            "真实任务": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "状态工具": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "恢复": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "权限": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "评测基线": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "成本延迟": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "超API封装证据": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "个人贡献": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            }
+          },
+          "backend_priority": {
+            "level": "精读",
+            "reason": "最适合面经→实现→局限的对照；先看本人字节/京东追问，再读v1补偿和取消。",
+            "read_modules": [
+              "README.md",
+              "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+            ]
+          },
+          "agent_priority": {
+            "level": "非本方向",
+            "reason": "预约微服务不是Agent；可补任务状态与失败窗口基础。",
+            "read_modules": []
+          },
+          "evidence_completeness": "本人项目/面经/源码直接关联强；年份、SSP、许可与运行仍未知，意向书不算正式offer。",
+          "target_applicability": "Java后端项目深挖相关；局部v1风险不能泛化到cloud或全仓。",
+          "attachment": {
+            "status": "固定源码链接材料",
+            "archive_file": null,
+            "exists": false,
+            "reason": "未新增源码ZIP；保留固定源码入口与原创分析",
+            "source_manifest": "08_证据索引与统计/project_recommendations.json",
+            "runtime_verified": false
+          },
+          "read_paths": [
+            "README.md",
+            "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+          ],
+          "strengths": [
+            "业务主线和文档较具体，同一项目在不同公司面经中反复被深挖",
+            "源码含多版本，可比较描述、实现与贡献边界；不把框架及团队全部算个人原创"
+          ],
+          "limitations": [
+            "以上仅固定提交school-bus/下v1路径的静态观察；同仓另有school-bus-cloud版本，不把局部风险泛化为全版本结论",
+            "只读README、相关文档和三个Java文件关键段；未构建、压测或运行第三方代码",
+            "高性能、高可用是作者描述，未验证指标；不是SSP案例背书"
+          ],
+          "commercial_background": "未核商业关系；不据此推定独立录用效果。",
+          "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+          "source_nature_boundary": "本人原文直接点名或链接项目，源码归属关系强于主题关联；个人修改和第三方复用边界仍按各卡说明，非全仓从零原创证明。",
+          "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+        },
+        "backend_priority": {
+          "level": "精读",
+          "reason": "最适合面经→实现→局限的对照；先看本人字节/京东追问，再读v1补偿和取消。",
+          "read_modules": [
+            "README.md",
+            "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+          ]
+        },
+        "agent_priority": {
+          "level": "非本方向",
+          "reason": "预约微服务不是Agent；可补任务状态与失败窗口基础。",
+          "read_modules": []
+        },
+        "attachment_status": {
+          "status": "固定源码链接材料",
+          "archive_file": null,
+          "exists": false,
+          "reason": "未新增源码ZIP；保留固定源码入口与原创分析",
+          "source_manifest": "08_证据索引与统计/project_recommendations.json",
+          "runtime_verified": false
+        }
+      },
+      "after": {
+        "id": "PRO19",
+        "title": "SchoolBus：本人面经直接关联的预约项目，附v1代码局限",
+        "url": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+        "author": "DreamCats；团队与第三方框架边界见README",
+        "commit": "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+        "category": "项目参考",
+        "retrieved_at": "2026-10-23",
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "MyBatis",
+          "Dubbo",
+          "MySQL",
+          "Redis",
+          "RocketMQ",
+          "JWT/SSO",
+          "Sentinel"
+        ],
+        "project_relationship": "CV21/INT66本人字节和京东面经直接提微服务班车，根目录直接署项目来源；不是只凭同账号配项目",
+        "outcome": "作者京东offer、字节意向书；SSP未证，不以项目质量推导档位",
+        "source_findings": [
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md#L214",
+            "finding": "README给出求职简历写法与四服务范围；同文说明在Guns4.2基础开发，前端另链他人仓库"
+          },
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L203",
+            "finding": "v1实际存在下单、过期键设置和异常补偿消息发送，能和面经问题对照"
+          }
+        ],
+        "strengths": [
+          "业务主线和文档较具体，同一项目在不同公司面经中反复被深挖",
+          "源码含多版本，可比较描述、实现与贡献边界；不把框架及团队全部算个人原创"
+        ],
+        "static_risks": [
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L273",
+            "finding": "v1补偿消息发送失败后只打印异常；所读路径未见持久化待补偿记录或恢复流程。进程崩溃和失败重发需另验证。"
+          },
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java#L52",
+            "finding": "去重判断、业务执行、写入Redis标记为三个步骤，不能只凭缓存判断就证明并发消费幂等。"
+          },
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java#L52",
+            "finding": "单例服务中tag是可变成员，下单中反复赋值；并发请求存在覆盖补偿标签的静态风险，未做并发复现。"
+          },
+          {
+            "url": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/rd/RedisKeyExpirationListener.java#L39",
+            "finding": "v1监听过期键并发起关闭订单；只读这个入口不能证明断线恢复、通知遗漏补偿或与支付竞态已处理。"
+          }
+        ],
+        "recommended_use": "把本人被问过的业务点对应到实现，再检查失败处理和一致性声明；适合信息调研中的项目取舍分析，个人项目设计继续暂缓。",
+        "limitations": [
+          "以上仅固定提交school-bus/下v1路径的静态观察；同仓另有school-bus-cloud版本，不把局部风险泛化为全版本结论",
+          "只读README、相关文档和三个Java文件关键段；未构建、压测或运行第三方代码",
+          "高性能、高可用是作者描述，未验证指标；不是SSP案例背书"
+        ],
+        "license_notes": "固定源码树未发现名为LICENSE/COPYING的文件，尚未确认整库再分发授权；Guns等第三方组件须分别遵循许可，不据公开可读推定整仓授权。",
+        "archive_status": "固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+        "confidence": "B：归属与具体代码可核；运行效果、许可和SSP未闭环",
+        "taxonomy": {
+          "track": "后端",
+          "recruitment": "不适用",
+          "experience_date_text": "非招聘事件；源码或原文版本日期另列",
+          "date_precision": "不适用",
+          "year_confirmed": false,
+          "recent_status": "不适用",
+          "date_basis": "不以技术文档/仓库日期替代个人求职时间",
+          "source_date_text": "未核"
+        },
+        "reading": {
+          "scope": "部分",
+          "fulltext": false,
+          "scope_note": "按原卡具体核读范围；不视为项目已运行或全部源码逐行核读",
+          "video_watched": false
+        },
+        "outcomes": [],
+        "comparison": {
+          "id": "PRO19",
+          "title": "SchoolBus：本人面经直接关联的预约项目，附v1代码局限",
+          "repo": "DreamCats/school-bus",
+          "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+          "commit": "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+          "source_nature": [
+            "本人求职项目",
+            "团队平台"
+          ],
+          "candidate_relationships": [
+            {
+              "candidate_id": "CV21",
+              "relationship_type": "直接点名",
+              "direct_evidence_URLs": [
+                "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+                "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md#L27",
+                "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+                "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E4%BA%AC%E4%B8%9C.md#L2"
+              ],
+              "finding": "本人字节和京东面经直接提班车项目，根README标明作者与项目；京东offer、字节意向书分开。",
+              "event_time_boundary": "面经只标7—8月；年份未确认。资料仓固定提交2024-12-02，不当面试年份",
+              "snapshot_boundary": "固定源码提交为日期未标；不自动等同求职当时版本",
+              "offer_causality": "录用仍为自述；未证明项目独立导致录用或SSP"
+            }
+          ],
+          "backend_dimensions": {
+            "业务闭环": {
+              "status": "源码可见",
+              "finding": "用户、班车、订单、支付四服务文档及v1下单代码与本人面经直接对应。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+              "read_paths": [
+                "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "一致性": {
+              "status": "静态风险",
+              "finding": "所读v1补偿消息失败只打印，过期通知关闭与支付竞态/恢复未证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+              "read_paths": [
+                "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "并发": {
+              "status": "静态风险",
+              "finding": "单例OrderService的可变tag用于补偿分支，有并发覆盖静态风险，未复现。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+              "read_paths": [
+                "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "缓存MQ": {
+              "status": "静态风险",
+              "finding": "取消消费按查标记→业务→写标记三步，不能凭缓存检查证明并发幂等。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+              "read_paths": [
+                "school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "测试": {
+              "status": "未核",
+              "finding": "只读README/文档和三个Java文件关键段；未核完整测试策略或执行。",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+              "read_paths": [
+                "README.md"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "可运行材料": {
+              "status": "未核",
+              "finding": "固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+              "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+              "read_paths": [
+                "README.md"
+              ],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            },
+            "个人贡献": {
+              "status": "文档宣称",
+              "finding": "本人面经直接问班车；README披露Guns4.2基础和他人前端，个人全量范围未证。",
+              "source_URL": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+              "read_paths": [],
+              "read_scope": "关键实现或文档静态核对；未运行"
+            }
+          },
+          "agent_dimensions": {
+            "真实任务": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "状态工具": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "恢复": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "权限": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "评测基线": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "成本延迟": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "超API封装证据": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            },
+            "个人贡献": {
+              "status": "不适用",
+              "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+              "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+              "read_paths": [],
+              "read_scope": "见项目既有记录；未扩大为全仓审计"
+            }
+          },
+          "backend_priority": {
+            "level": "精读",
+            "reason": "最适合面经→实现→局限的对照；先看本人字节/京东追问，再读v1补偿和取消。",
+            "read_modules": [
+              "README.md",
+              "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+            ]
+          },
+          "agent_priority": {
+            "level": "非本方向",
+            "reason": "预约微服务不是Agent；可补任务状态与失败窗口基础。",
+            "read_modules": []
+          },
+          "evidence_completeness": "本人项目/面经/源码直接关联强；年份、SSP、许可与运行仍未知，意向书不算正式offer。",
+          "target_applicability": "Java后端项目深挖相关；局部v1风险不能泛化到cloud或全仓。",
+          "attachment": {
+            "status": "固定源码选读派生ZIP已归档",
+            "archive_file": "SchoolBus_固定源码选读.zip",
+            "exists": true,
+            "reason": "固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+            "archive_sha256": "e096546d2d8faa17f616d1da263c2764629578bcf79910ca486b95c1a0475a5c",
+            "source_manifest": "08_证据索引与统计/项目选读归档补齐.json",
+            "source_file_count": 4,
+            "selection_only": true,
+            "runtime_verified": false
+          },
+          "read_paths": [
+            "README.md",
+            "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+          ],
+          "strengths": [
+            "业务主线和文档较具体，同一项目在不同公司面经中反复被深挖",
+            "源码含多版本，可比较描述、实现与贡献边界；不把框架及团队全部算个人原创"
+          ],
+          "limitations": [
+            "以上仅固定提交school-bus/下v1路径的静态观察；同仓另有school-bus-cloud版本，不把局部风险泛化为全版本结论",
+            "只读README、相关文档和三个Java文件关键段；未构建、压测或运行第三方代码",
+            "高性能、高可用是作者描述，未验证指标；不是SSP案例背书"
+          ],
+          "commercial_background": "未核商业关系；不据此推定独立录用效果。",
+          "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+          "source_nature_boundary": "本人原文直接点名或链接项目，源码归属关系强于主题关联；个人修改和第三方复用边界仍按各卡说明，非全仓从零原创证明。",
+          "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+        },
+        "backend_priority": {
+          "level": "精读",
+          "reason": "最适合面经→实现→局限的对照；先看本人字节/京东追问，再读v1补偿和取消。",
+          "read_modules": [
+            "README.md",
+            "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+          ]
+        },
+        "agent_priority": {
+          "level": "非本方向",
+          "reason": "预约微服务不是Agent；可补任务状态与失败窗口基础。",
+          "read_modules": []
+        },
+        "attachment_status": {
+          "status": "固定源码选读派生ZIP已归档",
+          "archive_file": "SchoolBus_固定源码选读.zip",
+          "exists": true,
+          "reason": "固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+          "archive_sha256": "e096546d2d8faa17f616d1da263c2764629578bcf79910ca486b95c1a0475a5c",
+          "source_manifest": "08_证据索引与统计/项目选读归档补齐.json",
+          "source_file_count": 4,
+          "selection_only": true,
+          "runtime_verified": false
+        },
+        "source_archive": true,
+        "source_selection_manifest": "08_证据索引与统计/项目选读归档补齐.json"
+      },
+      "comparison_before": {
+        "id": "PRO19",
+        "title": "SchoolBus：本人面经直接关联的预约项目，附v1代码局限",
+        "repo": "DreamCats/school-bus",
+        "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+        "commit": "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+        "source_nature": [
+          "本人求职项目",
+          "团队平台"
+        ],
+        "candidate_relationships": [
+          {
+            "candidate_id": "CV21",
+            "relationship_type": "直接点名",
+            "direct_evidence_URLs": [
+              "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+              "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md#L27",
+              "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+              "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E4%BA%AC%E4%B8%9C.md#L2"
+            ],
+            "finding": "本人字节和京东面经直接提班车项目，根README标明作者与项目；京东offer、字节意向书分开。",
+            "event_time_boundary": "面经只标7—8月；年份未确认。资料仓固定提交2024-12-02，不当面试年份",
+            "snapshot_boundary": "固定源码提交为日期未标；不自动等同求职当时版本",
+            "offer_causality": "录用仍为自述；未证明项目独立导致录用或SSP"
+          }
+        ],
+        "backend_dimensions": {
+          "业务闭环": {
+            "status": "源码可见",
+            "finding": "用户、班车、订单、支付四服务文档及v1下单代码与本人面经直接对应。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+            "read_paths": [
+              "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "一致性": {
+            "status": "静态风险",
+            "finding": "所读v1补偿消息失败只打印，过期通知关闭与支付竞态/恢复未证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+            "read_paths": [
+              "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "并发": {
+            "status": "静态风险",
+            "finding": "单例OrderService的可变tag用于补偿分支，有并发覆盖静态风险，未复现。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+            "read_paths": [
+              "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "缓存MQ": {
+            "status": "静态风险",
+            "finding": "取消消费按查标记→业务→写标记三步，不能凭缓存检查证明并发幂等。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+            "read_paths": [
+              "school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "测试": {
+            "status": "未核",
+            "finding": "只读README/文档和三个Java文件关键段；未核完整测试策略或执行。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "可运行材料": {
+            "status": "未核",
+            "finding": "仅固定源码链接；未确认整仓再分发许可，未构建；另有cloud版本不混算。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "个人贡献": {
+            "status": "文档宣称",
+            "finding": "本人面经直接问班车；README披露Guns4.2基础和他人前端，个人全量范围未证。",
+            "source_URL": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+            "read_paths": [],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          }
+        },
+        "agent_dimensions": {
+          "真实任务": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "状态工具": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "恢复": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "权限": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "评测基线": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "成本延迟": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "超API封装证据": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "个人贡献": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          }
+        },
+        "backend_priority": {
+          "level": "精读",
+          "reason": "最适合面经→实现→局限的对照；先看本人字节/京东追问，再读v1补偿和取消。",
+          "read_modules": [
+            "README.md",
+            "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+          ]
+        },
+        "agent_priority": {
+          "level": "非本方向",
+          "reason": "预约微服务不是Agent；可补任务状态与失败窗口基础。",
+          "read_modules": []
+        },
+        "evidence_completeness": "本人项目/面经/源码直接关联强；年份、SSP、许可与运行仍未知，意向书不算正式offer。",
+        "target_applicability": "Java后端项目深挖相关；局部v1风险不能泛化到cloud或全仓。",
+        "attachment": {
+          "status": "固定源码链接材料",
+          "archive_file": null,
+          "exists": false,
+          "reason": "未新增源码ZIP；保留固定源码入口与原创分析",
+          "source_manifest": "08_证据索引与统计/project_recommendations.json",
+          "runtime_verified": false
+        },
+        "read_paths": [
+          "README.md",
+          "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+        ],
+        "strengths": [
+          "业务主线和文档较具体，同一项目在不同公司面经中反复被深挖",
+          "源码含多版本，可比较描述、实现与贡献边界；不把框架及团队全部算个人原创"
+        ],
+        "limitations": [
+          "以上仅固定提交school-bus/下v1路径的静态观察；同仓另有school-bus-cloud版本，不把局部风险泛化为全版本结论",
+          "只读README、相关文档和三个Java文件关键段；未构建、压测或运行第三方代码",
+          "高性能、高可用是作者描述，未验证指标；不是SSP案例背书"
+        ],
+        "commercial_background": "未核商业关系；不据此推定独立录用效果。",
+        "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+        "source_nature_boundary": "本人原文直接点名或链接项目，源码归属关系强于主题关联；个人修改和第三方复用边界仍按各卡说明，非全仓从零原创证明。",
+        "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+      },
+      "comparison_after": {
+        "id": "PRO19",
+        "title": "SchoolBus：本人面经直接关联的预约项目，附v1代码局限",
+        "repo": "DreamCats/school-bus",
+        "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+        "commit": "fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+        "source_nature": [
+          "本人求职项目",
+          "团队平台"
+        ],
+        "candidate_relationships": [
+          {
+            "candidate_id": "CV21",
+            "relationship_type": "直接点名",
+            "direct_evidence_URLs": [
+              "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+              "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md#L27",
+              "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+              "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E4%BA%AC%E4%B8%9C.md#L2"
+            ],
+            "finding": "本人字节和京东面经直接提班车项目，根README标明作者与项目；京东offer、字节意向书分开。",
+            "event_time_boundary": "面经只标7—8月；年份未确认。资料仓固定提交2024-12-02，不当面试年份",
+            "snapshot_boundary": "固定源码提交为日期未标；不自动等同求职当时版本",
+            "offer_causality": "录用仍为自述；未证明项目独立导致录用或SSP"
+          }
+        ],
+        "backend_dimensions": {
+          "业务闭环": {
+            "status": "源码可见",
+            "finding": "用户、班车、订单、支付四服务文档及v1下单代码与本人面经直接对应。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+            "read_paths": [
+              "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "一致性": {
+            "status": "静态风险",
+            "finding": "所读v1补偿消息失败只打印，过期通知关闭与支付竞态/恢复未证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+            "read_paths": [
+              "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "并发": {
+            "status": "静态风险",
+            "finding": "单例OrderService的可变tag用于补偿分支，有并发覆盖静态风险，未复现。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java",
+            "read_paths": [
+              "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "缓存MQ": {
+            "status": "静态风险",
+            "finding": "取消消费按查标记→业务→写标记三步，不能凭缓存检查证明并发幂等。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java",
+            "read_paths": [
+              "school-bus/guns-bus/src/main/java/com/stylefeng/guns/rest/modular/bus/mq/OrderSeatsCancleListener.java"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "测试": {
+            "status": "未核",
+            "finding": "只读README/文档和三个Java文件关键段；未核完整测试策略或执行。",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "可运行材料": {
+            "status": "未核",
+            "finding": "固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+            "source_URL": "https://github.com/DreamCats/school-bus/blob/fc50ea8b19f99b4b15b2012048ea4651d896dd94/README.md",
+            "read_paths": [
+              "README.md"
+            ],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          },
+          "个人贡献": {
+            "status": "文档宣称",
+            "finding": "本人面经直接问班车；README披露Guns4.2基础和他人前端，个人全量范围未证。",
+            "source_URL": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md#L24",
+            "read_paths": [],
+            "read_scope": "关键实现或文档静态核对；未运行"
+          }
+        },
+        "agent_dimensions": {
+          "真实任务": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "状态工具": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "恢复": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "权限": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "评测基线": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "成本延迟": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "超API封装证据": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          },
+          "个人贡献": {
+            "status": "不适用",
+            "finding": "本次材料是后端/系统项目，未核自主Agent任务循环；此项不纳入Agent能力证明。",
+            "source_URL": "https://github.com/DreamCats/school-bus/tree/fc50ea8b19f99b4b15b2012048ea4651d896dd94",
+            "read_paths": [],
+            "read_scope": "见项目既有记录；未扩大为全仓审计"
+          }
+        },
+        "backend_priority": {
+          "level": "精读",
+          "reason": "最适合面经→实现→局限的对照；先看本人字节/京东追问，再读v1补偿和取消。",
+          "read_modules": [
+            "README.md",
+            "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+          ]
+        },
+        "agent_priority": {
+          "level": "非本方向",
+          "reason": "预约微服务不是Agent；可补任务状态与失败窗口基础。",
+          "read_modules": []
+        },
+        "evidence_completeness": "本人项目/面经/源码直接关联强；年份、SSP、许可与运行仍未知，意向书不算正式offer。",
+        "target_applicability": "Java后端项目深挖相关；局部v1风险不能泛化到cloud或全仓。",
+        "attachment": {
+          "status": "固定源码选读派生ZIP已归档",
+          "archive_file": "SchoolBus_固定源码选读.zip",
+          "exists": true,
+          "reason": "固定4文件源码选读派生ZIP；保留原路径并附来源/hash，非完整或可构建仓库；未运行",
+          "archive_sha256": "e096546d2d8faa17f616d1da263c2764629578bcf79910ca486b95c1a0475a5c",
+          "source_manifest": "08_证据索引与统计/项目选读归档补齐.json",
+          "source_file_count": 4,
+          "selection_only": true,
+          "runtime_verified": false
+        },
+        "read_paths": [
+          "README.md",
+          "school-bus/guns-order/src/main/java/com/stylefeng/guns/rest/modular/order/OrderServiceImpl.java"
+        ],
+        "strengths": [
+          "业务主线和文档较具体，同一项目在不同公司面经中反复被深挖",
+          "源码含多版本，可比较描述、实现与贡献边界；不把框架及团队全部算个人原创"
+        ],
+        "limitations": [
+          "以上仅固定提交school-bus/下v1路径的静态观察；同仓另有school-bus-cloud版本，不把局部风险泛化为全版本结论",
+          "只读README、相关文档和三个Java文件关键段；未构建、压测或运行第三方代码",
+          "高性能、高可用是作者描述，未验证指标；不是SSP案例背书"
+        ],
+        "commercial_background": "未核商业关系；不据此推定独立录用效果。",
+        "run_status": "所有结论来自公开文档和指定实现/测试的静态阅读；未运行第三方项目、测试、模型或benchmark，不认证成熟度。",
+        "source_nature_boundary": "本人原文直接点名或链接项目，源码归属关系强于主题关联；个人修改和第三方复用边界仍按各卡说明，非全仓从零原创证明。",
+        "priority_interpretation": "精读指定模块或文档，用于比较实现、取舍与失败材料；不要求复刻，不代表实测成熟度或公司录用标准。"
+      },
+      "source_manifest": "项目选读归档补齐.json",
+      "source_files": 4,
+      "zip_sha256": "e096546d2d8faa17f616d1da263c2764629578bcf79910ca486b95c1a0475a5c"
+    }
+  ],
+  "scope": "仅PRO13/18/19附件、可运行材料范围和来源清单；录用、归属、风险和推荐依据不变。"
+}

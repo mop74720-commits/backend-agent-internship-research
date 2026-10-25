@@ -1,0 +1,42 @@
+{
+  "scope": "最新4份PDF独立脱敏核验；HTML专业模块及hash另见目标执行交付校验",
+  "files": [
+    {
+      "key": "gty111",
+      "file": "03_简历与候选人案例/履历对照_脱敏副本/gty111_公开简历_脱敏副本.pdf",
+      "pages": 2,
+      "sha256_match": true,
+      "contact_matches": 0,
+      "annotations": 0,
+      "nonformat_metadata_fields_after": []
+    },
+    {
+      "key": "Zhongzhi660",
+      "file": "03_简历与候选人案例/履历对照_脱敏副本/Zhongzhi660_公开简历_脱敏副本.pdf",
+      "pages": 2,
+      "sha256_match": true,
+      "contact_matches": 0,
+      "annotations": 0,
+      "nonformat_metadata_fields_after": []
+    },
+    {
+      "key": "Zhang-Henry",
+      "file": "03_简历与候选人案例/履历对照_脱敏副本/Zhang-Henry_公开简历_脱敏副本.pdf",
+      "pages": 2,
+      "sha256_match": true,
+      "contact_matches": 0,
+      "annotations": 0,
+      "nonformat_metadata_fields_after": []
+    },
+    {
+      "key": "huomalxq",
+      "file": "03_简历与候选人案例/核心Agent履历_脱敏副本/huomalxq_公开简历_脱敏副本.pdf",
+      "pages": 1,
+      "sha256_match": true,
+      "contact_matches": 0,
+      "annotations": 0,
+      "nonformat_metadata_fields_after": []
+    }
+  ],
+  "passed": true
+}

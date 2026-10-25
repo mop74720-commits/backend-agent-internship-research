@@ -1,0 +1,166 @@
+INT07 | 美团后端暑期实习面经
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/3187ad5588394e108f96db0eb9e82bcf
+事件时间／原文日期（依分类）：
+  05-14、05-16面试，年份未由当前原记录正文单独确认
+方向与岗位：
+  后端暑期实习
+公司：
+  美团
+结果自述：
+  发帖时等待结果
+涉及主题：
+  - 项目深挖/个人贡献
+  - 系统设计/取舍
+  - 消息队列/一致性
+  - 编程语言/并发
+  - 算法/编程
+  - AI编码
+原文提问（归纳）：
+  - 为什么用MQ而非同步HTTP或数据库传文件？
+  - 本人承担什么任务、提出过什么改进？
+  - 已有项目还能怎样利用AI，尝试落地过什么工具？
+内容归纳：
+  项目技术的选择理由与个人贡献比单列框架重要；第二轮涉及AI探索，但并非只招Agent专岗。
+原访问范围：
+  正文可读
+证据边界：
+  B：第一人称自述
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  面试与项目自测参考
+统计组：
+  明确实习面经
+role_boundary：
+  依role字段限定
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    05-14、05-16面试，年份未由当前原记录正文单独确认
+  时间精度：
+    仅月日
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    2025-05-19发布
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    正文可读
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      美团
+    档位：
+      未披露
+    状态：
+      unknown
+    证据：
+      https://www.nowcoder.com/feed/main/detail/3187ad5588394e108f96db0eb9e82bcf
+    依据：
+      发帖时等待结果
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-05-19发布
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  是
+结果分类：
+  unknown
+related_record_ids：
+  —
+fulltext_verified：
+  是
+latest_time_and_question_review：
+  record_id：
+    INT07
+  标题：
+    美团后端暑期实习面经
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/3187ad5588394e108f96db0eb9e82bcf
+  统一分类：
+    方向：
+      后端
+    招聘类型：
+      实习
+    event_year：
+      未核／无
+    事件年份可证：
+      否
+  作者：
+    display_name：
+      猫头鹰会带着霍格沃茨offer来找我
+    public_profile：
+      https://www.nowcoder.com/users/244132112
+    identity_scope：
+      公开账号，不保存联系方式
+  navigation_evidence：
+    profile_link：
+      https://www.nowcoder.com/users/244132112
+    direct_post_link：
+      https://www.nowcoder.com/feed/main/detail/3187ad5588394e108f96db0eb9e82bcf?sourceSSR=users
+    method：
+      公开 requests HTML 中 a[href] 与正文节点；主页显示发布(1)，直接列出同 UUID。
+    已读部分：
+      原帖正文全文此前及本分支前段可读，主页只读该帖与导航；网页工具后续访问可能返回 4 行空壳。
+  time_evidence：
+    explicit_events：
+      - 4.25 投递
+      - 5.10 笔试
+      - 5.14 一面
+      - 5.16 二面
+    publication：
+      2025-05-19发布（已有主记录，未据此推事件年）
+    conclusion：
+      全文流程只有月日；同作者主页未提供明确年份的求职汇总。其他帖的同作者评论时间不能替代该场面试年。
+  project_followup：
+    recorded_questions：
+      - 文件传输为何采用 MQ，是否考虑同步 HTTP 或数据库方式
+      - 说明本人承担的任务和改进，而非只列项目名称
+      - 已有项目能如何引入 AI，实际试过什么
+    capabilities：
+      - 跨服务通信取舍
+      - 个人贡献边界
+      - 基于现有项目解释 AI 应用
+    project_ownership_limit：
+      正文称仅第一个是 Java 项目，另有视觉/三维项目；没有直接代码仓库，不补个人源码关系。
+    answer_scope：
+      只有问题与简要回忆，不能据此认为作者实现了全部被问能力。
+  result：
+    状态：
+      unknown
+    依据：
+      原帖发文时仍在等结果
+    ssp：
+      未披露
+  recommended_update：
+    保留年份未知与原结果，仅可补全投递、笔试和两轮月日。

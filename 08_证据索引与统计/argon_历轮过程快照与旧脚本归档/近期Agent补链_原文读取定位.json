@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "records": [
+    {
+      "url": "https://www.nowcoder.com/discuss/869996102093701120?sourceSSR=users",
+      "status": 200,
+      "chars": 6701,
+      "hash": "9e31080af94118b618b32b99b53ff248ce5cf7bff0b9dedd0782d9002a19ee15",
+      "time": [
+        "04-04 17:33"
+      ]
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/33e2209965c44c6e86a27ecb9e01f9b1?sourceSSR=users",
+      "status": 200,
+      "chars": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "time": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1P6tN6bEps/",
+      "status": 412,
+      "chars": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "time": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/petergyang/behind-the-craft-transcripts/main/transcripts/2026/159-5-rules-for-building-ai-agents-that-work-in-production-nan-yu-jacob-shumway.md",
+      "status": 200,
+      "chars": 47447,
+      "hash": "797758b28016f6378e21aea99a0202799ed42505119448e858a262a09e5394a7",
+      "time": []
+    }
+  ]
+}

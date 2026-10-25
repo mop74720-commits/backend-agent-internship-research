@@ -1,0 +1,284 @@
+{
+  "scope": "2026-10-24外部调研合并：页面分类、搜索、关联、来源边界与PDF同步；未运行第三方项目",
+  "checks": [
+    {
+      "name": "当前主卡239与数据一致",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 候选人资料",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 官方技术资料",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 本人项目文档",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 观点范围对照",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 面经复盘",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 招聘JD",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 候选人对照",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 履历对照材料",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 B站与知乎",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 专业原文补充",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 项目参考",
+      "passed": true
+    },
+    {
+      "name": "类别筛选 检索导航",
+      "passed": true
+    },
+    {
+      "name": "明确实习64份",
+      "passed": true
+    },
+    {
+      "name": "严格近期15份",
+      "passed": true
+    },
+    {
+      "name": "严格近期工程14与Infra1明确分列",
+      "passed": true
+    },
+    {
+      "name": "源码16原包和9派生包分列",
+      "passed": true
+    },
+    {
+      "name": "平台正文5视频0未膨胀",
+      "passed": true
+    },
+    {
+      "name": "新增INT102可搜索",
+      "passed": true
+    },
+    {
+      "name": "展开搜索结果",
+      "passed": true
+    },
+    {
+      "name": "收起资料卡",
+      "passed": true
+    },
+    {
+      "name": "新增候选人锚点能清筛选并展开",
+      "passed": true
+    },
+    {
+      "name": "实习offer与Agent SSP未拼接",
+      "passed": true
+    },
+    {
+      "name": "候选人34份四段关联齐全",
+      "passed": true
+    },
+    {
+      "name": "25项目与375项比较完整",
+      "passed": true
+    },
+    {
+      "name": "工程JD分层已更新24份",
+      "passed": true
+    },
+    {
+      "name": "核心完整脱敏履历保持5",
+      "passed": true
+    },
+    {
+      "name": "研究Infra三份履历另列",
+      "passed": true
+    },
+    {
+      "name": "新面经INT106仅算法对照",
+      "passed": true
+    },
+    {
+      "name": "教学示范数字与真实项目分开",
+      "passed": true
+    },
+    {
+      "name": "外部增补入口包含14JD与20面经",
+      "passed": true
+    },
+    {
+      "name": "未增加完整CV或项目分母",
+      "passed": true
+    },
+    {
+      "name": "原目录保留与设计暂缓说明明确",
+      "passed": true
+    },
+    {
+      "name": "新增补页入口存在",
+      "passed": true
+    },
+    {
+      "name": "PDF下载入口存在",
+      "passed": true
+    },
+    {
+      "name": "主报告桌面无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "同名主报告与index统计一致",
+      "passed": true
+    },
+    {
+      "name": "主报告手机无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "64外部卡映射无遗漏",
+      "passed": true
+    },
+    {
+      "name": "处理筛选 new",
+      "passed": true
+    },
+    {
+      "name": "处理筛选 reuse",
+      "passed": true
+    },
+    {
+      "name": "处理筛选 manual",
+      "passed": true
+    },
+    {
+      "name": "处理筛选 commercial",
+      "passed": true
+    },
+    {
+      "name": "处理筛选 restricted",
+      "passed": true
+    },
+    {
+      "name": "LangGraph P04未误标受限",
+      "passed": true
+    },
+    {
+      "name": "增补映射搜索新目标ID",
+      "passed": true
+    },
+    {
+      "name": "补页明确46新增13复用4手动1商业",
+      "passed": true
+    },
+    {
+      "name": "新增文档含LangGraph中断与幂等判断",
+      "passed": true
+    },
+    {
+      "name": "增补页未套历史快照横幅",
+      "passed": true
+    },
+    {
+      "name": "增补页桌面无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "增补页手机无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "待核清单74与主统计一致",
+      "passed": true
+    },
+    {
+      "name": "已读INT102同步手动清单当前状态",
+      "passed": true
+    },
+    {
+      "name": "待核搜索仍可用",
+      "passed": true
+    },
+    {
+      "name": "待核页手机无溢出",
+      "passed": true
+    },
+    {
+      "name": "全过程无JS错误",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "增补页手机表格保持可读列宽并容器内滚动",
+      "passed": true,
+      "detail": [
+        {
+          "container": 328,
+          "table": 940,
+          "minWidth": "940px"
+        },
+        {
+          "container": 328,
+          "table": 940,
+          "minWidth": "940px"
+        },
+        {
+          "container": 328,
+          "table": 940,
+          "minWidth": "940px"
+        },
+        {
+          "container": 328,
+          "table": 940,
+          "minWidth": "940px"
+        },
+        {
+          "container": 328,
+          "table": 940,
+          "minWidth": "940px"
+        }
+      ]
+    },
+    {
+      "name": "表格横向滚动未造成整页溢出",
+      "passed": true
+    },
+    {
+      "name": "增补页打印解除屏幕表格最小宽度",
+      "passed": true,
+      "detail": [
+        "0px",
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ]
+    },
+    {
+      "name": "补页移动修复后无JS错误",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "pdf_exported": true,
+  "pdf_sha256": "ec69a536f2851f110dd64d67b27584c214eea528a5294d17baf17a7a0e4d5a2f"
+}

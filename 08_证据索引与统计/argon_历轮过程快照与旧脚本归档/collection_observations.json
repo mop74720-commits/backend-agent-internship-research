@@ -1,0 +1,38 @@
+[
+  {
+    "id": "OBS01",
+    "title": "有Agent工程组件但投递暂无回应：候选人项目对照样本",
+    "url": "https://www.nowcoder.com/feed/main/detail/7aad8197e68c42cfb120ad22a5a91735",
+    "date": "页面05-26；未明确年份，不用搜索抓取年份替代发布日期",
+    "role": "Agent实习求职；未获约面自述，非成功者简历",
+    "outcome": "作者当时自述投递没有回应；不代表最终求职结果",
+    "material_type": "第一人称求助正文与公开GitHub项目入口；不是完整简历",
+    "stack": ["Java/Spring Boot", "Python", "LangGraph/LangChain", "RAG/rerank", "记忆", "人工审批", "幂等/重试/trace"],
+    "source_project_links": ["https://github.com/AA-G-AA", "https://github.com/AA-G-AA/muti-agent-subagent", "https://github.com/AA-G-AA/langchain-rag-query-rewrite"],
+    "summary": "作者列举多Agent日程与邮件、检索重写与重排、持久化记忆等实践，同时自述细节掌握不足及投递未获回应。GitHub主页可对应前两个项目名称；具体贡献及效果未运行核验。",
+    "recommendation": "适合作为组件广度与求职结果之间不能直接画等号的对照；进一步阅读时检查任务结果、测试与个人贡献，不能仅据此断言项目导致投递失败。",
+    "limits": ["没有独立核验投递结果", "没有完整简历", "学校、投递时机、岗位选择等混杂因素未知", "不将评论者建议升级为招聘标准", "仓库未完成许可与固定版本核查，仅保留入口，不打包源码"],
+    "access_level": "牛客原文正文及GitHub主页可读；项目README部分可读，未运行",
+    "evidence_type": "候选人对照自述，非录用成功证据",
+    "retrieved_at": "2026-10-23",
+    "category": "候选人对照"
+  },
+  {
+    "id": "OBS02",
+    "title": "28届后端候选人的Java Agent仓库：可追溯项目关系对照",
+    "url": "https://www.nowcoder.com/feed/main/detail/5ac89619c6274601a639c4a83b21c62d?sourceSSR=dynamic",
+    "date": "页面06-10编辑；未明示年份，评论时间与编辑时间分开看待",
+    "role": "后端/Agent实习准备；28届自述",
+    "outcome": "自述刚结束小厂实习、准备投中大厂；未公布后续结果或SSP",
+    "material_type": "公开求助正文，作者显式链接自己的项目；非成功者完整简历",
+    "stack": ["Java", "Spring AI", "Agent", "MCP"],
+    "source_project_links": ["https://github.com/OWWZO/ai-agent"],
+    "summary": "原帖直接把简历首个项目关联到OWWZO/ai-agent，并说明参考OpenManus。当前仓库含API、应用、领域、基础设施等模块，可作Java Agent工程组织的阅读线索；当前版本不能代表发帖时版本。",
+    "recommendation": "项目关系比无来源的推荐清楚，可对照OpenManus观察语言迁移与模块划分；没有公开大厂录用结果，不能称其为成功者项目。",
+    "limits": ["牛客正文没有完整技术指标", "未核查作者每条提交或贡献归属", "当前仓库与求职时版本不同", "GitHub页面未显示明确许可证，未取得可再分发依据，不归档源码", "没有部署或独立效果评测"],
+    "access_level": "牛客正文与GitHub目录/README可读；未运行源码",
+    "evidence_type": "候选人项目关系线索，非录用效果证明",
+    "retrieved_at": "2026-10-23",
+    "category": "候选人对照"
+  }
+]

@@ -1,0 +1,235 @@
+INT106 | 2025春招实习面经汇总 已接阿里offer
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/discuss/736868736837173248?sourceSSR=dynamic
+公司：
+  阿里控股/淘天/美团/快手/蚂蚁等
+方向与岗位：
+  阿里/美团/快手/蚂蚁/百度等；AI Infra与C++平台研发；实习
+事件时间／原文日期（依分类）：
+  2025春招，02月至04月多公司流程
+发表／来源日期：
+  编辑于  2025-04-17 14:17
+统一分类：
+  方向：
+    算法对照
+  招聘类型：
+    实习
+  事件时间：
+    2025春招，02月至04月多公司流程
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    编辑于  2025-04-17 14:17
+  时间依据：
+    原始作者标题明确2025春招实习，正文按同一轮流程给2月至4月时间线；不根据编辑年或毕业届别补年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+统计组：
+  明确事件年实习
+结果分类：
+  multiple_outcomes_self_report
+结果自述：
+  自述美团04-01正式offer、淘天04-07 offer、快手HR阶段拒绝offer、阿里控股意向；各结果分别保留，均未披露SSP
+逐项结果与档位：
+  - 公司：
+      阿里控股/淘天/美团/快手/蚂蚁等
+    方向与岗位：
+      阿里/美团/快手/蚂蚁/百度等；AI Infra与C++平台研发；实习
+    档位：
+      未披露
+    状态：
+      multiple_outcomes_self_report
+    事件时间／原文日期（依分类）：
+      2025春招，02月至04月多公司流程
+    证据：
+      https://ac.nowcoder.com/discuss/1482822
+    依据：
+      自述美团04-01正式offer、淘天04-07 offer、快手HR阶段拒绝offer、阿里控股意向；各结果分别保留，均未披露SSP
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      多公司多轮，合并一篇；作者自述阿里、美团等offer
+    questions：
+      - 算子优化如何检测提升，怎样排除GPU精度算力差异？
+      - TRT-LLM、vLLM和SGLang的加速手段与PagedAttention怎样比较？
+      - 连续批处理和Prefix Cache按什么维度切分，依据是什么？
+      - 量化和算子优化最终数值是什么，有哪些测量条件？
+      - GPU内存管理和流量调度怎样设计，指标冲突如何取舍？
+      - CUDA手写Softmax2D、All-Reduce及伪代码MHA。
+    结果自述：
+      自述美团04-01正式offer、淘天04-07 offer、快手HR阶段拒绝offer、阿里控股意向；各结果分别保留，均未披露SSP
+涉及主题：
+  - 算法/编程
+  - 操作系统
+  - 分布式/一致性
+  - 项目深挖/个人贡献
+  - 评测/指标
+  - 模型运行/推理
+  - 模型训练资源
+原文提问（归纳）：
+  - 算子优化如何检测提升，怎样排除GPU精度算力差异？
+  - TRT-LLM、vLLM和SGLang的加速手段与PagedAttention怎样比较？
+  - 连续批处理和Prefix Cache按什么维度切分，依据是什么？
+  - 量化和算子优化最终数值是什么，有哪些测量条件？
+  - GPU内存管理和流量调度怎样设计，指标冲突如何取舍？
+  - CUDA手写Softmax2D、All-Reduce及伪代码MHA。
+内容归纳：
+  集中于CUDA、量化、算子与推理调度，并要求说明优化数值和方法；属于AI Infra补充对照。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  用于判断是否真想转AI Infra；不要把这些要求全塞进应用Agent学习路线。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - AI Infra补充对照，不纳应用Agent题目主样本；正文的CUDA时延等技术断言未经本任务独立验证，不当技术结论。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I25
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    2025春招实习面经汇总 已接阿里offer
+  原始来源：
+    https://www.nowcoder.com/discuss/736868736837173248?sourceSSR=dynamic
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1482822
+  canonical_post_key：
+    discuss/1482822
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    21b6b39bc12a7066bc1e688e001107bde21c943a3d102402b645fb66ecc8502d
+  body_char_count：
+    3837
+  source_card_path：
+    03_面经/I25.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    编辑于  2025-04-17 14:17
+  source_date_verified：
+    是
+  方向：
+    AI Infra对照
+  招聘类型：
+    实习
+  event_date：
+    2025春招，02月至04月多公司流程
+  event_year_confirmed：
+    是
+  event_year：
+    2025
+  时间依据：
+    原始作者标题明确2025春招实习，正文按同一轮流程给2月至4月时间线；不根据编辑年或毕业届别补年。
+  questions：
+    - 算子优化如何检测提升，怎样排除GPU精度算力差异？
+    - TRT-LLM、vLLM和SGLang的加速手段与PagedAttention怎样比较？
+    - 连续批处理和Prefix Cache按什么维度切分，依据是什么？
+    - 量化和算子优化最终数值是什么，有哪些测量条件？
+    - GPU内存管理和流量调度怎样设计，指标冲突如何取舍？
+    - CUDA手写Softmax2D、All-Reduce及伪代码MHA。
+  涉及主题：
+    - 算法/编程
+    - 操作系统
+    - 分布式/一致性
+    - 项目深挖/个人贡献
+    - 评测/指标
+    - 模型运行/推理
+    - 模型训练资源
+  结果分类：
+    multiple_outcomes_self_report
+  result：
+    自述美团04-01正式offer、淘天04-07 offer、快手HR阶段拒绝offer、阿里控股意向；各结果分别保留，均未披露SSP
+  档位：
+    未披露
+  公司：
+    阿里控股/淘天/美团/快手/蚂蚁等
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    个人方向：C++ 开发 + AI Infra…这次基本只投了 AI Infra 相关的岗。
+  阅读建议：
+    用于判断是否真想转AI Infra；不要把这些要求全塞进应用Agent学习路线。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - AI Infra补充对照，不纳应用Agent题目主样本；正文的CUDA时延等技术断言未经本任务独立验证，不当技术结论。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  author_profile：
+    https://www.nowcoder.com/profile/232463743
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP06
+    - CAP11
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    未核／无
+source_key：
+  ASTRA_I25_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I25
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

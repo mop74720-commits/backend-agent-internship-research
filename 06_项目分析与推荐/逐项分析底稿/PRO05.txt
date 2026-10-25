@@ -1,0 +1,124 @@
+PRO05 | DeerFlow：长任务运行与隔离参考
+
+需求核对版 · 2026-10-24
+
+仓库：
+  bytedance/deer-flow
+原始来源：
+  https://github.com/bytedance/deer-flow
+方向与岗位：
+  Agent工程
+阅读建议：
+  进阶拆读，聚焦状态恢复、隔离和任务观测
+技术栈：
+  - Python
+  - LangGraph
+  - Agent harness
+  - Sandbox
+  - Checkpoint
+  - Tools
+值得学习之处：
+  - 长任务、工具、子Agent与工作区形成执行系统
+  - 固定版本可见鉴权中间件、检查点保留策略及对应测试
+局限与静态风险：
+  - 系统庞大，读完或部署成功不等于个人实现
+  - 多Agent、沙箱与会话隔离带来额外运维成本
+  - 字节开源并不意味着照做就符合字节录用标准
+borrow：
+  任务状态生命周期、隔离边界、恢复与审计的设计思路。
+extend：
+  只实现单领域任务执行器，对进程中断、重复提交、超时、权限变更做故障注入；有证据再增加子Agent。
+已定位阅读路径：
+  - backend/app/gateway/auth_middleware.py
+  - backend/app/gateway/checkpoint_retention.py
+  - backend/docs/checkpoint-retention-contract.md
+  - backend/tests/test_checkpoint_retention_contract.py
+interview_questions：
+  - 恢复到检查点后会不会重复执行外部动作？
+  - 同一线程并发执行如何隔离？
+  - 如何证明子Agent的收益超过成本？
+商业与选择偏差：
+  组织开源项目，有自身生态定位；仍需独立评估。
+取得源码ZIP：
+  是
+固定源码提交：
+  7a32a5e17735084b3e2bcb599d8ec6e531e6adae
+源码提交时间：
+  2026-10-23T08:51:36Z
+许可标识：
+  MIT
+源码包文件：
+  bytedance__deer-flow__7a32a5e17735.zip
+源码包SHA-256：
+  b67092550b95a322e1601b5993fba6915d9c368852386f4d0774fb89904fbaa1
+inspection_boundary：
+  检查点保留契约文档仍标DRAFT；实现和测试存在，但本轮没有执行测试。
+类别：
+  项目参考
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-10-23T08:51:36Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    针对异步任务/持久化服务进阶阅读，常规实习先读范围更集中的项目。
+  指定模块：
+    - backend/app/gateway/auth_middleware.py
+    - backend/app/gateway/checkpoint_retention.py
+    - backend/docs/checkpoint-retention-contract.md
+    - backend/tests/test_checkpoint_retention_contract.py
+Agent方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    先读检查点恢复契约和鉴权，再按需要读运行系统；平台范围较大。
+  指定模块：
+    - backend/app/gateway/auth_middleware.py
+    - backend/app/gateway/checkpoint_retention.py
+    - backend/docs/checkpoint-retention-contract.md
+    - backend/tests/test_checkpoint_retention_contract.py
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    bytedance__deer-flow__7a32a5e17735.zip
+  固定源码提交：
+    7a32a5e17735084b3e2bcb599d8ec6e531e6adae
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

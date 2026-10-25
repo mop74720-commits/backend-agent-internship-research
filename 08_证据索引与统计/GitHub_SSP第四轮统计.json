@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-23",
+  "scope": "第四轮继续搜集，不保证穷尽",
+  "new_candidates": 2,
+  "new_historical_guest_ssp_self_report": 1,
+  "new_non_ssp_project_interview_case": 1,
+  "new_interview_records": 7,
+  "new_project_analysis": 1,
+  "new_source_archives": 0,
+  "manual_access_links_new": 10,
+  "manual_access_links_total": 21,
+  "totals": {
+    "candidate_cases": 21,
+    "interview_material_records": 63,
+    "project_analysis": 19,
+    "source_archives": 16,
+    "logical_evidence_records": 144
+  },
+  "category_counts": {
+    "招聘JD": 19,
+    "候选人资料": 21,
+    "面经复盘": 63,
+    "B站与知乎": 7,
+    "项目参考": 19,
+    "官方技术资料": 10,
+    "候选人对照": 4,
+    "检索导航": 1
+  },
+  "boundary": "本轮仅新增1位历史署名来稿中的SSP自述；不是新核实的近期Agent SSP完整链。失败面经、意向书、普通offer和SSP分别标注，未保证检索穷尽。",
+  "method": "第四轮转向GitHub署名来稿、个人面经目录、固定源码与Agent原帖追源；实际并行代理执行服务失败后由根代理接手。联网搜索连接器一次返回空错误，随后使用公开requests GET。未付费、未联系作者、未运行第三方项目。"
+}

@@ -1,0 +1,228 @@
+PRO12 | OpenManus：紧凑 Agent循环、工具调用与沙箱边界对照
+
+需求核对版 · 2026-10-24
+
+仓库：
+  FoundationAgents/OpenManus
+原始来源：
+  https://github.com/FoundationAgents/OpenManus
+方向与岗位：
+  Python通用Agent／执行与沙箱参考
+阅读建议：
+  适合与 AgentScope 对照阅读，理解较小实现的取舍；不宜只运行演示就当成熟业务 Agent。
+技术栈：
+  - Python 3.12（README）
+  - Pydantic
+  - OpenAI兼容模型接口
+  - 异步工具调用
+  - MCP
+  - browser-use／BrowserGym／Playwright
+  - Docker沙箱
+  - pytest／pytest-asyncio
+值得学习之处：
+  - BaseAgent、ToolCallAgent、Manus、工具集合和 sandbox 文件边界清楚，较容易沿一个任务读完整循环。
+  - BaseAgent 有最大步数和重复输出检测；工具执行处理未知工具、JSON 参数错误与工具异常，能看到失效后如何返回观察。
+  - DockerSandbox 包含内存／CPU／网络配置和清理；沙箱测试覆盖文件、执行、持久化、环境与清理，MCP 工具测试使用 fake 客户端。
+局限与静态风险：
+  - is_stuck 依据相同 assistant 文本计数，处理方式是追加改变策略的提示；它不证明任务取得进展，也不保证成本收敛或业务正确。
+  - 所选 ToolCallAgent.execute_tool 是名称检查、JSON 解析和执行路径；此方法未实现业务授权、审批绑定、持久化幂等或结果查询，不能把错误字符串返回当可靠事务处理。
+  - sandbox._safe_resolve_path 拒绝路径中的 '..' 段，但允许绝对路径；不能仅凭这个函数推断容器内所有文件访问均限在 workspace，或完成全面隔离审计。
+  - tests/sandbox 的网络测试需要联网下载包，并固定断言 HTTP/2 200；存在环境依赖。所见 tests 主要验证沙箱／工具，没有发现可直接支撑通用任务成功率的完整冻结任务基准。
+borrow：
+  按 BaseAgent.run → ToolCallAgent.execute_tool → DockerSandbox → 对应测试顺序阅读，用它与更复杂框架比较状态、隔离和测试成本。
+extend：
+  对照看最大步数、文本重复、任务进展和最终效果四者的差别；保持实现观察、方法风险与已复现实验分开。本次不设计个人项目。
+已定位阅读路径：
+  - app/agent/base.py
+  - app/agent/toolcall.py
+  - app/sandbox/core/sandbox.py
+  - tests/sandbox/test_sandbox.py
+  - tests/tools/test_browser_use_mcp.py
+  - requirements.txt
+静态阅读发现：
+  - path：
+      app/agent/base.py
+    line_start：
+      116
+    line_end：
+      186
+    观察：
+      循环受 max_steps 控制；重复输出检测后追加提示。循环结束返回步骤文本，不自带独立业务终态 oracle。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/app/agent/base.py#L116-L186
+  - path：
+      app/agent/toolcall.py
+    line_start：
+      174
+    line_end：
+      216
+    观察：
+      检查工具名、json.loads 参数、执行工具，并把解析或工具异常作为 Error 文本返回。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/app/agent/toolcall.py#L174-L216
+  - path：
+      app/sandbox/core/sandbox.py
+    line_start：
+      59
+    line_end：
+      102
+    观察：
+      容器配置 memory_limit、cpu_quota、network_mode 和挂载；创建失败时 cleanup。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/app/sandbox/core/sandbox.py#L59-L102
+  - path：
+      app/sandbox/core/sandbox.py
+    line_start：
+      232
+    line_end：
+      253
+    观察：
+      拒绝 '..' 路径段，绝对路径保留；该函数自身不是全沙箱安全证明。
+    kind：
+      隔离边界，未利用／未运行
+    原始来源：
+      https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/app/sandbox/core/sandbox.py#L232-L253
+  - path：
+      tests/sandbox/test_sandbox.py
+    line_start：
+      108
+    line_end：
+      137
+    观察：
+      网络测试执行包安装与外部请求，清理测试检查容器被移除；都需要实际 Docker／网络环境。
+    kind：
+      测试材料
+    原始来源：
+      https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/tests/sandbox/test_sandbox.py#L108-L137
+测试材料与评测边界：
+  - 存在四个 sandbox 测试文件与 MCP browser 工具测试；已抽读 test_sandbox.py／test_browser_use_mcp.py。
+  - requirements 包含 pytest 与 pytest-asyncio；浏览器需对应依赖／浏览器运行时，Docker 测试需守护进程。
+  - 未运行测试，没有复现文档演示或任何模型 benchmark；目录名 examples/benchmarks 不能直接当作完整评价体系。
+运行依赖说明：
+  - README 两条安装路径均以 Python 3.12 环境为示例；依赖见 requirements.txt，含模型、浏览器、MCP、Docker 等组件。
+  - 新版 browser-use 相关安装路线和 BrowserGym／Playwright 路线需按 README 区分；不要默认一个浏览器安装覆盖全部工具。
+  - 真实运行需自行配置模型访问，浏览器和搜索依赖网络；沙箱测试另需 Docker 镜像及适当网络。
+cost：
+  本次仅下载静态分析，无模型调用。真实多步 Agent 消耗模型 tokens，搜索／浏览器服务与容器有额外资源成本；没有据文档估算虚构单任务价格。
+recommended_for：
+  - 想快速读懂一个相对紧凑 Agent运行循环的人
+  - 希望对照研究工具执行、沙箱和测试局限的人
+not_recommended_for：
+  - 需要已证明可靠的跨重启写操作系统却只打算运行默认 demo 的人
+  - 把通用 Agent 演示、star 或调用工具次数当 SSP 实力证明的人
+候选人与项目关系：
+  —
+interview_evidence_ids：
+  - INT02
+  - INT03
+  - INT13
+  - INT17
+interview_linkage：
+  对应循环、工具、隔离、评价与功能必要性主题；本次未发现候选人凭此项目拿到目标岗位／SSP 的直接证据。
+interview_questions：
+  - 文本不重复但一直无进展时，is_stuck 能发现吗？
+  - 工具发生外部副作用后响应丢失，Error 字符串足以确定是否重试吗？
+  - 路径校验、容器网络、挂载和业务权限分别保证什么？
+商业与选择偏差：
+  社区开源通用 Agent；模型／搜索等供应商服务独立计费。不采信演示作为生产可靠性证明。
+许可标识：
+  MIT
+license_scope：
+  根 MIT LICENSE 原样保留；外部模型、浏览器和数据服务条款另查。
+固定源码提交：
+  3309bf4e416fb1c74b008f3e86494439a31bad53
+源码提交时间：
+  2026-08-16T10:29:11Z
+default_branch：
+  main
+取得源码ZIP：
+  是
+源码包文件：
+  FoundationAgents__OpenManus__3309bf4e416f.zip
+源码包SHA-256：
+  280b5a708fae8efd68dd8fe4f96d95ab900bc7265fa9d733e122df0340ec3b76
+运行验证范围：
+  未启动 Agent、未执行 shell／浏览器工具、Docker 或测试。
+retrieved_date：
+  2026-10-23
+类别：
+  项目参考
+source_urls：
+  - https://github.com/FoundationAgents/OpenManus
+  - https://github.com/FoundationAgents/OpenManus/tree/3309bf4e416fb1c74b008f3e86494439a31bad53
+  - https://api.github.com/repos/FoundationAgents/OpenManus
+inspection_boundary：
+  未启动 Agent、未执行 shell／浏览器工具、Docker 或测试。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-08-16T10:29:11Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    异步循环与资源清理参考；非传统后端主技术栈。
+  指定模块：
+    - app/agent/base.py
+    - app/agent/toolcall.py
+    - app/sandbox/core/sandbox.py
+    - tests/sandbox/test_sandbox.py
+Agent方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    范围较紧凑，先读完整工具循环，再对照AgentScope的权限/中断与评测缺口。
+  指定模块：
+    - app/agent/base.py
+    - app/agent/toolcall.py
+    - app/sandbox/core/sandbox.py
+    - tests/sandbox/test_sandbox.py
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    FoundationAgents__OpenManus__3309bf4e416f.zip
+  固定源码提交：
+    3309bf4e416fb1c74b008f3e86494439a31bad53
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

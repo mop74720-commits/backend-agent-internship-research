@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "scope": "持续补证交付一致性，不证明整体目标完成",
+  "checks": [
+    {
+      "name": "全部JSON可解析",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "8条新来源与旧快照差异吻合",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "主表与候选人面经项目一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "统计总量与类别一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "28候选人四段关系齐全",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "74面经67全文7部分且未补造年份",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新三篇校招不计近期实习",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CV01本人逐轮已建立且结果时点分开",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CV03时间线和推测档位未混",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CV28雇主客户与面经结果分开",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "INT80主题按本篇原文修正",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "平台正文4视频0且教学不计面经",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "21项目315维且每维可定位",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两个本人后端项目不冒充Agent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "16原包2派生3仅链接分列",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "派生ZIP实物CRC哈希与10核读路径",
+      "passed": true,
+      "detail": [
+        {
+          "file": "05_项目源码归档/本人履历直接关联_持续补证/UltiCode_固定源码文本_去联系字段_d53b582e2f.zip",
+          "passed": true,
+          "read_paths": [
+            {
+              "path": "services/submission/src/main/java/com/ulticode/modules/queue/outbox/dispatcher/JudgeOutboxDispatcher.java",
+              "identical": true
+            },
+            {
+              "path": "services/submission/src/main/java/com/ulticode/modules/submission/mapper/SubmissionMapper.java",
+              "identical": true
+            },
+            {
+              "path": "services/auth/src/main/java/com/ulticode/auth/refreshtoken/service/RefreshTokenService.java",
+              "identical": true
+            },
+            {
+              "path": "services/judge-runtime/src/test/java/com/ulticode/modules/queue/port/adapter/JudgeStreamRedisIntegrationTest.java",
+              "identical": true
+            },
+            {
+              "path": "services/submission/src/main/java/com/ulticode/modules/submission/port/DefaultSubmissionWritePort.java",
+              "identical": true
+            }
+          ]
+        },
+        {
+          "file": "05_项目源码归档/本人履历直接关联_持续补证/ResiCache_固定源码文本_去联系字段_1ed3be36af.zip",
+          "passed": true,
+          "read_paths": [
+            {
+              "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupport.java",
+              "identical": true
+            },
+            {
+              "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/SyncRole.java",
+              "identical": true
+            },
+            {
+              "path": "src/main/java/io/github/davidhlp/spring/cache/redis/cache/EarlyRefresh.java",
+              "identical": true
+            },
+            {
+              "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/SyncSupportSingleFlightTest.java",
+              "identical": true
+            },
+            {
+              "path": "src/test/java/io/github/davidhlp/spring/cache/redis/cache/EarlyExpirationHandlerRaceConditionIntegrationTest.java",
+              "identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "新增履历hash专业模块与去联系字段",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "3核心6总履历附件分列",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV 03_简历与候选人案例/候选人证据链对照.csv",
+      "passed": true,
+      "detail": 28
+    },
+    {
+      "name": "CSV 04_面经与专业观点/面经统一分类.csv",
+      "passed": true,
+      "detail": 74
+    },
+    {
+      "name": "CSV 06_项目分析与推荐/项目统一比较.csv",
+      "passed": true,
+      "detail": 315
+    },
+    {
+      "name": "CSV 08_证据索引与统计/全部资料统一分类.csv",
+      "passed": true,
+      "detail": 176
+    },
+    {
+      "name": "CSV 08_证据索引与统计/能力要求四类证据对照.csv",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "CSV 03_简历与候选人案例/履历文件索引.csv",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "所有报告本地链接与锚点",
+      "passed": true,
+      "detail": {
+        "count": 2457,
+        "broken": []
+      }
+    },
+    {
+      "name": "PDF无空白或孤立页",
+      "passed": true,
+      "detail": {
+        "pages": 21,
+        "characters": [
+          1584,
+          1890,
+          1671,
+          1283,
+          2026,
+          2866,
+          1163,
+          954,
+          2205,
+          3726,
+          2306,
+          3270,
+          1812,
+          2630,
+          1529,
+          1543,
+          2648,
+          3235,
+          2013,
+          2470,
+          737
+        ]
+      }
+    },
+    {
+      "name": "PDF覆盖新履历项目面经观点",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF无横向文本裁切",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "实际浏览器检查通过",
+      "passed": true,
+      "detail": 36
+    },
+    {
+      "name": "目标仍active且未用归档代替研究完成",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "local_links": 2457,
+  "pdf_pages": 21,
+  "goal_status": "active",
+  "remaining_gaps": [
+    "近期互联网大厂直签后端/Agent成功实习者的完整履历与具体公开本人实现关联仍不足；CV28为交付企业雇主，不能冲抵大厂直签。",
+    "近期Agent工程SSP的具体公司、岗位和批次自述仍不足；已有宽泛自述不填入未披露信息，项目和面经关系按实际范围。",
+    "已补Agent知乎教学概念文，但真实生产任务、评测/成本、权限与故障取舍的专业平台原文仍需补强；视频0。"
+  ],
+  "visual_review": "根代理目视PDF第1、11、21页：正文、表格及页脚完整，无横向裁切；新增履历桌面/手机另有检查。"
+}

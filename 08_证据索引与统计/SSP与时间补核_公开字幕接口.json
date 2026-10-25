@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-23",
+  "scope": "新的同站公开pagelist→player接口路径；无登录、无音视频下载",
+  "attempts": [
+    {
+      "bvid": "BV1P6tN6bEps",
+      "url": "https://www.bilibili.com/video/BV1P6tN6bEps/",
+      "video_watched": false,
+      "subtitle_read": false,
+      "media_downloaded": false,
+      "pagelist_http_status": 200,
+      "pagelist_code": 0,
+      "pages_available": 1,
+      "cid": 41368291258,
+      "player_status": 200,
+      "player_code": 0,
+      "subtitle_keys": [
+        "allow_submit",
+        "lan",
+        "lan_doc",
+        "subtitles",
+        "subtitle_position",
+        "font_size_type"
+      ],
+      "need_login_subtitle": null,
+      "public_subtitles": [],
+      "decision": "未取到公开字幕；不计观看或已读字幕"
+    },
+    {
+      "bvid": "BV1GVJP6SE23",
+      "url": "https://www.bilibili.com/video/BV1GVJP6SE23/",
+      "video_watched": false,
+      "subtitle_read": false,
+      "media_downloaded": false,
+      "pagelist_http_status": 200,
+      "pagelist_code": 0,
+      "pages_available": 1,
+      "cid": 39116803804,
+      "player_status": 200,
+      "player_code": 0,
+      "subtitle_keys": [
+        "allow_submit",
+        "lan",
+        "lan_doc",
+        "subtitles",
+        "subtitle_position",
+        "font_size_type"
+      ],
+      "need_login_subtitle": null,
+      "public_subtitles": [],
+      "decision": "未取到公开字幕；不计观看或已读字幕"
+    }
+  ]
+}

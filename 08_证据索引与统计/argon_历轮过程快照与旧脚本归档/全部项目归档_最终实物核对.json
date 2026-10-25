@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-23",
+  "projects": 25,
+  "full_original_archives": 16,
+  "derived_text_or_selected_archives": 9,
+  "note": "25份附件包含固定文件选读，不能称25个完整可构建仓库。",
+  "entries": [
+    {
+      "id": "PRO01",
+      "file": "05_项目源码归档/nageoffer__12306__daf3a2714c00.zip",
+      "bytes": 1708385,
+      "sha256": "d7f8a6d35ebafe887a35867541f759c2f4e136e4de1381135235e7f3f09a5eb8",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO02",
+      "file": "05_项目源码归档/nageoffer__shortlink__02da2983c921.zip",
+      "bytes": 857697,
+      "sha256": "0bffdf2e37ee1829136f12d566dedd307816ae61790c90adec597f2919a72652",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO03",
+      "file": "05_项目源码归档/macrozheng__mall__dcaa93b31503.zip",
+      "bytes": 11640895,
+      "sha256": "6024126e980894f3f730854f6bce3f9bba280ff93ad3b8c3b8e1f5240c4d8a2c",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO04",
+      "file": "05_项目源码归档/nageoffer__ragent__ff93871ab88f.zip",
+      "bytes": 22191267,
+      "sha256": "353e9f000a7de260b86ca9ad17c7b6c664c60962813d1f269081f88173f43a39",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO05",
+      "file": "05_项目源码归档/bytedance__deer-flow__7a32a5e17735.zip",
+      "bytes": 34560218,
+      "sha256": "b67092550b95a322e1601b5993fba6915d9c368852386f4d0774fb89904fbaa1",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO06",
+      "file": "05_项目源码归档/langchain-ai__open_deep_research__1b7d2e80db9f.zip",
+      "bytes": 2425581,
+      "sha256": "d66acd356f6a0c64e8157438255aa0dd2765ba3bc1d0a7391e6ba527ddcb725c",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO07",
+      "file": "05_项目源码归档/infiniflow__ragflow__4cb2e5abfe0c.zip",
+      "bytes": 22021593,
+      "sha256": "6b3c3497d72b44eb6b6a1d2a6ee1d42cf39e682e048f2f3e6b9a7f166728c6ed",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO08",
+      "file": "05_项目源码归档/viego1999__xuecheng-plus-project__5c0929f5523a.zip",
+      "bytes": 881347,
+      "sha256": "5e327cfa066a34a653129fd9c202a07c845b5bc46de4826161124211bbc095b4",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO09",
+      "file": "05_项目源码归档/apache__shenyu__34f2ed036747.zip",
+      "bytes": 13453929,
+      "sha256": "60aa52d113c0fba6dee91b5cb2212bf309e4878de5f658c86091b9b057a5cd15",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO10",
+      "file": "05_项目源码归档/casdoor__casdoor__171f4dbafbab.zip",
+      "bytes": 8691636,
+      "sha256": "a7b082c753c686c5f4a6d315a88e5a3761a873bb5979f6367ff9fbc948999d2c",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO11",
+      "file": "05_项目源码归档/agentscope-ai__agentscope__bdad647d2fee.zip",
+      "bytes": 9032453,
+      "sha256": "e6896e9ee7ec7165628dcd025958b49f0548ef612f8768ff95691a42f9272cf8",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO12",
+      "file": "05_项目源码归档/FoundationAgents__OpenManus__3309bf4e416f.zip",
+      "bytes": 656900,
+      "sha256": "280b5a708fae8efd68dd8fe4f96d95ab900bc7265fa9d733e122df0340ec3b76",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO13",
+      "file": "05_项目源码归档/Hello_Agents_固定源码选读.zip",
+      "bytes": 19391,
+      "sha256": "271f736d59c25bc9ec1053f7f22d054f2bf516c8da8d741f3ebc26272b944a4a",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO14",
+      "file": "05_项目源码归档/CalvinNeo__CFortranTranslator__903062e709c8.zip",
+      "bytes": 790199,
+      "sha256": "804e94877cb35fec27ac60de10e2e20d60d78caef95abe76f006be2d3a083015",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO15",
+      "file": "05_项目源码归档/CalvinNeo__ATP__597a9be4b840.zip",
+      "bytes": 96937,
+      "sha256": "ff1205bbb9b6731133e98a4495d4ef81b80e6c015411e24b79052b2dec2b19e1",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO16",
+      "file": "05_项目源码归档/CalvinNeo__Nuft__39e09d330abc.zip",
+      "bytes": 96169,
+      "sha256": "d297b099e78bd770c431ba704c96e937dfa955616d9b5efe8759cfe536d7f593",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO17",
+      "file": "05_项目源码归档/linyacool__WebServer__7e18602f15c5.zip",
+      "bytes": 1988617,
+      "sha256": "fd7a8c24a7270480d42e37434865601388dd0013080e6fb5b91691fade2b1c52",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO18",
+      "file": "05_项目源码归档/Crony_固定源码选读.zip",
+      "bytes": 18355,
+      "sha256": "cb4deff1ffd0b6a07c42a4e2f55851227ba6a963ee15386e5e3a0cc730e468d6",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO19",
+      "file": "05_项目源码归档/SchoolBus_固定源码选读.zip",
+      "bytes": 12980,
+      "sha256": "e096546d2d8faa17f616d1da263c2764629578bcf79910ca486b95c1a0475a5c",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO20",
+      "file": "05_项目源码归档/本人履历直接关联_持续补证/UltiCode_固定源码文本_去联系字段_d53b582e2f.zip",
+      "bytes": 10947346,
+      "sha256": "cd079b7b2e39ee2d59e043155851726e49a0a89b0508211482c25569c90f55d2",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO21",
+      "file": "05_项目源码归档/本人履历直接关联_持续补证/ResiCache_固定源码文本_去联系字段_1ed3be36af.zip",
+      "bytes": 695726,
+      "sha256": "eae16d257fe8751eadfa62316a4ab2af90f1f8bebf34de658bb07e4b3e531786",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO24",
+      "file": "05_项目源码归档/近期Agent本人项目_补链/Sprout_固定源码文本_去联系字段_3ecd36e5a4.zip",
+      "bytes": 43985,
+      "sha256": "fe8fb98e44a53a07abb0b20bcdefeff40dc2d1e6d2ff00cb064e23f0fd9d20e0",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO25",
+      "file": "05_项目源码归档/近期Agent本人项目_补链/NoWorries_固定文本选读_去联系字段_c811e697bb.zip",
+      "bytes": 39659,
+      "sha256": "0ee50cd0260edd6c02d25b659889b12bcaa726936a2dab3dbdbdeabf27e67fd5",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO22",
+      "file": "05_项目源码归档/大厂履历直接关联_重点补证/Distributed-Key-Value-Store_固定源码文本_去联系字段_d7132bba33.zip",
+      "bytes": 636645,
+      "sha256": "962e2e97e5e563b1a379890069aba448cfed03ef80019f5072a9de71204daa93",
+      "crc_verified": true,
+      "runtime_executed": false
+    },
+    {
+      "id": "PRO23",
+      "file": "05_项目源码归档/大厂履历直接关联_重点补证/QuantHarbor_固定源码文本_去联系字段_f0d6380e98.zip",
+      "bytes": 281395,
+      "sha256": "a52c338de6ea9e35c180c1ab36cb825af5833694d969322c30439254bdf201f4",
+      "crc_verified": true,
+      "runtime_executed": false
+    }
+  ],
+  "all_crc_verified": true
+}

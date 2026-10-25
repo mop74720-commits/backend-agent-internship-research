@@ -1,0 +1,201 @@
+JD33 | 百度 大模型应用后端研发实习生 GO/Python方向 J101073
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  百度
+role_type：
+  AI应用后端；上海；日常实习；学历/届次/时长未在正文明确
+原始来源：
+  https://talent.baidu.com/jobs/detail/INTERN/15f123ac-2755-4324-b5ba-25682d0f9b40
+publish_date：
+  2026-07-21（官网展示）
+retrieved_date：
+  2026-10-24
+source_type：
+  企业官方招聘
+own_summary：
+  核心产品功能架构，算法研究实现优化，前瞻跟踪与AI平台开发。
+required_stack：
+  - 数据结构/算法
+  - C/C++或PHP/Go（原文）
+  - Windows/Unix/Linux原理及系统支持开发
+  - 问题分析/学习/协作
+preferred_stack：
+  - 编程竞赛/论文/专利
+  - 项目/软件开发流程
+  - 搜索/ML/多媒体/GIS/云/分布式知识技能
+degree_constraint：
+  正文未列学历/毕业届次
+availability_constraint：
+  上海；日常实习，正文未列每周出勤和时长
+recruiting_status：
+  官网仍有申请职位；未见截止日，实时HC未核
+matrix_include：
+  是
+duties：
+  核心产品功能架构，算法研究实现优化，前瞻跟踪与AI平台开发。
+阅读建议：
+  与J01对照可见同公司不同语言要求，投递须看团队而非公司标签。
+局限：
+  标题GO/Python但正文为C/C++或PHP/GO，不改写成明确Python要求；也不与牛客J04混为同岗位。
+原访问范围：
+  正文全文
+统一分类：
+  方向：
+    混合
+  招聘类型：
+    实习
+  事件时间：
+    2026-07-21（官网展示）
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    2026-07-21（官网展示）
+  时间依据：
+    原文日期/窗口
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    职责、要求、资格及页表状态实际核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - 数据结构/算法
+  - C/C++或PHP/Go（原文）
+  - Windows/Unix/Linux原理及系统支持开发
+  - 问题分析/学习/协作
+  - 编程竞赛/论文/专利
+  - 项目/软件开发流程
+  - 搜索/ML/多媒体/GIS/云/分布式知识技能
+source_record：
+  source_id：
+    J15
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    百度 大模型应用后端研发实习生 GO/Python方向 J101073
+  原始来源：
+    https://talent.baidu.com/jobs/detail/INTERN/15f123ac-2755-4324-b5ba-25682d0f9b40
+  canonical_key：
+    talent.baidu.com/jobs/detail/INTERN/15f123ac-2755-4324-b5ba-25682d0f9b40
+  source_file：
+    01_岗位JD/J15.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      企业官方招聘；2026-07-21
+    岗位状态：
+      正文可读，未列截止日；不保证HC
+    方向与资格：
+      AI应用后端；上海；日常实习；学历/届次/时长未在正文明确
+    明确要求：
+      数据结构算法 / C/C++或PHP/Go / OS原理 / 问题解决与协作
+    加分项：
+      项目/开发流程 / 竞赛论文专利 / 搜索/ML/分布式/云
+    工作摘要：
+      核心产品功能、架构、算法优化与AI平台开发。
+    推荐理由：
+      与J01对照可见同公司不同语言要求，投递须看团队而非公司标签。
+    局限：
+      标题写GO/Python，正文列C/C++或PHP/Go；不可替招聘方修正此不一致。
+  live_access：
+    状态：
+      200
+    标题：
+      百度校园招聘
+    原始来源：
+      https://talent.baidu.com/jobs/detail/INTERN/15f123ac-2755-4324-b5ba-25682d0f9b40
+    已读部分：
+      职责、要求、资格及页表状态实际核读
+    已读定位正文全文：
+      是
+    professional_text：
+      大模型应用后端研发实习生（GO/Python方向）（J101073）
+ACG
+ACG
+上海市
+日常实习项目
+技术
+1人
+2026-07-21
+工作职责：
+-负责百度核心产品功能和架构开发
+-负责核心技术算法的研究、实现和优化
+-负责前瞻技术的跟踪调研和产品创新
+-负责AI平台相关开发
+职责要求：
+-热爱互联网，对互联网产品和技术有浓厚的兴趣，热衷于追求技术极致与创新
+-深刻理解计算机数据结构和算法设计，熟悉C/C++或PHP、GO编程语言
+-了解Windows、Unix、Linux等主流操作系统原理，熟练运用系统层支持应用开发
+-优秀的分析问题和解决问题的能力，勇于解决难题
+-强烈的上进心和求知欲，较强的学习能力和沟通能力，具备良好的团队合作精神
+-具有以下条件者优先： 
+-计算机领域相关的编程大赛获奖、专业期刊发表文章或者有发明专利等
+-有一定项目经验，熟悉软件工程开发流程
+-具备专业领域的计算机知识和技能：搜索引擎、数据挖掘/机器学习、多媒体、地理信息系统、云计算、分布式系统等
+申请职位
+    text_sha256：
+      d9f870afe83cd6f433a00de87a565a3add9ad45864b9f7b413d4fdc32c2ac940
+  方向：
+    混合
+  required_stack：
+    - 数据结构/算法
+    - C/C++或PHP/Go（原文）
+    - Windows/Unix/Linux原理及系统支持开发
+    - 问题分析/学习/协作
+  preferred_stack：
+    - 编程竞赛/论文/专利
+    - 项目/软件开发流程
+    - 搜索/ML/多媒体/GIS/云/分布式知识技能
+  duties：
+    核心产品功能架构，算法研究实现优化，前瞻跟踪与AI平台开发。
+  degree_constraint：
+    正文未列学历/毕业届次
+  availability_constraint：
+    上海；日常实习，正文未列每周出勤和时长
+  publish_date：
+    2026-07-21（官网展示）
+  date_year_confirmed：
+    是
+  recruiting_status：
+    官网仍有申请职位；未见截止日，实时HC未核
+  source_type：
+    企业官方招聘
+  matrix_include：
+    是
+  阅读建议：
+    与J01对照可见同公司不同语言要求，投递须看团队而非公司标签。
+  局限：
+    标题GO/Python但正文为C/C++或PHP/GO，不改写成明确Python要求；也不与牛客J04混为同岗位。
+  招聘类型：
+    实习
+  source_date_basis：
+    原文日期/窗口
+source_key：
+  ASTRA_J15_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J15
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

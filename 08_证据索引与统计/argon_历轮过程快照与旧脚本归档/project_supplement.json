@@ -1,0 +1,777 @@
+{
+  "retrieved_date": "2026-10-23",
+  "verification": "新增资料仅来自项目作者／官方仓库。读取 GitHub README、固定 commit 的目录树及所列关键实现／测试；5 个新增源码 ZIP 均已通过 CRC 与 SHA-256 校验，源码路径存在性将在补充清单记录。未运行第三方应用、测试、模型、浏览器、沙箱或 benchmark。录用与项目关联不等于因果证明；面经 ID 只是主题映射。",
+  "collection_method": "官方 GitHub 页面、REST 仓库／commit／递归 tree 与 raw.githubusercontent.com；源码从固定 commit 的 codeload 下载。已取得元数据后使用本地 ZIP 阅读；共享 API 出现限流后不再重复请求。Hello-Agents 只读取固定源码，不整库归档。",
+  "scope": "补充项目搜集与源码分析；按用户最新要求暂缓个人项目设计。本文件独立于旧 project_recommendations.json，由主任务统一集成。",
+  "projects": [
+    {
+      "id": "PRO08",
+      "title": "学成在线：成功候选人关联业务仓库与消息可靠性反例",
+      "repo": "viego1999/xuecheng-plus-project",
+      "url": "https://github.com/viego1999/xuecheng-plus-project",
+      "role": "Java后端／历史候选人关联项目",
+      "recommendation": "优先作 CV02 的源码溯源与代码审查材料；不建议照搬为当前主简历项目。",
+      "stack": [
+        "Java 8",
+        "Spring Boot 2.3.7",
+        "Spring Cloud Hoxton.SR10",
+        "MyBatis-Plus",
+        "MySQL",
+        "Redis／Redisson",
+        "RabbitMQ",
+        "MinIO",
+        "Elasticsearch",
+        "XXL-JOB"
+      ],
+      "strengths": [
+        "CV02 明确关联此仓库，能把候选人的在线教育项目描述与可定位的课程发布、选课和消息模块对应；录用结果仍仅为作者自述。",
+        "课程发布方法在一个 Spring 事务中保存发布信息和消息记录，可用于研究本地消息表模式，而不只是孤立的 CRUD。",
+        "能同时比较租户机构归属检查、缓存空值、热点重建锁、消息消费和后台任务线程管理。"
+      ],
+      "weaknesses": [
+        "仓库固定版本最后提交于 2023 年，父 POM 为 Java 8／Spring Boot 2.3.7；这是历史技术组合，不能称作 2026 年招聘统一推荐版本。",
+        "README 要求先导入数据库，但该固定工作树未发现 .sql 文件；存在 Nacos、XXL-JOB、MinIO 等外部依赖和作者本机路径，无法凭 ZIP 声称开箱即用。",
+        "MessageProcessAbstract.process 每次按消息数创建 fixedThreadPool，方法中未见 shutdown；CountDownLatch.await 超时只结束等待，没有取消工作线程。属于静态可定位的资源／超时边界，未做运行复现。",
+        "PayNotifyServiceTest.testSend 只是调用发送方法，没有结果断言；事务内向 RabbitMQ 回复消息也不能单凭 @Transactional 推定数据库与 MQ 原子提交。"
+      ],
+      "borrow": "先读课程发布事务，再跟踪消息表执行器和支付通知；重点学习业务链路与故障窗口的分析方式。",
+      "extend": "作为源码审查对象，核对消息完成标记、重复投递、线程池生命周期与数据库提交边界；不要把课程流程和候选人既有指标直接写成个人生产成果。",
+      "inspect_paths": [
+        "xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java",
+        "xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java",
+        "xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java",
+        "xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java",
+        "xuecheng-plus-parent/pom.xml"
+      ],
+      "source_findings": [
+        {
+          "path": "xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java",
+          "line_start": 188,
+          "line_end": 215,
+          "finding": "publish 带 @Transactional，检查 companyId／审核状态，再保存课程和消息，最后删除预发布记录。",
+          "kind": "已读代码",
+          "url": "https://github.com/viego1999/xuecheng-plus-project/blob/5c0929f5523a46a2e9b8ea8457d638a65b849474/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java#L188-L215"
+        },
+        {
+          "path": "xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java",
+          "line_start": 48,
+          "line_end": 90,
+          "finding": "每次创建线程池；await 返回后方法退出，所选方法没有 shutdown、Future.cancel 或超时中断工作线程。这里只认定所见方法的行为。",
+          "kind": "静态问题，未运行复现",
+          "url": "https://github.com/viego1999/xuecheng-plus-project/blob/5c0929f5523a46a2e9b8ea8457d638a65b849474/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java#L48-L90"
+        },
+        {
+          "path": "xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java",
+          "line_start": 45,
+          "line_end": 84,
+          "finding": "消息监听事务中更新选课并增加课程表，再调用 RabbitTemplate 回复；数据库事务与外部消息确认的边界值得单独检查。",
+          "kind": "已读代码／故障模型",
+          "url": "https://github.com/viego1999/xuecheng-plus-project/blob/5c0929f5523a46a2e9b8ea8457d638a65b849474/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java#L45-L84"
+        },
+        {
+          "path": "xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java",
+          "line_start": 21,
+          "line_end": 25,
+          "finding": "所选 testSend 构造消息并发送，没有显式断言或重复投递验证。",
+          "kind": "测试材料边界",
+          "url": "https://github.com/viego1999/xuecheng-plus-project/blob/5c0929f5523a46a2e9b8ea8457d638a65b849474/xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java#L21-L25"
+        }
+      ],
+      "tests_and_evaluation": [
+        "仓库有 SpringBootTest、HTTP Client 请求文件、媒体分块与 MinIO 等测试类；存在测试文件不代表无需中间件即可运行。",
+        "具体抽读 PayNotifyServiceTest；未运行 Maven、数据库、支付沙箱或 MQ。没有本次实测吞吐或可靠性数字。"
+      ],
+      "runtime_dependencies": [
+        "父 POM 固定 Java 1.8、Spring Boot 2.3.7.RELEASE、Spring Cloud Hoxton.SR10。",
+        "README 列出数据库、前端、Nacos、MinIO、XXL-JOB、Nginx、Elasticsearch／Kibana、RabbitMQ；多处是作者本机 Windows 路径。",
+        "归档不含 .sql 初始化文件，也不含完整外部中间件运行环境；需另寻原教程配套材料和核对依赖。"
+      ],
+      "cost": "本次只下载与静态阅读，未产生模型／云服务调用费用。部署成本来自本机资源和中间件；支付若接外部服务须另行配置，未尝试。",
+      "recommended_for": [
+        "已有 Java 基础，想把成功候选人的项目描述追到代码的人",
+        "学习消息表、课程发布与缓存链路的代码审查"
+      ],
+      "not_recommended_for": [
+        "希望下载后直接得到可独立运行成品的初学者",
+        "希望通过完整照搬旧课程获得 SSP 辨识度的人"
+      ],
+      "candidate_links": [
+        {
+          "candidate_id": "CV02",
+          "relation": "候选人公开材料直接列出该仓库；本次补齐固定源码。",
+          "offer_causality": "没有企业侧录用证明，不能证明此项目单独造成腾讯 SSP 或其他 offer。"
+        }
+      ],
+      "interview_evidence_ids": [
+        "INT06",
+        "INT07",
+        "INT11"
+      ],
+      "interview_linkage": "这些面经用于主题映射：MQ、一致性、技术选择与可验证故障。未发现这些面经直接考查此仓库，不称为原题对应。",
+      "interview_questions": [
+        "CountDownLatch.await 超时后，工作线程真的停止了吗？线程池何时释放？",
+        "本地事务保存消息记录以后，发布动作和完成标记之间崩溃会怎样？",
+        "支付通知重复到达时，选课与课程表由什么数据库约束保护？"
+      ],
+      "commercial_bias": "在线教育课程／教学衍生项目；CV02 推荐课程，不据此推断付费关系或课程导致录用。",
+      "license": "Unlicense",
+      "license_scope": "固定 commit 根目录 LICENSE 为 Unlicense。保留原 README 与归属信息；仓库作者选择许可不等于对所有教程、素材的第三方权利做独立认证。",
+      "commit": "5c0929f5523a46a2e9b8ea8457d638a65b849474",
+      "commit_date": "2023-11-04T07:16:16Z",
+      "default_branch": "master",
+      "source_archive": true,
+      "archive_file": "viego1999__xuecheng-plus-project__5c0929f5523a.zip",
+      "archive_sha256": "5e327cfa066a34a653129fd9c202a07c845b5bc46de4826161124211bbc095b4",
+      "run_status": "未构建、未启动、未执行测试；源码存在与运行成功分开记录。",
+      "retrieved_date": "2026-10-23",
+      "category": "项目参考",
+      "source_urls": [
+        "https://github.com/viego1999/xuecheng-plus-project",
+        "https://github.com/viego1999/xuecheng-plus-project/tree/5c0929f5523a46a2e9b8ea8457d638a65b849474",
+        "https://api.github.com/repos/viego1999/xuecheng-plus-project"
+      ],
+      "inspection_boundary": "未构建、未启动、未执行测试；源码存在与运行成功分开记录。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。"
+    },
+    {
+      "id": "PRO09",
+      "title": "Apache ShenYu：插件链、响应式网关与可测试开源贡献",
+      "repo": "apache/shenyu",
+      "url": "https://github.com/apache/shenyu",
+      "role": "Java后端／网关与基础设施",
+      "recommendation": "适合已有后端基础的人选一个插件深读并跟踪测试／PR；不适合全平台复刻。",
+      "stack": [
+        "Java 17",
+        "Maven Wrapper",
+        "Spring WebFlux／Reactor",
+        "插件 SPI",
+        "Redis 限流",
+        "JUnit／Mockito／StepVerifier",
+        "集成测试"
+      ],
+      "strengths": [
+        "请求入口、插件链、选择器／规则匹配及限流插件有明确分层，可以按真实调用路径阅读。",
+        "所选限流单测覆盖放行与拒绝，拒绝分支断言 HTTP 429；CI 有模块化测试与 JDK 矩阵，适合观察开源项目如何把变更提交为可评审证据。",
+        "CV05 自述 ShenYu／GSoC 相关经历，项目关联明确；原 LICENSE、NOTICE 和分发依赖许可均在源码快照内保留。"
+      ],
+      "weaknesses": [
+        "平台模块多，运行所有协议、注册中心和集成测试的成本高；把部署成功称作本人实现网关会夸大贡献。",
+        "所选 RateLimiterPluginTest mock 了 RedisRateLimiter，不能证明真实 Redis 集群下的原子性、网络故障和吞吐。",
+        "当前源码为 2026 年版本，而 CV05 录用自述发生在 2023 年；未逐条审计其 PR 和模块归属，不能把当前 Agent Gateway 等新功能追溯成当年贡献。",
+        "ShenyuWebHandler 的请求级 after 使用 doFinally，而内部 plugin.after 位于创建执行 Publisher 的 finally；同名钩子的异步时间语义要结合代码和生命周期测试理解，不能直接当同一种完成回调。"
+      ],
+      "borrow": "沿 ShenyuWebHandler → AbstractShenyuPlugin → RateLimiterPlugin → 对应测试阅读；适合学习扩展点、响应式生命周期和故障测试的组织。",
+      "extend": "若研究开源参与，查具体 issue／PR、review、测试修改与维护反馈；本卡不虚构 CV05 的已合并 PR。",
+      "inspect_paths": [
+        "shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java",
+        "shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java",
+        "shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/main/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPlugin.java",
+        "shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java",
+        ".github/workflows/ci.yml"
+      ],
+      "source_findings": [
+        {
+          "path": "shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java",
+          "line_start": 138,
+          "line_end": 145,
+          "finding": "Mono.defer 为订阅创建插件链；请求级 after 挂在 doFinally，覆盖完成、失败与取消。",
+          "kind": "已读代码",
+          "url": "https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java#L138-L145"
+        },
+        {
+          "path": "shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java",
+          "line_start": 294,
+          "line_end": 337,
+          "finding": "链保存 index，支持 fork，递归跳过 skip 的插件；内部 plugin.after 处于 try/finally，需区分 Publisher 创建与异步完成。",
+          "kind": "已读代码／语义审查",
+          "url": "https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java#L294-L337"
+        },
+        {
+          "path": "shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java",
+          "line_start": 79,
+          "line_end": 134,
+          "finding": "依次处理插件启用、selector、rule 和匹配缓存，最终调用 doExecute。",
+          "kind": "已读代码",
+          "url": "https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java#L79-L134"
+        },
+        {
+          "path": "shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java",
+          "line_start": 85,
+          "line_end": 106,
+          "finding": "Mockito 返回允许／拒绝的 Mono；StepVerifier 验证完成，拒绝分支断言 429。并非真实 Redis 集成测试。",
+          "kind": "测试材料",
+          "url": "https://github.com/apache/shenyu/blob/34f2ed036747936a5e28aea2c94cd9b3cddcce47/shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java#L85-L106"
+        }
+      ],
+      "tests_and_evaluation": [
+        "限流插件有模块级单测；主仓库另有 HTTP／协议组合集成测试及 CI 工作流。",
+        "根 POM 指定 Java 17；ci.yml 的测试组主要使用 JDK 17，并有 JDK 21 相关任务。未执行这些工作流。",
+        "仓库也有 benchmark 材料，但本次没有复现数据，不引用其数字作为个人可达性能。"
+      ],
+      "runtime_dependencies": [
+        "Java 17+、Maven Wrapper；构建会下载 Maven 依赖。",
+        "最小网关与 Admin、上游服务和配置同步方式有关；按所选示例选择数据库／注册中心，不需要为阅读装全套组件。",
+        "限流实际运行需 Redis；集成测试可能需 Docker、上游服务、注册中心或 K8s，视测试模块而定。"
+      ],
+      "cost": "本地静态分析无模型费用；完整网关集成环境需要多进程、容器或集群资源。未购买服务、未运行压测。",
+      "recommended_for": [
+        "想学习响应式网络、插件化和中间件测试的 Java 后端学生",
+        "能从小 issue／测试补充切入开源贡献的人"
+      ],
+      "not_recommended_for": [
+        "Java／HTTP／并发基础尚薄，计划先复刻整个网关的人",
+        "希望直接把 Apache 项目名称等同录用优势的人"
+      ],
+      "candidate_links": [
+        {
+          "candidate_id": "CV05",
+          "relation": "候选人公开自述 ShenYu 相关参与；本卡补当前仓库源码，不核认具体贡献。",
+          "offer_causality": "历史大 SSP 为自述；多段实习、开源等因素混合，没有项目独立因果证据。"
+        }
+      ],
+      "interview_evidence_ids": [
+        "INT07",
+        "INT10",
+        "INT15"
+      ],
+      "interview_linkage": "主题映射为技术选型、网络／系统基础、具体实习或开源工作；未发现这些面经直接指定 ShenYu 源码。",
+      "interview_questions": [
+        "为什么 handle 使用 Mono.defer？重复订阅会不会复用带 index 的链？",
+        "plugin.after 与 doFinally 的触发时机有什么差别？",
+        "mock 限流器的单测覆盖了什么，尚未覆盖 Redis 故障和并发的什么？"
+      ],
+      "commercial_bias": "Apache 社区项目；不把组织背书、star 或活动名替代个人贡献证据。",
+      "license": "Apache-2.0",
+      "license_scope": "根 LICENSE、NOTICE 及仓库内第三方分发许可原样保留；未改动上游源码。",
+      "commit": "34f2ed036747936a5e28aea2c94cd9b3cddcce47",
+      "commit_date": "2026-10-23T03:39:41Z",
+      "default_branch": "master",
+      "source_archive": true,
+      "archive_file": "apache__shenyu__34f2ed036747.zip",
+      "archive_sha256": "60aa52d113c0fba6dee91b5cb2212bf309e4878de5f658c86091b9b057a5cd15",
+      "run_status": "未构建、未执行插件／集成测试或 benchmark。",
+      "retrieved_date": "2026-10-23",
+      "category": "项目参考",
+      "source_urls": [
+        "https://github.com/apache/shenyu",
+        "https://github.com/apache/shenyu/tree/34f2ed036747936a5e28aea2c94cd9b3cddcce47",
+        "https://api.github.com/repos/apache/shenyu"
+      ],
+      "inspection_boundary": "未构建、未执行插件／集成测试或 benchmark。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。"
+    },
+    {
+      "id": "PRO10",
+      "title": "Casdoor：从候选人开源条目拆读身份与权限工程",
+      "repo": "casdoor/casdoor",
+      "url": "https://github.com/casdoor/casdoor",
+      "role": "Go后端／身份认证与授权",
+      "recommendation": "作为 Go 后端的权限模型、协议与开源测试参考；仅部署登录页不构成有深度的个人项目。",
+      "stack": [
+        "Go 1.25+",
+        "React／TypeScript／Vite",
+        "Yarn 1.x",
+        "OAuth／OIDC／SAML 等身份协议",
+        "Casbin",
+        "XORM",
+        "SQLite／MySQL／PostgreSQL"
+      ],
+      "strengths": [
+        "CV06 实际公开简历片段出现 Casdoor，能追到具体公开仓库，补齐此前只有链接的资料链。",
+        "permission_enforcer 明确区分主体、资源、动作、domain、effect 和 permissionId，并用过滤加载减少不必要策略载入。",
+        "权限策略测试有具体预期数组和断言；前端 package.json 还列出 typecheck、lint 和 e2e 入口，可观察服务端与 UI 的测试分工。"
+      ],
+      "weaknesses": [
+        "认证平台的协议和身份提供商范围很大；全面重做会分散时间，接入 SDK 本身也不能证明理解认证与授权。",
+        "所选 permission_enforcer_test 只验证策略生成与 domain 的结构，不是完整 OAuth/OIDC、租户隔离或撤权端到端验证。",
+        "所选密钥生成测试主要生成并写入临时文件、检查错误，不能据此认定签名校验、轮换和协议安全均已覆盖。",
+        "CV06 的片段是 2021 年经历，当前仓库含后来增加的 Agent／MCP 能力；二者不能混合，也不能补写被打码的个人职责。"
+      ],
+      "borrow": "围绕 permission_enforcer.go 的策略生成／过滤载入与对应单测阅读，再按需要延伸 token 处理；先弄清认证、授权与租户域边界。",
+      "extend": "关注贡献证据：具体改动、测试断言、评审与维护。公开简历只证明出现项目条目，不等于其实现或贡献可被完整还原。",
+      "inspect_paths": [
+        "object/permission_enforcer.go",
+        "object/permission_enforcer_test.go",
+        "object/token_jwt_key.go",
+        "object/token_jwt_key_test.go",
+        "go.mod",
+        "web/package.json"
+      ],
+      "source_findings": [
+        {
+          "path": "object/permission_enforcer.go",
+          "line_start": 30,
+          "line_end": 71,
+          "finding": "创建 Casbin Enforcer，设置 model／adapter，用 permissionId 过滤 p 规则，再载入运行时分组策略。",
+          "kind": "已读代码",
+          "url": "https://github.com/casdoor/casdoor/blob/171f4dbafbab735dabfa37350aa4f432aaaf0713/object/permission_enforcer.go#L30-L71"
+        },
+        {
+          "path": "object/permission_enforcer.go",
+          "line_start": 127,
+          "line_end": 154,
+          "finding": "把 users／groups／roles 与 resources／actions 组合，domain 存在时产生不同的策略元组。",
+          "kind": "已读代码",
+          "url": "https://github.com/casdoor/casdoor/blob/171f4dbafbab735dabfa37350aa4f432aaaf0713/object/permission_enforcer.go#L127-L154"
+        },
+        {
+          "path": "object/permission_enforcer_test.go",
+          "line_start": 22,
+          "line_end": 64,
+          "finding": "测试用户、组、角色及有 domain 的组，使用 reflect.DeepEqual 检查预期策略。",
+          "kind": "测试材料",
+          "url": "https://github.com/casdoor/casdoor/blob/171f4dbafbab735dabfa37350aa4f432aaaf0713/object/permission_enforcer_test.go#L22-L64"
+        },
+        {
+          "path": "object/token_jwt_key_test.go",
+          "line_start": 25,
+          "line_end": 65,
+          "finding": "三类密钥生成测试写入 t.TempDir，所选测试没有签名／验签或轮换断言。",
+          "kind": "测试覆盖边界",
+          "url": "https://github.com/casdoor/casdoor/blob/171f4dbafbab735dabfa37350aa4f432aaaf0713/object/token_jwt_key_test.go#L25-L65"
+        }
+      ],
+      "tests_and_evaluation": [
+        "抽读策略生成单测和密钥生成测试；未运行 go test。",
+        "前端 scripts 声明 typecheck／lint／Cypress e2e；脚本存在不代表本次执行或所有环境能通过。",
+        "本次没有执行真实身份提供商回调、撤权、多租户、MFA 或协议兼容测试。"
+      ],
+      "runtime_dependencies": [
+        "go.mod 要求 Go 1.25.0；README 源码路径要求 Node.js 20 LTS、Yarn 1.x 和支持的数据库。",
+        "Dockerfile 前端构建 Node 20.20.1、后端构建 Go 1.25.8；版本描述仅适用于固定快照。",
+        "README 的 all-in-one 以 SQLite／样例数据供试用，提醒容器内数据随容器删除；Compose 路线使用 MySQL 并需调整数据库配置。"
+      ],
+      "cost": "本地源码分析无服务费用。自托管需要数据库和机器资源；外部短信／邮件／身份服务及官方托管可能收费，本次未调用或购买。",
+      "recommended_for": [
+        "具备 Go 基础，希望理解身份、权限模型和有断言测试的学生",
+        "想以小范围 PR／回归测试形成开源协作材料的人"
+      ],
+      "not_recommended_for": [
+        "把套一个登录页或接 SDK 直接算成核心创新的人",
+        "没有协议基础却计划自行实现全部认证标准的人"
+      ],
+      "candidate_links": [
+        {
+          "candidate_id": "CV06",
+          "relation": "公开打码简历片段出现 Casdoor；无法还原具体 PR 或被遮挡职责。",
+          "offer_causality": "历史字节 SSP 和其他 offer 为作者／转载方自述；不证明 Casdoor 贡献的独立录用作用。"
+        }
+      ],
+      "interview_evidence_ids": [
+        "INT10",
+        "INT12",
+        "INT13"
+      ],
+      "interview_linkage": "主题映射为 Go／系统基础、项目真实性与权限边界；未发现这些面经明确询问 Casdoor。",
+      "interview_questions": [
+        "认证成功之后，资源级授权为什么仍要独立检查？",
+        "domain、组织、角色、组和 permissionId 分别解决什么问题？",
+        "策略生成单测与撤权后真实请求被拒绝的集成测试差在哪里？"
+      ],
+      "commercial_bias": "开源项目另有官方托管产品；本卡以公开代码为依据，不推荐付费托管。",
+      "license": "Apache-2.0",
+      "license_scope": "根 LICENSE 原样保留；只对固定公共源码作许可识别，不认证外部身份服务条款。",
+      "commit": "171f4dbafbab735dabfa37350aa4f432aaaf0713",
+      "commit_date": "2026-10-22T14:56:02Z",
+      "default_branch": "master",
+      "source_archive": true,
+      "archive_file": "casdoor__casdoor__171f4dbafbab.zip",
+      "archive_sha256": "a7b082c753c686c5f4a6d315a88e5a3761a873bb5979f6367ff9fbc948999d2c",
+      "run_status": "未构建、未启动、未执行 Go／前端测试或真实身份验证。",
+      "retrieved_date": "2026-10-23",
+      "category": "项目参考",
+      "source_urls": [
+        "https://github.com/casdoor/casdoor",
+        "https://github.com/casdoor/casdoor/tree/171f4dbafbab735dabfa37350aa4f432aaaf0713",
+        "https://api.github.com/repos/casdoor/casdoor"
+      ],
+      "inspection_boundary": "未构建、未启动、未执行 Go／前端测试或真实身份验证。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。"
+    },
+    {
+      "id": "PRO11",
+      "title": "AgentScope：工具权限、状态与中断测试的工程参考",
+      "repo": "agentscope-ai/agentscope",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "role": "Python Agent框架／运行工程",
+      "recommendation": "Agent 侧优先拆读权限引擎和中断测试；适合学习可观察、可测试的执行系统，不建议整框架复刻。",
+      "stack": [
+        "Python 3.11+",
+        "异步 ReAct 执行",
+        "结构化工具调用",
+        "权限引擎／HITL",
+        "状态序列化",
+        "FastAPI 可选服务",
+        "Docker 等可选 workspace",
+        "pytest／MockModel"
+      ],
+      "strengths": [
+        "所选源码包含输入校验、工具权限解析、确认事件、执行和状态记录，工程深度可定位到实现，超出单次 LLM API 封装。",
+        "PermissionEngine 区分 DEFAULT／EXPLORE／ACCEPT_EDITS／BYPASS／DONT_ASK，并有 deny 优先和安全询问等测试；可以比较不同策略的精确语义。",
+        "AgentInterrupt 测试用 MockModel 和慢工具构造串行／并行取消路径，检查事件与上下文终态；比只看演示更适合研究失败处理。",
+        "AgentState 显式存会话、摘要、上下文、权限上下文及 reply 状态，能讨论状态格式兼容与外部响应等待。"
+      ],
+      "weaknesses": [
+        "当前主线规模较大，SOP、语音、团队、服务、渠道和多种 workspace 会提高学习成本；README 部分功能明确标为 Experimental。",
+        "BYPASS 按设计会跳过部分 ASK；不能因为引入了权限引擎就宣称所有模式都保留相同防护。",
+        "Agent._check_permission_impl 对已 ALLOWED 的工具调用直接返回允许；应用仍须在业务服务端检查身份、撤权、参数与事务，不能把框架确认当成永久业务授权。",
+        "MockModel 单测验证运行机制，不是某一业务上的任务成功率；序列化 AgentState 也不等于已经证明跨进程恢复后外部写操作不会重复。"
+      ],
+      "borrow": "先读 permission/_engine.py 和 tests/permission_engine_test.py，再读 agent 的工具生命周期与 agent_interrupt_test；按测试对照实现。",
+      "extend": "评估框架时分别核对许可模式、取消后工具状态、外部动作幂等、存储后端和真实任务评测。这里提供框架分析，不新增用户个人项目设计。",
+      "inspect_paths": [
+        "src/agentscope/permission/_engine.py",
+        "src/agentscope/agent/_agent.py",
+        "src/agentscope/state/_state.py",
+        "tests/permission_engine_test.py",
+        "tests/agent_interrupt_test.py",
+        ".github/workflows/unittest.yml"
+      ],
+      "source_findings": [
+        {
+          "path": "src/agentscope/permission/_engine.py",
+          "line_start": 117,
+          "line_end": 212,
+          "finding": "DEFAULT 按 deny→ask→只读→工具自身检查→allow→询问的顺序决策；安全 ASK 不被普通 allow 覆盖。",
+          "kind": "已读代码",
+          "url": "https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/src/agentscope/permission/_engine.py#L117-L212"
+        },
+        {
+          "path": "src/agentscope/permission/_engine.py",
+          "line_start": 395,
+          "line_end": 426,
+          "finding": "BYPASS 文档明确为充分信任模式，部分工具 ASK 被跳过；DONT_ASK 的语义不同。",
+          "kind": "模式边界",
+          "url": "https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/src/agentscope/permission/_engine.py#L395-L426"
+        },
+        {
+          "path": "src/agentscope/agent/_agent.py",
+          "line_start": 2407,
+          "line_end": 2424,
+          "finding": "工具调用已被用户确认而标为 ALLOWED 时直接返回 ALLOW；因此业务权限必须由应用层独立维持。未认定这是框架漏洞。",
+          "kind": "集成边界",
+          "url": "https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/src/agentscope/agent/_agent.py#L2407-L2424"
+        },
+        {
+          "path": "tests/permission_engine_test.py",
+          "line_start": 40,
+          "line_end": 66,
+          "finding": "为同工具同时加入 allow／deny，断言 DENY 优先。",
+          "kind": "测试材料",
+          "url": "https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/tests/permission_engine_test.py#L40-L66"
+        },
+        {
+          "path": "tests/agent_interrupt_test.py",
+          "line_start": 451,
+          "line_end": 518,
+          "finding": "通过 MockModel 和慢串行工具构造取消，检查 INTERRUPTED 回复及工具结果／上下文。",
+          "kind": "测试材料",
+          "url": "https://github.com/agentscope-ai/agentscope/blob/bdad647d2fee7d66597681ecd89e086b7800dd2a/tests/agent_interrupt_test.py#L451-L518"
+        }
+      ],
+      "tests_and_evaluation": [
+        "unittest.yml 在 Python 3.11 安装开发依赖，使用 coverage run -m pytest tests -v。",
+        "抽读权限优先级和工具取消测试；测试中存在平台条件／skip，不能假定各 OS 都有同样覆盖。",
+        "没有本次执行测试、模型调用、任务基准或跨进程故障注入；不转述任何准确率为实测。"
+      ],
+      "runtime_dependencies": [
+        "Python >=3.11；根 pyproject 列基础运行依赖和额外能力。",
+        "service 可选依赖 FastAPI／Uvicorn 等；SQL 存储 extra 含 SQLAlchemy／Alembic，具体异步数据库驱动由使用者选择。",
+        "Docker／远程沙箱、第三方记忆、真实模型 API 按选用能力另装另配；基础阅读与 MockModel 分析不要求付费模型。"
+      ],
+      "cost": "本次未调用模型。真实多轮工具与模型调用按供应商计费；远程沙箱、外部存储和服务也可能收费，不能把框架开源等同运行零成本。",
+      "recommended_for": [
+        "已有 Python／异步基础，想研究工具权限、事件和取消恢复的人",
+        "需要从框架实现和测试理解 Agent 工程的人"
+      ],
+      "not_recommended_for": [
+        "想靠部署框架冒充自己实现完整 Agent 平台的人",
+        "只为增加名词数量而启用所有多 Agent／语音／渠道能力的人"
+      ],
+      "candidate_links": [],
+      "interview_evidence_ids": [
+        "INT01",
+        "INT02",
+        "INT03",
+        "INT13",
+        "INT17"
+      ],
+      "interview_linkage": "仅做主题映射：循环、工具、权限、恢复、评价与复杂度必要性。未找到本次候选人以此固定项目获得大厂 Agent 实习／SSP 的可核验因果证据。",
+      "interview_questions": [
+        "已 ALLOWED 的工具调用在用户权限撤销后恢复，业务服务端如何处理？",
+        "task.cancel() 后工具结果、上下文与回复结束事件如何保持一致？",
+        "MockModel 单测通过和真实业务任务成功之间还缺哪些验证？"
+      ],
+      "commercial_bias": "组织维护的开源框架，存在关联模型／云／工具生态；按具体实现与测试评价，不把生态宣传当岗位要求。",
+      "license": "Apache-2.0",
+      "license_scope": "根 LICENSE 原样保留；可选远程模型／沙箱服务另有条款与费用。",
+      "commit": "bdad647d2fee7d66597681ecd89e086b7800dd2a",
+      "commit_date": "2026-10-23T08:07:34Z",
+      "default_branch": "main",
+      "source_archive": true,
+      "archive_file": "agentscope-ai__agentscope__bdad647d2fee.zip",
+      "archive_sha256": "e6896e9ee7ec7165628dcd025958b49f0548ef612f8768ff95691a42f9272cf8",
+      "run_status": "仅固定源码与部分测试静态阅读；未安装框架、调用模型或执行测试。",
+      "retrieved_date": "2026-10-23",
+      "category": "项目参考",
+      "source_urls": [
+        "https://github.com/agentscope-ai/agentscope",
+        "https://github.com/agentscope-ai/agentscope/tree/bdad647d2fee7d66597681ecd89e086b7800dd2a",
+        "https://api.github.com/repos/agentscope-ai/agentscope"
+      ],
+      "inspection_boundary": "仅固定源码与部分测试静态阅读；未安装框架、调用模型或执行测试。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。"
+    },
+    {
+      "id": "PRO12",
+      "title": "OpenManus：紧凑 Agent循环、工具调用与沙箱边界对照",
+      "repo": "FoundationAgents/OpenManus",
+      "url": "https://github.com/FoundationAgents/OpenManus",
+      "role": "Python通用Agent／执行与沙箱参考",
+      "recommendation": "适合与 AgentScope 对照阅读，理解较小实现的取舍；不宜只运行演示就当成熟业务 Agent。",
+      "stack": [
+        "Python 3.12（README）",
+        "Pydantic",
+        "OpenAI兼容模型接口",
+        "异步工具调用",
+        "MCP",
+        "browser-use／BrowserGym／Playwright",
+        "Docker沙箱",
+        "pytest／pytest-asyncio"
+      ],
+      "strengths": [
+        "BaseAgent、ToolCallAgent、Manus、工具集合和 sandbox 文件边界清楚，较容易沿一个任务读完整循环。",
+        "BaseAgent 有最大步数和重复输出检测；工具执行处理未知工具、JSON 参数错误与工具异常，能看到失效后如何返回观察。",
+        "DockerSandbox 包含内存／CPU／网络配置和清理；沙箱测试覆盖文件、执行、持久化、环境与清理，MCP 工具测试使用 fake 客户端。"
+      ],
+      "weaknesses": [
+        "is_stuck 依据相同 assistant 文本计数，处理方式是追加改变策略的提示；它不证明任务取得进展，也不保证成本收敛或业务正确。",
+        "所选 ToolCallAgent.execute_tool 是名称检查、JSON 解析和执行路径；此方法未实现业务授权、审批绑定、持久化幂等或结果查询，不能把错误字符串返回当可靠事务处理。",
+        "sandbox._safe_resolve_path 拒绝路径中的 '..' 段，但允许绝对路径；不能仅凭这个函数推断容器内所有文件访问均限在 workspace，或完成全面隔离审计。",
+        "tests/sandbox 的网络测试需要联网下载包，并固定断言 HTTP/2 200；存在环境依赖。所见 tests 主要验证沙箱／工具，没有发现可直接支撑通用任务成功率的完整冻结任务基准。"
+      ],
+      "borrow": "按 BaseAgent.run → ToolCallAgent.execute_tool → DockerSandbox → 对应测试顺序阅读，用它与更复杂框架比较状态、隔离和测试成本。",
+      "extend": "对照看最大步数、文本重复、任务进展和最终效果四者的差别；保持实现观察、方法风险与已复现实验分开。本次不设计个人项目。",
+      "inspect_paths": [
+        "app/agent/base.py",
+        "app/agent/toolcall.py",
+        "app/sandbox/core/sandbox.py",
+        "tests/sandbox/test_sandbox.py",
+        "tests/tools/test_browser_use_mcp.py",
+        "requirements.txt"
+      ],
+      "source_findings": [
+        {
+          "path": "app/agent/base.py",
+          "line_start": 116,
+          "line_end": 186,
+          "finding": "循环受 max_steps 控制；重复输出检测后追加提示。循环结束返回步骤文本，不自带独立业务终态 oracle。",
+          "kind": "已读代码",
+          "url": "https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/app/agent/base.py#L116-L186"
+        },
+        {
+          "path": "app/agent/toolcall.py",
+          "line_start": 174,
+          "line_end": 216,
+          "finding": "检查工具名、json.loads 参数、执行工具，并把解析或工具异常作为 Error 文本返回。",
+          "kind": "已读代码",
+          "url": "https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/app/agent/toolcall.py#L174-L216"
+        },
+        {
+          "path": "app/sandbox/core/sandbox.py",
+          "line_start": 59,
+          "line_end": 102,
+          "finding": "容器配置 memory_limit、cpu_quota、network_mode 和挂载；创建失败时 cleanup。",
+          "kind": "已读代码",
+          "url": "https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/app/sandbox/core/sandbox.py#L59-L102"
+        },
+        {
+          "path": "app/sandbox/core/sandbox.py",
+          "line_start": 232,
+          "line_end": 253,
+          "finding": "拒绝 '..' 路径段，绝对路径保留；该函数自身不是全沙箱安全证明。",
+          "kind": "隔离边界，未利用／未运行",
+          "url": "https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/app/sandbox/core/sandbox.py#L232-L253"
+        },
+        {
+          "path": "tests/sandbox/test_sandbox.py",
+          "line_start": 108,
+          "line_end": 137,
+          "finding": "网络测试执行包安装与外部请求，清理测试检查容器被移除；都需要实际 Docker／网络环境。",
+          "kind": "测试材料",
+          "url": "https://github.com/FoundationAgents/OpenManus/blob/3309bf4e416fb1c74b008f3e86494439a31bad53/tests/sandbox/test_sandbox.py#L108-L137"
+        }
+      ],
+      "tests_and_evaluation": [
+        "存在四个 sandbox 测试文件与 MCP browser 工具测试；已抽读 test_sandbox.py／test_browser_use_mcp.py。",
+        "requirements 包含 pytest 与 pytest-asyncio；浏览器需对应依赖／浏览器运行时，Docker 测试需守护进程。",
+        "未运行测试，没有复现文档演示或任何模型 benchmark；目录名 examples/benchmarks 不能直接当作完整评价体系。"
+      ],
+      "runtime_dependencies": [
+        "README 两条安装路径均以 Python 3.12 环境为示例；依赖见 requirements.txt，含模型、浏览器、MCP、Docker 等组件。",
+        "新版 browser-use 相关安装路线和 BrowserGym／Playwright 路线需按 README 区分；不要默认一个浏览器安装覆盖全部工具。",
+        "真实运行需自行配置模型访问，浏览器和搜索依赖网络；沙箱测试另需 Docker 镜像及适当网络。"
+      ],
+      "cost": "本次仅下载静态分析，无模型调用。真实多步 Agent 消耗模型 tokens，搜索／浏览器服务与容器有额外资源成本；没有据文档估算虚构单任务价格。",
+      "recommended_for": [
+        "想快速读懂一个相对紧凑 Agent运行循环的人",
+        "希望对照研究工具执行、沙箱和测试局限的人"
+      ],
+      "not_recommended_for": [
+        "需要已证明可靠的跨重启写操作系统却只打算运行默认 demo 的人",
+        "把通用 Agent 演示、star 或调用工具次数当 SSP 实力证明的人"
+      ],
+      "candidate_links": [],
+      "interview_evidence_ids": [
+        "INT02",
+        "INT03",
+        "INT13",
+        "INT17"
+      ],
+      "interview_linkage": "对应循环、工具、隔离、评价与功能必要性主题；本次未发现候选人凭此项目拿到目标岗位／SSP 的直接证据。",
+      "interview_questions": [
+        "文本不重复但一直无进展时，is_stuck 能发现吗？",
+        "工具发生外部副作用后响应丢失，Error 字符串足以确定是否重试吗？",
+        "路径校验、容器网络、挂载和业务权限分别保证什么？"
+      ],
+      "commercial_bias": "社区开源通用 Agent；模型／搜索等供应商服务独立计费。不采信演示作为生产可靠性证明。",
+      "license": "MIT",
+      "license_scope": "根 MIT LICENSE 原样保留；外部模型、浏览器和数据服务条款另查。",
+      "commit": "3309bf4e416fb1c74b008f3e86494439a31bad53",
+      "commit_date": "2026-08-16T10:29:11Z",
+      "default_branch": "main",
+      "source_archive": true,
+      "archive_file": "FoundationAgents__OpenManus__3309bf4e416f.zip",
+      "archive_sha256": "280b5a708fae8efd68dd8fe4f96d95ab900bc7265fa9d733e122df0340ec3b76",
+      "run_status": "未启动 Agent、未执行 shell／浏览器工具、Docker 或测试。",
+      "retrieved_date": "2026-10-23",
+      "category": "项目参考",
+      "source_urls": [
+        "https://github.com/FoundationAgents/OpenManus",
+        "https://github.com/FoundationAgents/OpenManus/tree/3309bf4e416fb1c74b008f3e86494439a31bad53",
+        "https://api.github.com/repos/FoundationAgents/OpenManus"
+      ],
+      "inspection_boundary": "未启动 Agent、未执行 shell／浏览器工具、Docker 或测试。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。"
+    },
+    {
+      "id": "PRO13",
+      "title": "Hello-Agents：评测方法与教材代码参考，整库不归档",
+      "repo": "datawhalechina/hello-agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "role": "Agent教材／评测样例",
+      "recommendation": "推荐补课与核对 BFCL／GAIA／LLM Judge 方法；不把教材示例或共创项目数量当成熟个人作品。",
+      "stack": [
+        "Python",
+        "hello-agents评测extra",
+        "BFCL",
+        "GAIA",
+        "LLM Judge",
+        "数据生成／Win Rate",
+        "部分章节FastAPI／研究助手"
+      ],
+      "strengths": [
+        "中文教程把记忆、检索、上下文、协议与评测分章，并给出可定位代码，比只有概念名词更适合建立学习索引。",
+        "chapter12 将数据集加载、执行、结果导出以及官方 BFCL 命令拆开，可用于理解不同评估步骤和依赖。",
+        "README／子章节明确有示例性质，能拿来学习如何区分预期输出、作者材料和自己实测。"
+      ],
+      "weaknesses": [
+        "这是课程与共创仓库，不是一个统一部署／统一测试的成品系统；不能把不同作者项目的功能合并声称成一个已经验证的平台。",
+        "03_bfcl_custom_evaluation.py 默认只跑 5 个样本；README 的 5/5、100% 标为预期输出，不是本次实测，也不足以代表 BFCL 全集。",
+        "chapter12 README 安装 hello-agents[evaluation]==0.2.3，而 chapter14 研究助手 pyproject 固定 hello-agents==0.2.9；不同章节需隔离环境，不能假定同一依赖版本通吃。",
+        "04_run_bfcl_evaluation 会调用外部 bfcl evaluate，并需要数据／工具安装；固定源码没有自动把官方数据许可、模型访问与复现环境全部附带。",
+        "顶层许可为 CC BY-NC-SA 4.0，部分子目录另有 MIT 等声明；体量和混合许可需按目录看，不按 GitHub API 的 NOASSERTION 猜测无许可。"
+      ],
+      "borrow": "优先查第十二章的评测概念、代码入口和依赖，再按自己欠缺的章节阅读；把原作者输出与自己的结果分开。",
+      "extend": "评价教程时核对模型／数据版本、实际样本量、官方评分与自定义评分区别；不要把 template_output 或预期输出当外部认证成绩。",
+      "inspect_paths": [
+        "LICENSE.txt",
+        "code/chapter12/README.md",
+        "code/chapter12/03_bfcl_custom_evaluation.py",
+        "code/chapter12/04_run_bfcl_evaluation.py",
+        "code/chapter12/08_data_generation_llm_judge.py",
+        "code/chapter14/helloagents-deepresearch/backend/pyproject.toml"
+      ],
+      "source_findings": [
+        {
+          "path": "code/chapter12/03_bfcl_custom_evaluation.py",
+          "line_start": 17,
+          "line_end": 35,
+          "finding": "加载 simple_python 类别并以 max_samples=5 演示自定义评估。",
+          "kind": "已读代码",
+          "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/03_bfcl_custom_evaluation.py#L17-L35"
+        },
+        {
+          "path": "code/chapter12/README.md",
+          "line_start": 53,
+          "line_end": 65,
+          "finding": "快速开始的 100%／5/5 被作者标为预期输出，不能拿来证明实际性能。",
+          "kind": "证据口径",
+          "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/README.md#L53-L65"
+        },
+        {
+          "path": "code/chapter12/04_run_bfcl_evaluation.py",
+          "line_start": 165,
+          "line_end": 209,
+          "finding": "用 subprocess 调用 bfcl evaluate --partial-eval，并处理命令缺失／非零退出；需额外安装 BFCL 环境。",
+          "kind": "已读代码",
+          "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter12/04_run_bfcl_evaluation.py#L165-L209"
+        },
+        {
+          "path": "code/chapter14/helloagents-deepresearch/backend/pyproject.toml",
+          "line_start": 9,
+          "line_end": 20,
+          "finding": "子项目声明 MIT、Python >=3.10、hello-agents==0.2.9 及 FastAPI／Tavily／OpenAI 等依赖，说明章节间环境和许可应分开核对。",
+          "kind": "依赖／许可范围",
+          "url": "https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/code/chapter14/helloagents-deepresearch/backend/pyproject.toml#L9-L20"
+        }
+      ],
+      "tests_and_evaluation": [
+        "已读 chapter12 README、自定义 BFCL 样例、调用官方评估脚本和 LLM Judge 示例；是评测入口材料，不是本次运行记录。",
+        "共创目录含各自 tests，但本次未统一审查或执行其全部代码，不把它们计为整库统一质量证据。",
+        "未下载完整 BFCL／GAIA 数据、未访问需要授权的数据集、未调用模型或裁判。"
+      ],
+      "runtime_dependencies": [
+        "chapter12 README 推荐 hello-agents[evaluation]==0.2.3；BFCL 数据与 bfcl-eval 需另行取得并核对版本。",
+        "部分 GAIA 数据访问需 Hugging Face 授权；真实模型和 Judge 另需供应商访问。",
+        "chapter14 研究助手是不同子项目，Python >=3.10，使用 hello-agents 0.2.9、FastAPI 与搜索供应商依赖。"
+      ],
+      "cost": "本次只读公开原文／指定源码。真实生成、Agent执行和 LLM Judge 会消耗模型预算；Tavily 等搜索可能另收费，未发起任何付费调用。",
+      "recommended_for": [
+        "需要系统补 Agent 原理和评价方法的 Python 学习者",
+        "已有项目但缺评测知识的人"
+      ],
+      "not_recommended_for": [
+        "希望直接把教材输出、共创别人的项目或 5 题示例写成自己成果的人",
+        "希望一个环境直接启动整本教程所有项目的人"
+      ],
+      "candidate_links": [],
+      "interview_evidence_ids": [
+        "INT01",
+        "INT05",
+        "INT13",
+        "INT17"
+      ],
+      "interview_linkage": "主题映射为评测集、指标依据、功能必要性；未找到本次候选人因 Hello-Agents 获得目标岗位／SSP 的直接证据。",
+      "interview_questions": [
+        "5 题 simple_python 正确能否代表真实多轮任务成功？为什么？",
+        "自定义匹配评分、官方 BFCL 评分和业务结果 oracle 有什么区别？",
+        "Judge 的偏差、重复试验和数据泄漏如何影响结果解释？"
+      ],
+      "commercial_bias": "Datawhale 社区课程／共创内容；章节引用外部框架和服务，单独检查来源与条款。",
+      "license": "CC-BY-NC-SA-4.0（顶层）；部分子目录另有声明",
+      "license_scope": "已读取固定 commit 的 LICENSE.txt 和 README 许可段；不将顶层 CC 许可概括为全部子项目软件同许可。",
+      "commit": "36f583c233ea5cee4537ef93455702b55053af18",
+      "commit_date": "2026-10-13T22:28:54Z",
+      "default_branch": "main",
+      "source_archive": false,
+      "archive_file": null,
+      "archive_sha256": null,
+      "archive_omission_reason": "递归 Git tree 未截断，2,607 个文件合计约 195 MB；为避免把大量教材图片／共创项目和不同许可材料混装，本轮只提供固定 commit 的官方源码链接及已读路径。并非因为没有许可证。",
+      "run_status": "未整库下载；指定原文与源码通过固定 commit 的 raw.githubusercontent.com 阅读。未运行代码或评测。",
+      "retrieved_date": "2026-10-23",
+      "category": "项目参考",
+      "source_urls": [
+        "https://github.com/datawhalechina/hello-agents",
+        "https://github.com/datawhalechina/hello-agents/tree/36f583c233ea5cee4537ef93455702b55053af18",
+        "https://api.github.com/repos/datawhalechina/hello-agents"
+      ],
+      "inspection_boundary": "未整库下载；指定原文与源码通过固定 commit 的 raw.githubusercontent.com 阅读。未运行代码或评测。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。"
+    }
+  ]
+}

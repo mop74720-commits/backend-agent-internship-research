@@ -1,0 +1,224 @@
+CV14 | mio4：历史Java后端SP/SSP自述、本人实习面经与综合笔记
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32
+作者：
+  mio4
+事件时间／原文日期（依分类）：
+  2019-01百度智能云后端实习；2019提前批/校招总结
+方向与岗位：
+  Java后端准备路线；历史校招与实习复盘
+结果自述：
+  新独立成功者自述：SSP文字明确；具体公司未披露
+evidence_excerpt：
+  将自己大三一年时间从0开始准备到校招拿到大厂sp、ssp的经历进行了总结
+录用证据边界：
+  正文仅称两家AI独角兽sp | ssp，未逐家明确；百度、字节等offer不能自动标记SSP。
+资料形式：
+  本人校招复盘与综合笔记；非完整简历或逐轮SSP原稿
+技术栈：
+  - Java
+  - JVM
+  - Spring
+  - MySQL
+  - Redis
+  - RabbitMQ
+  - 操作系统
+  - 网络
+本人项目与经历描述：
+  - 作者选择课程项目复现，未确认个人求职业务成品仓库；不能将学习笔记算原创生产系统
+project_relationship：
+  source：
+    https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md#L200-L210
+  quote：
+    我的操作是直接使用网课，比如慕课
+  观察：
+    作者称从课程选择项目并复现，作为补齐技术栈的方法；未在该段公开明确个人成品项目仓库名。
+  same_account_repository_metadata：
+    用户仓库API列出Java-Gold、learn-java、Leetcode、mio4、mio4.github.io和Solidity；它们的账号关系不自动证明某个就是简历上的求职业务项目。
+  archive_status：
+    未新增本人业务项目源码包；learn-java是学习与笔记仓库，不能包装成完整原创生产项目。
+静态阅读发现：
+  - type：
+      原仓历史README项目自述与入口
+    原始来源：
+      https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32-L38
+    观察：
+      同一作者介绍自己2019秋招准备、实习及进入职场经历；现行README删减了这段，不能仅用当前README关键词判断是否存在。
+  - type：
+      原仓历史校招总结
+    原始来源：
+      https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md
+    line_count：
+      260
+    reading_scope：
+      完整获取，核读方向选择、实习、SP/SSP表述、项目准备和面经入口段
+    观察：
+      明确选择Java后端准备；2019.1百度智能云后端实习；记录2019提前批及2020.5补充。
+  - type：
+      本文人面经归属直接陈述
+    原始来源：
+      https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md#L242-L246
+    quote：
+      我的个人面经总结：https://github.com/mio4/learn-java/blob/master/Note/interview.md
+    观察：
+      同一作者明确将求职总结与mio4/learn-java笔记联系起来；属于混合个人面试经历的复习汇编，不逐条假定原始考题。
+  - type：
+      同账号固定面试笔记
+    仓库：
+      mio4/learn-java
+    固定源码提交：
+      7492919fc37b59aac17ceaf9df9830f8cc3d9184
+    源码提交时间：
+      2021-11-22T09:07:19Z
+    path：
+      Note/interview.md
+    原始来源：
+      https://github.com/mio4/learn-java/blob/7492919fc37b59aac17ceaf9df9830f8cc3d9184/Note/interview.md
+    line_count：
+      7068
+    reading_scope：
+      完整获取，核读目录及指定章节定位；没有逐条审定全部技术答案
+    观察：
+      包含Java、JVM、OS、网络、SQL、Spring、Redis、RabbitMQ及实习总结。篇幅、答案和覆盖率均不能替代企业验证。
+关联原文：
+  https://www.nowcoder.com/discuss/353154814064402432
+值得学习之处：
+  - 从原作者历史版本核到SSP声明，不把fork当新成功者
+  - 本人明确链接面试笔记，可按基础和实习章节拆读
+建议用途：
+  新增Java方向成功自述案例，可对照基础→实习→课程项目→面试笔记的准备链；特别适合说明成功者不必拥有名词繁多的个人项目，但其经历不能证明只复现课程即可获SSP。
+局限：
+  - 公司/档位未逐一对应
+  - SSP与实习结果均为作者自述
+  - 没有明确本人求职项目源码闭环
+  - 综合笔记含整理材料，不等于全部问题均在本人面试出现
+  - 牛客正文访问不稳定（正常URL本次可读，sourceSSR变体本次缺正文）；此前“不可读”的访问判断已修正
+  - 历史市场、背景和面试差异不可控制
+证据边界：
+  B：本人公开自述；公司与档位未逐家对应，未获企业核验
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    混合
+  事件时间：
+    2019-01百度智能云后端实习；2019提前批/校招总结
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    原文明确实习月与2019提前批；2020.5为补充时间
+  来源日期：
+    2020.5 update
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按source_findings已读范围归类；全文仅指该篇已定位公开正文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      两家AI独角兽（未点名）
+    档位：
+      未逐公司对应：SP/SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32
+    依据：
+      正文仅称两家AI独角兽sp | ssp，未逐家明确；百度、字节等offer不能自动标记SSP。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+  - 公司：
+      百度/字节等
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32
+    依据：
+      正文仅称两家AI独角兽sp | ssp，未逐家明确；百度、字节等offer不能自动标记SSP。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  2020.5 update
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32
+      direct_basis：
+        正文仅称两家AI独角兽sp | ssp，未逐家明确；百度、字节等offer不能自动标记SSP。
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/README.md#L32
+      direct_basis：
+        本人校招复盘与综合笔记；非完整简历或逐轮SSP原稿
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://github.com/mio4/Java-Gold/blob/b3f0759b2f695c2ce17a8b878d745bfe128117a6/01-campus/2019-campus-interview.md#L200-L210
+      direct_basis：
+        作者称从课程选择项目并复现，作为补齐技术栈的方法；未在该段公开明确个人成品项目仓库名。
+      直接关系：
+        直接点名
+      gap：
+        没有明确本人业务项目成品仓库；学习笔记不作生产系统
+  interview：
+    - 原始来源：
+        https://www.nowcoder.com/discuss/353154814064402432
+      direct_basis：
+        mio4：四家公司本人实习面经与综合面试笔记
+      直接关系：
+        直接点名
+      gap：
+        牛客本人实习面经可读；7068行综合笔记非全部原题，未逐条审定
+      interview_id：
+        INT59
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 没有明确本人业务项目成品仓库；学习笔记不作生产系统
+  - 牛客本人实习面经可读；7068行综合笔记非全部原题，未逐条审定
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  否
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

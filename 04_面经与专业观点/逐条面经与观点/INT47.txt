@@ -1,0 +1,128 @@
+INT47 | 小红书大模型平台 Agentic 全栈研发练习生 一面凉经
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=search
+公司：
+  小红书
+事件时间／原文日期（依分类）：
+  2026-08-06面试
+方向与岗位：
+  大模型平台Agentic全栈研发实习/练习生
+round：
+  一面
+role_boundary：
+  正文明确实习及转正讨论；是全栈平台方向，不能外推为纯Java后端或模型研究岗
+结果自述：
+  作者自述一面后未通过
+涉及主题：
+  - 项目深挖/个人贡献
+  - Agent循环/工具
+  - 安全/权限
+  - 记忆/上下文
+  - 系统设计/取舍
+  - 数据库/缓存
+  - 编程语言/并发
+原文提问（归纳）：
+  - 项目解决谁的研发问题，写操作边界与Harness职责如何划分？
+  - 模糊query如何识别，Skill何时加载，不同模型的行为如何保持可接受？
+  - 如何从SQLite原型扩到数千用户；自研编排与LangGraph图结构怎样解释？
+内容归纳：
+  同时检查Agent架构、容量、个人贡献与Java/MySQL基础，保留了具体没答好的地方。
+建议用途：
+  最高优先：观察平台Agent实习如何从功能追到规模和基础能力。
+局限：
+  - 关于团队转正机会的交流是当时作者转述，不作当前HC承诺。
+  - 没有项目代码或真实调用数据可复核，未通过原因不能归结为单一知识点。
+source_project_description：
+  自述研发Agent、编排层和SQLite存储，未提供仓库。
+统计组：
+  明确实习面经
+原访问范围：
+  原文正文全文已读（公开HTTP/SSR）
+outcome_status：
+  failure_self_report
+author_group：
+  nowcoder_暴龙战士6657
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）；本卡为原创提炼
+证据边界：
+  B：原文已读，经历、作答与结果未经企业侧独立验证
+source_project_links：
+  —
+ssp_status：
+  原文未明确SSP，不计SSP成功样本
+reading_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+商业与选择偏差：
+  已读正文未见直接售课；不代表作者身份与动机已获验证
+independence_note：
+  一篇原文；多轮不增加独立候选人数
+fulltext_verified：
+  是
+read_method：
+  逐条打开原文；网页正文不可读时读取同一公开原站URL的SSR正文；搜索摘要/聚合仓库仅用于发现
+verification_notes：
+  已实际读取原文文字正文；搜索摘要和聚合索引仅用作发现。全文指该篇公开正文，不代表完整面试录音、答案、项目代码或企业验证。
+类别：
+  面经复盘
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    2026-08-06面试
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    正文明确完整年月日
+  来源日期：
+    08-07编辑；正文2026-08-06
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    原文正文全文已读（公开HTTP/SSR）
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      小红书
+    档位：
+      未披露
+    状态：
+      failure_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=search
+    依据：
+      作者自述一面后未通过
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  08-07编辑；正文2026-08-06
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+结果分类：
+  failure_self_report
+related_record_ids：
+  —

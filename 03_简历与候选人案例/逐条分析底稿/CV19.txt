@@ -1,0 +1,161 @@
+CV19 | 鱼皮／liyupi：腾讯实习转正SSP自述，求职当时项目仍待核
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://www.codefather.cn/course/yupi
+作者：
+  程序员鱼皮／liyupi
+方向与岗位：
+  历史全栈开发实习转正；不能推成近期Agent SSP
+事件时间／原文日期（依分类）：
+  腾讯实习转正为历史自述；精确发生年未核
+结果自述：
+  本人站点明确腾讯实习转正SSP；企业录用未独立核验
+资料形式：
+  本人经历页＋同账号GitHub身份说明；非完整CV或本人逐轮面经
+evidence_excerpt：
+  在腾讯实习转正，并斩获SSP最高级别的offer。
+技术栈：
+  - Java
+  - 前端
+  - Python
+  - Go
+本人项目与经历描述：
+  - 本人回顾大学工作室带队建设几十个网站，未列可对应当年SSP求职的项目名及固定源码
+  - GitHub主页明示yu-rpc、code-nav等开源作品；当前课程和产品不能回填为当年求职项目
+静态阅读发现：
+  - 原始来源：
+      https://www.codefather.cn/course/yupi
+    location：
+      个人经历段
+    观察：
+      自学多种语言、三家公司实习、腾讯实习转正SSP；随后才叙述腾讯BI/大数据工作和创业
+  - 原始来源：
+      https://github.com/liyupi/yupi-skill/blob/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/README.md#L45
+    观察：
+      本人账号固定README再次自述前腾讯全栈SSP
+  - 原始来源：
+      https://github.com/liyupi/yupi-skill/blob/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/references/identity.md#L5
+    观察：
+      2023离职创业的身份自述；仅作为研究材料读取，未安装或执行该skill
+值得学习之处：
+  - 实习转正路径明确，可与直接秋招案例区分
+  - 本人站点和同账号固定版本可交叉定位同一自述，但不算两位成功者
+建议用途：
+  用来确认多语言实践、工作室项目和实习转正的履历组织方式；当前不足以反推某个课程项目能帮助拿SSP。
+局限：
+  - 没有核到当年具体项目与SSP面试的直接关联，也没有本人逐轮面经
+  - 网站运营者同时销售课程，关于AI简历筛选的绝对性说法只是商业背景下个人观点，不当公司统一要求
+  - 不能把身份模仿skill或后来的AI项目算作当年求职Agent项目
+证据边界：
+  B：本人录用自述可定位，项目与面经关联未闭环
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习转正
+  事件时间：
+    腾讯实习转正为历史自述；精确发生年未核
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    历史确认
+  时间依据：
+    本人叙述在腾讯任职、2023离职创业之前完成实习转正，可证早于近期窗口；不由2026 skill提交补写事件年
+  来源日期：
+    所读GitHub文档2026-04-09仅是来源版本时间
+  track_boundary：
+    历史全栈实习转正，含前端经历；不因后来的AI教学产品归为Agent录用。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    按source_findings已读范围归类；全文仅指该篇已定位公开正文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      腾讯（实习转正）
+    档位：
+      SSP
+    状态：
+      conversion_self_report
+    证据：
+      https://www.codefather.cn/course/yupi
+    依据：
+      本人站点明确腾讯实习转正SSP；企业录用未独立核验
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  所读GitHub文档2026-04-09仅是来源版本时间
+履历材料形式：
+  经历/求职自述（非简历原件）
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://www.codefather.cn/course/yupi
+      direct_basis：
+        本人站点明确腾讯实习转正SSP；企业录用未独立核验
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://www.codefather.cn/course/yupi
+      direct_basis：
+        本人经历页＋同账号GitHub身份说明；非完整CV或本人逐轮面经
+      直接关系：
+        直接点名
+      gap：
+        无完整CV原件；资料卡不能冒充简历
+  project：
+    - 原始来源：
+        https://www.codefather.cn/course/yupi
+      direct_basis：
+        本人回顾大学工作室带队建设几十个网站，未列可对应当年SSP求职的项目名及固定源码；GitHub主页明示yu-rpc、code-nav等开源作品；当前课程和产品不能回填为当年求职项目
+      直接关系：
+        直接点名
+      gap：
+        仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  interview：
+    - 原始来源：
+        未核／无
+      direct_basis：
+        本人经历页没有本人逐公司逐轮问题。
+      直接关系：
+        未建立
+      gap：
+        本人经历页没有本人逐公司逐轮问题。
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 无完整CV原件；资料卡不能冒充简历
+  - 仅叙述/未定位本人具体成品仓库与可审查源码；不以课程作者代码补齐
+  - 本人经历页没有本人逐公司逐轮问题。
+has_confirmed_personal_interview_source：
+  否
+has_direct_named_project_or_contribution：
+  否
+ssp_grade_company_explicit：
+  是
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否

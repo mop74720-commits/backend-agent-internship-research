@@ -1,0 +1,141 @@
+OP16 | 百度Comate公开演讲：反馈、工具恢复与评测取舍
+
+需求核对版 · 2026-10-24
+
+source_key：
+  BAIDU_COMATE_QCON_PRIMARY_ENGINEERING
+类别：
+  专业原文补充
+原始来源：
+  https://www.infoq.cn/article/l7BXlstUWDOBwI30miJU
+作者：
+  牛万鹏；InfoQ编辑整理
+平台：
+  InfoQ／QCon原始演讲实录（平台外）
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    专业演讲，非招聘事件
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  来源日期：
+    2026-06-11（页面发表时间）；大会2026-04-16至18日，未据此补具体演讲日
+  时间依据：
+    文章发表与会议日期另列，不作为求职事件年
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    实际选读实录L58—137的文字：框架变化、Feedback Loop、Benchmark与验证交付；未阅读全文尾部、图片细字或观看视频
+  实际观看视频：
+    否
+platform_native_fulltext_verified：
+  否
+verified_video_viewing：
+  否
+具体观点与适用边界：
+  按模型分别观察工具失败、自愈和调用轮次，定位框架适配问题。；比较单题变化及结果/效率的异常组合，避免总分掩盖回退。；按需加载工具描述，并用失败后的工具衔接改善恢复。
+作者身份依据：
+  QCon主办方讲师页和议题页直接标明百度文心快码研发经理及智能体负责人；不是依据转载署名推定从业身份。
+商业与选择偏差：
+  QCon为商业会议，原文属于主办方内容并介绍百度自家产品；未核其他赞助关系，效果未复现。
+局限：
+  - LLM判分仍需人工校准和可验证结果；实录的乐观经验不作无偏保证。对照DOC02、OP15；不将单一团队权重、节省幅度或版本偏好当统一标准。
+  - 不是招聘JD、本人求职面经或录用证据，不从团队实践推导实习或SSP硬门槛。
+  - 未找到可确认对应的B站原视频；不计B站观看、字幕读取或知乎本体全文。
+阅读建议：
+  与DOC02、OP15及PRO24/25对读评分和恢复；具体对照另见本轮比较表。
+source_record：
+  资料ID：
+    OP16
+  source_key：
+    BAIDU_COMATE_QCON_PRIMARY_ENGINEERING
+  标题：
+    百度Comate公开演讲：反馈、工具恢复与评测取舍
+  原始来源：
+    https://www.infoq.cn/article/l7BXlstUWDOBwI30miJU
+  作者：
+    牛万鹏；InfoQ编辑整理
+  published_date：
+    2026-06-11（页面发表时间）；大会2026-04-16至18日，未据此补具体演讲日
+  identity_url：
+    https://qcon.infoq.cn/2026/beijing/speaker/10191
+  presentation_url：
+    https://qcon.infoq.cn/2026/beijing/presentation/6939
+  identity_basis：
+    QCon主办方讲师页和议题页直接标明百度文心快码研发经理及智能体负责人；不是依据转载署名推定从业身份。
+  reading_scope：
+    实际选读实录L58—137的文字：框架变化、Feedback Loop、Benchmark与验证交付；未阅读全文尾部、图片细字或观看视频
+  source_type：
+    主办方发布的本人公开演讲编辑实录；平台外原始专业材料
+  points：
+    - 按模型分别观察工具失败、自愈和调用轮次，定位框架适配问题。
+    - 比较单题变化及结果/效率的异常组合，避免总分掩盖回退。
+    - 按需加载工具描述，并用失败后的工具衔接改善恢复。
+  qualification：
+    LLM判分仍需人工校准和可验证结果；实录的乐观经验不作无偏保证。对照DOC02、OP15；不将单一团队权重、节省幅度或版本偏好当统一标准。
+  商业背景：
+    QCon为商业会议，原文属于主办方内容并介绍百度自家产品；未核其他赞助关系，效果未复现。
+  recruitment_boundary：
+    不是招聘JD、本人求职面经或录用证据，不从团队实践推导实习或SSP硬门槛。
+  platform_boundary：
+    未找到可确认对应的B站原视频；不计B站观看、字幕读取或知乎本体全文。
+  raw_fulltext_archived：
+    否
+cross_comparisons：
+  - topic：
+      结果正确性与评分器可信度
+    evidence_ids：
+      - OP16
+      - DOC02
+      - OP15
+      - PRO24
+    primary_locator：
+      Comate实录L115—121；Anthropic Model-based graders L127—149、Coding agents L178—218；Linear原稿既有选读段
+    观察：
+      选择适合任务的代码检查、状态检查和模型评分，模型评分需校准；工具调用少或输出关键词命中，不能单独证明完成任务。
+    project_reading：
+      Sprout examples/benchmark.py L91—164的正则/关键词打分只支持文本特征；已有mock测试主要支持控制流。
+    阅读建议：
+      将Sprout保留为编排机制选读和评测反例，不提升为成熟成品；不新增必须运行第三方项目的要求。
+  - topic：
+      工具失败恢复及可观测性
+    evidence_ids：
+      - OP16
+      - INT84
+      - PRO24
+      - PRO25
+    primary_locator：
+      Comate实录L89—95、L123—127；INT84第6/7/12/13/14问
+    观察：
+      分别核失败发生在哪一步、恢复是否有效、是否可能重复副作用；日志数量和重试次数不足以证明恢复正确。
+    project_reading：
+      对照Sprout重拆与NoWorries macOS静默成功后回退执行的静态风险；后者可能重复执行，尚未运行复现。
+    阅读建议：
+      阅读执行器、状态事件和恢复路径，明确进程内重试与持久化续跑的区别；这些只是主题对应，不是INT84作者做过的项目。
+  - topic：
+      上下文与工具按需发现
+    evidence_ids：
+      - OP16
+      - OP15
+      - CV07
+      - INT82
+    primary_locator：
+      Comate实录L99—104；Linear既有按需技能选读；CV07/INT82直接描述的网关与工具问题
+    观察：
+      先说明任务和工具选择，再判断按需发现是否改善上下文与成本；MCP和Skill不能仅按名称判高低。
+    project_reading：
+      CV07本人描述Higress工具检索，但账号与具体PR归属仍未闭合；不得把框架或其他人的代码作为其贡献。
+    阅读建议：
+      用于比较工具规模、发现机制与代价；不照抄单个团队的节省比例，也不据此宣称SSP门槛。
+逐项结果与档位：
+  —

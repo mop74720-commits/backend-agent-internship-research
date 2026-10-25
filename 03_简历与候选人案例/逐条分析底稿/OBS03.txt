@@ -1,0 +1,72 @@
+OBS03 | 大模型SSP自述但项目仍为hello world：避免按录用标签盲荐
+
+原文链接：
+https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/README.md#L1
+
+公开作者：
+cotsaaaaa-hash
+
+日期与确定性：
+{
+  "explicit_year": "README开头明确写在2026年的今天；该commit时间2026-01-26",
+  "repository_created_at": "2026-01-26T14:27:38Z",
+  "commit_date": "2026-01-26T15:41:28Z",
+  "recruitment_type": "自述应届生；未给届别、实习/秋招批次和offer日期",
+  "direction": "大模型算法；谈及模型结构、SFT、强化学习",
+  "agent_role_confirmed": false,
+  "companies": [],
+  "unknowns": "具体公司、岗位名称、档位定义、薪酬、offer数量及录用材料均未给出。不能把2026文字直接换成2026届或2026年发放offer。"
+}
+
+岗位方向：
+LLM算法弱线索；非已确认Agent岗位
+
+结果口径（自述）：
+作者明确第一人称自述若干SSP；无企业独立核验
+
+短摘录：
+作为应届生，我对此感同身受。在经历了100多场算法岗面试后，我也拿到了若干ssp的offer。
+
+可见材料摘要：
+SSP自述与项目介绍在同一仓库同一README；作者文字顺序是面试之后反思并写项目，不能当作此前凭该项目获得SSP。
+
+固定版本源码证据：
+[
+  {
+    "path": "1-qwen_inference/inference.py",
+    "url": "https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/1-qwen_inference/inference.py#L1",
+    "line_start": 1,
+    "line_end": 6,
+    "finding": "固定版本仅import torch、空行和print hello world，没有Qwen推理或模型结构实现。"
+  },
+  {
+    "path": "models/download.py",
+    "url": "https://github.com/cotsaaaaa-hash/Disassemble_the_black_box_1/blob/8cba5518918e1a7ef7cd80e8052e2642c4b7ca45/models/download.py#L4",
+    "line_start": 4,
+    "line_end": 36,
+    "finding": "Hugging Face snapshot_download封装，示例模型为facebook/opt-125m；不是README承诺的Qwen完整拆解。"
+  }
+]
+
+推荐理由：
+不推荐作为用户所需的非toy Agent或成熟后端项目；仅保留为项目承诺必须用代码核验的反例。
+
+限制：
+[
+  "SSP结果只有匿名公开账号的第一人称陈述，无法独立认证。",
+  "没有原始CV、具体公司面经或可对应SSP的项目材料。",
+  "静态读取未执行代码、未下载模型；未读图片或视频。",
+  "仓库无检测到的许可证，未复制或再分发项目源码。"
+]
+
+实际访问范围：
+固定README和两个源码文件已读；未运行/下载模型，不归档无明确许可仓库
+
+证据边界：
+B-：原文SSP自述与代码存在性可核对；身份、经历和录用结果未独立验证；不构成成熟项目案例
+
+category：
+候选人对照
+
+retrieved_at：
+2026-10-23

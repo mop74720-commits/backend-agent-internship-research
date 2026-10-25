@@ -1,0 +1,127 @@
+INT25 | 京东-京东零售-jdy- java实习-一面凉经
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://ac.nowcoder.com/discuss/1535507?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+canonical_url：
+  https://ac.nowcoder.com/discuss/1535507
+公司：
+  京东
+team：
+  京东零售，原帖称jdy
+方向与岗位：
+  Java实习
+事件时间／原文日期（依分类）：
+  面试日期未写；四天后自述失败，年未单独确认
+date_certainty：
+  发布日期明确，不能把发布日期直接当面试日
+rounds：
+  - 一面，约45分钟
+结果自述：
+  作者自述四天后未通过
+涉及主题：
+  - 项目深挖/个人贡献
+  - 网关/限流
+  - 线程池/OOM
+  - 监控/链路追踪
+  - AOP
+  - 分布式锁选型
+  - 事务
+原文提问（归纳）：
+  - 突发流量时，限流精度与系统开销怎样平衡？
+  - 线程池参数考虑了哪些资源约束，任务堆积导致内存问题时如何定位？
+  - 每段业务链路能否观测，锁注解有哪些参数、粒度和替代方案？
+内容归纳：
+  最值得优先读的失败样本之一。面试沿简历不断追问证据：发现故障、定位故障、观测覆盖及选型取舍，比背参数更接近实际工程。
+borrowable_points：
+  - 将监控指标落实到业务链路中的具体步骤。
+  - 解释锁粒度和MySQL、Redis、ZooKeeper方案的取舍。
+weaknesses_and_limits：
+  - 作者关于面试官‘应该想问什么’是事后推测，单独区分。
+  - 帖中没有监控截图、代码和压测数据，不能据此验证作者实现。
+统计组：
+  明确实习面经
+role_boundary：
+  实习一面失败；不代表京东所有团队的标准
+candidate_group：
+  SUP_BACKEND_C06
+public_project_repositories：
+  —
+repository_relationship：
+  涉及实习与第二项目，未给候选人本人仓库。
+ssp_status：
+  未声称SSP
+source_line_range：
+  原页面正文第15–80行
+原访问范围：
+  已打开原文并读取正文具体问题；动态页后续可不稳定
+fulltext_verified：
+  是
+证据边界：
+  B：候选人第一人称公开自述；未独立验证面试、身份或录用结果
+retrieved_at：
+  2026-10-23
+evidence_type：
+  候选人第一人称公开自述（未经独立验证）
+建议用途：
+  理解考核主题、项目自测与反向复盘；不作为标准答案或录用保证
+类别：
+  面经复盘
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    面试日期未写；四天后自述失败，年未单独确认
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    原记录未给可确认的事件年
+  来源日期：
+    2025-08-15发布
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    已打开原文并读取正文具体问题；动态页后续可不稳定
+  legacy_fulltext_verified：
+    是
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      京东
+    档位：
+      未披露
+    状态：
+      failure_self_report
+    证据：
+      https://ac.nowcoder.com/discuss/1535507?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0
+    依据：
+      作者自述四天后未通过
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+发表／来源日期：
+  2025-08-15发布
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  是
+结果分类：
+  failure_self_report
+related_record_ids：
+  —

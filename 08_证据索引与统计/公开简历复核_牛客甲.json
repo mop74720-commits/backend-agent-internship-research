@@ -1,0 +1,363 @@
+{
+  "generated_on": "2026-10-24",
+  "scope": "既有CV03/CV04/CV07/CV08/CV09/CV17/CV21公开专业简历PNG/PDF原件复核；用户明确不要额外脱敏",
+  "method": [
+    "原文正文容器内的图片、页面公开数据中的imgMoment与附件直链先查，不能以推荐区、头像、表情或验证码当简历。",
+    "第二路径从原帖署名/直接回链进入本人公开主页和本人仓库，不用学校、姓名、邮箱猜测身份。",
+    "下载只有确认是本人公开专业简历才写入公开简历原件；本组没有合格原件，不归档无关图片。",
+    "作者原有打码保持原样，不尝试复原。"
+  ],
+  "counts": {
+    "candidates_checked": 7,
+    "candidates_with_new_original_cv": 0,
+    "downloaded_cv_originals": 0,
+    "original_article_images_visually_checked": 44
+  },
+  "results": [
+    {
+      "candidate_id": "CV03",
+      "author": "Richard奇",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "本轮检查的本人秋招总结只有2张表情图；正文“简历”段是模板/交流群指引，没有公开PDF或本人简历图片直链。本人主页第1页职业相关文章展示区也未取得合格简历原件。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/832657601983688704",
+          "final_url": "https://ac.nowcoder.com/discuss/1602822",
+          "http_status": 200,
+          "title": "26届双非本鼠硕拿下5个ssp的秋招总结及一条龙经验分享_讨论帖_牛客网",
+          "route": "路径1：原始求职总结",
+          "actual_scope": "公开正文全文及2张正文配图逐张检查；未采评论区或推荐区图片。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/273840892?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/273840892?contentPage=1",
+          "http_status": 200,
+          "title": null,
+          "route": "路径2：原作者主页",
+          "actual_scope": "本人公开主页第1页的文章标题、职业相关文章展示段和公开链接；不是读遍历史。",
+          "error": null
+        }
+      ],
+      "image_checks": {
+        "inspected": 2,
+        "reason": "2张表情图，不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    {
+      "candidate_id": "CV04",
+      "author": "CodeBreaker",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "原成长长文有15张正文图片，实际是offer截图拼图、成绩、学习截图和日常/物品照片，未发现本人简历PNG/PDF。已从原文署名直接进入本人主页，主页可读职业发帖主要回指同一篇，未提供附件。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/discuss/753246853839269888",
+          "final_url": "https://ac.nowcoder.com/discuss/1508200",
+          "http_status": 200,
+          "title": "【双非本】上岸字节后端 | 接单 | 奖学金 | 做自媒体，分享下主包的大学四年 ✨🎓_讨论帖_牛客网",
+          "route": "路径1：原始成长长文",
+          "actual_scope": "正文全文和15张正文配图逐张检查；只检查文章内配图，不取推荐图。",
+          "error": null
+        },
+        {
+          "url": "https://ac.nowcoder.com/profile/922204324",
+          "final_url": "https://ac.nowcoder.com/profile/922204324",
+          "http_status": 200,
+          "title": "CodeBreaker - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页",
+          "actual_scope": "原文直接署名对应本人主页；职业发帖及公开链接检查。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/922204324?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/922204324?contentPage=1",
+          "http_status": 200,
+          "title": null,
+          "route": "访问状态补记",
+          "actual_scope": "请求返回通用动态空壳；随后用ac/profile入口读到真实主页。",
+          "error": null
+        }
+      ],
+      "image_checks": {
+        "inspected": 15,
+        "reason": "offer截图拼图、成绩、学习/社交截图及日常照片均不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    {
+      "candidate_id": "CV07",
+      "author": "等闲king",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "2025年终总结的2张正文附件是开源交流聊天截屏和游戏段位图；正文没有简历附件。本人公开主页第1、2页的职业相关文章导航未见简历发布帖或本人CV直链。旧文章明确已删除，不能用删除页的推广图补简历。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d",
+          "final_url": "https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d",
+          "http_status": 200,
+          "title": "很高兴能在牛客帮助你-2025年终总结_牛客网",
+          "route": "路径1：原始总结普通访问",
+          "actual_scope": "普通HTTP只返回标题/动态空壳。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/a3e209dc72154cb586a65a2d60fc5c3d?sourceSSR=dynamic",
+          "http_status": 200,
+          "title": "很高兴能在牛客帮助你-2025年终总结_牛客网",
+          "route": "路径1：原始总结浏览器补读",
+          "actual_scope": "真实浏览器恢复原帖正文；公开moment-data响应核到2张正文附件，均逐张目视。"
+        },
+        {
+          "url": "https://ac.nowcoder.com/discuss/1650061?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+          "final_url": "https://ac.nowcoder.com/discuss/1650061?channel=-1&source_id=discuss_terminal_discuss_hot_nctrack&type=0",
+          "http_status": 200,
+          "title": "来晚一步，这篇文章已经删除了_牛客网",
+          "route": "原支持链接",
+          "actual_scope": "HTTP200但页面明确“文章已被作者删除”，未获正文。",
+          "error": null
+        },
+        {
+          "url": "https://ac.nowcoder.com/users/46925511?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/46925511?contentPage=1",
+          "http_status": 200,
+          "title": "等闲king - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页",
+          "actual_scope": "本人公开主页第1页的文章标题、职业相关文章展示段和公开链接。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/46925511?contentPage=2",
+          "http_status": 200,
+          "title": "等闲king - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页第2页",
+          "actual_scope": "本人公开主页第2页职业相关文章标题/展示段和公开链接；非全历史搜索。"
+        }
+      ],
+      "image_checks": {
+        "inspected": 2,
+        "reason": "开源交流聊天截图与游戏段位图，不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    {
+      "candidate_id": "CV08",
+      "author": "JIWOO担",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "浏览器和页面公开接口恢复原帖：只有1张“商汤大模型算法应用实习面经（已offer）”封面，不是CV。本人主页显示多篇求职面经、实习项目叙述，无公开简历图片/PDF直链。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79",
+          "final_url": "https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79",
+          "http_status": 200,
+          "title": "商汤大模型算法应用实习面经（已offer）_牛客网",
+          "route": "路径1：原帖普通访问",
+          "actual_scope": "普通HTTP只返回标题/动态空壳。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/2762070c2c52472da06bf9ee59518d79?sourceSSR=dynamic",
+          "http_status": 200,
+          "title": "商汤大模型算法应用实习面经（已offer）_牛客网",
+          "route": "路径1：原帖浏览器补读",
+          "actual_scope": "真实浏览器正文全文；原帖moment-data只含1张正文附件，目视确认为面经封面。"
+        },
+        {
+          "url": "https://www.nowcoder.com/users/167831313?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/167831313?contentPage=1",
+          "http_status": 200,
+          "title": "JIWOO担 - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页",
+          "actual_scope": "原帖公开署名直接对应本人主页第1页，检查职业相关文章展示段与附件/外链；没有将推荐区其他人的图计为本人材料。",
+          "error": null
+        }
+      ],
+      "image_checks": {
+        "inspected": 1,
+        "reason": "面经标题封面，不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    {
+      "candidate_id": "CV09",
+      "author": "Whitea029",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "原帖的唯一正文图片是腾讯offer邮件截图，不是简历。本人主页可见腾讯、快手和华为云求职帖，公开导航没有简历附件或本人项目/CV直链。",
+      "checks": [
+        {
+          "url": "https://ac.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "final_url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "http_status": 200,
+          "title": "27双非本—腾讯IEG游戏安全后台实习面经_牛客网",
+          "route": "路径1：原帖普通访问",
+          "actual_scope": "普通HTTP只返回标题/动态空壳。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/9ecd5997a7d74f3fa885695032f32065?sourceSSR=dynamic&weFlow=true",
+          "http_status": 200,
+          "title": "27双非本—腾讯IEG游戏安全后台实习面经_牛客网",
+          "route": "路径1：原帖浏览器补读",
+          "actual_scope": "真实浏览器正文全文；公开moment-data只含1张正文附件，目视确认为offer邮件。"
+        },
+        {
+          "url": "https://www.nowcoder.com/users/536303060?contentPage=1",
+          "final_url": "https://www.nowcoder.com/users/536303060?contentPage=1",
+          "http_status": 200,
+          "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+          "route": "路径2：主页普通访问",
+          "actual_scope": "普通HTTP返回通用动态空壳。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/536303060?contentPage=1",
+          "http_status": 200,
+          "title": "Whitea029 - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页浏览器补读",
+          "actual_scope": "真实浏览器恢复本人公开主页，检查三篇职业求职帖展示段、配图归属与外链；没有简历发布帖/附件。"
+        }
+      ],
+      "image_checks": {
+        "inspected": 1,
+        "reason": "腾讯offer邮件截图，不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    {
+      "candidate_id": "CV17",
+      "author": "码间烟火录／小烟",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "已检查牛客两篇SSP总结的23张正文图片并对照掘金本人同文：包含offer邮件、学习截图、思维导图、表情和场景照片，没有简历。本人牛客主页可读后，职业文章导航仍回指上述总结和技术文；未提供本人CV/仓库附件。",
+      "checks": [
+        {
+          "url": "https://juejin.cn/post/7461269186713321491",
+          "final_url": "https://juejin.cn/post/7461269186713321491",
+          "http_status": 200,
+          "title": "我的秋招ssp总结（一）211本985硕，秋招拿到多个大厂研发ssp，总结秋招面试经验～并且毕业论文盲审顺利通过，传播好 - 掘金",
+          "route": "路径1：跨站本人求职复盘",
+          "actual_scope": "掘金正文及正文配图链接，与牛客本人原文关系由已有证据支持；未抓评论和推荐图。",
+          "error": null
+        },
+        {
+          "url": "https://ac.nowcoder.com/discuss/710535736860180480",
+          "final_url": "https://ac.nowcoder.com/discuss/1452352",
+          "http_status": 200,
+          "title": "我的秋招ssp总结（一）_讨论帖_牛客网",
+          "route": "路径1：牛客本人总结（一）",
+          "actual_scope": "第一篇正文全文及9张正文配图逐张目视；疑似履历长图放大后实际是offer邮件清单。",
+          "error": null
+        },
+        {
+          "url": "https://ac.nowcoder.com/discuss/712641117967093760",
+          "final_url": "https://ac.nowcoder.com/discuss/1453184",
+          "http_status": 200,
+          "title": "我的秋招ssp总结（二）_讨论帖_牛客网",
+          "route": "路径1：牛客本人总结（二）",
+          "actual_scope": "第二篇正文全文及14张正文配图逐张目视；简历书写部分是文字建议，配图是表情/思维导图。",
+          "error": null
+        },
+        {
+          "url": "https://www.nowcoder.com/users/751052086?contentPage=1",
+          "http_status": 200,
+          "title": "码间烟火录 - 个人主页动态 - 牛客网",
+          "route": "路径2：原作者主页",
+          "actual_scope": "真实浏览器恢复本人主页第1页，职业文章标题/展示段及附件外链检查，未发现本人CV。"
+        }
+      ],
+      "image_checks": {
+        "inspected": 23,
+        "reason": "offer邮件、学习/社交截图、思维导图、表情及场景照片；不是简历。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    },
+    {
+      "candidate_id": "CV21",
+      "author": "DreamCats",
+      "status": "本轮未取得公开简历原件",
+      "found_original_cv": false,
+      "assets": [],
+      "completeness": null,
+      "finding": "既有本人面经文件和资料仓README没有CV附件。本人GitHub用户API直接链接博客；公开java-notes固定版本完整树未见“简历/resume/.pdf/.doc”路径，README未见简历/PDF链接。本人博客TLS连接失败，不能确认站内是否另有简历。",
+      "checks": [
+        {
+          "url": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+          "final_url": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/my%E5%AD%97%E8%8A%82.md#L12",
+          "http_status": 200,
+          "title": "java-notes/Java/mianjing/my字节.md at c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c · DreamCats/java-notes · GitHub",
+          "route": "路径1：原始本人面经",
+          "actual_scope": "既有本人字节面经文件公开页面复核，未见CV附件。",
+          "error": null
+        },
+        {
+          "url": "https://api.github.com/repos/DreamCats/java-notes/git/trees/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c?recursive=1",
+          "final_url": "https://api.github.com/repos/DreamCats/java-notes/git/trees/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c?recursive=1",
+          "http_status": 200,
+          "title": "",
+          "route": "路径1：本人资料仓文件树",
+          "actual_scope": "本人java-notes固定版本recursive tree完整扫描文件路径，不含简历/resume/PDF/DOC；不是以第三方项目冒充个人简历。",
+          "error": null
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DreamCats/java-notes/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md",
+          "final_url": "https://raw.githubusercontent.com/DreamCats/java-notes/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md",
+          "http_status": 200,
+          "title": "",
+          "route": "路径1：本人资料仓README",
+          "actual_scope": "本人资料仓README全文和链接检查，没有简历/PDF指引。",
+          "error": null
+        },
+        {
+          "url": "https://api.github.com/users/DreamCats",
+          "final_url": "https://api.github.com/users/DreamCats",
+          "http_status": 200,
+          "title": null,
+          "route": "路径2：本人GitHub主页",
+          "actual_scope": "公开GitHub用户对象，仅读取其直接公开博客链接，不做个人身份拼接。",
+          "error": null
+        },
+        {
+          "url": "https://api.github.com/users/DreamCats/repos?per_page=100",
+          "final_url": "https://api.github.com/users/DreamCats/repos?per_page=100",
+          "http_status": 200,
+          "title": null,
+          "route": "路径2：本人公开仓库导航",
+          "actual_scope": "本人公开仓库清单标题/描述审查，未见专门CV仓库。",
+          "error": null
+        },
+        {
+          "url": "https://blog.heiye.site",
+          "final_url": "https://blog.heiye.site",
+          "http_status": null,
+          "title": null,
+          "route": "路径2：本人博客",
+          "actual_scope": "本人GitHub直接链接博客；TLS EOF连接失败，正文未取得。",
+          "error": "HTTPSConnectionPool(host='blog.heiye.site', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+        }
+      ],
+      "image_checks": {
+        "inspected": 0,
+        "reason": "未发现可归属本人简历的附件候选。"
+      },
+      "closure": "已用原文/正文图片与本人主页或本人仓库两类路径复核，未取得新的合格材料，本轮收口。此结论仅限检查范围，不表示全网不存在。"
+    }
+  ],
+  "assets": [],
+  "source_directory_untouched": true
+}

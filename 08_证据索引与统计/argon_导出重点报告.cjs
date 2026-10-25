@@ -1,0 +1,38 @@
+// 使用本机已有Edge和工作区运行时，导出并检查重点报告，不安装依赖。
+const { chromium } = require('C:/Users/GW/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs = require('node:fs/promises');
+const path = require('node:path');
+const { pathToFileURL } = require('node:url');
+const root = path.resolve(__dirname, '..');
+const qa = 'C:/Users/GW/.codex/visualizations/2026/10/23/01a16839-9742-7672-812b-1576a3dd064f';
+(async () => {
+  const browser = await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
+  const page = await browser.newPage({viewport:{width:1365,height:1000}});
+  const errors=[]; page.on('pageerror', e=>errors.push(e.message));
+  const report = path.join(root, '01_调研报告/argon_实习求职调研总报告.html');
+  await page.goto(pathToFileURL(report).href);
+  await page.evaluate(async()=>{for(const i of document.images)i.loading='eager'; await document.fonts.ready; await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});
+  await page.screenshot({path:path.join(qa,'可读总报告_桌面.png')});
+  const sections = await page.locator('section.report-page').count();
+  const images = await page.locator('img').evaluateAll(imgs=>imgs.map(i=>({src:i.getAttribute('src'),ok:i.complete && i.naturalWidth>0})));
+  await page.locator('#jobs').scrollIntoViewIfNeeded();
+  await page.screenshot({path:path.join(qa,'可读总报告_岗位统计.png')});
+  await page.pdf({path:path.join(root,'01_调研报告/argon_实习求职调研总报告.pdf'),format:'A4',preferCSSPageSize:true,printBackground:true,displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="font:9px Arial;width:100%;text-align:center;color:#67716d"><span class="pageNumber"></span> / <span class="totalPages"></span></div>'});
+  await page.setViewportSize({width:390,height:844});
+  await page.goto(pathToFileURL(report).href);
+  const mobile = await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
+  await page.screenshot({path:path.join(qa,'可读总报告_手机.png')});
+  await page.setViewportSize({width:1365,height:1000});
+  await page.goto(pathToFileURL(path.join(root,'06_项目分析与推荐/argon_项目比较与精读指南.html')).href);
+  const projects=await page.locator('.project-card').count();
+  await page.locator('#project-query').fill('ResiCache');
+  const search = await page.locator('.project-card:visible').count();
+  await page.locator('#project-query').fill('');
+  await page.locator('#project-track').selectOption('agent');
+  const agentFiltered=await page.locator('.project-card:visible').count();
+  await page.screenshot({path:path.join(qa,'项目精读指南_筛选.png')});
+  const result={sections,images,mobile,projects,search,agentFiltered,errors};
+  await fs.writeFile(path.join(root,'08_证据索引与统计/argon_可读性整理_浏览器校验.json'),JSON.stringify(result,null,2),'utf8');
+  console.log(JSON.stringify(result));
+  await browser.close();
+})().catch(e=>{console.error(e);process.exit(1);});

@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-23",
+  "records": [
+    {
+      "key": "OLD_SSP_667800837791461376",
+      "title": "我是怎么拿到中兴字节华为等10个SSP offer的",
+      "original_url": "https://www.nowcoder.com/discuss/667800837791461376",
+      "readable_url": "https://ac.nowcoder.com/discuss/667800837791461376",
+      "author": "在努力存钱的卡尔",
+      "public_author_id": "1030054897",
+      "access": {
+        "status": 200,
+        "selector": ".nc-post-content",
+        "scope": "公开文字全文已读",
+        "images_read": false
+      },
+      "source_dates": {
+        "published_utc": "2024-09-23T10:42:07+00:00",
+        "updated_utc": "2024-11-14T09:17:22+00:00",
+        "basis": "原页当前公开脚本createTime/updateTime，非猜测或Snowflake反推"
+      },
+      "taxonomy": {
+        "track": "算法对照",
+        "recruitment": "校招",
+        "event_date": "回顾去年秋招、今年7月入职；不据此补写确切年",
+        "recent_status": "历史确认",
+        "recent_basis": "首次发表2024-09-23已回顾录用与入职，早于本轮窗口2024-10-23；后续编辑不改变该上界。"
+      },
+      "professional_summary": "自动化本硕、视觉与模式识别方向；文章回顾论文、竞赛与秋招选择，未给后端或Agent应用工程项目。OPPO、中兴的算法工程师SSP被单独明确提及；百度、快手亦自述SSP。其他公司在泛指总述内，没有逐一岗位说明。",
+      "outcomes": [
+        {
+          "company": "OPPO",
+          "role": "算法工程师",
+          "grade": "SSP",
+          "status": "offer自述",
+          "basis": "第三部分直接指出首个offer的公司、算法工程师与SSP。"
+        },
+        {
+          "company": "中兴通讯",
+          "role": "算法工程师",
+          "grade": "SSP",
+          "status": "offer并入职自述",
+          "basis": "选择部分直接指出算法工程师SSP及7月入职。"
+        },
+        {
+          "company": "百度",
+          "role": "未单独披露",
+          "grade": "SSP",
+          "status": "offer自述",
+          "basis": "第三部分直接点百度和快手收到SSP邀请。"
+        },
+        {
+          "company": "快手",
+          "role": "未单独披露",
+          "grade": "SSP",
+          "status": "offer自述",
+          "basis": "同上。"
+        },
+        {
+          "company": "字节、华为等",
+          "role": "未单独披露",
+          "grade": "总述称近10家公司SSP",
+          "status": "整体自述",
+          "basis": "不能据此补各公司具体岗位、档位文件或一一因果。"
+        }
+      ],
+      "project_or_interview_chain": {
+        "resume_file": null,
+        "personal_repository": null,
+        "specific_interview_questions": null,
+        "boundary": "只有通用表达和求职经历建议，没有可映射个人源码或逐轮技术问题。"
+      },
+      "decision": "原先待访问已取得正文，应更新为已读且不适合作为近期后端/Agent工程核心样本；不为凑SSP数量新增核心候选。",
+      "remaining_unknowns": [
+        "各公司岗位与档位原件未核。",
+        "没有取得完整或脱敏简历、个人实现仓库。"
+      ]
+    }
+  ],
+  "scope": "由未读转为已读后按方向与时间排除核心；不再列入待访问。"
+}

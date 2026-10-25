@@ -1,0 +1,182 @@
+PRO14 | CalvinNeo CFortranTranslator：本人SSP关联的语言工具项目
+
+需求核对版 · 2026-10-24
+
+技术栈：
+  - C++14/17
+  - Fortran77/90
+  - 词法/语法分析
+  - Bison
+  - AST
+  - 代码生成
+  - GoogleTest
+阅读建议：
+  推荐研究领域约束如何推动工程深度；适合编译器/语言工具兴趣，不应为凑技术栈照搬整个翻译器。
+值得学习之处：
+  - SSP自述原文直接介绍此项目，并称多数面试官感兴趣；关联明确
+  - 项目具备词法、语法、符号信息、代码生成及Fortran库适配，超出单函数演示
+  - 可把语义兼容和可读输出作为清晰取舍讨论
+局限与静态风险：
+  - 历史工具链与构建说明较旧，现代环境兼容性未验证
+  - README明确不支持Unicode输入、只报告阻碍解析的致命错误
+  - regen_do_range生成循环条件固定为<=，负步长DO的语义值得专项复核；本次未运行反例
+  - 现存测试断言多关注解析节点；不能据此宣称翻译后的全部程序语义等价
+已定位阅读路径：
+  - docs/Develop.md
+  - src/grammar/for90.y
+  - src/target/gen_do.cpp
+  - demos/test/parser_test.cpp
+  - README.md
+静态阅读发现：
+  - path：
+      docs/Develop.md
+    line_start：
+      10
+    line_end：
+      29
+    观察：
+      开发文档解释simple_lexer与Bison解析器，包含Fortran跨行token的特殊情况。
+    kind：
+      设计文档
+    原始来源：
+      https://github.com/CalvinNeo/CFortranTranslator/blob/903062e709c8a0818737b6202dbcf5f510377af8/docs/Develop.md#L10-L29
+  - path：
+      src/target/gen_do.cpp
+    line_start：
+      29
+    line_end：
+      43
+    观察：
+      范围DO生成C++ for，条件固定<=且步长作为增量；递减范围的语义需独立测试。
+    kind：
+      固定源码静态观察
+    原始来源：
+      https://github.com/CalvinNeo/CFortranTranslator/blob/903062e709c8a0818737b6202dbcf5f510377af8/src/target/gen_do.cpp#L29-L43
+  - path：
+      demos/test/parser_test.cpp
+    line_start：
+      18
+    line_end：
+      47
+    观察：
+      GoogleTest对DO节点、COMMON块等有断言；解析结构通过不自动证明端到端语义等价。
+    kind：
+      测试材料
+    原始来源：
+      https://github.com/CalvinNeo/CFortranTranslator/blob/903062e709c8a0818737b6202dbcf5f510377af8/demos/test/parser_test.cpp#L18-L47
+  - path：
+      README.md
+    line_start：
+      111
+    line_end：
+      140
+    观察：
+      明确Unicode不支持与错误诊断范围；提供demo和GoogleTest依赖。
+    kind：
+      公开边界
+    原始来源：
+      https://github.com/CalvinNeo/CFortranTranslator/blob/903062e709c8a0818737b6202dbcf5f510377af8/README.md#L111-L140
+测试材料与评测边界：
+  - 已抽读GoogleTest与demo，不曾执行。
+  - 宜区分解析正确、生成代码可编译和与原程序结果一致三个层次；不宣称本次已完成。
+运行依赖说明：
+  - C++14/17编译器、Boost、Bison/Flex相关工具，具体构建见原README。
+  - 测试部分需要GoogleTest；Windows和Ubuntu说明均较旧。
+interview_questions：
+  - 为何需要可读的逐语句翻译，而不是换语言重写？
+  - Fortran负步长、COMMON块、数组下界怎样保持语义？
+  - 怎样证明输出结果正确，如何归因解析错误和代码生成错误？
+仓库：
+  CalvinNeo/CFortranTranslator
+固定源码提交：
+  903062e709c8a0818737b6202dbcf5f510377af8
+源码提交时间：
+  2024-12-09T15:57:17Z
+许可标识：
+  GPL-2.0-or-later
+license_scope：
+  原样保留根及子目录许可证；不把当前版本当作求职时原始快照
+源码包文件：
+  CalvinNeo__CFortranTranslator__903062e709c8.zip
+源码包SHA-256：
+  804e94877cb35fec27ac60de10e2e20d60d78caef95abe76f006be2d3a083015
+取得源码ZIP：
+  是
+原始来源：
+  https://github.com/CalvinNeo/CFortranTranslator
+候选人与项目关系：
+  - CV10
+cost：
+  源码阅读与本地构建不需要模型API；本轮仅静态阅读和归档，没有运行费用。
+运行验证范围：
+  固定源码和部分文档/测试静态阅读；未构建、运行、压测或修改系统配置。
+interview_linkage：
+  本人文章直接建立项目关系；固定版本晚于求职经历，不等于当时提交版本，也不证明该项目单独导致SSP。
+类别：
+  项目参考
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2024-12-09T15:57:17Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    选读
+  理由：
+    系统/C++方向读编译原理、语义边界与测试表达；Java业务方向优先级较低。
+  指定模块：
+    - docs/Develop.md
+    - src/grammar/for90.y
+    - src/target/gen_do.cpp
+    - demos/test/parser_test.cpp
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    是语言工具，不是已核Agent工程。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    CalvinNeo__CFortranTranslator__903062e709c8.zip
+  固定源码提交：
+    903062e709c8a0818737b6202dbcf5f510377af8
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

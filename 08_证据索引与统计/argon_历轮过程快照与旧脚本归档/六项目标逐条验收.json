@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-24",
+  "goal_status": "complete",
+  "all_six_fully_achieved": true,
+  "all_six_research_actions_complete": true,
+  "evidence_gaps_fully_resolved": false,
+  "completion_definition": "六项调研与交付动作是否完成；不是保证公开资料披露全部信息。用户计划允许不同路径补搜后保留缺口结束本轮。",
+  "recent_explicit_agent_ssp_source_ids": [],
+  "baseline_note": "目标中完整简历0、平台内容尚未实读为初始状态；当前完整脱敏副本5、平台本体全文5，不能沿用初始数字。",
+  "requirements": [
+    {
+      "item": 1,
+      "requirement": "成功实习者真实简历、技术栈、职责与本人源码",
+      "status": "已补齐一批实物，关联深度不一",
+      "evidence": "5份核心完整专业履历脱敏副本；CV28后端与CV31 Agent有本人实现直链；CV30字节内部职责有完整CV。",
+      "ids": [
+        "CV23",
+        "CV24",
+        "CV28",
+        "CV30",
+        "CV31"
+      ],
+      "remaining": "各候选人附件与源码覆盖分别列明；不要求所有候选人都有完整CV或公开内部代码。CV28雇主博彦与客户阿里云分开。",
+      "completion_proven_in_current_scope": true,
+      "research_actions_complete": true
+    },
+    {
+      "item": 2,
+      "requirement": "SSP公司、岗位、时间、招聘批次及Agent关联",
+      "status": "定向补核已执行，Agent SSP证据覆盖仍部分",
+      "evidence": "16份候选人有SSP自述，11份公司明确；CV03有2025美团实习后同公司SSP时间线，CV05历史SSP与2026 Agent更新已分开。",
+      "ids": [
+        "CV02",
+        "CV03",
+        "CV05",
+        "CV07",
+        "CV31",
+        "OBS09",
+        "OBS10"
+      ],
+      "remaining": "近期明确Agent工程SSP岗位与批次的直接自述仍不足；履历、本人实现、面经各项关系分开报告，不要求每位作者同时公开全部材料，不跨人或跨批次拼接。",
+      "completion_proven_in_current_scope": false,
+      "research_actions_complete": true
+    },
+    {
+      "item": 3,
+      "requirement": "实际阅读B站/知乎，提取观点、依据和商业背景",
+      "status": "已完成一批平台正文实读，背景与观点范围分别注明",
+      "evidence": "5篇平台本体全文，来自3位署名作者；B站图文2、知乎正文3。原站替代、Linear原稿选读与Comate实录选读单列。",
+      "ids": [
+        "OP10",
+        "OP11",
+        "OP12",
+        "OP13",
+        "OP14",
+        "OP15",
+        "OP16"
+      ],
+      "remaining": "视频/字幕读取0是媒介范围说明，不单独构成未完成判据；专业性按职业背景、商业关系及技术依据判断，摘要和原站替代不计平台本体。",
+      "completion_proven_in_current_scope": true,
+      "research_actions_complete": true
+    },
+    {
+      "item": 4,
+      "requirement": "明确年份/轮次/结果的近期面经与本人项目追问",
+      "status": "已补近期样本和追问，部分年份仍待核",
+      "evidence": "99份逻辑资料；明确近期实习15份。INT68由同作者投递总表与三个流程节点补为2026年；INT85正文直接给2025日期；INT86已offer二面与作者事后思路分列。",
+      "ids": [
+        "INT68",
+        "INT77",
+        "INT78",
+        "INT79",
+        "INT80",
+        "INT82",
+        "INT83",
+        "INT84",
+        "INT85",
+        "INT86"
+      ],
+      "remaining": "实习事件年未知48份；第三方汇编日期不直接填回原帖，不从失败自评推断拒绝原因。",
+      "completion_proven_in_current_scope": true,
+      "research_actions_complete": true
+    },
+    {
+      "item": 5,
+      "requirement": "四类证据综合后端/Agent要求、追问、加分项和历史SSP优势",
+      "status": "已形成当前样本的分层与比较",
+      "evidence": "24份工程JD逐条分层，11项能力对照，25项目共375项比较；两方向阅读优先级与三项专业观点交叉比较已建立。",
+      "ids": [
+        "JD01",
+        "JD08",
+        "JD11",
+        "DOC02",
+        "OP16",
+        "PRO20",
+        "PRO21",
+        "PRO24",
+        "PRO25"
+      ],
+      "remaining": "这些是公开便利样本的归纳，不推导统一SSP门槛或市场发生概率；缺少的证据格保留空缺。",
+      "completion_proven_in_current_scope": true,
+      "research_actions_complete": true
+    },
+    {
+      "item": 6,
+      "requirement": "归档、推荐理由、优缺点、关联表、阅读顺序和一致统计",
+      "status": "本轮交付校验通过",
+      "evidence": "核心脱敏履历5，原ZIP16、文本/选读归档9、仅链接0；HTML/PDF、CSV、关联表和阅读顺序由当前主数据生成。",
+      "ids": [],
+      "remaining": "NoWorries14文件、SchoolBus4文件、Crony9文件、Hello-Agents6文件均为指定选读包，非完整仓库；所有项目未运行。个人项目设计继续暂缓。",
+      "completion_proven_in_current_scope": true,
+      "research_actions_complete": true
+    }
+  ],
+  "resume_files_verified": [
+    {
+      "id": "CV23",
+      "local_path": "03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏副本.html",
+      "exists": true,
+      "bytes": 6828,
+      "sha256": "4a94d6692baabdee13188abc7b643f206210c853b38b4e743c3f61e5d0f2f5ba",
+      "professional_text_characters": 2775,
+      "modules_present": {
+        "education": true,
+        "experience": true,
+        "projects": true
+      },
+      "no_contact_pattern": true,
+      "direct_personal_source_read": false
+    },
+    {
+      "id": "CV24",
+      "local_path": "03_简历与候选人案例/核心Agent履历_脱敏副本/huomalxq_公开简历_脱敏副本.pdf",
+      "exists": true,
+      "bytes": 90813,
+      "sha256": "5f16d57d06c6c4055469a445066fb756f48da6e3c62aacb9f5d9e175b8a39ab3",
+      "professional_text_characters": 1596,
+      "modules_present": {
+        "education": true,
+        "experience": true,
+        "projects": true
+      },
+      "no_contact_pattern": true,
+      "direct_personal_source_read": false
+    },
+    {
+      "id": "CV28",
+      "local_path": "03_简历与候选人案例/核心后端履历_脱敏副本/DavidHLP_公开完整履历_脱敏转录.html",
+      "exists": true,
+      "bytes": 14477,
+      "sha256": "759de2534c269df998c1b0d54a00793d893413654417cba61d1878e078594ee8",
+      "professional_text_characters": 3292,
+      "modules_present": {
+        "education": true,
+        "experience": true,
+        "projects": true
+      },
+      "no_contact_pattern": true,
+      "direct_personal_source_read": true
+    },
+    {
+      "id": "CV30",
+      "local_path": "03_简历与候选人案例/核心后端履历_脱敏副本/AndrewWang_字节后端与Agent实习_公开完整简历_脱敏副本.pdf",
+      "exists": true,
+      "bytes": 135369,
+      "sha256": "b85d1bbdfdcb362a230c8c8d081d789b27ac47493ba78e45e417d2841c3de7c7",
+      "professional_text_characters": 3901,
+      "modules_present": {
+        "education": true,
+        "experience": true,
+        "projects": true
+      },
+      "no_contact_pattern": true,
+      "direct_personal_source_read": false
+    },
+    {
+      "id": "CV31",
+      "local_path": "03_简历与候选人案例/核心后端履历_脱敏副本/黄一航_中科曙光Agent实习_公开完整简历_脱敏副本.pdf",
+      "exists": true,
+      "bytes": 410226,
+      "sha256": "f2fe9f32c5a208d0a1148d82a559d0b49436f117264876921a731e256c433139",
+      "professional_text_characters": 2976,
+      "modules_present": {
+        "education": true,
+        "experience": true,
+        "projects": true
+      },
+      "no_contact_pattern": true,
+      "direct_personal_source_read": true
+    }
+  ],
+  "current_totals": {
+    "logical_evidence_records": 239,
+    "candidate_cases": 34,
+    "interview_materials": 99,
+    "projects": 25,
+    "source_archives": 25,
+    "fixed_link_only": 0,
+    "jd_leads": 33,
+    "engineering_jd_fulltext": 24,
+    "platform_opinion_records": 15,
+    "additional_primary_texts": 5,
+    "manual_links": 74,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9
+  },
+  "delivery_current": true,
+  "unresolved_required_focus": [
+    "近期明确Agent SSP的直接关联仍不足；不得靠异人、跨批次或宣传补齐。",
+    "专业观点背景及商业影响按已读证据评估；视频/字幕未读不否定已读平台正文。"
+  ],
+  "interpretation": "接受公开录用自述，不新增企业认证门槛；不要求每位候选人公开完整CV和内部源码。正文属于用户允许的实际阅读形式，不把视频未读单独设为失败条件。近期Agent SSP直接岗位/批次证据不足继续明示；在批准的有限检索已执行后，不把找到特定完美样本升级为结束研究的必要条件。"
+}

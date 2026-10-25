@@ -1,0 +1,86 @@
+JD05 | 后端实习工程师（J93985）
+
+需求核对版 · 2026-10-24
+
+公司：
+  百度MEG
+role_type：
+  后端实习（智能体业务）
+原始来源：
+  https://talent.baidu.com/jobs/detail/INTERN/ef58d698-b944-4c05-86fe-e76daffecc8b
+publish_date：
+  2026-07-21（官网展示日期）
+retrieved_date：
+  2026-10-23
+source_type：
+  官方招聘
+evidence_excerpt：
+  掌握go或java
+own_summary：
+  业务涉及智能体，但要求主体仍是Go/Java、RPC、缓存、MySQL优化与架构；可作为后端到Agent的桥接岗位。
+required_stack：
+  - Go或Java及相应框架
+  - RPC
+  - 分布式缓存
+  - MySQL及调优
+  - SOA
+  - 数据结构
+  - 架构设计
+  - 面向对象
+preferred_stack：
+  - AI技术与项目经验
+degree_constraint：
+  未展示
+availability_constraint：
+  未展示
+recruiting_status：
+  页面可读；实时HC未核验
+原访问范围：
+  全文
+证据边界：
+  高
+matrix_include：
+  是
+tags：
+  - 编程基础
+  - 数据结构算法
+  - 数据库或存储
+  - 缓存
+  - RPC
+  - 架构性能可靠性
+duties：
+  妙笔与智能体业务可靠性、性能与扩展性
+局限：
+  
+类别：
+  招聘JD
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2026-07-21（官网展示日期）
+  时间精度：
+    完整日期
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  时间依据：
+    招聘页面直接显示发布/刷新日期或投递期；不是实际面试日期，也不证明当前HC
+  来源日期：
+    2026-07-21（官网展示日期）
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  —

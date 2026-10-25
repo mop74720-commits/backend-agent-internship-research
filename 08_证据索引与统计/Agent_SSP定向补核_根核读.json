@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-23",
+  "scope": "以具体AI应用、智能体岗位及最终定档为目标的有限检索；不新增逻辑资料，不用缺少全量履历或源码作为唯一排除理由。",
+  "search_paths": [
+    {"name": "岗位、批次与定档词组合", "queries": ["\"SSP\" \"智能体\" \"转正\" 面经", "\"SSP\" \"AI应用研发\" \"2026\"", "\"SSP\" \"Agent\" \"复盘\" \"字节\" -site:codefather.cn -site:yupi.caiths.com", "\"SSP\" \"智能体开发\" \"offer\"", "\"SSP\" \"AI应用\" \"秋招总结\""]},
+    {"name": "沿原始文章和作者后续核结果", "queries": ["\"有感而发\" \"写给所有agent开发应届生\"", "\"AI应用\" \"ssp\" \"拿到了\" 面经 -site:codefather.cn -site:csdn.net -site:xiaolincoding.com", "\"Agent\" \"SSP\" \"秋招总结\" -site:codefather.cn -site:csdn.net -site:twstalker.com"]}
+  ],
+  "direct_readings": [
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/bfc30688de0f49a3af4b0e43a97fa97d?sourceSSR=post",
+      "title": "最近准备入职字节财经的ai应用开发",
+      "access": "网页工具返回公开页面；工具未提供HTTP状态码。",
+      "reading_scope": "核读标题、两句本人正文及含SSP词的评论署名所在位置，不以评论者经历补作者录用。",
+      "finding": "本人只称准备入职字节财经AI应用开发，并询问业务Agent工作内容。搜索中的SSP来自另一位评论者的昵称。",
+      "decision": "不计本人SSP结果；实习/社招批次、事件年和正式档位未披露。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/c5df27c1e97f45d8a05fb66f104087b5?sourceSSR=subject",
+      "title": "截至现在，我的27届秋招基本结束。",
+      "access": "网页工具返回公开文字正文；工具未提供HTTP状态码。",
+      "reading_scope": "核读本人正文的流程、结果及自评；不把相关推荐或评论计为本人经历。",
+      "finding": "京东转正与滴滴为意向；蚂蚁和哔哩哔哩为四面加面后的SSP预期。失败岗位的AI职责不能移植给待定档公司。",
+      "decision": "不计已获Agent SSP；批次明确，事件年未由正文给出。",
+      "followup": "原作者公开列表首部和一次定向搜索未发现后续最终档位，具体范围见Agent_SSP定向补核_本轮.json。"
+    },
+    {
+      "url": "https://ac.nowcoder.com/discuss/939308531642126336",
+      "original_url": "https://www.nowcoder.com/discuss/939308531642126336?sourceSSR=subject",
+      "title": "27届计算机后端/Agent秋招阶段性再总结（复盘向）",
+      "access": "根代理正常公开GET成功；www变体曾只返回底栏，ac同站正文实际可读。",
+      "http_status": 200,
+      "body_characters": 5937,
+      "body_sha256": "fabaef65dde92fa87b214c55830188cb201e7a9ca8de8f5078672ebcf9b6f4bc",
+      "reading_scope": "实际选读前半流程与10.20更新，未称全文审定。未保存全文、SSR或联系方式。",
+      "finding": "9.29度小满书面意向；10.20更新蚂蚁二面未过，快手三面结束等待结果。文章主要为Data Infra经历。",
+      "decision": "不将此前蚂蚁智能体岗位流程计为offer或SSP；具体事件年继续未知，不按届别补年。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/81b02f80d63d440cb571b59b3f14a356",
+      "title": "有感而发，写给所有agent开发应届生。",
+      "access": "网页工具返回公开文字正文；工具未提供HTTP状态码。",
+      "reading_scope": "核读本人正文的转型叙述与建议。",
+      "finding": "作者自述由后端转向Agent；建议强调可迁移能力、真实任务与验收。没有明确公司、本人SSP档位或可审查项目关系。",
+      "decision": "个人职业观点，不作Agent SSP成功者或已核企业专家；不采信其行业时间预测。"
+    }
+  ],
+  "related_reviews": ["Agent_SSP定向补核_本轮.json", "Agent_SSP定向检索_岗位与批次.json", "SSP已有样本_来源范围复核.json"],
+  "result": {
+    "new_qualified_agent_ssp_samples": 0,
+    "main_record_count_changed": false,
+    "limited_round_finished": true,
+    "boundary": "本轮路径及原作者后续核查结束；不宣称全网没有。没有将仍待定的SSP预期、其他用户昵称、人才计划、招聘机会或虚构段子补成本人录用。",
+    "next_evidence_needed": "新的本人原帖或原作者后续更新，明确具体Agent工程岗位、公司、招聘时间/批次和最终SSP；履历、项目和面经关系分别补充。"
+  }
+}

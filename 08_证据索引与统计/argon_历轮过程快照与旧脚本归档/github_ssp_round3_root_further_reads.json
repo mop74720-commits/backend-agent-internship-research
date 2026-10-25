@@ -1,0 +1,478 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/liyupi/yupi-skill/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/README.md",
+    "final_url": "https://raw.githubusercontent.com/liyupi/yupi-skill/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/README.md",
+    "status": 200,
+    "length": 5897,
+    "title": "",
+    "selected": [
+      {
+        "line": 20,
+        "text": "你想问 AI 编程学习路线，它给你一篇没有灵魂的教科书？<br/>\n你想让 AI 帮你看简历，它给你一堆正确但无用的废话？<br/>\n你想问要不要接这个 offer，它给你 \"需要综合考虑多方面因素\"？<br/>"
+      },
+      {
+        "line": 21,
+        "text": "你想让 AI 帮你看简历，它给你一堆正确但无用的废话？<br/>\n你想问要不要接这个 offer，它给你 \"需要综合考虑多方面因素\"？<br/>\n你想知道 AI 时代该学什么，它给你一个面面俱到但毫无主见的清单？<br/>"
+      },
+      {
+        "line": 45,
+        "text": "\n98 年，前腾讯全栈工程师（SSP offer，竞赛冠军，5 星员工），现科技公司 [鱼鸢网络](https://yuyuanweb.com) CEO。\n"
+      },
+      {
+        "line": 49,
+        "text": "\n做了 10+ 个产品，带大家做了近 30 套项目教程，累计创作近 **千万字**。\n"
+      },
+      {
+        "line": 51,
+        "text": "\n> [B 站](https://space.bilibili.com/12890453) · [GitHub](https://github.com/liyupi) · [编程导航](https://www.codefather.cn) · [AI 导航](https://ai.codefather.cn) · [面试鸭](https://mianshiya.com) · [产品大全](https://dogyupi.com) · [公众号：程序员鱼皮]()\n"
+      },
+      {
+        "line": 61,
+        "text": "|------|---------|---------------------|\n| 编程学习建议 | \"建议系统学习数据结构与算法\" | \"先做用户中心项目跑通流程，两到三个月够了\" |\n| offer 选择 | \"需要综合考虑薪资、发展空间等因素\" | \"**先接了，但别停下找工作。**骑驴找马是最稳的策略\" |"
+      },
+      {
+        "line": 62,
+        "text": "| 编程学习建议 | \"建议系统学习数据结构与算法\" | \"先做用户中心项目跑通流程，两到三个月够了\" |\n| offer 选择 | \"需要综合考虑薪资、发展空间等因素\" | \"**先接了，但别停下找工作。**骑驴找马是最稳的策略\" |\n| 技术方向 | \"AI 和后端各有优势，取决于个人兴趣\" | \"说直白点：**简历上没有 AI，很多 HR 直接就过了**\" |"
+      },
+      {
+        "line": 63,
+        "text": "| offer 选择 | \"需要综合考虑薪资、发展空间等因素\" | \"**先接了，但别停下找工作。**骑驴找马是最稳的策略\" |\n| 技术方向 | \"AI 和后端各有优势，取决于个人兴趣\" | \"说直白点：**简历上没有 AI，很多 HR 直接就过了**\" |\n| 简历优化 | \"建议突出项目经验和技术能力\" | \"**砍掉虚的，加上实的。**'提升用户体验'这种话直接删\" |"
+      },
+      {
+        "line": 64,
+        "text": "| 技术方向 | \"AI 和后端各有优势，取决于个人兴趣\" | \"说直白点：**简历上没有 AI，很多 HR 直接就过了**\" |\n| 简历优化 | \"建议突出项目经验和技术能力\" | \"**砍掉虚的，加上实的。**'提升用户体验'这种话直接删\" |\n| 创业经验 | \"创业需要勇气和坚持\" | \"哥就是来交学费的嘛，剧本杀店都开倒闭了哈哈哈呜呜呜\" |"
+      },
+      {
+        "line": 74,
+        "text": "```\n用户  ❯  拿到银行外包 offer 13K，要不要接？\n"
+      },
+      {
+        "line": 77,
+        "text": "鱼皮  ❯  说实话，13K 双休、SpringCloud 技术栈、有微服务和高并发场景，\n         这个 offer 本身条件不算差。\n"
+      },
+      {
+        "line": 79,
+        "text": "\n         我的建议是：先接了，但别停下找工作。有 offer 在手心态会好很多，\n         面试状态也会更好。"
+      },
+      {
+        "line": 80,
+        "text": "         我的建议是：先接了，但别停下找工作。有 offer 在手心态会好很多，\n         面试状态也会更好。\n"
+      },
+      {
+        "line": 91,
+        "text": "```\n用户  ❯  Python 基础，想转 Java 全栈负责 AI 项目，怎么最快上手？\n"
+      },
+      {
+        "line": 94,
+        "text": "鱼皮  ❯  你有 Python 基础，转 Java 其实就是换个语法，上手会很快。\n         建议直接跟着项目学，先做用户中心项目把 Java + Vue3 的开发流程跑通，\n         然后做 AI 答题应用平台项目。之后再把 AI 超级智能体项目做了。"
+      },
+      {
+        "line": 95,
+        "text": "         建议直接跟着项目学，先做用户中心项目把 Java + Vue3 的开发流程跑通，\n         然后做 AI 答题应用平台项目。之后再把 AI 超级智能体项目做了。\n         两到三个月够了。"
+      },
+      {
+        "line": 106,
+        "text": "\n鱼皮  ❯  说直白点：现在不需要专门系统学 AI，但简历上必须有 AI 相关的东西。\n"
+      },
+      {
+        "line": 109,
+        "text": "         会 AI 已经不是加分项，而是筛选条件。先把 Java 后端打扎实，\n         再做一个结合 AI 的项目就够了。\n"
+      },
+      {
+        "line": 153,
+        "text": "```bash\n# 安装到当前项目（在 git 仓库根目录执行）\nmkdir -p .claude/skills"
+      },
+      {
+        "line": 157,
+        "text": "\n# 或全局安装（所有项目可用）\ngit clone https://github.com/liyupi/yupi-skill.git ~/.claude/skills/yupi-skill"
+      },
+      {
+        "line": 197,
+        "text": "|----------|--------|\n| 编程学习、项目教程 | [codefather.cn](https://www.codefather.cn) |\n| AI 工具、AI 编程 | [ai.codefather.cn](https://ai.codefather.cn) |"
+      },
+      {
+        "line": 199,
+        "text": "| AI 工具、AI 编程 | [ai.codefather.cn](https://ai.codefather.cn) |\n| 面试题、刷题 | [mianshiya.com](https://mianshiya.com) |\n| 简历优化 | [laoyujianli.com](https://laoyujianli.com) |"
+      },
+      {
+        "line": 200,
+        "text": "| 面试题、刷题 | [mianshiya.com](https://mianshiya.com) |\n| 简历优化 | [laoyujianli.com](https://laoyujianli.com) |\n| 产品全貌 | [dogyupi.com](https://dogyupi.com) |"
+      },
+      {
+        "line": 202,
+        "text": "| 产品全貌 | [dogyupi.com](https://dogyupi.com) |\n| 开源项目 | [github.com/liyupi](https://github.com/liyupi) |\n"
+      },
+      {
+        "line": 234,
+        "text": "| 新咨询对话 | `voice.md` 样本部分 |\n| 新产品 / 项目 | `knowledge-sources.md` |\n| 新的深度访谈 | `identity.md` |"
+      }
+    ],
+    "links": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/liyupi/yupi-skill/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/references/identity.md",
+    "final_url": "https://raw.githubusercontent.com/liyupi/yupi-skill/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/references/identity.md",
+    "status": 200,
+    "length": 1520,
+    "title": "",
+    "selected": [
+      {
+        "line": 5,
+        "text": "\n98年生，前腾讯全栈工程师（近4年，SSP offer，竞赛冠军，5星员工），2023年离职创业。现在是科技公司鱼鸢网络CEO，全网200万+粉丝的AI+编程知识博主，编程导航（codefather.cn）创始人。GitHub中国区关注者前7，22000+ followers，99个公开仓库。编程8年+，累计创作近千万字。\n"
+      },
+      {
+        "line": 26,
+        "text": "- MVP = 能上线且有底气让人用的最小可行阶段\n- 例：面试鸭功能简单，但题目一道道亲自整理、不用爬虫、每道优化表达\n"
+      },
+      {
+        "line": 32,
+        "text": "\n- 骑驴找马：先接offer再继续投\n- 先活下去：做日结兼职周转不丢人"
+      },
+      {
+        "line": 40,
+        "text": "\n- 2022年倾向后台开发 → 2026年极力推AI，因为企业需求变了\n- 推荐Java：流行+成熟+适合大多数人+学习成本低，个人擅长和市场主流恰好重合"
+      },
+      {
+        "line": 42,
+        "text": "- 推荐Java：流行+成熟+适合大多数人+学习成本低，个人擅长和市场主流恰好重合\n- AI是不可逆的浪潮：2026年简历没有AI相关技能，很多HR直接过\n"
+      }
+    ],
+    "links": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/liyupi/yupi-skill/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/references/knowledge-sources.md",
+    "final_url": "https://raw.githubusercontent.com/liyupi/yupi-skill/b6157f3ca72a0c4dee0f873ad974cb61e4610c8f/references/knowledge-sources.md",
+    "status": 200,
+    "length": 1058,
+    "title": "",
+    "selected": [
+      {
+        "line": 10,
+        "text": "| \"鱼皮有什么产品\"\"你做了哪些东西\" | https://dogyupi.com | 个人产品大全导航页 |\n| 编程学习路线、项目教程、技术知识 | https://www.codefather.cn | 编程导航，鱼皮所有教程和学习资源 |\n| AI工具、AI教程、AI资讯、AI编程 | https://ai.codefather.cn | AI导航和知识库 |"
+      },
+      {
+        "line": 12,
+        "text": "| AI工具、AI教程、AI资讯、AI编程 | https://ai.codefather.cn | AI导航和知识库 |\n| 面试题、刷题、求职准备 | https://mianshiya.com | 面试鸭刷题平台，1万+面试真题 |\n| 简历怎么写、简历模板 | https://laoyujianli.com | 老鱼简历工具 |"
+      },
+      {
+        "line": 13,
+        "text": "| 面试题、刷题、求职准备 | https://mianshiya.com | 面试鸭刷题平台，1万+面试真题 |\n| 简历怎么写、简历模板 | https://laoyujianli.com | 老鱼简历工具 |\n| 开源项目、源码、GitHub | https://github.com/liyupi | 鱼皮的GitHub主页，99个公开仓库 |"
+      },
+      {
+        "line": 14,
+        "text": "| 简历怎么写、简历模板 | https://laoyujianli.com | 老鱼简历工具 |\n| 开源项目、源码、GitHub | https://github.com/liyupi | 鱼皮的GitHub主页，99个公开仓库 |\n"
+      },
+      {
+        "line": 20,
+        "text": "2. 获取到数据后，用鱼皮的口吻和判断框架组织回答（不是原封不动搬运）\n3. 回答中自然地提及信息来源（\"你可以去我的编程导航看看\"\"面试鸭上有很多真题\"）\n"
+      }
+    ],
+    "links": []
+  },
+  {
+    "url": "https://www.codefather.cn/course/yupi",
+    "final_url": "https://www.codefather.cn/course/yupi",
+    "status": 200,
+    "length": 1564,
+    "title": "鱼皮站长的个人经历 - 编程导航 | 2026年最新企业级编程实战项目教程",
+    "selected": [
+      {
+        "line": 1,
+        "text": "鱼皮站长的个人经历 - 编程导航 | 2026年最新企业级编程实战项目教程\n编程导航教程"
+      },
+      {
+        "line": 19,
+        "text": "您好呀，我是一名 98 年的程序员 + 知识博主 + 编程讲师 + 创业者：\n👨💻 码龄 9 年，前腾讯全栈开发、新人导师、腾讯云开发冠军 / 高级布道师\n🌱 热爱分享，"
+      },
+      {
+        "line": 23,
+        "text": "，知识讲解通俗易懂，\n带无数同学拿到过 Offer\n📚 创作 5 年，"
+      },
+      {
+        "line": 29,
+        "text": "，出版过\n项目实战教程书籍\n、"
+      },
+      {
+        "line": 37,
+        "text": "|\n面试鸭\n|"
+      },
+      {
+        "line": 39,
+        "text": "|\n老鱼简历\n|"
+      },
+      {
+        "line": 54,
+        "text": "鱼聪明 AI 助手\n💻 爱做项目，30+ 独立项目经验、著有\n20+ 套原创项目教程"
+      },
+      {
+        "line": 55,
+        "text": "💻 爱做项目，30+ 独立项目经验、著有\n20+ 套原创项目教程\n，"
+      },
+      {
+        "line": 71,
+        "text": "、\n腾讯\n等三家公司的实习经历。"
+      },
+      {
+        "line": 73,
+        "text": "等三家公司的实习经历。\n秋招时我拿到多家大厂 offer，最终以\n组内第一"
+      },
+      {
+        "line": 75,
+        "text": "组内第一\n的成绩在腾讯实习转正，并斩获\nSSP 最高级别"
+      },
+      {
+        "line": 76,
+        "text": "的成绩在腾讯实习转正，并斩获\nSSP 最高级别\n的offer。"
+      },
+      {
+        "line": 77,
+        "text": "SSP 最高级别\n的offer。\n在职腾讯近 4 年，我独立负责 BI 项目研发、大数据研发等，曾获腾讯内部应用开发竞赛"
+      },
+      {
+        "line": 78,
+        "text": "的offer。\n在职腾讯近 4 年，我独立负责 BI 项目研发、大数据研发等，曾获腾讯内部应用开发竞赛\n冠军"
+      },
+      {
+        "line": 88,
+        "text": "编程导航学习网\n的创始人，累积帮助十万多名程序员朋友提升技术和项目能力，帮上万名同学拿到过 Offer；同时我还在持续学习 AI 等前沿方向的新技术，打造了自己的\n开源 AI 知识库"
+      },
+      {
+        "line": 91,
+        "text": "。\n这就是我的故事，看起来像是一个 “卷王”，事实上我也的确比较 “卷”（头发都是卷的），平时 90% 的时间都花在了学习和工作上。但我想说，编程、做项目、知识分享，这些都是我的爱好，因为我热爱这些事情，所以才能把它们做好，做出一番成就。\n🔥 推荐教程"
+      },
+      {
+        "line": 104,
+        "text": "精选\nVue3 + SpringBoot + AI + DDD 企业级智能协同云图库项目（企业级）\n¥399"
+      },
+      {
+        "line": 125,
+        "text": "站长：程序员鱼皮\n老鱼简历\n商务合作"
+      }
+    ],
+    "links": [
+      {
+        "label": "字数破千万",
+        "url": "https://github.com/liyupi/liyupi/blob/main/wechat_mp.png"
+      },
+      {
+        "label": "面试鸭",
+        "url": "https://mianshiya.com"
+      },
+      {
+        "label": "GitHub 中国区前 10",
+        "url": "https://githubrank.com/"
+      },
+      {
+        "label": "开源 AI 知识库",
+        "url": "https://github.com/liyupi/ai-guide"
+      }
+    ]
+  },
+  {
+    "url": "https://erdengk.top/archives/wo-de-shuo-shi-qian-ban-sheng",
+    "error": "SSLError"
+  },
+  {
+    "url": "https://erdengk.top/archives/gsoc-cong-kai-shi-dao-zhong-xuan",
+    "error": "SSLError"
+  },
+  {
+    "url": "https://erdengk.github.io/gsoc-analyse/",
+    "final_url": "https://erdengk.github.io/gsoc-analyse/",
+    "status": 200,
+    "length": 2108,
+    "title": "参与开源",
+    "selected": [
+      {
+        "line": 15,
+        "text": "为什么仓库名字叫做 gsoc-analyse ?\n成为本项目的贡献者\n基础知识(建设中)"
+      },
+      {
+        "line": 19,
+        "text": "开源活动总结(不断更新中)\n贡献指南\nGSoC"
+      },
+      {
+        "line": 20,
+        "text": "贡献指南\nGSoC\nGSoC"
+      },
+      {
+        "line": 21,
+        "text": "GSoC\nGSoC\nGSoC"
+      },
+      {
+        "line": 22,
+        "text": "GSoC\nGSoC\n前人经验（文章）"
+      },
+      {
+        "line": 25,
+        "text": "前人经验（视频）\nGSoC2023\nGSoC2022"
+      },
+      {
+        "line": 26,
+        "text": "GSoC2023\nGSoC2022\nGSoC2021"
+      },
+      {
+        "line": 27,
+        "text": "GSoC2022\nGSoC2021\n开源之夏(OSPP)"
+      },
+      {
+        "line": 31,
+        "text": "OSPP\nOSPP2022\n前人经验"
+      },
+      {
+        "line": 37,
+        "text": "前人经验\n2022项目\n2022中期通过项目"
+      },
+      {
+        "line": 38,
+        "text": "2022项目\n2022中期通过项目\n阿里巴巴编程之夏（ASoC）"
+      },
+      {
+        "line": 45,
+        "text": "situ2001_expr\n腾讯犀牛鸟开源活动\n腾讯犀牛鸟开源活动"
+      },
+      {
+        "line": 46,
+        "text": "腾讯犀牛鸟开源活动\n腾讯犀牛鸟开源活动\n犀牛鸟开源活动"
+      },
+      {
+        "line": 56,
+        "text": "为什么仓库名字叫做 gsoc-analyse ?\n成为本项目的贡献者\n参与开源"
+      },
+      {
+        "line": 60,
+        "text": "参与开源\n我在大学二年级时了解到了GSoC这个开源活动，当时有想参与的想法，但因为各种事没能参加。 三年后我开始了研究生一年级的学业，某天偶然又想起了GSoC，于是开始准备参与GSoC2022。 在准备过程中，我也发现了很多和我一样是各种计算机专业的、但没有接触过开源的学生，我们都没有很好的去探索开源这个宝库。\n刚开始准备时，我选择了一个并不是很活跃的社区，由于贡献者人数较少，社区也并不活跃，有些问题并不能及时得解决，提交的pr也会经过很久才review（新手参与前可能很难选择一个合适的社区）。"
+      },
+      {
+        "line": 61,
+        "text": "我在大学二年级时了解到了GSoC这个开源活动，当时有想参与的想法，但因为各种事没能参加。 三年后我开始了研究生一年级的学业，某天偶然又想起了GSoC，于是开始准备参与GSoC2022。 在准备过程中，我也发现了很多和我一样是各种计算机专业的、但没有接触过开源的学生，我们都没有很好的去探索开源这个宝库。\n刚开始准备时，我选择了一个并不是很活跃的社区，由于贡献者人数较少，社区也并不活跃，有些问题并不能及时得解决，提交的pr也会经过很久才review（新手参与前可能很难选择一个合适的社区）。\n后来，我在GSoC-CN 2022的交流群偶遇了Apache的一位导师，我开始学着为社区做贡献。Apache先进的开源理念深深的吸引了我， 社区有很多优秀且活跃的开发者，有时遇到一些我经过努力无法解决的问题我会发邮件到邮件列表、GitHub， 或者请教其他的贡献者，他们总是很乐意帮助我，这使我感到很温暖。我也开始逐渐融入这个社区，开始参与社区会议，了解社区开发动态，提出自己的建议。"
+      },
+      {
+        "line": 62,
+        "text": "刚开始准备时，我选择了一个并不是很活跃的社区，由于贡献者人数较少，社区也并不活跃，有些问题并不能及时得解决，提交的pr也会经过很久才review（新手参与前可能很难选择一个合适的社区）。\n后来，我在GSoC-CN 2022的交流群偶遇了Apache的一位导师，我开始学着为社区做贡献。Apache先进的开源理念深深的吸引了我， 社区有很多优秀且活跃的开发者，有时遇到一些我经过努力无法解决的问题我会发邮件到邮件列表、GitHub， 或者请教其他的贡献者，他们总是很乐意帮助我，这使我感到很温暖。我也开始逐渐融入这个社区，开始参与社区会议，了解社区开发动态，提出自己的建议。\n为了帮助其他同学少走或者不走弯路， 我想建立这样一个项目，主要目的是"
+      },
+      {
+        "line": 63,
+        "text": "后来，我在GSoC-CN 2022的交流群偶遇了Apache的一位导师，我开始学着为社区做贡献。Apache先进的开源理念深深的吸引了我， 社区有很多优秀且活跃的开发者，有时遇到一些我经过努力无法解决的问题我会发邮件到邮件列表、GitHub， 或者请教其他的贡献者，他们总是很乐意帮助我，这使我感到很温暖。我也开始逐渐融入这个社区，开始参与社区会议，了解社区开发动态，提出自己的建议。\n为了帮助其他同学少走或者不走弯路， 我想建立这样一个项目，主要目的是\n帮助新手参加开源"
+      },
+      {
+        "line": 72,
+        "text": "链接\n在GitHub访问本项目，提交新的issue、pr。\n如何帮助新手参与开源 ？"
+      },
+      {
+        "line": 74,
+        "text": "如何帮助新手参与开源 ？\n这其实是一个很大的话题，我个人并没有什么特别好的办法。 在参与GSoC之前我也是一名开源小白，只是在GitHub上看过其他人写的项目。\n对于新手参与开源，我发现去了解其他经常参与开源的人的经历是一种不错的方法。 可以在其他人的经历中，了解如何选择自己感兴趣的社区、如何与其他人合作、认识新的社区or组织。"
+      },
+      {
+        "line": 76,
+        "text": "对于新手参与开源，我发现去了解其他经常参与开源的人的经历是一种不错的方法。 可以在其他人的经历中，了解如何选择自己感兴趣的社区、如何与其他人合作、认识新的社区or组织。\n所以本项目准备以两种方式帮助新手开源，一种是搜集一些质量比较高的关于新手如何参与开源的博客、分享贴。 一种是公开收集个人的开源经历，欢迎各位朋友提交pr。\n欢迎各位朋友补充新的、合理的方式。"
+      },
+      {
+        "line": 81,
+        "text": "?\n查找开源组织时，我发现GSoC官网上的搜索不是很好用，因为参与开源大概率是要根据自己的技术栈、兴趣来选择的。 在官网上搜索Java时，搜索者本意是搜索以Java为主要语言的开源组织，但搜索结果会返回带有JavaScript的组织，这在初步筛选时会比较麻烦。 所以我建立这个仓库\ngsoc-analyse"
+      },
+      {
+        "line": 84,
+        "text": "本意是为了从技术栈来帮助开源新手选择组织。\n成为本项目的贡献者\n个人力量终究是渺小的，欢迎各位朋友一起参与到本项目中。"
+      },
+      {
+        "line": 85,
+        "text": "成为本项目的贡献者\n个人力量终究是渺小的，欢迎各位朋友一起参与到本项目中。\n在"
+      },
+      {
+        "line": 93,
+        "text": "[new feature] Add a new open source activity\n最简单的贡献当然是给项目一个star 🌟，这可以让更多的人看到这个项目。\n你也可以参考本项目的"
+      },
+      {
+        "line": 94,
+        "text": "最简单的贡献当然是给项目一个star 🌟，这可以让更多的人看到这个项目。\n你也可以参考本项目的\n贡献指南"
+      },
+      {
+        "line": 95,
+        "text": "你也可以参考本项目的\n贡献指南\n做出贡献。你的名字也会出现到贡献者列表中。"
+      },
+      {
+        "line": 96,
+        "text": "贡献指南\n做出贡献。你的名字也会出现到贡献者列表中。\n由于个人水平有限，文档中也难免存在笔误或者错误，请各位朋友帮忙指出，直接评论或者提交issue都可以（如果能提交修正的pr那就更好了）。"
+      },
+      {
+        "line": 99,
+        "text": "最后更新:\nMay 7, 2022\n评论"
+      },
+      {
+        "line": 103,
+        "text": "基础知识(建设中)\nCopyright © 2021-present\nerdengk"
+      }
+    ],
+    "links": [
+      {
+        "label": "open-source-analyse",
+        "url": "https://github.com/erdengk/gsoc-analyse"
+      },
+      {
+        "label": "open-source-analyse",
+        "url": "https://github.com/erdengk/gsoc-analyse"
+      },
+      {
+        "label": "为什么仓库名字叫做 gsoc-analyse ?",
+        "url": "#gsoc-analyse"
+      },
+      {
+        "label": "GSoC",
+        "url": "cn/gsoc/"
+      },
+      {
+        "label": "前人经验（文章）",
+        "url": "cn/gsoc/experience-docs/"
+      },
+      {
+        "label": "前人经验（视频）",
+        "url": "cn/gsoc/experience-video/"
+      },
+      {
+        "label": "GSoC2023",
+        "url": "cn/gsoc/GSoC2023/GSoC2023/"
+      },
+      {
+        "label": "GSoC2022",
+        "url": "cn/gsoc/GSoC2022/GSoC2022/"
+      },
+      {
+        "label": "GSoC2021",
+        "url": "cn/gsoc/GSoC2021/GSoC2021/"
+      },
+      {
+        "label": "为什么仓库名字叫做 gsoc-analyse ?",
+        "url": "#gsoc-analyse"
+      },
+      {
+        "label": "",
+        "url": "https://github.com/erdengk/gsoc-analyse/edit/master/docs/index.md"
+      },
+      {
+        "label": "链接",
+        "url": "https://github.com/erdengk/gsoc-analyse"
+      },
+      {
+        "label": "《提问的智慧》",
+        "url": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md"
+      },
+      {
+        "label": "贡献指南",
+        "url": "https://github.com/erdengk/gsoc-analyse/blob/master/docs/contribution/Contribution%20Guidelines.md"
+      },
+      {
+        "label": "erdengk",
+        "url": "https://github.com/erdengk"
+      },
+      {
+        "label": "Material for MkDocs",
+        "url": "https://squidfunk.github.io/mkdocs-material/"
+      },
+      {
+        "label": "",
+        "url": "https://github.com/erdengk/gsoc-analyse"
+      }
+    ]
+  }
+]

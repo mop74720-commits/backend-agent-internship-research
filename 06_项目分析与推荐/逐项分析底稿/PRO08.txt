@@ -1,0 +1,217 @@
+PRO08 | 学成在线：成功候选人关联业务仓库与消息可靠性反例
+
+需求核对版 · 2026-10-24
+
+仓库：
+  viego1999/xuecheng-plus-project
+原始来源：
+  https://github.com/viego1999/xuecheng-plus-project
+方向与岗位：
+  Java后端／历史候选人关联项目
+阅读建议：
+  优先作 CV02 的源码溯源与代码审查材料；不建议照搬为当前主简历项目。
+技术栈：
+  - Java 8
+  - Spring Boot 2.3.7
+  - Spring Cloud Hoxton.SR10
+  - MyBatis-Plus
+  - MySQL
+  - Redis／Redisson
+  - RabbitMQ
+  - MinIO
+  - Elasticsearch
+  - XXL-JOB
+值得学习之处：
+  - CV02 明确关联此仓库，能把候选人的在线教育项目描述与可定位的课程发布、选课和消息模块对应；录用结果仍仅为作者自述。
+  - 课程发布方法在一个 Spring 事务中保存发布信息和消息记录，可用于研究本地消息表模式，而不只是孤立的 CRUD。
+  - 能同时比较租户机构归属检查、缓存空值、热点重建锁、消息消费和后台任务线程管理。
+局限与静态风险：
+  - 仓库固定版本最后提交于 2023 年，父 POM 为 Java 8／Spring Boot 2.3.7；这是历史技术组合，不能称作 2026 年招聘统一推荐版本。
+  - README 要求先导入数据库，但该固定工作树未发现 .sql 文件；存在 Nacos、XXL-JOB、MinIO 等外部依赖和作者本机路径，无法凭 ZIP 声称开箱即用。
+  - MessageProcessAbstract.process 每次按消息数创建 fixedThreadPool，方法中未见 shutdown；CountDownLatch.await 超时只结束等待，没有取消工作线程。属于静态可定位的资源／超时边界，未做运行复现。
+  - PayNotifyServiceTest.testSend 只是调用发送方法，没有结果断言；事务内向 RabbitMQ 回复消息也不能单凭 @Transactional 推定数据库与 MQ 原子提交。
+borrow：
+  先读课程发布事务，再跟踪消息表执行器和支付通知；重点学习业务链路与故障窗口的分析方式。
+extend：
+  作为源码审查对象，核对消息完成标记、重复投递、线程池生命周期与数据库提交边界；不要把课程流程和候选人既有指标直接写成个人生产成果。
+已定位阅读路径：
+  - xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java
+  - xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java
+  - xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java
+  - xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java
+  - xuecheng-plus-parent/pom.xml
+静态阅读发现：
+  - path：
+      xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java
+    line_start：
+      188
+    line_end：
+      215
+    观察：
+      publish 带 @Transactional，检查 companyId／审核状态，再保存课程和消息，最后删除预发布记录。
+    kind：
+      已读代码
+    原始来源：
+      https://github.com/viego1999/xuecheng-plus-project/blob/5c0929f5523a46a2e9b8ea8457d638a65b849474/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java#L188-L215
+  - path：
+      xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java
+    line_start：
+      48
+    line_end：
+      90
+    观察：
+      每次创建线程池；await 返回后方法退出，所选方法没有 shutdown、Future.cancel 或超时中断工作线程。这里只认定所见方法的行为。
+    kind：
+      静态问题，未运行复现
+    原始来源：
+      https://github.com/viego1999/xuecheng-plus-project/blob/5c0929f5523a46a2e9b8ea8457d638a65b849474/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java#L48-L90
+  - path：
+      xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java
+    line_start：
+      45
+    line_end：
+      84
+    观察：
+      消息监听事务中更新选课并增加课程表，再调用 RabbitTemplate 回复；数据库事务与外部消息确认的边界值得单独检查。
+    kind：
+      已读代码／故障模型
+    原始来源：
+      https://github.com/viego1999/xuecheng-plus-project/blob/5c0929f5523a46a2e9b8ea8457d638a65b849474/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java#L45-L84
+  - path：
+      xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java
+    line_start：
+      21
+    line_end：
+      25
+    观察：
+      所选 testSend 构造消息并发送，没有显式断言或重复投递验证。
+    kind：
+      测试材料边界
+    原始来源：
+      https://github.com/viego1999/xuecheng-plus-project/blob/5c0929f5523a46a2e9b8ea8457d638a65b849474/xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java#L21-L25
+测试材料与评测边界：
+  - 仓库有 SpringBootTest、HTTP Client 请求文件、媒体分块与 MinIO 等测试类；存在测试文件不代表无需中间件即可运行。
+  - 具体抽读 PayNotifyServiceTest；未运行 Maven、数据库、支付沙箱或 MQ。没有本次实测吞吐或可靠性数字。
+运行依赖说明：
+  - 父 POM 固定 Java 1.8、Spring Boot 2.3.7.RELEASE、Spring Cloud Hoxton.SR10。
+  - README 列出数据库、前端、Nacos、MinIO、XXL-JOB、Nginx、Elasticsearch／Kibana、RabbitMQ；多处是作者本机 Windows 路径。
+  - 归档不含 .sql 初始化文件，也不含完整外部中间件运行环境；需另寻原教程配套材料和核对依赖。
+cost：
+  本次只下载与静态阅读，未产生模型／云服务调用费用。部署成本来自本机资源和中间件；支付若接外部服务须另行配置，未尝试。
+recommended_for：
+  - 已有 Java 基础，想把成功候选人的项目描述追到代码的人
+  - 学习消息表、课程发布与缓存链路的代码审查
+not_recommended_for：
+  - 希望下载后直接得到可独立运行成品的初学者
+  - 希望通过完整照搬旧课程获得 SSP 辨识度的人
+候选人与项目关系：
+  - candidate_id：
+      CV02
+    直接关系：
+      候选人公开材料直接列出该仓库；本次补齐固定源码。
+    录用因果边界：
+      没有企业侧录用证明，不能证明此项目单独造成腾讯 SSP 或其他 offer。
+interview_evidence_ids：
+  - INT06
+  - INT07
+  - INT11
+interview_linkage：
+  这些面经用于主题映射：MQ、一致性、技术选择与可验证故障。未发现这些面经直接考查此仓库，不称为原题对应。
+interview_questions：
+  - CountDownLatch.await 超时后，工作线程真的停止了吗？线程池何时释放？
+  - 本地事务保存消息记录以后，发布动作和完成标记之间崩溃会怎样？
+  - 支付通知重复到达时，选课与课程表由什么数据库约束保护？
+商业与选择偏差：
+  在线教育课程／教学衍生项目；CV02 推荐课程，不据此推断付费关系或课程导致录用。
+许可标识：
+  Unlicense
+license_scope：
+  固定 commit 根目录 LICENSE 为 Unlicense。保留原 README 与归属信息；仓库作者选择许可不等于对所有教程、素材的第三方权利做独立认证。
+固定源码提交：
+  5c0929f5523a46a2e9b8ea8457d638a65b849474
+源码提交时间：
+  2023-11-04T07:16:16Z
+default_branch：
+  master
+取得源码ZIP：
+  是
+源码包文件：
+  viego1999__xuecheng-plus-project__5c0929f5523a.zip
+源码包SHA-256：
+  5e327cfa066a34a653129fd9c202a07c845b5bc46de4826161124211bbc095b4
+运行验证范围：
+  未构建、未启动、未执行测试；源码存在与运行成功分开记录。
+retrieved_date：
+  2026-10-23
+类别：
+  项目参考
+source_urls：
+  - https://github.com/viego1999/xuecheng-plus-project
+  - https://github.com/viego1999/xuecheng-plus-project/tree/5c0929f5523a46a2e9b8ea8457d638a65b849474
+  - https://api.github.com/repos/viego1999/xuecheng-plus-project
+inspection_boundary：
+  未构建、未启动、未执行测试；源码存在与运行成功分开记录。 优缺点中运行和成本判断为静态依据／方法风险；不认证生产适用性。
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2023-11-04T07:16:16Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    优先做成功者项目描述→课程发布事务→消息线程池→测试断言的对照阅读。
+  指定模块：
+    - xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java
+    - xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java
+    - xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java
+    - xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    未核Agent任务；可补消息可靠性基础，不能计Agent成功项目。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    viego1999__xuecheng-plus-project__5c0929f5523a.zip
+  固定源码提交：
+    5c0929f5523a46a2e9b8ea8457d638a65b849474
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否

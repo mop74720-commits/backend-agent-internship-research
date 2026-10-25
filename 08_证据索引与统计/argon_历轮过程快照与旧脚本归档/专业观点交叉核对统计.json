@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "status": "active",
+  "new_record_ids": [
+    "OP16"
+  ],
+  "current_totals": {
+    "logical_evidence_records": 191,
+    "candidate_cases": 31,
+    "interview_materials": 77,
+    "projects": 25,
+    "source_archives": 22,
+    "fixed_link_only": 3,
+    "jd_leads": 19,
+    "engineering_jd_fulltext": 14,
+    "platform_opinion_records": 13,
+    "additional_primary_texts": 3,
+    "manual_links": 68,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 6
+  },
+  "summary": "补读百度Comate公开一线演讲实录，核讲师与议题身份，将评测、工具恢复和上下文观点与已有项目对照。",
+  "remaining_gaps": [
+    "近期成功Agent实习者的同人完整履历、具体公开实现与本人面经关联仍需补强。",
+    "近期Agent SSP的岗位、批次和最终档位仍缺完整直接样本，第三方课程推荐语不替代本人材料。",
+    "B站视频/字幕仍未实际读取；新演讲为平台外原始实录，知乎受限原始链接供用户手动核读。"
+  ],
+  "new_interviews": 0,
+  "new_candidate_profiles": 0,
+  "new_projects": 0,
+  "new_ssp_cases": 0,
+  "native_platform_increment": 0,
+  "comparisons": 3
+}

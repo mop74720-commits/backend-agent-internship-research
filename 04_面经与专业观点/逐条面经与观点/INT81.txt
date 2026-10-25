@@ -1,0 +1,185 @@
+INT81 | 从一面到二面：Java后端实习面试复盘（原版两轮，含事后模板）
+
+需求核对版 · 2026-10-24
+
+source_key：
+  DAVIDHLP_LEGACY_INTERVIEW
+类别：
+  面经复盘
+原始来源：
+  https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md
+公司：
+  未知
+方向与岗位：
+  Java后端实习
+事件时间／原文日期（依分类）：
+  事件年月日未知
+发表／来源日期：
+  2026-02-25 00:00:00+08:00（原稿timestamp）
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    事件年月日未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    2026-02-25 00:00:00+08:00（原稿timestamp）
+  时间依据：
+    文章时间不是面试时间；两轮不拆为两位候选人
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    713行原文已取得；定点核读来源说明、3.1/3.2项目追问、4.1–4.5二面追问、5排障、7项目表达和结尾边界；非逐字逐行技术审定
+  实际观看视频：
+    否
+fulltext_verified：
+  否
+面经形式：
+  面试问题与部分事后解答混合
+候选人关联ID：
+  - CV28
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  是
+统计组：
+  明确实习面经
+结果分类：
+  unknown
+结果自述：
+  公司和录用结果未知；不绑定已知实习雇主
+逐项结果与档位：
+  —
+涉及主题：
+  - Spring Cache
+  - 缓存并发
+  - OJ
+  - MQ选型
+  - 容器隔离
+  - CPU排障
+原文提问（归纳）：
+  - Spring Cache二开怎样防穿透/击穿/雪崩
+  - OJ怎样用Docker运行不可信用户代码
+  - 为什么OJ引入Kafka
+  - 缓存责任链如何避免过度设计
+  - 高CPU如何定位进程、线程和调用链
+内容归纳：
+  文中的推荐回答模板、能力雷达主观分数和后续补齐建议，不等于候选人在面试当场实际答出；文章声明两轮约30/45分钟，不拆成两位候选人；原文OJ用Kafka作回答，当前UltiCode所核版本用Redis Streams；必须保留差异，不能把旧面经答案贴为现版实现
+questions_vs_retrospective_answers：
+  文中的推荐回答模板、能力雷达主观分数和后续补齐建议，不等于候选人在面试当场实际答出；文章声明两轮约30/45分钟，不拆成两位候选人
+source_record：
+  标题：
+    从一面到二面：Java后端实习面试复盘
+  source：
+    原始来源：
+      https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/6f3d114a6ef9eb08b730f5f4740afe5b7d22d426/src/content/note/zh-cn/java-internship-interview-blog-polished.md
+    http_status：
+      200
+    sha256：
+      0cb4a346ea239b774b44747d57907afa164524f8c656dcdb22f2abb5ab472021
+    lines：
+      713
+  author_relation：
+    本人站公开文章，自称基于两轮真实Java后端实习面试整理；未给企业名或逐轮原始录音
+  publication_time：
+    2026-02-25 00:00:00+08:00（原稿timestamp）
+  interview_event_time：
+    未知
+  strict_recent_interview：
+    否
+  招聘类型：
+    实习
+  公司：
+    未知
+  结果自述：
+    未知
+  ssp：
+    否
+  reading_scope：
+    713行原文已取得；定点核读来源说明、3.1/3.2项目追问、4.1–4.5二面追问、5排障、7项目表达和结尾边界；非逐字逐行技术审定
+  面经形式：
+    自述面试问题与推荐回答模板/事后工程化补充混合
+  question_answer_boundary：
+    文中的推荐回答模板、能力雷达主观分数和后续补齐建议，不等于候选人在面试当场实际答出；文章声明两轮约30/45分钟，不拆成两位候选人
+  project_relationship：
+    原文追问Spring Cache二开和OJ沙箱；与履历ResiCache/UltiCode领域对应，但原文未点名仓库名，所以只能标主题/实现领域关联，不能保证同一版本或当年面试项目
+  version_difference：
+    原文OJ用Kafka作回答，当前UltiCode所核版本用Redis Streams；必须保留差异，不能把旧面经答案贴为现版实现
+  questions：
+    - section：
+        3.1
+      question：
+        Spring Cache二开怎样防穿透/击穿/雪崩
+      source_lines：
+        L78–112
+      code_module：
+        ResiCache SyncSupport/SyncRole、EarlyRefresh
+      直接关系：
+        主题对应，不证明原面试仓库版本
+    - section：
+        3.2
+      question：
+        OJ怎样用Docker运行不可信用户代码
+      source_lines：
+        L114–163
+      code_module：
+        UltiCode judge-runtime，沙箱细节本轮未审
+      直接关系：
+        主题对应，Docker限制不能凭模板宣称全部源码已核
+    - section：
+        4.2
+      question：
+        为什么OJ引入Kafka
+      source_lines：
+        L279–316
+      code_module：
+        现版JudgeOutboxDispatcher/Redis Streams
+      直接关系：
+        历史回答与当前实现不同；可比较异步投递需求，不混写具体中间件
+    - section：
+        4.4
+      question：
+        缓存责任链如何避免过度设计
+      source_lines：
+        L358–387
+      code_module：
+        ResiCache职责拆分
+      直接关系：
+        主题对应，需结合实际文件考察取舍
+    - section：
+        5
+      question：
+        高CPU如何定位进程、线程和调用链
+      source_lines：
+        L429–513
+      code_module：
+        履历Arthas排障职责
+      直接关系：
+        知识/专业经历交叉，不是已复现线上事故
+  current_synthesis：
+    原始来源：
+      https://raw.githubusercontent.com/DavidHLP/DavidHLP.github.io/f49953fb0d4bd52a39bf81167b0c4b7dd7d78a64/src/content/note/zh-cn/java-internship-interview-blog-polished.md
+    http_status：
+      200
+    sha256：
+      c6b7be1ac6c090ec9d649cfd2575dbd25d791643cfa1cc8ebc827c904c909087
+    lines：
+      101
+    kind：
+      synthesis
+    状态：
+      provisional
+    boundary：
+      当前101行文章自称综合能力模型，不另计为第二份真实面经
+  cannot_link_to_specific_employer_offer：
+    是

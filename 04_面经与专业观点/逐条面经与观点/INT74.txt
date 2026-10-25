@@ -1,0 +1,133 @@
+INT74 | MINISO名创优品Agent开发实习一面
+
+需求核对版 · 2026-10-24
+
+source_key：
+  MINISO_f844a4ac
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c?sourceSSR=subject
+方向与岗位：
+  Agent开发实习
+公司：
+  名创优品
+事件时间／原文日期（依分类）：
+  未写绝对年月日
+发表／来源日期：
+  发表时间未核
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    未写绝对年月日
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  时间依据：
+    单篇事件年未明；同作者导航或发表元数据不自动绑定具体场次
+  来源日期：
+    未核
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    全文可见文字已读
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  - CV26
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习面经
+结果分类：
+  next_round_or_waiting_self_report
+结果自述：
+  一面过，待测评及后续；后续汇总列为手上机会，不能改写一面时点
+逐项结果与档位：
+  - 公司：
+      名创优品
+    档位：
+      未披露
+    状态：
+      next_round_or_waiting_self_report
+    证据：
+      https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c?sourceSSR=subject
+    依据：
+      一面过，待测评及后续；后续汇总列为手上机会，不能改写一面时点
+    企业独立验证：
+      否
+涉及主题：
+  - checkpoint与幂等
+  - 技能版本与回归
+  - 上下文压缩
+  - 权限边界
+原文提问（归纳）：
+  - 为何拆子图，状态如何传递；外部操作完成但checkpoint前宕机如何避免重复提交。
+  - 错误badcase如何避免污染Skills，自主规划和固定编排如何分工。
+  - 上下文与循环token膨胀、工具结果压缩、权限与注入校验。
+内容归纳：
+  实际面试问题的本人回忆；没提供完整答案或故障复现。
+questions_vs_retrospective_answers：
+  实际面试问题的本人回忆；没提供完整答案或故障复现。
+rounds：
+  - 一面
+原访问范围：
+  全文可见文字已读
+source_record：
+  key：
+    MINISO_f844a4ac
+  原始来源：
+    https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c?sourceSSR=subject
+  标题：
+    MINISO名创优品Agent开发实习一面
+  author_id：
+    216541357
+  公司：
+    名创优品
+  方向与岗位：
+    Agent开发实习
+  招聘类型：
+    实习
+  rounds：
+    - 一面
+  event_date：
+    未写绝对年月日
+  event_year_confirmed：
+    否
+  范围：
+    全文可见文字已读
+  questions_paraphrased：
+    - 为何拆子图，状态如何传递；外部操作完成但checkpoint前宕机如何避免重复提交。
+    - 错误badcase如何避免污染Skills，自主规划和固定编排如何分工。
+    - 上下文与循环token膨胀、工具结果压缩、权限与注入校验。
+  questions_vs_answers：
+    实际面试问题的本人回忆；没提供完整答案或故障复现。
+  project_modules：
+    - checkpoint与幂等
+    - 技能版本与回归
+    - 上下文压缩
+    - 权限边界
+  结果自述：
+    一面过，待测评及后续；后续汇总列为手上机会，不能改写一面时点
+  access：
+    http_status：
+      200
+    selector：
+      .post-content-box
+    read：
+      是

@@ -1,0 +1,476 @@
+[
+  {
+    "repo": "nageoffer/12306",
+    "default_branch": "main",
+    "license": "Apache-2.0",
+    "size_kb_git_history": 1978,
+    "commit": "daf3a2714c00ff263764d23ab10c2eaed2ae842d",
+    "commit_date": "2026-03-12T14:45:22Z",
+    "source_url": "https://github.com/nageoffer/12306",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "nageoffer__12306__daf3a2714c00.zip",
+    "archive_bytes": 1708385,
+    "archive_sha256": "d7f8a6d35ebafe887a35867541f759c2f4e136e4de1381135235e7f3f09a5eb8",
+    "member_count": 987,
+    "license_files": [
+      "12306-daf3a2714c00ff263764d23ab10c2eaed2ae842d/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/nageoffer/12306/zip/daf3a2714c00ff263764d23ab10c2eaed2ae842d",
+    "verification": "ZIP CRC and embedded license checked; application not executed"
+  },
+  {
+    "repo": "nageoffer/shortlink",
+    "default_branch": "main",
+    "license": "Apache-2.0",
+    "size_kb_git_history": 884,
+    "commit": "02da2983c9211928cb473bbbaac67b93f925c138",
+    "commit_date": "2026-03-12T14:47:12Z",
+    "source_url": "https://github.com/nageoffer/shortlink",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "nageoffer__shortlink__02da2983c921.zip",
+    "archive_bytes": 857697,
+    "archive_sha256": "0bffdf2e37ee1829136f12d566dedd307816ae61790c90adec597f2919a72652",
+    "member_count": 426,
+    "license_files": [
+      "shortlink-02da2983c9211928cb473bbbaac67b93f925c138/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/nageoffer/shortlink/zip/02da2983c9211928cb473bbbaac67b93f925c138",
+    "verification": "ZIP CRC and embedded license checked; application not executed"
+  },
+  {
+    "repo": "macrozheng/mall",
+    "default_branch": "master",
+    "license": "Apache-2.0",
+    "size_kb_git_history": 58744,
+    "commit": "dcaa93b3150352e5044708d7211b5bed0af4509f",
+    "commit_date": "2026-09-15T02:33:19Z",
+    "source_url": "https://github.com/macrozheng/mall",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "macrozheng__mall__dcaa93b31503.zip",
+    "archive_bytes": 11640895,
+    "archive_sha256": "6024126e980894f3f730854f6bce3f9bba280ff93ad3b8c3b8e1f5240c4d8a2c",
+    "member_count": 866,
+    "license_files": [
+      "mall-dcaa93b3150352e5044708d7211b5bed0af4509f/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/macrozheng/mall/zip/dcaa93b3150352e5044708d7211b5bed0af4509f",
+    "verification": "ZIP CRC and embedded license checked; application not executed"
+  },
+  {
+    "repo": "nageoffer/ragent",
+    "default_branch": "main",
+    "license": "Apache-2.0",
+    "size_kb_git_history": 23876,
+    "commit": "ff93871ab88fff24a5dac7feee7ea342359a3439",
+    "commit_date": "2026-10-15T15:07:15Z",
+    "source_url": "https://github.com/nageoffer/ragent",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "nageoffer__ragent__ff93871ab88f.zip",
+    "archive_bytes": 22191267,
+    "archive_sha256": "353e9f000a7de260b86ca9ad17c7b6c664c60962813d1f269081f88173f43a39",
+    "member_count": 2024,
+    "license_files": [
+      "ragent-ff93871ab88fff24a5dac7feee7ea342359a3439/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/nageoffer/ragent/zip/ff93871ab88fff24a5dac7feee7ea342359a3439",
+    "verification": "ZIP CRC and embedded license checked; application not executed"
+  },
+  {
+    "repo": "bytedance/deer-flow",
+    "default_branch": "main",
+    "license": "MIT",
+    "size_kb_git_history": 92151,
+    "commit": "7a32a5e17735084b3e2bcb599d8ec6e531e6adae",
+    "commit_date": "2026-10-23T08:51:36Z",
+    "source_url": "https://github.com/bytedance/deer-flow",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "bytedance__deer-flow__7a32a5e17735.zip",
+    "archive_bytes": 34560218,
+    "archive_sha256": "b67092550b95a322e1601b5993fba6915d9c368852386f4d0774fb89904fbaa1",
+    "member_count": 4841,
+    "license_files": [
+      "deer-flow-7a32a5e17735084b3e2bcb599d8ec6e531e6adae/LICENSE",
+      "deer-flow-7a32a5e17735084b3e2bcb599d8ec6e531e6adae/examples/deerflow-extension-jev-context/LICENSE",
+      "deer-flow-7a32a5e17735084b3e2bcb599d8ec6e531e6adae/examples/deerflow-extension-knowledge/LICENSE",
+      "deer-flow-7a32a5e17735084b3e2bcb599d8ec6e531e6adae/examples/deerflow-extension-lightrag/LICENSE",
+      "deer-flow-7a32a5e17735084b3e2bcb599d8ec6e531e6adae/examples/deerflow-extension-retrieval/LICENSE",
+      "deer-flow-7a32a5e17735084b3e2bcb599d8ec6e531e6adae/skills/public/frontend-design/LICENSE.txt",
+      "deer-flow-7a32a5e17735084b3e2bcb599d8ec6e531e6adae/skills/public/skill-creator/LICENSE.txt"
+    ],
+    "download_url": "https://codeload.github.com/bytedance/deer-flow/zip/7a32a5e17735084b3e2bcb599d8ec6e531e6adae",
+    "verification": "ZIP CRC and embedded license checked; application not executed"
+  },
+  {
+    "repo": "langchain-ai/open_deep_research",
+    "default_branch": "main",
+    "license": "MIT",
+    "size_kb_git_history": 6750,
+    "commit": "1b7d2e80db9faa586165c60e09096dbbfd483a64",
+    "commit_date": "2026-08-10T18:13:29Z",
+    "source_url": "https://github.com/langchain-ai/open_deep_research",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "langchain-ai__open_deep_research__1b7d2e80db9f.zip",
+    "archive_bytes": 2425581,
+    "archive_sha256": "d66acd356f6a0c64e8157438255aa0dd2765ba3bc1d0a7391e6ba527ddcb725c",
+    "member_count": 57,
+    "license_files": [
+      "open_deep_research-1b7d2e80db9faa586165c60e09096dbbfd483a64/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/langchain-ai/open_deep_research/zip/1b7d2e80db9faa586165c60e09096dbbfd483a64",
+    "verification": "ZIP CRC and embedded license checked; application not executed"
+  },
+  {
+    "repo": "infiniflow/ragflow",
+    "default_branch": "main",
+    "license": "Apache-2.0",
+    "size_kb_git_history": 185179,
+    "commit": "4cb2e5abfe0c490ccbb05c9278e2d42b8b395996",
+    "commit_date": "2026-10-23T08:30:50Z",
+    "source_url": "https://github.com/infiniflow/ragflow",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "infiniflow__ragflow__4cb2e5abfe0c.zip",
+    "archive_bytes": 22021593,
+    "archive_sha256": "6b3c3497d72b44eb6b6a1d2a6ee1d42cf39e682e048f2f3e6b9a7f166728c6ed",
+    "member_count": 6073,
+    "license_files": [
+      "ragflow-4cb2e5abfe0c490ccbb05c9278e2d42b8b395996/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/infiniflow/ragflow/zip/4cb2e5abfe0c490ccbb05c9278e2d42b8b395996",
+    "verification": "ZIP CRC and embedded license checked; application not executed"
+  },
+  {
+    "id": "PRO08",
+    "repo": "viego1999/xuecheng-plus-project",
+    "commit": "5c0929f5523a46a2e9b8ea8457d638a65b849474",
+    "license": "Unlicense",
+    "source_url": "https://github.com/viego1999/xuecheng-plus-project",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "viego1999__xuecheng-plus-project__5c0929f5523a.zip",
+    "archive_bytes": 881347,
+    "archive_sha256": "5e327cfa066a34a653129fd9c202a07c845b5bc46de4826161124211bbc095b4",
+    "member_count": 1161,
+    "license_files": [
+      "xuecheng-plus-project-5c0929f5523a46a2e9b8ea8457d638a65b849474/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/viego1999/xuecheng-plus-project/zip/5c0929f5523a46a2e9b8ea8457d638a65b849474",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java",
+        "exists": true
+      },
+      {
+        "path": "xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java",
+        "exists": true
+      },
+      {
+        "path": "xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/ReceivePayNotifyServiceImpl.java",
+        "exists": true
+      },
+      {
+        "path": "xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/PayNotifyServiceTest.java",
+        "exists": true
+      },
+      {
+        "path": "xuecheng-plus-parent/pom.xml",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "master",
+    "commit_date": "2023-11-04T07:16:16Z",
+    "size_kb_git_history": 339,
+    "source_archive": true
+  },
+  {
+    "id": "PRO09",
+    "repo": "apache/shenyu",
+    "commit": "34f2ed036747936a5e28aea2c94cd9b3cddcce47",
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/apache/shenyu",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "apache__shenyu__34f2ed036747.zip",
+    "archive_bytes": 13453929,
+    "archive_sha256": "60aa52d113c0fba6dee91b5cb2212bf309e4878de5f658c86091b9b057a5cd15",
+    "member_count": 10146,
+    "license_files": [
+      "shenyu-34f2ed036747936a5e28aea2c94cd9b3cddcce47/LICENSE",
+      "shenyu-34f2ed036747936a5e28aea2c94cd9b3cddcce47/NOTICE"
+    ],
+    "download_url": "https://codeload.github.com/apache/shenyu/zip/34f2ed036747936a5e28aea2c94cd9b3cddcce47",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "shenyu-web/src/main/java/org/apache/shenyu/web/handler/ShenyuWebHandler.java",
+        "exists": true
+      },
+      {
+        "path": "shenyu-plugin/shenyu-plugin-base/src/main/java/org/apache/shenyu/plugin/base/AbstractShenyuPlugin.java",
+        "exists": true
+      },
+      {
+        "path": "shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/main/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPlugin.java",
+        "exists": true
+      },
+      {
+        "path": "shenyu-plugin/shenyu-plugin-fault-tolerance/shenyu-plugin-ratelimiter/src/test/java/org/apache/shenyu/plugin/ratelimiter/RateLimiterPluginTest.java",
+        "exists": true
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "master",
+    "commit_date": "2026-10-23T03:39:41Z",
+    "size_kb_git_history": 93861,
+    "source_archive": true
+  },
+  {
+    "id": "PRO10",
+    "repo": "casdoor/casdoor",
+    "commit": "171f4dbafbab735dabfa37350aa4f432aaaf0713",
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/casdoor/casdoor",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "casdoor__casdoor__171f4dbafbab.zip",
+    "archive_bytes": 8691636,
+    "archive_sha256": "a7b082c753c686c5f4a6d315a88e5a3761a873bb5979f6367ff9fbc948999d2c",
+    "member_count": 1447,
+    "license_files": [
+      "casdoor-171f4dbafbab735dabfa37350aa4f432aaaf0713/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/casdoor/casdoor/zip/171f4dbafbab735dabfa37350aa4f432aaaf0713",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "object/permission_enforcer.go",
+        "exists": true
+      },
+      {
+        "path": "object/permission_enforcer_test.go",
+        "exists": true
+      },
+      {
+        "path": "object/token_jwt_key.go",
+        "exists": true
+      },
+      {
+        "path": "object/token_jwt_key_test.go",
+        "exists": true
+      },
+      {
+        "path": "go.mod",
+        "exists": true
+      },
+      {
+        "path": "web/package.json",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "master",
+    "commit_date": "2026-10-22T14:56:02Z",
+    "size_kb_git_history": 51247,
+    "source_archive": true
+  },
+  {
+    "id": "PRO11",
+    "repo": "agentscope-ai/agentscope",
+    "commit": "bdad647d2fee7d66597681ecd89e086b7800dd2a",
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/agentscope-ai/agentscope",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "agentscope-ai__agentscope__bdad647d2fee.zip",
+    "archive_bytes": 9032453,
+    "archive_sha256": "e6896e9ee7ec7165628dcd025958b49f0548ef612f8768ff95691a42f9272cf8",
+    "member_count": 1397,
+    "license_files": [
+      "agentscope-bdad647d2fee7d66597681ecd89e086b7800dd2a/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/agentscope-ai/agentscope/zip/bdad647d2fee7d66597681ecd89e086b7800dd2a",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "src/agentscope/permission/_engine.py",
+        "exists": true
+      },
+      {
+        "path": "src/agentscope/agent/_agent.py",
+        "exists": true
+      },
+      {
+        "path": "src/agentscope/state/_state.py",
+        "exists": true
+      },
+      {
+        "path": "tests/permission_engine_test.py",
+        "exists": true
+      },
+      {
+        "path": "tests/agent_interrupt_test.py",
+        "exists": true
+      },
+      {
+        "path": ".github/workflows/unittest.yml",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "main",
+    "commit_date": "2026-10-23T08:07:34Z",
+    "size_kb_git_history": 66812,
+    "source_archive": true
+  },
+  {
+    "id": "PRO12",
+    "repo": "FoundationAgents/OpenManus",
+    "commit": "3309bf4e416fb1c74b008f3e86494439a31bad53",
+    "license": "MIT",
+    "source_url": "https://github.com/FoundationAgents/OpenManus",
+    "retrieved_date": "2026-10-23",
+    "status": "downloaded",
+    "archive_file": "FoundationAgents__OpenManus__3309bf4e416f.zip",
+    "archive_bytes": 656900,
+    "archive_sha256": "280b5a708fae8efd68dd8fe4f96d95ab900bc7265fa9d733e122df0340ec3b76",
+    "member_count": 179,
+    "license_files": [
+      "OpenManus-3309bf4e416fb1c74b008f3e86494439a31bad53/LICENSE"
+    ],
+    "download_url": "https://codeload.github.com/FoundationAgents/OpenManus/zip/3309bf4e416fb1c74b008f3e86494439a31bad53",
+    "verification": "ZIP CRC passed; embedded license/notice retained; source paths inspected; application/tests not executed",
+    "path_checks": [
+      {
+        "path": "app/agent/base.py",
+        "exists": true
+      },
+      {
+        "path": "app/agent/toolcall.py",
+        "exists": true
+      },
+      {
+        "path": "app/sandbox/core/sandbox.py",
+        "exists": true
+      },
+      {
+        "path": "tests/sandbox/test_sandbox.py",
+        "exists": true
+      },
+      {
+        "path": "tests/tools/test_browser_use_mcp.py",
+        "exists": true
+      },
+      {
+        "path": "requirements.txt",
+        "exists": true
+      }
+    ],
+    "crc_checked": true,
+    "default_branch": "main",
+    "commit_date": "2026-08-16T10:29:11Z",
+    "size_kb_git_history": 4565,
+    "source_archive": true
+  },
+  {
+    "id": "PRO14",
+    "repo": "CalvinNeo/CFortranTranslator",
+    "commit": "903062e709c8a0818737b6202dbcf5f510377af8",
+    "commit_date": "2024-12-09T15:57:17Z",
+    "license": "GPL-2.0-or-later",
+    "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+    "status": "downloaded",
+    "source_archive": true,
+    "source_url": "https://github.com/CalvinNeo/CFortranTranslator",
+    "download_url": "https://codeload.github.com/CalvinNeo/CFortranTranslator/zip/903062e709c8a0818737b6202dbcf5f510377af8",
+    "retrieved_date": "2026-10-23",
+    "archive_file": "CalvinNeo__CFortranTranslator__903062e709c8.zip",
+    "archive_bytes": 790199,
+    "archive_sha256": "804e94877cb35fec27ac60de10e2e20d60d78caef95abe76f006be2d3a083015",
+    "member_count": 170,
+    "license_files": [
+      "CFortranTranslator-903062e709c8a0818737b6202dbcf5f510377af8/LICENSE"
+    ],
+    "crc_checked": true,
+    "verification": "固定版本ZIP CRC与SHA-256、原许可证及推荐路径存在性；未构建、运行或压测"
+  },
+  {
+    "id": "PRO15",
+    "repo": "CalvinNeo/ATP",
+    "commit": "597a9be4b840127c320b0a7abbfa280ccaab435f",
+    "commit_date": "2020-10-16T04:56:53Z",
+    "license": "GPL-2.0-or-later",
+    "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+    "status": "downloaded",
+    "source_archive": true,
+    "source_url": "https://github.com/CalvinNeo/ATP",
+    "download_url": "https://codeload.github.com/CalvinNeo/ATP/zip/597a9be4b840127c320b0a7abbfa280ccaab435f",
+    "retrieved_date": "2026-10-23",
+    "archive_file": "CalvinNeo__ATP__597a9be4b840.zip",
+    "archive_bytes": 96937,
+    "archive_sha256": "ff1205bbb9b6731133e98a4495d4ef81b80e6c015411e24b79052b2dec2b19e1",
+    "member_count": 46,
+    "license_files": [
+      "ATP-597a9be4b840127c320b0a7abbfa280ccaab435f/LICENSE"
+    ],
+    "crc_checked": true,
+    "verification": "固定版本ZIP CRC与SHA-256、原许可证及推荐路径存在性；未构建、运行或压测"
+  },
+  {
+    "id": "PRO16",
+    "repo": "CalvinNeo/Nuft",
+    "commit": "39e09d330abc68ca82e13c0baa9020c533d979aa",
+    "commit_date": "2022-04-12T14:08:23Z",
+    "license": "GPL-3.0-or-later；jepsen子目录EPL-1.0-or-later",
+    "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+    "status": "downloaded",
+    "source_archive": true,
+    "source_url": "https://github.com/CalvinNeo/Nuft",
+    "download_url": "https://codeload.github.com/CalvinNeo/Nuft/zip/39e09d330abc68ca82e13c0baa9020c533d979aa",
+    "retrieved_date": "2026-10-23",
+    "archive_file": "CalvinNeo__Nuft__39e09d330abc.zip",
+    "archive_bytes": 96169,
+    "archive_sha256": "d297b099e78bd770c431ba704c96e937dfa955616d9b5efe8759cfe536d7f593",
+    "member_count": 50,
+    "license_files": [
+      "Nuft-39e09d330abc68ca82e13c0baa9020c533d979aa/LICENSE",
+      "Nuft-39e09d330abc68ca82e13c0baa9020c533d979aa/jepsen/LICENSE"
+    ],
+    "crc_checked": true,
+    "verification": "固定版本ZIP CRC与SHA-256、原许可证及推荐路径存在性；未构建、运行或压测"
+  },
+  {
+    "id": "PRO17",
+    "repo": "linyacool/WebServer",
+    "commit": "7e18602f15c5c64e006091aa03e04b927c255983",
+    "commit_date": "2022-03-21T03:40:21Z",
+    "license": "根MIT；内嵌WebBench为GPL-3.0",
+    "license_scope": "原样保留根及子目录许可证；不把当前版本当作求职时原始快照",
+    "status": "downloaded",
+    "source_archive": true,
+    "source_url": "https://github.com/linyacool/WebServer",
+    "download_url": "https://codeload.github.com/linyacool/WebServer/zip/7e18602f15c5c64e006091aa03e04b927c255983",
+    "retrieved_date": "2026-10-23",
+    "archive_file": "linyacool__WebServer__7e18602f15c5.zip",
+    "archive_bytes": 1988617,
+    "archive_sha256": "fd7a8c24a7270480d42e37434865601388dd0013080e6fb5b91691fade2b1c52",
+    "member_count": 230,
+    "license_files": [
+      "WebServer-7e18602f15c5c64e006091aa03e04b927c255983/LICENSE",
+      "WebServer-7e18602f15c5c64e006091aa03e04b927c255983/WebBench/LICENSE"
+    ],
+    "crc_checked": true,
+    "verification": "固定版本ZIP CRC与SHA-256、原许可证及推荐路径存在性；未构建、运行或压测"
+  }
+]

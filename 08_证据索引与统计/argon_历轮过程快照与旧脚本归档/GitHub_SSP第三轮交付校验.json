@@ -1,0 +1,22 @@
+{
+  "json_all_parse": true,
+  "local_links_checked": 356,
+  "missing_links": [],
+  "all_record_ids_unique": true,
+  "counts_match": true,
+  "pdf_pages": 17,
+  "pdf_ids_present": {
+    "CV18": true,
+    "CV19": true,
+    "INT63": true,
+    "CV05": true,
+    "PRO18": true
+  },
+  "pdf_no_blank_pages": true,
+  "pdf_visual_inspection_pages": [
+    1,
+    9,
+    17
+  ],
+  "new_third_party_projects_executed": false
+}

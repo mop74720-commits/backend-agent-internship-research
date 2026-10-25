@@ -1,0 +1,231 @@
+INT92 | 阿里国际一面面经
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/discuss/737334743661875200
+公司：
+  阿里国际
+方向与岗位：
+  阿里国际AIDC；后端/Java相关；未说明实习或校招
+事件时间／原文日期（依分类）：
+  面试年月日未知；2025-04-03为发布日
+发表／来源日期：
+  发布于  2025-04-03 15:45
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    未知
+  事件时间：
+    面试年月日未知；2025-04-03为发布日
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    发布于  2025-04-03 15:45
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  未知对照
+结果分类：
+  unknown
+结果自述：
+  未披露
+逐项结果与档位：
+  - 公司：
+      阿里国际
+    方向与岗位：
+      阿里国际AIDC；后端/Java相关；未说明实习或校招
+    档位：
+      未披露
+    状态：
+      unknown
+    事件时间／原文日期（依分类）：
+      面试年月日未知；2025-04-03为发布日
+    证据：
+      https://ac.nowcoder.com/discuss/1483746
+    依据：
+      未披露
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面；未披露
+    questions：
+      - 独立索引和联合索引下多个SQL的命中和效率怎样比较？
+      - IoC容器和简单Web容器怎样设计？
+      - 多级缓存为何必要、过期时间如何设置、如何保持一致？
+      - 40G内容放入单节点10G容量的集群怎样分片？
+      - Hash取模四节点损坏一节点时怎样重新分配和保证高可用？
+      - HTTP请求到Controller有哪些环节？
+    结果自述：
+      未披露
+涉及主题：
+  - 数据库/SQL
+  - 缓存/Redis
+  - 网络/协议
+  - 分布式/一致性
+  - 框架/机制
+原文提问（归纳）：
+  - 独立索引和联合索引下多个SQL的命中和效率怎样比较？
+  - IoC容器和简单Web容器怎样设计？
+  - 多级缓存为何必要、过期时间如何设置、如何保持一致？
+  - 40G内容放入单节点10G容量的集群怎样分片？
+  - Hash取模四节点损坏一节点时怎样重新分配和保证高可用？
+  - HTTP请求到Controller有哪些环节？
+内容归纳：
+  重点为联合索引、多级缓存、高可用分片，以及IoC和Web容器的设计。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  适合系统设计练习；纳入后端补充样本，不算已确认实习面经。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I08
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    阿里国际一面面经
+  原始来源：
+    https://www.nowcoder.com/discuss/737334743661875200
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1483746
+  canonical_post_key：
+    discuss/1483746
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    be874cae3926cd9cb6a1631c93f0a9a278adc5e0b9dd71473362a093a6962ee8
+  body_char_count：
+    636
+  source_card_path：
+    03_面经/I08.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    发布于  2025-04-03 15:45
+  source_date_verified：
+    是
+  方向：
+    后端
+  招聘类型：
+    未知
+  event_date：
+    面试年月日未知；2025-04-03为发布日
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 独立索引和联合索引下多个SQL的命中和效率怎样比较？
+    - IoC容器和简单Web容器怎样设计？
+    - 多级缓存为何必要、过期时间如何设置、如何保持一致？
+    - 40G内容放入单节点10G容量的集群怎样分片？
+    - Hash取模四节点损坏一节点时怎样重新分配和保证高可用？
+    - HTTP请求到Controller有哪些环节？
+  涉及主题：
+    - 数据库/SQL
+    - 缓存/Redis
+    - 网络/协议
+    - 分布式/一致性
+    - 框架/机制
+  结果分类：
+    unknown
+  result：
+    未披露
+  档位：
+    未披露
+  公司：
+    阿里国际
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    阿里国际-AIDC
+电话面，40分钟
+  阅读建议：
+    适合系统设计练习；纳入后端补充样本，不算已确认实习面经。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  date_correction：
+    astra把发布时间附近补为2025事件年，本次不采用；正文未说明实习/校招。
+  author_profile：
+    https://www.nowcoder.com/profile/827188668
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP02
+    - CAP03
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    未核／无
+source_key：
+  ASTRA_I08_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I08
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

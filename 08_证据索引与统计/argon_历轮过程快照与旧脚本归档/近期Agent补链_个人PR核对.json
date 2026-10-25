@@ -1,0 +1,24 @@
+{
+  "html_url": "https://github.com/openclaw/openclaw/pull/3064",
+  "state": "closed",
+  "title": "fix(minimax): use correct API endpoint and format",
+  "merged": true,
+  "merged_at": "2026-01-28T01:48:38Z",
+  "additions": 5,
+  "deletions": 3,
+  "changed_files": 3,
+  "author_login": "hlbbbbbbb",
+  "merge_commit_sha": "eb50314d7d30450775249e15a874dafd681428eb",
+  "diff_review": {
+    "source": "https://api.github.com/repos/openclaw/openclaw/pulls/3064/files",
+    "status": 200,
+    "read_scope": "三文件完整公开patch已读，未运行provider调用",
+    "files": [
+      "CHANGELOG.md",
+      "src/agents/models-config.providers.ts",
+      "src/agents/transcript-policy.ts"
+    ],
+    "finding": "历史patch修改MiniMax端点与API兼容格式，并从Anthropic专属transcript策略中移除MiniMax；5增3删，符合题名范围。",
+    "boundary": "只证该历史合并增量；不证明当前provider配置仍适用、运行正确或整库为本人实现。"
+  }
+}

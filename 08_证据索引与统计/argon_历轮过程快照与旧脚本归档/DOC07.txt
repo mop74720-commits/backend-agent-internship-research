@@ -1,0 +1,16 @@
+DOC07 | Debezium Outbox Event Router
+==================================================
+原始链接：
+https://debezium.io/documentation/reference/stable/transformations/outbox-event-router.html
+
+日期：
+访问于2026-10-23
+
+摘要与评价：
+提供事务发件箱事件路由参考。学生项目可先实现轮询派发，后续有需要再用CDC。
+
+资料类别：
+官方技术资料
+
+检索日期：
+2026-10-23

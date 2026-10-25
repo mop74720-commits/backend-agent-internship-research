@@ -1,0 +1,247 @@
+INT101 | 快手商业化垂直业务 Java日常实习
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://www.nowcoder.com/discuss/726371483039133696
+公司：
+  快手
+方向与岗位：
+  快手；商业化垂直业务Java；日常实习
+事件时间／原文日期（依分类）：
+  2025-02-25投递、2025-02-26一面
+发表／来源日期：
+  发布于  2025-03-04 09:40
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    2025-02-25投递、2025-02-26一面
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    发布于  2025-03-04 09:40
+  时间依据：
+    正文时间线直接写25.2.25和25.2.26。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  是
+近期发表但事件年份未知：
+  否
+统计组：
+  明确事件年实习
+结果分类：
+  unknown
+结果自述：
+  本人后续无回应，猜测已挂；未取得确定失败结果
+逐项结果与档位：
+  - 公司：
+      快手
+    方向与岗位：
+      快手；商业化垂直业务Java；日常实习
+    档位：
+      未披露
+    状态：
+      unknown
+    事件时间／原文日期（依分类）：
+      2025-02-25投递、2025-02-26一面
+    证据：
+      https://ac.nowcoder.com/discuss/1461930
+    依据：
+      本人后续无回应，猜测已挂；未取得确定失败结果
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面；作者猜测未通过，未确认
+    questions：
+      - RocketMQ动态路由怎样打环境标识，MQ-bus覆盖部门还是平台，是否SDK化？
+      - OOM怎样定位处理，消息分区术语是否准确？
+      - 订单水平分片不按商家路由查询时怎么办？
+      - 千万行数据的B+树高度怎样估计，何时不适合建索引？
+      - Redis结构、缓存击穿怎样处理？
+      - 现场实现接雨水。
+    结果自述：
+      本人后续无回应，猜测已挂；未取得确定失败结果
+涉及主题：
+  - 算法/编程
+  - JVM/语言运行时
+  - 数据库/SQL
+  - 缓存/Redis
+  - 消息/异步
+  - 分布式/一致性
+  - 项目深挖/个人贡献
+原文提问（归纳）：
+  - RocketMQ动态路由怎样打环境标识，MQ-bus覆盖部门还是平台，是否SDK化？
+  - OOM怎样定位处理，消息分区术语是否准确？
+  - 订单水平分片不按商家路由查询时怎么办？
+  - 千万行数据的B+树高度怎样估计，何时不适合建索引？
+  - Redis结构、缓存击穿怎样处理？
+  - 现场实现接雨水。
+内容归纳：
+  CRM经历被深挖动态MQ路由、OOM、订单分片，基础题为索引、缓存与编码。
+商业与选择偏差：
+  作者末尾推荐《神品八股》专栏。
+阅读建议：
+  中间件要连到业务场景和排障经历，避免只背术语。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  - 原帖指出面试问法将Kafka partition与RocketMQ queue混用，不能把面试题本身当正确事实。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  - source_id：
+      I07
+    依据：
+      两原帖作者链接均为/profile/294568332，2024-11与2025-02不同流程。
+related_record_ids：
+  - INT91
+source_record：
+  source_id：
+    I17
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    快手商业化垂直业务 Java日常实习
+  原始来源：
+    https://www.nowcoder.com/discuss/726371483039133696
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1461930
+  canonical_post_key：
+    discuss/1461930
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    b6caac0cdf17ee5f4e43594f827040d4feb94223c4e98fd6b9807570de6d4fcd
+  body_char_count：
+    698
+  source_card_path：
+    03_面经/I17.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    发布于  2025-03-04 09:40
+  source_date_verified：
+    是
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_date：
+    2025-02-25投递、2025-02-26一面
+  event_year_confirmed：
+    是
+  event_year：
+    2025
+  时间依据：
+    正文时间线直接写25.2.25和25.2.26。
+  questions：
+    - RocketMQ动态路由怎样打环境标识，MQ-bus覆盖部门还是平台，是否SDK化？
+    - OOM怎样定位处理，消息分区术语是否准确？
+    - 订单水平分片不按商家路由查询时怎么办？
+    - 千万行数据的B+树高度怎样估计，何时不适合建索引？
+    - Redis结构、缓存击穿怎样处理？
+    - 现场实现接雨水。
+  涉及主题：
+    - 算法/编程
+    - JVM/语言运行时
+    - 数据库/SQL
+    - 缓存/Redis
+    - 消息/异步
+    - 分布式/一致性
+    - 项目深挖/个人贡献
+  结果分类：
+    unknown
+  result：
+    本人后续无回应，猜测已挂；未取得确定失败结果
+  档位：
+    未披露
+  公司：
+    快手
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    25.2.25 官网投递
+25.2.26 一面
+后续无回应，猜测已挂
+  阅读建议：
+    中间件要连到业务场景和排障经历，避免只背术语。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+    - 原帖指出面试问法将Kafka partition与RocketMQ queue混用，不能把面试题本身当正确事实。
+  same_author_relations：
+    - source_id：
+        I07
+      依据：
+        两原帖作者链接均为/profile/294568332，2024-11与2025-02不同流程。
+  商业背景：
+    作者末尾推荐《神品八股》专栏。
+  author_profile：
+    https://www.nowcoder.com/profile/294568332
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP02
+    - CAP03
+    - CAP04
+    - CAP06
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    25.2.25 官网投递
+25.2.26 一面
+后续无回应，猜测已挂
+source_key：
+  ASTRA_I17_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I17
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

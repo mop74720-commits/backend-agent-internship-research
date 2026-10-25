@@ -1,0 +1,166 @@
+PRO01 | 12306：交易与并发模块参考
+
+需求核对版 · 2026-10-24
+
+仓库：
+  nageoffer/12306
+原始来源：
+  https://github.com/nageoffer/12306
+方向与岗位：
+  后端
+阅读建议：
+  优先拆读，作为交易系统能力参考
+技术栈：
+  - Java 17
+  - Spring Boot 3
+  - MySQL
+  - Redis
+  - RocketMQ
+  - Spring Cloud Alibaba
+值得学习之处：
+  - 购票、订单、支付与网关形成完整业务链
+  - 存在API/MQ幂等封装和余票令牌桶Lua实现
+  - 聚合部署与微服务部署可用于比较边界
+局限与静态风险：
+  - 面向求职教学，直接复刻辨识度低
+  - 组件多，容易把读懂框架误当解决过分布式故障
+  - Redis幂等状态与业务数据库提交之间的故障窗口需要自己分析，不能据此声称端到端exactly-once
+borrow：
+  研究幂等键、重复消费与库存竞争，随后在自己的场景中重写一个可验证的闭环。
+extend：
+  用数据库唯一约束、事务状态机、Outbox及重放测试补上业务效果的验证；对比DB条件更新与缓存入口限流。
+已定位阅读路径：
+  - frameworks/idempotent/src/main/java/org/opengoofy/index12306/framework/starter/idempotent/core/spel/IdempotentSpELByMQExecuteHandler.java
+  - services/ticket-service/src/main/java/org/opengoofy/index12306/biz/ticketservice/service/impl/TicketServiceImpl.java
+  - services/ticket-service/src/main/resources/lua/ticket_availability_token_bucket.lua
+interview_questions：
+  - 缓存成功但数据库失败怎么办？
+  - 消费处理成功但确认消息失败会怎样？
+  - 数据库约束和分布式锁各保证什么？
+商业与选择偏差：
+  作者提供付费项目课程/社群；源码与课程营销分别评价。
+取得源码ZIP：
+  是
+固定源码提交：
+  daf3a2714c00ff263764d23ab10c2eaed2ae842d
+源码提交时间：
+  2026-03-12T14:45:22Z
+许可标识：
+  Apache-2.0
+源码包文件：
+  nageoffer__12306__daf3a2714c00.zip
+源码包SHA-256：
+  d7f8a6d35ebafe887a35867541f759c2f4e136e4de1381135235e7f3f09a5eb8
+类别：
+  项目参考
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    不适用
+  事件时间：
+    非招聘事件；源码或原文版本日期另列
+  时间精度：
+    不适用
+  事件年份可证：
+    否
+  近期归类：
+    不适用
+  时间依据：
+    不以技术文档/仓库日期替代个人求职时间
+  来源日期：
+    2026-03-12T14:45:22Z
+阅读范围：
+  范围：
+    部分
+  已读定位正文全文：
+    否
+  核读说明：
+    按原卡具体核读范围；不视为项目已运行或全部源码逐行核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+后端方向阅读建议：
+  阅读级别：
+    精读
+  理由：
+    交易一致性与并发题的基础样本；优先看MQ幂等与购票令牌，再读失败窗口。
+  指定模块：
+    - frameworks/idempotent/src/main/java/org/opengoofy/index12306/framework/starter/idempotent/core/spel/IdempotentSpELByMQExecuteHandler.java
+    - services/ticket-service/src/main/java/org/opengoofy/index12306/biz/ticketservice/service/impl/TicketServiceImpl.java
+    - services/ticket-service/src/main/resources/lua/ticket_availability_token_bucket.lua
+Agent方向阅读建议：
+  阅读级别：
+    非本方向
+  理由：
+    没有核到Agent执行闭环；仅是后端基础的旁证。
+  指定模块：
+    —
+附件状态：
+  状态：
+    固定源码ZIP
+  源码包文件：
+    nageoffer__12306__daf3a2714c00.zip
+  固定源码提交：
+    daf3a2714c00ff263764d23ab10c2eaed2ae842d
+  source_manifest：
+    05_项目源码归档/SOURCE_MANIFEST.json
+  exists：
+    是
+  bytes_match_manifest：
+    是
+  sha256_match_manifest：
+    是
+  crc_previously_checked：
+    是
+  runtime_verified：
+    否
+external_research_reviews：
+  P01：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        P01
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_候选人与观点项目.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        P01
+      type：
+        project
+      source_category：
+        05_参考项目
+      标题：
+        nageoffer/12306
+      source_url：
+        https://github.com/nageoffer/12306
+      source_card：
+        05_参考项目/P01.html
+      existing_id：
+        PRO01
+      decision：
+        duplicate
+      new_primary_project：
+        否
+      source_folder_modified：
+        否
+      reading_scope：
+        对照astra README/文档卡与旧包已有静态实现核读，未重复阅读全仓
+      状态：
+        相同仓库；既有主表与附件范围更深入
+      import_target：
+        existing_cross_reference
+      repo_identity：
+        nageoffer/12306
+      unique_value：
+        没有新增源码核读；保留上游宣传不能当本人实测与贡献的判断。
+      facts_boundary：
+        教学或通用工程参考，不能冒充某成功者本人作品；不导入astra的个人项目迁移设计和路线。
+      evidence_count_increment：
+        0

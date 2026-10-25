@@ -1,0 +1,20 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "local_links_checked": 76
+    },
+    {
+      "file": "GitHub_SSP项目与面经专项.html",
+      "local_links_checked": 27
+    }
+  ],
+  "local_links_checked": 103,
+  "errors": [],
+  "unique_evidence_ids": 121,
+  "index_json_files_parseable": 26,
+  "pdf_exists": true,
+  "new_archives_SHA256_CRC_paths_licenses": "通过，见GitHub_SSP整合校验结果.json",
+  "pdf_visual_review": "第1、16、21、30页目视通过；内容可读，无重叠截断",
+  "scope": "检查本地交付结构、阅读功能与导出质量；不是企业核验或项目运行验证"
+}

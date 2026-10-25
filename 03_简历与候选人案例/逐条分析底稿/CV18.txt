@@ -1,0 +1,444 @@
+CV18 | IcyCC：2019后端SP/SSP自述、历史履历与本人项目组合
+
+需求核对版 · 2026-10-24
+
+原始来源：
+  https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16
+作者：
+  IcyCC
+事件时间／原文日期（依分类）：
+  2019秋招；2019历史TeX履历
+方向与岗位：
+  Python/C++为突出亮点，同时熟悉Golang并列Go/Gin商业服务器项目；不是纯Java方向，也不是Agent工程成功者。
+结果自述：
+  本人自述多家结果中大多为SP和SSP，未逐公司定档
+资料形式：
+  本人秋招复盘＋2019历史TeX履历专业模块；未打包完整CV
+evidence_excerpt：
+  其中大多为sp和ssp
+录用证据边界：
+  未写哪家公司为SP、哪家为SSP；不能把所有公司、最终选择或面试通过均记SSP。
+技术栈：
+  - Python
+  - C++
+  - Golang/Gin
+  - Reactor
+  - Asyncio
+  - MySQL
+  - Redis
+  - Kafka
+  - Python/C++互操作
+historical_profile：
+  原始来源：
+    https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex
+  固定源码提交：
+    fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe
+  源码提交时间：
+    2019-08-24T08:17:07Z
+  已读部分：
+    历史TeX全文HTTP200，只保存技能/项目必要摘要与行号；没有下载或再分发完整简历、没有采联系方式。PDF仅提供原始入口，未进行PDF视觉核验。
+  boundary：
+    当前AboutMe最新commit 24ac523102cd73fa6d2f492310155c6c298dc006（2022-03-10）简历已是工作经历版本，不可直接视为2019求职快照；改用2019-08-24历史版本核项目。
+静态阅读发现：
+  - 仓库：
+      IcyCC/effective_note
+    固定源码提交：
+      d55074032217c48e3d872d4524ba6cea94613b86
+    源码提交时间：
+      2022-01-24T02:10:11Z
+    path：
+      秋招/秋招总结.md
+    line_count：
+      226
+    原始来源：
+      https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16
+    short_quote：
+      其中大多为sp和ssp
+    context：
+      L7第一人称列本人秋招结果；L11—14列美团广告后台、京东/贝壳/小红书基础架构、ihandy、虎牙音视频传输、网易游戏平台研发、腾讯微信后台（只作结果关联，不逐家定SSP）。
+    independent_employer_verification：
+      否
+    grading_boundary：
+      未写哪家公司为SP、哪家为SSP；不能把所有公司、最终选择或面试通过均记SSP。
+  - 原始来源：
+      https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L39
+    line_start：
+      39
+    line_end：
+      42
+    short_quote：
+      这里附一下我的简历, 可以做个参考
+project_relationship：
+  - project：
+      Reimu
+    repo_url：
+      https://github.com/IcyCC/reimu
+    association：
+      2019历史本人简历L50直接链接同仓，L53说明学习动机和实现；不是仅凭同账号猜测。
+    resume_source：
+      https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L50
+    line_start：
+      50
+    line_end：
+      53
+    short_quote：
+      基于 Reactor 模式的多线程 Morden C++ 网络库
+    technical_focus：
+      - C++
+      - Socket
+      - 多线程同步/SafeQueue
+      - I/O复用
+      - Reactor
+    source_reading：
+      readme.md全文可取得（107行），含客户端/服务端使用示例；未运行构建或性能复现，未逐文件审计。
+    available_commit：
+      ff604b54749d6756c4afd4a900807ce986bea2b9
+    readme_url：
+      https://github.com/IcyCC/reimu/blob/ff604b54749d6756c4afd4a900807ce986bea2b9/readme.md
+    源码提交时间：
+      2020-04-05T14:59:00Z
+    temporal_boundary：
+      当前可用固定版本晚于2019秋招；不当作2019提交版本或当年面试代码。
+    license_boundary：
+      repo metadata的license为null，根contents许可证核查HTTP429；只能说未确认授权，不能断言完全没有许可证。未归档源码。
+  - project：
+      AsyncEasyapi
+    repo_url：
+      https://github.com/IcyCC/async_easyapi
+    resume_source：
+      https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L56
+    line_start：
+      56
+    line_end：
+      59
+    association：
+      历史本人简历直接给仓库链接，并说明减少重复CRUD的动机。
+    short_quote：
+      为了提升重复业务的开发效率
+    technical_focus：
+      - Python
+      - Asyncio
+      - Flask
+      - SQLAlchemy
+      - 元类/元编程
+      - 错误/权限处理规范
+    source_boundary：
+      此次未核源码与许可证，不将简历功能陈述视为已独立验证，不归档。
+  - project：
+      WhParser量化DSL/回测框架
+    resume_source：
+      https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L62
+    line_start：
+      62
+    line_end：
+      65
+    association：
+      历史简历明确列为本人商业项目，文章L126也提本人量化交易框架；没有明确公开成品仓库入口。
+    short_quote：
+      使用 pybind11 和 cython 进行Python/C++ 混合开发
+    technical_focus：
+      - DSL解析
+      - Ply
+      - Cython/pybind11
+      - Python/C++混合
+      - CTP接口
+    boundary：
+      同账号存在其他仓库不等于这个商业项目；未定位公开代码，不包装完整源码包。
+  - project：
+      督导教评系统
+    resume_source：
+      https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L70
+    line_start：
+      70
+    line_end：
+      73
+    association：
+      历史简历自述团队项目负责人，列团队规模、系统升级与业务用途。
+    technical_focus：
+      - Python
+      - Vue
+      - Redis
+      - Kafka
+      - MySQL
+      - MongoDB
+      - Gevent
+      - 模块解耦
+      - 动态问卷
+    boundary：
+      合作项目不能宣称全部代码由本人独立完成；上线/使用情况为自述，未公开代码或运行核验。
+  - project：
+      测土配肥商业系统
+    resume_source：
+      https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L76
+    line_start：
+      76
+    line_end：
+      79
+    association：
+      历史简历列团队项目负责人及Golang服务器后端分工，是明确Go业务经历，而非把C++仓主硬归为Go。
+    technical_focus：
+      - Golang
+      - Gin
+      - Electron
+      - Vue
+      - libffi
+      - 服务器后端
+      - 配肥计算与设备流程集成
+    boundary：
+      商业使用范围为作者自述，没有用户/企业侧验证，未找到公开源码。不能把它单独视为SSP原因。
+值得学习之处：
+  - 成功自述文章→“我的简历”直接链接→2019历史简历→本人命名仓库，归属链清楚。
+  - 业务交付、网络机制、语言互操作和开发效率工具各有侧重，适合分析项目组合。
+  - 实际公开简历有安全可抽取的技能/项目内容，优于仅有标题或结果自述。
+建议用途：
+  借鉴主语言能力、原理型项目、业务交付的履历组织，用具体需求与分工解释技术栈；先读原文不足和项目边界。
+局限：
+  - SSP为本人历史自述，公司档位未知；未获企业独立核验。
+  - 虽有Go业务项目，最突出的个人源码仍是C++/Python，不能替代近期Java/Go或Agent成功者样本。
+  - 没有完整逐公司逐轮面经，不能按知识点虚增面试场数。
+  - 公开项目源码与2019求职快照的代码版本不完全相同；商业项目未公开源码。
+  - 未构建源码、未复现实验，性能/商业影响数据不作为已验证事实。
+  - 尚无可授权再分发的相关项目源码归档；仅提供必要短摘录与原始链接。
+证据边界：
+  B：本人历史自述与履历项目关联可定位；未独立核验录用或代码效果
+类别：
+  候选人资料
+retrieved_at：
+  2026-10-23
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    校招
+  事件时间：
+    2019秋招；2019历史TeX履历
+  时间精度：
+    仅年份
+  事件年份可证：
+    是
+  近期归类：
+    历史确认
+  时间依据：
+    文章L3明确2019年11月；2022文档commit不替代事件年
+  来源日期：
+    正文署2019年11月
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    按source_findings已读范围归类；全文仅指该篇已定位公开正文
+  legacy_fulltext_verified：
+    未核／无
+  实际观看视频：
+    否
+逐项结果与档位：
+  - 公司：
+      未逐公司定档（美团/京东/贝壳/小红书/ihandy/虎牙/网易/腾讯等）
+    档位：
+      未逐公司对应：大多SP/SSP
+    状态：
+      offer_self_report
+    证据：
+      https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16
+    依据：
+      未写哪家公司为SP、哪家为SSP；不能把所有公司、最终选择或面试通过均记SSP。
+    企业独立验证：
+      否
+    结果适用范围：
+      候选人总体录用自述；是否对应某一场面经，以该面经卡及直接关联证据为准
+发表／来源日期：
+  正文署2019年11月
+履历材料形式：
+  2019历史TeX履历专业内容
+四段证据关联：
+  结果自述：
+    - 原始来源：
+        https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16
+      direct_basis：
+        未写哪家公司为SP、哪家为SSP；不能把所有公司、最终选择或面试通过均记SSP。
+      直接关系：
+        直接点名
+      gap：
+        录用未获企业独立验证；公司/档位仅按原文
+  profile：
+    - 原始来源：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex
+      direct_basis：
+        求职复盘L39直接链接个人简历，改读2019历史TeX专业模块
+      直接关系：
+        直接点名
+      gap：
+        全文HTTP取得后仅保留专业归纳，未打包原件/联系方式；PDF未视觉核验
+  project：
+    - 原始来源：
+        https://github.com/IcyCC/reimu
+      direct_basis：
+        Reimu：2019历史本人简历L50直接链接同仓，L53说明学习动机和实现；不是仅凭同账号猜测。
+      直接关系：
+        直接点名
+      gap：
+        当前可用固定版本晚于2019秋招；不当作2019提交版本或当年面试代码。
+      project_name：
+        Reimu
+      resume_source：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L50
+      repo_url：
+        https://github.com/IcyCC/reimu
+    - 原始来源：
+        https://github.com/IcyCC/async_easyapi
+      direct_basis：
+        AsyncEasyapi：历史本人简历直接给仓库链接，并说明减少重复CRUD的动机。
+      直接关系：
+        直接点名
+      gap：
+        此次未核源码与许可证，不将简历功能陈述视为已独立验证，不归档。
+      project_name：
+        AsyncEasyapi
+      resume_source：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L56
+      repo_url：
+        https://github.com/IcyCC/async_easyapi
+    - 原始来源：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L62
+      direct_basis：
+        WhParser量化DSL/回测框架：历史简历明确列为本人商业项目，文章L126也提本人量化交易框架；没有明确公开成品仓库入口。
+      直接关系：
+        直接点名
+      gap：
+        同账号存在其他仓库不等于这个商业项目；未定位公开代码，不包装完整源码包。
+      project_name：
+        WhParser量化DSL/回测框架
+      resume_source：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L62
+      repo_url：
+        未核／无
+    - 原始来源：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L70
+      direct_basis：
+        督导教评系统：历史简历自述团队项目负责人，列团队规模、系统升级与业务用途。
+      直接关系：
+        直接点名
+      gap：
+        合作项目不能宣称全部代码由本人独立完成；上线/使用情况为自述，未公开代码或运行核验。
+      project_name：
+        督导教评系统
+      resume_source：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L70
+      repo_url：
+        未核／无
+    - 原始来源：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L76
+      direct_basis：
+        测土配肥商业系统：历史简历列团队项目负责人及Golang服务器后端分工，是明确Go业务经历，而非把C++仓主硬归为Go。
+      直接关系：
+        直接点名
+      gap：
+        商业使用范围为作者自述，没有用户/企业侧验证，未找到公开源码。不能把它单独视为SSP原因。
+      project_name：
+        测土配肥商业系统
+      resume_source：
+        https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L76
+      repo_url：
+        未核／无
+  interview：
+    - 原始来源：
+        https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L94
+      direct_basis：
+        IcyCC：HTTPS、协程与Reactor的本人总体求职复盘
+      直接关系：
+        直接点名
+      gap：
+        本记录并非各家SSP完整面试录音；以已读范围为准
+      interview_id：
+        INT63
+未建立或未核的关系：
+  - 录用未获企业独立验证；公司/档位仅按原文
+  - 全文HTTP取得后仅保留专业归纳，未打包原件/联系方式；PDF未视觉核验
+  - 当前可用固定版本晚于2019秋招；不当作2019提交版本或当年面试代码。
+  - 此次未核源码与许可证，不将简历功能陈述视为已独立验证，不归档。
+  - 同账号存在其他仓库不等于这个商业项目；未定位公开代码，不包装完整源码包。
+  - 合作项目不能宣称全部代码由本人独立完成；上线/使用情况为自述，未公开代码或运行核验。
+  - 商业使用范围为作者自述，没有用户/企业侧验证，未找到公开源码。不能把它单独视为SSP原因。
+  - 本记录并非各家SSP完整面试录音；以已读范围为准
+has_confirmed_personal_interview_source：
+  是
+has_direct_named_project_or_contribution：
+  是
+ssp_grade_company_explicit：
+  否
+ssp_claim_present：
+  是
+complete_cv_file_received：
+  否
+cv_file_licensed_for_redistribution：
+  否
+complete_redacted_cv_file_received：
+  否
+external_research_reviews：
+  R03：
+    provenance：
+      source_folder：
+        C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+      source_id：
+        R03
+      merged_on：
+        2026-10-24
+      review_manifest：
+        08_证据索引与统计/astra合并_候选人与观点项目.json
+      scope_boundary：
+        本包核读与外部卡片自述分别记录；原目录保持原样。
+    review：
+      source_id：
+        R03
+      type：
+        candidate
+      source_category：
+        02_简历与录用经历
+      标题：
+        干货!普通人的秋招经验分享.
+      source_url：
+        https://www.nowcoder.com/discuss/353155859792470016
+      source_card：
+        02_简历与录用经历/R03.html
+      existing_id：
+        CV18
+      decision：
+        enrich
+      new_primary_project：
+        否
+      source_folder_modified：
+        否
+      reading_scope：
+        牛客原帖指定段：2019年结果、简历链接和GitHub锚点；旧包固定GitHub正文另已读
+      状态：
+        同一作者的牛客原站关系补核，不增候选人数
+      import_target：
+        existing_candidate_provenance
+      read_evidence：
+        - read_url：
+            https://ac.nowcoder.com/discuss/334233
+          http_status：
+            200
+          body_text_chars：
+            6074
+          已读部分：
+            原帖结果与公开链接段
+          short_original_basis：
+            正文明确“2019年11月”；多处章节锚点直接指向IcyCC/effective_note秋招总结，简历入口指向IcyCC/AboutMe。
+          checked_on：
+            2026-10-24
+          text_sha256：
+            e5eac12f4c3e680c47822a931520150d683fc7b12ac878e8cd00aece4d04eded
+      normalized_aliases：
+        - https://www.nowcoder.com/discuss/353155859792470016
+        - https://ac.nowcoder.com/discuss/334233
+      direct_relationship_url：
+        https://github.com/IcyCC/effective_note/blob/master/秋招/秋招总结.md
+      unique_value：
+        补一手原站与既有GitHub历史总结的直接对应。
+      facts_boundary：
+        2019历史校招；总体多数SP/SSP，未逐公司定档。原简历PDF没有本次取得，不拿工作后TeX版本倒推求职原版。
+      eligible_for_success_candidate_count：
+        否

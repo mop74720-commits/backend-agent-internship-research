@@ -1,0 +1,671 @@
+{
+  "title": "GitHub SSP本人后端项目与面经第三轮定向发现",
+  "retrieved_at": "2026-10-23",
+  "scope": "优先2023—2026新Java/Go后端SSP本人项目与具体面经；排除已收17位；追DreamCats、tmnhs、Azurer线索。只新增本JSON，未改主报告/索引，未下载完整简历/全仓，未运行第三方源码。",
+  "summary": {
+    "new_backend_ssp_self_report_cases": 1,
+    "new_2023_2026_java_go_ssp_full_chain_cases": 0,
+    "new_case_authors": [
+      "IcyCC"
+    ],
+    "new_project_source_archives": 0,
+    "new_independent_per_company_interview_records": 0,
+    "important_boundary": "IcyCC为2019年多语言后端/基础架构历史自述，含Go业务项目，但不能替代近期Java/Go SSP完整面经闭环；“有SP/SSP”不逐公司指档。"
+  },
+  "new_candidates": [
+    {
+      "public_author": "IcyCC",
+      "title": "2019后端SP/SSP自述、历史公开简历与本人分工明确的项目组合",
+      "year_and_role": {
+        "literal": "文章L3写2019年11月；历史简历教育期2016—2020、本科，后端与基础架构求职。",
+        "role_scope": "Python/C++为突出亮点，同时熟悉Golang并列Go/Gin商业服务器项目；不是纯Java方向，也不是Agent工程成功者。",
+        "cohort": "2020届本科（由历史简历教育年限和2019秋招结合判断）",
+        "recency_boundary": "历史参考，不能据此定2026 SSP实习门槛。"
+      },
+      "ssp_source": {
+        "repo": "IcyCC/effective_note",
+        "commit": "d55074032217c48e3d872d4524ba6cea94613b86",
+        "commit_date": "2022-01-24T02:10:11Z",
+        "path": "秋招/秋招总结.md",
+        "line_count": 226,
+        "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L16",
+        "short_quote": "其中大多为sp和ssp",
+        "context": "L7第一人称列本人秋招结果；L11—14列美团广告后台、京东/贝壳/小红书基础架构、ihandy、虎牙音视频传输、网易游戏平台研发、腾讯微信后台（只作结果关联，不逐家定SSP）。",
+        "independent_employer_verification": false,
+        "grading_boundary": "未写哪家公司为SP、哪家为SSP；不能把所有公司、最终选择或面试通过均记SSP。"
+      },
+      "personal_resume_source": {
+        "ownership_evidence": {
+          "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L39",
+          "line_start": 39,
+          "line_end": 42,
+          "short_quote": "这里附一下我的简历, 可以做个参考"
+        },
+        "repo": "IcyCC/AboutMe",
+        "commit": "fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe",
+        "commit_date": "2019-08-24T08:17:07Z",
+        "path": "苏畅的简历.tex",
+        "line_count": 81,
+        "url": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex",
+        "public_pdf_link": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.pdf",
+        "access": "历史TeX全文HTTP200，只保存技能/项目必要摘要与行号；没有下载或再分发完整简历、没有采联系方式。PDF仅提供原始入口，未进行PDF视觉核验。",
+        "historical_version_reason": "当前AboutMe最新commit 24ac523102cd73fa6d2f492310155c6c298dc006（2022-03-10）简历已是工作经历版本，不可直接视为2019求职快照；改用2019-08-24历史版本核项目。",
+        "safe_findings": [
+          {
+            "lines": [
+              29,
+              36
+            ],
+            "summary": "列2017木瓜移动与2018知乎后端实习、前后端/接口开发分工（均为本人简历自述）。"
+          },
+          {
+            "lines": [
+              41,
+              46
+            ],
+            "summary": "Python及C/C++混合、Go Web、Reactor、MySQL/Redis和协议相关技能；技能广度有后续项目对应。"
+          }
+        ]
+      },
+      "personal_interview_sources": [
+        {
+          "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md#L94",
+          "line_start": 94,
+          "line_end": 139,
+          "kind": "本人跨公司总体面试复盘，非逐公司逐轮题目全文",
+          "ownership": "正文第一人称描述自己8月底贝壳面试等经历，并展示本人自我介绍。",
+          "questions_or_topics": [
+            {
+              "line": 133,
+              "topic": "HTTPS/SSL原理：协议层、加密方法及选择、防御威胁；作者称课设实现经验帮助解释。"
+            },
+            {
+              "line": 136,
+              "topic": "协程解决的问题、Reactor并发模型、语言/库实现方案；作者把本人网络库与话题直接关联。"
+            },
+            {
+              "line": 126,
+              "topic": "通过个人量化框架的Python/C++混合开发、Unix网络库和商业Web经验说明亮点。"
+            }
+          ],
+          "claim_boundary": "“所有面试官基本都会问”“一套回答基本SP预定”等属作者历史主观概括，不作为频率统计、SSP规则或因果结论；没有具体算法题原文/公司逐轮日期，不虚构成若干场次。"
+        }
+      ],
+      "project_associations": [
+        {
+          "project": "Reimu",
+          "repo_url": "https://github.com/IcyCC/reimu",
+          "association": "2019历史本人简历L50直接链接同仓，L53说明学习动机和实现；不是仅凭同账号猜测。",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L50",
+          "line_start": 50,
+          "line_end": 53,
+          "short_quote": "基于 Reactor 模式的多线程 Morden C++ 网络库",
+          "technical_focus": [
+            "C++",
+            "Socket",
+            "多线程同步/SafeQueue",
+            "I/O复用",
+            "Reactor"
+          ],
+          "source_reading": "readme.md全文可取得（107行），含客户端/服务端使用示例；未运行构建或性能复现，未逐文件审计。",
+          "available_commit": "ff604b54749d6756c4afd4a900807ce986bea2b9",
+          "readme_url": "https://github.com/IcyCC/reimu/blob/ff604b54749d6756c4afd4a900807ce986bea2b9/readme.md",
+          "commit_date": "2020-04-05T14:59:00Z",
+          "temporal_boundary": "当前可用固定版本晚于2019秋招；不当作2019提交版本或当年面试代码。",
+          "license_boundary": "repo metadata的license为null，根contents许可证核查HTTP429；只能说未确认授权，不能断言完全没有许可证。未归档源码。"
+        },
+        {
+          "project": "AsyncEasyapi",
+          "repo_url": "https://github.com/IcyCC/async_easyapi",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L56",
+          "line_start": 56,
+          "line_end": 59,
+          "association": "历史本人简历直接给仓库链接，并说明减少重复CRUD的动机。",
+          "short_quote": "为了提升重复业务的开发效率",
+          "technical_focus": [
+            "Python",
+            "Asyncio",
+            "Flask",
+            "SQLAlchemy",
+            "元类/元编程",
+            "错误/权限处理规范"
+          ],
+          "source_boundary": "此次未核源码与许可证，不将简历功能陈述视为已独立验证，不归档。"
+        },
+        {
+          "project": "WhParser量化DSL/回测框架",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L62",
+          "line_start": 62,
+          "line_end": 65,
+          "association": "历史简历明确列为本人商业项目，文章L126也提本人量化交易框架；没有明确公开成品仓库入口。",
+          "short_quote": "使用 pybind11 和 cython 进行Python/C++ 混合开发",
+          "technical_focus": [
+            "DSL解析",
+            "Ply",
+            "Cython/pybind11",
+            "Python/C++混合",
+            "CTP接口"
+          ],
+          "boundary": "同账号存在其他仓库不等于这个商业项目；未定位公开代码，不包装完整源码包。"
+        },
+        {
+          "project": "督导教评系统",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L70",
+          "line_start": 70,
+          "line_end": 73,
+          "association": "历史简历自述团队项目负责人，列团队规模、系统升级与业务用途。",
+          "technical_focus": [
+            "Python",
+            "Vue",
+            "Redis",
+            "Kafka",
+            "MySQL",
+            "MongoDB",
+            "Gevent",
+            "模块解耦",
+            "动态问卷"
+          ],
+          "boundary": "合作项目不能宣称全部代码由本人独立完成；上线/使用情况为自述，未公开代码或运行核验。"
+        },
+        {
+          "project": "测土配肥商业系统",
+          "resume_source": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex#L76",
+          "line_start": 76,
+          "line_end": 79,
+          "association": "历史简历列团队项目负责人及Golang服务器后端分工，是明确Go业务经历，而非把C++仓主硬归为Go。",
+          "technical_focus": [
+            "Golang",
+            "Gin",
+            "Electron",
+            "Vue",
+            "libffi",
+            "服务器后端",
+            "配肥计算与设备流程集成"
+          ],
+          "boundary": "商业使用范围为作者自述，没有用户/企业侧验证，未找到公开源码。不能把它单独视为SSP原因。"
+        }
+      ],
+      "strengths": [
+        "成功自述文章→“我的简历”直接链接→2019历史简历→本人命名仓库，归属链清楚。",
+        "业务交付、网络机制、语言互操作和开发效率工具各有侧重，适合分析项目组合。",
+        "实际公开简历有安全可抽取的技能/项目内容，优于仅有标题或结果自述。"
+      ],
+      "recommended_reason": "适合借鉴“主语言能力＋原理型项目＋业务交付”的证据组织：用具体需求和分工串起技术栈。用户双项目路线可借其分工思路，但不必复制项目数量或跨多语言扩张。",
+      "limitations": [
+        "SSP为本人历史自述，公司档位未知；未获企业独立核验。",
+        "虽有Go业务项目，最突出的个人源码仍是C++/Python，不能替代近期Java/Go或Agent成功者样本。",
+        "没有完整逐公司逐轮面经，不能按知识点虚增面试场数。",
+        "公开项目源码与2019求职快照的代码版本不完全相同；商业项目未公开源码。",
+        "未构建源码、未复现实验，性能/商业影响数据不作为已验证事实。",
+        "尚无可授权再分发的相关项目源码归档；仅提供必要短摘录与原始链接。"
+      ]
+    }
+  ],
+  "followed_prior_leads": [
+    {
+      "public_author": "DreamCats",
+      "repo": "DreamCats/java-notes",
+      "commit": "c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c",
+      "commit_date": "2024-12-02T07:08:56Z",
+      "status": "本人项目与面经成立，SSP结果未证实，不新增SSP成功者。",
+      "attribution_source": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/Java/mianjing/README.md",
+      "finding": "README L11—22标牛客面经汇总，L24—36单列“自己”；已核自己11篇my*.md均HTTP200，不能把前一部分转给仓主。my京东.md L2/L56自述获offer但未称SSP。",
+      "read_files": [
+        "myshein.md",
+        "my京东.md",
+        "my作业帮.md",
+        "my字节.md",
+        "my招银.md",
+        "my猿辅导.md",
+        "my用友.md",
+        "my百度.md",
+        "my网易.md",
+        "my腾讯.md",
+        "my贝壳.md"
+      ],
+      "project_source": "https://github.com/DreamCats/java-notes/blob/c4cf3bbbb6bc95daaf6deff734642ea51c7cec9c/README.md#L27",
+      "personal_project": "DreamCats/school-bus；根README直接署DreamCats来源，项目与Java/bus文档可读，涵盖订单、支付、Redis、RocketMQ等。",
+      "boundary": "最后push在2024不表示这些历史面经发生于2024；无明确SSP不可由项目质量倒推。"
+    },
+    {
+      "public_author": "tmnhs",
+      "repo": "tmnhs/go-interview-resume",
+      "commit": "f4f3dbd824a8bdc70854997f501addc4a5011309",
+      "commit_date": "2024-03-16T06:02:09Z",
+      "status": "本人Go项目归属强、SSP结果未证实；不是成功者原始简历集合。",
+      "source": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/README.md",
+      "finding": "README L12称本人整理Golang后端笔记；L22链接本人Crony，L139后说明面试题与答案大部分来自网络并含个人面经。130套简历是通用模板，不能当130位已录用者。",
+      "project_source": "https://github.com/tmnhs/go-interview-resume/blob/f4f3dbd824a8bdc70854997f501addc4a5011309/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E5%8E%86%E4%BB%8B%E7%BB%8D.md",
+      "ownership_excerpt": "这个项目其实是本人在XXXX公司实习时做的一个项目",
+      "ownership_line_start": 3,
+      "ownership_line_end": 5,
+      "project_url": "https://github.com/tmnhs/Crony",
+      "technical_focus": [
+        "Go",
+        "MySQL",
+        "Etcd",
+        "定时任务调度",
+        "服务发现",
+        "故障转移",
+        "重试/超时",
+        "SDK异步结果"
+      ],
+      "attribution_boundary": "作者明确说公开代码是自行重写、与公司原版差别很大；不能把自研Coa框架/公司原系统能力都归给公开Crony。没有逐公司面经与SSP结果闭环。"
+    },
+    {
+      "public_author": "Azurer0121",
+      "repo": "Azurer0121/Obsidan",
+      "status": "原仓及根README/树接口404，搜索摘要仍有原始文件URL，列待用户手查，不计成功者。",
+      "source": "https://github.com/Azurer0121/Obsidan/blob/main/%E6%B1%82%E8%81%8C/24%E5%B1%8Asp%E3%80%81ssp%E5%A4%A7%E5%8E%82%E4%B8%8A%E5%B2%B8%E5%BF%83%E5%BE%97.md",
+      "account_check": "同账号公开仓列表可读，当前六个仓无Obsidan；这不证明库从未存在，也不证明摘要内容属于该仓主亲历。",
+      "verification_boundary": "未读正文，不能判原作者、自述SSP、年份背景和项目归属；不把第三方摘记移植给Azurer0121。"
+    }
+  ],
+  "excluded_or_control_leads": [
+    {
+      "author": "whlcj",
+      "url": "https://whlcj.github.io/posts/2025/autumn_recruitment/",
+      "access": "HTTP200，正文article已读",
+      "finding": "2025-01-02秋招复盘确有本人“多家sp ssp”自述，但正文多次明示iOS/客户端求职，非Java/Go后端，排除本轮分母。"
+    },
+    {
+      "repo": "Lynne515/Autumn-Recruitment-Summary",
+      "url": "https://github.com/Lynne515/Autumn-Recruitment-Summary/blob/master/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md",
+      "finding": "本人NLP/机器学习算法求职总结19行可读，未见SSP明示，方向亦不符。"
+    },
+    {
+      "repo": "SCUklr/comment-hub",
+      "url": "https://github.com/SCUklr/comment-hub",
+      "finding": "README151行可读，ssp-comment-center是项目/模块名称，不构成作者本人拿SSP的录用陈述。"
+    },
+    {
+      "repo": "ERVeepp/resume",
+      "url": "https://github.com/ERVeepp/resume",
+      "finding": "自述资深前端/架构师职业履历；SSP指广告供应方平台，与校园招聘SSP级别无关。未采联系方式。"
+    },
+    {
+      "repo": "94192448/resume",
+      "url": "https://github.com/94192448/resume",
+      "finding": "SSP与DSP广告平台业务描述，不是招聘定档自述。"
+    },
+    {
+      "repo": "backtraxe/offer-is-all-you-need",
+      "url": "https://github.com/backtraxe/offer-is-all-you-need",
+      "finding": "2026 Agent/AI Infra面试备战与多平台素材汇编，SSP出现于他人采集案例/材料，不把其数量当仓主本人成功。"
+    },
+    {
+      "repo": "hdgaadd/JavaSouth",
+      "url": "https://github.com/hdgaadd/JavaSouth",
+      "finding": "Java学习、项目亮点和面试指南可读，未确认本人SSP录用，不由实用性倒推。"
+    },
+    {
+      "repo": "sunyd1006/ssp",
+      "url": "https://github.com/sunyd1006/ssp",
+      "finding": "repository search命中，根README.md请求404；未追其他文件，仍为待核，仓名ssp不是结果证据。"
+    },
+    {
+      "repo": "dream-worker/AboutMe",
+      "url": "https://github.com/dream-worker/AboutMe",
+      "finding": "搜索命中，根README.md404；未核其他文件，不断言无本人资料，也不计SSP。"
+    },
+    {
+      "repo": "jiezongnewstar/SSP",
+      "url": "https://github.com/jiezongnewstar/SSP",
+      "finding": "仅搜索摘要显示Study Summary Promote缩写；未读正文，不列成功者。"
+    },
+    {
+      "repo": "puge-up/programming-play",
+      "url": "https://github.com/puge-up/programming-play",
+      "finding": "README含读者秋招分享；搜索命中的CPP成功者不能移植为仓主，且不是本轮Java/Go新例。"
+    },
+    {
+      "authors": [
+        "viego1999",
+        "CyC2018",
+        "mio4",
+        "LittleChild",
+        "码间烟火录"
+      ],
+      "finding": "已收样本及同文跨站命中，仅作去重，不再次计新作者。"
+    }
+  ],
+  "blocked_links": [
+    {
+      "original_url": "https://github.com/Azurer0121/Obsidan/blob/main/%E6%B1%82%E8%81%8C/24%E5%B1%8Asp%E3%80%81ssp%E5%A4%A7%E5%8E%82%E4%B8%8A%E5%B2%B8%E5%BF%83%E5%BE%97.md",
+      "title": "24届sp、ssp大厂上岸心得.md",
+      "status": "原仓API、根README和tree均404；搜索索引仍保留文件入口，正文未读。",
+      "user_confirmation_needed": [
+        "是否能打开原文件或作者原始文章入口",
+        "这是本人复盘还是摘录他人文章",
+        "哪家/哪年/何岗位的SSP、本人项目仓库与面经是否直接相连"
+      ],
+      "action": "交用户手动查看；本轮不重复刷404或据摘要写正文。"
+    },
+    {
+      "original_url": "https://github.com/IcyCC/reimu",
+      "title": "Reimu本人C++网络库：许可证待核",
+      "status": "仓metadata及readme可读，metadata license为null；根contents许可证核查HTTP429。",
+      "blocked_api_url": "https://api.github.com/repos/IcyCC/reimu/contents?ref=ff604b54749d6756c4afd4a900807ce986bea2b9",
+      "user_confirmation_needed": [
+        "根目录/子目录是否有明确允许源码再分发的LICENSE或作者许可"
+      ],
+      "action": "已停止接口重试，保留原仓入口；确认许可前不打包源码。"
+    }
+  ],
+  "search_log": {
+    "github_repository_search_calls": [
+      {
+        "query": "\"SSP\" \"后端\" in:readme",
+        "http_status": 200,
+        "sort": "updated",
+        "page": 1,
+        "per_page": 100,
+        "returned_first_page": 100,
+        "total_count": null,
+        "count_boundary": "本工具结果过长，总命中数未保留，不推算覆盖率；返回多为缩写歧义/广告平台/自动创建仓。"
+      },
+      {
+        "query": "\"SSP\" \"Go\" \"面经\" in:readme",
+        "http_status": 200,
+        "total_count": 22,
+        "returned": 22,
+        "finding": "少量面试指南与大量榜单/收藏汇编；逐一重点读取疑似本人来源，而非将22命中算22成功者。"
+      },
+      {
+        "query": "\"SSP\" \"后端\" in:readme created:<2026-01-01",
+        "http_status": 200,
+        "page": 1,
+        "per_page": 100,
+        "returned_first_page": 100,
+        "total_count": null,
+        "count_boundary": "总数未保留，只有前100结果；与前query重叠，不能叠加当独立候选人数。"
+      }
+    ],
+    "github_repository_search_api_call_count": 3,
+    "yahoo_requests": [
+      {
+        "query": "site:github.com \"SSP\" \"Java\" \"2025\" \"面经\"",
+        "http_status": 200,
+        "result": "命中题库/AI求职指南，未得到本人SSP",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:github.com \"SSP\" \"Go\" \"2024\"",
+        "http_status": 500,
+        "result": "搜索请求失败",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:github.com \"SSP\" \"2023\" \"后端\"",
+        "http_status": 200,
+        "result": "结果主要无关项目/综合指南",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"DreamCats\" \"SSP\"",
+        "http_status": 500,
+        "result": "搜索请求失败",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"tmnhs\" \"SSP\"",
+        "http_status": 500,
+        "result": "搜索请求失败",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"Azurer0121\" \"SSP\"",
+        "http_status": 200,
+        "result": "未提取到正常结果项",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "github 后端 SSP 本人 2024 2025 项目",
+        "http_status": 200,
+        "result": "命中项目/二次评价，未核新成功者",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "github 秋招总结 Java ssp 2023",
+        "http_status": 200,
+        "result": "发现IcyCC原仓子目录文章；同时见Lynne515与已知作者",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "github Golang SSP 秋招 总结",
+        "http_status": 200,
+        "result": "命中已有作者及通用Go求职总结",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"DreamCats\" \"ssp\" 面经",
+        "http_status": 500,
+        "result": "搜索请求失败",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"Azurer0121\" \"Obsidian\"",
+        "http_status": 200,
+        "result": "无正常结果项",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:github.com \"SSP\" \"2024届\"",
+        "http_status": 200,
+        "result": "仅通用AI求职指南",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:github.com \"SSP\" \"2025届\"",
+        "http_status": 200,
+        "result": "题库/资料汇编，不能当作者结果",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:github.com \"SSP\" \"2023届\"",
+        "http_status": 200,
+        "result": "AI产品调研，不属本人后端SSP",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:github.com \"SSP\" \"Java\" \"我拿\"",
+        "http_status": 200,
+        "result": "结果忽略多数限制/无关，不以HTTP200视为有效证据",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:github.com \"SSP\" \"Go\" \"项目\" \"我的\"",
+        "http_status": 500,
+        "result": "搜索请求失败",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"SSP\" \"GitHub\" \"后端\" \"2024\" \"项目\"",
+        "http_status": 200,
+        "result": "命中美团SSP2022面经及无关项目；非完整新GitHub项目链",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"SSP\" \"GitHub\" \"2025\" \"简历\"",
+        "http_status": 200,
+        "result": "通用指南/已有作者跨站文",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"SSP\" \"github.com\" \"Go\" \"拿到\"",
+        "http_status": 500,
+        "result": "搜索请求失败",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"DreamCats\" \"秋招\" \"offer\"",
+        "http_status": 200,
+        "result": "返回招聘聚合等无关结果",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "\"IcyCC\" \"SSP\"",
+        "http_status": 200,
+        "result": "返回SSP国际项目等歧义，不能当无成功自述的反证",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "github 24届 SSP 后端 秋招总结",
+        "http_status": 200,
+        "result": "找到Azurer原始文件URL与whlcj博客；前者不可读、后者iOS排除",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "github 25届 SSP Java 面经",
+        "http_status": 200,
+        "result": "题库、JavaSouth和已收码间烟火录同文",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "github 2023 SSP 本人 后端 项目",
+        "http_status": 500,
+        "result": "搜索请求失败",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:nowcoder.com SSP github Java 2024",
+        "http_status": 500,
+        "result": "搜索请求失败",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "site:github.com 2024 ssp 秋招 总结 Go",
+        "http_status": 200,
+        "result": "嵌入式合集与转载C++案例，未移植给仓主",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "SSP github Java 校招 项目 作者 2023 总结",
+        "http_status": 200,
+        "result": "Mapshiny与SSP缩写仓，未确认本人SSP",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "24届sp ssp 大厂上岸心得 原文",
+        "http_status": 200,
+        "result": "搜索摘要有Azurer文件与已收码间烟火录跨站文，不当正文",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "github 腾讯 ssp 2024 个人项目",
+        "http_status": 200,
+        "result": "腾讯组织主页和SSP歧义",
+        "user_agent": "Mozilla/5.0"
+      },
+      {
+        "query": "github 字节 ssp Go 简历 项目",
+        "http_status": 200,
+        "result": "tmnhs及通用Go项目推荐，无新增本人SSP",
+        "user_agent": "Mozilla/5.0"
+      }
+    ],
+    "other_search_requests": [
+      {
+        "engine": "Bing",
+        "query": "site:github.com \"SSP\" \"Java\" \"秋招\"",
+        "http_status": 200,
+        "result": "页面标题保留查询，但结果为SSP国际项目等歧义，未执行site限制；判无有效证据。"
+      },
+      {
+        "engine": "Bing",
+        "query": "site:github.com \"SSP\" \"Golang\"",
+        "http_status": 200,
+        "result": "同上，结果忽略限定，无新增。"
+      },
+      {
+        "engine": "Sogou",
+        "query": "site:github.com SSP 秋招 2024 Java",
+        "http_status": 200,
+        "result": "跳转antispider验证，无正常结果；停止该路。"
+      }
+    ],
+    "counting_boundary": "搜索返回总数、网页实际获取数、本人SSP新作者数、独立面试场次数分别记录，不可互换。网络500/验证/404/429均未当作“搜尽”。"
+  },
+  "verification_checks": [
+    {
+      "source": "IcyCC固定秋招原文",
+      "url": "https://github.com/IcyCC/effective_note/blob/d55074032217c48e3d872d4524ba6cea94613b86/%E7%A7%8B%E6%8B%9B/%E7%A7%8B%E6%8B%9B%E6%80%BB%E7%BB%93.md",
+      "http_status": 200,
+      "line_count": 226,
+      "verified_lines": [
+        3,
+        16,
+        42,
+        126,
+        133,
+        136
+      ]
+    },
+    {
+      "source": "IcyCC历史简历TeX",
+      "url": "https://github.com/IcyCC/AboutMe/blob/fb1366f1dbe5bfa6b1490eef0a30e6f8253568fe/%E8%8B%8F%E7%95%85%E7%9A%84%E7%AE%80%E5%8E%86.tex",
+      "http_status": 200,
+      "line_count": 81,
+      "verified_lines": [
+        42,
+        43,
+        50,
+        53,
+        56,
+        59,
+        62,
+        65,
+        70,
+        71,
+        73,
+        76,
+        77,
+        79
+      ]
+    },
+    {
+      "source": "IcyCC当前简历版本控制检查",
+      "commit": "24ac523102cd73fa6d2f492310155c6c298dc006",
+      "date": "2022-03-10T14:03:17Z",
+      "finding": "现行简历项目已变，与2019版不同；正文归属以2019快照核。"
+    },
+    {
+      "source": "DreamCats本人面经归属",
+      "files_read": 11,
+      "http_status": 200,
+      "finding": "“自己”和“牛客汇总”明确分栏；未确认SSP。"
+    },
+    {
+      "source": "tmnhs项目经历介绍",
+      "http_status": 200,
+      "line_count": 176,
+      "verified_lines": [
+        3,
+        9,
+        19,
+        21,
+        23,
+        25,
+        28
+      ],
+      "finding": "本人实习原型的个人重写项目，不能等同公司源码。"
+    }
+  ],
+  "observed_omission_risks": [
+    {
+      "observed_fact": "IcyCC的SSP自述在秋招/秋招总结.md，根readme.md只有后端进阶学习说明，没有SSP。",
+      "process_implication": "只搜in:readme或只读根README会漏掉真实子目录自述；本轮通过网页索引精确到文件找到。",
+      "boundary": "这是可证的检索盲点，不能反推此前每一次未命中的唯一原因。"
+    },
+    {
+      "observed_fact": "同一简历链接当前已更新至工作经历，2019历史版本才明确关联当年网络库/工具/Go商业项目。",
+      "process_implication": "只读HEAD会丢失求职当时的项目链，需核历史commit。"
+    },
+    {
+      "observed_fact": "Azurer搜索结果还在，仓库已404；SSP关键词也常出现在广告平台、模板与他人摘记。",
+      "process_implication": "不可读须留给用户核原始链接，可读须核作者归属，不能为了补数量放宽。"
+    }
+  ],
+  "completeness_boundary": "这是一轮记录30条Yahoo查询、2条Bing、1条Sogou与3次GitHub repo search的定向搜集，不能证明没有其他近期成功者。README检索不覆盖全部历史/子目录/Issues/私有项目，网页索引可过时、网络限制和排序会影响可见结果。",
+  "privacy_and_reuse": "不保存或再分发联系方式、完整简历、评论或完整第三方文章；只保存任务所需短摘录、技能/项目分析、历史定位和原始入口；没有归档第三方源码。"
+}

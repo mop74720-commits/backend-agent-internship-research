@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-23",
+  "archives": [
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "hash_matches": true,
+      "size_matches": true,
+      "crc_pass": true,
+      "license_hash_matches": true,
+      "omitted_credentials_files": 0,
+      "members": 255,
+      "preserved_license_paths": [
+        "LICENSE",
+        "scheduler/pkg/btree/LICENSE"
+      ]
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "hash_matches": true,
+      "size_matches": true,
+      "crc_pass": true,
+      "license_hash_matches": true,
+      "omitted_credentials_files": 0,
+      "members": 101,
+      "preserved_license_paths": [
+        "LICENSE"
+      ]
+    }
+  ],
+  "read_file_hashes": [
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "path": "README.md",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "path": "raft/raft.go",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "path": "kv/server/server.go",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/distributed-kv-store",
+      "path": "LICENSE",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "path": "README.md",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "path": "src/agents/base_agent.py",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "path": "src/utils/code_executor_async.py",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "path": "src_rag/core/report_pipeline.py",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "path": "src_rag/core/llm_client.py",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "path": "demo/backend/app.py",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "path": "docs/migration_notes.md",
+      "hash_matches_original": true
+    },
+    {
+      "repo": "shufengc/QuantHarbor",
+      "path": "LICENSE",
+      "hash_matches_original": true
+    }
+  ],
+  "pdf": {
+    "hash_matches": true,
+    "professional_modules_complete": true,
+    "privacy_field_values_empty": true,
+    "contact_regex_hits": 0,
+    "images": 0,
+    "links": 0,
+    "pages": 1
+  }
+}

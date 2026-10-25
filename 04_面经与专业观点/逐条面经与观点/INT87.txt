@@ -1,0 +1,235 @@
+INT87 | 美团后端日常实习（已offer）
+
+需求核对版 · 2026-10-24
+
+类别：
+  面经复盘
+原始来源：
+  https://api-cdn.nowcoder.com/discuss/741030289186525184?sourceSSR=subject
+公司：
+  美团
+方向与岗位：
+  美团；后端开发；日常实习
+事件时间／原文日期（依分类）：
+  04-01一面；04-07 OC；04-09邮箱offer，年份未知
+发表／来源日期：
+  编辑于  2025-04-16 15:29
+统一分类：
+  方向：
+    后端
+  招聘类型：
+    实习
+  事件时间：
+    04-01一面；04-07 OC；04-09邮箱offer，年份未知
+  时间精度：
+    未知
+  事件年份可证：
+    否
+  近期归类：
+    年份未知
+  来源日期：
+    编辑于  2025-04-16 15:29
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  实际观看视频：
+    否
+fulltext_verified：
+  是
+面经形式：
+  本人具体问题记录
+候选人关联ID：
+  —
+严格近期明确实习：
+  否
+近期发表但事件年份未知：
+  否
+统计组：
+  明确实习、事件年未知
+结果分类：
+  offer_self_report
+结果自述：
+  本人04-09邮箱收到offer；未披露档位
+逐项结果与档位：
+  - 公司：
+      美团
+    方向与岗位：
+      美团；后端开发；日常实习
+    档位：
+      未披露
+    状态：
+      offer_self_report
+    事件时间／原文日期（依分类）：
+      04-01一面；04-07 OC；04-09邮箱offer，年份未知
+    证据：
+      https://ac.nowcoder.com/discuss/1490960
+    依据：
+      本人04-09邮箱收到offer；未披露档位
+    applies_to_this_interview：
+      是
+    企业独立验证：
+      否
+rounds：
+  - round：
+      一面；自述4月7日OC、4月9日正式offer
+    questions：
+      - 布隆过滤器与分布式锁结合的流程是什么？
+      - 分库分表按什么字段分片？
+      - Redis普通分布式锁与RedLock有什么区别？
+      - Redis主从怎样同步，ZSet怎样实现？
+      - JVM内存结构、垃圾回收、lambda与语法糖如何说明？
+      - 现场实现合并区间。
+    结果自述：
+      本人04-09邮箱收到offer；未披露档位
+涉及主题：
+  - 算法/编程
+  - JVM/语言运行时
+  - 数据库/SQL
+  - 缓存/Redis
+  - 分布式/一致性
+原文提问（归纳）：
+  - 布隆过滤器与分布式锁结合的流程是什么？
+  - 分库分表按什么字段分片？
+  - Redis普通分布式锁与RedLock有什么区别？
+  - Redis主从怎样同步，ZSet怎样实现？
+  - JVM内存结构、垃圾回收、lambda与语法糖如何说明？
+  - 现场实现合并区间。
+内容归纳：
+  问题涉及布隆过滤器、分片、Redis锁与复制、JVM，另有AI幻觉话题和编码。
+商业与选择偏差：
+  正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+阅读建议：
+  适合核对后端基础；不能据一次流程推断所有日常实习都简单。
+局限：
+  - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+ai_organized：
+  否
+ai_marker_basis：
+  作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+same_author_relations：
+  —
+related_record_ids：
+  —
+source_record：
+  source_id：
+    I02
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    美团后端日常实习（已offer）
+  原始来源：
+    https://api-cdn.nowcoder.com/discuss/741030289186525184?sourceSSR=subject
+  resolved_url：
+    https://ac.nowcoder.com/discuss/1490960
+  canonical_post_key：
+    discuss/1490960
+  access_status：
+    HTTP 200，原始作者主文全文可读
+  已读部分：
+    全文
+  fulltext_verified：
+    是
+  body_selector：
+    .nc-post-content
+  retrieved_at：
+    2026-10-24
+  reading_note：
+    只读作者主文，排除评论、相关推荐和页脚；本文件仅保留专业范围问题、短引文及分析，不归档整页。
+  body_text_sha256：
+    5e62169a67e6ca13b4d8da10eb5438e54bf66f8625b2872449937058232b25d4
+  body_char_count：
+    270
+  source_card_path：
+    03_面经/I02.html
+  source_card_role：
+    提供检索线索和原URL，不能代替本次原文实读
+  发表／来源日期：
+    编辑于  2025-04-16 15:29
+  source_date_verified：
+    是
+  方向：
+    后端
+  招聘类型：
+    实习
+  event_date：
+    04-01一面；04-07 OC；04-09邮箱offer，年份未知
+  event_year_confirmed：
+    否
+  event_year：
+    未核／无
+  时间依据：
+    正文仅月日或未给年月日；发表/编辑时间与届别不补为事件年。
+  questions：
+    - 布隆过滤器与分布式锁结合的流程是什么？
+    - 分库分表按什么字段分片？
+    - Redis普通分布式锁与RedLock有什么区别？
+    - Redis主从怎样同步，ZSet怎样实现？
+    - JVM内存结构、垃圾回收、lambda与语法糖如何说明？
+    - 现场实现合并区间。
+  涉及主题：
+    - 算法/编程
+    - JVM/语言运行时
+    - 数据库/SQL
+    - 缓存/Redis
+    - 分布式/一致性
+  结果分类：
+    offer_self_report
+  result：
+    本人04-09邮箱收到offer；未披露档位
+  档位：
+    未披露
+  公司：
+    美团
+  ai_organized：
+    否
+  ai_marker_basis：
+    作者主文未见明确AI整理声明；配图标签不代表正文由AI整理。
+  short_quote：
+    4.1 一面
+4.7 OC
+4.9邮箱发offer
+  阅读建议：
+    适合核对后端基础；不能据一次流程推断所有日常实习都简单。
+  局限：
+    - 第一人称公开回忆，录用和技术指标未经企业或实验独立验证。
+  same_author_relations：
+    —
+  商业背景：
+    正文未见明确售课关系；仍有成功者/发帖者自选择偏差。
+  date_correction：
+    astra给出2025事件年，但本次主文只有月日；2025-04-16是编辑年，因此事件年保留未知。
+  author_profile：
+    https://www.nowcoder.com/profile/411324040
+  merge_policy：
+    新增本人面经逻辑条目；多公司/多轮仍按一篇计数，AI Infra单列；源卡片不算额外证据。
+  capability_ids：
+    - CAP01
+    - CAP02
+    - CAP03
+  reading_boundary：
+    本次实际取得并阅读作者主文全文；仅保存专业问题摘录与短引文，不保存评论、相关推荐、联系方式和页脚。问题来自作者回忆，非录音转写。
+  original_outcome_quote：
+    4.1 一面
+4.7 OC
+4.9邮箱发offer
+source_key：
+  ASTRA_I02_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    I02
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_面经核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。

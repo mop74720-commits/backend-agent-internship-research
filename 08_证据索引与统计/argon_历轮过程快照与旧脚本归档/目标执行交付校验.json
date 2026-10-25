@@ -1,0 +1,263 @@
+{
+  "scope": "本轮交付验证；不是六项目标完成证明",
+  "passed": true,
+  "checks": [
+    {
+      "name": "全部JSON可解析",
+      "passed": true,
+      "detail": {
+        "count": 115,
+        "errors": []
+      }
+    },
+    {
+      "name": "168唯一且22项增量可追溯",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新来源不是空摘要",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "主表与目录逐项一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "27四段关联且方向分列",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "70份阅读64全文6部分",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "新增7份均有本人归属",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "严格近期9不借发表年",
+      "passed": true,
+      "detail": [
+        "INT10",
+        "INT12",
+        "INT20",
+        "INT22",
+        "INT24",
+        "INT28",
+        "INT42",
+        "INT47",
+        "INT77"
+      ]
+    },
+    {
+      "name": "辅助11不混入严格组",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "未知事件年不混明确近期",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "分母说明随70更新",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "INT77仅阿里云为offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CV25各事实使用各直接源",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CV26失败和OC不串offer汇总",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "核心新样本未被升级SSP，匿名自述单列",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "原平台3与视频0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOC11文档时间不是SHA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2核心3对照附件安全与hash",
+      "passed": true,
+      "detail": [
+        {
+          "file": "03_简历与候选人案例/履历对照_脱敏副本/gty111_公开简历_脱敏副本.pdf",
+          "pages": 2,
+          "passed": true,
+          "professional_body_unchanged_reported": true
+        },
+        {
+          "file": "03_简历与候选人案例/履历对照_脱敏副本/Zhongzhi660_公开简历_脱敏副本.pdf",
+          "pages": 2,
+          "passed": true,
+          "professional_body_unchanged_reported": true
+        },
+        {
+          "file": "03_简历与候选人案例/履历对照_脱敏副本/Zhang-Henry_公开简历_脱敏副本.pdf",
+          "pages": 2,
+          "passed": true,
+          "professional_body_unchanged_reported": true
+        },
+        {
+          "file": "03_简历与候选人案例/核心Agent履历_脱敏副本/huomalxq_公开简历_脱敏副本.pdf",
+          "pages": 1,
+          "passed": true,
+          "professional_body_unchanged_reported": true
+        },
+        {
+          "file": "03_简历与候选人案例/核心后端履历_脱敏副本/zhh2001_公开HTML履历_脱敏副本.html",
+          "passed": true,
+          "modules": [
+            "教育背景",
+            "科研成果",
+            "学术服务",
+            "实习经历",
+            "获奖情况",
+            "技能证书",
+            "项目经历"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "完整专业副本2与研究对照3不混计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV行数 03_简历与候选人案例/候选人证据链对照.csv",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "name": "CSV行数 04_面经与专业观点/面经统一分类.csv",
+      "passed": true,
+      "detail": 70
+    },
+    {
+      "name": "CSV行数 06_项目分析与推荐/19项目统一比较.csv",
+      "passed": true,
+      "detail": 285
+    },
+    {
+      "name": "CSV行数 08_证据索引与统计/全部资料统一分类.csv",
+      "passed": true,
+      "detail": 168
+    },
+    {
+      "name": "CSV行数 08_证据索引与统计/能力要求四类证据对照.csv",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "CSV行数 03_简历与候选人案例/履历文件索引.csv",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "name": "全部报告本地链接与锚点",
+      "passed": true,
+      "detail": {
+        "checked": 1856,
+        "broken": []
+      }
+    },
+    {
+      "name": "方法说明最新统计正确",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "报告PDF无空白或孤立页",
+      "passed": true,
+      "detail": {
+        "pages": 19,
+        "characters": [
+          1179,
+          1752,
+          1602,
+          1439,
+          2605,
+          2211,
+          1835,
+          3610,
+          2185,
+          2354,
+          1764,
+          2188,
+          2076,
+          1534,
+          1860,
+          3072,
+          2618,
+          2255,
+          1427
+        ]
+      }
+    },
+    {
+      "name": "PDF覆盖新增核心履历和原平台材料",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PDF无横向文字裁切",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "浏览器交互均通过",
+      "passed": true,
+      "detail": 30
+    },
+    {
+      "name": "目标没有因交付验证被缩小或标完成",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "pdf_pages": 19,
+  "local_links": 1856,
+  "remaining_gaps": [
+    "核心成功实习者履历与具体本人源码仍缺：内部项目不能开源，公开仓库尚未证明求职使用。",
+    "近期Agent正式SSP、本人履历、本人项目和面经的完整关联仍未取得。",
+    "已读B站图文1、知乎正文2，但均为历史通用或项目推广；近期Agent工程专业者平台正文仍缺，视频观看0。",
+    "19项目均未运行，未复现性能与评测效果。"
+  ],
+  "goal_status": "active",
+  "visual_review": {
+    "passed": true,
+    "report_pages_reviewed": [
+      1,
+      10,
+      19
+    ],
+    "core_agent_resume_page_reviewed": 1,
+    "desktop_and_mobile_reviewed": true,
+    "finding": "正文、表格与页尾完整；核心PDF联系区移除且专业模块可读。"
+  }
+}

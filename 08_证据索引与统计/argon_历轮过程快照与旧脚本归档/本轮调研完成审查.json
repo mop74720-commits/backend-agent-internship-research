@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-23",
+  "research_actions_complete": true,
+  "all_public_evidence_gaps_resolved": false,
+  "counts": {
+    "logical_evidence_records": 193,
+    "candidate_cases": 31,
+    "interview_materials": 79,
+    "projects": 25,
+    "source_archives": 25,
+    "fixed_link_only": 0,
+    "jd_leads": 19,
+    "engineering_jd_fulltext": 14,
+    "platform_opinion_records": 13,
+    "additional_primary_texts": 3,
+    "manual_links": 70,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9
+  },
+  "proofs": [
+    "六项目标逐条验收.json",
+    "SSP已有样本_来源范围复核.json",
+    "Agent_SSP定向补核_根核读.json",
+    "全部项目归档_最终实物核对.json",
+    "近期面经与关联纠错交付校验.json"
+  ],
+  "requirements": [
+    {
+      "item": 1,
+      "requirement": "成功实习者真实简历、技术栈、职责与本人源码",
+      "research_actions_complete": true,
+      "evidence": "5份核心完整专业履历脱敏副本；CV28后端与CV31 Agent有本人实现直链；CV30字节内部职责有完整CV。",
+      "coverage_limit": "各候选人附件与源码覆盖分别列明；不要求所有候选人都有完整CV或公开内部代码。CV28雇主博彦与客户阿里云分开。"
+    },
+    {
+      "item": 2,
+      "requirement": "SSP公司、岗位、时间、招聘批次及Agent关联",
+      "research_actions_complete": true,
+      "evidence": "16份候选人有SSP自述，11份公司明确；CV03有2025美团实习后同公司SSP时间线，CV05历史SSP与2026 Agent更新已分开。",
+      "coverage_limit": "近期明确Agent工程SSP岗位与批次的直接自述仍不足；履历、本人实现、面经各项关系分开报告，不要求每位作者同时公开全部材料，不跨人或跨批次拼接。"
+    },
+    {
+      "item": 3,
+      "requirement": "实际阅读B站/知乎，提取观点、依据和商业背景",
+      "research_actions_complete": true,
+      "evidence": "5篇平台本体全文，来自3位署名作者；B站图文2、知乎正文3。原站替代、Linear原稿选读与Comate实录选读单列。",
+      "coverage_limit": "视频/字幕读取0是媒介范围说明，不单独构成未完成判据；专业性按职业背景、商业关系及技术依据判断，摘要和原站替代不计平台本体。"
+    },
+    {
+      "item": 4,
+      "requirement": "明确年份/轮次/结果的近期面经与本人项目追问",
+      "research_actions_complete": true,
+      "evidence": "79份逻辑资料；明确近期实习11份。INT68由同作者投递总表与三个流程节点补为2026年；INT85正文直接给2025日期；INT86已offer二面与作者事后思路分列。",
+      "coverage_limit": "实习事件年未知39份；第三方汇编日期不直接填回原帖，不从失败自评推断拒绝原因。"
+    },
+    {
+      "item": 5,
+      "requirement": "四类证据综合后端/Agent要求、追问、加分项和历史SSP优势",
+      "research_actions_complete": true,
+      "evidence": "14份工程JD逐条分层，11项能力对照，25项目共375项比较；两方向阅读优先级与三项专业观点交叉比较已建立。",
+      "coverage_limit": "这些是公开便利样本的归纳，不推导统一SSP门槛或市场发生概率；缺少的证据格保留空缺。"
+    },
+    {
+      "item": 6,
+      "requirement": "归档、推荐理由、优缺点、关联表、阅读顺序和一致统计",
+      "research_actions_complete": true,
+      "evidence": "核心脱敏履历5，原ZIP16、文本/选读归档9、仅链接0；HTML/PDF、CSV、关联表和阅读顺序由当前主数据生成。",
+      "coverage_limit": "NoWorries14文件、SchoolBus4文件、Crony9文件、Hello-Agents6文件均为指定选读包，非完整仓库；所有项目未运行。个人项目设计继续暂缓。"
+    }
+  ],
+  "acceptance_basis": "按用户批准的实习优先、分项证据与有限补搜计划完成调研交付；未知信息保留，不把找到特定完美Agent SSP作者升级为新增验收门槛。",
+  "remaining_fact_gaps": [
+    "近期具体Agent工程SSP岗位与批次的直接本人材料仍不足。",
+    "39份实习面经事件年未知；不得从编辑日期或届别补年。",
+    "部分候选人无完整公开履历/内部源码/本人面经，关联分项记录。",
+    "视频/字幕0；B站图文2、知乎正文3已读，不相互冒充。"
+  ],
+  "personal_project_design": "继续暂缓",
+  "goal_status": "complete",
+  "completion_receipt": "目标完成回执.json",
+  "latest_supplement": {
+    "date": "2026-10-24",
+    "name": "astra外部调研合并",
+    "source_folder": "C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24",
+    "source_folder_policy": "原目录保留原样；仅将已核证据与专业判断补入本包。",
+    "source_cards": 64,
+    "new_logical_records": 46,
+    "existing_records_reviewed": 13,
+    "manual_only_cards": 4,
+    "commercial_context_only_cards": 1,
+    "new_by_category": {
+      "招聘JD": 14,
+      "面经复盘": 20,
+      "候选人资料": 3,
+      "候选人对照": 1,
+      "专业原文补充": 2,
+      "B站图文选读": 2,
+      "官方技术资料": 4
+    },
+    "new_complete_cv_files": 0,
+    "new_source_archives": 0,
+    "new_executed_projects": 0,
+    "new_primary_project_comparison_rows": 0,
+    "new_verified_ssp_cases": 0,
+    "personal_project_design_imported": false,
+    "coverage_details": {
+      "candidate_cases": 34,
+      "core_complete_redacted_resumes": 5,
+      "interview_materials": 99,
+      "interview_fulltext": 92,
+      "interview_partial": 7,
+      "explicit_internship_all_years": 64,
+      "strict_recent_internship_all_tracks": 15,
+      "strict_recent_engineering_internship": 14,
+      "strict_recent_infra_control_internship": 1,
+      "internship_event_year_unknown": 48,
+      "projects": 25,
+      "comparison_dimensions": 375,
+      "source_archives": 25,
+      "bilibili_native_fulltext_articles": 2,
+      "new_bilibili_selected_articles": 2,
+      "zhihu_native_fulltexts": 3,
+      "video_or_subtitle_readings": 0,
+      "ssp_claim_candidates": 16,
+      "ssp_company_explicit_candidates": 11,
+      "manual_links": 74
+    },
+    "source_manifest": "astra合并_实施映射.json",
+    "canonical_statistics": "需求覆盖统计.json",
+    "delivery_status": "完成；当前页面、PDF、CSV及原目录保护检查通过。",
+    "historical_fields_boundary": "既有date、new_record_ids、counts、requirements及旧轮统计为原批次快照；当前数量以current_totals和本latest_supplement为准。",
+    "goal_status_boundary": "原调研目标的complete状态和完成回执保留；外部增补不把公开资料缺口改成已解决。",
+    "delivery_validation": {
+      "passed": true,
+      "record": "外部调研合并交付校验.json",
+      "delivery_checks": 54,
+      "browser_checks": 60,
+      "local_link_checks": 3859,
+      "pdf_pages": 27,
+      "pdf_sha256": "ec69a536f2851f110dd64d67b27584c214eea528a5294d17baf17a7a0e4d5a2f",
+      "source_files_preserved": 138
+    }
+  },
+  "current_totals": {
+    "logical_evidence_records": 239,
+    "candidate_cases": 34,
+    "interview_materials": 99,
+    "projects": 25,
+    "source_archives": 25,
+    "fixed_link_only": 0,
+    "jd_leads": 33,
+    "engineering_jd_fulltext": 24,
+    "platform_opinion_records": 15,
+    "additional_primary_texts": 5,
+    "manual_links": 74,
+    "redacted_resume_controls": 3,
+    "original_fixed_source_zips": 16,
+    "redacted_text_source_zips": 9
+  }
+}

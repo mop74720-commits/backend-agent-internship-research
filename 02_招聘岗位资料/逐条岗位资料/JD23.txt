@@ -1,0 +1,211 @@
+JD23 | 淘天集团 AI Agent应用开发工程师 2026暑期实习
+
+需求核对版 · 2026-10-24
+
+类别：
+  招聘JD
+公司：
+  淘天集团
+role_type：
+  Agent应用工程；杭州；本科以上；5天/周；至少3个月；页标有转正
+原始来源：
+  https://www.nowcoder.com/jobs/detail/436118
+publish_date：
+  标题明确2026暑期实习；未显示发布日期和具体投递期
+retrieved_date：
+  2026-10-24
+source_type：
+  牛客平台招聘页，发布者企业身份未独立核验
+own_summary：
+  电商消费决策、商家运营多智能体、代码生成、运营及办公提效平台。
+required_stack：
+  - Python/Java/Go/C++等主语言
+  - 算法/数据结构
+  - Agent系统实践与LangChain/LlamaIndex/AutoGen原理
+  - 高可用/可扩展Agent工程架构
+  - Prompt/RAG/Tool Calling/Context Engineering
+  - OpenAPI/RPC/MCP工具集成
+  - 了解PyTorch/TensorFlow
+preferred_stack：
+  - Transformer实战
+  - 数据工程
+  - 模型微调/后训练
+  - 模型评测
+degree_constraint：
+  本科及以上；计算机/软件/AI相关优先
+availability_constraint：
+  杭州；5天/周；至少3个月；有转正
+recruiting_status：
+  页标已结束
+matrix_include：
+  是
+duties：
+  电商消费决策、商家运营多智能体、代码生成、运营及办公提效平台。
+阅读建议：
+  适合确定Agent项目能力边界：实际场景、工具协议、工程架构与评测，而非只接聊天API。
+局限：
+  相关背景、Transformer、后训练列优先或加分；不能全部改成硬门槛。
+原访问范围：
+  正文全文
+统一分类：
+  方向：
+    Agent工程
+  招聘类型：
+    实习
+  事件时间：
+    标题明确2026暑期实习；未显示发布日期和具体投递期
+  时间精度：
+    范围
+  事件年份可证：
+    是
+  近期归类：
+    近期确认
+  来源日期：
+    标题明确2026暑期实习；未显示发布日期和具体投递期
+  时间依据：
+    原文日期/窗口
+阅读范围：
+  范围：
+    全文
+  已读定位正文全文：
+    是
+  核读说明：
+    职责、要求、资格及页表状态实际核读
+  实际观看视频：
+    否
+逐项结果与档位：
+  —
+tags：
+  - Python/Java/Go/C++等主语言
+  - 算法/数据结构
+  - Agent系统实践与LangChain/LlamaIndex/AutoGen原理
+  - 高可用/可扩展Agent工程架构
+  - Prompt/RAG/Tool Calling/Context Engineering
+  - OpenAPI/RPC/MCP工具集成
+  - 了解PyTorch/TensorFlow
+  - Transformer实战
+  - 数据工程
+  - 模型微调/后训练
+  - 模型评测
+source_record：
+  source_id：
+    J05
+  existing_id：
+    未核／无
+  decision：
+    new
+  标题：
+    淘天集团 AI Agent应用开发工程师 2026暑期实习
+  原始来源：
+    https://www.nowcoder.com/jobs/detail/436118
+  canonical_key：
+    nowcoder:job:436118
+  source_file：
+    01_岗位JD/J05.html
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_fields：
+    来源与时间：
+      牛客平台招聘页（发布者身份未独立核验）；标题2026暑期；正文无具体日期
+    岗位状态：
+      已结束，仅作要求样本
+    方向与资格：
+      Agent应用工程；杭州；本科以上；5天/周；至少3个月；页标有转正
+    明确要求：
+      一门Python/Java/Go/C++ / 算法与数据结构 / Agent框架及原理 / Prompt/RAG/Tool Calling/上下文工程 / OpenAPI/RPC/MCP
+    加分项：
+      数据工程 / 微调/后训练 / 模型评测 / Transformer实践
+    工作摘要：
+      电商消费决策、商家运营、研发与办公提效。
+    推荐理由：
+      适合确定Agent项目能力边界：实际场景、工具协议、工程架构与评测，而非只接聊天API。
+    局限：
+      应用工程岗；不可把加分项全部当硬门槛。
+  live_access：
+    状态：
+      200
+    标题：
+      AI Agent应用开发工程师-2026暑期实习_淘天集团实习_牛客网
+    原始来源：
+      https://www.nowcoder.com/jobs/detail/436118
+    已读部分：
+      职责、要求、资格及页表状态实际核读
+    已读定位正文全文：
+      是
+    professional_text：
+      岗位关键词
+岗位职责
+我们正在寻找热爱AI的你，共同探索电商领域智能应用新可能。如果你渴望在最复杂的电商生态中，充分发挥AI应用的巨大价值，构建电商领域下一代AI技术体系，这里是你最理想的舞台！加入我们，你将：
+
+重塑消费者体验：建设大模型智能化比价辅助决策、Al消费者智能问答助手等多元AI工具，提高用户购物体验，并进一步探索AI Native的新消费者产品形态；
+赋能商家智能化运营：基于大模型调度多领域智能体，实现智能客服、采购寻源、内容生成、直播运营等全链路提效，赋能千万商家；
+构建平台级技术基建：开发AI代码生成工具提升研发效率，打造面向运营小二的智能提效平台，探索面向全体企业员工办公场景的智能体架构；
+
+在 AI 与技术深度融合的新时代，让我们一起定义未来！来吧，期待你的加入，开启属于你的 AI 应用创新之旅！
+岗位要求
+1. 本科及以上学历，计算机科学、软件工程、人工智能相关专业优先；
+2. 掌握Python/Java/Go/C++等编程语言开发，具备扎实的算法与数据结构基础；
+3. 具备Agent系统开发经验，掌握LangChain/LLamaIndex/AutoGen等框架及实现原理，能够设计高可用、高扩展性的大模型/Agent工程架构；
+4. 掌握Prompt工程、RAG、Tool Calling、Context Engineering等AI应用关键技术；
+5. 能够进行工具集成，掌握OpenAPI、RPC、MCP等协议实现方案；
+6. 了解机器学习、深度学习框架（PyTorch/TensorFlow），有Transformer等模型实战经验优先；
+7. 具备问题/价值驱动的探索精神和优秀的问题解决能力；
+8. 敢于创新，主动探索AI新技术/新范式在商业场景中的应用边界；
+9. 对AI技术充满热情，具备快速学习的能力，持续关注和学习AIGC前沿技术研究。
+
+加分项：
+有数据工程、模型微调/后训练、模型评测经验的同学优先。
+    text_sha256：
+      7e033173f89f7b3b70b97b604bad5bb96e689726935f89a28dab8a34d7f30e1b
+  方向：
+    Agent工程
+  required_stack：
+    - Python/Java/Go/C++等主语言
+    - 算法/数据结构
+    - Agent系统实践与LangChain/LlamaIndex/AutoGen原理
+    - 高可用/可扩展Agent工程架构
+    - Prompt/RAG/Tool Calling/Context Engineering
+    - OpenAPI/RPC/MCP工具集成
+    - 了解PyTorch/TensorFlow
+  preferred_stack：
+    - Transformer实战
+    - 数据工程
+    - 模型微调/后训练
+    - 模型评测
+  duties：
+    电商消费决策、商家运营多智能体、代码生成、运营及办公提效平台。
+  degree_constraint：
+    本科及以上；计算机/软件/AI相关优先
+  availability_constraint：
+    杭州；5天/周；至少3个月；有转正
+  publish_date：
+    标题明确2026暑期实习；未显示发布日期和具体投递期
+  date_year_confirmed：
+    是
+  recruiting_status：
+    页标已结束
+  source_type：
+    牛客平台招聘页，发布者企业身份未独立核验
+  matrix_include：
+    是
+  阅读建议：
+    适合确定Agent项目能力边界：实际场景、工具协议、工程架构与评测，而非只接聊天API。
+  局限：
+    相关背景、Transformer、后训练列优先或加分；不能全部改成硬门槛。
+  招聘类型：
+    实习
+  source_date_basis：
+    原文日期/窗口
+source_key：
+  ASTRA_J05_20261024
+external_import：
+  source_folder：
+    C:/Users/GW/Downloads/astra/backend_agent_research_2026-10-24
+  source_id：
+    J05
+  merged_on：
+    2026-10-24
+  review_manifest：
+    08_证据索引与统计/astra合并_JD核对.json
+  scope_boundary：
+    本包核读与外部卡片自述分别记录；原目录保持原样。
